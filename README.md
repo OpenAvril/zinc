@@ -1,5 +1,5 @@
 # Silicon Life Open Source Package:
-OpenAvril / slif, now named **zinc** as part of Grittith University - Nathan Open Source comtrubitation to MIT packages, is an open-source development project hosted on GitHub under the Silicon Lifecosystem.
+OpenAvril / slif is an open-source development project hosted on GitHub under the Silicon Lifeecosystem.
 
 The repository is officially marked as "UNDER DEVELOPMENT" and serves as a collection of full-stack concurrent programming packages.
 
@@ -8,130 +8,65 @@ The project contains architectural implementations centered heavily around high-
 - Concurrent Programming Tools: Implementations for full-stack concurrent pipelines, including custom mutex locks, mutex synchronization, and concurrent queues.
 - Silicon Life Concepts: Targeted frameworks designed for "Silicon Life" computing architectures.
 - Neural Networks: Repositories and logic patterns explicitly tagged for handling Artificial Neural Networks (ANN) and Binary Neural Networks (BNN).
-- Packaged similar with respect to [**LWJGL**](https://www.lwjgl.org/), implementing 'generate; Program, Handle'. member functions.
 
-  
   * Google. (2026, 09 28). GitHub OpenAvril slif. Gemini AI search. (https://www.google.com/search?q=github+openavril+slif&rlz=1CDGOYI_enAU1216AU1216&oq=GitHub+OpenAvril+slif&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDwyBggCEEUYPDIGCAMQRRg8MgcIBBAhGKABMgcIBRAhGKABMgcIBhAhGKABMgcIBxAhGKABMgcICBAhGI8C0gEJMTU4ODRqMGo5qAIBsAIB4gMEGAEgXw&hl=en-GB&sourceid=chrome-mobile&source=chrome.ob&ie=UTF-8#lfId=ChxjMe).
 
 The Silicon Life Project reverlates the field of digital electronics post epitome, which is what I bring after six year reduced hours.
 A master by coursework with five specialisation electives, I propose Convener of Masters of Engineering – Silicon Life Engineer; (1) Concurrent Embedded Control Systems, (2) Concurrency; Core, Post-Process., (3) Concurrent Networking, (4) Concurrent Bus Systems. (5) Concurrent Full Stack Development, (6) Hemesphoric Binary Neural Intelligence..
 
 ---
----
-* MutexQue:
-  
-Exclusive Cohesion Mutex Queue:   
-
+* MutexQue:        
+Exclusive Cohesion Mutex Queue:                         
 CLIB Request, Wait, Write-Read for 'ThreadId' at 'DataCluster'.
 
-**Double standard Mutex combined Input/Output efficiency.**
 
----
-* LaunchQue:
-
-Left Hemisphore Task Launcher:
-
+* LaunchQue:       
+Left Hemisphore Task Launcher:                          
 CLIB Request, Wait, Launch for 'ThreadId' at Server-Client.
 
-**Concurrency; Core, Post-Process.**
 
-ex: Core task chunker.
-
-ex: Graphics post process.
-
----
-* ThreadsLog:
-  
-Neural Chip Thread Logging:
-     
+* ThreadsLog:      
+Neural Chip Thread Logging:                             
 CLIB Console output via MutexQue, DataCluster is 'Console'.
 
----
-* Stemisphore:
-  
-System Bussing for Zinc Neural Hemisphoric Chip:  
 
+* Stemisphore:     
+System Bussing for Zinc Neural Hemisphoric Chip:        
 CLIB Concurrent System Bussing.
 
-Open Concurrent SCADA.
 
-**Triple MutexQue into a set/get data buffer of bus for route of paired junctions.**
-
----
-* LeftHemisphore:
-  
-Left Hemisphore Logic Task Result Deducer:      
-
+* LeftHemisphore:  
+Left Hemisphore Logic Task Result Deducer:              
 CLIB Concurrent Server with independent task threads and IO wrapper.
 
----
-* RightHemisphore:
-  
-**Wi-Fi hi and low bandwidth direct injection to a independent thread 'access-id (ThreadId)' of stemisphore.**
 
 ---
----
-## zinc - Zinc Insulate Neural Chip.
-  - 3x Zones: Id, Ego, SuperEgo.
-  - 2x Hemisphores; Left, Right. per Zone, and 'x' number of Junctions to all parts of the Hemisphore.
-  - [(x/2)^2 - (x/2)] number of Busses.
-
-### In A Unified Image
-- **Id**                  : binary neural algorithms. : left hemisphore as self requested tasks, right hemisphore as communicated tasks; for 'slif_epicentre'.
-- **Ego**                 : binary neural controls.
-- **Super-Ego**           : binary neural Directive Feng Shui Karmas.
-
-
-#### Id : binary neural algorithms.
-slif_epicentre INJECTION paths:
-  - left hemisphore as self requested tasks. 
-  - right hemisphore as communicated tasks.
-
-#### Ego : binary neural controls.
-  - BOOLEAN states of "desire" = 'active', 'idle'., for all 'praise-Id' events.
-
-#### SuperEgo: binary neural Directive Feng Shui Karmas.
-  - Scorpio - Trust in Truth.
-  - Sagittarius - Intellect in Intuition.
-  - Capricorn - Expression in Perception.
-  - Aquarius - Wisdom in Thought.
-  - Pisces - Flexible in Adapting.
-  - Aries - Assertive in Motivation.
-  - Taurus - Power in Momentum.
-  - Gemini - Adaptable in Intellect.
-  - Cancer - Comfort in Emotion.
-  - Leo - Manifestation in Thought
-  - Virgo - Interlect in Emotion.
-  - Libra - Balance in Harmony.
- 
----
----
-## slif::zinc : Zinc Insualte Neural Chip.
-
----
-### slif_control.
+## LIB : slif_control.
 - Optimus: Package INSTANTIATION Primer.
 
-#### slif::MutexQue : Exclusive Cohesion Mutex Queue.
+### slif::MutexQue : Exclusive Cohesion Mutex Queue.
 * MutexQue: CLIB Request, Wait, Write-Read for 'ThreadId' at 'DataCluster'.
 
-#### slif::ThreadsLog : Threads Log.
+### slif::ThreadsLog : Threads Log.
 * ThreadsLog: CLIB Console output via MutexQue, DataCluster is 'Console'.
 
-#### slif::LaunchQue : Concurrent Launch Queue.
+### slif::LaunchQue : Concurrent Launch Queue.
 * LaunchQue: CIB Request, Wait, Launch for : ('ConcurrentThreadId') deployed at Server or Client.
 
----
 ### slif::Stemisphore : System Bussing for Zinc Neural Hemisphoric Chip:.
 * MainStreamBussing: CLIB Compound of ExclusiveCohesionMutexQueue(s). An array of a single Bus with route array of Stations. A single Bus deploying an ExclusiveCohesionMutexQueue('AccessId_A=StationId','DataClusterId_A=BusId'), and each Station deploying an ExclusiveCohesionMutexQueue('AccessId_B','DataClusterId_B=StationId').
 
+
 ---
-### slif::epicentre : Left Hemisphore.
+## LIB : slif::epicentre : LeftHemisphore.
 * Left Hemisphore Logic Task Result Deducer: CLIB Concurrent Server with independent task threads and IO wrapper.
 
 ---
-### slif::intuition : Right Hemisphore.
-* Right Hemisphore Intuition antenna array.
+## LIB : slif_binary_neural : Hemisphoric Binary Neural Networking.
+* TheMindInHumanImage:         CLIB Compound of Busses. An array of Busses for each Zone: Id, Ego, SuperEgo. Junctions as Bus Station(s) named 'Id-Ego', 'Ego-SuperEgo'; . Half the number of Stations as Busses due to paired exclusive communication potential.
+* Id        : binary neural algorithms. : left hemisphore as self requested tasks, right hemisphore as communicated tasks; for 'slif_epicentre'.
+* Ego       : binary neural controls.
+* Super-Ego : binary neural desires.
 
 
 ---
@@ -145,8 +80,6 @@ slif_epicentre INJECTION paths:
 
 ---
 ### Dependencies.
-- [Open Source suite install script for Silicon Life Engineering.](https://github.com/MEngSc-Electrical-ComputerSystems/Linux_bash_scripts/blob/main/freshinstall.sh)
-
 #### Ubuntu Terminal.
 ````
 sudo apt install git
@@ -173,12 +106,7 @@ sudo snap install clion --classic
 - Cmake.
 - CLion C and C++.
 
-
-#### CLion: Clone from GuitHub.
- - File - > New -> Project from Version Control.
- - URL : user entry https://github.com/OpenAvril/zinc
-
-   ---
+---
 ## Building - Compiler Terminal Commands.
 ### CLIB_LaunchEnableForConcurrentThreadsAt_END.so
 
@@ -196,7 +124,10 @@ cmake --build build
 ---
 ## Implementation.
 ### How To Guide - Stack Flow From Client Input Scanner To Server And Back To Client.
+- 
 
 ### Wrapper Imports and Native IO.
+- 
 
+---
 ---
