@@ -1,5 +1,6 @@
 #include "../../include/engine/CLIB_LeftHemishpore_Framework.h"
 #include "../../include/engine/CLIB_LeftHemishpore_Framework_App_Execute.h"
+#include <cstdint>
 #include <iostream>
 	slif::CLIB_LeftHemishpore_Framework_App* slif::CLIB_LeftHemishpore_Framework::stat_CLASS_ptr_CLIB_LeftHemishpore_Framework_App;
 	slif::CLIB_LeftHemishpore_Framework_Global* slif::CLIB_LeftHemishpore_Framework::stat_CLASS_ptr_CLIB_LeftHemishpore_Framework_Global;
@@ -18,7 +19,7 @@
 	slif::CLIB_LeftHemishpore_Framework::~CLIB_LeftHemishpore_Framework() {
 		std::cout << "thread " << std::to_string(0) << ":: entered LIB :: slif : CLIB_LeftHemishpore_Framework : ~CLIB_LeftHemishpore_Framework(sysThreadId). " << std::endl;
 		delete stat_CLASS_ptr_CLIB_LeftHemishpore_Framework_App;
-		delete stat_CLASS_ptr_CLIB_LeftHemishpore_Framework_Global;
+		delete stat_CLASS_ptr_CLIB_LeftHemishpore_Framework_Global;//
 		delete stat_STRUCT_ptr_CLIB_LeftHemishpore_Framework_Concurrent;
 		delete stat_STRUCT_CLIB_ptr_LeftHemishpore_Framework_Input;
 		delete stat_STRUCT_CLIB_ptr_LeftHemishpore_Framework_Output;
@@ -191,43 +192,43 @@
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: <= bool : stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_Global(sysThreadId)." << std::endl;
 		return stat_CLASS_ptr_CLIB_LeftHemishpore_Framework_Global;
 	}
-	void slif::CLIB_LeftHemishpore_Framework::stat_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_Framework_Concurrent(uint8_t* sysThreadId) {
+	void slif::CLIB_LeftHemishpore_Framework::stat_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_STRUCT_Framework_Concurrent(uint8_t* sysThreadId) {
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: slif : CLIB_LeftHemishpore_Framework : stat_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_Framework_Concurrent(sysThreadId)." << std::endl;
 		stat_STRUCT_ptr_CLIB_LeftHemishpore_Framework_Concurrent = nullptr;
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: slif : CLIB_LeftHemishpore_Framework : stat_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_Framework_Concurrent(sysThreadId)." << std::endl;
 	}
-	void slif::CLIB_LeftHemishpore_Framework::stat_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_Framework_Input(uint8_t* sysThreadId) {
+	void slif::CLIB_LeftHemishpore_Framework::stat_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_STRUCT_Framework_Input(uint8_t* sysThreadId) {
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: slif : CLIB_LeftHemishpore_Framework : stat_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_Framework_Input(sysThreadId)." << std::endl;
 		stat_STRUCT_CLIB_ptr_LeftHemishpore_Framework_Input = nullptr;
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: slif : CLIB_LeftHemishpore_Framework : stat_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_Framework_Input(sysThreadId)." << std::endl;
 	}
-	void slif::CLIB_LeftHemishpore_Framework::stat_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_Framework_Output(uint8_t* sysThreadId) {
+	void slif::CLIB_LeftHemishpore_Framework::stat_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_STRUCT_Framework_Output(uint8_t* sysThreadId) {
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: slif : CLIB_LeftHemishpore_Framework : stat_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_Framework_Output(sysThreadId)." << std::endl;
 		stat_STRUCT_CLIB_ptr_LeftHemishpore_Framework_Output = nullptr;
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: slif : CLIB_LeftHemishpore_Framework : stat_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_Framework_Output(sysThreadId)." << std::endl;
 	}
-	void slif::CLIB_LeftHemishpore_Framework::stat_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_Framework_User_Algorithm(uint8_t* sysThreadId) {
+	void slif::CLIB_LeftHemishpore_Framework::stat_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_STRUCT_Framework_User_Algorithm(uint8_t* sysThreadId) {
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: slif : CLIB_LeftHemishpore_Framework : stat_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_Framework_User_Algorithm(sysThreadId)." << std::endl;
 		stat_CLASS_ptr_CLIB_LeftHemishpore_Framework_User_Algorithm = nullptr;
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: slif : CLIB_LeftHemishpore_Framework : stat_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_Framework_User_Algorithm(sysThreadId)." << std::endl;
 	}
-	void slif::CLIB_LeftHemishpore_Framework::stat_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_Framework_User_Input(uint8_t* sysThreadId) {
+	void slif::CLIB_LeftHemishpore_Framework::stat_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_STRUCT_Framework_User_Input(uint8_t* sysThreadId) {
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: slif : CLIB_LeftHemishpore_Framework : stat_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_Framework_User_Input(sysThreadId)." << std::endl;
 		stat_STRUCT_ptr_CLIB_LeftHemishpore_Framework_User_Input = nullptr;
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: slif : CLIB_LeftHemishpore_Framework : stat_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_Framework_User_Input(sysThreadId)." << std::endl;
 	}
-	void slif::CLIB_LeftHemishpore_Framework::stat_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_Framework_User_Output(uint8_t* sysThreadId) {
+	void slif::CLIB_LeftHemishpore_Framework::stat_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_STRUCT_Framework_User_Output(uint8_t* sysThreadId) {
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: slif : CLIB_LeftHemishpore_Framework : stat_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_Framework_User_Output(sysThreadId)." << std::endl;
 		stat_STRUCT_ptr_CLIB_LeftHemishpore_Framework_User_Output = nullptr;
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: slif : CLIB_LeftHemishpore_Framework : stat_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_Framework_User_Output(sysThreadId)." << std::endl;
 	}
-	void slif::CLIB_LeftHemishpore_Framework::stat_STRUCT_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_Concurrent(uint8_t* sysThreadId) {
+	void slif::CLIB_LeftHemishpore_Framework::stat_STRUCT_boot3_INITIALISE_CLIB_LeftHemishpore_STRUCT_Framework_Concurrent(uint8_t* sysThreadId) {
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: slif : CLIB_LeftHemishpore_Framework : stat_STRUCT_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_Concurrent(sysThreadId)." << std::endl;
 		stat_STRUCT_ptr_CLIB_LeftHemishpore_Framework_Concurrent = new struct slif::CLIB_LeftHemishpore_STRUCT_Concurrent(sysThreadId);
 		while (stat_STRUCT_get_CLIB_LeftHemishpore_Framework_Concurrent(sysThreadId) == nullptr) {}
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: slif : CLIB_LeftHemishpore_Framework : stat_STRUCT_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_Concurrent(sysThreadId)." << std::endl;
 	}
-	void slif::CLIB_LeftHemishpore_Framework::stat_STRUCT_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_Input(uint8_t* sysThreadId) {
+	void slif::CLIB_LeftHemishpore_Framework::stat_STRUCT_boot3_INITIALISE_CLIB_LeftHemishpore_STRUCT_Framework_Input(uint8_t* sysThreadId) {
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: slif : CLIB_LeftHemishpore_Framework : stat_STRUCT_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_Input(sysThreadId)." << std::endl;
 		stat_STRUCT_CLIB_ptr_LeftHemishpore_Framework_Input = new struct slif::CLIB_LeftHemishpore_STRUCT_Input(sysThreadId);
 		while (stat_STRUCT_get_CLIB_LeftHemishpore_Framework_Input(sysThreadId) == nullptr) {}
@@ -239,19 +240,19 @@
 		while (stat_STRUCT_get_CLIB_LeftHemishpore_Framework_Output(sysThreadId) == nullptr) {}
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: slif : CLIB_LeftHemishpore_Framework : stat_STRUCT_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_Output(sysThreadId)." << std::endl;
 	}
-	void slif::CLIB_LeftHemishpore_Framework::stat_STRUCT_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_User_Algorithm(uint8_t* sysThreadId) {
+	void slif::CLIB_LeftHemishpore_Framework::stat_STRUCT_boot3_INITIALISE_CLIB_LeftHemishpore_STRUCT_Framework_User_Algorithm(uint8_t* sysThreadId) {
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: slif : CLIB_LeftHemishpore_Framework : stat_STRUCT_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_User_Algorithm(sysThreadId)." << std::endl;
 		stat_CLASS_ptr_CLIB_LeftHemishpore_Framework_User_Algorithm = new struct slif::CLIB_LeftHemishpore_STRUCT_User_Algorithm(sysThreadId);
 		while (stat_STRUCT_get_CLIB_LeftHemishpore_Framework_User_Algorithm(sysThreadId) == nullptr) {}
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: slif : CLIB_LeftHemishpore_Framework : stat_STRUCT_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_User_Algorithm(sysThreadId)." << std::endl;
 	}
-	void slif::CLIB_LeftHemishpore_Framework::stat_STRUCT_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_User_Input(uint8_t* sysThreadId) {
+	void slif::CLIB_LeftHemishpore_Framework::stat_STRUCT_boot3_INITIALISE_CLIB_LeftHemishpore_STRUCT_Framework_User_Input(uint8_t* sysThreadId) {
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: slif : CLIB_LeftHemishpore_Framework : stat_STRUCT_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_User_Input(sysThreadId)." << std::endl;
 		stat_STRUCT_ptr_CLIB_LeftHemishpore_Framework_User_Input = new struct slif::CLIB_LeftHemishpore_STRUCT_User_Input(sysThreadId);
 		while (stat_STRUCT_get_CLIB_LeftHemishpore_Framework_User_Input(sysThreadId) == nullptr) {}
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: slif : CLIB_LeftHemishpore_Framework : stat_STRUCT_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_User_Input(sysThreadId)." << std::endl;
 	}
-	void slif::CLIB_LeftHemishpore_Framework::stat_STRUCT_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_User_Output(uint8_t* sysThreadId) {
+	void slif::CLIB_LeftHemishpore_Framework::stat_STRUCT_boot3_INITIALISE_CLIB_LeftHemishpore_STRUCT_Framework_User_Output(uint8_t* sysThreadId) {
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: slif : CLIB_LeftHemishpore_Framework : stat_STRUCT_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_User_Output(sysThreadId)." << std::endl;
 		stat_STRUCT_ptr_CLIB_LeftHemishpore_Framework_User_Output = new struct slif::CLIB_LeftHemishpore_STRUCT_User_Output(sysThreadId);
 		while (stat_STRUCT_get_CLIB_LeftHemishpore_Framework_User_Output(sysThreadId) == nullptr) {}

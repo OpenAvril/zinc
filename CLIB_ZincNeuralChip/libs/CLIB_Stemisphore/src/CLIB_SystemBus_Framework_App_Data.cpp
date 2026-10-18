@@ -1,6 +1,6 @@
 #include "../include/CLIB_SystemBus_Framework_App_Data.h"
 #include "../include/CLIB_SystemBus_Framework_Global.h"
-#include "CLIB_ThreadLogs.h"
+#include <iostream>
 	unsigned char* slif::CLIB_SystemBus_Framework_App_Data::stat_REG_CLIB_Bus_STRUCT_SingleBus_Framework_App_Data_DATA;
 // public.
 	slif::CLIB_SystemBus_Framework_App_Data::CLIB_SystemBus_Framework_App_Data(uint8_t* sysThreadId) {
@@ -12,9 +12,9 @@
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: slif : CLIB_Bus_STRUCT_SingleBus_Framework_App : CLIB_Bus_STRUCT_SingleBus_Framework_App_Data(sysThreadId)." << std::endl;
 	}
 	slif::CLIB_SystemBus_Framework_App_Data::~CLIB_SystemBus_Framework_App_Data() {
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: slif : CLIB_Bus_STRUCT_SingleBus_Framework_App : ~CLIB_Bus_STRUCT_SingleBus_Framework_App()." << std::endl;
+		std::cout << "thread " << std::to_string(0) << " :: entered LIB :: slif : CLIB_Bus_STRUCT_SingleBus_Framework_App : ~CLIB_Bus_STRUCT_SingleBus_Framework_App()." << std::endl;
 		delete stat_REG_CLIB_Bus_STRUCT_SingleBus_Framework_App_Data_DATA;
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: slif : CLIB_Bus_STRUCT_SingleBus_Framework_App : ~CLIB_Bus_STRUCT_SingleBus_Framework_App()." << std::endl;
+		std::cout << "thread " << std::to_string(0) << " :: exiting LIB :: slif : CLIB_Bus_STRUCT_SingleBus_Framework_App : ~CLIB_Bus_STRUCT_SingleBus_Framework_App()." << std::endl;
 	}
 	unsigned char* slif::CLIB_SystemBus_Framework_App_Data::dyn_REG_get_CLIB_Bus_STRUCT_SingleBus_Framework_App_Data_DATA(uint8_t* sysThreadId) {
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: <= class Object* : get_DATA(sysThreadId)." << std::endl;

@@ -15,36 +15,70 @@ The Silicon Life Project reverlates the field of digital electronics post epitom
 A master by coursework with five specialisation electives, I propose Convener of Masters of Engineering – Silicon Life Engineer; (1) Concurrent Embedded Control Systems, (2) Concurrency; Core, Post-Process., (3) Concurrent Networking, (4) Concurrent Bus Systems. (5) Concurrent Full Stack Development, (6) Hemesphoric Binary Neural Intelligence..
 
 ---
-* MutexQue:        
-Exclusive Cohesion Mutex Queue:                         
+* MutexQue:
+
+Exclusive Cohesion Mutex Queue:
+
 CLIB Request, Wait, Write-Read for 'ThreadId' at 'DataCluster'.
 
+Double standard Mutex Input/Output effecience.
 
-* LaunchQue:       
-Left Hemisphore Task Launcher:                          
+* LaunchQue:
+
+Left Hemisphore Task Launcher:
+
 CLIB Request, Wait, Launch for 'ThreadId' at Server-Client.
 
 
-* ThreadsLog:      
-Neural Chip Thread Logging:                             
+* ThreadsLog:
+
+Neural Chip Thread Logging:
+
 CLIB Console output via MutexQue, DataCluster is 'Console'.
 
+* Stemisphore:
 
-* Stemisphore:     
-System Bussing for Zinc Neural Hemisphoric Chip:        
-CLIB Concur rent System Bussing.
+System Bussing for Zinc Neural Hemisphoric Chip:
 
+CLIB Concurrent System Bussing.
 
-* LeftHemisphore:  
-Left Hemisphore Logic Task Result Deducer:              
+Open Concurrent SCADA.
+
+Triple MutexQue into a set/get data buffer.
+
+* LeftHemisphore:
+
+Left Hemisphore Logic Task Result Deducer:
+
 CLIB Concurrent Server with independent task threads and IO wrapper.
+
+* RightHemisphore:
 
 ---
 ## slif_zinc_neural_chip: Hemisphoric Binary Neural Networking.
-* In A Unified Image  : CLIB Compound of Busses. An array of Busses for each Zone: Id, Ego, SuperEgo. Junctions as Bus Station(s) named 'Id-Ego', 'Ego-SuperEgo'; . Half the number of Stations as Busses due to paired exclusive communication potential.
-* Id                  : binary neural algorithms. : left hemisphore as self requested tasks, right hemisphore as communicated tasks; for 'slif_epicentre'.
-* Ego                 : binary neural controls.
-* Super-Ego           : binary neural desires.
+### Zinc Insulate Neural Chip
+- 3x Zones: Id, Ego, SuperEgo.
+- 2x Hemisphores; Left, Right. per Zone, and 'x' number of Junctions to all parts of the Hemisphore.
+- [(x/2)^2 - (x/2)] number of Busses.
+
+### In A Unified Image
+- Id                  : binary neural algorithms. : left hemisphore as self requested tasks, right hemisphore as communicated tasks; for 'slif_epicentre'.
+- Ego                 : binary neural controls.
+- Super-Ego           : binary neural feng shui.
+
+#### SuperEgo Directive Feng Shui Karmas.
+- Scorpio - Trust in Truth.
+- Sagittarius - Intellect in Intuition.
+- Capricorn - Expression in Perception.
+- Aquarius - Wisdom in Thought.
+- Pisces - Flexible in Adapting.
+- Aries - Assertive in Motivation.
+- Taurus - Power in Momentum.
+- Gemini - Adaptable in Intellect.
+- Cancer - Comfort in Emotion.
+- Leo - Manifestation in Thought
+- Virgo - Interlect in Emotion.
+- Libra - Balance in Harmony.
 
 ---
 #### slif_control.
@@ -67,6 +101,9 @@ CLIB Concurrent Server with independent task threads and IO wrapper.
 ## slif::epicentre : Left Hemisphore.
 * Left Hemisphore Logic Task Result Deducer: CLIB Concurrent Server with independent task threads and IO wrapper.
 
+---
+## slif::zinc : Zinc Insualte Neural Chip.
+
 
 ---
 ---
@@ -79,6 +116,8 @@ CLIB Concurrent Server with independent task threads and IO wrapper.
 
 ---
 ### Dependencies.
+- [Open Source suite install script for Silicon Life Engineering.](https://github.com/MEngSc-Electrical-ComputerSystems/Linux_bash_scripts/blob/main/freshinstall.sh)
+
 #### Ubuntu Terminal.
 ````
 sudo apt install git
@@ -105,7 +144,12 @@ sudo snap install clion --classic
 - Cmake.
 - CLion C and C++.
 
----
+
+#### CLion: Clone from GuitHub.
+- File - > New -> Project from Version Control.
+- URL : user entry "https://github.com/OpenAvril/slif.git"
+
+  ---
 ## Building - Compiler Terminal Commands.
 ### CLIB_LaunchEnableForConcurrentThreadsAt_END.so
 

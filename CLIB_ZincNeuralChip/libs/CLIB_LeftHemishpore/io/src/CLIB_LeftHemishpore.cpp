@@ -1,7 +1,5 @@
 #include "../include/CLIB_LeftHemishpore.h"
 #include "../../../Control/libs/CLIB_MutexQue/io/include/CLIB_MutexQue.h"
-#include "../../../Control/libs/CLIB_ThreadsLog/io/include/CLIB_ThreadLogs.h"
-#include "../../include/engine/CLIB_LeftHemishpore_Framework.h"
 #include "../../include/engine/CLIB_LeftHemishpore_Framework_App.h"
 #include "../../include/engine/CLIB_LeftHemishpore_Framework_Global.h"
 #include "../../include/independent/CLIB_LeftHemishpore_STRUCT_Input.h"

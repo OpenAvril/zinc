@@ -12,19 +12,19 @@
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered dyn_APP_select_And_Set_LeftHemishpore_STRUCT_Output_Subset() " << std::endl;
         switch (*praiseEventId) {
             case 0:
-                obj->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Data(sysThreadId)->dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Output_at_ItemSideToWRITE_For_doubleBufferOutput(obj)->dyn_REG_set_ptr_CLIB_LeftHemishpore_STRUCT_Output_Item_Of_ptr_Outputs_Subset(reinterpret_cast<CLIB_LeftHemishpore_STRUCT_Output_praise0*>(obj->dyn_STRUCT_get_CLIB_LeftHemishpore_Framework_User_Output(sysThreadId)->dyn_CLASS_get_CLIB_LeftHemishpore_STRUCT_UserOutput_Item_On_List_Of_ptr_PraiseOutputSubsets(praiseEventId)));
+                obj->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Data(sysThreadId)->dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Output_at_ItemSideToWRITE_For_doubleBufferOutput(sysThreadId, obj)->dyn_REG_set_ptr_CLIB_LeftHemishpore_STRUCT_Output_Item_Of_ptr_Outputs_Subset(sysThreadId, reinterpret_cast<CLIB_LeftHemishpore_STRUCT_Output_praise0*>(obj->dyn_STRUCT_get_CLIB_LeftHemishpore_Framework_User_Output(sysThreadId)->dyn_CLASS_get_CLIB_LeftHemishpore_STRUCT_UserOutput_Item_On_List_Of_ptr_PraiseOutputSubsets(sysThreadId, praiseEventId)));
                 break;
 
             case 1:
-                obj->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Data(sysThreadId)->dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Output_at_ItemSideToWRITE_For_doubleBufferOutput(obj)->dyn_REG_set_ptr_CLIB_LeftHemishpore_STRUCT_Output_Item_Of_ptr_Outputs_Subset(reinterpret_cast<CLIB_LeftHemishpore_STRUCT_Output_praise1*>(obj->dyn_STRUCT_get_CLIB_LeftHemishpore_Framework_User_Output(sysThreadId)->dyn_CLASS_get_CLIB_LeftHemishpore_STRUCT_UserOutput_Item_On_List_Of_ptr_PraiseOutputSubsets(praiseEventId)));
+                obj->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Data(sysThreadId)->dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Output_at_ItemSideToWRITE_For_doubleBufferOutput(sysThreadId, obj)->dyn_REG_set_ptr_CLIB_LeftHemishpore_STRUCT_Output_Item_Of_ptr_Outputs_Subset(sysThreadId, reinterpret_cast<CLIB_LeftHemishpore_STRUCT_Output_praise1*>(obj->dyn_STRUCT_get_CLIB_LeftHemishpore_Framework_User_Output(sysThreadId)->dyn_CLASS_get_CLIB_LeftHemishpore_STRUCT_UserOutput_Item_On_List_Of_ptr_PraiseOutputSubsets(sysThreadId, praiseEventId)));
                 break;
 
             case 2:
-                obj->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Data(sysThreadId)->dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Output_at_ItemSideToWRITE_For_doubleBufferOutput(obj)->dyn_REG_set_ptr_CLIB_LeftHemishpore_STRUCT_Output_Item_Of_ptr_Outputs_Subset(reinterpret_cast<CLIB_LeftHemishpore_STRUCT_Output_praise2*>(obj->dyn_STRUCT_get_CLIB_LeftHemishpore_Framework_User_Output(sysThreadId)->dyn_CLASS_get_CLIB_LeftHemishpore_STRUCT_UserOutput_Item_On_List_Of_ptr_PraiseOutputSubsets(praiseEventId)));
+                obj->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Data(sysThreadId)->dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Output_at_ItemSideToWRITE_For_doubleBufferOutput(sysThreadId, obj)->dyn_REG_set_ptr_CLIB_LeftHemishpore_STRUCT_Output_Item_Of_ptr_Outputs_Subset(sysThreadId, reinterpret_cast<CLIB_LeftHemishpore_STRUCT_Output_praise2*>(obj->dyn_STRUCT_get_CLIB_LeftHemishpore_Framework_User_Output(sysThreadId)->dyn_CLASS_get_CLIB_LeftHemishpore_STRUCT_UserOutput_Item_On_List_Of_ptr_PraiseOutputSubsets(sysThreadId, praiseEventId)));
                 break;
 
             case 3:
-                obj->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Data(sysThreadId)->dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Output_at_ItemSideToWRITE_For_doubleBufferOutput(obj)->dyn_REG_set_ptr_CLIB_LeftHemishpore_STRUCT_Output_Item_Of_ptr_Outputs_Subset(reinterpret_cast<CLIB_LeftHemishpore_STRUCT_Output_praise3*>(obj->dyn_STRUCT_get_CLIB_LeftHemishpore_Framework_User_Output(sysThreadId)->dyn_CLASS_get_CLIB_LeftHemishpore_STRUCT_UserOutput_Item_On_List_Of_ptr_PraiseOutputSubsets(praiseEventId)));
+                obj->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Data(sysThreadId)->dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Output_at_ItemSideToWRITE_For_doubleBufferOutput(sysThreadId, obj)->dyn_REG_set_ptr_CLIB_LeftHemishpore_STRUCT_Output_Item_Of_ptr_Outputs_Subset(sysThreadId, reinterpret_cast<CLIB_LeftHemishpore_STRUCT_Output_praise3*>(obj->dyn_STRUCT_get_CLIB_LeftHemishpore_Framework_User_Output(sysThreadId)->dyn_CLASS_get_CLIB_LeftHemishpore_STRUCT_UserOutput_Item_On_List_Of_ptr_PraiseOutputSubsets(sysThreadId, praiseEventId)));
                 break;
 
             default:
@@ -158,7 +158,7 @@
     void slif::CLIB_LeftHemishpore_STRUCT_Output::stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_STRUCT_Output_Subset(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj) {
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_STRUCT_Output_Subset() " << std::endl;
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_STRUCT_Output_Subset() " << std::endl;
-        stat_REG_ptr_LeftHemishpore_STRUCT_Output_Subset->assign(0, obj->dyn_STRUCT_get_CLIB_LeftHemishpore_Framework_User_Output(sysThreadId)->dyn_CLASS_get_CLIB_LeftHemishpore_STRUCT_UserOutput_Item_On_List_Of_ptr_PraiseOutputSubsets(0));
+        stat_REG_ptr_LeftHemishpore_STRUCT_Output_Subset->assign(0, obj->dyn_STRUCT_get_CLIB_LeftHemishpore_Framework_User_Output(sysThreadId)->dyn_CLASS_get_CLIB_LeftHemishpore_STRUCT_UserOutput_Item_On_List_Of_ptr_PraiseOutputSubsets(sysThreadId, 0));
     }
     uint8_t* slif::CLIB_LeftHemishpore_STRUCT_Output::stat_REG_get_ptr_CLIB_LeftHemishpore_STRUCT_Output_playerId(uint8_t* sysThreadId) {
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: <= uint8_t* : stat_REG_get_ptr_CLIB_LeftHemishpore_STRUCT_Output_playerId(sysThreadId). " << std::endl;

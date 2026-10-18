@@ -13,10 +13,7 @@ namespace slif {
         void dyn_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_App_Execute_Control(uint8_t* sysThreadId, class CLIB_LeftHemishpore_Framework* obj);
         void dyn_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_App_Execute_Control(uint8_t* sysThreadId, class CLIB_LeftHemishpore_Framework* obj);
         void dyn_REG_boot4_INSTANTIATE_CLIB_LeftHemishpore_Framework_App_Execute_Control(uint8_t* sysThreadId, class CLIB_LeftHemishpore_Framework* obj);\
-        void dyn_REG_boot4_REINITIALISE_CLIB_LeftHemoshpore_Framework_App_Execute_Control_MAX_NUMBER_OF_THREADS(uint8_t* sysThreadId, uint8_t MAX_NUMBER_OF_THREADS) {
-            stat_REG_boot3_REINITIALISE_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_FLAGisThreadInitialised(sysThreadId, *MAX_NUMBER_OF_THREADS);
-            stat_REG_boot3_REINITIALISE_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_Threads(sysThreadId, *MAX_NUMBER_OF_THREADS);
-        }
+        void dyn_REG_boot4_REINITIALISE_CLIB_LeftHemoshpore_Framework_App_Execute_Control_MAX_NUMBER_OF_THREADS(uint8_t* sysThreadId, uint8_t* MAX_NUMBER_OF_THREADS);
         bool dyn_REG_get_FLAG_CLIB_LeftHemishpore_Framework_App_Execute_Control_isSystemInitialised(uint8_t* sysThreadId);
         bool dyn_REG_get_LeftHemishpore_Execute_Control_ItemOnListOf_FLAGisThreadInitialised(uint8_t* sysThreadId, uint8_t* concurrnetThreadId);
         void dyn_REG_set_FLAG_CLIB_LeftHemishpore_Framework_App_Execute_Control_isSystemInitialised(uint8_t* sysThreadId, bool state);
