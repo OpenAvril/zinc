@@ -131,7 +131,7 @@ slif_epicentre INJECTION paths:
 
 ---
 ### slif::intuition : Right Hemisphore.
-* Right Hemisphore Intuition antennia array.
+* Right Hemisphore Intuition antenna array.
 
 
 ---
