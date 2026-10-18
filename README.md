@@ -56,11 +56,30 @@ CLIB Concurrent Server with independent task threads and IO wrapper.
  
 ---
 ## slif_zinc_neural_chip: Hemisphoric Binary Neural Networking.
-* In A Unified Image  : CLIB Compound of Busses. An array of Busses for each Zone: Id, Ego, SuperEgo. Junctions as Bus Station(s) named 'Id-Ego', 'Ego-SuperEgo'; . Half the number of Stations as Busses due to paired exclusive communication potential.
-* Id                  : binary neural algorithms. : left hemisphore as self requested tasks, right hemisphore as communicated tasks; for 'slif_epicentre'.
-* Ego                 : binary neural controls.
-* Super-Ego           : binary neural desires.
+### Zinc Insulate Neural Chip
+  - 3x Zones: Id, Ego, SuperEgo.
+  - 2x Hemisphores; Left, Right. per Zone, and 'x' number of Junctions to all parts of the Hemisphore.
+  - [(x/2)^2 - (x/2)] number of Busses.
 
+### In A Unified Image
+- Id                  : binary neural algorithms. : left hemisphore as self requested tasks, right hemisphore as communicated tasks; for 'slif_epicentre'.
+- Ego                 : binary neural controls.
+- Super-Ego           : binary neural desires.
+
+#### SuperEgo Directive Karmas.
+  - Scorpio - Trust in Truth.
+  - Sagittarius - Intellect in Intuition.
+  - Capricorn - Expression in Perception.
+  - Aquarius - Wisdom in Thought.
+  - Pisces - Flexible in Adapting.
+  - Aries - Assertive in Motivation.
+  - Taurus - Power in Momentum.
+  - Gemini - Adaptable in Intellect.
+  - Cancer - Comfort in Emotion.
+  - Leo - Manifestation in Thought
+  - Virgo - Interlect in Emotion.
+  - Libra - Balance in Harmony.
+ 
 ---
 #### slif_control.
 - Optimus: Package INSTANTIATION Primer.
