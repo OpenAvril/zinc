@@ -55,7 +55,7 @@ CLIB Concurrent System Bussing.
 
 Open Concurrent SCADA.
 
-**Triple MutexQue into a set/get data buffer.**
+**Triple MutexQue into a set/get data buffer of bus for route of paired junctions.**
 
 ---
 * LeftHemisphore:
