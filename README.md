@@ -30,6 +30,9 @@ Left Hemisphore Task Launcher:
 
 CLIB Request, Wait, Launch for 'ThreadId' at Server-Client.
 
+**Concurrency; Core, Post-Process.**
+  - ex: Core task chunker.
+  - ex: Graphics post process.
 
 * ThreadsLog:
   
