@@ -8,7 +8,7 @@ The project contains architectural implementations centered heavily around high-
 - Concurrent Programming Tools: Implementations for full-stack concurrent pipelines, including custom mutex locks, mutex synchronization, and concurrent queues.
 - Silicon Life Concepts: Targeted frameworks designed for "Silicon Life" computing architectures.
 - Neural Networks: Repositories and logic patterns explicitly tagged for handling Artificial Neural Networks (ANN) and Binary Neural Networks (BNN).
-- Packaged similar to [**LWJGL**](https://www.lwjgl.org/), with 'generate; Program, Handle'. member functions.
+- Packaged similar with respect to [**LWJGL**](https://www.lwjgl.org/), implementing 'generate; Program, Handle'. member functions.
 
   
   * Google. (2026, 09 28). GitHub OpenAvril slif. Gemini AI search. (https://www.google.com/search?q=github+openavril+slif&rlz=1CDGOYI_enAU1216AU1216&oq=GitHub+OpenAvril+slif&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDwyBggCEEUYPDIGCAMQRRg8MgcIBBAhGKABMgcIBRAhGKABMgcIBhAhGKABMgcIBxAhGKABMgcICBAhGI8C0gEJMTU4ODRqMGo5qAIBsAIB4gMEGAEgXw&hl=en-GB&sourceid=chrome-mobile&source=chrome.ob&ie=UTF-8#lfId=ChxjMe).
@@ -24,7 +24,7 @@ Exclusive Cohesion Mutex Queue:
 
 CLIB Request, Wait, Write-Read for 'ThreadId' at 'DataCluster'.
 
-**Double standard Mutex Input/Output effecience.**
+**Double standard Mutex combined Input/Output efficiency.**
 
 ---
 * LaunchQue:
@@ -55,7 +55,7 @@ CLIB Concurrent System Bussing.
 
 Open Concurrent SCADA.
 
-**Triple MutexQue into a set/get data buffer.**
+**Triple MutexQue into a set/get data buffer of bus for route of paired junctions.**
 
 ---
 * LeftHemisphore:
@@ -71,18 +71,26 @@ CLIB Concurrent Server with independent task threads and IO wrapper.
 
 ---
 ---
-## slif_zinc_neural_chip: Hemisphoric Binary Neural Networking.
-### Zinc Insulate Neural Chip
+## zinc - Zinc Insulate Neural Chip.
   - 3x Zones: Id, Ego, SuperEgo.
   - 2x Hemisphores; Left, Right. per Zone, and 'x' number of Junctions to all parts of the Hemisphore.
   - [(x/2)^2 - (x/2)] number of Busses.
 
 ### In A Unified Image
-- Id                  : binary neural algorithms. : left hemisphore as self requested tasks, right hemisphore as communicated tasks; for 'slif_epicentre'.
-- Ego                 : binary neural controls.
-- Super-Ego           : binary neural feng shui.
+- **Id**                  : binary neural algorithms. : left hemisphore as self requested tasks, right hemisphore as communicated tasks; for 'slif_epicentre'.
+- **Ego**                 : binary neural controls.
+- **Super-Ego**           : binary neural Directive Feng Shui Karmas.
 
-#### SuperEgo Directive Feng Shui Karmas.
+
+#### Id : binary neural algorithms.
+slif_epicentre INJECTION paths:
+  - left hemisphore as self requested tasks. 
+  - right hemisphore as communicated tasks.
+
+#### Ego : binary neural controls.
+  - BOOLEAN states of "desire" = 'active', 'idle'., for all 'praise-Id' events.
+
+#### SuperEgo: binary neural Directive Feng Shui Karmas.
   - Scorpio - Trust in Truth.
   - Sagittarius - Intellect in Intuition.
   - Capricorn - Expression in Perception.
