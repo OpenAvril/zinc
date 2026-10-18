@@ -101,6 +101,9 @@ CLIB Concurrent Server with independent task threads and IO wrapper.
 ## slif::epicentre : Left Hemisphore.
 * Left Hemisphore Logic Task Result Deducer: CLIB Concurrent Server with independent task threads and IO wrapper.
 
+---
+## slif::zinc : Zinc Insualte Neural Chip.
+
 
 ---
 ---
