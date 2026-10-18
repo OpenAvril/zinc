@@ -57,6 +57,7 @@ CLIB Concurrent Server with independent task threads and IO wrapper.
 
 
 * RightHemisphore:
+  
 **Wi-Fi hi and low bandwidth direct injection to a independent thread 'access-id' of stemisphore.**
  
 ---
