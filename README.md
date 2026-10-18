@@ -24,7 +24,7 @@ Exclusive Cohesion Mutex Queue:
 
 CLIB Request, Wait, Write-Read for 'ThreadId' at 'DataCluster'.
 
-**Double standard Mutex Input/Output effecience.**
+**Double standard Mutex combined Input/Output efficiency.**
 
 ---
 * LaunchQue:
