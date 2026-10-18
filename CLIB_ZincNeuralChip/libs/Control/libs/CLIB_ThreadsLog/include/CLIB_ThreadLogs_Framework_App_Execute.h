@@ -2,7 +2,7 @@
 #define CLIB_THREADLOGS_CLIB_THREADLOGS_FRAMEWORK_APP_EXECUTE_H
 #include <cstddef>
 #include <cstdint>
-namespace slif {
+namespace zinc {
     class CLIB_ThreadLogs_Framework_App_Execute {
     public:
         CLIB_ThreadLogs_Framework_App_Execute(uint8_t* sysThreadId);

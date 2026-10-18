@@ -1,10 +1,10 @@
 cmake_minimum_required(VERSION 4.2.3)
-project(slif_epicentre VERSION 1.0 LANGUAGES CXX)
+project(zinc_epicentre VERSION 1.0 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_library(slif_epicentre STATIC
+add_library(zinc_epicentre STATIC
         ../Control/libs/CLIB_MutexQue/src/CLIB_MutexQue_Framework.cpp
         ../Control/libs/CLIB_MutexQue/src/CLIB_MutexQue_Framework_Global.cpp
         ../Control/libs/CLIB_MutexQue/src/CLIB_MutexQue_Framework_App.cpp
@@ -49,16 +49,16 @@ add_library(slif_epicentre STATIC
         src/engine/CLIB_LeftHemishpore_Framework_App_Execute_Control.cpp
 )
 
-target_include_directories(slif_epicentre PUBLIC
+target_include_directories(zinc_epicentre PUBLIC
         "../../../Control/libs/CLIB_MutexQue/include"
         "../../../Control/libs/CLIB_ThreadsLog/include"
         "../../../Control/libs/CLIB_LaunchQue/include"
         "include"
 )
 
-target_link_libraries(slif_epicentre PUBLIC
+target_link_libraries(zinc_epicentre PUBLIC
         CLIB_MutexQue
-        slif_threads_log
+        zinc_threads_log
         CLIB_LaunchQue
-        slif_control
+        zinc_control
 )

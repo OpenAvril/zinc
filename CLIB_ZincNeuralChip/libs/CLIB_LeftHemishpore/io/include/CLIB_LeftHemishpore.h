@@ -4,7 +4,7 @@
 #include <cstdint>
 #include "../../include/engine/CLIB_LeftHemishpore_Framework.h"
 extern "C" {
-	namespace 	{
+	namespace zinc {
 		class Epicentre {
 		public:
 			static int* gernerateHandle(uint8_t* sysThreadId);

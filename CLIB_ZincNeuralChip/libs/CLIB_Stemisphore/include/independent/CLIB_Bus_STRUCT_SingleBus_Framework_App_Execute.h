@@ -3,7 +3,7 @@
 #include "CLIB_Bus_STRUCT_SingleBus_Framework.h"
 #include <cstdint>
 #include <list>
-namespace slif {
+namespace zinc {
     class CLIB_Bus_STRUCT_SingleBus_Framework_App_Execute {
     public:
         CLIB_Bus_STRUCT_SingleBus_Framework_App_Execute(uint8_t* sysThreadId, class CLIB_Bus_STRUCT_SingleBus_Framework* obj);

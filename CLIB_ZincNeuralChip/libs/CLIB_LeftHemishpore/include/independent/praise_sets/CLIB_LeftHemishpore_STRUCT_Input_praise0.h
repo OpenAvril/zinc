@@ -1,7 +1,7 @@
 #ifndef CLIB_OPENEPICENTRE_STRUCT_INPUT_PRAISE0_H
 #define CLIB_OPENEPICENTRE_STRUCT_INPUT_PRAISE0_H
 #include <cstdint>
-namespace slif {
+namespace zinc {
     struct CLIB_LeftHemishpore_STRUCT_Input_praise0 {
     public:
         void dyn_REG_boot1_DEFINE_Input_praise0(std::uint8_t* sysThreadId);

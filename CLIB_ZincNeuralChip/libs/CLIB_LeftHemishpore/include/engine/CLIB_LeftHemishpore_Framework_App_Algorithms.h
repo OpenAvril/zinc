@@ -4,7 +4,7 @@
 #include "../independent/CLIB_LeftHemishpore_STRUCT_Concurrent.h"
 #include <cstdint>
 #include <list>
-namespace slif {
+namespace zinc {
     class CLIB_LeftHemishpore_Framework_App_Algorithms {
     public:
         CLIB_LeftHemishpore_Framework_App_Algorithms();

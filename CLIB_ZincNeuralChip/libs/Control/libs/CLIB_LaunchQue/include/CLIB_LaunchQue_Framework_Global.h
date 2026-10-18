@@ -3,7 +3,7 @@
 #include <list>
 #include <cstdint>
 #include "CLIB_LaunchQue_Framework.h"
-namespace slif {
+namespace zinc {
     class CLIB_LaunchQue_Framework_Global {
     public:
         CLIB_LaunchQue_Framework_Global(uint8_t* sysThreadId);

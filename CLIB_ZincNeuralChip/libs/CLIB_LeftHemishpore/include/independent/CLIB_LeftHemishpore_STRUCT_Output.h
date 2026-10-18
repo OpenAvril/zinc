@@ -6,7 +6,7 @@
 #include "../independent/praise_sets/CLIB_LeftHemishpore_STRUCT_Output_praise2.h"
 #include "../independent/praise_sets/CLIB_LeftHemishpore_STRUCT_Output_praise3.h"
 #include <list>
-namespace slif {
+namespace zinc {
     struct CLIB_LeftHemishpore_STRUCT_Output {
     public:
         void dyn_APP_select_And_Set_LeftHemishpore_STRUCT_Output_Subset(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned long long *praiseEventId);

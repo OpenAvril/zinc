@@ -2,7 +2,7 @@
 #define CLIB_CLIB_PACKAGE_MUTEXQUE_FRAMEWORK_APP_H
 #include "CLIB_MutexQue_Framework_App_Control.h"
 #include <cstdint>
-namespace slif {
+namespace zinc {
     class CLIB_MutexQue_Framework_App {
     public:
         CLIB_MutexQue_Framework_App(uint8_t* sysThreadId);

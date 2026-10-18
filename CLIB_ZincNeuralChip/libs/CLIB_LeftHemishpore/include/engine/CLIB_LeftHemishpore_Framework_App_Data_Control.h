@@ -2,7 +2,7 @@
 #define CLIB_OPENEPICENTRE_FRAMEWORK_APP_DATA_CONTROL_H
 #include "CLIB_LeftHemishpore_Framework.h"
 #include <cstdint>
-namespace slif {
+namespace zinc {
     class CLIB_LeftHemishpore_Framework_App_Data_Control {
     public:
         CLIB_LeftHemishpore_Framework_App_Data_Control(uint8_t* sysThreadId);

@@ -4,7 +4,7 @@
 #include <array>
 #include <cstdint>
 #include <list>
-namespace slif {
+namespace zinc {
     class CLIB_MutexQue_Framework_App_Control {
     public:
         CLIB_MutexQue_Framework_App_Control(uint8_t* sysThreadId);

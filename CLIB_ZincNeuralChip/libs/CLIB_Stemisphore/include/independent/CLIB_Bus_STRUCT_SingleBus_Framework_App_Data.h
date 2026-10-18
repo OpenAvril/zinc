@@ -1,7 +1,7 @@
 #ifndef CLIB_CLIB_Bus_STRUCT_SingleBus_Framework_App_Data_H
 #define CLIB_CLIB_Bus_STRUCT_SingleBus_Framework_App_Data_H
 #include <cstdint>
-namespace slif {
+namespace zinc {
     class CLIB_Bus_STRUCT_SingleBus_Framework_App_Data {
     public:
         CLIB_Bus_STRUCT_SingleBus_Framework_App_Data(uint8_t* sysThreadId);

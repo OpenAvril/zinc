@@ -1,7 +1,7 @@
 #ifndef CLIB_OPENEPICENTRE_FRAMEWORK_GLOBAL_H
 #define CLIB_OPENEPICENTRE_FRAMEWORK_GLOBAL_H
 #include <cstdint>
-namespace slif {
+namespace zinc {
     enum Axis
     {
         X,

@@ -5,7 +5,7 @@
 #include <cstdint>
 #include <list>
 extern "C" {
-    namespace slif {
+    namespace zinc {
         class MutexQue {
         public:
             static void endByUnlock(uint8_t* sysThreadId, unsigned char* handleId, unsigned char* bytes_ACCESS_ID);

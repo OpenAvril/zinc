@@ -14,20 +14,20 @@
 #include "../../include/independent/praise_sets/CLIB_LeftHemishpore_STRUCT_Output_praise3.h"
 #include <string>
 #include <iostream>
-	static std::list<slif::CLIB_LeftHemishpore_Framework*>* stat_CLASS_CLIB_LeftHemishpore_Framework = nullptr;
+	static std::list<zinc::CLIB_LeftHemishpore_Framework*>* stat_CLASS_CLIB_LeftHemishpore_Framework = nullptr;
 	static std::array<bool, 13>* stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED = nullptr;
-	static struct slif::CLIB_LeftHemishpore_STRUCT_Input_praise0* objInput_praise0 = nullptr;
-	static struct slif::CLIB_LeftHemishpore_STRUCT_Input_praise1* objInput_praise1 = nullptr;
-	static struct slif::CLIB_LeftHemishpore_STRUCT_Input_praise2* objInput_praise2 = nullptr;
-	static struct slif::CLIB_LeftHemishpore_STRUCT_Input_praise3* objInput_praise3 = nullptr;
-	static struct slif::CLIB_LeftHemishpore_STRUCT_Output_praise0* objOutput_praise0 =	nullptr;
-	static struct slif::CLIB_LeftHemishpore_STRUCT_Output_praise1* objOutput_praise1 = nullptr;
-	static struct slif::CLIB_LeftHemishpore_STRUCT_Output_praise2* objOutput_praise2 = nullptr;
-	static struct slif::CLIB_LeftHemishpore_STRUCT_Output_praise3* objOutput_praise3 = nullptr;
+	static struct zinc::CLIB_LeftHemishpore_STRUCT_Input_praise0* objInput_praise0 = nullptr;
+	static struct zinc::CLIB_LeftHemishpore_STRUCT_Input_praise1* objInput_praise1 = nullptr;
+	static struct zinc::CLIB_LeftHemishpore_STRUCT_Input_praise2* objInput_praise2 = nullptr;
+	static struct zinc::CLIB_LeftHemishpore_STRUCT_Input_praise3* objInput_praise3 = nullptr;
+	static struct zinc::CLIB_LeftHemishpore_STRUCT_Output_praise0* objOutput_praise0 =	nullptr;
+	static struct zinc::CLIB_LeftHemishpore_STRUCT_Output_praise1* objOutput_praise1 = nullptr;
+	static struct zinc::CLIB_LeftHemishpore_STRUCT_Output_praise2* objOutput_praise2 = nullptr;
+	static struct zinc::CLIB_LeftHemishpore_STRUCT_Output_praise3* objOutput_praise3 = nullptr;
 // public
-	void slif::Epicentre::generateProgram(uint8_t* sysThreadId) {
+	void zinc::Epicentre::generateProgram(uint8_t* sysThreadId) {
 		auto handleId = new int(0);
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: slif : CLIB_LeftHemishpore : CLIB_LeftHemishpore_Framework_App_FUNCT_generate_Program(sysThreadId)." << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemishpore : CLIB_LeftHemishpore_Framework_App_FUNCT_generate_Program(sysThreadId)." << std::endl;
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: started Architecture Framework CLASS - DECLARE DEFINE INITIALISE." << std::endl;
 		CLIB_LeftHemishpore_stat_CLASS_boot1_DEFINE_Framework(sysThreadId);
 		CLIB_LeftHemishpore_stat_CLASS_boot3_INITIALISE_Framework(sysThreadId);
@@ -129,15 +129,15 @@
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: |  /    V          ))        V   \\  |" << std::endl;
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: |/                //               \\| " << std::endl;
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: `                 V                 '" << std::endl;
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: slif : CLIB_LeftHemishpore : CLIB_LeftHemishpore_Framework_App_FUNCT_generate_Program(sysThreadId)" << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemishpore : CLIB_LeftHemishpore_Framework_App_FUNCT_generate_Program(sysThreadId)" << std::endl;
 	}
-	unsigned char* slif::Epicentre::get_Output(uint8_t* sysThreadId, unsigned char* handleId, unsigned char* bytes_praiseId) {
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: slif : CLIB_LeftHemishpore : CLIB_LeftHemishpore_dyn_REG_get_FLAG_IsInitialised_slif(sysThreadId)." << std::endl;
+	unsigned char* zinc::Epicentre::get_Output(uint8_t* sysThreadId, unsigned char* handleId, unsigned char* bytes_praiseId) {
+		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemishpore : CLIB_LeftHemishpore_dyn_REG_get_FLAG_IsInitialised_zinc(sysThreadId)." << std::endl;
 		auto result = new unsigned char();
-		auto sampleOutput = new std::list<slif::Object*>;
-		auto temp = new slif::CLIB_LeftHemishpore_STRUCT_Output();
+		auto sampleOutput = new std::list<zinc::Object*>;
+		auto temp = new zinc::CLIB_LeftHemishpore_STRUCT_Output();
 		if (!CLIB_LeftHemishpore_stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED(sysThreadId)->at(0)) {
-			switch (*slif::CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbByteArray_To_Msbuint8_t(sysThreadId, bytes_praiseId)) {
+			switch (*zinc::CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbByteArray_To_Msbuint8_t(sysThreadId, bytes_praiseId)) {
 			case 0:
 				auto* tempDouble = new double();
 				CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Execute()->dyn_PGM_get_CLIB_LeftHemishpore_WriteEnable_ServerInputReceive()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_DataStack_App(sysThreadId)->dyn_APP_FUNCT_write_Start(sysThreadId, temp,sysThreadId);
@@ -145,11 +145,11 @@
 				temp = CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Data(sysThreadId)->dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Output_at_ItemSideToREAD_For_doubleBufferOutput(CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId));
 				CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Execute()->dyn_PGM_get_CLIB_LeftHemishpore_WriteEnable_ServerInputReceive()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_DataStack_App(sysThreadId)->dyn_APP_FUNCT_write_End(sysThreadId, CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Execute()->dyn_PGM_get_CLIB_LeftHemishpore_WriteEnable_ServerInputReceive(),sysThreadId);
 				sampleOutput->resize(2);
-				sampleOutput->assign(0, reinterpret_cast<class slif::Object*>(slif::CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbUnsignedLongLong_to_ByteArray(sysThreadId, temp->dyn_REG_get_ptr_CLIB_LeftHemishpore_STRUCT_Output_praiseEventId(sysThreadId))));
-				objOutput_praise0 = reinterpret_cast<slif::CLIB_LeftHemishpore_STRUCT_Output_praise0*>(temp->dyn_REG_get_ptr_Item_Of_ptr_CLIB_LeftHemishpore_STRUCT_Output_Subset(sysThreadId));
+				sampleOutput->assign(0, reinterpret_cast<class zinc::Object*>(zinc::CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbUnsignedLongLong_to_ByteArray(sysThreadId, temp->dyn_REG_get_ptr_CLIB_LeftHemishpore_STRUCT_Output_praiseEventId(sysThreadId))));
+				objOutput_praise0 = reinterpret_cast<zinc::CLIB_LeftHemishpore_STRUCT_Output_praise0*>(temp->dyn_REG_get_ptr_Item_Of_ptr_CLIB_LeftHemishpore_STRUCT_Output_Subset(sysThreadId));
 				tempDouble = objOutput_praise0->dyn_REG_get_CLIB_LeftHemishpore_STRUCT_Output_praise0_Value(sysThreadId);
-				sampleOutput->assign(1, reinterpret_cast<class slif::Object*>(slif::CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbDouble_To_MsbByteArray(sysThreadId, tempDouble)));
-				//*result = slif::CLIB_LeftHemishpore_Framework_Global::
+				sampleOutput->assign(1, reinterpret_cast<class zinc::Object*>(zinc::CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbDouble_To_MsbByteArray(sysThreadId, tempDouble)));
+				//*result = zinc::CLIB_LeftHemishpore_Framework_Global::
 				break;
 
 			case 1:
@@ -159,11 +159,11 @@
 				temp = CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Data(sysThreadId)->dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Output_at_ItemSideToREAD_For_doubleBufferOutput(CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId));
 				CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Execute()->dyn_PGM_get_CLIB_LeftHemishpore_WriteEnable_ServerInputReceive()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_DataStack_App(sysThreadId)->dyn_APP_FUNCT_write_End(sysThreadId, CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Execute()->dyn_PGM_get_CLIB_LeftHemishpore_WriteEnable_ServerInputReceive(),sysThreadId);
 				sampleOutput->resize(2);
-				sampleOutput->assign(0, reinterpret_cast<class slif::Object*>(slif::CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbUnsignedLongLong_to_ByteArray(sysThreadId, temp->dyn_REG_get_ptr_CLIB_LeftHemishpore_STRUCT_Output_praiseEventId(sysThreadId))));
-				objOutput_praise1 = reinterpret_cast<slif::CLIB_LeftHemishpore_STRUCT_Output_praise1*>(temp->dyn_REG_get_ptr_Item_Of_ptr_CLIB_LeftHemishpore_STRUCT_Output_Subset(sysThreadId));
+				sampleOutput->assign(0, reinterpret_cast<class zinc::Object*>(zinc::CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbUnsignedLongLong_to_ByteArray(sysThreadId, temp->dyn_REG_get_ptr_CLIB_LeftHemishpore_STRUCT_Output_praiseEventId(sysThreadId))));
+				objOutput_praise1 = reinterpret_cast<zinc::CLIB_LeftHemishpore_STRUCT_Output_praise1*>(temp->dyn_REG_get_ptr_Item_Of_ptr_CLIB_LeftHemishpore_STRUCT_Output_Subset(sysThreadId));
 				tempDouble = objOutput_praise1->dyn_REG_get_CLIB_LeftHemishpore_STRUCT_Output_praise1_Value(sysThreadId);
-				sampleOutput->assign(1, reinterpret_cast<class slif::Object*>(slif::CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbDouble_To_MsbByteArray(sysThreadId, tempDouble)));
-				//*result = slif::CLIB_LeftHemishpore_Framework_Global::
+				sampleOutput->assign(1, reinterpret_cast<class zinc::Object*>(zinc::CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbDouble_To_MsbByteArray(sysThreadId, tempDouble)));
+				//*result = zinc::CLIB_LeftHemishpore_Framework_Global::
 				break;
 
 			case 2:
@@ -173,11 +173,11 @@
 				temp = CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Data(sysThreadId)->dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Output_at_ItemSideToREAD_For_doubleBufferOutput(CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId));
 				CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Execute()->dyn_PGM_get_CLIB_LeftHemishpore_WriteEnable_ServerInputReceive()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_DataStack_App(sysThreadId)->dyn_APP_FUNCT_write_End(sysThreadId, CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Execute()->dyn_PGM_get_CLIB_LeftHemishpore_WriteEnable_ServerInputReceive(),sysThreadId);
 				sampleOutput->resize(2);
-				sampleOutput->assign(0, reinterpret_cast<class slif::Object*>(slif::CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbUnsignedLongLong_to_ByteArray(sysThreadId, temp->dyn_REG_get_ptr_CLIB_LeftHemishpore_STRUCT_Output_praiseEventId(sysThreadId))));
-				objOutput_praise2 = reinterpret_cast<slif::CLIB_LeftHemishpore_STRUCT_Output_praise2*>(temp->dyn_REG_get_ptr_Item_Of_ptr_CLIB_LeftHemishpore_STRUCT_Output_Subset(sysThreadId));
+				sampleOutput->assign(0, reinterpret_cast<class zinc::Object*>(zinc::CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbUnsignedLongLong_to_ByteArray(sysThreadId, temp->dyn_REG_get_ptr_CLIB_LeftHemishpore_STRUCT_Output_praiseEventId(sysThreadId))));
+				objOutput_praise2 = reinterpret_cast<zinc::CLIB_LeftHemishpore_STRUCT_Output_praise2*>(temp->dyn_REG_get_ptr_Item_Of_ptr_CLIB_LeftHemishpore_STRUCT_Output_Subset(sysThreadId));
 				tempDouble = objOutput_praise2->dyn_REG_get_CLIB_LeftHemishpore_STRUCT_Output_praise2_Value(sysThreadId);
-				sampleOutput->assign(1, reinterpret_cast<class slif::Object*>(slif::CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbDouble_To_MsbByteArray(sysThreadId, tempDouble)));
-				//*result = slif::CLIB_LeftHemishpore_Framework_Global::
+				sampleOutput->assign(1, reinterpret_cast<class zinc::Object*>(zinc::CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbDouble_To_MsbByteArray(sysThreadId, tempDouble)));
+				//*result = zinc::CLIB_LeftHemishpore_Framework_Global::
 				break;
 
 			case 3:
@@ -187,11 +187,11 @@
 				temp = CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Data(sysThreadId)->dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Output_at_ItemSideToREAD_For_doubleBufferOutput(CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId));
 				CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Execute()->dyn_PGM_get_CLIB_LeftHemishpore_WriteEnable_ServerInputReceive()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_DataStack_App(sysThreadId)->dyn_APP_FUNCT_write_End(sysThreadId, CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Execute()->dyn_PGM_get_CLIB_LeftHemishpore_WriteEnable_ServerInputReceive(),sysThreadId);
 				sampleOutput->resize(2);
-				sampleOutput->assign(0, reinterpret_cast<class slif::Object*>(slif::CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbUnsignedLongLong_to_ByteArray(sysThreadId, temp->dyn_REG_get_ptr_CLIB_LeftHemishpore_STRUCT_Output_praiseEventId(sysThreadId))));
-				objOutput_praise3 = reinterpret_cast<slif::CLIB_LeftHemishpore_STRUCT_Output_praise3*>(temp->dyn_REG_get_ptr_Item_Of_ptr_CLIB_LeftHemishpore_STRUCT_Output_Subset(sysThreadId));
+				sampleOutput->assign(0, reinterpret_cast<class zinc::Object*>(zinc::CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbUnsignedLongLong_to_ByteArray(sysThreadId, temp->dyn_REG_get_ptr_CLIB_LeftHemishpore_STRUCT_Output_praiseEventId(sysThreadId))));
+				objOutput_praise3 = reinterpret_cast<zinc::CLIB_LeftHemishpore_STRUCT_Output_praise3*>(temp->dyn_REG_get_ptr_Item_Of_ptr_CLIB_LeftHemishpore_STRUCT_Output_Subset(sysThreadId));
 				tempDouble = objOutput_praise3->dyn_REG_get_CLIB_LeftHemishpore_STRUCT_Output_praise3_Value(sysThreadId);
-				sampleOutput->assign(1, reinterpret_cast<class slif::Object*>(slif::CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbDouble_To_MsbByteArray(sysThreadId, tempDouble)));
-				//*result = slif::CLIB_LeftHemishpore_Framework_Global::
+				sampleOutput->assign(1, reinterpret_cast<class zinc::Object*>(zinc::CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbDouble_To_MsbByteArray(sysThreadId, tempDouble)));
+				//*result = zinc::CLIB_LeftHemishpore_Framework_Global::
 				break;
 			}
 		}
@@ -199,11 +199,11 @@
 			CLIB_LeftHemishpore_stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED(sysThreadId)->at(1) = !CLIB_LeftHemishpore_stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED(sysThreadId)->at(0) ;
 			CLIB_LeftHemishpore_stat_app_FUNCT_Calc_IsAllINSTANTIATED(sysThreadId);
 		}
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: slif : CLIB_LeftHemishpore : CLIB_LeftHemishpore_dyn_REG_get_FLAG_IsInitialised_slif(sysThreadId)." << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemishpore : CLIB_LeftHemishpore_dyn_REG_get_FLAG_IsInitialised_zinc(sysThreadId)." << std::endl;
 		return result;
 	}
-	unsigned char* slif::Epicentre::get_FLAG_isINITIALISED(uint8_t* sysThreadId, unsigned char* handleId) {
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: slif : CLIB_LeftHemishpore : CLIB_LeftHemishpore_dyn_REG_get_FLAG_IsInitialised_slif(sysThreadId)." << std::endl;
+	unsigned char* zinc::Epicentre::get_FLAG_isINITIALISED(uint8_t* sysThreadId, unsigned char* handleId) {
+		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemishpore : CLIB_LeftHemishpore_dyn_REG_get_FLAG_IsInitialised_zinc(sysThreadId)." << std::endl;
 		bool* temp = nullptr;
 		temp = new bool(sysThreadId);
 		*temp = true;
@@ -214,28 +214,28 @@
 			CLIB_LeftHemishpore_stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED(sysThreadId)->at(13) = !CLIB_LeftHemishpore_stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED(sysThreadId)->at(0) ;
 			CLIB_LeftHemishpore_stat_app_FUNCT_Calc_IsAllINSTANTIATED(sysThreadId);
 		}
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: slif : CLIB_LeftHemishpore : CLIB_LeftHemishpore_dyn_REG_get_FLAG_IsInitialised_slif(sysThreadId)." << std::endl;
-		return slif::CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_Msbbool_to_MsbByteArray(temp);
+		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemishpore : CLIB_LeftHemishpore_dyn_REG_get_FLAG_IsInitialised_zinc(sysThreadId)." << std::endl;
+		return zinc::CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_Msbbool_to_MsbByteArray(temp);
 	}
-	unsigned char* slif::Epicentre::get_FLAG_isINSTANTIATED(uint8_t* sysThreadId) {
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: slif : CLIB_LeftHemishpore : CLIB_LeftHemishpore_Framework_App_FUNCT_get_FLAG_isPGM_INSTANTIATED(sysThreadId)" << std::endl;
+	unsigned char* zinc::Epicentre::get_FLAG_isINSTANTIATED(uint8_t* sysThreadId) {
+		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemishpore : CLIB_LeftHemishpore_Framework_App_FUNCT_get_FLAG_isPGM_INSTANTIATED(sysThreadId)" << std::endl;
 		bool* temp = nullptr;
 		temp = new bool(sysThreadId);
 		*temp = true;
 		if (!CLIB_LeftHemishpore_stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED(sysThreadId)->at(0)) {
-			std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: <= slif : CLIB_LeftHemishpore : CLIB_LeftHemishpore_stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED(sysThreadId) = PRIMED" << std::endl;
+			std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: <= zinc : CLIB_LeftHemishpore : CLIB_LeftHemishpore_stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED(sysThreadId) = PRIMED" << std::endl;
 			*temp = CLIB_LeftHemishpore_stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED(sysThreadId)->at(0) ;
 		}
 		else {
-			std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: <= slif : CLIB_LeftHemishpore : CLIB_LeftHemishpore_stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED(sysThreadId) = PRIMING" << std::endl;
+			std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: <= zinc : CLIB_LeftHemishpore : CLIB_LeftHemishpore_stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED(sysThreadId) = PRIMING" << std::endl;
 			CLIB_LeftHemishpore_stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED(sysThreadId)->at(2) = !CLIB_LeftHemishpore_stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED(sysThreadId)->at(0) ;
 			CLIB_LeftHemishpore_stat_app_FUNCT_Calc_IsAllINSTANTIATED(sysThreadId);
 		}
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: slif : CLIB_LeftHemishpore : CLIB_LeftHemishpore_Framework_App_FUNCT_get_FLAG_isPGM_INSTANTIATED(sysThreadId)" << std::endl;
-		return slif::CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_Msbbool_to_MsbByteArray(*temp);
+		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemishpore : CLIB_LeftHemishpore_Framework_App_FUNCT_get_FLAG_isPGM_INSTANTIATED(sysThreadId)" << std::endl;
+		return zinc::CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_Msbbool_to_MsbByteArray(*temp);
 	}
-	unsigned char* slif::Epicentre::get_FLAG_isStackLoaded_ServerInputReceive(uint8_t* sysThreadId, unsigned char* handleId) {
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: slif : CLIB_LeftHemishpore : CLIB_LeftHemishpore_dyn_REG_get_FLAG_isStackLoaded_ServerInputReceive(sysThreadId)." << std::endl;
+	unsigned char* zinc::Epicentre::get_FLAG_isStackLoaded_ServerInputReceive(uint8_t* sysThreadId, unsigned char* handleId) {
+		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemishpore : CLIB_LeftHemishpore_dyn_REG_get_FLAG_isStackLoaded_ServerInputReceive(sysThreadId)." << std::endl;
 		bool* temp = nullptr;
 		temp = new bool(sysThreadId);
 		*temp = true;
@@ -246,11 +246,11 @@
 			CLIB_LeftHemishpore_stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED(sysThreadId)->at(11) = !CLIB_LeftHemishpore_stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED(sysThreadId)->at(0) ;
 			CLIB_LeftHemishpore_stat_app_FUNCT_Calc_IsAllINSTANTIATED(sysThreadId);
 		}
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: slif : CLIB_LeftHemishpore : CLIB_LeftHemishpore_dyn_REG_get_FLAG_isStackLoaded_ServerInputReceive(sysThreadId)." << std::endl;
-		return slif::CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_Msbbool_to_MsbByteArray(*temp);
+		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemishpore : CLIB_LeftHemishpore_dyn_REG_get_FLAG_isStackLoaded_ServerInputReceive(sysThreadId)." << std::endl;
+		return zinc::CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_Msbbool_to_MsbByteArray(*temp);
 	}
-	unsigned char* slif::Epicentre::get_FLAG_isStackLoaded_ServerOutputSend(uint8_t* sysThreadId, unsigned char* handleId)	{
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: slif : CLIB_LeftHemishpore : CLIB_LeftHemishpore_dyn_REG_get_FLAG_isStackLoaded_ServerOutputSend(sysThreadId)." << std::endl;
+	unsigned char* zinc::Epicentre::get_FLAG_isStackLoaded_ServerOutputSend(uint8_t* sysThreadId, unsigned char* handleId)	{
+		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemishpore : CLIB_LeftHemishpore_dyn_REG_get_FLAG_isStackLoaded_ServerOutputSend(sysThreadId)." << std::endl;
 		bool* temp = nullptr;
 		temp = new bool(sysThreadId);
 		*temp = true;
@@ -261,11 +261,11 @@
 			CLIB_LeftHemishpore_stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED(sysThreadId)->at(12) = !CLIB_LeftHemishpore_stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED(sysThreadId)->at(0) ;
 			CLIB_LeftHemishpore_stat_app_FUNCT_Calc_IsAllINSTANTIATED(sysThreadId);
 		}
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: slif : CLIB_LeftHemishpore : CLIB_LeftHemishpore_dyn_REG_get_FLAG_isStackLoaded_ServerOutputSend(sysThreadId)." << std::endl;
-		return slif::CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_Msbbool_to_MsbByteArray(*temp);
+		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemishpore : CLIB_LeftHemishpore_dyn_REG_get_FLAG_isStackLoaded_ServerOutputSend(sysThreadId)." << std::endl;
+		return zinc::CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_Msbbool_to_MsbByteArray(*temp);
 	}
-	unsigned char* slif::Epicentre::get_MetaData_PraiseEventId(uint8_t* sysThreadId, unsigned char* handleId) {
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: slif : CLIB_LeftHemishpore : CLIB_LeftHemishpore_io_PRAISE_get_MetaData_PraiseEventId(sysThreadId)." << std::endl;
+	unsigned char* zinc::Epicentre::get_MetaData_PraiseEventId(uint8_t* sysThreadId, unsigned char* handleId) {
+		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemishpore : CLIB_LeftHemishpore_io_PRAISE_get_MetaData_PraiseEventId(sysThreadId)." << std::endl;
 		unsigned long long* temp = nullptr;
 		temp = new unsigned long long ();
 		*temp = ULLONG_MAX;
@@ -276,19 +276,19 @@
 			CLIB_LeftHemishpore_stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED(sysThreadId)->at(18) = !CLIB_LeftHemishpore_stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED(sysThreadId)->at(0) ;
 			CLIB_LeftHemishpore_stat_app_FUNCT_Calc_IsAllINSTANTIATED(sysThreadId);
 		}
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: slif : CLIB_LeftHemishpore : CLIB_LeftHemishpore_io_PRAISE_get_MetaData_PraiseEventId(sysThreadId)." << std::endl;
-		return slif::CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_unsignedLongLong_to_ByteArray(*temp);
+		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemishpore : CLIB_LeftHemishpore_io_PRAISE_get_MetaData_PraiseEventId(sysThreadId)." << std::endl;
+		return zinc::CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_unsignedLongLong_to_ByteArray(*temp);
 	}
-	void slif::Epicentre::set_InputItemsFor_praise0(uint8_t* sysThreadId, unsigned char* handleId, unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B) {
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: slif : CLIB_LeftHemishpore : CLIB_LeftHemishpore_Framework_App_FUNCT_set_Items_Input_praise0(uint8_t* sysThreadId, const unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B)" << std::endl;
+	void zinc::Epicentre::set_InputItemsFor_praise0(uint8_t* sysThreadId, unsigned char* handleId, unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B) {
+		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemishpore : CLIB_LeftHemishpore_Framework_App_FUNCT_set_Items_Input_praise0(uint8_t* sysThreadId, const unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B)" << std::endl;
 		if (!CLIB_LeftHemishpore_stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED(sysThreadId)->at(0)) {
 			CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Execute()->dyn_PGM_get_CLIB_LeftHemishpore_WriteEnable_ServerInputReceive()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_DataStack_App(sysThreadId)->dyn_APP_FUNCT_write_Start(sysThreadId, CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Execute()->dyn_PGM_get_CLIB_LeftHemishpore_WriteEnable_ServerInputReceive(),sysThreadId);
 
 			CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Data(sysThreadId)->dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Input_at_ItemSideToWRITE_For_doubleBufferInput(CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId))->dyn_REG_set_ptr_CLIB_LeftHemishpore_STRUCT_Input_praiseEventId(CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbByteArray_To_MsbunsignedLongLong(sysThreadId, bytesPraiseId));
 			CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Data(sysThreadId)->dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Input_at_ItemSideToWRITE_For_doubleBufferInput(CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId))->dyn_APP_select_And_Set_LeftHemishpore_STRUCT_Input_Subset(CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId), CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbByteArray_To_MsbunsignedLongLong(sysThreadId, bytesPraiseId));
-			objInput_praise0 = reinterpret_cast<slif::CLIB_LeftHemishpore_STRUCT_Input_praise0 *>(CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Data(sysThreadId)->dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Input_at_ItemSideToWRITE_For_doubleBufferInput(CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)));
-			objInput_praise0->dyn_REG_set_Item_Input_praise0_valueA(slif::CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbByteArray_To_MsbDouble(sysThreadId, bytesValue_A));
-			objInput_praise0->dyn_REG_set_Item_Input_praise0_valueB(slif::CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbByteArray_To_MsbDouble(sysThreadId, bytesValue_B));
+			objInput_praise0 = reinterpret_cast<zinc::CLIB_LeftHemishpore_STRUCT_Input_praise0 *>(CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Data(sysThreadId)->dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Input_at_ItemSideToWRITE_For_doubleBufferInput(CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)));
+			objInput_praise0->dyn_REG_set_Item_Input_praise0_valueA(zinc::CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbByteArray_To_MsbDouble(sysThreadId, bytesValue_A));
+			objInput_praise0->dyn_REG_set_Item_Input_praise0_valueB(zinc::CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbByteArray_To_MsbDouble(sysThreadId, bytesValue_B));
 			CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Data(sysThreadId)->dyn_CLASS_get_ptr_dyn_STRUCT_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Control(sysThreadId)->app_FUNCT_flip_CLIB_LeftHemishpore_Framework_App_Data_Control_REG_Input_DoubleBuffer(CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId));
 			CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Data(sysThreadId)->dyn_CLASS_get_ptr_dyn_STRUCT_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Control(sysThreadId)->app_FUNCT_push_CLIB_LeftHemishpore_Framework_App_Data_Control_STACK_Of_Input(CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId));
 			CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Execute()->dyn_PGM_get_CLIB_LeftHemishpore_WriteEnable_ServerInputReceive()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_DataStack_App(sysThreadId)->dyn_APP_FUNCT_write_End(sysThreadId, CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Execute()->dyn_PGM_get_CLIB_LeftHemishpore_WriteEnable_ServerInputReceive(),sysThreadId);
@@ -298,18 +298,18 @@
 			CLIB_LeftHemishpore_stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED(sysThreadId)->at(3) = !CLIB_LeftHemishpore_stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED(sysThreadId)->at(0) ;
 			CLIB_LeftHemishpore_stat_app_FUNCT_Calc_IsAllINSTANTIATED(sysThreadId);
 		}
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: slif : CLIB_LeftHemishpore : CLIB_LeftHemishpore_Framework_App_FUNCT_set_Items_Input_praise0(uint8_t* sysThreadId, const unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B)" << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemishpore : CLIB_LeftHemishpore_Framework_App_FUNCT_set_Items_Input_praise0(uint8_t* sysThreadId, const unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B)" << std::endl;
 
 	}
-	void slif::Epicentre::set_InputItemsFor_praise1(uint8_t* sysThreadId, unsigned char* handleId, unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B) {
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: slif : CLIB_LeftHemishpore : CLIB_LeftHemishpore_Framework_App_FUNCT_set_Items_Input_praise0(uint8_t* sysThreadId, const unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B)" << std::endl;
+	void zinc::Epicentre::set_InputItemsFor_praise1(uint8_t* sysThreadId, unsigned char* handleId, unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B) {
+		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemishpore : CLIB_LeftHemishpore_Framework_App_FUNCT_set_Items_Input_praise0(uint8_t* sysThreadId, const unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B)" << std::endl;
 		if (!CLIB_LeftHemishpore_stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED(sysThreadId)->at(0)) {
 			CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Execute()->dyn_PGM_get_CLIB_LeftHemishpore_WriteEnable_ServerInputReceive()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_DataStack_App(sysThreadId)->dyn_APP_FUNCT_write_Start(sysThreadId, CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Execute()->dyn_PGM_get_CLIB_LeftHemishpore_WriteEnable_ServerInputReceive(),sysThreadId);
 			CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Data(sysThreadId)->dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Input_at_ItemSideToWRITE_For_doubleBufferInput(CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId))->dyn_REG_set_ptr_CLIB_LeftHemishpore_STRUCT_Input_praiseEventId(CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbByteArray_To_MsbunsignedLongLong(sysThreadId, bytesPraiseId));
 			CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Data(sysThreadId)->dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Input_at_ItemSideToWRITE_For_doubleBufferInput(CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId))->dyn_APP_select_And_Set_LeftHemishpore_STRUCT_Input_Subset(CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId), CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbByteArray_To_MsbunsignedLongLong(sysThreadId, bytesPraiseId));
-			objInput_praise1 = reinterpret_cast<slif::CLIB_LeftHemishpore_STRUCT_Input_praise1*>(CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Data(sysThreadId)->dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Input_at_ItemSideToWRITE_For_doubleBufferInput(CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)));
-			objInput_praise1->dyn_REG_set_Item_Input_praise1_valueA(slif::CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbByteArray_To_MsbDouble(sysThreadId, bytesValue_A));
-			objInput_praise1->dyn_REG_set_Item_Input_praise1_valueB(slif::CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbByteArray_To_MsbDouble(sysThreadId, bytesValue_B));
+			objInput_praise1 = reinterpret_cast<zinc::CLIB_LeftHemishpore_STRUCT_Input_praise1*>(CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Data(sysThreadId)->dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Input_at_ItemSideToWRITE_For_doubleBufferInput(CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)));
+			objInput_praise1->dyn_REG_set_Item_Input_praise1_valueA(zinc::CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbByteArray_To_MsbDouble(sysThreadId, bytesValue_A));
+			objInput_praise1->dyn_REG_set_Item_Input_praise1_valueB(zinc::CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbByteArray_To_MsbDouble(sysThreadId, bytesValue_B));
 			CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Data(sysThreadId)->dyn_CLASS_get_ptr_dyn_STRUCT_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Control(sysThreadId)->app_FUNCT_flip_CLIB_LeftHemishpore_Framework_App_Data_Control_REG_Input_DoubleBuffer(CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId));
 			CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Data(sysThreadId)->dyn_CLASS_get_ptr_dyn_STRUCT_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Control(sysThreadId)->app_FUNCT_push_CLIB_LeftHemishpore_Framework_App_Data_Control_STACK_Of_Input(CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId));
 			CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Execute()->dyn_PGM_get_CLIB_LeftHemishpore_WriteEnable_ServerInputReceive()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_DataStack_App(sysThreadId)->dyn_APP_FUNCT_write_End(sysThreadId, CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Execute()->dyn_PGM_get_CLIB_LeftHemishpore_WriteEnable_ServerInputReceive(),sysThreadId);
@@ -318,18 +318,18 @@
 			CLIB_LeftHemishpore_stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED(sysThreadId)->at(3) = !CLIB_LeftHemishpore_stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED(sysThreadId)->at(0) ;
 			CLIB_LeftHemishpore_stat_app_FUNCT_Calc_IsAllINSTANTIATED(sysThreadId);
 		}
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: slif : CLIB_LeftHemishpore : CLIB_LeftHemishpore_Framework_App_FUNCT_set_Items_Input_praise0(uint8_t* sysThreadId, const unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B)" << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemishpore : CLIB_LeftHemishpore_Framework_App_FUNCT_set_Items_Input_praise0(uint8_t* sysThreadId, const unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B)" << std::endl;
 
 	}
-	void slif::Epicentre::set_InputItemsFor_praise2(uint8_t* sysThreadId, unsigned char* handleId, unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B) {
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: slif : CLIB_LeftHemishpore : CLIB_LeftHemishpore_Framework_App_FUNCT_set_Items_Input_praise0(uint8_t* sysThreadId, const unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B)" << std::endl;
+	void zinc::Epicentre::set_InputItemsFor_praise2(uint8_t* sysThreadId, unsigned char* handleId, unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B) {
+		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemishpore : CLIB_LeftHemishpore_Framework_App_FUNCT_set_Items_Input_praise0(uint8_t* sysThreadId, const unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B)" << std::endl;
 		if (!CLIB_LeftHemishpore_stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED(sysThreadId)->at(0)) {
 			CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Execute(sysThreadId)->dyn_PGM_get_CLIB_LeftHemishpore_WriteEnable_ServerInputReceive()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_DataStack_App(sysThreadId)->dyn_APP_FUNCT_write_Start(sysThreadId, temp,sysThreadId);
 			CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Data(sysThreadId)->dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Input_at_ItemSideToWRITE_For_doubleBufferInput(CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId))->dyn_REG_set_ptr_CLIB_LeftHemishpore_STRUCT_Input_praiseEventId(CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbByteArray_To_MsbunsignedLongLong(sysThreadId, bytesPraiseId));
 			CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Data(sysThreadId)->dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Input_at_ItemSideToWRITE_For_doubleBufferInput(CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId))->dyn_APP_select_And_Set_LeftHemishpore_STRUCT_Input_Subset(CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId), CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbByteArray_To_MsbunsignedLongLong(sysThreadId, bytesPraiseId));
-			objInput_praise2 = reinterpret_cast<slif::CLIB_LeftHemishpore_STRUCT_Input_praise2*>(CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Data(sysThreadId)->dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Input_at_ItemSideToWRITE_For_doubleBufferInput(CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)));
-			objInput_praise2->dyn_REG_set_Item_Input_praise2_valueA(sysThreadId, slif::CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbByteArray_To_MsbDouble(sysThreadId, bytesValue_A));
-			objInput_praise2->dyn_REG_set_Item_Input_praise2_valueB(sysThreadId, slif::CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbByteArray_To_MsbDouble(sysThreadId, bytesValue_B));
+			objInput_praise2 = reinterpret_cast<zinc::CLIB_LeftHemishpore_STRUCT_Input_praise2*>(CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Data(sysThreadId)->dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Input_at_ItemSideToWRITE_For_doubleBufferInput(CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)));
+			objInput_praise2->dyn_REG_set_Item_Input_praise2_valueA(sysThreadId, zinc::CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbByteArray_To_MsbDouble(sysThreadId, bytesValue_A));
+			objInput_praise2->dyn_REG_set_Item_Input_praise2_valueB(sysThreadId, zinc::CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbByteArray_To_MsbDouble(sysThreadId, bytesValue_B));
 			CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Data(sysThreadId)->dyn_CLASS_get_ptr_dyn_STRUCT_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Control(sysThreadId)->app_FUNCT_flip_CLIB_LeftHemishpore_Framework_App_Data_Control_REG_Input_DoubleBuffer(CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId));
 			CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Data(sysThreadId)->dyn_CLASS_get_ptr_dyn_STRUCT_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Control(sysThreadId)->app_FUNCT_push_CLIB_LeftHemishpore_Framework_App_Data_Control_STACK_Of_Input(CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId));
 			CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Execute(sysThreadId)->dyn_PGM_get_CLIB_LeftHemishpore_WriteEnable_ServerInputReceive()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_DataStack_App(sysThreadId)->dyn_APP_FUNCT_write_End(sysThreadId, CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Execute()->dyn_PGM_get_CLIB_LeftHemishpore_WriteEnable_ServerInputReceive(),sysThreadId);
@@ -338,18 +338,18 @@
 			CLIB_LeftHemishpore_stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED(sysThreadId)->at(3) = !CLIB_LeftHemishpore_stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED(sysThreadId)->at(0) ;
 			CLIB_LeftHemishpore_stat_app_FUNCT_Calc_IsAllINSTANTIATED(sysThreadId);
 		}
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: slif : CLIB_LeftHemishpore : CLIB_LeftHemishpore_Framework_App_FUNCT_set_Items_Input_praise0(uint8_t* sysThreadId, const unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B)." << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemishpore : CLIB_LeftHemishpore_Framework_App_FUNCT_set_Items_Input_praise0(uint8_t* sysThreadId, const unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B)." << std::endl;
 
 	}
-	void slif::Epicentre::set_InputItemsFor_praise3(uint8_t* sysThreadId, unsigned char* handleId, unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B) {
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: slif : CLIB_LeftHemishpore : CLIB_LeftHemishpore_Framework_App_FUNCT_set_Items_Input_praise0(uint8_t* sysThreadId, const unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B)." << std::endl;
+	void zinc::Epicentre::set_InputItemsFor_praise3(uint8_t* sysThreadId, unsigned char* handleId, unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B) {
+		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemishpore : CLIB_LeftHemishpore_Framework_App_FUNCT_set_Items_Input_praise0(uint8_t* sysThreadId, const unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B)." << std::endl;
 		if (!CLIB_LeftHemishpore_stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED(sysThreadId)->at(0)) {
 			CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Execute()->dyn_PGM_get_CLIB_LeftHemishpore_WriteEnable_ServerInputReceive()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_DataStack_App(sysThreadId)->dyn_APP_FUNCT_write_Start(sysThreadId, temp,sysThreadId);
-			CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Data(sysThreadId)->dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Input_at_ItemSideToWRITE_For_doubleBufferInput(CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId))->dyn_REG_set_ptr_CLIB_LeftHemishpore_STRUCT_Input_praiseEventId(slif::CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbByteArray_To_MsbunsignedLongLong(sysThreadId, bytesPraiseId));
+			CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Data(sysThreadId)->dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Input_at_ItemSideToWRITE_For_doubleBufferInput(CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId))->dyn_REG_set_ptr_CLIB_LeftHemishpore_STRUCT_Input_praiseEventId(zinc::CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbByteArray_To_MsbunsignedLongLong(sysThreadId, bytesPraiseId));
 			CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Data(sysThreadId)->dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Input_at_ItemSideToWRITE_For_doubleBufferInput(CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId))->dyn_APP_select_And_Set_LeftHemishpore_STRUCT_Input_Subset(CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId), CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbByteArray_To_MsbunsignedLongLong(sysThreadId, bytesPraiseId));
-			objInput_praise3 = reinterpret_cast<slif::CLIB_LeftHemishpore_STRUCT_Input_praise3*>(CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Data(sysThreadId)->dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Input_at_ItemSideToWRITE_For_doubleBufferInput(CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)));
-			objInput_praise3->dyn_REG_set_Item_Input_praise3_valueA(slif::CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbByteArray_To_MsbDouble(sysThreadId, bytesValue_A));
-			objInput_praise3->dyn_REG_set_Item_Input_praise3_valueB(slif::CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbByteArray_To_MsbDouble(sysThreadId, bytesValue_B));
+			objInput_praise3 = reinterpret_cast<zinc::CLIB_LeftHemishpore_STRUCT_Input_praise3*>(CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Data(sysThreadId)->dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Input_at_ItemSideToWRITE_For_doubleBufferInput(CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)));
+			objInput_praise3->dyn_REG_set_Item_Input_praise3_valueA(zinc::CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbByteArray_To_MsbDouble(sysThreadId, bytesValue_A));
+			objInput_praise3->dyn_REG_set_Item_Input_praise3_valueB(zinc::CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbByteArray_To_MsbDouble(sysThreadId, bytesValue_B));
 			CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Data(sysThreadId)->dyn_CLASS_get_ptr_dyn_STRUCT_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Control(sysThreadId)->app_FUNCT_flip_CLIB_LeftHemishpore_Framework_App_Data_Control_REG_Input_DoubleBuffer(CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId));
 			CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Data(sysThreadId)->dyn_CLASS_get_ptr_dyn_STRUCT_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Control(sysThreadId)->app_FUNCT_push_CLIB_LeftHemishpore_Framework_App_Data_Control_STACK_Of_Input(CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId));
 			CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Execute()->dyn_PGM_get_CLIB_LeftHemishpore_WriteEnable_ServerInputReceive()->dyn_CLASS_get_ptr_WriteEnableForThreadsAt_DataStack_App(sysThreadId)->dyn_APP_FUNCT_write_End(sysThreadId, CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Execute()->dyn_PGM_get_CLIB_LeftHemishpore_WriteEnable_ServerInputReceive(),sysThreadId);
@@ -358,23 +358,23 @@
 			CLIB_LeftHemishpore_stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED(sysThreadId)->at(3) = !CLIB_LeftHemishpore_stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED(sysThreadId)->at(0);
 			CLIB_LeftHemishpore_stat_app_FUNCT_Calc_IsAllINSTANTIATED(sysThreadId);
 		}
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: slif : CLIB_LeftHemishpore : CLIB_LeftHemishpore_Framework_App_FUNCT_set_Items_Input_praise0(uint8_t* sysThreadId, const unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B)." << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemishpore : CLIB_LeftHemishpore_Framework_App_FUNCT_set_Items_Input_praise0(uint8_t* sysThreadId, const unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B)." << std::endl;
 	}
-	void slif::Epicentre::set_MetaData_PraiseEventId(uint8_t* sysThreadId, unsigned char* handleId) {
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: slif : CLIB_LeftHemishpore : CLIB_LeftHemishpore_io_PRAISE_set_MetaData_PraiseEventId(sysThreadId)." << std::endl;
+	void zinc::Epicentre::set_MetaData_PraiseEventId(uint8_t* sysThreadId, unsigned char* handleId) {
+		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemishpore : CLIB_LeftHemishpore_io_PRAISE_set_MetaData_PraiseEventId(sysThreadId)." << std::endl;
 		if (!CLIB_LeftHemishpore_stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED(sysThreadId)->at(0)) {
-			std::cout << "thread " << std::to_string(*sysThreadId) << " ::<= slif : CLIB_LeftHemishpore : CLIB_LeftHemishpore_io_PRAISE_set_MetaData_PraiseEventId(sysThreadId) = PRIMED." << std::endl;
+			std::cout << "thread " << std::to_string(*sysThreadId) << " ::<= zinc : CLIB_LeftHemishpore : CLIB_LeftHemishpore_io_PRAISE_set_MetaData_PraiseEventId(sysThreadId) = PRIMED." << std::endl;
 			CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Data(sysThreadId)->dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Input_at_ItemSideToWRITE_For_doubleBufferInput(CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId))->dyn_REG_set_ptr_CLIB_LeftHemishpore_STRUCT_Input_praiseEventId(CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbByteArray_To_MsbunsignedLongLong(bytes));
 		}
 		else {
-			std::cout << "thread " << std::to_string(*sysThreadId) << " ::<= slif : CLIB_LeftHemishpore : CLIB_LeftHemishpore_io_PRAISE_set_MetaData_PraiseEventId(sysThreadId) = PRIMING." << std::endl;
+			std::cout << "thread " << std::to_string(*sysThreadId) << " ::<= zinc : CLIB_LeftHemishpore : CLIB_LeftHemishpore_io_PRAISE_set_MetaData_PraiseEventId(sysThreadId) = PRIMING." << std::endl;
 			CLIB_LeftHemishpore_stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED(sysThreadId)->at(27) = !CLIB_LeftHemishpore_stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED(sysThreadId)->at(0) ;
 			CLIB_LeftHemishpore_stat_app_FUNCT_Calc_IsAllINSTANTIATED(sysThreadId);
 		}
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: slif : CLIB_LeftHemishpore : CLIB_LeftHemishpore_io_PRAISE_set_MetaData_PraiseEventId(sysThreadId)." << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemishpore : CLIB_LeftHemishpore_io_PRAISE_set_MetaData_PraiseEventId(sysThreadId)." << std::endl;
 	}
-	void slif::Epicentre::terminateProgram(uint8_t* sysThreadId) {
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: slif : CLIB_LeftHemishpore : CLIB_LeftHemishpore_Framework_App_FUNCT_terminate_Program(sysThreadId)." << std::endl;
+	void zinc::Epicentre::terminateProgram(uint8_t* sysThreadId) {
+		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemishpore : CLIB_LeftHemishpore_Framework_App_FUNCT_terminate_Program(sysThreadId)." << std::endl;
 		if (!CLIB_LeftHemishpore_stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED(sysThreadId)->at(0)) {
 			delete stat_CLASS_CLIB_LeftHemishpore_Framework;
 			delete stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED;
@@ -391,10 +391,10 @@
 			CLIB_LeftHemishpore_stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED(sysThreadId)->at(4) = !CLIB_LeftHemishpore_stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED(sysThreadId)->at(0) ;
 			CLIB_LeftHemishpore_stat_app_FUNCT_Calc_IsAllINSTANTIATED(sysThreadId);
 		}
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: slif : CLIB_LeftHemishpore : CLIB_LeftHemishpore_Framework_App_FUNCT_terminate_Program(sysThreadId)." << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemishpore : CLIB_LeftHemishpore_Framework_App_FUNCT_terminate_Program(sysThreadId)." << std::endl;
 	}
 // private.
-	void slif::Epicentre::CLIB_LeftHemishpore_stat_app_FUNCT_Calc_IsAllINSTANTIATED(uint8_t* sysThreadId) {
+	void zinc::Epicentre::CLIB_LeftHemishpore_stat_app_FUNCT_Calc_IsAllINSTANTIATED(uint8_t* sysThreadId) {
 		CLIB_LeftHemishpore_stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED(sysThreadId)->at(0) = false;
 		for (int memberFunctionId = 1; memberFunctionId < sizeof(*CLIB_LeftHemishpore_stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED(sysThreadId)); memberFunctionId++) {
 			if (CLIB_LeftHemishpore_stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED(sysThreadId)->at(memberFunctionId)) {
@@ -408,24 +408,24 @@
 		std::cout<< std::endl;
 
 	}
-	void slif::Epicentre::CLIB_LeftHemishpore_stat_CLASS_boot1_DEFINE_Framework(uint8_t* sysThreadId)
+	void zinc::Epicentre::CLIB_LeftHemishpore_stat_CLASS_boot1_DEFINE_Framework(uint8_t* sysThreadId)
 	{
 		stat_CLASS_CLIB_LeftHemishpore_Framework = nullptr;
 	}
-	void slif::Epicentre::CLIB_LeftHemishpore_stat_CLASS_boot3_INITIALISE_Framework(uint8_t* sysThreadId) {
-		stat_CLASS_CLIB_LeftHemishpore_Framework = new class slif::CLIB_LeftHemishpore_Framework(sysThreadId);
+	void zinc::Epicentre::CLIB_LeftHemishpore_stat_CLASS_boot3_INITIALISE_Framework(uint8_t* sysThreadId) {
+		stat_CLASS_CLIB_LeftHemishpore_Framework = new class zinc::CLIB_LeftHemishpore_Framework(sysThreadId);
 		while (CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, handleId) == nullptr) {}
 	}
-	slif::CLIB_LeftHemishpore_Framework* slif::Epicentre::CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(uint8_t* sysThreadId, int* handleId) {
+	zinc::CLIB_LeftHemishpore_Framework* zinc::Epicentre::CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(uint8_t* sysThreadId, int* handleId) {
 		auto temp = stat_CLASS_CLIB_LeftHemishpore_Framework->begin();
 		std::advance(temp, *handleId);
 		return *temp;
 	}
-	void slif::Epicentre::CLIB_LeftHemishpore_stat_REG_boot1_DEFINE_CLIB_LeftHemishpore_isFLAG_INSTANTIATED(uint8_t* sysThreadId)
+	void zinc::Epicentre::CLIB_LeftHemishpore_stat_REG_boot1_DEFINE_CLIB_LeftHemishpore_isFLAG_INSTANTIATED(uint8_t* sysThreadId)
 	{
 		stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED = nullptr;
 	}
-	void slif::Epicentre::CLIB_LeftHemishpore_stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_isFLAG_INSTANTIATED(uint8_t* sysThreadId) {
+	void zinc::Epicentre::CLIB_LeftHemishpore_stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_isFLAG_INSTANTIATED(uint8_t* sysThreadId) {
 		stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED = new std::array<bool, 28>();
 		for (int index = 0; index < sizeof(*CLIB_LeftHemishpore_stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED(sysThreadId)); index++) {
 			auto temp = CLIB_LeftHemishpore_stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED(sysThreadId)->begin();
@@ -433,13 +433,13 @@
 			*temp = true;
 		}
 	}
-	void slif::Epicentre::CLIB_LeftHemishpore_stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_isFLAG_INSTANTIATED(uint8_t* sysThreadId) {
+	void zinc::Epicentre::CLIB_LeftHemishpore_stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_isFLAG_INSTANTIATED(uint8_t* sysThreadId) {
 		for (int index = 0; index < sizeof(*CLIB_LeftHemishpore_stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED(sysThreadId)); index++) {
 			auto temp = CLIB_LeftHemishpore_stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED(sysThreadId)->begin();
 			std::advance(temp, index);
 			*temp = true;
 		}
 	}
-	std::array<bool, 13>* slif::Epicentre::CLIB_LeftHemishpore_stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED(uint8_t* sysThreadId) {
+	std::array<bool, 13>* zinc::Epicentre::CLIB_LeftHemishpore_stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED(uint8_t* sysThreadId) {
 		return stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED;
 	}

@@ -2,7 +2,7 @@
 #define CLIB_CLIB_PACKAGE_MUTEXQUE_FRAMEWORK_GLOBAL_H
 #include <array>
 #include <cstdint>
-namespace slif {
+namespace zinc {
     class CLIB_MutexQue_Framework_Global {
     public:
         CLIB_MutexQue_Framework_Global(uint8_t* sysThreadId);

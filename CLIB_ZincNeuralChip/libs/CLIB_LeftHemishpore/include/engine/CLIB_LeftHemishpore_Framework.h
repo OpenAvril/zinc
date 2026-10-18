@@ -8,7 +8,7 @@
 #include "../independent/CLIB_LeftHemishpore_STRUCT_User_Algorithm.h"
 #include "../independent/CLIB_LeftHemishpore_STRUCT_User_Input.h"
 #include "../independent/CLIB_LeftHemishpore_STRUCT_User_Output.h"
-namespace slif {
+namespace zinc {
     class CLIB_LeftHemishpore_Framework {
     public:
         CLIB_LeftHemishpore_Framework(uint8_t* sysThreadId);

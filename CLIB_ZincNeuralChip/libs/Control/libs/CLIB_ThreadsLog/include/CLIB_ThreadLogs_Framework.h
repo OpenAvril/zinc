@@ -3,7 +3,7 @@
 #include "CLIB_ThreadLogs_Framework_App.h"
 #include "CLIB_ThreadLogs_Framework_Global.h"
 #include <cstdint>
-namespace slif {
+namespace zinc {
     class CLIB_ThreadLogs_Framework {
     public:
         CLIB_ThreadLogs_Framework(uint8_t* sysThreadId);

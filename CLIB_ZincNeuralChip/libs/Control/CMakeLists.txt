@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 4.2.3)
-project(slif_control VERSION 1.0 LANGUAGES CXX)
+project(zinc_control VERSION 1.0 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -45,7 +45,7 @@ target_include_directories(${PROJECT_NAME}
 )
 
 target_link_libraries(${PROJECT_NAME} PRIVATE
-        slif_control_mutex_que
-        slif_control_sys_threads_log
-        slif_control_launch_que
+        zinc_control_mutex_que
+        zinc_control_sys_threads_log
+        zinc_control_launch_que
 )

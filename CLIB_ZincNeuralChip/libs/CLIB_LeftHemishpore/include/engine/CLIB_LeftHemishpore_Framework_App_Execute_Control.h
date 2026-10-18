@@ -4,7 +4,7 @@
 #include <array>
 #include <cstdint>
 #include <thread>
-namespace slif {
+namespace zinc {
     class CLIB_LeftHemishpore_Framework_App_Execute_Control {
     public:
         CLIB_LeftHemishpore_Framework_App_Execute_Control(uint8_t* sysThreadId);

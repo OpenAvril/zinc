@@ -2,7 +2,7 @@
 #define CLIB_OPENEPICENTRE_FRAMEWORK_APP_EXECUTE_H
 #include "CLIB_LeftHemishpore_Framework.h"
 #include "CLIB_LeftHemishpore_Framework_App_Execute_Control.h"
-namespace slif {
+namespace zinc {
     class CLIB_LeftHemishpore_Framework_App_Execute {
     public:
         CLIB_LeftHemishpore_Framework_App_Execute(uint8_t* sysThreadId);

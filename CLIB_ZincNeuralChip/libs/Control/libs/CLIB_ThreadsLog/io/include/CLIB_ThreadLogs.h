@@ -5,7 +5,7 @@
 #include <list>
 #include <string>
 extern "C" {
-    namespace slif {
+    namespace zinc {
         class ThreadLogs {
             public:
             static void generateProgram(uint8_t* sysThreadId);

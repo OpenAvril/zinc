@@ -4,7 +4,7 @@
 #include "praise_sets/CLIB_LeftHemishpore_STRUCT_Algorithm_praise1.h"
 #include "praise_sets/CLIB_LeftHemishpore_STRUCT_Algorithm_praise2.h"
 #include "praise_sets/CLIB_LeftHemishpore_STRUCT_Algorithm_praise3.h"
-namespace slif {
+namespace zinc {
 	struct CLIB_LeftHemishpore_STRUCT_User_Algorithm {
 	public:
 		class Object* dyn_CLASS_get_CLIB_LeftHemishpore_STRUCT_UserAlgorithm_Item_On_List_Of_ptr_PraiseAlgorithmSubsets(uint8_t* sysThreadId, unsigned long long* praiseId);

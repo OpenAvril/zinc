@@ -6,7 +6,7 @@
 #include "../independent/CLIB_LeftHemishpore_STRUCT_Output.h"
 #include <array>
 #include <vector>
-namespace slif {
+namespace zinc {
     class CLIB_LeftHemishpore_Framework_App_Data {
      public:
         CLIB_LeftHemishpore_Framework_App_Data(uint8_t* sysThreadId);

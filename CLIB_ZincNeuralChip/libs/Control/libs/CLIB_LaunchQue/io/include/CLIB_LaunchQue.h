@@ -4,7 +4,7 @@
 #include <array>
 #include <cstdint>
 extern "C" {
-    namespace slif {
+    namespace zinc {
         class LaunchQue {
         public:
             static int* generateHandle(uint8_t* sysThreadId);
@@ -26,8 +26,8 @@ extern "C" {
             static void CLIB_LaunchQue_stat_app_FUNCT_Calc_IsAllINSTANTIATED(uint8_t* sysThreadId);
             static void CLIB_LaunchQue_stat_boot1_CLASS_DEFINE_List_Of_PGM_CLIB_LaunchQue_Framework(uint8_t* sysThreadId);
             static void CLIB_LaunchQue_stat_boot3_CLASS_INITIALISE_List_Of_PGM_CLIB_LaunchQue_Framework(uint8_t* sysThreadId);
-            static std::list<class slif::CLIB_LaunchQue_Framework*>* CLIB_LaunchQue_stat_REG_get_ptr_List_Of_PGM_CLIB_LaunchQue(uint8_t* sysThreadId);
-            static class slif::CLIB_LaunchQue_Framework* CLIB_LaunchQue_stat_CLASS_get_ptr_PGM_CLIB_LaunchQue_Framework(uint8_t* sysThreadId, int* handleId);
+            static std::list<class zinc::CLIB_LaunchQue_Framework*>* CLIB_LaunchQue_stat_REG_get_ptr_List_Of_PGM_CLIB_LaunchQue(uint8_t* sysThreadId);
+            static class zinc::CLIB_LaunchQue_Framework* CLIB_LaunchQue_stat_CLASS_get_ptr_PGM_CLIB_LaunchQue_Framework(uint8_t* sysThreadId, int* handleId);
             static void CLIB_LaunchQue_stat_REG_boot1_DEFINE_flag_isMemberFunctionINSTANTIATED(uint8_t* sysThreadId);
             static void CLIB_LaunchQue_stat_REG_boot2_SUBSTANTIATE_flag_isMemberFunctionINSTANTIATED(uint8_t* sysThreadId);
             static void CLIB_LaunchQue_stat_REG_boot3_INITIALISE_flag_isMemberFunctionINSTANTIATED(uint8_t* sysThreadId);

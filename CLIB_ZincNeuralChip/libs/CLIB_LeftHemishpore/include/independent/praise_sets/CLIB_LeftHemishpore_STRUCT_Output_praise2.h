@@ -1,7 +1,7 @@
 #ifndef CLIB_OPENEPICENTRE_STRUCT_OUTPUT_PRAISE2_H
 #define CLIB_OPENEPICENTRE_STRUCT_OUTPUT_PRAISE2_H
 #include <cstdint>
-namespace slif {
+namespace zinc {
     struct CLIB_LeftHemishpore_STRUCT_Output_praise2 {
     public:
         void dyn_REG_boot1_DEFINE_CLIB_LeftHemishpore_STRUCT_Output_praise2(std::uint8_t* sysThreadId);

@@ -2,7 +2,7 @@
 #define CLIB_OPENEPICENTRE_STRUCT_CONCURRENT_H
 #include "../engine/CLIB_LeftHemishpore_Framework.h"
 #include <cstdint>
-namespace slif {
+namespace zinc {
     struct CLIB_LeftHemishpore_STRUCT_Concurrent {
     public:
         void app_do_Concurrent_Algorithm_For_PraiseEventId(uint8_t* sysThreadId, class CLIB_LeftHemishpore_Framework* obj, uint8_t* playerId, unsigned long long* praiseEventId, class Object* ptr_Input_Subset, class Object* ptr_Output_Subset);

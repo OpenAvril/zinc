@@ -3,7 +3,7 @@
 #include "CLIB_LeftHemishpore_Framework_App_Algorithms.h"
 #include "CLIB_LeftHemishpore_Framework_App_Data.h"
 #include "CLIB_LeftHemishpore_Framework_App_Execute.h"
-namespace slif {
+namespace zinc {
     class CLIB_LeftHemishpore_Framework_App {
     public:
         CLIB_LeftHemishpore_Framework_App(uint8_t* sysThreadId);
