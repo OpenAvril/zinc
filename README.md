@@ -82,9 +82,13 @@ CLIB Concurrent Server with independent task threads and IO wrapper.
 - **Super-Ego**           : binary neural Directive Feng Shui Karmas.
 
 
-#### Id : binary neural algorithms. : left hemisphore as self requested tasks, right hemisphore as communicated tasks; for 'slif_epicentre'.
+#### Id : binary neural algorithms.
+slif_epicentre INJECTION paths:
+  - left hemisphore as self requested tasks. 
+  - right hemisphore as communicated tasks.
 
 #### Ego : binary neural controls.
+  - BOOLEAN states of "desire" = 'active', 'idle'., for all 'praise-Id' events.
 
 #### SuperEgo: binary neural Directive Feng Shui Karmas.
   - Scorpio - Trust in Truth.
@@ -191,4 +195,3 @@ cmake --build build
 ### Wrapper Imports and Native IO.
 
 ---
-
