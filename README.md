@@ -64,9 +64,9 @@ CLIB Concurrent Server with independent task threads and IO wrapper.
 ### In A Unified Image
 - Id                  : binary neural algorithms. : left hemisphore as self requested tasks, right hemisphore as communicated tasks; for 'slif_epicentre'.
 - Ego                 : binary neural controls.
-- Super-Ego           : binary neural desires.
+- Super-Ego           : binary neural feng shui.
 
-#### SuperEgo Directive Karmas.
+#### SuperEgo Directive Feng Shui Karmas.
   - Scorpio - Trust in Truth.
   - Sagittarius - Intellect in Intuition.
   - Capricorn - Expression in Perception.
