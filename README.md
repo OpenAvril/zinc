@@ -71,18 +71,22 @@ CLIB Concurrent Server with independent task threads and IO wrapper.
 
 ---
 ---
-## slif_zinc_neural_chip: Hemisphoric Binary Neural Networking.
-### Zinc Insulate Neural Chip
+## zinc - Zinc Insulate Neural Chip.
   - 3x Zones: Id, Ego, SuperEgo.
   - 2x Hemisphores; Left, Right. per Zone, and 'x' number of Junctions to all parts of the Hemisphore.
   - [(x/2)^2 - (x/2)] number of Busses.
 
 ### In A Unified Image
-- Id                  : binary neural algorithms. : left hemisphore as self requested tasks, right hemisphore as communicated tasks; for 'slif_epicentre'.
-- Ego                 : binary neural controls.
-- Super-Ego           : binary neural feng shui.
+- **Id**                  : binary neural algorithms. : left hemisphore as self requested tasks, right hemisphore as communicated tasks; for 'slif_epicentre'.
+- **Ego**                 : binary neural controls.
+- **Super-Ego**           : binary neural Directive Feng Shui Karmas.
 
-#### SuperEgo Directive Feng Shui Karmas.
+
+#### Id : binary neural algorithms. : left hemisphore as self requested tasks, right hemisphore as communicated tasks; for 'slif_epicentre'.
+
+#### Ego : binary neural controls.
+
+#### SuperEgo: binary neural Directive Feng Shui Karmas.
   - Scorpio - Trust in Truth.
   - Sagittarius - Intellect in Intuition.
   - Capricorn - Expression in Perception.
