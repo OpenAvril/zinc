@@ -171,7 +171,7 @@ sudo snap install clion --classic
 
 #### CLion: Clone from GuitHub.
  - File - > New -> Project from Version Control.
- - URL : user entry "https://github.com/OpenAvril/slif.git"
+ - URL : user entry https://github.com/OpenAvril/zinc
 
    ---
 ## Building - Compiler Terminal Commands.
