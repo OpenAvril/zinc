@@ -105,6 +105,10 @@ slif_epicentre INJECTION paths:
   - Libra - Balance in Harmony.
  
 ---
+---
+## slif::zinc : Zinc Insualte Neural Chip.
+
+---
 ### slif_control.
 - Optimus: Package INSTANTIATION Primer.
 
@@ -126,7 +130,8 @@ slif_epicentre INJECTION paths:
 * Left Hemisphore Logic Task Result Deducer: CLIB Concurrent Server with independent task threads and IO wrapper.
 
 ---
-### slif::zinc : Zinc Insualte Neural Chip.
+### slif::intuition : Right Hemisphore.
+* Right Hemisphore Intuition antennia array.
 
 
 ---
