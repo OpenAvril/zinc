@@ -16,8 +16,8 @@ A master by coursework with five specialisation electives, I propose Convener of
 
 ---
 * MutexQue:
-
-Exclusive Cohesion Mutex Queue:
+  
+Exclusive Cohesion Mutex Queue:   
 
 CLIB Request, Wait, Write-Read for 'ThreadId' at 'DataCluster'.
 
@@ -31,14 +31,14 @@ CLIB Request, Wait, Launch for 'ThreadId' at Server-Client.
 
 
 * ThreadsLog:
-
+  
 Neural Chip Thread Logging:
-
+     
 CLIB Console output via MutexQue, DataCluster is 'Console'.
 
 * Stemisphore:
-
-System Bussing for Zinc Neural Hemisphoric Chip:
+  
+System Bussing for Zinc Neural Hemisphoric Chip:  
 
 CLIB Concurrent System Bussing.
 
@@ -47,19 +47,19 @@ Open Concurrent SCADA.
 Triple MutexQue into a set/get data buffer.
 
 * LeftHemisphore:
-
-Left Hemisphore Logic Task Result Deducer:
+  
+Left Hemisphore Logic Task Result Deducer:      
 
 CLIB Concurrent Server with independent task threads and IO wrapper.
 
 * RightHemisphore:
-
+ 
 ---
 ## slif_zinc_neural_chip: Hemisphoric Binary Neural Networking.
 ### Zinc Insulate Neural Chip
-- 3x Zones: Id, Ego, SuperEgo.
-- 2x Hemisphores; Left, Right. per Zone, and 'x' number of Junctions to all parts of the Hemisphore.
-- [(x/2)^2 - (x/2)] number of Busses.
+  - 3x Zones: Id, Ego, SuperEgo.
+  - 2x Hemisphores; Left, Right. per Zone, and 'x' number of Junctions to all parts of the Hemisphore.
+  - [(x/2)^2 - (x/2)] number of Busses.
 
 ### In A Unified Image
 - Id                  : binary neural algorithms. : left hemisphore as self requested tasks, right hemisphore as communicated tasks; for 'slif_epicentre'.
@@ -67,19 +67,19 @@ CLIB Concurrent Server with independent task threads and IO wrapper.
 - Super-Ego           : binary neural feng shui.
 
 #### SuperEgo Directive Feng Shui Karmas.
-- Scorpio - Trust in Truth.
-- Sagittarius - Intellect in Intuition.
-- Capricorn - Expression in Perception.
-- Aquarius - Wisdom in Thought.
-- Pisces - Flexible in Adapting.
-- Aries - Assertive in Motivation.
-- Taurus - Power in Momentum.
-- Gemini - Adaptable in Intellect.
-- Cancer - Comfort in Emotion.
-- Leo - Manifestation in Thought
-- Virgo - Interlect in Emotion.
-- Libra - Balance in Harmony.
-
+  - Scorpio - Trust in Truth.
+  - Sagittarius - Intellect in Intuition.
+  - Capricorn - Expression in Perception.
+  - Aquarius - Wisdom in Thought.
+  - Pisces - Flexible in Adapting.
+  - Aries - Assertive in Motivation.
+  - Taurus - Power in Momentum.
+  - Gemini - Adaptable in Intellect.
+  - Cancer - Comfort in Emotion.
+  - Leo - Manifestation in Thought
+  - Virgo - Interlect in Emotion.
+  - Libra - Balance in Harmony.
+ 
 ---
 #### slif_control.
 - Optimus: Package INSTANTIATION Primer.
@@ -146,10 +146,10 @@ sudo snap install clion --classic
 
 
 #### CLion: Clone from GuitHub.
-- File - > New -> Project from Version Control.
-- URL : user entry "https://github.com/OpenAvril/slif.git"
+ - File - > New -> Project from Version Control.
+ - URL : user entry "https://github.com/OpenAvril/slif.git"
 
-  ---
+   ---
 ## Building - Compiler Terminal Commands.
 ### CLIB_LaunchEnableForConcurrentThreadsAt_END.so
 
