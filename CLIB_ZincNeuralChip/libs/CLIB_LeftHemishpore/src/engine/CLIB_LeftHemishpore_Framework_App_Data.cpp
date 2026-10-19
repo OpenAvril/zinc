@@ -78,14 +78,14 @@
         std::advance(temp, *CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_Bool_To_Int(sysThreadId,obj->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Data(sysThreadId)->dyn_CLASS_get_ptr_dyn_STRUCT_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Control(sysThreadId)->dyn_REG_get_ItemSideToWRITE_For_doubleBufferOfOutput(sysThreadId)));
         return *temp;
     }
-    zinc::CLIB_LeftHemishpore_STRUCT_Input* zinc::CLIB_LeftHemishpore_Framework_App_Data::dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Item_Of_list_Of_ptr_array_Of_buffer_Input_ReferenceForThread(uint8_t* sysThreadId, uint8_t concurrentThreadId) {
+    zinc::CLIB_LeftHemishpore_STRUCT_Input* zinc::CLIB_LeftHemishpore_Framework_App_Data::dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Item_Of_list_Of_ptr_array_Of_buffer_Input_ReferenceForThread(uint8_t* sysThreadId, uint8_t* concurrentThreadId) {
         auto temp = stat_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_array_Of_buffer_Input_ReferenceForThread(sysThreadId)->begin();
-        std::advance(temp, concurrentThreadId);
+        std::advance(temp, *concurrentThreadId);
         return *temp;
     }
-    zinc::CLIB_LeftHemishpore_STRUCT_Output* zinc::CLIB_LeftHemishpore_Framework_App_Data::dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Item_Of_list_Of_ptr_array_Of_buffer_Output_ReferenceForThread(uint8_t* sysThreadId, uint8_t concurrentThreadId) {
+    zinc::CLIB_LeftHemishpore_STRUCT_Output* zinc::CLIB_LeftHemishpore_Framework_App_Data::dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Item_Of_list_Of_ptr_array_Of_buffer_Output_ReferenceForThread(uint8_t* sysThreadId, uint8_t* concurrentThreadId) {
         auto temp = stat_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_array_Of_buffer_Output_ReferenceForThread(sysThreadId)->begin();
-        std::advance(temp, concurrentThreadId);
+        std::advance(temp, *concurrentThreadId);
         return *temp;
     }
     zinc::CLIB_LeftHemishpore_STRUCT_Input* zinc::CLIB_LeftHemishpore_Framework_App_Data::dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Item_On_vector_Of_stack_Of_InputPraise(uint8_t* sysThreadId, unsigned long long* slot) {
@@ -227,14 +227,14 @@
     }
     void zinc::CLIB_LeftHemishpore_Framework_App_Data::stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_App_Data_stack_Of_InputPraise(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj) {
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_App_Data_stack_Of_InputPraise(sysThreadId) " << std::endl;
-        stat_REG_ptr_vector_Of_stack_Of_InputPraise = new std::vector<zinc::CLIB_LeftHemishpore_STRUCT_Input*>(sysThreadId);
+        stat_REG_ptr_vector_Of_stack_Of_InputPraise = new std::vector<zinc::CLIB_LeftHemishpore_STRUCT_Input*>();
         while (stat_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_vector_Of_stack_Of_InputPraise(sysThreadId) == nullptr) {}
         *stat_REG_ptr_vector_Of_stack_Of_InputPraise = { nullptr };
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_App_Data_stack_Of_InputPraise(sysThreadId) " << std::endl;
     }
     void zinc::CLIB_LeftHemishpore_Framework_App_Data::stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_App_Data_stack_Of_OutputPraise(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj) {
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_App_Data_stack_Of_OutputPraise(sysThreadId) " << std::endl;
-        stat_REG_ptr_vector_Of_stack_Of_OutputPraise = new std::vector<zinc::CLIB_LeftHemishpore_STRUCT_Output*>(sysThreadId);
+        stat_REG_ptr_vector_Of_stack_Of_OutputPraise = new std::vector<zinc::CLIB_LeftHemishpore_STRUCT_Output*>();
         while (stat_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_vector_Of_stack_Of_OutputPraise(sysThreadId) == nullptr) {}
         *stat_REG_ptr_vector_Of_stack_Of_OutputPraise = { nullptr };
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_App_Data_stack_Of_OutputPraise(sysThreadId) " << std::endl;
@@ -259,22 +259,22 @@
     }
     void zinc::CLIB_LeftHemishpore_Framework_App_Data::stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_App_Data_array_Of_buffer_ItemSide_For_doubleBufferInput(uint8_t* sysThreadId, struct zinc::CLIB_LeftHemishpore_STRUCT_Input* objInput) {
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_App_Data_side_To_Write_For_doubleBuffer_Input(sysThreadId) " << std::endl;
-        *_stat_REG_ptr_array_Of_buffer_ItemSide_For_doubleBufferInput = { objInput, objInput };
+        *stat_REG_ptr_array_Of_buffer_ItemSide_For_doubleBufferInput = { objInput, objInput };
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_App_Data_side_To_Write_For_doubleBuffer_Input(sysThreadId) " << std::endl;
     }
     void zinc::CLIB_LeftHemishpore_Framework_App_Data::stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_App_Data_array_Of_buffer_ItemSide_For_doubleBufferOutput(uint8_t* sysThreadId, CLIB_LeftHemishpore_STRUCT_Output* objOutput) {
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_App_Data_side_To_Write_For_doubleBuffer_Output(sysThreadId) " << std::endl;
-        *_stat_REG_ptr_array_Of_buffer_ItemSide_For_doubleBufferOutput = { objOutput, objOutput };
+        *stat_REG_ptr_array_Of_buffer_ItemSide_For_doubleBufferOutput = { objOutput, objOutput };
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_App_Data_side_To_Write_For_doubleBuffer_Output(sysThreadId) " << std::endl;
     }
     void zinc::CLIB_LeftHemishpore_Framework_App_Data::stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_App_Data_stack_Of_InputPraise(uint8_t* sysThreadId, CLIB_LeftHemishpore_STRUCT_Input* objInput) {
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_App_Data_stack_Of_InputPraise(sysThreadId) " << std::endl;
-        *_stat_REG_ptr_vector_Of_stack_Of_InputPraise = { objInput };
+        *stat_REG_ptr_vector_Of_stack_Of_InputPraise = { objInput };
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_App_Data_stack_Of_InputPraise(sysThreadId) " << std::endl;
     }
     void zinc::CLIB_LeftHemishpore_Framework_App_Data::stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_App_Data_stack_Of_OutputPraise(uint8_t* sysThreadId, CLIB_LeftHemishpore_STRUCT_Output* objOutput) {
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_App_Data_stack_Of_OutputPraise(sysThreadId) " << std::endl;
-        *_stat_REG_ptr_vector_Of_stack_Of_OutputPraise = { objOutput };
+        *stat_REG_ptr_vector_Of_stack_Of_OutputPraise = { objOutput };
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_App_Data_stack_Of_OutputPraise(sysThreadId) " << std::endl;
     }
     std::array<struct zinc::CLIB_LeftHemishpore_STRUCT_Input*, 3>* zinc::CLIB_LeftHemishpore_Framework_App_Data::stat_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_array_Of_buffer_Input_ReferenceForThread(uint8_t* sysThreadId) {

@@ -22,16 +22,17 @@ namespace zinc {
     public:
         CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId);
         virtual ~CLIB_LeftHemishpore_Framework_Global();
-        void dyn_REG_boot1_DEFINE_CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId);
-        void dyn_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId);
-        void dyn_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId);
-        void dyn_REG_boot4_INSTANTIATE_CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId);
+        static void dyn_REG_boot1_DEFINE_CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId);
+        static void dyn_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId);
+        static void dyn_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId);
+        static void dyn_REG_boot4_INSTANTIATE_CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId);
         static uint8_t* stat_REG_get_CLIB_LeftHemishpore_Framework_Global_Item_number_Of_Implemented_Cores(uint8_t* sysThreadId);
         static unsigned long long* stat_REG_get_CLIB_LeftHemishpore_Framework_Global_Item_number_Of_Praise_Events(uint8_t* sysThreadId);
         static void stat_CLASS_boot0_DECLARE_CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId);
         static void stat_CLASS_boot1_DEFINE_CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId);
         static void stat_CLASS_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId);
         static void stat_CLASS_boot4_INSTANTIATE_CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId);
+        static int* stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_Bool_To_Int(uint8_t* sysThreadId, bool newValue_Bool);
         static bool stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbByteArray_To_VUALUEofMsbBool(uint8_t* sysThreadId, unsigned char* bytes_Array);
         static int* stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbByteArray_To_VUALUEofMsbInt(uint8_t* sysThreadId, unsigned char* bytes_Array);
         static double* stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbByteArray_To_VUALUEofMsbDouble(uint8_t* sysThreadId, unsigned char* bytes_Array);
@@ -53,8 +54,8 @@ namespace zinc {
         static void stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_Global_number_Of_Praise_Events(uint8_t* sysThreadId);
         static void stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_Global_number_Of_Implemented_Cores(uint8_t* sysThreadId);
         static void stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_Global_number_Of_Praise_Events(uint8_t* sysThreadId);
-        static uint8_t* stat_REG_get_ptr_CLIB_LeftHemishpore_Framework_Global_number_Of_Implemented_Cores(uint8_t* sysThreadId);
-        static unsigned long long* stat_REG_get_ptr_CLIB_LeftHemishpore_Framework_Global_number_Of_Praise_Events(uint8_t* sysThreadId);
+        static uint8_t* pr_stat_REG_get_ptr_CLIB_LeftHemishpore_Framework_Global_number_Of_Implemented_Cores(uint8_t* sysThreadId);
+        static unsigned long long* pr_stat_REG_get_ptr_CLIB_LeftHemishpore_Framework_Global_number_Of_Praise_Events(uint8_t* sysThreadId);
     };
 }
 #endif

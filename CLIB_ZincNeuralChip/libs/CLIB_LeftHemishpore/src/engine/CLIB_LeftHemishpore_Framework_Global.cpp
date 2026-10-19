@@ -45,7 +45,19 @@ uint8_t* zinc::CLIB_LeftHemishpore_Framework_Global::stat_REG_ptr_CLIB_LeftHemis
     }
     uint8_t* zinc::CLIB_LeftHemishpore_Framework_Global::stat_REG_get_CLIB_LeftHemishpore_Framework_Global_Item_number_Of_Implemented_Cores(uint8_t* sysThreadId) {
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: <= uint8_t : dyn_REG_get_CLIB_LeftHemishpore_Framework_Global_Item_number_Of_Implemented_Cores(sysThreadId). " << std::endl;
-        return stat_REG_get_ptr_CLIB_LeftHemishpore_Framework_Global_number_Of_Implemented_Cores(sysThreadId);
+        return pr_stat_REG_get_ptr_CLIB_LeftHemishpore_Framework_Global_number_Of_Implemented_Cores(sysThreadId);
+    }
+    int* zinc::CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_Bool_To_Int(uint8_t* sysThreadId, bool newValue_Bool) {
+        int* temp = nullptr;
+        temp = new int(INT_MAX);
+        if (newValue_Bool) {
+            *temp = 1;;
+        }
+        else {
+            *temp = 0;
+        }
+        std::cout << "thread " << std::to_string(*sysThreadId) << "  :: <= bool : stat_CONVERT_CLIB_MutexQue_Framework_Global_Bool_To_Int(sysThreadId)." << std::endl;
+        return temp;
     }
     bool zinc::CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbByteArray_To_VUALUEofMsbBool(uint8_t* sysThreadId, unsigned char* bytes_Array) {
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: <= bool : stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbByteArray_To_Msbbool(sysThreadId)." << std::endl;
@@ -118,7 +130,7 @@ uint8_t* zinc::CLIB_LeftHemishpore_Framework_Global::stat_REG_ptr_CLIB_LeftHemis
     }
     unsigned long long* zinc::CLIB_LeftHemishpore_Framework_Global::stat_REG_get_CLIB_LeftHemishpore_Framework_Global_Item_number_Of_Praise_Events(uint8_t* sysThreadId) {
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: <= unsigned long long : dyn_REG_get_CLIB_LeftHemishpore_Framework_Global_Item_number_Of_Praise_Events(sysThreadId). " << std::endl;
-        return stat_REG_get_ptr_CLIB_LeftHemishpore_Framework_Global_number_Of_Praise_Events(sysThreadId);
+        return pr_stat_REG_get_ptr_CLIB_LeftHemishpore_Framework_Global_number_Of_Praise_Events(sysThreadId);
     }
 
 // private.
@@ -154,11 +166,11 @@ uint8_t* zinc::CLIB_LeftHemishpore_Framework_Global::stat_REG_ptr_CLIB_LeftHemis
         *stat_REG_ptr_CLIB_LeftHemishpore_Framework_Global_number_Of_Praise_Events = static_cast<unsigned long long>(4);
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemishpore_Framework_Global : stat_REG_boot3_INITIALISE_number_Of_Praise_Events(sysThreadId). " << std::endl;
     }
-    uint8_t* zinc::CLIB_LeftHemishpore_Framework_Global::stat_REG_get_ptr_CLIB_LeftHemishpore_Framework_Global_number_Of_Implemented_Cores(uint8_t* sysThreadId) {
+    uint8_t* zinc::CLIB_LeftHemishpore_Framework_Global::pr_stat_REG_get_ptr_CLIB_LeftHemishpore_Framework_Global_number_Of_Implemented_Cores(uint8_t* sysThreadId) {
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: <= uint8_t* : stat_REG_get_Ptr_number_Of_Implemented_Cores(sysThreadId). " << std::endl;
         return stat_REG_ptr_CLIB_LeftHemishpore_Framework_Global_number_Of_Implemented_Cores;
     }
-    unsigned long long* zinc::CLIB_LeftHemishpore_Framework_Global::stat_REG_get_ptr_CLIB_LeftHemishpore_Framework_Global_number_Of_Praise_Events(uint8_t* sysThreadId) {
+    unsigned long long* zinc::CLIB_LeftHemishpore_Framework_Global::pr_stat_REG_get_ptr_CLIB_LeftHemishpore_Framework_Global_number_Of_Praise_Events(uint8_t* sysThreadId) {
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: <= unsigned long long* : stat_REG_get_Ptr_number_Of_Praise_Events(sysThreadId). " << std::endl;
         return stat_REG_ptr_CLIB_LeftHemishpore_Framework_Global_number_Of_Praise_Events;
     }

@@ -19,8 +19,8 @@ namespace zinc {
         struct CLIB_LeftHemishpore_STRUCT_Input* dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Input_at_ItemSideToWRITE_For_doubleBufferInput(uint8_t* sysThreadId, class CLIB_LeftHemishpore_Framework* obj);
         struct CLIB_LeftHemishpore_STRUCT_Output* dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Output_at_ItemSideToREAD_For_doubleBufferOutput(uint8_t* sysThreadId, class CLIB_LeftHemishpore_Framework* obj);
         struct CLIB_LeftHemishpore_STRUCT_Output* dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Output_at_ItemSideToWRITE_For_doubleBufferOutput(uint8_t* sysThreadId, class CLIB_LeftHemishpore_Framework *obj);
-        struct CLIB_LeftHemishpore_STRUCT_Input* dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Item_Of_list_Of_ptr_array_Of_buffer_Input_ReferenceForThread(uint8_t* sysThreadId, uint8_t concurrentThreadId);
-        struct CLIB_LeftHemishpore_STRUCT_Output* dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Item_Of_list_Of_ptr_array_Of_buffer_Output_ReferenceForThread(uint8_t* sysThreadId, uint8_t concurrentThreadId);
+        struct CLIB_LeftHemishpore_STRUCT_Input* dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Item_Of_list_Of_ptr_array_Of_buffer_Input_ReferenceForThread(uint8_t* sysThreadId, uint8_t* concurrentThreadId);
+        struct CLIB_LeftHemishpore_STRUCT_Output* dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Item_Of_list_Of_ptr_array_Of_buffer_Output_ReferenceForThread(uint8_t* sysThreadId, uint8_t* concurrentThreadId);
         struct CLIB_LeftHemishpore_STRUCT_Input* dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Item_On_vector_Of_stack_Of_InputPraise(uint8_t* sysThreadId, unsigned long long* slot);
         struct CLIB_LeftHemishpore_STRUCT_Output* dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Item_On_vector_Of_stack_Of_OutputPraise(uint8_t* sysThreadId, unsigned long long* slot);
         std::vector<struct CLIB_LeftHemishpore_STRUCT_Input*>* dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_vector_Of_stack_Of_InputPraise(uint8_t* sysThreadId);
