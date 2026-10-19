@@ -8,8 +8,8 @@ extern "C" {
 	namespace zinc {
 		class Epicentre {
 		public:
-			static unsigned char* gernerateHandle(uint8_t* sysThreadId);
-			static void generateProgram(uint8_t* sysThreadId);
+			static unsigned char* gernerateHandle(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj);
+			static void generateProgram(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj);
 			static unsigned char* get_Output(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* concurrentThreadId, unsigned char* bytes_praiseId);
 			static unsigned char* get_FLAG_isINITIALISED(uint8_t* sysThreadId, unsigned char* handleId);
 			static unsigned char* get_FLAG_isINSTANTIATED(uint8_t* sysThreadId);
