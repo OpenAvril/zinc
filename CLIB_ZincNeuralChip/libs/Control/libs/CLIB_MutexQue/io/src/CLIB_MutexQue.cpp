@@ -5,7 +5,7 @@
 #include "../../include/CLIB_MutexQue_Framework_Global.h"
 #include <iostream>
 #include <thread>
-static std::list<void*>* stat_REG_ptr_CLIB_MutexQue_array_of_ptr_MutexQue;//todo number of data clusters.
+	static std::list<void*>* stat_REG_ptr_CLIB_MutexQue_array_of_ptr_MutexQue;//todo number of data clusters.
 	static std::array<bool, 5>* stat_REG_ptr_CLIB_MutexQue_array_of_array_of_isMemberFunctionINSTANTIATED;//todo number of data clusters.
 // public.
 	void zinc::MutexQue::endByUnlock(uint8_t* sysThreadId, unsigned char* handleId, unsigned char* bytes_ACCESS_ID) {

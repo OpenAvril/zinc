@@ -13,7 +13,7 @@ extern "C" {
             static void generateProgram(uint8_t* sysThreadId);
             static unsigned char* isINSTANTIATED(uint8_t* sysThreadId);
             static void reInitialiseHandle(uint8_t* sysThreadId, unsigned char* handleId, unsigned char* bytes_MAX_NUMBER_OF_THREADS_FOR_ACCESS);
-            static void startByLock(uint8_t* sysThreadId, unsigned char* handleId, unsigned char* bytes_ACCESS_ID);
+            static void startByLock(uint8_t* sysThreadId, unsigned char* handleId, unsigned char* CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_VUALUEofMsbInt_To_MsbByteArray(sysThreadId,bytes_ACCESS_ID);
             static void terminateProgram(uint8_t* sysThreadId, unsigned char* handleId);
         private:
             static void CLIB_MutexQue_App_FUNCT_generate_Program(uint8_t* sysThreadId);

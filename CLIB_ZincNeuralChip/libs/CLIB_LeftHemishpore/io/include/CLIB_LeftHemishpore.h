@@ -2,14 +2,15 @@
 #define CLIB_LEFTHEMISPHORE_H
 #include <array>
 #include <cstdint>
+#include <list>
 #include "../../include/engine/CLIB_LeftHemishpore_Framework.h"
 extern "C" {
 	namespace zinc {
 		class Epicentre {
 		public:
-			static int* gernerateHandle(uint8_t* sysThreadId);
+			static unsigned char* gernerateHandle(uint8_t* sysThreadId);
 			static void generateProgram(uint8_t* sysThreadId);
-			static unsigned char* get_Output(uint8_t* sysThreadId, unsigned char* handleId, char* bytes_praiseId);
+			static unsigned char* get_Output(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* concurrentThreadId, unsigned char* bytes_praiseId);
 			static unsigned char* get_FLAG_isINITIALISED(uint8_t* sysThreadId, unsigned char* handleId);
 			static unsigned char* get_FLAG_isINSTANTIATED(uint8_t* sysThreadId);
 			static unsigned char* get_FLAG_isStackLoaded_ServerInputReceive(uint8_t* sysThreadId, unsigned char* handleId);
@@ -27,6 +28,7 @@ extern "C" {
 			static void CLIB_LeftHemishpore_stat_CLASS_boot1_DEFINE_Framework(uint8_t* sysThreadId);
 			static void CLIB_LeftHemishpore_stat_CLASS_boot3_INITIALISE_Framework(uint8_t* sysThreadId);
 			static class CLIB_LeftHemishpore_Framework* CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(uint8_t* sysThreadId, int* handleId);
+			static std::list<zinc::CLIB_LeftHemishpore_Framework*>* CLIB_LeftHemishpore_stat_CLASS_get_List_Of_ptr_CLIB_LeftHemishpore_Framework(uint8_t* sysThreadId);
 			static void CLIB_LeftHemishpore_stat_REG_boot1_DEFINE_CLIB_LeftHemishpore_isFLAG_INSTANTIATED(uint8_t* sysThreadId);
 			static void CLIB_LeftHemishpore_stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_isFLAG_INSTANTIATED(uint8_t* sysThreadId);
 			static void CLIB_LeftHemishpore_stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_isFLAG_INSTANTIATED(uint8_t* sysThreadId);
