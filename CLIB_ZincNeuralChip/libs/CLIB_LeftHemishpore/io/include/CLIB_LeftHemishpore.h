@@ -12,7 +12,7 @@ extern "C" {
 			static void generateProgram(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj);
 			static unsigned char* get_Output(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytes_praiseId);
 			static unsigned char* get_FLAG_isINITIALISED(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId);
-			static unsigned char* get_FLAG_isINSTANTIATED(uint8_t* sysThreadId);
+			static unsigned char* get_FLAG_isINSTANTIATED(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj);
 			static unsigned char* get_FLAG_isStackLoaded_ServerInputReceive(uint8_t* sysThreadId, unsigned char* handleId);
 			static unsigned char* get_FLAG_isStackLoaded_ServerOutputSend(uint8_t* sysThreadId, unsigned char* handleId);
 			static unsigned char* get_MetaData_PraiseEventId(uint8_t* sysThreadId, unsigned char* handleId);
