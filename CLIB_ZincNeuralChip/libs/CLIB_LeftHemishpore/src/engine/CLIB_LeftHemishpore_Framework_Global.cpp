@@ -60,6 +60,7 @@
         return temp;
     }
     zinc::Object* zinc::CLIB_LeftHemishpore_Framework_Global::stat_APP_CONVERT_CLIB_SystemBus_Framework_Global_MsbByteArray_To_DATA(uint8_t* sysThreadId, unsigned char* byteArray_DATA) {
+        std::cout << "thread " << std::to_string(*sysThreadId) << " :: <= unsigned long long* : stat_APP_CONVERT_CLIB_SystemBus_Framework_Global_MsbByteArray_To_DATA(sysThreadId). " << std::endl;
         return reinterpret_cast<zinc::Object*>(byteArray_DATA);
     }
     bool zinc::CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbByteArray_To_VUALUEofMsbBool(uint8_t* sysThreadId, unsigned char* bytes_Array) {
@@ -95,6 +96,7 @@
         return temp;
     }
     unsigned char* zinc::CLIB_LeftHemishpore_Framework_Global::stat_APP_CONVERT_CLIB_SystemBus_Framework_Global_DATA_To_MsbByteArray(uint8_t* sysThreadId, class zinc::Object* DATA) {
+        std::cout << "thread " << std::to_string(*sysThreadId) << " :: <= unsigned long long* : stat_APP_CONVERT_CLIB_SystemBus_Framework_Global_DATA_To_MsbByteArray(sysThreadId). " << std::endl;
         return reinterpret_cast<unsigned char*>(DATA);
     }
     unsigned char* zinc::CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_VUALUEofMsbBool_to_MsbByteArray(uint8_t* sysThreadId, bool newValue_Bool) {
