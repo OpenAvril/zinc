@@ -24,6 +24,8 @@ extern "C" {
 			static void reInitialiseHandle(uint8_t* sysThreadId, unsigned char* handleId, uint8_t* NUMBER_OF_TASK_THREADS);
 			static void terminateProgram(uint8_t* sysThreadId);
 		private:
+			static void stat_app_do_CLIB_LeftHemishpore_STRUCT_Input_MetaData(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytesPraiseId);
+			static void stat_app_do_CLIB_LeftHemishpore_STRUCT_Input_DataControl(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytesPraiseId);
 			static void CLIB_LeftHemishpore_stat_app_FUNCT_Calc_IsAllINSTANTIATED(uint8_t* sysThreadId);
 			static void CLIB_LeftHemishpore_stat_CLASS_boot1_DEFINE_Framework(uint8_t* sysThreadId);
 			static void CLIB_LeftHemishpore_stat_CLASS_boot3_INITIALISE_Framework(uint8_t* sysThreadId);

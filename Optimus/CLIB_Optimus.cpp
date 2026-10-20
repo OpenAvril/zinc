@@ -85,6 +85,8 @@
 		zinc::Stemisphore::reInitialiseHandle(sysThreadId, MAX_NUMBER_OF_JUNCTIONS);
 		unsigned char* tempD2 = zinc::Stemisphore::unload(sysThreadId, *ticket);
 		zinc::Stemisphore::terminateProgram(sysThreadId);
+
+		//todo epicentre
 	}
 	std::array<bool, 1> zinc::Optimus::zinc_Optimus_stat_REG_get_array_of_isMemberFunctionINSTANTIATED(uint8_t* sysThreadId) {
 		return stat_REG_ptr_CLIB_Optimus_array_of_array_of_isMemberFunctionINSTANTIATED;
