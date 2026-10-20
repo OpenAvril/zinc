@@ -4,12 +4,12 @@
 #include "../../include/engine/CLIB_LeftHemishpore_Framework_App.h"
 #include "../../include/engine/CLIB_LeftHemishpore_Framework_App_Execute_Control.h"
 #include "../../include/engine/CLIB_LeftHemishpore_Framework_Global.h"
-#include "../../include/independent/CLIB_LeftHemishpore_STRUCT_Concurrent.h"
 #include <cstdint>
 #include <iostream>
     zinc::CLIB_LeftHemishpore_Framework_App_Execute_Control* zinc::CLIB_LeftHemishpore_Framework_App_Execute::stat_CLASS_CLIB_LeftHemishpore_Framework_App_Execute_Control;
     int* zinc::CLIB_LeftHemishpore_Framework_App_Execute::stat_REG_HandleId_For_CLIB_LaunchQue_Server;
-    int* zinc::CLIB_LeftHemishpore_Framework_App_Execute::stat_REG_HandleId_For_CLIB_MutexQue_LaunchQue_Server;
+    int* zinc::CLIB_LeftHemishpore_Framework_App_Execute::stat_REG_HandleId_For_CLIB_MutexQue_Input_LaunchQue_Server;
+    int* zinc::CLIB_LeftHemishpore_Framework_App_Execute::stat_REG_HandleId_For_CLIB_MutexQue_Output_LaunchQue_Server;
     int* zinc::CLIB_LeftHemishpore_Framework_App_Execute::stat_REG_HandleId_For_CLIB_MutexQue_ServerInputReceive;
     int* zinc::CLIB_LeftHemishpore_Framework_App_Execute::stat_REG_HandleId_For_CLIB_MutexQue_ServerOutputSend;
 // public.
@@ -53,9 +53,13 @@
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: <= int* HandleId : dyn_PGM_get_HandleId_For_CLIB_LaunchQue_Server(sysThreadId). " << std::endl;
         return stat_PGM_get_HandleId_For_CLIB_LaunchQue_Server(sysThreadId);
     }
-    int* zinc::CLIB_LeftHemishpore_Framework_App_Execute::dyn_PGM_get_HandleId_For_CLIB_MutexQue_LaunchQue_Server(uint8_t* sysThreadId) {
+    int* zinc::CLIB_LeftHemishpore_Framework_App_Execute::dyn_PGM_get_HandleId_For_CLIB_MutexQue_Input_LaunchQue_Server(uint8_t* sysThreadId) {
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: <= int* HandleId : dyn_PGM_get_HandleId_For_CLIB_LaunchQue_Server(sysThreadId). " << std::endl;
-        return stat_PGM_get_HandleId_For_CLIB_MutexQue_LaunchQue_Server(sysThreadId);
+        return stat_PGM_get_HandleId_For_CLIB_MutexQue_Input_LaunchQue_Server(sysThreadId);
+    }
+    int* zinc::CLIB_LeftHemishpore_Framework_App_Execute::dyn_PGM_get_HandleId_For_CLIB_MutexQue_Output_LaunchQue_Server(uint8_t* sysThreadId) {
+        std::cout << "thread " << std::to_string(*sysThreadId) << " :: <= int* HandleId : dyn_PGM_get_HandleId_For_CLIB_LaunchQue_Server(sysThreadId). " << std::endl;
+        return stat_PGM_get_HandleId_For_CLIB_MutexQue_Output_LaunchQue_Server(sysThreadId);
     }
     int* zinc::CLIB_LeftHemishpore_Framework_App_Execute::dyn_PGM_get_HandleId_For_CLIB_MutexQue_ServerInputReceive(uint8_t* sysThreadId) {
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: <= int* HandleId : dyn_PGM_get_HandleId_For_CLIB_MutexQue_ServerInputReceive(sysThreadId). " << std::endl;
@@ -110,10 +114,15 @@
         stat_REG_HandleId_For_CLIB_LaunchQue_Server = nullptr;
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemishpore_Framework_App_Execute : stat_PGM_boot1_DEFINE_HandleId_For_CLIB_LaunchQue_Server(sysThreadId). " << std::endl;
     }
-    void zinc::CLIB_LeftHemishpore_Framework_App_Execute::stat_PGM_boot1_DEFINE_HandleId_For_CLIB_MutexQue_LaunchQue_Server(uint8_t* sysThreadId) {
+    void zinc::CLIB_LeftHemishpore_Framework_App_Execute::stat_PGM_boot1_DEFINE_HandleId_For_CLIB_MutexQue_Input_LaunchQue_Server(uint8_t* sysThreadId) {
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemishpore_Framework_App_Execute : stat_PGM_boot1_DEFINE_HandleId_For_CLIB_LaunchQue_Server(sysThreadId). " << std::endl;
-        stat_REG_HandleId_For_CLIB_MutexQue_LaunchQue_Server = nullptr;
+        stat_REG_HandleId_For_CLIB_MutexQue_Input_LaunchQue_Server = nullptr;
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemishpore_Framework_App_Execute : stat_PGM_boot1_DEFINE_HandleId_For_CLIB_LaunchQue_Server(sysThreadId). " << std::endl;
+    }
+    void zinc::CLIB_LeftHemishpore_Framework_App_Execute::stat_PGM_boot1_DEFINE_HandleId_For_CLIB_MutexQue_Output_LaunchQue_Server(uint8_t* sysThreadId) {
+        std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemishpore_Framework_App_Execute : stat_PGM_boot1_DEFINE_HandleId_For_CLIB_MutexQue_Output_LaunchQue_Server(sysThreadId). " << std::endl;
+        stat_REG_HandleId_For_CLIB_MutexQue_Output_LaunchQue_Server = nullptr;
+        std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemishpore_Framework_App_Execute : stat_PGM_boot1_DEFINE_HandleId_For_CLIB_MutexQue_Output_LaunchQue_Server(sysThreadId). " << std::endl;
     }
     void zinc::CLIB_LeftHemishpore_Framework_App_Execute::stat_PGM_boot1_DEFINE_HandleId_For_CLIB_MutexQue_ServerInputReceive(uint8_t* sysThreadId) {
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemishpore_Framework_App_Execute : stat_PGM_boot1_DEFINE_HandleId_For_CLIB_MutexQue_ServerInputReceive(sysThreadId). " << std::endl;
@@ -131,9 +140,15 @@
         while (stat_PGM_get_HandleId_For_CLIB_LaunchQue_Server(sysThreadId) == nullptr) {}
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemishpore_Framework_App_Execute : stat_PGM_boot3_INITIALISE_HandleId_For_CLIB_LaunchQue_Server(sysThreadId). " << std::endl;
     }
-    void zinc::CLIB_LeftHemishpore_Framework_App_Execute::stat_PGM_boot3_INITIALISE_HandleId_For_CLIB_MutexQue_LaunchQue_Server(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj) {
+    void zinc::CLIB_LeftHemishpore_Framework_App_Execute::stat_PGM_boot3_INITIALISE_HandleId_For_CLIB_MutexQue_Input_LaunchQue_Server(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj) {
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemishpore_Framework_App_Execute : stat_PGM_boot3_INITIALISE_HandleId_For_CLIB_LaunchQue_Server(sysThreadId). " << std::endl;
-        stat_REG_HandleId_For_CLIB_MutexQue_LaunchQue_Server = zinc::CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbByteArray_To_VUALUEofMsbInt(sysThreadId,zinc::MutexQue::generateHandle(sysThreadId));
+        stat_REG_HandleId_For_CLIB_MutexQue_Input_LaunchQue_Server = zinc::CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbByteArray_To_VUALUEofMsbInt(sysThreadId,zinc::MutexQue::generateHandle(sysThreadId));
+        while (stat_PGM_get_HandleId_For_CLIB_LaunchQue_Server(sysThreadId) == nullptr) {}
+        std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemishpore_Framework_App_Execute : stat_PGM_boot3_INITIALISE_HandleId_For_CLIB_LaunchQue_Server(sysThreadId). " << std::endl;
+    }
+    void zinc::CLIB_LeftHemishpore_Framework_App_Execute::stat_PGM_boot3_INITIALISE_HandleId_For_CLIB_MutexQue_Output_LaunchQue_Server(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj) {
+        std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemishpore_Framework_App_Execute : stat_PGM_boot3_INITIALISE_HandleId_For_CLIB_LaunchQue_Server(sysThreadId). " << std::endl;
+        stat_REG_HandleId_For_CLIB_MutexQue_Output_LaunchQue_Server = zinc::CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbByteArray_To_VUALUEofMsbInt(sysThreadId,zinc::MutexQue::generateHandle(sysThreadId));
         while (stat_PGM_get_HandleId_For_CLIB_LaunchQue_Server(sysThreadId) == nullptr) {}
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemishpore_Framework_App_Execute : stat_PGM_boot3_INITIALISE_HandleId_For_CLIB_LaunchQue_Server(sysThreadId). " << std::endl;
     }
@@ -154,9 +169,13 @@
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: <= int* HandleId : stat_PGM_get_HandleId_For_CLIB_LaunchQue_Server(sysThreadId). " << std::endl;
         return stat_REG_HandleId_For_CLIB_LaunchQue_Server;
     }
-    int* zinc::CLIB_LeftHemishpore_Framework_App_Execute::stat_PGM_get_HandleId_For_CLIB_MutexQue_LaunchQue_Server(uint8_t* sysThreadId) {
+    int* zinc::CLIB_LeftHemishpore_Framework_App_Execute::stat_PGM_get_HandleId_For_CLIB_MutexQue_Input_LaunchQue_Server(uint8_t* sysThreadId) {
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: <= int* HandleId : stat_PGM_get_HandleId_For_CLIB_LaunchQue_Server(sysThreadId). " << std::endl;
-        return stat_REG_HandleId_For_CLIB_MutexQue_LaunchQue_Server;
+        return stat_REG_HandleId_For_CLIB_MutexQue_Input_LaunchQue_Server;
+    }
+    int* zinc::CLIB_LeftHemishpore_Framework_App_Execute::stat_PGM_get_HandleId_For_CLIB_MutexQue_Output_LaunchQue_Server(uint8_t* sysThreadId) {
+        std::cout << "thread " << std::to_string(*sysThreadId) << " :: <= int* HandleId : stat_PGM_get_HandleId_For_CLIB_LaunchQue_Server(sysThreadId). " << std::endl;
+        return stat_REG_HandleId_For_CLIB_MutexQue_Output_LaunchQue_Server;
     }
     int* zinc::CLIB_LeftHemishpore_Framework_App_Execute::stat_PGM_get_HandleId_For_CLIB_MutexQue_ServerInputReceive(uint8_t* sysThreadId) {
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: <= int* HandleId : stat_PGM_get_HandleId_For_CLIB_MutexQue_ServerInputReceive(sysThreadId). " << std::endl;

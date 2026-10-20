@@ -9,7 +9,6 @@ namespace zinc {
         void dyn_REG_boot1_DEFINE_Concurrent(uint8_t* sysThreadId);
         void dyn_REG_boot2_SUBSTANTIATE_Concurrent(uint8_t* sysThreadId);
         void dyn_REG_boot3_INITIALISE_Concurrent(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj);
-        void dyn_REG_boot4_INSTANTIATE_Concurrent(uint8_t* sysThreadId);
         uint8_t* dyn_REG_get_CLIB_LeftHemishpore_Concurrent_ThreadId(uint8_t* sysThreadId);
         void dyn_REG_set_CLIB_LeftHemishpore_Concurrent_ThreadId(uint8_t* sysThreadId, uint8_t* praiseId);
         static void stat_app_thread_Concurrency(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, uint8_t* concurrentThreadId);
