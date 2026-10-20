@@ -33,11 +33,13 @@ namespace zinc {
         static void stat_CLASS_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId);
         static void stat_CLASS_boot4_INSTANTIATE_CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId);
         static int* stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_Bool_To_Int(uint8_t* sysThreadId, bool newValue_Bool);
+        static class Object* stat_APP_CONVERT_CLIB_SystemBus_Framework_Global_MsbByteArray_To_DATA(uint8_t* sysThreadId, unsigned char* byteArray_DATA);
         static bool stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbByteArray_To_VUALUEofMsbBool(uint8_t* sysThreadId, unsigned char* bytes_Array);
         static int* stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbByteArray_To_VUALUEofMsbInt(uint8_t* sysThreadId, unsigned char* bytes_Array);
         static double* stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbByteArray_To_VUALUEofMsbDouble(uint8_t* sysThreadId, unsigned char* bytes_Array);
         static uint8_t* stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbByteArray_To_VUALUEofMsbuint8_t(uint8_t* sysThreadId, unsigned char* bytes_Array);
         static unsigned long long* stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbByteArray_To_VUALUEofMsbunsignedLongLong(uint8_t* sysThreadId, unsigned char* bytes_Array);
+        static unsigned char* stat_APP_CONVERT_CLIB_SystemBus_Framework_Global_DATA_To_MsbByteArray(uint8_t* sysThreadId, class Object* DATA);
         static unsigned char* stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_VUALUEofMsbBool_to_MsbByteArray(uint8_t* sysThreadId, bool newValue_Bool);
         static unsigned char* stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_VUALUEofMsbInt_To_MsbByteArray(uint8_t* sysThreadId, int* newValue_Int);
         static unsigned char* stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_VUALUEofMsbDouble_To_MsbByteArray(uint8_t* sysThreadId, double* newValue_Double);
