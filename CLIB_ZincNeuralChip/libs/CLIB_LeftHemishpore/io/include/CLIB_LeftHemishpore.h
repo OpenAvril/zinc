@@ -20,9 +20,9 @@ extern "C" {
 			static void set_InputItemsFor_praise1(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B);
 			static void set_InputItemsFor_praise2(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B);
 			static void set_InputItemsFor_praise3(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B);
-			static void set_MetaData_PraiseEventId(uint8_t* sysThreadId, unsigned char* handleId);
-			static void reInitialiseHandle(uint8_t* sysThreadId, unsigned char* handleId, uint8_t* NUMBER_OF_TASK_THREADS);
-			static void terminateProgram(uint8_t* sysThreadId);
+			static void set_MetaData_PraiseEventId(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytesPraiseId);
+			static void reInitialiseHandle(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, uint8_t* NUMBER_OF_TASK_THREADS);
+			static void terminateProgram(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj);
 		private:
 			static void stat_app_do_CLIB_LeftHemishpore_STRUCT_Input_MetaData(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytesPraiseId);
 			static void stat_app_do_CLIB_LeftHemishpore_STRUCT_Input_DataControl(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytesPraiseId);
@@ -34,7 +34,7 @@ extern "C" {
 			static void CLIB_LeftHemishpore_stat_REG_boot1_DEFINE_CLIB_LeftHemishpore_isFLAG_INSTANTIATED(uint8_t* sysThreadId);
 			static void CLIB_LeftHemishpore_stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_isFLAG_INSTANTIATED(uint8_t* sysThreadId);
 			static void CLIB_LeftHemishpore_stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_isFLAG_INSTANTIATED(uint8_t* sysThreadId);
-			static std::array<bool, 13>* CLIB_LeftHemishpore_stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED(uint8_t* sysThreadId);
+			static std::array<bool, 16>* CLIB_LeftHemishpore_stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED(uint8_t* sysThreadId);
 		};
 	}
 }
