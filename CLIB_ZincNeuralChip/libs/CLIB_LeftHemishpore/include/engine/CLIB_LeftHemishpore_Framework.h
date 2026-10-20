@@ -20,7 +20,6 @@ namespace zinc {
         void dyn_REG_boot1_DEFINE_CLIB_LeftHemishpore_Framework(uint8_t* sysThreadId, class CLIB_LeftHemishpore_Framework* obj);
         void dyn_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework(uint8_t* sysThreadId, class CLIB_LeftHemishpore_Framework* obj);
         void dyn_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework(uint8_t* sysThreadId, class CLIB_LeftHemishpore_Framework* obj);
-        void dyn_PGM_boot4_INSTANTIATE_CLIB_LeftHemishpore_Framework(uint8_t* sysThreadId, class CLIB_LeftHemishpore_Framework* obj);
         void dyn_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_Framework_Concurrent(uint8_t* sysThreadId);
         void dyn_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_Framework_Input(uint8_t* sysThreadId);
         void dyn_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_Framework_Output(uint8_t* sysThreadId);
@@ -42,7 +41,6 @@ namespace zinc {
         static void stat_CLASS_boot0_DECLARE_CLIB_LeftHemishpore_Framework(uint8_t* sysThreadId);
         static void stat_CLASS_boot1_DEFINE_CLIB_LeftHemishpore_Framework(uint8_t* sysThreadId);
         static void stat_CLASS_boot3_INITIALISE_CLIB_LeftHemishpore_Framework(uint8_t* sysThreadId);
-        static void stat_CLASS_boot4_INSTANTIATE_CLIB_LeftHemishpore_Framework(uint8_t* sysThreadId);
         static void stat_REG_boot0_DECLARE_CLIB_LeftHemishpore_Framework(uint8_t* sysThreadId);
     private:
         static struct CLIB_LeftHemishpore_Framework_App* stat_CLASS_ptr_CLIB_LeftHemishpore_Framework_App;

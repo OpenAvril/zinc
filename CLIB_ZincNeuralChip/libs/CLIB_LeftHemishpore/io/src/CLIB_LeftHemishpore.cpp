@@ -430,8 +430,6 @@
 		for (int index = 0; index < sizeof(*CLIB_LeftHemishpore_stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED(sysThreadId)); index++) {
 			std::cout << CLIB_LeftHemishpore_stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED(sysThreadId)->at(index);
 		}
-		std::cout<< std::endl;
-
 	}
 	void zinc::Epicentre::CLIB_LeftHemishpore_stat_CLASS_boot1_DEFINE_Framework(uint8_t* sysThreadId)
 	{

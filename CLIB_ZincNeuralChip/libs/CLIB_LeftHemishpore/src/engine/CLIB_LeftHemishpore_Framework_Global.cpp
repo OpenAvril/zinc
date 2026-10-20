@@ -4,7 +4,7 @@
 #include <cstring>
 #include <iostream>
 #include <ostream>
-uint8_t* zinc::CLIB_LeftHemishpore_Framework_Global::stat_REG_ptr_CLIB_LeftHemishpore_Framework_Global_number_Of_Implemented_Cores;
+    uint8_t* zinc::CLIB_LeftHemishpore_Framework_Global::stat_REG_ptr_CLIB_LeftHemishpore_Framework_Global_number_Of_Implemented_Cores;
     unsigned long long* zinc::CLIB_LeftHemishpore_Framework_Global::stat_REG_ptr_CLIB_LeftHemishpore_Framework_Global_number_Of_Praise_Events;
 // public.
     zinc::CLIB_LeftHemishpore_Framework_Global::CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId) {

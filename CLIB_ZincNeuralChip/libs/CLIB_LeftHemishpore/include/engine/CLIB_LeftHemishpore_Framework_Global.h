@@ -2,21 +2,13 @@
 #define CLIB_OPENEPICENTRE_FRAMEWORK_GLOBAL_H
 #include <cstdint>
 namespace zinc {
-    enum Axis
-    {
+    enum Axis {
         X,
         Y,
         Z
     };
-    enum Praise
-    {
+    enum Praise {
         ADDER
-    };
-    enum class Thread_At_LeftHemishpore_ConditionCode : uint8_t {
-        concurrent_0 = 0,
-        concurrent_1 = 1,
-        concurrent_2 = 2,
-        IO = 3
     };
     class CLIB_LeftHemishpore_Framework_Global {
     public:
