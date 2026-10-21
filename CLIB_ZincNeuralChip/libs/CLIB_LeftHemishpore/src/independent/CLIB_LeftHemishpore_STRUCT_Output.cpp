@@ -54,39 +54,39 @@
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting dyn_REG_boot3_INITIALISE_LeftHemishpore_STRUCT_Output() " << std::endl;
     }
     uint8_t* zinc::CLIB_LeftHemishpore_STRUCT_Output::dyn_REG_get_ptr_CLIB_LeftHemishpore_STRUCT_Output_playerId(uint8_t* sysThreadId) {
-        std::cout << "thread " << std::to_string(*sysThreadId) << " :: <= uint8_t* : dyn_REG_get_ptr_CLIB_LeftHemishpore_STRUCT_Output_playerId(sysThreadId). " << std::endl;
+        std::cout << "thread " << std::to_string(*sysThreadId) << " :: <= uint8_t* : dyn_REG_get_ptr_CLIB_LeftHemishpore_STRUCT_Output_playerId(sysThreadId)." << std::endl;
         return stat_REG_get_ptr_CLIB_LeftHemishpore_STRUCT_Output_playerId(sysThreadId);
     }
     unsigned long long* zinc::CLIB_LeftHemishpore_STRUCT_Output::dyn_REG_get_ptr_CLIB_LeftHemishpore_STRUCT_Output_praiseEventId(uint8_t* sysThreadId) {
-        std::cout << "thread " << std::to_string(*sysThreadId) << " :: <= unsigned long long* : dyn_REG_get_ptr_CLIB_LeftHemishpore_STRUCT_Output_praiseEventId(sysThreadId). " << std::endl;
+        std::cout << "thread " << std::to_string(*sysThreadId) << " :: <= unsigned long long* : dyn_REG_get_ptr_CLIB_LeftHemishpore_STRUCT_Output_praiseEventId(sysThreadId)." << std::endl;
         return stat_REG_get_ptr_CLIB_LeftHemishpore_STRUCT_Output_praiseEventId(sysThreadId);
     }
     zinc::Object* zinc::CLIB_LeftHemishpore_STRUCT_Output::dyn_REG_get_ptr_Item_Of_ptr_CLIB_LeftHemishpore_STRUCT_Output_Subset(uint8_t* sysThreadId) {
-        std::cout << "thread " << std::to_string(*sysThreadId) << " :: <= zinc::Object* : dyn_REG_get_ptr_Item_Of_ptr_CLIB_LeftHemishpore_STRUCT_Output_Subset(sysThreadId). " << std::endl;
+        std::cout << "thread " << std::to_string(*sysThreadId) << " :: <= zinc::Object* : dyn_REG_get_ptr_Item_Of_ptr_CLIB_LeftHemishpore_STRUCT_Output_Subset(sysThreadId)." << std::endl;
         return *stat_REG_get_ptr_CLIB_LeftHemishpore_STRUCT_Output_Subset(sysThreadId)->begin();
     }
     void zinc::CLIB_LeftHemishpore_STRUCT_Output::dyn_REG_set_CLIB_LeftHemishpore_STRUCT_Output_playerId(uint8_t* sysThreadId, uint8_t* newPlayerId) {
-        std::cout << "thread " << std::to_string(*sysThreadId) << " :: => uint8_t : dyn_REG_set_CLIB_LeftHemishpore_STRUCT_Output_playerId(sysThreadId). " << std::endl;
+        std::cout << "thread " << std::to_string(*sysThreadId) << " :: => uint8_t : dyn_REG_set_CLIB_LeftHemishpore_STRUCT_Output_playerId(sysThreadId)." << std::endl;
         stat_REG_set_CLIB_LeftHemishpore_STRUCT_Output_playerId(sysThreadId, *newPlayerId);
     }
     void zinc::CLIB_LeftHemishpore_STRUCT_Output::dyn_REG_set_ptr_CLIB_LeftHemishpore_STRUCT_Output_praiseEventId(uint8_t* sysThreadId, unsigned long long* new_unsignedLongLong) {
-        std::cout << "thread " << std::to_string(*sysThreadId) << " :: => unsigned long long : dyn_REG_set_ptr_CLIB_LeftHemishpore_STRUCT_Output_praiseEventId(sysThreadId). " << std::endl;
+        std::cout << "thread " << std::to_string(*sysThreadId) << " :: => unsigned long long : dyn_REG_set_ptr_CLIB_LeftHemishpore_STRUCT_Output_praiseEventId(sysThreadId)." << std::endl;
         stat_REG_set_ptr_CLIB_LeftHemishpore_STRUCT_Output_praiseEventId(sysThreadId, *new_unsignedLongLong);
     }
     void zinc::CLIB_LeftHemishpore_STRUCT_Output::dyn_REG_set_ptr_CLIB_LeftHemishpore_STRUCT_Output_Item_Of_ptr_Outputs_Subset(uint8_t* sysThreadId, CLIB_LeftHemishpore_STRUCT_Output_praise0* objOutputSubset) {
-        std::cout << "thread " << std::to_string(*sysThreadId) << " :: => class : dyn_REG_set_ptr_CLIB_LeftHemishpore_STRUCT_Output_Item_Of_ptr_Outputs_Subset(sysThreadId). " << std::endl;
+        std::cout << "thread " << std::to_string(*sysThreadId) << " :: => class : dyn_REG_set_ptr_CLIB_LeftHemishpore_STRUCT_Output_Item_Of_ptr_Outputs_Subset(sysThreadId)." << std::endl;
         stat_REG_set_ptr_CLIB_LeftHemishpore_STRUCT_Output_Item_Of_ptr_Outputs_Subset(sysThreadId, objOutputSubset);
     }
     void zinc::CLIB_LeftHemishpore_STRUCT_Output::dyn_REG_set_ptr_CLIB_LeftHemishpore_STRUCT_Output_Item_Of_ptr_Outputs_Subset(uint8_t* sysThreadId, CLIB_LeftHemishpore_STRUCT_Output_praise1* objOutputSubset) {
-        std::cout << "thread " << std::to_string(*sysThreadId) << " :: => class : dyn_REG_set_ptr_CLIB_LeftHemishpore_STRUCT_Output_Item_Of_ptr_Outputs_Subset(sysThreadId). " << std::endl;
+        std::cout << "thread " << std::to_string(*sysThreadId) << " :: => class : dyn_REG_set_ptr_CLIB_LeftHemishpore_STRUCT_Output_Item_Of_ptr_Outputs_Subset(sysThreadId)." << std::endl;
         stat_REG_set_ptr_CLIB_LeftHemishpore_STRUCT_Output_Item_Of_ptr_Outputs_Subset(sysThreadId, objOutputSubset);
     }
     void zinc::CLIB_LeftHemishpore_STRUCT_Output::dyn_REG_set_ptr_CLIB_LeftHemishpore_STRUCT_Output_Item_Of_ptr_Outputs_Subset(uint8_t* sysThreadId, CLIB_LeftHemishpore_STRUCT_Output_praise2* objOutputSubset) {
-        std::cout << "thread " << std::to_string(*sysThreadId) << " :: => class : dyn_REG_set_ptr_CLIB_LeftHemishpore_STRUCT_Output_Item_Of_ptr_Outputs_Subset(sysThreadId). " << std::endl;
+        std::cout << "thread " << std::to_string(*sysThreadId) << " :: => class : dyn_REG_set_ptr_CLIB_LeftHemishpore_STRUCT_Output_Item_Of_ptr_Outputs_Subset(sysThreadId)." << std::endl;
         stat_REG_set_ptr_CLIB_LeftHemishpore_STRUCT_Output_Item_Of_ptr_Outputs_Subset(sysThreadId, objOutputSubset);
     }
     void zinc::CLIB_LeftHemishpore_STRUCT_Output::dyn_REG_set_ptr_CLIB_LeftHemishpore_STRUCT_Output_Item_Of_ptr_Outputs_Subset(uint8_t* sysThreadId, CLIB_LeftHemishpore_STRUCT_Output_praise3* objOutputSubset) {
-        std::cout << "thread " << std::to_string(*sysThreadId) << " :: => class : dyn_REG_set_ptr_CLIB_LeftHemishpore_STRUCT_Output_Item_Of_ptr_Outputs_Subset(sysThreadId). " << std::endl;
+        std::cout << "thread " << std::to_string(*sysThreadId) << " :: => class : dyn_REG_set_ptr_CLIB_LeftHemishpore_STRUCT_Output_Item_Of_ptr_Outputs_Subset(sysThreadId)." << std::endl;
         stat_REG_set_ptr_CLIB_LeftHemishpore_STRUCT_Output_Item_Of_ptr_Outputs_Subset(sysThreadId, objOutputSubset);
     }
     void zinc::CLIB_LeftHemishpore_STRUCT_Output::stat_CLASS_boot0_DECLARE_CLIB_LeftHemishpore_STRUCT_Output(uint8_t* sysThreadId) {
@@ -161,19 +161,19 @@
         stat_REG_ptr_LeftHemishpore_STRUCT_Output_Subset->assign(0, obj->dyn_STRUCT_get_CLIB_LeftHemishpore_Framework_User_Output(sysThreadId)->dyn_CLASS_get_CLIB_LeftHemishpore_STRUCT_UserOutput_Item_On_List_Of_ptr_PraiseOutputSubsets(sysThreadId, 0));
     }
     uint8_t* zinc::CLIB_LeftHemishpore_STRUCT_Output::stat_REG_get_ptr_CLIB_LeftHemishpore_STRUCT_Output_playerId(uint8_t* sysThreadId) {
-        std::cout << "thread " << std::to_string(*sysThreadId) << " :: <= uint8_t* : stat_REG_get_ptr_CLIB_LeftHemishpore_STRUCT_Output_playerId(sysThreadId). " << std::endl;
+        std::cout << "thread " << std::to_string(*sysThreadId) << " :: <= uint8_t* : stat_REG_get_ptr_CLIB_LeftHemishpore_STRUCT_Output_playerId(sysThreadId)." << std::endl;
         return stat_REG_ptr_LeftHemishpore_STRUCT_Output_playerId;
     }
     unsigned long long* zinc::CLIB_LeftHemishpore_STRUCT_Output::stat_REG_get_ptr_CLIB_LeftHemishpore_STRUCT_Output_praiseEventId(uint8_t* sysThreadId) {
-        std::cout << "thread " << std::to_string(*sysThreadId) << " :: <= unsigned long long* : stat_REG_get_ptr_CLIB_LeftHemishpore_STRUCT_Output_praiseEventId(sysThreadId). " << std::endl;
+        std::cout << "thread " << std::to_string(*sysThreadId) << " :: <= unsigned long long* : stat_REG_get_ptr_CLIB_LeftHemishpore_STRUCT_Output_praiseEventId(sysThreadId)." << std::endl;
         return stat_REG_ptr_LeftHemishpore_STRUCT_Output_praiseEventId;
     }
     std::list<zinc::Object*>* zinc::CLIB_LeftHemishpore_STRUCT_Output::stat_REG_get_ptr_CLIB_LeftHemishpore_STRUCT_Output_Subset(uint8_t* sysThreadId) {
-        std::cout << "thread " << std::to_string(*sysThreadId) << " :: <= std::list<zinc::Object*>* : stat_REG_get_ptr_CLIB_LeftHemishpore_STRUCT_Output_Subset(sysThreadId). " << std::endl;
+        std::cout << "thread " << std::to_string(*sysThreadId) << " :: <= std::list<zinc::Object*>* : stat_REG_get_ptr_CLIB_LeftHemishpore_STRUCT_Output_Subset(sysThreadId)." << std::endl;
         return stat_REG_ptr_LeftHemishpore_STRUCT_Output_Subset;
     }
     void zinc::CLIB_LeftHemishpore_STRUCT_Output::stat_REG_set_CLIB_LeftHemishpore_STRUCT_Output_playerId(uint8_t* sysThreadId, uint8_t newPlayerId) {
-        std::cout << "thread " << std::to_string(*sysThreadId) << " :: => uint8_t : stat_REG_set_CLIB_LeftHemishpore_STRUCT_Output_playerId(sysThreadId). " << std::endl;
+        std::cout << "thread " << std::to_string(*sysThreadId) << " :: => uint8_t : stat_REG_set_CLIB_LeftHemishpore_STRUCT_Output_playerId(sysThreadId)." << std::endl;
         *stat_REG_ptr_LeftHemishpore_STRUCT_Output_playerId = newPlayerId;
     }
     void zinc::CLIB_LeftHemishpore_STRUCT_Output::stat_REG_set_ptr_CLIB_LeftHemishpore_STRUCT_Output_praiseEventId(uint8_t* sysThreadId, unsigned long long new_unsignedLongLong) {

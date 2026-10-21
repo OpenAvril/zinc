@@ -1,7 +1,7 @@
 #ifndef CLIB_OPENEPICENTRE_FRAMEWORK_APP_DATA_H
 #define CLIB_OPENEPICENTRE_FRAMEWORK_APP_DATA_H
 #include "CLIB_LeftHemishpore_Framework_App_Data_Control.h"
-#include "CLIB_LeftHemishpore_Framework.h"
+#include "../engine/CLIB_LeftHemishpore_Framework.h"
 #include "../independent/CLIB_LeftHemishpore_STRUCT_Input.h"
 #include "../independent/CLIB_LeftHemishpore_STRUCT_Output.h"
 #include <array>
@@ -17,20 +17,20 @@ namespace zinc {
         void dyn_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_App_Data(uint8_t* sysThreadId, class CLIB_LeftHemishpore_Framework* obj, struct CLIB_LeftHemishpore_STRUCT_Input* objInput, struct CLIB_LeftHemishpore_STRUCT_Output* objOutput);
         struct CLIB_LeftHemishpore_STRUCT_Input* dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Input_at_ItemSideToREAD_For_doubleBufferInput(uint8_t* sysThreadId, class CLIB_LeftHemishpore_Framework* obj);
         struct CLIB_LeftHemishpore_STRUCT_Input* dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Input_at_ItemSideToWRITE_For_doubleBufferInput(uint8_t* sysThreadId, class CLIB_LeftHemishpore_Framework* obj);
-        struct CLIB_LeftHemishpore_STRUCT_Output* dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Output_at_ItemSideToREAD_For_doubleBufferOutput(uint8_t* sysThreadId, class CLIB_LeftHemishpore_Framework* obj);
-        struct CLIB_LeftHemishpore_STRUCT_Output* dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Output_at_ItemSideToWRITE_For_doubleBufferOutput(uint8_t* sysThreadId, class CLIB_LeftHemishpore_Framework *obj);
         struct CLIB_LeftHemishpore_STRUCT_Input* dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Item_Of_list_Of_ptr_array_Of_buffer_Input_ReferenceForThread(uint8_t* sysThreadId, uint8_t* concurrentThreadId);
         struct CLIB_LeftHemishpore_STRUCT_Output* dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Item_Of_list_Of_ptr_array_Of_buffer_Output_ReferenceForThread(uint8_t* sysThreadId, uint8_t* concurrentThreadId);
         struct CLIB_LeftHemishpore_STRUCT_Input* dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Item_On_vector_Of_stack_Of_InputPraise(uint8_t* sysThreadId, unsigned long long* slot);
         struct CLIB_LeftHemishpore_STRUCT_Output* dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Item_On_vector_Of_stack_Of_OutputPraise(uint8_t* sysThreadId, unsigned long long* slot);
+        struct CLIB_LeftHemishpore_STRUCT_Output* dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Output_at_ItemSideToREAD_For_doubleBufferOutput(uint8_t* sysThreadId, class CLIB_LeftHemishpore_Framework* obj);
+        struct CLIB_LeftHemishpore_STRUCT_Output* dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Output_at_ItemSideToWRITE_For_doubleBufferOutput(uint8_t* sysThreadId, class CLIB_LeftHemishpore_Framework *obj);
         std::vector<struct CLIB_LeftHemishpore_STRUCT_Input*>* dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_vector_Of_stack_Of_InputPraise(uint8_t* sysThreadId);
         std::vector<struct CLIB_LeftHemishpore_STRUCT_Output*>* dyn_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_vector_Of_stack_Of_OutputPraise(uint8_t* sysThreadId);
         void dyn_REG_set_ptr_CLIB_LeftHemishpore_Framework_App_Data_Input_at_ItemSideToREAD_For_doubleBufferInput(uint8_t* sysThreadId, class CLIB_LeftHemishpore_Framework* obj, struct CLIB_LeftHemishpore_STRUCT_Input* newClass);
         void dyn_REG_set_ptr_CLIB_LeftHemishpore_Framework_App_Data_Input_at_ItemSideToWRITE_For_doubleBufferInput(uint8_t* sysThreadId, class CLIB_LeftHemishpore_Framework* obj, struct CLIB_LeftHemishpore_STRUCT_Input* newClass);
-        void dyn_REG_set_ptr_CLIB_LeftHemishpore_Framework_App_Data_Output_at_ItemSideToREAD_For_doubleBufferOutput(uint8_t* sysThreadId, class CLIB_LeftHemishpore_Framework* obj, struct CLIB_LeftHemishpore_STRUCT_Output* newClass);
-        void dyn_REG_set_ptr_CLIB_LeftHemishpore_Framework_App_Data_Output_at_ItemSideToWRITE_For_doubleBufferOutput(uint8_t* sysThreadId, class CLIB_LeftHemishpore_Framework* obj, struct CLIB_LeftHemishpore_STRUCT_Output* newClass);
         void dyn_REG_set_CLIB_LeftHemishpore_Framework_App_Data_Item_On_Array_Of_buffer_Input_ReferenceForThread(uint8_t* sysThreadId, uint8_t concurrentThreadId, struct CLIB_LeftHemishpore_STRUCT_Input* newClass);
         void dyn_REG_set_CLIB_LeftHemishpore_Framework_App_Data_Item_On_Array_Of_buffer_Output_ReferenceForThread(uint8_t* sysThreadId, uint8_t concurrentThreadId, struct CLIB_LeftHemishpore_STRUCT_Output* newClass);
+        void dyn_REG_set_ptr_CLIB_LeftHemishpore_Framework_App_Data_Output_at_ItemSideToREAD_For_doubleBufferOutput(uint8_t* sysThreadId, class CLIB_LeftHemishpore_Framework* obj, struct CLIB_LeftHemishpore_STRUCT_Output* newClass);
+        void dyn_REG_set_ptr_CLIB_LeftHemishpore_Framework_App_Data_Output_at_ItemSideToWRITE_For_doubleBufferOutput(uint8_t* sysThreadId, class CLIB_LeftHemishpore_Framework *obj, struct CLIB_LeftHemishpore_STRUCT_Output* newClass);
         void dyn_REG_set_CLIB_LeftHemishpore_Framework_App_Data_Item_On_Vector_Of_stack_Of_InputPraise(uint8_t* sysThreadId, unsigned long long* slot, struct CLIB_LeftHemishpore_STRUCT_Input* newClass);
         void dyn_REG_set_CLIB_LeftHemishpore_Framework_App_Data_Item_On_Vector_Of_stack_Of_OutputPraise(uint8_t* sysThreadId, unsigned long long* slot, struct CLIB_LeftHemishpore_STRUCT_Output* newClass);
         static void stat_CLASS_boot0_DECLARE_CLIB_LeftHemishpore_Framework_App_Data(uint8_t* sysThreadId);
@@ -49,26 +49,24 @@ namespace zinc {
         static void stat_CLASS_boot1_DEFINE_CLIB_LeftHemishpore_Framework_App_Data_Control(uint8_t* sysThreadId);
         static void stat_CLASS_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_App_Data_Control(uint8_t* sysThreadId);
         static class CLIB_LeftHemishpore_Framework_App_Data_Control* stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Control(uint8_t* sysThreadId);
-        static void stat_REG_boot1_DEFINE_CLIB_LeftHemishpore_Framework_App_Data_buffer_Input_ReferenceForThread(uint8_t* sysThreadId);
-        static void stat_REG_boot1_DEFINE_CLIB_LeftHemishpore_Framework_App_Data_buffer_Output_ReferenceForThread(uint8_t* sysThreadId);
         static void stat_REG_boot1_DEFINE_CLIB_LeftHemishpore_Framework_App_Data_array_Of_buffer_ItemSide_For_doubleBufferInput(uint8_t* sysThreadId);
         static void stat_REG_boot1_DEFINE_CLIB_LeftHemishpore_Framework_App_Data_array_Of_buffer_ItemSide_For_doubleBufferOutput(uint8_t* sysThreadId);
+        static void stat_REG_boot1_DEFINE_CLIB_LeftHemishpore_Framework_App_Data_buffer_Input_ReferenceForThread(uint8_t* sysThreadId);
+        static void stat_REG_boot1_DEFINE_CLIB_LeftHemishpore_Framework_App_Data_buffer_Output_ReferenceForThread(uint8_t* sysThreadId);
         static void stat_REG_boot1_DEFINE_CLIB_LeftHemishpore_Framework_App_Data_buffer_stack_Of_InputPraise(uint8_t* sysThreadId);
         static void stat_REG_boot1_DEFINE_CLIB_LeftHemishpore_Framework_App_Data_buffer_stack_Of_OutputPraise(uint8_t* sysThreadId);
         static void stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_App_Data_buffer_Input_ReferenceForThread(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj);
         static void stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_App_Data_buffer_Output_ReferenceForThread(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj);
-        static void stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_App_Data_array_Of_buffer_ItemSide_For_doubleBufferInput(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj) ;
-        static void stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_App_Data_array_Of_buffer_ItemSide_For_doubleBufferOutput(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj) ;
-        static void stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_App_Data_stack_Of_InputPraise(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj) ;
-        static void stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_App_Data_stack_Of_OutputPraise(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj) ;
+        static void stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_App_Data_array_Of_buffer_ItemSide_For_doubleBufferInput(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj);
+        static void stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_App_Data_array_Of_buffer_ItemSide_For_doubleBufferOutput(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj);
+        static void stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_App_Data_stack_Of_InputPraise(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj);
+        static void stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_App_Data_stack_Of_OutputPraise(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj);
         static void stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_App_Data_buffer_Input_ReferenceForThread(uint8_t* sysThreadId, struct CLIB_LeftHemishpore_STRUCT_Input* objInput);
         static void stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_App_Data_buffer_Output_ReferenceForThread(uint8_t* sysThreadId, struct CLIB_LeftHemishpore_STRUCT_Output* objOutput);
         static void stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_App_Data_array_Of_buffer_ItemSide_For_doubleBufferInput(uint8_t* sysThreadId, struct CLIB_LeftHemishpore_STRUCT_Input* objInput);
         static void stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_App_Data_array_Of_buffer_ItemSide_For_doubleBufferOutput(uint8_t* sysThreadId, struct CLIB_LeftHemishpore_STRUCT_Output* objOutput);
         static void stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_App_Data_stack_Of_InputPraise(uint8_t* sysThreadId, struct CLIB_LeftHemishpore_STRUCT_Input* objInput);
         static void stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_App_Data_stack_Of_OutputPraise(uint8_t* sysThreadId, struct CLIB_LeftHemishpore_STRUCT_Output* objOutput);
-        static void stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_App_Data_buffer_User_Input(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj);
-        static void stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_App_Data_buffer_User_Output(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj);
         static std::array<struct CLIB_LeftHemishpore_STRUCT_Input*, 3>* stat_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_array_Of_buffer_Input_ReferenceForThread(uint8_t* sysThreadId);//NUMBER OF CONCURRENT THREADS.
         static std::array<struct CLIB_LeftHemishpore_STRUCT_Output*, 3>* stat_REG_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_array_Of_buffer_Output_ReferenceForThread(uint8_t* sysThreadId);//NUMBER OF CONCURRENT THREADS.
         static std::array<struct CLIB_LeftHemishpore_STRUCT_Input*, 2>* stat_get_REG_ptr_CLIB_LeftHemishpore_Framework_App_Data_array_Of_buffer_ItemSide_For_doubleBufferInput(uint8_t* sysThreadId);

@@ -11,12 +11,12 @@
 	zinc::CLIB_LeftHemishpore_STRUCT_User_Output* zinc::CLIB_LeftHemishpore_Framework::stat_STRUCT_ptr_CLIB_LeftHemishpore_Framework_User_Output;
 // public.
 	zinc::CLIB_LeftHemishpore_Framework::CLIB_LeftHemishpore_Framework(uint8_t* sysThreadId) {
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemishpore_Framework : CLIB_LeftHemishpore_Framework(sysThreadId). " << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemishpore_Framework : CLIB_LeftHemishpore_Framework(sysThreadId)." << std::endl;
 		stat_CLASS_boot0_DECLARE_CLIB_LeftHemishpore_Framework(sysThreadId);
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemishpore_Framework : CLIB_LeftHemishpore_Framework(sysThreadId). " << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemishpore_Framework : CLIB_LeftHemishpore_Framework(sysThreadId)." << std::endl;
 	}
 	zinc::CLIB_LeftHemishpore_Framework::~CLIB_LeftHemishpore_Framework() {
-		std::cout << "thread " << std::to_string(0) << ":: entered LIB :: zinc : CLIB_LeftHemishpore_Framework : ~CLIB_LeftHemishpore_Framework(sysThreadId). " << std::endl;
+		std::cout << "thread " << std::to_string(0) << ":: entered LIB :: zinc : CLIB_LeftHemishpore_Framework : ~CLIB_LeftHemishpore_Framework(sysThreadId)." << std::endl;
 		delete stat_CLASS_ptr_CLIB_LeftHemishpore_Framework_App;
 		delete stat_CLASS_ptr_CLIB_LeftHemishpore_Framework_Global;//
 		delete stat_STRUCT_ptr_CLIB_LeftHemishpore_Framework_Concurrent;
@@ -25,10 +25,10 @@
 		delete stat_CLASS_ptr_CLIB_LeftHemishpore_Framework_User_Algorithm;
 		delete stat_STRUCT_ptr_CLIB_LeftHemishpore_Framework_User_Input;
 		delete stat_STRUCT_ptr_CLIB_LeftHemishpore_Framework_User_Output;
-		std::cout << "thread " << std::to_string(0) << ":: exiting LIB :: zinc : CLIB_LeftHemishpore_Framework : ~CLIB_LeftHemishpore_Framework(sysThreadId). " << std::endl;
+		std::cout << "thread " << std::to_string(0) << ":: exiting LIB :: zinc : CLIB_LeftHemishpore_Framework : ~CLIB_LeftHemishpore_Framework(sysThreadId)." << std::endl;
 	}
 	void zinc::CLIB_LeftHemishpore_Framework::dyn_CLASS_create_CLIB_LeftHemishpore_Framework_Architecture(uint8_t* sysThreadId) {
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemishpore_Framework : dyn_CLASS_create_CLIB_LeftHemishpore_Framework_Architecture(sysThreadId). " << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemishpore_Framework : dyn_CLASS_create_CLIB_LeftHemishpore_Framework_Architecture(sysThreadId)." << std::endl;
 		stat_CLASS_boot1_DEFINE_CLIB_LeftHemishpore_Framework(sysThreadId);
 		stat_CLASS_boot3_INITIALISE_CLIB_LeftHemishpore_Framework(sysThreadId);
 		stat_REG_boot0_DECLARE_CLIB_LeftHemishpore_Framework(sysThreadId);
