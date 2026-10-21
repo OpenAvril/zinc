@@ -35,7 +35,7 @@ namespace zinc {
         static void stat_PGM_boot1_DEFINE_HandleId_For_CLIB_MutexQue_Input_LaunchQue_Server(uint8_t* sysThreadId);
         static void stat_PGM_boot1_DEFINE_HandleId_For_CLIB_MutexQue_Output_LaunchQue_Server(uint8_t* sysThreadId);
         static void stat_PGM_boot1_DEFINE_HandleId_For_CLIB_MutexQue_ServerInputReceive(uint8_t* sysThreadId);
-        static void stat_PGM_boot1_DEFINE_HandleId_For_HandleId_For_CLIB_MutexQue_ServerOutputSend(uint8_t* sysThreadId);
+        static void stat_PGM_boot1_DEFINE_HandleId_For_CLIB_MutexQue_ServerOutputSend(uint8_t* sysThreadId);
         static void stat_PGM_boot3_INITIALISE_HandleId_For_CLIB_LaunchQue_Server(uint8_t* sysThreadId, class CLIB_LeftHemishpore_Framework* obj);
         static void stat_PGM_boot3_INITIALISE_HandleId_For_CLIB_MutexQue_Input_LaunchQue_Server(uint8_t* sysThreadId, class CLIB_LeftHemishpore_Framework* obj);
         static void stat_PGM_boot3_INITIALISE_HandleId_For_CLIB_MutexQue_Output_LaunchQue_Server(uint8_t* sysThreadId, class CLIB_LeftHemishpore_Framework* obj);

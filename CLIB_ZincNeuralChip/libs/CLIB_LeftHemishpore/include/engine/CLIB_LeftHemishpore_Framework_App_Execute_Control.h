@@ -37,7 +37,7 @@ namespace zinc {
         static void stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_FLAGisThreadInitialised(uint8_t* sysThreadId, class CLIB_LeftHemishpore_Framework* obj);
         static void stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_Threads(uint8_t* sysThreadId, class CLIB_LeftHemishpore_Framework* obj);
         static void stat_REG_boot3_REINITIALISE_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_FLAGisThreadInitialised(uint8_t* sysThreadId, uint8_t MAX_NUMBER_OF_THREADS);
-        static void stat_REG_boot3_REINITIALISE_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_Threads(uint8_t* sysThreadId, uint8_t MAX_NUMBER_OF_THREADS);
+        static void stat_REG_boot3_REINITIALISE_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_Threads(uint8_t* sysThreadId, class CLIB_LeftHemishpore_Framework* obj, uint8_t* concurrnetThreadId, uint8_t* MAX_NUMBER_OF_THREADS);
         static bool* stat_REG_get_ptr_FLAG_CLIB_LeftHemishpore_Framework_App_Execute_Control_isSystemInitialised(uint8_t* sysThreadId);
         static std::list<bool>* stat_get_ptr_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_FLAGisThreadInitialised(uint8_t* sysThreadId);
         static void stat_REG_set_FLAG_CLIB_LeftHemishpore_Framework_App_Execute_Control_isSystemInitialised(uint8_t* sysThreadId, bool newFLAG);

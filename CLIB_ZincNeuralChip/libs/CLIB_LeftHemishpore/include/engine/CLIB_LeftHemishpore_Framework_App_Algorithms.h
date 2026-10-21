@@ -1,7 +1,7 @@
 #ifndef CLIB_OPENEPICENTRE_FRAMEWORK_APP_ALGORITHMS_H
 #define CLIB_OPENEPICENTRE_FRAMEWORK_APP_ALGORITHMS_H
 #include "../engine/CLIB_LeftHemishpore_Framework.h"
-#include "../independent/CLIB_LeftHemishpore_STRUCT_Concurrent.h"
+#include "../independent/threads/CLIB_LeftHemishpore_STRUCT_Concurrent.h"
 #include <cstdint>
 #include <list>
 namespace zinc {

@@ -1,22 +1,22 @@
-#include "../../include/independent/CLIB_LeftHemishpore_STRUCT_Concurrent.h"
-#include "../../../Control/libs/CLIB_LaunchQue/io/include/CLIB_LaunchQue.h"
-#include "../../../Control/libs/CLIB_MutexQue/io/include/CLIB_MutexQue.h"
-#include "../../../Control/libs/CLIB_ThreadsLog/io/include/CLIB_ThreadLogs.h"
-#include "../../include/engine/CLIB_LeftHemishpore_Framework_App.h"
-#include "../../include/engine/CLIB_LeftHemishpore_Framework_App_Data.h"
-#include "../../include/engine/CLIB_LeftHemishpore_Framework_App_Data_Control.h"
-#include "../../include/engine/CLIB_LeftHemishpore_Framework_App_Execute.h"
-#include "../../include/engine/CLIB_LeftHemishpore_Framework_App_Execute_Control.h"
-#include "../../include/independent/CLIB_LeftHemishpore_STRUCT_User_Algorithm.h"
-#include "../../include/independent/CLIB_LeftHemishpore_STRUCT_User_Input.h"
-#include "../../include/independent/praise_sets/CLIB_LeftHemishpore_STRUCT_Input_praise0.h"
-#include "../../include/independent/praise_sets/CLIB_LeftHemishpore_STRUCT_Input_praise1.h"
-#include "../../include/independent/praise_sets/CLIB_LeftHemishpore_STRUCT_Input_praise2.h"
-#include "../../include/independent/praise_sets/CLIB_LeftHemishpore_STRUCT_Input_praise3.h"
-#include "../../include/independent/praise_sets/CLIB_LeftHemishpore_STRUCT_Output_praise0.h"
-#include "../../include/independent/praise_sets/CLIB_LeftHemishpore_STRUCT_Output_praise1.h"
-#include "../../include/independent/praise_sets/CLIB_LeftHemishpore_STRUCT_Output_praise2.h"
-#include "../../include/independent/praise_sets/CLIB_LeftHemishpore_STRUCT_Output_praise3.h"
+#include "../../../include/independent/threads/CLIB_LeftHemishpore_STRUCT_Concurrent.h"
+#include "../../../../Control/libs/CLIB_LaunchQue/io/include/CLIB_LaunchQue.h"
+#include "../../../../Control/libs/CLIB_MutexQue/io/include/CLIB_MutexQue.h"
+#include "../../../../Control/libs/CLIB_ThreadsLog/io/include/CLIB_ThreadLogs.h"
+#include "../../../include/engine/CLIB_LeftHemishpore_Framework_App.h"
+#include "../../../include/engine/CLIB_LeftHemishpore_Framework_App_Data.h"
+#include "../../../include/engine/CLIB_LeftHemishpore_Framework_App_Data_Control.h"
+#include "../../../include/engine/CLIB_LeftHemishpore_Framework_App_Execute.h"
+#include "../../../include/engine/CLIB_LeftHemishpore_Framework_App_Execute_Control.h"
+#include "../../../include/independent/CLIB_LeftHemishpore_STRUCT_User_Algorithm.h"
+#include "../../../include/independent/CLIB_LeftHemishpore_STRUCT_User_Input.h"
+#include "../../../include/independent/praise_sets/CLIB_LeftHemishpore_STRUCT_Input_praise0.h"
+#include "../../../include/independent/praise_sets/CLIB_LeftHemishpore_STRUCT_Input_praise1.h"
+#include "../../../include/independent/praise_sets/CLIB_LeftHemishpore_STRUCT_Input_praise2.h"
+#include "../../../include/independent/praise_sets/CLIB_LeftHemishpore_STRUCT_Input_praise3.h"
+#include "../../../include/independent/praise_sets/CLIB_LeftHemishpore_STRUCT_Output_praise0.h"
+#include "../../../include/independent/praise_sets/CLIB_LeftHemishpore_STRUCT_Output_praise1.h"
+#include "../../../include/independent/praise_sets/CLIB_LeftHemishpore_STRUCT_Output_praise2.h"
+#include "../../../include/independent/praise_sets/CLIB_LeftHemishpore_STRUCT_Output_praise3.h"
     uint8_t* zinc::CLIB_LeftHemishpore_STRUCT_Concurrent::stat_REG_CLIB_LeftHemishpore_Concurrent_ThreadId;
 // public.
     void zinc::CLIB_LeftHemishpore_STRUCT_Concurrent::app_do_Concurrent_Algorithm_For_PraiseEventId(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, uint8_t* playerId, unsigned long long* praiseEventId, Object* ptr_Input_Subset, Object* ptr_Output_Subset) {
@@ -77,7 +77,7 @@
         bool* checkPass = new bool(false);
         bool* doneOnce = new bool(false);
         while (!checkPass) {
-            zinc::MutexQue::startByLock(sysThreadId, CLIB_LaunchQue_Framework_Global::stat_CONVERT_CLIB_LaunchQue_Framework_Global_VUALUEofMsbInt_To_MsbByteArray(sysThreadId, obj->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Execute(sysThreadId)->dyn_PGM_get_HandleId_For_CLIB_MutexQue_LaunchQue_Server(sysThreadId)), CLIB_LaunchQue_Framework_Global::stat_CONVERT_CLIB_LaunchQue_Framework_Global_VUALUEofMsbuint8_t_To_MsbByteArray(sysThreadId, concurrentThreadId));
+            zinc::MutexQue::startByLock(sysThreadId, CLIB_LaunchQue_Framework_Global::stat_CONVERT_CLIB_LaunchQue_Framework_Global_VUALUEofMsbInt_To_MsbByteArray(sysThreadId, obj->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Execute(sysThreadId)->ddyn_PGM_get_HandleId_For_CLIB_MutexQue_LaunchQue_Server(sysThreadId)), CLIB_LaunchQue_Framework_Global::stat_CONVERT_CLIB_LaunchQue_Framework_Global_VUALUEofMsbuint8_t_To_MsbByteArray(sysThreadId, concurrentThreadId));
             while (obj->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Execute(sysThreadId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App_Execute_Control(sysThreadId)->dyn_REG_get_LeftHemishpore_Execute_Control_ItemOnListOf_FLAGisThreadInitialised(sysThreadId, concurrentThreadId)) {
                 if (!*doneOnce) {
                     obj->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Execute(sysThreadId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App_Execute_Control(sysThreadId)->dyn_REG_set_LeftHemishpore_Execute_Control_ItemOnListOf_FLAGisThreadInitialised(sysThreadId, concurrentThreadId, !*doneOnce);

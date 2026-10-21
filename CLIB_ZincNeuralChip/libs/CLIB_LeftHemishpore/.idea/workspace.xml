@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
+    <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="zinc_epicentre" targetName="zinc_epicentre" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="43a44250-e90d-46fe-b403-14ceb32e1414" name="Changes" comment="DEVELOPMENT_2026_10_21_1612, &lt;COMPILE_DEV&gt; &lt;RUNTIME_DEV&gt;.&#10;BUILD: DEVELOPMENT_2026_10_21_1612.&#10;&#10;PHASE: Design, **Implementation**, Testing, Review.&#10;&#10;IMPLEMENTED:&#10;  - CLIB_LeftHemishpore.h&#10;  - CLIB_LeftHemishpore.cpp&#10;&#9;- static unsigned char* gernerateHandle(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj);&#10;&#9;- static void generateProgram(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj);&#10;&#9;- static unsigned char* get_Output(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytes_praiseId);&#10;&#9;- static unsigned char* get_FLAG_isINITIALISED(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId);&#10;&#9;- static unsigned char* get_FLAG_isINSTANTIATED(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj);&#10;&#9;- static unsigned char* get_FLAG_isStackLoaded_ServerInputReceive(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId);&#10;&#9;- static unsigned char* get_FLAG_isStackLoaded_ServerOutputSend(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId);&#10;&#9;- static unsigned char* get_MetaData_PraiseEventId(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId);&#10;&#9;- static void set_InputItemsFor_praise0(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B);&#10;    - static void set_InputItemsFor_praise1(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B);&#10;    - static void set_InputItemsFor_praise2(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B);&#10;    - static void set_InputItemsFor_praise3(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B); &#10;&#9;- static void set_MetaData_PraiseEventId(uint8_t* sysThreadId, unsigned char* handleId);    &#10;    - static void terminateProgram(uint8_t* sysThreadId);&#10;  - CLIB_LeftHemishpore_Framework.h&#10;  - CLIB_LeftHemishpore_Framework.cpp&#10;  - CLIB_LeftHemishpore_Framework_Glob.h&#10;  - CLIB_LeftHemishpore_Framework_Global.cpp&#10;  - CLIB_LeftHemishpore_Framework_App.h&#10;  - CLIB_LeftHemishpore_Framework_App.cpp&#10;  - CLIB_LeftHemishpore_Framework_App_Algorithms.h&#10;  - CLIB_LeftHemishpore_Framework_App_Algorithms.cpp&#10;  - CLIB_LeftHemishpore_Framework_App_Data_Control.h&#10;  - CLIB_LeftHemishpore_Framework_App_Data_Control.cpp&#10;  &#10;TODO:&#10;  - CLIB_LeftHemishpore.cpp&#10;&#9;- static void reInitialiseHandle(uint8_t* sysThreadId, unsigned char* handleId, uint8_t* NUMBER_OF_TASK_THREADS);">
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/engine/CLIB_LeftHemishpore_Framework.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/engine/CLIB_LeftHemishpore_Framework.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/engine/CLIB_LeftHemishpore_Framework_App_Algorithms.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/engine/CLIB_LeftHemishpore_Framework_App_Algorithms.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/engine/CLIB_LeftHemishpore_Framework_App_Execute.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/engine/CLIB_LeftHemishpore_Framework_App_Execute.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/engine/CLIB_LeftHemishpore_Framework_App_Execute_Control.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/engine/CLIB_LeftHemishpore_Framework_App_Execute_Control.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/independent/CLIB_LeftHemishpore_STRUCT_Concurrent.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/independent/threads/CLIB_LeftHemishpore_STRUCT_Concurrent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/engine/CLIB_LeftHemishpore_Framework_App_Execute.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/engine/CLIB_LeftHemishpore_Framework_App_Execute.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/engine/CLIB_LeftHemishpore_Framework_App_Execute_Control.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/engine/CLIB_LeftHemishpore_Framework_App_Execute_Control.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/independent/CLIB_LeftHemishpore_STRUCT_Concurrent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/independent/threads/CLIB_LeftHemishpore_STRUCT_Concurrent.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;OpenAvril&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/OpenAvril/slif.git&quot;,
+    &quot;accountId&quot;: &quot;6d0819c3-ad6d-47ef-b923-5fdad6badbc2&quot;
+  }
+}</component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="7YkVMO5g" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2026" />
+    <option name="minorVersion" value="2.3.1" />
+    <option name="productBranch" value="Classic" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3Ku5pDH5cPupPyjibtb8ryZwyfy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;CidrDebugProfileConversion&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;DEVELOPMENT&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/brentonjames/CLionProjects/zinc/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/src/independent/threads&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/independent/threads" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/include/independent/threads" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CMakeBoostTestRunConfigurationType" factoryName="Boost Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="CMakeDoctestTestRunConfigurationType" factoryName="doctest Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="zinc_epicentre" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="zinc_epicentre" TARGET_NAME="zinc_epicentre" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SelectedDebugProfileService">{
+  &quot;profileIdByStamp&quot;: [],
+  &quot;modificationCount&quot;: 6
+}</component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="43a44250-e90d-46fe-b403-14ceb32e1414" name="Changes" comment="" />
+      <created>1792394793309</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1792394793309</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="DEVELOPMENT_2026_10_19_1925, &lt;COMPILE_DEV&gt; &lt;RUNTIME_DEV&gt;.&#10;BUILD: DEVELOPMENT_2026_10_19_1925.&#10;&#10;PHASE: Design, **Implementation**, Testing, Review." />
+    <MESSAGE value="DEVELOPMENT_2026_10_19_1946, &lt;COMPILE_DEV&gt; &lt;RUNTIME_DEV&gt;.&#10;BUILD: DEVELOPMENT_2026_10_19_1946.&#10;&#10;PHASE: Design, **Implementation**, Testing, Review." />
+    <MESSAGE value="DEVELOPMENT_2026_10_20_1346, &lt;COMPILE_DEV&gt; &lt;RUNTIME_DEV&gt;.&#10;BUILD: DEVELOPMENT_2026_10_20_1346.&#10;&#10;PHASE: Design, **Implementation**, Testing, Review." />
+    <MESSAGE value="DEVELOPMENT_2026_10_20_1400, &lt;COMPILE_DEV&gt; &lt;RUNTIME_DEV&gt;.&#10;BUILD: DEVELOPMENT_2026_10_20_1400.&#10;&#10;PHASE: Design, **Implementation**, Testing, Review." />
+    <MESSAGE value="DEVELOPMENT_2026_10_20_1424, &lt;COMPILE_DEV&gt; &lt;RUNTIME_DEV&gt;.&#10;BUILD: DEVELOPMENT_2026_10_20_1424.&#10;&#10;PHASE: Design, **Implementation**, Testing, Review." />
+    <MESSAGE value="DEVELOPMENT_2026_10_20_1555, &lt;COMPILE_DEV&gt; &lt;RUNTIME_DEV&gt;.&#10;BUILD: DEVELOPMENT_2026_10_20_1555.&#10;&#10;PHASE: Design, **Implementation**, Testing, Review.&#10;&#10;IMPLEMENTED:&#10;  - CLIB_LeftHemishpore&#10;&#9;- static unsigned char* gernerateHandle(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj);&#10;&#9;- static void generateProgram(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj);&#10;&#9;- static unsigned char* get_Output(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytes_praiseId);&#10;&#9;- static unsigned char* get_FLAG_isINITIALISED(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId);&#10;&#9;- static unsigned char* get_FLAG_isINSTANTIATED(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj);&#10;&#9;- static unsigned char* get_FLAG_isStackLoaded_ServerInputReceive(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId);&#10;&#9;- static unsigned char* get_FLAG_isStackLoaded_ServerOutputSend(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId);&#10;&#9;- static unsigned char* get_MetaData_PraiseEventId(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId); &#10;&#9;&#10;TODO:&#10;&#9;- static void set_InputItemsFor_praise0(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B);&#10;&#9;- static void set_InputItemsFor_praise1(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B);&#10;&#9;- static void set_InputItemsFor_praise2(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B);&#10;&#9;- static void set_InputItemsFor_praise3(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B);&#10;&#9;- static void set_MetaData_PraiseEventId(uint8_t* sysThreadId, unsigned char* handleId);&#10;&#9;- static void reInitialiseHandle(uint8_t* sysThreadId, unsigned char* handleId, uint8_t* NUMBER_OF_TASK_THREADS);&#10;&#9;- static void terminateProgram(uint8_t* sysThreadId);" />
+    <MESSAGE value="DEVELOPMENT_2026_10_20_1725, &lt;COMPILE_DEV&gt; &lt;RUNTIME_DEV&gt;.&#10;BUILD: DEVELOPMENT_2026_10_20_1725.&#10;&#10;PHASE: Design, **Implementation**, Testing, Review.&#10;&#10;IMPLEMENTED:&#10;  - CLIB_LeftHemishpore&#10;&#9;- static unsigned char* gernerateHandle(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj);&#10;&#9;- static void generateProgram(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj);&#10;&#9;- static unsigned char* get_Output(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytes_praiseId);&#10;&#9;- static unsigned char* get_FLAG_isINITIALISED(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId);&#10;&#9;- static unsigned char* get_FLAG_isINSTANTIATED(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj);&#10;&#9;- static unsigned char* get_FLAG_isStackLoaded_ServerInputReceive(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId);&#10;&#9;- static unsigned char* get_FLAG_isStackLoaded_ServerOutputSend(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId);&#10;&#9;- static unsigned char* get_MetaData_PraiseEventId(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId);&#10;&#9;- static void set_InputItemsFor_praise0(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B);&#10;    - static void set_InputItemsFor_praise1(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B);&#10;    - static void set_InputItemsFor_praise2(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B);&#10;    - static void set_InputItemsFor_praise3(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B); &#10;&#9;&#10;TODO:&#10;&#9;- static void set_MetaData_PraiseEventId(uint8_t* sysThreadId, unsigned char* handleId);&#10;&#9;- static void reInitialiseHandle(uint8_t* sysThreadId, unsigned char* handleId, uint8_t* NUMBER_OF_TASK_THREADS);&#10;&#9;- static void terminateProgram(uint8_t* sysThreadId);" />
+    <MESSAGE value="DEVELOPMENT_2026_10_20_1800, &lt;COMPILE_DEV&gt; &lt;RUNTIME_DEV&gt;.&#10;BUILD: DEVELOPMENT_2026_10_20_1800.&#10;&#10;PHASE: Design, **Implementation**, Testing, Review.&#10;&#10;IMPLEMENTED:&#10;  - CLIB_LeftHemishpore&#10;&#9;- static unsigned char* gernerateHandle(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj);&#10;&#9;- static void generateProgram(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj);&#10;&#9;- static unsigned char* get_Output(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytes_praiseId);&#10;&#9;- static unsigned char* get_FLAG_isINITIALISED(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId);&#10;&#9;- static unsigned char* get_FLAG_isINSTANTIATED(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj);&#10;&#9;- static unsigned char* get_FLAG_isStackLoaded_ServerInputReceive(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId);&#10;&#9;- static unsigned char* get_FLAG_isStackLoaded_ServerOutputSend(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId);&#10;&#9;- static unsigned char* get_MetaData_PraiseEventId(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId);&#10;&#9;- static void set_InputItemsFor_praise0(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B);&#10;    - static void set_InputItemsFor_praise1(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B);&#10;    - static void set_InputItemsFor_praise2(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B);&#10;    - static void set_InputItemsFor_praise3(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B); &#10;&#9;- static void set_MetaData_PraiseEventId(uint8_t* sysThreadId, unsigned char* handleId);    &#10;    - static void terminateProgram(uint8_t* sysThreadId);&#10;&#9;&#10;TODO:&#10;&#9;- static void reInitialiseHandle(uint8_t* sysThreadId, unsigned char* handleId, uint8_t* NUMBER_OF_TASK_THREADS);" />
+    <MESSAGE value="DEVELOPMENT_2026_10_20_1800, &lt;COMPILE_DEV&gt; &lt;RUNTIME_DEV&gt;.&#10;BUILD: DEVELOPMENT_2026_10_20_1800.&#10;&#10;PHASE: Design, **Implementation**, Testing, Review.&#10;&#10;IMPLEMENTED:&#10;  - CLIB_LeftHemishpore.h&#10;  - CLIB_LeftHemishpore.cpp&#10;&#9;- static unsigned char* gernerateHandle(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj);&#10;&#9;- static void generateProgram(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj);&#10;&#9;- static unsigned char* get_Output(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytes_praiseId);&#10;&#9;- static unsigned char* get_FLAG_isINITIALISED(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId);&#10;&#9;- static unsigned char* get_FLAG_isINSTANTIATED(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj);&#10;&#9;- static unsigned char* get_FLAG_isStackLoaded_ServerInputReceive(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId);&#10;&#9;- static unsigned char* get_FLAG_isStackLoaded_ServerOutputSend(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId);&#10;&#9;- static unsigned char* get_MetaData_PraiseEventId(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId);&#10;&#9;- static void set_InputItemsFor_praise0(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B);&#10;    - static void set_InputItemsFor_praise1(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B);&#10;    - static void set_InputItemsFor_praise2(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B);&#10;    - static void set_InputItemsFor_praise3(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B); &#10;&#9;- static void set_MetaData_PraiseEventId(uint8_t* sysThreadId, unsigned char* handleId);    &#10;    - static void terminateProgram(uint8_t* sysThreadId);&#10;  - CLIB_LeftHemishpore_Framework.h&#10;  - CLIB_LeftHemishpore_Framework.cpp&#10;  - CLIB_LeftHemishpore_Framework_Glob.h&#10;  - CLIB_LeftHemishpore_Framework_Global.cpp&#10;  &#10;TODO:&#10;  - CLIB_LeftHemishpore.cpp&#10;&#9;- static void reInitialiseHandle(uint8_t* sysThreadId, unsigned char* handleId, uint8_t* NUMBER_OF_TASK_THREADS);" />
+    <MESSAGE value="DEVELOPMENT_2026_10_20_1800, &lt;COMPILE_DEV&gt; &lt;RUNTIME_DEV&gt;.&#10;BUILD: DEVELOPMENT_2026_10_20_1800.&#10;&#10;PHASE: Design, **Implementation**, Testing, Review.&#10;&#10;IMPLEMENTED:&#10;  - CLIB_LeftHemishpore.h&#10;  - CLIB_LeftHemishpore.cpp&#10;&#9;- static unsigned char* gernerateHandle(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj);&#10;&#9;- static void generateProgram(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj);&#10;&#9;- static unsigned char* get_Output(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytes_praiseId);&#10;&#9;- static unsigned char* get_FLAG_isINITIALISED(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId);&#10;&#9;- static unsigned char* get_FLAG_isINSTANTIATED(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj);&#10;&#9;- static unsigned char* get_FLAG_isStackLoaded_ServerInputReceive(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId);&#10;&#9;- static unsigned char* get_FLAG_isStackLoaded_ServerOutputSend(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId);&#10;&#9;- static unsigned char* get_MetaData_PraiseEventId(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId);&#10;&#9;- static void set_InputItemsFor_praise0(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B);&#10;    - static void set_InputItemsFor_praise1(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B);&#10;    - static void set_InputItemsFor_praise2(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B);&#10;    - static void set_InputItemsFor_praise3(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B); &#10;&#9;- static void set_MetaData_PraiseEventId(uint8_t* sysThreadId, unsigned char* handleId);    &#10;    - static void terminateProgram(uint8_t* sysThreadId);&#10;  - CLIB_LeftHemishpore_Framework.h&#10;  - CLIB_LeftHemishpore_Framework.cpp&#10;  - CLIB_LeftHemishpore_Framework_Glob.h&#10;  - CLIB_LeftHemishpore_Framework_Global.cpp&#10;  - CLIB_LeftHemishpore_Framework_App.h&#10;  - CLIB_LeftHemishpore_Framework_App.cpp&#10;  &#10;TODO:&#10;  - CLIB_LeftHemishpore.cpp&#10;&#9;- static void reInitialiseHandle(uint8_t* sysThreadId, unsigned char* handleId, uint8_t* NUMBER_OF_TASK_THREADS);" />
+    <MESSAGE value="DEVELOPMENT_2026_10_21_1122, &lt;COMPILE_DEV&gt; &lt;RUNTIME_DEV&gt;.&#10;BUILD: DEVELOPMENT_2026_10_21_1122.&#10;&#10;PHASE: Design, **Implementation**, Testing, Review.&#10;&#10;IMPLEMENTED:&#10;  - CLIB_LeftHemishpore.h&#10;  - CLIB_LeftHemishpore.cpp&#10;&#9;- static unsigned char* gernerateHandle(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj);&#10;&#9;- static void generateProgram(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj);&#10;&#9;- static unsigned char* get_Output(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytes_praiseId);&#10;&#9;- static unsigned char* get_FLAG_isINITIALISED(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId);&#10;&#9;- static unsigned char* get_FLAG_isINSTANTIATED(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj);&#10;&#9;- static unsigned char* get_FLAG_isStackLoaded_ServerInputReceive(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId);&#10;&#9;- static unsigned char* get_FLAG_isStackLoaded_ServerOutputSend(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId);&#10;&#9;- static unsigned char* get_MetaData_PraiseEventId(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId);&#10;&#9;- static void set_InputItemsFor_praise0(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B);&#10;    - static void set_InputItemsFor_praise1(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B);&#10;    - static void set_InputItemsFor_praise2(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B);&#10;    - static void set_InputItemsFor_praise3(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B); &#10;&#9;- static void set_MetaData_PraiseEventId(uint8_t* sysThreadId, unsigned char* handleId);    &#10;    - static void terminateProgram(uint8_t* sysThreadId);&#10;  - CLIB_LeftHemishpore_Framework.h&#10;  - CLIB_LeftHemishpore_Framework.cpp&#10;  - CLIB_LeftHemishpore_Framework_Glob.h&#10;  - CLIB_LeftHemishpore_Framework_Global.cpp&#10;  - CLIB_LeftHemishpore_Framework_App.h&#10;  - CLIB_LeftHemishpore_Framework_App.cpp&#10;  - CLIB_LeftHemishpore_Framework_App_Algorithms.h&#10;  - CLIB_LeftHemishpore_Framework_App_Algorithms.cpp&#10;  &#10;TODO:&#10;  - CLIB_LeftHemishpore.cpp&#10;&#9;- static void reInitialiseHandle(uint8_t* sysThreadId, unsigned char* handleId, uint8_t* NUMBER_OF_TASK_THREADS);" />
+    <MESSAGE value="DEVELOPMENT_2026_10_21_1612, &lt;COMPILE_DEV&gt; &lt;RUNTIME_DEV&gt;.&#10;BUILD: DEVELOPMENT_2026_10_21_1612.&#10;&#10;PHASE: Design, **Implementation**, Testing, Review.&#10;&#10;IMPLEMENTED:&#10;  - CLIB_LeftHemishpore.h&#10;  - CLIB_LeftHemishpore.cpp&#10;&#9;- static unsigned char* gernerateHandle(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj);&#10;&#9;- static void generateProgram(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj);&#10;&#9;- static unsigned char* get_Output(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytes_praiseId);&#10;&#9;- static unsigned char* get_FLAG_isINITIALISED(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId);&#10;&#9;- static unsigned char* get_FLAG_isINSTANTIATED(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj);&#10;&#9;- static unsigned char* get_FLAG_isStackLoaded_ServerInputReceive(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId);&#10;&#9;- static unsigned char* get_FLAG_isStackLoaded_ServerOutputSend(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId);&#10;&#9;- static unsigned char* get_MetaData_PraiseEventId(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId);&#10;&#9;- static void set_InputItemsFor_praise0(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B);&#10;    - static void set_InputItemsFor_praise1(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B);&#10;    - static void set_InputItemsFor_praise2(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B);&#10;    - static void set_InputItemsFor_praise3(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B); &#10;&#9;- static void set_MetaData_PraiseEventId(uint8_t* sysThreadId, unsigned char* handleId);    &#10;    - static void terminateProgram(uint8_t* sysThreadId);&#10;  - CLIB_LeftHemishpore_Framework.h&#10;  - CLIB_LeftHemishpore_Framework.cpp&#10;  - CLIB_LeftHemishpore_Framework_Glob.h&#10;  - CLIB_LeftHemishpore_Framework_Global.cpp&#10;  - CLIB_LeftHemishpore_Framework_App.h&#10;  - CLIB_LeftHemishpore_Framework_App.cpp&#10;  - CLIB_LeftHemishpore_Framework_App_Algorithms.h&#10;  - CLIB_LeftHemishpore_Framework_App_Algorithms.cpp&#10;  - CLIB_LeftHemishpore_Framework_App_Data_Control.h&#10;  - CLIB_LeftHemishpore_Framework_App_Data_Control.cpp&#10;  &#10;TODO:&#10;  - CLIB_LeftHemishpore.cpp&#10;&#9;- static void reInitialiseHandle(uint8_t* sysThreadId, unsigned char* handleId, uint8_t* NUMBER_OF_TASK_THREADS);" />
+    <option name="LAST_COMMIT_MESSAGE" value="DEVELOPMENT_2026_10_21_1612, &lt;COMPILE_DEV&gt; &lt;RUNTIME_DEV&gt;.&#10;BUILD: DEVELOPMENT_2026_10_21_1612.&#10;&#10;PHASE: Design, **Implementation**, Testing, Review.&#10;&#10;IMPLEMENTED:&#10;  - CLIB_LeftHemishpore.h&#10;  - CLIB_LeftHemishpore.cpp&#10;&#9;- static unsigned char* gernerateHandle(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj);&#10;&#9;- static void generateProgram(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj);&#10;&#9;- static unsigned char* get_Output(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytes_praiseId);&#10;&#9;- static unsigned char* get_FLAG_isINITIALISED(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId);&#10;&#9;- static unsigned char* get_FLAG_isINSTANTIATED(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj);&#10;&#9;- static unsigned char* get_FLAG_isStackLoaded_ServerInputReceive(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId);&#10;&#9;- static unsigned char* get_FLAG_isStackLoaded_ServerOutputSend(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId);&#10;&#9;- static unsigned char* get_MetaData_PraiseEventId(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId);&#10;&#9;- static void set_InputItemsFor_praise0(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B);&#10;    - static void set_InputItemsFor_praise1(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B);&#10;    - static void set_InputItemsFor_praise2(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B);&#10;    - static void set_InputItemsFor_praise3(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B); &#10;&#9;- static void set_MetaData_PraiseEventId(uint8_t* sysThreadId, unsigned char* handleId);    &#10;    - static void terminateProgram(uint8_t* sysThreadId);&#10;  - CLIB_LeftHemishpore_Framework.h&#10;  - CLIB_LeftHemishpore_Framework.cpp&#10;  - CLIB_LeftHemishpore_Framework_Glob.h&#10;  - CLIB_LeftHemishpore_Framework_Global.cpp&#10;  - CLIB_LeftHemishpore_Framework_App.h&#10;  - CLIB_LeftHemishpore_Framework_App.cpp&#10;  - CLIB_LeftHemishpore_Framework_App_Algorithms.h&#10;  - CLIB_LeftHemishpore_Framework_App_Algorithms.cpp&#10;  - CLIB_LeftHemishpore_Framework_App_Data_Control.h&#10;  - CLIB_LeftHemishpore_Framework_App_Data_Control.cpp&#10;  &#10;TODO:&#10;  - CLIB_LeftHemishpore.cpp&#10;&#9;- static void reInitialiseHandle(uint8_t* sysThreadId, unsigned char* handleId, uint8_t* NUMBER_OF_TASK_THREADS);" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/io/src/CLIB_LeftHemishpore.cpp</url>
+          <line>51</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/io/src/CLIB_LeftHemishpore.cpp</url>
+          <line>207</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/io/src/CLIB_LeftHemishpore.cpp</url>
+          <line>410</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/io/src/CLIB_LeftHemishpore.cpp</url>
+          <line>421</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/io/src/CLIB_LeftHemishpore.cpp</url>
+          <line>461</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/io/src/CLIB_LeftHemishpore.cpp</url>
+          <line>468</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/io/src/CLIB_LeftHemishpore.cpp</url>
+          <line>168</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/io/src/CLIB_LeftHemishpore.cpp</url>
+          <line>29</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/io/src/CLIB_LeftHemishpore.cpp</url>
+          <line>264</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/engine/CLIB_LeftHemishpore_Framework_App_Data_Control.cpp</url>
+          <line>96</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/engine/CLIB_LeftHemishpore_Framework_App_Data_Control.cpp</url>
+          <line>140</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/engine/CLIB_LeftHemishpore_Framework_App_Data_Control.cpp</url>
+          <line>162</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/engine/CLIB_LeftHemishpore_Framework_App_Data_Control.cpp</url>
+          <line>183</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/engine/CLIB_LeftHemishpore_Framework_App_Data_Control.cpp</url>
+          <line>189</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/engine/CLIB_LeftHemishpore_Framework_App_Data_Control.cpp</url>
+          <line>216</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/engine/CLIB_LeftHemishpore_Framework_App_Data_Control.cpp</url>
+          <line>245</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/engine/CLIB_LeftHemishpore_Framework_App_Execute.cpp</url>
+          <line>55</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/engine/CLIB_LeftHemishpore_Framework_App_Execute_Control.cpp</url>
+          <line>51</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/engine/CLIB_LeftHemishpore_Framework_App_Execute_Control.cpp</url>
+          <line>100</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

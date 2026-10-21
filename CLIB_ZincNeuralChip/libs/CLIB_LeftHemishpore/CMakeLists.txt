@@ -24,7 +24,7 @@ add_library(zinc_epicentre STATIC
         src/engine/CLIB_LeftHemishpore_Framework_Global.cpp
         src/independent/CLIB_LeftHemishpore_STRUCT_Input.cpp
         src/independent/CLIB_LeftHemishpore_STRUCT_Output.cpp
-        src/independent/CLIB_LeftHemishpore_STRUCT_Concurrent.cpp
+        src/independent/threads/CLIB_LeftHemishpore_STRUCT_Concurrent.cpp
         src/independent/CLIB_LeftHemishpore_STRUCT_User_Input.cpp
         src/independent/CLIB_LeftHemishpore_STRUCT_User_Output.cpp
         src/independent/CLIB_LeftHemishpore_STRUCT_User_Algorithm.cpp
