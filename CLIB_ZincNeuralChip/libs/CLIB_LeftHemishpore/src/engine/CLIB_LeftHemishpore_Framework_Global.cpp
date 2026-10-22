@@ -4,7 +4,7 @@
 #include <cstring>
 #include <iostream>
 #include <ostream>
-    uint8_t* zinc::CLIB_LeftHemishpore_Framework_Global::stat_REG_ptr_CLIB_LeftHemishpore_Framework_Global_number_Of_Implemented_Cores;
+    uint8_t* zinc::CLIB_LeftHemishpore_Framework_Global::stat_REG_ptr_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS;
     unsigned long long* zinc::CLIB_LeftHemishpore_Framework_Global::stat_REG_ptr_CLIB_LeftHemishpore_Framework_Global_number_Of_Praise_Events;
 // public.
     zinc::CLIB_LeftHemishpore_Framework_Global::CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId) {
@@ -17,25 +17,25 @@
     }
     zinc::CLIB_LeftHemishpore_Framework_Global::~CLIB_LeftHemishpore_Framework_Global() {
         std::cout << "thread " << std::to_string(0) << ":: entered LIB :: zinc : CLIB_LeftHemishpore_Framework_Global : ~CLIB_LeftHemishpore_Framework_Global(sysThreadId)." << std::endl;
-        delete stat_REG_ptr_CLIB_LeftHemishpore_Framework_Global_number_Of_Implemented_Cores;
+        delete stat_REG_ptr_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS;
         delete stat_REG_ptr_CLIB_LeftHemishpore_Framework_Global_number_Of_Praise_Events;
         std::cout << "thread " << std::to_string(0) << ":: exiting LIB :: zinc : CLIB_LeftHemishpore_Framework_Global : ~CLIB_LeftHemishpore_Framework_Global(sysThreadId)." << std::endl;
     }
     void zinc::CLIB_LeftHemishpore_Framework_Global::dyn_REG_boot1_DEFINE_CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId) {
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemishpore_Framework_Global : dyn_REG_boot1_DEFINE_CLIB_LeftHemishpore_Framework_Global(sysThreadId)." << std::endl;
-        stat_REG_boot1_DEFINE_CLIB_LeftHemishpore_Framework_Global_number_Of_Implemented_Cores(sysThreadId);
+        stat_REG_boot1_DEFINE_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS(sysThreadId);
         stat_REG_boot1_DEFINE_CLIB_LeftHemishpore_Framework_Global_number_Of_Praise_Events(sysThreadId);
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemishpore_Framework_Global : dyn_REG_boot1_DEFINE_CLIB_LeftHemishpore_Framework_Global(sysThreadId)." << std::endl;
     }
     void zinc::CLIB_LeftHemishpore_Framework_Global::dyn_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId) {
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemishpore_Framework_Global : dyn_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_Global(sysThreadId)." << std::endl;
-        stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_Global_number_Of_Implemented_Cores(sysThreadId);
+        stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS(sysThreadId);
         stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_Global_number_Of_Praise_Events(sysThreadId);
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemishpore_Framework_Global : dyn_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_Global(sysThreadId)." << std::endl;
     }
     void zinc::CLIB_LeftHemishpore_Framework_Global::dyn_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId) {
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemishpore_Framework_Global : dyn_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_Global(sysThreadId)." << std::endl;
-        stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_Global_number_Of_Implemented_Cores(sysThreadId);
+        stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS(sysThreadId);
         stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_Global_number_Of_Praise_Events(sysThreadId);
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemishpore_Framework_Global : dyn_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_Global(sysThreadId)." << std::endl;
     }
@@ -43,9 +43,12 @@
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemishpore_Framework_Global : dyn_REG_boot4_INSTANTIATE_CLIB_LeftHemishpore_Framework_Global(sysThreadId)." << std::endl;
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemishpore_Framework_Global : dyn_REG_boot4_INSTANTIATE_CLIB_LeftHemishpore_Framework_Global(sysThreadId)." << std::endl;
     }
-    uint8_t* zinc::CLIB_LeftHemishpore_Framework_Global::stat_REG_get_CLIB_LeftHemishpore_Framework_Global_Item_number_Of_Implemented_Cores(uint8_t* sysThreadId) {
-        std::cout << "thread " << std::to_string(*sysThreadId) << " :: <= uint8_t : dyn_REG_get_CLIB_LeftHemishpore_Framework_Global_Item_number_Of_Implemented_Cores(sysThreadId). " << std::endl;
-        return pr_stat_REG_get_ptr_CLIB_LeftHemishpore_Framework_Global_number_Of_Implemented_Cores(sysThreadId);
+    uint8_t* zinc::CLIB_LeftHemishpore_Framework_Global::stat_REG_get_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS(uint8_t* sysThreadId) {
+        std::cout << "thread " << std::to_string(*sysThreadId) << " :: <= uint8_t : dyn_REG_get_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS(sysThreadId). " << std::endl;
+        return pr_stat_REG_get_ptr_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS(sysThreadId);
+    }
+    void zinc::CLIB_LeftHemishpore_Framework_Global::stat_REG_set_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS(uint8_t* sysThreadId, uint8_t* MAX_NUMBER_OF_THREADS) {
+        pr_stat_REG_set_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS(sysThreadId, *MAX_NUMBER_OF_THREADS);
     }
     int* zinc::CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_Bool_To_Int(uint8_t* sysThreadId, bool newValue_Bool) {
         int* temp = nullptr;
@@ -142,9 +145,9 @@
     }
 
 // private.
-    void zinc::CLIB_LeftHemishpore_Framework_Global::stat_REG_boot1_DEFINE_CLIB_LeftHemishpore_Framework_Global_number_Of_Implemented_Cores(uint8_t* sysThreadId) {
+    void zinc::CLIB_LeftHemishpore_Framework_Global::stat_REG_boot1_DEFINE_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS(uint8_t* sysThreadId) {
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemishpore_Framework_Global : stat_REG_boot1_DEFINE_number_Of_Implemented_Cores(sysThreadId). " << std::endl;
-        stat_REG_ptr_CLIB_LeftHemishpore_Framework_Global_number_Of_Implemented_Cores = nullptr;
+        stat_REG_ptr_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS = nullptr;
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemishpore_Framework_Global : stat_REG_boot1_DEFINE_number_Of_Implemented_Cores(sysThreadId). " << std::endl;
     }
     void zinc::CLIB_LeftHemishpore_Framework_Global::stat_REG_boot1_DEFINE_CLIB_LeftHemishpore_Framework_Global_number_Of_Praise_Events(uint8_t* sysThreadId) {
@@ -152,10 +155,10 @@
         stat_REG_ptr_CLIB_LeftHemishpore_Framework_Global_number_Of_Praise_Events = nullptr;
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemishpore_Framework_Global : stat_REG_boot1_DEFINE_number_Of_Praise_Events(sysThreadId). " << std::endl;
     }
-    void zinc::CLIB_LeftHemishpore_Framework_Global::stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_Global_number_Of_Implemented_Cores(uint8_t* sysThreadId) {
+    void zinc::CLIB_LeftHemishpore_Framework_Global::stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS(uint8_t* sysThreadId) {
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemishpore_Framework_Global : stat_REG_boot2_SUBSTANTIATE_number_Of_Implemented_Cores(sysThreadId). " << std::endl;
-        stat_REG_ptr_CLIB_LeftHemishpore_Framework_Global_number_Of_Implemented_Cores = new uint8_t();
-        *stat_REG_ptr_CLIB_LeftHemishpore_Framework_Global_number_Of_Implemented_Cores = static_cast<uint8_t>(255);
+        stat_REG_ptr_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS = new uint8_t();
+        *stat_REG_ptr_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS = static_cast<uint8_t>(255);
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemishpore_Framework_Global : stat_REG_boot2_SUBSTANTIATE_number_Of_Implemented_Cores(sysThreadId). " << std::endl;
     }
     void zinc::CLIB_LeftHemishpore_Framework_Global::stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_Global_number_Of_Praise_Events(uint8_t* sysThreadId) {
@@ -164,9 +167,9 @@
         *stat_REG_ptr_CLIB_LeftHemishpore_Framework_Global_number_Of_Praise_Events = ULLONG_MAX;
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemishpore_Framework_Global : stat_REG_boot2_SUBSTANTIATE_number_Of_Praise_Events(sysThreadId). " << std::endl;
     }
-    void zinc::CLIB_LeftHemishpore_Framework_Global::stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_Global_number_Of_Implemented_Cores(uint8_t* sysThreadId) {
+    void zinc::CLIB_LeftHemishpore_Framework_Global::stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS(uint8_t* sysThreadId) {
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemishpore_Framework_Global : stat_REG_boot3_INITIALISE_number_Of_Implemented_Cores(sysThreadId). " << std::endl;
-        *stat_REG_ptr_CLIB_LeftHemishpore_Framework_Global_number_Of_Implemented_Cores = static_cast<uint8_t>(4);
+        *stat_REG_ptr_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS = static_cast<uint8_t>(5);
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemishpore_Framework_Global : stat_REG_boot3_INITIALISE_number_Of_Implemented_Cores(sysThreadId). " << std::endl;
     }
     void zinc::CLIB_LeftHemishpore_Framework_Global::stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_Global_number_Of_Praise_Events(uint8_t* sysThreadId) {
@@ -174,11 +177,14 @@
         *stat_REG_ptr_CLIB_LeftHemishpore_Framework_Global_number_Of_Praise_Events = static_cast<unsigned long long>(4);
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemishpore_Framework_Global : stat_REG_boot3_INITIALISE_number_Of_Praise_Events(sysThreadId). " << std::endl;
     }
-    uint8_t* zinc::CLIB_LeftHemishpore_Framework_Global::pr_stat_REG_get_ptr_CLIB_LeftHemishpore_Framework_Global_number_Of_Implemented_Cores(uint8_t* sysThreadId) {
+    uint8_t* zinc::CLIB_LeftHemishpore_Framework_Global::pr_stat_REG_get_ptr_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS(uint8_t* sysThreadId) {
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: <= uint8_t* : stat_REG_get_Ptr_number_Of_Implemented_Cores(sysThreadId). " << std::endl;
-        return stat_REG_ptr_CLIB_LeftHemishpore_Framework_Global_number_Of_Implemented_Cores;
+        return stat_REG_ptr_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS;
     }
     unsigned long long* zinc::CLIB_LeftHemishpore_Framework_Global::pr_stat_REG_get_ptr_CLIB_LeftHemishpore_Framework_Global_number_Of_Praise_Events(uint8_t* sysThreadId) {
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: <= unsigned long long* : stat_REG_get_Ptr_number_Of_Praise_Events(sysThreadId). " << std::endl;
         return stat_REG_ptr_CLIB_LeftHemishpore_Framework_Global_number_Of_Praise_Events;
+    }
+    void zinc::CLIB_LeftHemishpore_Framework_Global::pr_stat_REG_set_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS(uint8_t* sysThreadId, uint8_t MAX_NUMBER_OF_THREADS) {
+        *stat_REG_ptr_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS = MAX_NUMBER_OF_THREADS;
     }

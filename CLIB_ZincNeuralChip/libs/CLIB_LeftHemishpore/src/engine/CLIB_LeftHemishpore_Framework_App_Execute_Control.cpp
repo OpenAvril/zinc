@@ -31,13 +31,13 @@
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemishpore_Framework_App_Execute_Control : dyn_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_App_Execute_Control(sysThreadId)." << std::endl;
 		stat_REG_boot2_SUBSTANTIATE_FLAG_CLIB_LeftHemishpore_Framework_App_Execute_Control_isSystemInitialised(sysThreadId, obj);
 		stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_FLAGisThreadInitialised(sysThreadId, obj);
-		stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_Threads(sysThreadId, obj);
+		stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_Threads(sysThreadId);
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemishpore_Framework_App_Execute_Control : dyn_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_App_Execute_Control(sysThreadId)." << std::endl;
 	}
 	void zinc::CLIB_LeftHemishpore_Framework_App_Execute_Control::dyn_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_App_Execute_Control(uint8_t* sysThreadId, zinc::CLIB_LeftHemishpore_Framework* obj) {
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemishpore_Framework_App_Execute_Control : dyn_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_App_Execute_Control(sysThreadId)." << std::endl;
-		stat_REG_boot3_INITIALISE_FLAG_CLIB_LeftHemishpore_Framework_App_Execute_Control_isSystemInitialised(sysThreadId, obj);
-		stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_FLAGisThreadInitialised(sysThreadId, obj);
+		stat_REG_boot3_INITIALISE_FLAG_CLIB_LeftHemishpore_Framework_App_Execute_Control_isSystemInitialised(sysThreadId);
+		stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_FLAGisThreadInitialised(sysThreadId);
 		stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_Threads(sysThreadId, obj);
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemishpore_Framework_App_Execute_Control : dyn_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_App_Execute_Control(sysThreadId)." << std::endl;
 	}
@@ -45,9 +45,12 @@
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemishpore_Framework_App_Execute_Control : dyn_REG_boot4_INSTANTIATE_CLIB_LeftHemishpore_Framework_App_Execute_Control(sysThreadId)." << std::endl;
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemishpore_Framework_App_Execute_Control : dyn_REG_boot4_INSTANTIATE_CLIB_LeftHemishpore_Framework_App_Execute_Control(sysThreadId)." << std::endl;
 	}
-	void zinc::CLIB_LeftHemishpore_Framework_App_Execute_Control::dyn_REG_boot4_REINITIALISE_CLIB_LeftHemoshpore_Framework_App_Execute_Control_MAX_NUMBER_OF_THREADS(uint8_t* sysThreadId, uint8_t* MAX_NUMBER_OF_THREADS){
-		stat_REG_boot3_REINITIALISE_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_FLAGisThreadInitialised(sysThreadId, *MAX_NUMBER_OF_THREADS);
-		stat_REG_boot3_REINITIALISE_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_Threads(sysThreadId, *MAX_NUMBER_OF_THREADS);
+	void zinc::CLIB_LeftHemishpore_Framework_App_Execute_Control::dyn_REG_boot4_REINITIALISE_CLIB_LeftHemoshpore_Framework_App_Execute_Control_MAX_NUMBER_OF_THREADS(uint8_t* sysThreadId, zinc::CLIB_LeftHemishpore_Framework* obj, uint8_t* MAX_NUMBER_OF_THREADS){
+		CLIB_LeftHemishpore_Framework_Global::stat_REG_set_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS(sysThreadId, MAX_NUMBER_OF_THREADS);
+		stat_REG_boot3_REINITIALISE_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_FLAGisThreadInitialised(sysThreadId);
+		stat_REG_boot3_REINITIALISE_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_Threads(sysThreadId, obj);
+		obj->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Execute(sysThreadId)->dyn_REG_boot3_REINITIALISE_CLIB_LeftHemishpore_Framework_App_Execute(sysThreadId);
+
 	}
 	bool zinc::CLIB_LeftHemishpore_Framework_App_Execute_Control::dyn_REG_get_FLAG_CLIB_LeftHemishpore_Framework_App_Execute_Control_isSystemInitialised(uint8_t* sysThreadId) {
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: <= bool : dyn_REG_get_FLAG_CLIB_LeftHemishpore_Framework_App_Execute_Control_isSystemInitialised(sysThreadId)." << std::endl;
@@ -112,7 +115,7 @@
 	void zinc::CLIB_LeftHemishpore_Framework_App_Execute_Control::stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_FLAGisThreadInitialised(uint8_t* sysThreadId, zinc::CLIB_LeftHemishpore_Framework* obj) {
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemishpore_Framework_App_Execute_Control : stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_FLAGisThreadInitialised(sysThreadId). " << std::endl;
 		stat_REG_ptr_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_FLAGisThreadInitialised = new std::list<bool>();
-		stat_REG_ptr_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_FLAGisThreadInitialised->resize(*CLIB_LeftHemishpore_Framework_Global::stat_REG_get_CLIB_LeftHemishpore_Framework_Global_Item_number_Of_Implemented_Cores(sysThreadId));
+		stat_REG_ptr_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_FLAGisThreadInitialised->resize(*CLIB_LeftHemishpore_Framework_Global::stat_REG_get_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS(sysThreadId));
 		for (auto* concurrentThreadId = new uint8_t(0); *concurrentThreadId < stat_REG_ptr_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_FLAGisThreadInitialised->size(); concurrentThreadId++) {
 			auto temp = stat_REG_ptr_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_FLAGisThreadInitialised->begin();
 			std::advance(temp, *concurrentThreadId);
@@ -120,10 +123,10 @@
 		}
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemishpore_Framework_App_Execute_Control : stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_FLAGisThreadInitialised(sysThreadId). " << std::endl;
 	}
-	void zinc::CLIB_LeftHemishpore_Framework_App_Execute_Control::stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_Threads(uint8_t* sysThreadId, zinc::CLIB_LeftHemishpore_Framework* obj) {
+	void zinc::CLIB_LeftHemishpore_Framework_App_Execute_Control::stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_Threads(uint8_t* sysThreadId) {
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemishpore_Framework_App_Execute_Control : stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_Threads(sysThreadId). " << std::endl;
 		stat_REG_ptr_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_Threads = new std::list<std::thread*>();
-		stat_REG_ptr_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_Threads->resize(*CLIB_LeftHemishpore_Framework_Global::stat_REG_get_CLIB_LeftHemishpore_Framework_Global_Item_number_Of_Implemented_Cores(sysThreadId));
+		stat_REG_ptr_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_Threads->resize(*CLIB_LeftHemishpore_Framework_Global::stat_REG_get_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS(sysThreadId));
 		for (auto* concurrentThreadId = new uint8_t(0); *concurrentThreadId < stat_REG_ptr_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_Threads->size(); concurrentThreadId++) {
 			auto temp = stat_REG_ptr_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_Threads->begin();
 			std::advance(temp, *concurrentThreadId);
@@ -131,12 +134,12 @@
 		}
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemishpore_Framework_App_Execute_Control : stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_Threads(sysThreadId). " << std::endl;
 	}
-	void zinc::CLIB_LeftHemishpore_Framework_App_Execute_Control::stat_REG_boot3_INITIALISE_FLAG_CLIB_LeftHemishpore_Framework_App_Execute_Control_isSystemInitialised(uint8_t* sysThreadId, zinc::CLIB_LeftHemishpore_Framework* obj) {
+	void zinc::CLIB_LeftHemishpore_Framework_App_Execute_Control::stat_REG_boot3_INITIALISE_FLAG_CLIB_LeftHemishpore_Framework_App_Execute_Control_isSystemInitialised(uint8_t* sysThreadId) {
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemishpore_Framework_App_Execute_Control : stat_REG_boot3_INITIALISE_FLAG_CLIB_LeftHemishpore_Framework_App_Execute_Control_isSystemInitialised(sysThreadId). " << std::endl;
 		*stat_REG_ptr_CLIB_LeftHemishpore_Framework_App_Execute_Control_isSystemInitialised = true;
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemishpore_Framework_App_Execute_Control : stat_REG_boot3_INITIALISE_FLAG_CLIB_LeftHemishpore_Framework_App_Execute_Control_isSystemInitialised(sysThreadId). " << std::endl;
 	}
-	void zinc::CLIB_LeftHemishpore_Framework_App_Execute_Control::stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_FLAGisThreadInitialised(uint8_t* sysThreadId, zinc::CLIB_LeftHemishpore_Framework* obj)	{
+	void zinc::CLIB_LeftHemishpore_Framework_App_Execute_Control::stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_FLAGisThreadInitialised(uint8_t* sysThreadId)	{
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemishpore_Framework_App_Execute_Control : stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_FLAGisThreadInitialised(sysThreadId). " << std::endl;
 		for (auto* concurrentThreadId = new uint8_t(0); *concurrentThreadId < stat_REG_ptr_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_FLAGisThreadInitialised->size(); concurrentThreadId++) {
 			auto temp = stat_REG_ptr_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_FLAGisThreadInitialised->begin();
@@ -147,7 +150,7 @@
 	}
 	void zinc::CLIB_LeftHemishpore_Framework_App_Execute_Control::stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_Threads(uint8_t* sysThreadId, class CLIB_LeftHemishpore_Framework* obj) {
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemishpore_Framework_App_Execute_Control : stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_Threads(sysThreadId). " << std::endl;
-		stat_REG_ptr_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_Threads->resize(*CLIB_LeftHemishpore_Framework_Global::stat_REG_get_CLIB_LeftHemishpore_Framework_Global_Item_number_Of_Implemented_Cores(sysThreadId));
+		stat_REG_ptr_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_Threads->resize(*CLIB_LeftHemishpore_Framework_Global::stat_REG_get_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS(sysThreadId));
 		//auto temp = stat_REG_ptr_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_Threads->begin();
 		//std::advance(temp, 0);
 		//*temp = new std::thread(zinc::, sysThreadId, obj, 0);
@@ -161,10 +164,10 @@
 		}
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemishpore_Framework_App_Execute_Control : stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_Threads(sysThreadId). " << std::endl;
 	}
-	void zinc::CLIB_LeftHemishpore_Framework_App_Execute_Control::stat_REG_boot3_REINITIALISE_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_FLAGisThreadInitialised(uint8_t* sysThreadId, uint8_t MAX_NUMBER_OF_THREADS)	{
+	void zinc::CLIB_LeftHemishpore_Framework_App_Execute_Control::stat_REG_boot3_REINITIALISE_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_FLAGisThreadInitialised(uint8_t* sysThreadId)	{
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemishpore_Framework_App_Execute_Control : stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_FLAGisThreadInitialised(sysThreadId). " << std::endl;
 		auto oldSize = stat_REG_ptr_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_FLAGisThreadInitialised->size();
-		stat_REG_ptr_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_FLAGisThreadInitialised->resize(static_cast<uint8_t>(MAX_NUMBER_OF_THREADS));
+		stat_REG_ptr_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_FLAGisThreadInitialised->resize(*CLIB_LeftHemishpore_Framework_Global::stat_REG_get_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS(sysThreadId));
 		for (auto* concurrentThreadId = new uint8_t(oldSize); *concurrentThreadId < stat_REG_ptr_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_FLAGisThreadInitialised->size(); concurrentThreadId++) {
 			auto temp = stat_REG_ptr_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_FLAGisThreadInitialised->begin();
 			std::advance(temp, *concurrentThreadId);
@@ -172,10 +175,10 @@
 		}
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemishpore_Framework_App_Execute_Control : stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_FLAGisThreadInitialised(sysThreadId). " << std::endl;
 	}
-	void zinc::CLIB_LeftHemishpore_Framework_App_Execute_Control::stat_REG_boot3_REINITIALISE_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_Threads(uint8_t* sysThreadId, class CLIB_LeftHemishpore_Framework* obj, uint8_t* concurrnetThreadId, uint8_t* MAX_NUMBER_OF_THREADS) {
+	void zinc::CLIB_LeftHemishpore_Framework_App_Execute_Control::stat_REG_boot3_REINITIALISE_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_Threads(uint8_t* sysThreadId, class CLIB_LeftHemishpore_Framework* obj) {
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemishpore_Framework_App_Execute_Control : stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_Threads(sysThreadId). " << std::endl;
 		auto oldSize = stat_REG_ptr_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_Threads->size();
-		stat_REG_ptr_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_Threads->resize(*MAX_NUMBER_OF_THREADS);
+		stat_REG_ptr_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_Threads->resize(*CLIB_LeftHemishpore_Framework_Global::stat_REG_get_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS(sysThreadId));
 		for (auto* concurrentThreadId = new uint8_t(0); *concurrentThreadId < stat_REG_ptr_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_Threads->size(); concurrentThreadId++) {
 			auto temp = stat_REG_ptr_CLIB_LeftHemishpore_Framework_App_Execute_Control_ListOf_Threads->begin();
 			std::advance(temp, *concurrentThreadId);

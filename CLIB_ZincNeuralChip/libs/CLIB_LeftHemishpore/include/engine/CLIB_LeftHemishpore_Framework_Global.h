@@ -18,8 +18,9 @@ namespace zinc {
         static void dyn_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId);
         static void dyn_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId);
         static void dyn_REG_boot4_INSTANTIATE_CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId);
-        static uint8_t* stat_REG_get_CLIB_LeftHemishpore_Framework_Global_Item_number_Of_Implemented_Cores(uint8_t* sysThreadId);
+        static uint8_t* stat_REG_get_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS(uint8_t* sysThreadId);
         static unsigned long long* stat_REG_get_CLIB_LeftHemishpore_Framework_Global_Item_number_Of_Praise_Events(uint8_t* sysThreadId);
+        static void stat_REG_set_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS(uint8_t* sysThreadId, uint8_t* MAX_NUMBER_OF_THREADS);
         static void stat_CLASS_boot0_DECLARE_CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId);
         static void stat_CLASS_boot1_DEFINE_CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId);
         static void stat_CLASS_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId);
@@ -40,16 +41,17 @@ namespace zinc {
         static void stat_REG_boot0_DECLARE_CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId);
 
     private:
-        static uint8_t* stat_REG_ptr_CLIB_LeftHemishpore_Framework_Global_number_Of_Implemented_Cores;
+        static uint8_t* stat_REG_ptr_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS;
         static unsigned long long* stat_REG_ptr_CLIB_LeftHemishpore_Framework_Global_number_Of_Praise_Events;
-        static void stat_REG_boot1_DEFINE_CLIB_LeftHemishpore_Framework_Global_number_Of_Implemented_Cores(uint8_t* sysThreadId);
+        static void stat_REG_boot1_DEFINE_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS(uint8_t* sysThreadId);
         static void stat_REG_boot1_DEFINE_CLIB_LeftHemishpore_Framework_Global_number_Of_Praise_Events(uint8_t* sysThreadId);
-        static void stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_Global_number_Of_Implemented_Cores(uint8_t* sysThreadId);
+        static void stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS(uint8_t* sysThreadId);
         static void stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_Global_number_Of_Praise_Events(uint8_t* sysThreadId);
-        static void stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_Global_number_Of_Implemented_Cores(uint8_t* sysThreadId);
+        static void stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS(uint8_t* sysThreadId);
         static void stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_Global_number_Of_Praise_Events(uint8_t* sysThreadId);
-        static uint8_t* pr_stat_REG_get_ptr_CLIB_LeftHemishpore_Framework_Global_number_Of_Implemented_Cores(uint8_t* sysThreadId);
+        static uint8_t* pr_stat_REG_get_ptr_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS(uint8_t* sysThreadId);
         static unsigned long long* pr_stat_REG_get_ptr_CLIB_LeftHemishpore_Framework_Global_number_Of_Praise_Events(uint8_t* sysThreadId);
+        static void pr_stat_REG_set_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS(uint8_t* sysThreadId, uint8_t MAX_NUMBER_OF_THREADS);
     };
 }
 #endif
