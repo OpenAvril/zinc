@@ -27,10 +27,10 @@
 		delete stat_STRUCT_ptr_CLIB_LeftHemishpore_Framework_User_Output;
 		std::cout << "thread " << std::to_string(0) << ":: exiting LIB :: zinc : CLIB_LeftHemishpore_Framework : ~CLIB_LeftHemishpore_Framework(sysThreadId)." << std::endl;
 	}
-	void zinc::CLIB_LeftHemishpore_Framework::dyn_CLASS_create_CLIB_LeftHemishpore_Framework_Architecture(uint8_t* sysThreadId) {
+	void zinc::CLIB_LeftHemishpore_Framework::dyn_CLASS_create_CLIB_LeftHemishpore_Framework_Architecture(uint8_t* sysThreadId, zinc::CLIB_LeftHemishpore_Framework* obj) {
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemishpore_Framework : dyn_CLASS_create_CLIB_LeftHemishpore_Framework_Architecture(sysThreadId)." << std::endl;
 		stat_CLASS_boot1_DEFINE_CLIB_LeftHemishpore_Framework(sysThreadId);
-		stat_CLASS_boot3_INITIALISE_CLIB_LeftHemishpore_Framework(sysThreadId);
+		stat_CLASS_boot3_INITIALISE_CLIB_LeftHemishpore_Framework(sysThreadId, obj);
 		stat_REG_boot0_DECLARE_CLIB_LeftHemishpore_Framework(sysThreadId);
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemishpore_Framework : dyn_CLASS_create_CLIB_LeftHemishpore_Framework_Architecture(sysThreadId)." << std::endl;
 	}
@@ -141,10 +141,10 @@
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemishpore_Framework : stat_CLASS_boot1_DEFINE_CLIB_LeftHemishpore_Framework(sysThreadId)" << std::endl;
 		stat_CLASS_boot1_DEFINE_CLIB_LeftHemishpore_Framework_App(sysThreadId);
 	}
-	void zinc::CLIB_LeftHemishpore_Framework::stat_CLASS_boot3_INITIALISE_CLIB_LeftHemishpore_Framework(uint8_t* sysThreadId) {
+	void zinc::CLIB_LeftHemishpore_Framework::stat_CLASS_boot3_INITIALISE_CLIB_LeftHemishpore_Framework(uint8_t* sysThreadId, zinc::CLIB_LeftHemishpore_Framework* obj) {
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemishpore_Framework : stat_CLASS_boot3_INITIALISE_CLIB_LeftHemishpore_Framework(sysThreadId)" << std::endl;
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemishpore_Framework : stat_CLASS_boot3_INITIALISE_CLIB_LeftHemishpore_Framework(sysThreadId)" << std::endl;
-		stat_CLASS_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_App(sysThreadId);
+		stat_CLASS_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_App(sysThreadId, obj);
 	}
 	void zinc::CLIB_LeftHemishpore_Framework::stat_REG_boot0_DECLARE_CLIB_LeftHemishpore_Framework(uint8_t* sysThreadId) {
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemishpore_Framework : stat_REG_boot0_DECLARE_CLIB_LeftHemishpore_Framework(sysThreadId)" << std::endl;
@@ -161,9 +161,9 @@
 		stat_CLASS_ptr_CLIB_LeftHemishpore_Framework_Global = nullptr;
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemishpore_Framework : stat_CLASS_boot1_DEFINE_CLIB_LeftHemishpore_Framework_Global(sysThreadId)" << std::endl;
 	}
-	void zinc::CLIB_LeftHemishpore_Framework::stat_CLASS_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_App(uint8_t* sysThreadId) {
+	void zinc::CLIB_LeftHemishpore_Framework::stat_CLASS_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_App(uint8_t* sysThreadId, zinc::CLIB_LeftHemishpore_Framework* obj) {
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemishpore_Framework : stat_CLASS_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_App(sysThreadId)" << std::endl;
-		stat_CLASS_ptr_CLIB_LeftHemishpore_Framework_App = new CLIB_LeftHemishpore_Framework_App(sysThreadId);
+		stat_CLASS_ptr_CLIB_LeftHemishpore_Framework_App = new CLIB_LeftHemishpore_Framework_App(sysThreadId, obj);
 		while (stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId) == nullptr) {}
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemishpore_Framework : stat_CLASS_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_App(sysThreadId)" << std::endl;
 	}

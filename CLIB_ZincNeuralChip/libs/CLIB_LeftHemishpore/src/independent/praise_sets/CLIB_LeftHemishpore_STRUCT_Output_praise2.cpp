@@ -70,4 +70,4 @@
 	void zinc::CLIB_LeftHemishpore_STRUCT_Output_praise2::stat_REG_set_Item_CLIB_LeftHemishpore_STRUCT_Output_praise2_Value(uint8_t* sysThreadId, double newValue_Double)	{
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: => double : stat_REG_set_Item_CLIB_LeftHemishpore_STRUCT_Output_praise2_Value(sysThreadId)." << std::endl;
 		*stat_REG_ptr_CLIB_LeftHemishpore_STRUCT_Output_praise2_Value = newValue_Double;
-	}}
+	}

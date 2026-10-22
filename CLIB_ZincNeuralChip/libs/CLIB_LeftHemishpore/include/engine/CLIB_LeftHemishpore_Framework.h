@@ -13,7 +13,7 @@ namespace zinc {
     public:
         CLIB_LeftHemishpore_Framework(uint8_t* sysThreadId);
         virtual ~CLIB_LeftHemishpore_Framework();
-        void dyn_CLASS_create_CLIB_LeftHemishpore_Framework_Architecture(uint8_t* sysThreadId);
+        void dyn_CLASS_create_CLIB_LeftHemishpore_Framework_Architecture(uint8_t* sysThreadId, zinc::CLIB_LeftHemishpore_Framework* obj);
         void dyn_CLASS_create_CLIB_LeftHemishpore_Framework_Global_and_Settings(uint8_t* sysThreadId);
         class CLIB_LeftHemishpore_Framework_App* dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(uint8_t* sysThreadId);
         class CLIB_LeftHemishpore_Framework_Global* dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId);
@@ -40,7 +40,7 @@ namespace zinc {
         struct CLIB_LeftHemishpore_STRUCT_User_Output* dyn_STRUCT_get_CLIB_LeftHemishpore_Framework_User_Output(uint8_t* sysThreadId);
         static void stat_CLASS_boot0_DECLARE_CLIB_LeftHemishpore_Framework(uint8_t* sysThreadId);
         static void stat_CLASS_boot1_DEFINE_CLIB_LeftHemishpore_Framework(uint8_t* sysThreadId);
-        static void stat_CLASS_boot3_INITIALISE_CLIB_LeftHemishpore_Framework(uint8_t* sysThreadId);
+        static void stat_CLASS_boot3_INITIALISE_CLIB_LeftHemishpore_Framework(uint8_t* sysThreadId, zinc::CLIB_LeftHemishpore_Framework* obj);
         static void stat_REG_boot0_DECLARE_CLIB_LeftHemishpore_Framework(uint8_t* sysThreadId);
     private:
         static struct CLIB_LeftHemishpore_Framework_App* stat_CLASS_ptr_CLIB_LeftHemishpore_Framework_App;
@@ -53,7 +53,7 @@ namespace zinc {
 		static struct CLIB_LeftHemishpore_STRUCT_User_Output* stat_STRUCT_ptr_CLIB_LeftHemishpore_Framework_User_Output;
         static void stat_CLASS_boot1_DEFINE_CLIB_LeftHemishpore_Framework_App(uint8_t* sysThreadId);
         static void stat_CLASS_boot1_DEFINE_CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId);
-        static void stat_CLASS_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_App(uint8_t* sysThreadId);
+        static void stat_CLASS_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_App(uint8_t* sysThreadId, zinc::CLIB_LeftHemishpore_Framework* obj);
         static void stat_CLASS_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId);
         static struct CLIB_LeftHemishpore_Framework_App* stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(uint8_t* sysThreadId);
         static struct CLIB_LeftHemishpore_Framework_Global* stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId);
