@@ -76,7 +76,6 @@ target_include_directories(${PROJECT_NAME}
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/libs/CLIB_Stemisphore/io/include>
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/libs/CLIB_LeftHemishpore/io/include>
         #$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/libs/CLIB_RightHemisphore/io/include>
-        $<INSTALL_INTERFACE:include>
 )
 
 target_include_directories(${PROJECT_NAME}
@@ -88,7 +87,6 @@ target_include_directories(${PROJECT_NAME}
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/libs/CLIB_LeftHemishpore/include>
         #$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/libs/CLIB_RightHemisphore/include>
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
-        $<INSTALL_INTERFACE:include>
 )
 
 target_link_libraries(${PROJECT_NAME} PRIVATE

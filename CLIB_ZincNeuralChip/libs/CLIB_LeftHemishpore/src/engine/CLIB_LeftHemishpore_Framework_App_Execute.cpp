@@ -8,6 +8,7 @@
     zinc::CLIB_LeftHemishpore_Framework_App_Execute_Control* zinc::CLIB_LeftHemishpore_Framework_App_Execute::stat_CLASS_CLIB_LeftHemishpore_Framework_App_Execute_Control;
     int* zinc::CLIB_LeftHemishpore_Framework_App_Execute::stat_REG_HandleId_For_CLIB_LaunchQue_Server;
     int* zinc::CLIB_LeftHemishpore_Framework_App_Execute::stat_REG_HandleId_For_CLIB_MutexQue_Input_LaunchQue_Server;
+    int* zinc::CLIB_LeftHemishpore_Framework_App_Execute::stat_REG_HandleId_For_CLIB_MutexQue_LaunchQue_MetaData;
     int* zinc::CLIB_LeftHemishpore_Framework_App_Execute::stat_REG_HandleId_For_CLIB_MutexQue_Output_LaunchQue_Server;
     int* zinc::CLIB_LeftHemishpore_Framework_App_Execute::stat_REG_HandleId_For_CLIB_MutexQue_ServerInputReceive;
     int* zinc::CLIB_LeftHemishpore_Framework_App_Execute::stat_REG_HandleId_For_CLIB_MutexQue_ServerOutputSend;

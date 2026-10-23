@@ -14,11 +14,11 @@ namespace zinc {
     public:
         CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId);
         virtual ~CLIB_LeftHemishpore_Framework_Global();
-        static void dyn_REG_boot1_DEFINE_CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId);
-        static void dyn_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId);
-        static void dyn_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId);
-        static void dyn_REG_boot4_INSTANTIATE_CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId);
-        static uint8_t* stat_REG_get_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS(uint8_t* sysThreadId);
+        static void stat_REG_boot0_DECLARE_CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId);
+        static void stat_REG_boot1_DEFINE_CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId);
+        static void stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId);
+        static void stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId);
+           static uint8_t* stat_REG_get_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS(uint8_t* sysThreadId);
         static unsigned long long* stat_REG_get_CLIB_LeftHemishpore_Framework_Global_Item_number_Of_Praise_Events(uint8_t* sysThreadId);
         static void stat_REG_set_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS(uint8_t* sysThreadId, uint8_t* MAX_NUMBER_OF_THREADS);
         static void stat_CLASS_boot0_DECLARE_CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId);
@@ -38,8 +38,6 @@ namespace zinc {
         static unsigned char* stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_VUALUEofMsbDouble_To_MsbByteArray(uint8_t* sysThreadId, double* newValue_Double);
         static unsigned char* stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_VUALUEofMsbUnsignedLongLong_to_ByteArray(uint8_t* sysThreadId, unsigned long long* newValue_ULongLong);
         static unsigned char* stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_VUALUEofMsbuint8_t_To_MsbByteArray(uint8_t* sysThreadId, uint8_t* newValue_uint8_t);
-        static void stat_REG_boot0_DECLARE_CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId);
-
     private:
         static uint8_t* stat_REG_ptr_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS;
         static unsigned long long* stat_REG_ptr_CLIB_LeftHemishpore_Framework_Global_number_Of_Praise_Events;
