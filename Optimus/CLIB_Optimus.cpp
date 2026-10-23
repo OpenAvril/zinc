@@ -3,6 +3,7 @@
 #include "../CLIB_ZincNeuralChip/libs/Control/libs/CLIB_ThreadsLog/io/include/CLIB_ThreadLogs.h"
 #include "../CLIB_ZincNeuralChip/libs/Control/libs/CLIB_LaunchQue/io/include/CLIB_LaunchQue.h"
 #include "../CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/io/include/CLIB_SystemBus.h"
+#include "../CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/io/include/CLIB_LeftHemishpore.h"
 #include "../CLIB_ZincNeuralChip/libs/Control/libs/CLIB_MutexQue/include/CLIB_MutexQue_Framework_Global.h"
 #include "../CLIB_ZincNeuralChip/libs/Control/libs/CLIB_ThreadsLog/include/CLIB_ThreadLogs_Framework_Global.h"
 #include "../CLIB_ZincNeuralChip/libs/Control/libs/CLIB_LaunchQue/include/CLIB_LaunchQue_Framework_Global.h"
@@ -27,6 +28,7 @@
 	void zinc::Optimus::zinc_Optimus_App_FUNCT_prime(uint8_t* sysThreadId) {
 		auto handleId = new unsigned char();
 		handleId = valueofMsbInt_To_MsbByteArray(sysThreadId,new int(INT_MAX));
+
 		auto bytes_AccessId = new unsigned char();
 		bytes_AccessId = valueofMsbuint8_t_To_MsbByteArray(sysThreadId, new uint8_t(255));
 		
@@ -49,6 +51,13 @@
 		
 		auto MAX_NUMBER_OF_JUNCTIONS = new uint8_t();
 		*MAX_NUMBER_OF_JUNCTIONS = static_cast<uint8_t>(255);
+
+		auto bytes_praiseId = new unsigned char();
+		bytes_praiseId = valueofMsbUnsignedLongLong_to_ByteArray(sysThreadId, 0);
+
+
+		auto bytesValue = new unsigned char();
+		bytesValue = valueofMsbDouble_To_MsbByteArray(sysThreadId, 0);
 
 		zinc::MutexQue::endByUnlock(sysThreadId, handleId, bytes_AccessId);
 		int* tempA0 = msbByteArray_To_valueOfmsbInt(sysThreadId, zinc::MutexQue::generateHandle(sysThreadId));
@@ -86,8 +95,22 @@
 		unsigned char* tempD2 = zinc::Stemisphore::unload(sysThreadId, *ticket);
 		zinc::Stemisphore::terminateProgram(sysThreadId);
 
-		//todo epicentre
-	}
+		unsigned char* tempE0 = zinc::Epicentre::gernerateHandle(sysThreadId);
+		zinc::Epicentre::generateProgram(sysThreadId);
+		unsigned char* tempE1 = zinc::Epicentre::get_Output(sysThreadId, handleId, bytes_praiseId);
+		unsigned char* tempE2 = zinc::Epicentre::get_FLAG_isINITIALISED(sysThreadId, handleId);
+		unsigned char* tempE3 = zinc::Epicentre::get_FLAG_isINSTANTIATED(sysThreadId);
+		unsigned char* tempE4 = zinc::Epicentre::get_FLAG_isStackLoaded_ServerInputReceive(sysThreadId, handleId);
+		unsigned char* tempE5 = zinc::Epicentre::get_FLAG_isStackLoaded_ServerOutputSend(sysThreadId, handleId);
+		unsigned char* tempE6 = zinc::Epicentre::get_MetaData_PraiseEventId(sysThreadId, handleId);
+		zinc::Epicentre::set_InputItemsFor_praise0(sysThreadId, handleId, bytes_praiseId, bytesValue, bytesValue);
+		zinc::Epicentre::set_InputItemsFor_praise1(sysThreadId, handleId, bytes_praiseId, bytesValue, bytesValue);
+		zinc::Epicentre::set_InputItemsFor_praise2(sysThreadId, handleId, bytes_praiseId, bytesValue, bytesValue);
+		zinc::Epicentre::set_InputItemsFor_praise3(sysThreadId, handleId, bytes_praiseId, bytesValue, bytesValue);
+		zinc::Epicentre::set_MetaData_PraiseEventId(sysThreadId, handleId, bytes_praiseId);
+		zinc::Epicentre::reInitialiseHandle(sysThreadId, handleId, MAX_NUMBER_OF_THREADS_FOR_ACCESS);
+		zinc::Epicentre::terminateProgram(sysThreadId);
+}
 	std::array<bool, 1> zinc::Optimus::zinc_Optimus_stat_REG_get_array_of_isMemberFunctionINSTANTIATED(uint8_t* sysThreadId) {
 		return stat_REG_ptr_CLIB_Optimus_array_of_array_of_isMemberFunctionINSTANTIATED;
 	}
