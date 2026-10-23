@@ -6,7 +6,6 @@
 #include "../CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/io/include/CLIB_LeftHemishpore.h"
 #include "../Optimus/CLIB_Optimus.h"
 #include <iostream>
-#include <thread>
 using namespace zinc;
 
 int main() {
