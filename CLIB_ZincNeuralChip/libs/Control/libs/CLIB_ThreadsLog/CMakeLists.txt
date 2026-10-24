@@ -6,11 +6,11 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_library(${PROJECT_NAME} STATIC
         io/src/CLIB_ThreadLogs.cpp
-        ../CLIB_MutexQue/io/src/CLIB_MutexQue.cpp
-        ../CLIB_MutexQue/src/CLIB_MutexQue_Framework.cpp
-        ../CLIB_MutexQue/src/CLIB_MutexQue_Framework_Global.cpp
-        ../CLIB_MutexQue/src/CLIB_MutexQue_Framework_App.cpp
-        ../CLIB_MutexQue/src/CLIB_MutexQue_Framework_App_Control.cpp
+        libs/CLIB_MutexQueForThreadsLog/io/src/CLIB_MutexQueForThreadsLog.cpp
+        libs/CLIB_MutexQueForThreadsLog/src/CLIB_MutexQueForThreadsLog_Framework.cpp
+        libs/CLIB_MutexQueForThreadsLog/src/CLIB_MutexQueForThreadsLog_Framework_Global.cpp
+        libs/CLIB_MutexQueForThreadsLog/src/CLIB_MutexQueForThreadsLog_Framework_App.cpp
+        libs/CLIB_MutexQueForThreadsLog/src/CLIB_MutexQueForThreadsLog_Framework_App_Control.cpp
         src/CLIB_ThreadLogs_Framework.cpp
         src/CLIB_ThreadLogs_Framework_Global.cpp
         src/CLIB_ThreadLogs_Framework_App.cpp
@@ -26,7 +26,7 @@ target_include_directories(${PROJECT_NAME}
 
 target_include_directories(${PROJECT_NAME}
         PRIVATE
-        $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}../CLIB_MutexQue/include>
+        $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}../CLIB_MutexQueForThreadsLog/include>
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
         $<INSTALL_INTERFACE:include>
 )

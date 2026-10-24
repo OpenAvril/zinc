@@ -2,16 +2,16 @@
 #include <iostream>
 // public.
 	zinc::CLIB_ThreadLogs_Framework_App_Algorithms::CLIB_ThreadLogs_Framework_App_Algorithms(uint8_t* sysThreadId) {
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_ThreadLogs_Framework_App : CLIB_ThreadLogs_Framework_App_Algorithms(sysThreadId)." << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_ThreadLogs_Framework_App_Algorithms : CLIB_ThreadLogs_Framework_App_Algorithms(sysThreadId)." << std::endl;
 		stat_CLASS_boot0_DECLAIRE_CLIB_ThreadLogs_Framework_App_Algorithms(sysThreadId);
 		stat_CLASS_boot1_DEFINE_CLIB_ThreadLogs_Framework_App_Algorithms(sysThreadId);
 		stat_CLASS_boot3_INITIALISE_CLIB_ThreadLogs_Framework_App_Algorithms(sysThreadId);
 		stat_REG_boot0_DECLAIRE_CLIB_ThreadLogs_Framework_App_Algorithms(sysThreadId);
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_ThreadLogs_Framework_App : CLIB_ThreadLogs_Framework_App_Algorithms(sysThreadId)." << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_ThreadLogs_Framework_App_Algorithms : CLIB_ThreadLogs_Framework_App_Algorithms(sysThreadId)." << std::endl;
 	}
 	zinc::CLIB_ThreadLogs_Framework_App_Algorithms::~CLIB_ThreadLogs_Framework_App_Algorithms() {
-		std::cout << "thread "  << 0 << " :: entered LIB :: CLIB : CLIB_ThreadLogs_Framework_App : ~CLIB_ThreadLogs_Framework_App()." << std::endl;
-		std::cout << "thread "  << 0 << " :: exiting LIB :: CLIB : CLIB_ThreadLogs_Framework_App : ~CLIB_ThreadLogs_Framework_App()." << std::endl;
+		std::cout << "thread "  << 0 << " :: entered LIB :: CLIB : CLIB_ThreadLogs_Framework_App_Algorithms : ~CLIB_ThreadLogs_Framework_App_Algorithms()." << std::endl;
+		std::cout << "thread "  << 0 << " :: exiting LIB :: CLIB : CLIB_ThreadLogs_Framework_App_Algorithms : ~CLIB_ThreadLogs_Framework_App_Algorithms()." << std::endl;
 	}
 	void zinc::CLIB_ThreadLogs_Framework_App_Algorithms::dyn_REG_boot1_DEFINE_CLIB_ThreadLogs_Framework_App_Algorithms(uint8_t* sysThreadId)	{
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_ThreadLogs_Framework_App_Algorithms : dyn_REG_boot1_DEFINE_CLIB_ThreadLogs_Framework_App_Algorithms(sysThreadId)." << std::endl;
