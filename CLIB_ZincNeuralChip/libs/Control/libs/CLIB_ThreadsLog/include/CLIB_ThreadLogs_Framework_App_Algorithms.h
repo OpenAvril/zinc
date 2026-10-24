@@ -2,7 +2,7 @@
 #define CLIB_CLIB_CLIB_ThreadLogs_Framework_App_Algorithms_H
 #include <cstdint>
 #include <string>
-namespace slif {
+namespace zinc {
     class CLIB_ThreadLogs_Framework_App_Algorithms {
     public:
         CLIB_ThreadLogs_Framework_App_Algorithms(uint8_t* sysThreadId);

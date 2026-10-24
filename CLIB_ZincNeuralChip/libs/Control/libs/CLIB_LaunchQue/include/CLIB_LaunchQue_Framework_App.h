@@ -3,7 +3,7 @@
 #include "../include/CLIB_LaunchQue_Framework_App_Control.h"
 #include "../include/CLIB_LaunchQue_Framework_Execute.h"
 #include <cstdint>
-namespace slif {
+namespace zinc {
     class CLIB_LaunchQue_Framework_App {
     public:
         CLIB_LaunchQue_Framework_App(uint8_t* sysThreadId);

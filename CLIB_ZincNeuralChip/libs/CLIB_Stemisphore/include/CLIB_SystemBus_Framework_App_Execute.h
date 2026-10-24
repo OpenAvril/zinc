@@ -2,7 +2,7 @@
 #define CLIB_SystemBus_CLIB_SystemBus_FRAMEWORK_APP_EXECUTE_H
 #include <cstdint>
 #include <list>
-namespace slif {
+namespace zinc {
     class CLIB_SystemBus_Framework_App_Execute {
     public:
         CLIB_SystemBus_Framework_App_Execute(uint8_t* sysThreadId);

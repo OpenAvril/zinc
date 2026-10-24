@@ -1,7 +1,7 @@
 #ifndef CLIB_OPENEPICENTRE_STRUCT_OUTPUT_PRAISE1_H
 #define CLIB_OPENEPICENTRE_STRUCT_OUTPUT_PRAISE1_H
 #include <cstdint>
-namespace slif {
+namespace zinc {
     struct CLIB_LeftHemishpore_STRUCT_Output_praise1 {
     public:
         void dyn_REG_boot1_DEFINE_CLIB_LeftHemishpore_STRUCT_Output_praise1(std::uint8_t* sysThreadId);
@@ -9,10 +9,10 @@ namespace slif {
         void dyn_REG_boot3_INITIALISE_CLIB_LeftHemishpore_STRUCT_Output_praise1(uint8_t* sysThreadId);
         double* dyn_REG_get_CLIB_LeftHemishpore_STRUCT_Output_praise1_Value(uint8_t* sysThreadId);
         void dyn_REG_set_CLIB_LeftHemishpore_STRUCT_Output_praise1_Value(uint8_t* sysThreadId, double* newValue_Double);
-        static void stat_CLASS_boot1_DECLARE_CLIB_LeftHemishpore_STRUCT_Output_praise1(uint8_t* sysThreadId);
-        static void stat_CLASS_boot1_DEFINE_CLIB_LeftHemishpore_STRUCT_Output_praise1(uint8_t* sysThreadId);
-        static void stat_CLASS_boot3_INITIALISE_CLIB_LeftHemishpore_STRUCT_Output_praise1(uint8_t* sysThreadId);
-        static void stat_CLASS_boot4_INSTANTIATE_CLIB_LeftHemishpore_STRUCT_Output_praise1(uint8_t* sysThreadId);
+        static void stat_STRUCT_boot1_DECLARE_CLIB_LeftHemishpore_STRUCT_Output_praise1(uint8_t* sysThreadId);
+        static void stat_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_STRUCT_Output_praise1(uint8_t* sysThreadId);
+        static void stat_STRUCT_boot3_INITIALISE_CLIB_LeftHemishpore_STRUCT_Output_praise1(uint8_t* sysThreadId);
+        static void stat_STRUCT_boot4_INSTANTIATE_CLIB_LeftHemishpore_STRUCT_Output_praise1(uint8_t* sysThreadId);
         static void stat_REG_boot1_DECLARE_CLIB_LeftHemishpore_STRUCT_Output_praise1(uint8_t* sysThreadId);
     private:
         static double* stat_REG_ptr_CLIB_LeftHemishpore_STRUCT_Output_praise1_Value;

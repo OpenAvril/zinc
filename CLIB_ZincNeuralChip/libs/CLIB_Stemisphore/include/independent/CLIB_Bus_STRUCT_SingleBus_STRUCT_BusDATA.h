@@ -1,7 +1,7 @@
 #ifndef CLIB_THREADS_LOG_CLIB_Bus_STRUCT_SingleBus_STRUCT_BusDATA_H
 #define CLIB_THREADS_LOG_CLIB_Bus_STRUCT_SingleBus_STRUCT_BusDATA_H
 #include <cstdint>
-namespace slif {
+namespace zinc {
     struct CLIB_Bus_STRUCT_SingleBus_STRUCT_BusDATA {
     public:
         void dyn_REG_boot1_DEFINE_CLIB_Bus_STRUCT_SingleBus_STRUCT_BusDATA(uint8_t* sysThreadId);

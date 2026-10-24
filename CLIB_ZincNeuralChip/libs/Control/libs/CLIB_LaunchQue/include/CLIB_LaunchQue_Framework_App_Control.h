@@ -2,7 +2,7 @@
 #define CLIB_LAUNCHENABLEFORCONCURRENTTHREADSAT_ENDS_CLIB_LaunchQue_Framework_App_Control_H
 #include <cstdint>
 #include <list>
-namespace slif {
+namespace zinc {
     class CLIB_LaunchQue_Framework_App_Control {
     public:
         CLIB_LaunchQue_Framework_App_Control(uint8_t* sysThreadId);

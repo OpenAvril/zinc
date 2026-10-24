@@ -11,5 +11,5 @@ add_executable(TESTBENCH main.cpp
         src/CLIB_Framework_Execute.cpp
 )
 
-target_link_libraries(TESTBENCH PRIVATE slif_zinc_neural_chip)
+target_link_libraries(TESTBENCH PRIVATE zinc_zinc_neural_chip)
 target_link_libraries(TESTBENCH PRIVATE OptimusPrime)

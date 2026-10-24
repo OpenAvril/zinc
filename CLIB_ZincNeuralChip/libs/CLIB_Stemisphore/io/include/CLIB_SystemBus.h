@@ -4,7 +4,7 @@
 #include "../../include/independent/CLIB_Bus_STRUCT_SingleBus_STRUCT_BusDATA_CLASS_Ticket.h"
 #include <cstdint>
 extern "C" {
-    namespace slif {
+    namespace zinc {
         class Stemisphore {
             public:
             static int* generateHandle(uint8_t* sysThreadId);
@@ -17,14 +17,14 @@ extern "C" {
         private:
             static uint8_t* accessId;
             static uint8_t* externalSide;
-            static void stat_APP_FUNCT_slif_Calc_IsAllINSTANTIATED(uint8_t* sysThreadId);
+            static void stat_APP_FUNCT_zinc_Calc_IsAllINSTANTIATED(uint8_t* sysThreadId);
             static void stat_CLASS_boot1_DEFINE_CLIB_SystemBus_Framework(uint8_t* sysThreadId);
             static void stat_CLASS_boot3_INITIALISE_CLIB_SystemBus_Framework(uint8_t* sysThreadId);
             static class CLIB_SystemBus_Framework* stat_CLASS_get_ptr_CLIB_SystemBus_Framework(uint8_t* sysThreadId);
-            static void stat_REG_boot1_DEFINE_slif_array_Of_flag_isINSTANTIATED(uint8_t* sysThreadId);
-            static void stat_REG_boot2_SUBSTANTIATE_slif_array_Of_flag_isINSTANTIATED(uint8_t* sysThreadId);
-            static void stat_REG_boot3_INITIALISE_slif_array_Of_flag_isINSTANTIATED(uint8_t* sysThreadId);
-            static std::array<bool, 4>* stat_REG_get_slif_array_Of_flag_isINSTANTIATED(uint8_t* sysThreadId);
+            static void stat_REG_boot1_DEFINE_zinc_array_Of_flag_isINSTANTIATED(uint8_t* sysThreadId);
+            static void stat_REG_boot2_SUBSTANTIATE_zinc_array_Of_flag_isINSTANTIATED(uint8_t* sysThreadId);
+            static void stat_REG_boot3_INITIALISE_zinc_array_Of_flag_isINSTANTIATED(uint8_t* sysThreadId);
+            static std::array<bool, 4>* stat_REG_get_zinc_array_Of_flag_isINSTANTIATED(uint8_t* sysThreadId);
         };
     }
 }

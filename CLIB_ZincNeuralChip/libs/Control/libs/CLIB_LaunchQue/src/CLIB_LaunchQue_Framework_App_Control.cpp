@@ -4,12 +4,12 @@
 #include "../include/CLIB_LaunchQue_Framework_Global.h"
 #include "../../CLIB_ThreadsLog/io/include/CLIB_ThreadLogs.h"
 #include <iostream>
-    std::list<unsigned long long>* slif::CLIB_LaunchQue_Framework_App_Control::stat_REG_CLIB_LaunchQue_Framework_App_Control_ptr_list_Of_launchActive_Count_For_ThreadId;
-    std::list<unsigned long long>* slif::CLIB_LaunchQue_Framework_App_Control::stat_REG_CLIB_LaunchQue_Framework_App_Control_ptr_list_Of_launchIdle_Count_For_ThreadId;
-    std::list<bool>* slif::CLIB_LaunchQue_Framework_App_Control::stat_REG_CLIB_LaunchQue_Framework_App_Control_ptr_list_Of_STATE_For_ConcurrentCore;
-    std::list<uint8_t>* slif::CLIB_LaunchQue_Framework_App_Control::stat_REG_CLIB_LaunchQue_Framework_App_Control_ptr_list_for_Que_Of_CoreTolaunch;
+    std::list<unsigned long long>* zinc::CLIB_LaunchQue_Framework_App_Control::stat_REG_CLIB_LaunchQue_Framework_App_Control_ptr_list_Of_launchActive_Count_For_ThreadId;
+    std::list<unsigned long long>* zinc::CLIB_LaunchQue_Framework_App_Control::stat_REG_CLIB_LaunchQue_Framework_App_Control_ptr_list_Of_launchIdle_Count_For_ThreadId;
+    std::list<bool>* zinc::CLIB_LaunchQue_Framework_App_Control::stat_REG_CLIB_LaunchQue_Framework_App_Control_ptr_list_Of_STATE_For_ConcurrentCore;
+    std::list<uint8_t>* zinc::CLIB_LaunchQue_Framework_App_Control::stat_REG_CLIB_LaunchQue_Framework_App_Control_ptr_list_for_Que_Of_CoreTolaunch;
 // public.
-    slif::CLIB_LaunchQue_Framework_App_Control::CLIB_LaunchQue_Framework_App_Control(uint8_t* sysThreadId) {
+    zinc::CLIB_LaunchQue_Framework_App_Control::CLIB_LaunchQue_Framework_App_Control(uint8_t* sysThreadId) {
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: entered LIB :: wq : CLIB_LaunchQue_Framework_App_Control : CLIB_LaunchQue_Framework_App_Control(sysThreadId)" << std::endl;
         stat_CLASS_boot0_DECLARE_CLIB_LaunchQue_Framework_App_Control(sysThreadId);
         stat_CLASS_boot1_DEFINE_CLIB_LaunchQue_Framework_App_Control(sysThreadId);
@@ -17,7 +17,7 @@
         stat_REG_boot0_DECLARE_CLIB_LaunchQue_Framework_App_Control(sysThreadId);
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: exiting LIB :: wq : CLIB_LaunchQue_Framework_App_Control : CLIB_LaunchQue_Framework_App_Control(sysThreadId)" << std::endl;
     }
-    slif::CLIB_LaunchQue_Framework_App_Control::~CLIB_LaunchQue_Framework_App_Control() {
+    zinc::CLIB_LaunchQue_Framework_App_Control::~CLIB_LaunchQue_Framework_App_Control() {
         std::cout << "thread " << std::to_string(0) << " :: entered LIB :: wq : CLIB_LaunchQue_Framework_App_Control : ~CLIB_LaunchQue_Framework_App_Control(sysThreadId)" << std::endl;
         delete stat_REG_CLIB_LaunchQue_Framework_App_Control_ptr_list_Of_launchActive_Count_For_ThreadId;
         delete stat_REG_CLIB_LaunchQue_Framework_App_Control_ptr_list_Of_launchIdle_Count_For_ThreadId;
@@ -25,7 +25,7 @@
         delete stat_REG_CLIB_LaunchQue_Framework_App_Control_ptr_list_for_Que_Of_CoreTolaunch;
         std::cout << "thread " << std::to_string(0) << " :: exiting LIB :: wq : CLIB_LaunchQue_Framework_App_Control : ~CLIB_LaunchQue_Framework_App_Control(sysThreadId)" << std::endl;
     }
-    void slif::CLIB_LaunchQue_Framework_App_Control::dyn_App_FUNCT_CLIB_LaunchQue_Framework_App_Control_launchEnable_SortQue(uint8_t* sysThreadId, slif::CLIB_LaunchQue_Framework* obj, uint8_t* number_Implemented_Threads) {
+    void zinc::CLIB_LaunchQue_Framework_App_Control::dyn_App_FUNCT_CLIB_LaunchQue_Framework_App_Control_launchEnable_SortQue(uint8_t* sysThreadId, zinc::CLIB_LaunchQue_Framework* obj, uint8_t* number_Implemented_Threads) {
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: entered LIB :: wq : CLIB_LaunchQue_Framework_App_Control : dyn_App_FUNCT_CLIB_LaunchQue_Framework_App_Control_launchEnable_SortQue(sysThreadId)" << std::endl;
         for (auto concurrentThreadId_A = new uint8_t(0); *concurrentThreadId_A < *number_Implemented_Threads - 2; concurrentThreadId_A++) {
             for (auto concurrentThreadId_B = new uint8_t(*concurrentThreadId_A + 1); *concurrentThreadId_B < *number_Implemented_Threads - 1; concurrentThreadId_B++) {
@@ -50,7 +50,7 @@
         }
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: exiting LIB :: wq : CLIB_LaunchQue_Framework_App_Control : dyn_App_FUNCT_CLIB_LaunchQue_Framework_App_Control_launchEnable_SortQue(sysThreadId)" << std::endl;
     }
-    void slif::CLIB_LaunchQue_Framework_App_Control::dyn_App_FUNCT_CLIB_LaunchQue_Framework_App_Control_launchQue_Update(uint8_t* sysThreadId, slif::CLIB_LaunchQue_Framework* obj, uint8_t* number_Implemented_Threads) {
+    void zinc::CLIB_LaunchQue_Framework_App_Control::dyn_App_FUNCT_CLIB_LaunchQue_Framework_App_Control_launchQue_Update(uint8_t* sysThreadId, zinc::CLIB_LaunchQue_Framework* obj, uint8_t* number_Implemented_Threads) {
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: entered LIB :: wq : CLIB_LaunchQue_Framework_App_Control : dyn_App_FUNCT_CLIB_LaunchQue_Framework_App_Control_launchQue_Update(sysThreadId)" << std::endl;
         for (auto concurrentThreadId = new uint8_t(0); *concurrentThreadId < *number_Implemented_Threads; concurrentThreadId++) {
             switch (obj->dyn_CLASS_get_ptr_CLIB_LaunchQue_Framework_App(sysThreadId)->dyn_CLASS_get_CLIB_LaunchQue_Framework_App_Control(sysThreadId)->dyn_REG_get_CLIB_LaunchQue_Item_On_list_Of_STATE_For_ConcurrentCore(sysThreadId, concurrentThreadId)) {
@@ -70,7 +70,7 @@
         }
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: exiting LIB :: wq : CLIB_LaunchQue_Framework_App_Control : dyn_App_FUNCT_CLIB_LaunchQue_Framework_App_Control_launchQue_Update(sysThreadId)" << std::endl;
     }
-    void slif::CLIB_LaunchQue_Framework_App_Control::dyn_REG_boot1_DEFINE_CLIB_LaunchQue_Framework_App_Control(uint8_t* sysThreadId) {
+    void zinc::CLIB_LaunchQue_Framework_App_Control::dyn_REG_boot1_DEFINE_CLIB_LaunchQue_Framework_App_Control(uint8_t* sysThreadId) {
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: entered LIB :: wq : CLIB_LaunchQue_Framework_App_Control : CLIB_LaunchQue_Framework_App_Control(sysThreadId)" << std::endl;
         stat_REG_boot1_DEFINE_CLIB_LaunchQue_ptr_list_Of_launchActive_Count_For_ThreadId(sysThreadId);
         stat_REG_boot1_DEFINE_CLIB_LaunchQue_ptr_list_Of_launchIdle_Count_For_ThreadId(sysThreadId);
@@ -78,7 +78,7 @@
         stat_REG_boot1_DEFINE_CLIB_LaunchQue_ptr_list_for_Que_Of_CoreTolaunch(sysThreadId);
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: exiting LIB :: wq : CLIB_LaunchQue_Framework_App_Control : CLIB_LaunchQue_Framework_App_Control(sysThreadId)" << std::endl;
     }
-    void slif::CLIB_LaunchQue_Framework_App_Control::dyn_REG_boot2_SUBSTANTIATE_CLIB_LaunchQue_Framework_App_Control(uint8_t* sysThreadId, class CLIB_LaunchQue_Framework* obj) {
+    void zinc::CLIB_LaunchQue_Framework_App_Control::dyn_REG_boot2_SUBSTANTIATE_CLIB_LaunchQue_Framework_App_Control(uint8_t* sysThreadId, class CLIB_LaunchQue_Framework* obj) {
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: entered LIB :: wq : CLIB_LaunchQue_Framework_App_Control : CLIB_LaunchQue_Framework_App_Control(sysThreadId)" << std::endl;
         stat_REG_boot2_SUBSTANTIATE_CLIB_LaunchQue_ptr_list_Of_launchActive_Count_For_ThreadId(sysThreadId, obj);
         stat_REG_boot2_SUBSTANTIATE_CLIB_LaunchQue_ptr_list_Of_launchIdle_Count_For_ThreadId(sysThreadId, obj);
@@ -86,7 +86,7 @@
         stat_REG_boot2_SUBSTANTIATE_CLIB_LaunchQue_ptr_list_for_Que_Of_CoreTolaunch(sysThreadId, obj);
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: exiting LIB :: wq : CLIB_LaunchQue_Framework_App_Control : CLIB_LaunchQue_Framework_App_Control(sysThreadId)" << std::endl;
     }
-    void slif::CLIB_LaunchQue_Framework_App_Control::dyn_REG_boot3_INITIALISE_CLIB_LaunchQue_Framework_App_Control(uint8_t* sysThreadId) {
+    void zinc::CLIB_LaunchQue_Framework_App_Control::dyn_REG_boot3_INITIALISE_CLIB_LaunchQue_Framework_App_Control(uint8_t* sysThreadId) {
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: entered LIB :: wq : CLIB_LaunchQue_Framework_App_Control : CLIB_LaunchQue_Framework_App_Control(sysThreadId)" << std::endl;
         stat_REG_boot3_INITIALISE_CLIB_LaunchQue_ptr_list_Of_launchActive_Count_For_ThreadId(sysThreadId);
         stat_REG_boot3_INITIALISE_CLIB_LaunchQue_ptr_list_Of_launchIdle_Count_For_ThreadId(sysThreadId);
@@ -94,7 +94,7 @@
         stat_REG_boot3_INITIALISE_CLIB_LaunchQue_ptr_list_for_Que_Of_CoreTolaunch(sysThreadId);
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: exiting LIB :: wq : CLIB_LaunchQue_Framework_App_Control : CLIB_LaunchQue_Framework_App_Control(sysThreadId)" << std::endl;
     }
-    void slif::CLIB_LaunchQue_Framework_App_Control::dyn_REG_boot3_INITIALISE_CLIB_LaunchQue_Framework_App_Control_For_New_Count(uint8_t* sysThreadId) {
+    void zinc::CLIB_LaunchQue_Framework_App_Control::dyn_REG_boot3_INITIALISE_CLIB_LaunchQue_Framework_App_Control_For_New_Count(uint8_t* sysThreadId) {
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: entered LIB :: wq : CLIB_LaunchQue_Framework_App_Control : dyn_REG_boot3_INITIALISE_CLIB_LaunchQue_Framework_App_Control_For_New_Count(sysThreadId)" << std::endl;
         stat_REG_boot3_INITIALISE_CLIB_LaunchQue_ptr_list_Of_launchActive_Count_For_ThreadId(sysThreadId);
         stat_REG_boot3_INITIALISE_CLIB_LaunchQue_ptr_list_Of_launchIdle_Count_For_ThreadId(sysThreadId);
@@ -102,7 +102,7 @@
         stat_REG_boot3_INITIALISE_CLIB_LaunchQue_ptr_list_for_Que_Of_CoreTolaunch(sysThreadId);
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: exiting LIB :: wq : CLIB_LaunchQue_Framework_App_Control : dyn_REG_boot3_INITIALISE_CLIB_LaunchQue_Framework_App_Control_For_New_Count(sysThreadId)" << std::endl;
     }
-    unsigned long long* slif::CLIB_LaunchQue_Framework_App_Control::dyn_REG_get_CLIB_LaunchQue_Item_On_list_Of_launchActive_Count_For_ThreadId(uint8_t* sysThreadId, uint8_t* concurrentThreadId) {
+    unsigned long long* zinc::CLIB_LaunchQue_Framework_App_Control::dyn_REG_get_CLIB_LaunchQue_Item_On_list_Of_launchActive_Count_For_ThreadId(uint8_t* sysThreadId, uint8_t* concurrentThreadId) {
         auto result = new unsigned long long();
         auto temp = stat_REG_get_CLIB_LaunchQue_ptr_list_Of_launchActive_Count_For_ThreadId(sysThreadId)->begin();
         std::advance(temp, *concurrentThreadId);
@@ -110,7 +110,7 @@
         *result = *temp;
         return result;
     }
-    unsigned long long* slif::CLIB_LaunchQue_Framework_App_Control::dyn_REG_get_CLIB_LaunchQue_Item_On_list_Of_launchIdle_Count_For_ThreadId(uint8_t* sysThreadId, uint8_t* concurrentThreadId) {
+    unsigned long long* zinc::CLIB_LaunchQue_Framework_App_Control::dyn_REG_get_CLIB_LaunchQue_Item_On_list_Of_launchIdle_Count_For_ThreadId(uint8_t* sysThreadId, uint8_t* concurrentThreadId) {
         auto result = new unsigned long long();
         auto temp = stat_REG_get_CLIB_LaunchQue_ptr_list_Of_launchIdle_Count_For_ThreadId(sysThreadId)->begin();
         std::advance(temp, *concurrentThreadId);
@@ -118,7 +118,7 @@
         *result = *temp;
         return result;
     }
-    bool slif::CLIB_LaunchQue_Framework_App_Control::dyn_REG_get_CLIB_LaunchQue_Item_On_list_Of_STATE_For_ConcurrentCore(uint8_t* sysThreadId, uint8_t* concurrentThreadId) {
+    bool zinc::CLIB_LaunchQue_Framework_App_Control::dyn_REG_get_CLIB_LaunchQue_Item_On_list_Of_STATE_For_ConcurrentCore(uint8_t* sysThreadId, uint8_t* concurrentThreadId) {
         auto result = new bool();
         auto temp = stat_REG_get_CLIB_LaunchQue_ptr_list_Of_STATE_For_ConcurrentCore(sysThreadId)->begin();
         std::advance(temp, *concurrentThreadId);
@@ -126,7 +126,7 @@
         *result = *temp;
         return result;
     }
-    uint8_t* slif::CLIB_LaunchQue_Framework_App_Control::dyn_REG_get_CLIB_LaunchQue_Item_On_list_for_Que_Of_CoreTolaunch(uint8_t* sysThreadId, uint8_t* slot) {
+    uint8_t* zinc::CLIB_LaunchQue_Framework_App_Control::dyn_REG_get_CLIB_LaunchQue_Item_On_list_for_Que_Of_CoreTolaunch(uint8_t* sysThreadId, uint8_t* slot) {
         auto result = new uint8_t();
         auto temp = stat_REG_get_CLIB_LaunchQue_ptr_List_QUE_Of_CoreTolaunch(sysThreadId)->begin();
         std::advance(temp, *slot);
@@ -134,36 +134,36 @@
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: <= bool : dyn_REG_get_CLIB_LaunchQue_Item_On_list_Of_STATE_For_ConcurrentCore(sysThreadId)" << std::endl;
         return result;
     }
-    void slif::CLIB_LaunchQue_Framework_App_Control::dyn_REG_set_CLIB_LaunchQue_Item_On_list_Of_launchActive_Count_For_ThreadId(uint8_t* sysThreadId, uint8_t* concurrentThreadId, unsigned long long* newValue) {
+    void zinc::CLIB_LaunchQue_Framework_App_Control::dyn_REG_set_CLIB_LaunchQue_Item_On_list_Of_launchActive_Count_For_ThreadId(uint8_t* sysThreadId, uint8_t* concurrentThreadId, unsigned long long* newValue) {
         stat_REG_set_CLIB_LaunchQue_Item_On_list_Of_launchActive_Count_For_ThreadId(sysThreadId, *concurrentThreadId, *newValue);
     }
-    void slif::CLIB_LaunchQue_Framework_App_Control::dyn_REG_set_CLIB_LaunchQue_Item_On_list_Of_launchIdle_Count_For_ThreadId(uint8_t* sysThreadId, uint8_t* concurrentThreadId, unsigned long long* newValue) {
+    void zinc::CLIB_LaunchQue_Framework_App_Control::dyn_REG_set_CLIB_LaunchQue_Item_On_list_Of_launchIdle_Count_For_ThreadId(uint8_t* sysThreadId, uint8_t* concurrentThreadId, unsigned long long* newValue) {
         stat_REG_set_CLIB_LaunchQue_Item_On_list_Of_STATE_For_ConcurrentCore(sysThreadId, *concurrentThreadId, *newValue);
     }
-    void slif::CLIB_LaunchQue_Framework_App_Control::dyn_REG_set_CLIB_LaunchQue_Item_On_list_Of_STATE_For_ConcurrentCore(uint8_t* sysThreadId, uint8_t* concurrentThreadId, bool newState) {
+    void zinc::CLIB_LaunchQue_Framework_App_Control::dyn_REG_set_CLIB_LaunchQue_Item_On_list_Of_STATE_For_ConcurrentCore(uint8_t* sysThreadId, uint8_t* concurrentThreadId, bool newState) {
         stat_REG_set_CLIB_LaunchQue_Item_On_list_Of_STATE_For_ConcurrentCore(sysThreadId, *concurrentThreadId, newState);
     }
-    void slif::CLIB_LaunchQue_Framework_App_Control::dyn_REG_set_CLIB_LaunchQue_Item_On_list_for_Que_Of_CoreTolaunch(uint8_t* sysThreadId, uint8_t* slot, uint8_t* concurrentThreadId) {
+    void zinc::CLIB_LaunchQue_Framework_App_Control::dyn_REG_set_CLIB_LaunchQue_Item_On_list_for_Que_Of_CoreTolaunch(uint8_t* sysThreadId, uint8_t* slot, uint8_t* concurrentThreadId) {
         stat_REG_set_CLIB_LaunchQue_Item_On_list_for_Que_Of_CoreTolaunch(sysThreadId, *slot, *concurrentThreadId);
     }
-    void slif::CLIB_LaunchQue_Framework_App_Control::stat_CLASS_boot0_DECLARE_CLIB_LaunchQue_Framework_App_Control(uint8_t* sysThreadId) {
+    void zinc::CLIB_LaunchQue_Framework_App_Control::stat_CLASS_boot0_DECLARE_CLIB_LaunchQue_Framework_App_Control(uint8_t* sysThreadId) {
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: entered LIB :: wq : CLIB_LaunchQue_Framework_App_Control : stat_CLASS_boot0_DECLARE_CLIB_LaunchQue_Framework_App_Control(sysThreadId)" << std::endl;
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: exiting LIB :: wq : CLIB_LaunchQue_Framework_App_Control : stat_CLASS_boot0_DECLARE_CLIB_LaunchQue_Framework_App_Control(sysThreadId)" << std::endl;
     }
-    void slif::CLIB_LaunchQue_Framework_App_Control::stat_CLASS_boot1_DEFINE_CLIB_LaunchQue_Framework_App_Control(uint8_t* sysThreadId) {
+    void zinc::CLIB_LaunchQue_Framework_App_Control::stat_CLASS_boot1_DEFINE_CLIB_LaunchQue_Framework_App_Control(uint8_t* sysThreadId) {
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: entered LIB :: wq : CLIB_LaunchQue_Framework_App_Control : stat_CLASS_boot1_DEFINE_CLIB_LaunchQue_Framework_App_Control(sysThreadId)" << std::endl;
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: exiting LIB :: wq : CLIB_LaunchQue_Framework_App_Control : stat_CLASS_boot1_DEFINE_CLIB_LaunchQue_Framework_App_Control(sysThreadId)" << std::endl;
     }
-    void slif::CLIB_LaunchQue_Framework_App_Control::stat_CLASS_boot3_INITIALISE_CLIB_LaunchQue_Framework_App_Control(uint8_t* sysThreadId) {
+    void zinc::CLIB_LaunchQue_Framework_App_Control::stat_CLASS_boot3_INITIALISE_CLIB_LaunchQue_Framework_App_Control(uint8_t* sysThreadId) {
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: entered LIB :: wq : CLIB_LaunchQue_Framework_App_Control : stat_CLASS_boot3_INITIALISE_CLIB_LaunchQue_Framework_App_Control(sysThreadId)" << std::endl;
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: exiting LIB :: wq : CLIB_LaunchQue_Framework_App_Control : stat_CLASS_boot3_INITIALISE_CLIB_LaunchQue_Framework_App_Control(sysThreadId)" << std::endl;
     }
-    void slif::CLIB_LaunchQue_Framework_App_Control::stat_REG_boot0_DECLARE_CLIB_LaunchQue_Framework_App_Control(uint8_t* sysThreadId) {
+    void zinc::CLIB_LaunchQue_Framework_App_Control::stat_REG_boot0_DECLARE_CLIB_LaunchQue_Framework_App_Control(uint8_t* sysThreadId) {
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: entered LIB :: wq : CLIB_LaunchQue_Framework_App_Control : stat_REG_boot0_DECLARE_CLIB_LaunchQue_Framework_App_Control(sysThreadId)" << std::endl;
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: exiting LIB :: wq : CLIB_LaunchQue_Framework_App_Control : stat_REG_boot0_DECLARE_CLIB_LaunchQue_Framework_App_Control(sysThreadId)" << std::endl;
     }
 // private.
-    void slif::CLIB_LaunchQue_Framework_App_Control::dyn_App_FUNCT_CLIB_LaunchQue_Framework_App_Control_launchEnable_ShiftQueValues(uint8_t* sysThreadId, slif::CLIB_LaunchQue_Framework* obj, uint8_t* concurrentThreadId_A, uint8_t* concurrentThreadId_B) {
+    void zinc::CLIB_LaunchQue_Framework_App_Control::dyn_App_FUNCT_CLIB_LaunchQue_Framework_App_Control_launchEnable_ShiftQueValues(uint8_t* sysThreadId, zinc::CLIB_LaunchQue_Framework* obj, uint8_t* concurrentThreadId_A, uint8_t* concurrentThreadId_B) {
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: entered LIB :: wq : CLIB_LaunchQue_Framework_App_Control : dyn_App_FUNCT_CLIB_LaunchQue_Framework_App_Control_launchEnable_ShiftQueValues(sysThreadId)" << std::endl;
         auto temp_UlongLong = new unsigned long long();
         auto temp_UnnsignedChar = new uint8_t();
@@ -178,27 +178,27 @@
         obj->dyn_CLASS_get_ptr_CLIB_LaunchQue_Framework_App(sysThreadId)->dyn_CLASS_get_CLIB_LaunchQue_Framework_App_Control(sysThreadId)->dyn_REG_set_CLIB_LaunchQue_Item_On_list_for_Que_Of_CoreTolaunch(sysThreadId, concurrentThreadId_B, temp_UnnsignedChar);
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: exiting LIB :: wq : CLIB_LaunchQue_Framework_App_Control : dyn_App_FUNCT_CLIB_LaunchQue_Framework_App_Control_launchEnable_ShiftQueValues(sysThreadId)" << std::endl;
     }
-    void slif::CLIB_LaunchQue_Framework_App_Control::stat_REG_boot1_DEFINE_CLIB_LaunchQue_ptr_list_Of_launchActive_Count_For_ThreadId(uint8_t* sysThreadId) {
+    void zinc::CLIB_LaunchQue_Framework_App_Control::stat_REG_boot1_DEFINE_CLIB_LaunchQue_ptr_list_Of_launchActive_Count_For_ThreadId(uint8_t* sysThreadId) {
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: entered LIB :: wq : CLIB_LaunchQue_Framework_App_Control : stat_REG_boot1_DEFINE_CLIB_LaunchQue_ptr_list_Of_launchActive_Count_For_ThreadId(sysThreadId)" << std::endl;
         stat_REG_CLIB_LaunchQue_Framework_App_Control_ptr_list_Of_launchActive_Count_For_ThreadId = nullptr;
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: exiting LIB :: wq : CLIB_LaunchQue_Framework_App_Control : stat_REG_boot1_DEFINE_CLIB_LaunchQue_ptr_list_Of_launchActive_Count_For_ThreadId(sysThreadId)" << std::endl;
     }
-    void slif::CLIB_LaunchQue_Framework_App_Control::stat_REG_boot1_DEFINE_CLIB_LaunchQue_ptr_list_Of_launchIdle_Count_For_ThreadId(uint8_t* sysThreadId) {
+    void zinc::CLIB_LaunchQue_Framework_App_Control::stat_REG_boot1_DEFINE_CLIB_LaunchQue_ptr_list_Of_launchIdle_Count_For_ThreadId(uint8_t* sysThreadId) {
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: entered LIB :: wq : CLIB_LaunchQue_Framework_App_Control : stat_REG_boot1_DEFINE_CLIB_LaunchQue_ptr_list_Of_launchIdle_Count_For_ThreadId(sysThreadId)" << std::endl;
         stat_REG_CLIB_LaunchQue_Framework_App_Control_ptr_list_Of_launchIdle_Count_For_ThreadId = nullptr;
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: exiting LIB :: wq : CLIB_LaunchQue_Framework_App_Control : stat_REG_boot1_DEFINE_CLIB_LaunchQue_ptr_list_Of_launchIdle_Count_For_ThreadId(sysThreadId)" << std::endl;
     }
-    void slif::CLIB_LaunchQue_Framework_App_Control::stat_REG_boot1_DEFINE_CLIB_LaunchQue_ptr_list_Of_STATE_For_ConcurrentCore(uint8_t* sysThreadId) {
+    void zinc::CLIB_LaunchQue_Framework_App_Control::stat_REG_boot1_DEFINE_CLIB_LaunchQue_ptr_list_Of_STATE_For_ConcurrentCore(uint8_t* sysThreadId) {
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: entered LIB :: wq : CLIB_LaunchQue_Framework_App_Control : stat_REG_boot1_DEFINE_CLIB_LaunchQue_ptr_list_Of_STATE_For_ConcurrentCore(sysThreadId)" << std::endl;
         stat_REG_CLIB_LaunchQue_Framework_App_Control_ptr_list_Of_STATE_For_ConcurrentCore = nullptr;
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: exiting LIB :: wq : CLIB_LaunchQue_Framework_App_Control : stat_REG_boot1_DEFINE_CLIB_LaunchQue_ptr_list_Of_STATE_For_ConcurrentCore(sysThreadId)" << std::endl;
     }
-    void slif::CLIB_LaunchQue_Framework_App_Control::stat_REG_boot1_DEFINE_CLIB_LaunchQue_ptr_list_for_Que_Of_CoreTolaunch(uint8_t* sysThreadId) {
+    void zinc::CLIB_LaunchQue_Framework_App_Control::stat_REG_boot1_DEFINE_CLIB_LaunchQue_ptr_list_for_Que_Of_CoreTolaunch(uint8_t* sysThreadId) {
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: entered LIB :: wq : CLIB_LaunchQue_Framework_App_Control : stat_REG_boot1_DEFINE_CLIB_LaunchQue_ptr_list_for_Que_Of_CoreTolaunch(sysThreadId)" << std::endl;
         stat_REG_CLIB_LaunchQue_Framework_App_Control_ptr_list_for_Que_Of_CoreTolaunch = nullptr;
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: exiting LIB :: wq : CLIB_LaunchQue_Framework_App_Control : stat_REG_boot1_DEFINE_CLIB_LaunchQue_ptr_list_for_Que_Of_CoreTolaunch(sysThreadId)" << std::endl;
     }
-    void slif::CLIB_LaunchQue_Framework_App_Control::stat_REG_boot2_SUBSTANTIATE_CLIB_LaunchQue_ptr_list_Of_launchActive_Count_For_ThreadId(uint8_t* sysThreadId, class CLIB_LaunchQue_Framework* obj) {
+    void zinc::CLIB_LaunchQue_Framework_App_Control::stat_REG_boot2_SUBSTANTIATE_CLIB_LaunchQue_ptr_list_Of_launchActive_Count_For_ThreadId(uint8_t* sysThreadId, class CLIB_LaunchQue_Framework* obj) {
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: entered LIB :: wq : CLIB_LaunchQue_Framework_App_Control : stat_REG_boot2_SUBSTANTIATE_CLIB_LaunchQue_ptr_list_Of_launchActive_Count_For_ThreadId(sysThreadId)" << std::endl;
         stat_REG_CLIB_LaunchQue_Framework_App_Control_ptr_list_Of_launchActive_Count_For_ThreadId = new std::list<unsigned long long>();
         while (stat_REG_get_CLIB_LaunchQue_ptr_list_Of_launchActive_Count_For_ThreadId(sysThreadId) == nullptr) {}
@@ -211,7 +211,7 @@
         }
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: exiting LIB :: wq : CLIB_LaunchQue_Framework_App_Control : stat_REG_boot2_SUBSTANTIATE_CLIB_LaunchQue_ptr_list_Of_launchActive_Count_For_ThreadId(sysThreadId)" << std::endl;
     }
-    void slif::CLIB_LaunchQue_Framework_App_Control::stat_REG_boot2_SUBSTANTIATE_CLIB_LaunchQue_ptr_list_Of_launchIdle_Count_For_ThreadId(uint8_t* sysThreadId, class CLIB_LaunchQue_Framework* obj) {
+    void zinc::CLIB_LaunchQue_Framework_App_Control::stat_REG_boot2_SUBSTANTIATE_CLIB_LaunchQue_ptr_list_Of_launchIdle_Count_For_ThreadId(uint8_t* sysThreadId, class CLIB_LaunchQue_Framework* obj) {
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: entered LIB :: wq : CLIB_LaunchQue_Framework_App_Control : stat_REG_boot2_SUBSTANTIATE_CLIB_LaunchQue_ptr_list_Of_launchIdle_Count_For_ThreadId(sysThreadId)." << std::endl;
         stat_REG_CLIB_LaunchQue_Framework_App_Control_ptr_list_Of_launchIdle_Count_For_ThreadId = new std::list<unsigned long long>();
         while (stat_REG_get_CLIB_LaunchQue_ptr_list_Of_launchIdle_Count_For_ThreadId(sysThreadId) == nullptr) {}
@@ -223,7 +223,7 @@
         }
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: exiting LIB :: wq : CLIB_LaunchQue_Framework_App_Control : stat_REG_boot2_SUBSTANTIATE_CLIB_LaunchQue_ptr_list_Of_launchIdle_Count_For_ThreadId(sysThreadId)." << std::endl;
     }
-    void slif::CLIB_LaunchQue_Framework_App_Control::stat_REG_boot2_SUBSTANTIATE_CLIB_LaunchQue_ptr_list_Of_STATE_For_ConcurrentCore(uint8_t* sysThreadId, class CLIB_LaunchQue_Framework* obj) {
+    void zinc::CLIB_LaunchQue_Framework_App_Control::stat_REG_boot2_SUBSTANTIATE_CLIB_LaunchQue_ptr_list_Of_STATE_For_ConcurrentCore(uint8_t* sysThreadId, class CLIB_LaunchQue_Framework* obj) {
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: entered LIB :: wq : CLIB_LaunchQue_Framework_App_Control : stat_REG_boot2_SUBSTANTIATE_CLIB_LaunchQue_ptr_list_Of_STATE_For_ConcurrentCore(sysThreadId)." << std::endl;
         stat_REG_CLIB_LaunchQue_Framework_App_Control_ptr_list_Of_STATE_For_ConcurrentCore = new std::list<bool>();
         while (stat_REG_get_CLIB_LaunchQue_ptr_list_Of_STATE_For_ConcurrentCore(sysThreadId) == nullptr) {}
@@ -235,7 +235,7 @@
         }
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: exiting LIB :: wq : CLIB_LaunchQue_Framework_App_Control : stat_REG_boot2_SUBSTANTIATE_CLIB_LaunchQue_ptr_list_Of_STATE_For_ConcurrentCore(sysThreadId)." << std::endl;
     }
-    void slif::CLIB_LaunchQue_Framework_App_Control::stat_REG_boot2_SUBSTANTIATE_CLIB_LaunchQue_ptr_list_for_Que_Of_CoreTolaunch(uint8_t* sysThreadId, class CLIB_LaunchQue_Framework* obj) {
+    void zinc::CLIB_LaunchQue_Framework_App_Control::stat_REG_boot2_SUBSTANTIATE_CLIB_LaunchQue_ptr_list_for_Que_Of_CoreTolaunch(uint8_t* sysThreadId, class CLIB_LaunchQue_Framework* obj) {
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: entered LIB :: wq : CLIB_LaunchQue_Framework_App_Control : stat_REG_boot2_SUBSTANTIATE_CLIB_LaunchQue_ptr_list_for_Que_Of_CoreTolaunch(sysThreadId)." << std::endl;
         stat_REG_CLIB_LaunchQue_Framework_App_Control_ptr_list_for_Que_Of_CoreTolaunch = new std::list<uint8_t>();
         while (stat_REG_get_CLIB_LaunchQue_ptr_List_QUE_Of_CoreTolaunch(sysThreadId) == nullptr) {}
@@ -247,7 +247,7 @@
         }
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: exiting LIB :: wq : CLIB_LaunchQue_Framework_App_Control : stat_REG_boot2_SUBSTANTIATE_CLIB_LaunchQue_ptr_list_for_Que_Of_CoreTolaunch(sysThreadId)." << std::endl;
     }
-    void slif::CLIB_LaunchQue_Framework_App_Control::stat_REG_boot3_INITIALISE_CLIB_LaunchQue_ptr_list_Of_launchActive_Count_For_ThreadId(uint8_t* sysThreadId) {
+    void zinc::CLIB_LaunchQue_Framework_App_Control::stat_REG_boot3_INITIALISE_CLIB_LaunchQue_ptr_list_Of_launchActive_Count_For_ThreadId(uint8_t* sysThreadId) {
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: entered LIB :: wq : CLIB_LaunchQue_Framework_App_Control : stat_REG_boot3_INITIALISE_CLIB_LaunchQue_ptr_list_Of_launchActive_Count_For_ThreadId(sysThreadId)." << std::endl;
         for (int index = 0; index < stat_REG_get_CLIB_LaunchQue_ptr_list_Of_launchActive_Count_For_ThreadId(sysThreadId)->size(); index++) {
             auto temp = stat_REG_get_CLIB_LaunchQue_ptr_list_Of_launchActive_Count_For_ThreadId(sysThreadId)->begin();
@@ -256,7 +256,7 @@
         }
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: exiting LIB :: wq : CLIB_LaunchQue_Framework_App_Control : stat_REG_boot3_INITIALISE_CLIB_LaunchQue_ptr_list_Of_launchActive_Count_For_ThreadId(sysThreadId)." << std::endl;
     }
-    void slif::CLIB_LaunchQue_Framework_App_Control::stat_REG_boot3_INITIALISE_CLIB_LaunchQue_ptr_list_Of_launchIdle_Count_For_ThreadId(uint8_t* sysThreadId) {
+    void zinc::CLIB_LaunchQue_Framework_App_Control::stat_REG_boot3_INITIALISE_CLIB_LaunchQue_ptr_list_Of_launchIdle_Count_For_ThreadId(uint8_t* sysThreadId) {
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: entered LIB :: wq : CLIB_LaunchQue_Framework_App_Control : stat_REG_boot3_INITIALISE_CLIB_LaunchQue_ptr_list_Of_launchIdle_Count_For_ThreadId(sysThreadId)." << std::endl;
         for (int index = 0; index < stat_REG_get_CLIB_LaunchQue_ptr_list_Of_launchIdle_Count_For_ThreadId(sysThreadId)->size(); index++) {
             auto temp = stat_REG_get_CLIB_LaunchQue_ptr_list_Of_launchIdle_Count_For_ThreadId(sysThreadId)->begin();
@@ -265,7 +265,7 @@
         }
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: exiting LIB :: wq : CLIB_LaunchQue_Framework_App_Control : stat_REG_boot3_INITIALISE_CLIB_LaunchQue_ptr_list_Of_launchIdle_Count_For_ThreadId(sysThreadId)." << std::endl;
     }
-    void slif::CLIB_LaunchQue_Framework_App_Control::stat_REG_boot3_INITIALISE_CLIB_LaunchQue_ptr_list_Of_STATE_For_ConcurrentCore(uint8_t* sysThreadId) {
+    void zinc::CLIB_LaunchQue_Framework_App_Control::stat_REG_boot3_INITIALISE_CLIB_LaunchQue_ptr_list_Of_STATE_For_ConcurrentCore(uint8_t* sysThreadId) {
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: entered LIB :: wq : CLIB_LaunchQue_Framework_App_Control : stat_REG_boot3_INITIALISE_CLIB_LaunchQue_ptr_list_Of_STATE_For_ConcurrentCore(sysThreadId)." << std::endl;
         for (int index = 0; index < stat_REG_get_CLIB_LaunchQue_ptr_list_Of_STATE_For_ConcurrentCore(sysThreadId)->size(); index++) {
             auto temp = stat_REG_get_CLIB_LaunchQue_ptr_list_Of_STATE_For_ConcurrentCore(sysThreadId)->begin();
@@ -274,7 +274,7 @@
         }
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: exiting LIB :: wq : CLIB_LaunchQue_Framework_App_Control : stat_REG_boot3_INITIALISE_CLIB_LaunchQue_ptr_list_Of_STATE_For_ConcurrentCore(sysThreadId)." << std::endl;
     }
-    void slif::CLIB_LaunchQue_Framework_App_Control::stat_REG_boot3_INITIALISE_CLIB_LaunchQue_ptr_list_for_Que_Of_CoreTolaunch(uint8_t* sysThreadId) {
+    void zinc::CLIB_LaunchQue_Framework_App_Control::stat_REG_boot3_INITIALISE_CLIB_LaunchQue_ptr_list_for_Que_Of_CoreTolaunch(uint8_t* sysThreadId) {
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: entered LIB :: wq : CLIB_LaunchQue_Framework_App_Control : stat_REG_boot3_INITIALISE_CLIB_LaunchQue_ptr_list_for_Que_Of_CoreTolaunch(sysThreadId)." << std::endl;
         for (int index = 0; index < stat_REG_get_CLIB_LaunchQue_ptr_List_QUE_Of_CoreTolaunch(sysThreadId)->size(); index++) {
             auto temp = stat_REG_get_CLIB_LaunchQue_ptr_List_QUE_Of_CoreTolaunch(sysThreadId)->begin();
@@ -283,41 +283,41 @@
         }
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: exiting LIB :: wq : CLIB_LaunchQue_Framework_App_Control : stat_REG_boot3_INITIALISE_CLIB_LaunchQue_ptr_list_for_Que_Of_CoreTolaunch(sysThreadId)." << std::endl;
     }
-    std::list<unsigned long long>* slif::CLIB_LaunchQue_Framework_App_Control::stat_REG_get_CLIB_LaunchQue_ptr_list_Of_launchActive_Count_For_ThreadId(uint8_t* sysThreadId) {
+    std::list<unsigned long long>* zinc::CLIB_LaunchQue_Framework_App_Control::stat_REG_get_CLIB_LaunchQue_ptr_list_Of_launchActive_Count_For_ThreadId(uint8_t* sysThreadId) {
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: <= std::list<unsigned long long>* : stat_REG_get_CLIB_LaunchQue_ptr_list_Of_launchActive_Count_For_ThreadId(sysThreadId)." << std::endl;
         return stat_REG_CLIB_LaunchQue_Framework_App_Control_ptr_list_Of_launchActive_Count_For_ThreadId;
     }
-    std::list<unsigned long long>* slif::CLIB_LaunchQue_Framework_App_Control::stat_REG_get_CLIB_LaunchQue_ptr_list_Of_launchIdle_Count_For_ThreadId(uint8_t* sysThreadId) {
+    std::list<unsigned long long>* zinc::CLIB_LaunchQue_Framework_App_Control::stat_REG_get_CLIB_LaunchQue_ptr_list_Of_launchIdle_Count_For_ThreadId(uint8_t* sysThreadId) {
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: <= std::list<unsigned long long>* : stat_REG_get_CLIB_LaunchQue_ptr_list_Of_launchIdle_Count_For_ThreadId(sysThreadId)." << std::endl;
         return stat_REG_CLIB_LaunchQue_Framework_App_Control_ptr_list_Of_launchIdle_Count_For_ThreadId;
     }
-    std::list<bool>* slif::CLIB_LaunchQue_Framework_App_Control::stat_REG_get_CLIB_LaunchQue_ptr_list_Of_STATE_For_ConcurrentCore(uint8_t* sysThreadId) {
+    std::list<bool>* zinc::CLIB_LaunchQue_Framework_App_Control::stat_REG_get_CLIB_LaunchQue_ptr_list_Of_STATE_For_ConcurrentCore(uint8_t* sysThreadId) {
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: <= std::list<uint8_t>* : stat_REG_get_CLIB_LaunchQue_ptr_list_Of_STATE_For_ConcurrentCore(sysThreadId)." << std::endl;
         return stat_REG_CLIB_LaunchQue_Framework_App_Control_ptr_list_Of_STATE_For_ConcurrentCore;
     }
-    std::list<uint8_t>* slif::CLIB_LaunchQue_Framework_App_Control::stat_REG_get_CLIB_LaunchQue_ptr_List_QUE_Of_CoreTolaunch(uint8_t* sysThreadId) {
+    std::list<uint8_t>* zinc::CLIB_LaunchQue_Framework_App_Control::stat_REG_get_CLIB_LaunchQue_ptr_List_QUE_Of_CoreTolaunch(uint8_t* sysThreadId) {
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: <= std::list<uint8_t>* : stat_REG_get_CLIB_LaunchQue_ptr_List_QUE_Of_CoreTolaunch(sysThreadId)." << std::endl;
         return stat_REG_CLIB_LaunchQue_Framework_App_Control_ptr_list_for_Que_Of_CoreTolaunch;
     }
-    void slif::CLIB_LaunchQue_Framework_App_Control::stat_REG_set_CLIB_LaunchQue_Item_On_list_Of_launchActive_Count_For_ThreadId(uint8_t* sysThreadId, uint8_t concurrentThreadId, unsigned long long newValue) {
+    void zinc::CLIB_LaunchQue_Framework_App_Control::stat_REG_set_CLIB_LaunchQue_Item_On_list_Of_launchActive_Count_For_ThreadId(uint8_t* sysThreadId, uint8_t concurrentThreadId, unsigned long long newValue) {
         auto temp = stat_REG_get_CLIB_LaunchQue_ptr_list_Of_launchActive_Count_For_ThreadId(sysThreadId)->begin();
         std::advance(temp, concurrentThreadId);
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: => unsigned long long : stat_REG_set_CLIB_LaunchQue_Item_On_list_Of_launchActive_Count_For_ThreadId(sysThreadId)." << std::endl;
         *temp = newValue;
     }
-    void slif::CLIB_LaunchQue_Framework_App_Control::stat_REG_set_CLIB_LaunchQue_Item_On_list_Of_launchIdle_Count_For_ThreadId(uint8_t* sysThreadId, uint8_t concurrentThreadId, unsigned long long newValue) {
+    void zinc::CLIB_LaunchQue_Framework_App_Control::stat_REG_set_CLIB_LaunchQue_Item_On_list_Of_launchIdle_Count_For_ThreadId(uint8_t* sysThreadId, uint8_t concurrentThreadId, unsigned long long newValue) {
         auto temp = stat_REG_get_CLIB_LaunchQue_ptr_list_Of_launchIdle_Count_For_ThreadId(sysThreadId)->begin();
         std::advance(temp, concurrentThreadId);
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: => unsigned long long : stat_REG_set_CLIB_LaunchQue_Item_On_list_Of_launchIdle_Count_For_ThreadId(sysThreadId)." << std::endl;
         *temp = newValue;
     }
-    void slif::CLIB_LaunchQue_Framework_App_Control::stat_REG_set_CLIB_LaunchQue_Item_On_list_Of_STATE_For_ConcurrentCore(uint8_t* sysThreadId, uint8_t concurrentThreadId, bool newState) {
+    void zinc::CLIB_LaunchQue_Framework_App_Control::stat_REG_set_CLIB_LaunchQue_Item_On_list_Of_STATE_For_ConcurrentCore(uint8_t* sysThreadId, uint8_t concurrentThreadId, bool newState) {
         auto temp = stat_REG_get_CLIB_LaunchQue_ptr_list_Of_STATE_For_ConcurrentCore(sysThreadId)->begin();
         std::advance(temp, concurrentThreadId);
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: => bool : stat_REG_set_CLIB_LaunchQue_Item_On_list_Of_STATE_For_ConcurrentCore(sysThreadId)." << std::endl;
         *temp = newState;
     }
-    void slif::CLIB_LaunchQue_Framework_App_Control::stat_REG_set_CLIB_LaunchQue_Item_On_list_for_Que_Of_CoreTolaunch(uint8_t* sysThreadId, uint8_t slot, uint8_t concurrentThreadId) {
+    void zinc::CLIB_LaunchQue_Framework_App_Control::stat_REG_set_CLIB_LaunchQue_Item_On_list_for_Que_Of_CoreTolaunch(uint8_t* sysThreadId, uint8_t slot, uint8_t concurrentThreadId) {
         auto temp = stat_REG_get_CLIB_LaunchQue_ptr_List_QUE_Of_CoreTolaunch(sysThreadId)->begin();
         std::advance(temp, slot);
         std::cout << "thread " << std::to_string(*sysThreadId) << "  :: => uint8_t : stat_REG_set_CLIB_LaunchQue_Item_On_list_for_Que_Of_CoreTolaunch(sysThreadId)." << std::endl;

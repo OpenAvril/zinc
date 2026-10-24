@@ -1,10 +1,10 @@
 cmake_minimum_required(VERSION 4.2.3)
-project(slif_epicentre VERSION 1.0 LANGUAGES CXX)
+project(zinc_epicentre VERSION 1.0 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_library(slif_epicentre STATIC
+add_library(${PROJECT_NAME} STATIC
         ../Control/libs/CLIB_MutexQue/src/CLIB_MutexQue_Framework.cpp
         ../Control/libs/CLIB_MutexQue/src/CLIB_MutexQue_Framework_Global.cpp
         ../Control/libs/CLIB_MutexQue/src/CLIB_MutexQue_Framework_App.cpp
@@ -24,7 +24,7 @@ add_library(slif_epicentre STATIC
         src/engine/CLIB_LeftHemishpore_Framework_Global.cpp
         src/independent/CLIB_LeftHemishpore_STRUCT_Input.cpp
         src/independent/CLIB_LeftHemishpore_STRUCT_Output.cpp
-        src/independent/CLIB_LeftHemishpore_STRUCT_Concurrent.cpp
+        src/independent/threads/CLIB_LeftHemishpore_STRUCT_Concurrent.cpp
         src/independent/CLIB_LeftHemishpore_STRUCT_User_Input.cpp
         src/independent/CLIB_LeftHemishpore_STRUCT_User_Output.cpp
         src/independent/CLIB_LeftHemishpore_STRUCT_User_Algorithm.cpp
@@ -49,16 +49,17 @@ add_library(slif_epicentre STATIC
         src/engine/CLIB_LeftHemishpore_Framework_App_Execute_Control.cpp
 )
 
-target_include_directories(slif_epicentre PUBLIC
-        "../../../Control/libs/CLIB_MutexQue/include"
-        "../../../Control/libs/CLIB_ThreadsLog/include"
-        "../../../Control/libs/CLIB_LaunchQue/include"
-        "include"
+target_include_directories(${PROJECT_NAME}
+        PRIVATE
+        $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}../Control/libs/CLIB_MutexQue/include>
+        $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}../Control/libs/CLIB_ThreadsLogQue/include>
+        $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}../Control/libs/CLIB_LaunchQue/include>
+        $<INSTALL_INTERFACE:include>
 )
 
-target_link_libraries(slif_epicentre PUBLIC
-        CLIB_MutexQue
-        slif_threads_log
-        CLIB_LaunchQue
-        slif_control
+target_link_libraries(${PROJECT_NAME} PRIVATE
+        zinc_control_mutex_que
+        zinc_control_sys_threads_log
+        zinc_control_launch_que
+        zinc_control
 )

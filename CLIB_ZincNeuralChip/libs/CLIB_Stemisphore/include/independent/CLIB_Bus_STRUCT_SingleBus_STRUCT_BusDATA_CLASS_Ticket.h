@@ -1,7 +1,7 @@
 #ifndef CLIB_THREADS_LOG_CLIB_Bus_STRUCT_SingleBus_STRUCT_TICKET_H
 #define CLIB_THREADS_LOG_CLIB_Bus_STRUCT_SingleBus_STRUCT_TICKET_H
 #include <cstdint>
-namespace slif {
+namespace zinc {
     class Ticket {
     public:
         Ticket(uint8_t* sysThreadId, uint8_t* departureAccessId, uint8_t* departureJunctionId, uint8_t* arrivalJunctionId, uint8_t* arrivalAccessId);

@@ -2,37 +2,36 @@
 #define CLIB_LEFTHEMISPHORE_FRAMEWORK_H
 #include "../../include/engine/CLIB_LeftHemishpore_Framework_App.h"
 #include "../../include/engine/CLIB_LeftHemishpore_Framework_Global.h"
-#include "../independent/CLIB_LeftHemishpore_STRUCT_Concurrent.h"
+#include "../independent/threads/CLIB_LeftHemishpore_STRUCT_Concurrent.h"
 #include "../independent/CLIB_LeftHemishpore_STRUCT_Input.h"
 #include "../independent/CLIB_LeftHemishpore_STRUCT_Output.h"
 #include "../independent/CLIB_LeftHemishpore_STRUCT_User_Algorithm.h"
 #include "../independent/CLIB_LeftHemishpore_STRUCT_User_Input.h"
 #include "../independent/CLIB_LeftHemishpore_STRUCT_User_Output.h"
-namespace slif {
+namespace zinc {
     class CLIB_LeftHemishpore_Framework {
     public:
         CLIB_LeftHemishpore_Framework(uint8_t* sysThreadId);
         virtual ~CLIB_LeftHemishpore_Framework();
-        void dyn_CLASS_create_CLIB_LeftHemishpore_Framework_Architecture(uint8_t* sysThreadId);
+        void dyn_CLASS_create_CLIB_LeftHemishpore_Framework_Architecture(uint8_t* sysThreadId, zinc::CLIB_LeftHemishpore_Framework* obj);
         void dyn_CLASS_create_CLIB_LeftHemishpore_Framework_Global_and_Settings(uint8_t* sysThreadId);
         class CLIB_LeftHemishpore_Framework_App* dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(uint8_t* sysThreadId);
         class CLIB_LeftHemishpore_Framework_Global* dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId);
         void dyn_REG_boot1_DEFINE_CLIB_LeftHemishpore_Framework(uint8_t* sysThreadId, class CLIB_LeftHemishpore_Framework* obj);
         void dyn_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework(uint8_t* sysThreadId, class CLIB_LeftHemishpore_Framework* obj);
         void dyn_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework(uint8_t* sysThreadId, class CLIB_LeftHemishpore_Framework* obj);
-        void dyn_PGM_boot4_INSTANTIATE_CLIB_LeftHemishpore_Framework(uint8_t* sysThreadId, class CLIB_LeftHemishpore_Framework* obj);
-        void dyn_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_Framework_User_Algorithm(uint8_t* sysThreadId);
-        void dyn_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_Framework_User_Input(uint8_t* sysThreadId);
-        void dyn_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_Framework_User_Output(uint8_t* sysThreadId);
         void dyn_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_Framework_Concurrent(uint8_t* sysThreadId);
         void dyn_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_Framework_Input(uint8_t* sysThreadId);
         void dyn_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_Framework_Output(uint8_t* sysThreadId);
-        void dyn_STRUCT_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_User_Algorithm(uint8_t* sysThreadId);
-        void dyn_STRUCT_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_User_Input(uint8_t* sysThreadId);
-        void dyn_STRUCT_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_User_Output(uint8_t* sysThreadId);
+        void dyn_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_Framework_User_Algorithm(uint8_t* sysThreadId);
+        void dyn_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_Framework_User_Input(uint8_t* sysThreadId);
+        void dyn_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_Framework_User_Output(uint8_t* sysThreadId);
         void dyn_STRUCT_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_Concurrent(uint8_t* sysThreadId);
         void dyn_STRUCT_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_Input(uint8_t* sysThreadId);
         void dyn_STRUCT_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_Output(uint8_t* sysThreadId);
+        void dyn_STRUCT_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_User_Algorithm(uint8_t* sysThreadId);
+        void dyn_STRUCT_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_User_Input(uint8_t* sysThreadId);
+        void dyn_STRUCT_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_User_Output(uint8_t* sysThreadId);
         struct CLIB_LeftHemishpore_STRUCT_Concurrent* dyn_STRUCT_get_CLIB_LeftHemishpore_Framework_Concurrent(uint8_t* sysThreadId);
         struct CLIB_LeftHemishpore_STRUCT_Input* dyn_STRUCT_get_CLIB_LeftHemishpore_Framework_Input(uint8_t* sysThreadId);
         struct CLIB_LeftHemishpore_STRUCT_Output* dyn_STRUCT_get_CLIB_LeftHemishpore_Framework_Output(uint8_t* sysThreadId);
@@ -41,8 +40,7 @@ namespace slif {
         struct CLIB_LeftHemishpore_STRUCT_User_Output* dyn_STRUCT_get_CLIB_LeftHemishpore_Framework_User_Output(uint8_t* sysThreadId);
         static void stat_CLASS_boot0_DECLARE_CLIB_LeftHemishpore_Framework(uint8_t* sysThreadId);
         static void stat_CLASS_boot1_DEFINE_CLIB_LeftHemishpore_Framework(uint8_t* sysThreadId);
-        static void stat_CLASS_boot3_INITIALISE_CLIB_LeftHemishpore_Framework(uint8_t* sysThreadId);
-        static void stat_CLASS_boot4_INSTANTIATE_CLIB_LeftHemishpore_Framework(uint8_t* sysThreadId);
+        static void stat_CLASS_boot3_INITIALISE_CLIB_LeftHemishpore_Framework(uint8_t* sysThreadId, zinc::CLIB_LeftHemishpore_Framework* obj);
         static void stat_REG_boot0_DECLARE_CLIB_LeftHemishpore_Framework(uint8_t* sysThreadId);
     private:
         static struct CLIB_LeftHemishpore_Framework_App* stat_CLASS_ptr_CLIB_LeftHemishpore_Framework_App;
@@ -55,22 +53,22 @@ namespace slif {
 		static struct CLIB_LeftHemishpore_STRUCT_User_Output* stat_STRUCT_ptr_CLIB_LeftHemishpore_Framework_User_Output;
         static void stat_CLASS_boot1_DEFINE_CLIB_LeftHemishpore_Framework_App(uint8_t* sysThreadId);
         static void stat_CLASS_boot1_DEFINE_CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId);
-        static void stat_CLASS_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_App(uint8_t* sysThreadId);
+        static void stat_CLASS_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_App(uint8_t* sysThreadId, zinc::CLIB_LeftHemishpore_Framework* obj);
         static void stat_CLASS_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId);
         static struct CLIB_LeftHemishpore_Framework_App* stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(uint8_t* sysThreadId);
         static struct CLIB_LeftHemishpore_Framework_Global* stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId);
-        static void stat_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_Framework_User_Algorithm(uint8_t* sysThreadId);
-        static void stat_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_Framework_User_Input(uint8_t* sysThreadId);
-        static void stat_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_Framework_User_Output(uint8_t* sysThreadId);
-        static void stat_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_Framework_Concurrent(uint8_t* sysThreadId);
-        static void stat_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_Framework_Input(uint8_t* sysThreadId);
-        static void stat_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_Framework_Output(uint8_t* sysThreadId);
-        static void stat_STRUCT_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_User_Algorithm(uint8_t* sysThreadId);
-        static void stat_STRUCT_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_User_Input(uint8_t* sysThreadId);
-        static void stat_STRUCT_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_User_Output(uint8_t* sysThreadId);
-        static void stat_STRUCT_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_Concurrent(uint8_t* sysThreadId);
-        static void stat_STRUCT_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_Input(uint8_t* sysThreadId);
-        static void stat_STRUCT_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_Output(uint8_t* sysThreadId);
+        static void stat_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_STRUCT_Framework_User_Algorithm(uint8_t* sysThreadId);
+        static void stat_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_STRUCT_Framework_User_Input(uint8_t* sysThreadId);
+        static void stat_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_STRUCT_Framework_User_Output(uint8_t* sysThreadId);
+        static void stat_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_STRUCT_Framework_Concurrent(uint8_t* sysThreadId);
+        static void stat_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_STRUCT_Framework_Input(uint8_t* sysThreadId);
+        static void stat_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_STRUCT_Framework_Output(uint8_t* sysThreadId);
+        static void stat_STRUCT_boot3_INITIALISE_CLIB_LeftHemishpore_STRUCT_Framework_Concurrent(uint8_t* sysThreadId);
+        static void stat_STRUCT_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_STRUCT_Input(uint8_t* sysThreadId);
+        static void stat_STRUCT_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_STRUCT_Output(uint8_t* sysThreadId);
+        static void stat_STRUCT_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_STRUCT_User_Algorithm(uint8_t* sysThreadId);
+        static void stat_STRUCT_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_STRUCT_User_Input(uint8_t* sysThreadId);
+        static void stat_STRUCT_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_STRUCT_User_Output(uint8_t* sysThreadId);
         static struct CLIB_LeftHemishpore_STRUCT_Concurrent* stat_STRUCT_get_CLIB_LeftHemishpore_Framework_Concurrent(uint8_t* sysThreadId);
         static struct CLIB_LeftHemishpore_STRUCT_Input* stat_STRUCT_get_CLIB_LeftHemishpore_Framework_Input(uint8_t* sysThreadId);
         static struct CLIB_LeftHemishpore_STRUCT_Output* stat_STRUCT_get_CLIB_LeftHemishpore_Framework_Output(uint8_t* sysThreadId);

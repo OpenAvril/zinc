@@ -4,7 +4,7 @@
 #include "CLIB_Bus_STRUCT_SingleBus_Framework_Global.h"
 #include "CLIB_Bus_STRUCT_SingleBus_STRUCT_BusDATA.h"
 #include <cstdint>
-namespace slif {
+namespace zinc {
     class CLIB_Bus_STRUCT_SingleBus_Framework {
     public:
         CLIB_Bus_STRUCT_SingleBus_Framework(uint8_t* sysThreadId);

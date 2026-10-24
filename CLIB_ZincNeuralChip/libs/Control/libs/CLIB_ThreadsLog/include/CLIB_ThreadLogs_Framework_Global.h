@@ -5,7 +5,7 @@
 #include <cstdint>
 #include <cstring>
 #include <iostream>
-namespace slif {
+namespace zinc {
     class CLIB_ThreadLogs_Framework_Global {
     public:
         CLIB_ThreadLogs_Framework_Global(uint8_t* sysThreadId);

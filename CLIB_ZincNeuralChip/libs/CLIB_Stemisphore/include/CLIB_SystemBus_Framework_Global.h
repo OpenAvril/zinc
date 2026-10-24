@@ -2,7 +2,7 @@
 #define CLIB_CLIB_SystemBus_Framework_Global_H
 #include <cstdint>
 #include <list>
-namespace slif {
+namespace zinc {
     class CLIB_SystemBus_Framework_Global {
     public:
         CLIB_SystemBus_Framework_Global(uint8_t* sysThreadId);

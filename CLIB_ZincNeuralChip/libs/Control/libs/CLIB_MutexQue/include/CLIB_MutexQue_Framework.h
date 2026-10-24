@@ -3,7 +3,7 @@
 #include "CLIB_MutexQue_Framework_App.h"
 #include "CLIB_MutexQue_Framework_Global.h"
 #include <cstdint>
-namespace slif {
+namespace zinc {
     class CLIB_MutexQue_Framework {
     public:
         CLIB_MutexQue_Framework(uint8_t* sysThreadId);

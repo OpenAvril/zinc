@@ -1,8 +1,8 @@
 #ifndef CLIB_OPENEPICENTRE_FRAMEWORK_APP_DATA_CONTROL_H
 #define CLIB_OPENEPICENTRE_FRAMEWORK_APP_DATA_CONTROL_H
-#include "CLIB_LeftHemishpore_Framework.h"
+#include "../engine/CLIB_LeftHemishpore_Framework.h"
 #include <cstdint>
-namespace slif {
+namespace zinc {
     class CLIB_LeftHemishpore_Framework_App_Data_Control {
     public:
         CLIB_LeftHemishpore_Framework_App_Data_Control(uint8_t* sysThreadId);
@@ -16,7 +16,6 @@ namespace slif {
         void dyn_REG_boot1_DEFINE_CLIB_LeftHemishpore_Framework_App_Data_Control(uint8_t* sysThreadId, class CLIB_LeftHemishpore_Framework* obj);
         void dyn_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_App_Data_Control(uint8_t* sysThreadId, class CLIB_LeftHemishpore_Framework* obj);
         void dyn_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_App_Data_Control(uint8_t* sysThreadId, class CLIB_LeftHemishpore_Framework* obj);
-        void dyn_REG_boot4_INSTANTIATE_CLIB_LeftHemishpore_Framework_App_Data_Control(uint8_t* sysThreadId, class CLIB_LeftHemishpore_Framework* obj);
         bool dyn_REG_get_Item_FLAG_isLoaded_Stack_InputAction(uint8_t* sysThreadId);
         bool dyn_REG_get_Item_FLAG_isLoaded_Stack_OutputSend(uint8_t* sysThreadId);
         bool dyn_REG_get_ItemSideToREAD_For_doubleBufferOfInput(uint8_t* sysThreadId);
@@ -47,10 +46,10 @@ namespace slif {
         static void stat_REG_boot3_INITIALISE_FLAG_isLoaded_Stack_OutputSend(uint8_t* sysThreadId);
         static void stat_REG_boot3_INITIALISE_ItemSideToWRITE_For_doubleBufferOfInput(uint8_t* sysThreadId);
         static void stat_REG_boot3_INITIALISE_ItemSideToWRITE_For_doubleBufferOfOutput(uint8_t* sysThreadId);
-        static bool* stat_REG_get_ptr_FLAG_isLoaded_Stack_InputAction(uint8_t* sysThreadId);
-        static bool* stat_REG_get_ptr_FLAG_isLoaded_Stack_OutputSend(uint8_t* sysThreadId);
-        static bool* stat_REG_get_ptr_ItemSideToWRITE_For_doubleBufferOfInput(uint8_t* sysThreadId);
-        static bool* stat_REG_get_ptr_ItemSideToWRITE_For_doubleBufferOfOutput(uint8_t* sysThreadId);
+        static bool stat_REG_get_ptr_FLAG_isLoaded_Stack_InputAction(uint8_t* sysThreadId);
+        static bool stat_REG_get_ptr_FLAG_isLoaded_Stack_OutputSend(uint8_t* sysThreadId);
+        static bool stat_REG_get_ptr_ItemSideToWRITE_For_doubleBufferOfInput(uint8_t* sysThreadId);
+        static bool stat_REG_get_ptr_ItemSideToWRITE_For_doubleBufferOfOutput(uint8_t* sysThreadId);
         static void stat_REG_set_Item_FLAG_isLoaded_Stack_InputAction(uint8_t* sysThreadId, bool new_Bool);
         static void stat_REG_set_Item_FLAG_isLoaded_Stack_OutputSend(uint8_t* sysThreadId, bool new_Bool);
         static void stat_REG_set_Item_ItemSideToWRITE_For_doubleBufferOfInput(uint8_t* sysThreadId, bool new_Bool);

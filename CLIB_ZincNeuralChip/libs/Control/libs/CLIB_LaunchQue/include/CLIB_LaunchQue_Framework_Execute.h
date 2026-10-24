@@ -1,7 +1,7 @@
 #ifndef OPENEPICENTRE_BACKENDSUBUNTU_CLIB_LaunchQue_Framework_Execute_H
 #define OPENEPICENTRE_BACKENDSUBUNTU_CLIB_LaunchQue_Framework_Execute_H
 #include <cstdint>
-namespace slif {
+namespace zinc {
     class CLIB_LaunchQue_Framework_Execute {
     public:
         CLIB_LaunchQue_Framework_Execute(uint8_t* sysThreadId);
