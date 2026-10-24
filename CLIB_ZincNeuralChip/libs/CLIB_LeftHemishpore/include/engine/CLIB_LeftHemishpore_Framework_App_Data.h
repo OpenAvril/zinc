@@ -11,7 +11,7 @@ namespace zinc {
      public:
         CLIB_LeftHemishpore_Framework_App_Data(uint8_t* sysThreadId);
         virtual ~CLIB_LeftHemishpore_Framework_App_Data();
-        class CLIB_LeftHemishpore_Framework_App_Data_Control* dyn_CLASS_get_ptr_dyn_STRUCT_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Control(uint8_t* sysThreadId);
+        class CLIB_LeftHemishpore_Framework_App_Data_Control* dyn_CLASS_get_ptr_dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App_Data_Control(uint8_t* sysThreadId);
         void dyn_REG_boot1_DEFINE_CLIB_LeftHemishpore_Framework_App_Data(uint8_t* sysThreadId, class CLIB_LeftHemishpore_Framework* obj);
         void dyn_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_App_Data(uint8_t* sysThreadId, class CLIB_LeftHemishpore_Framework* obj);
         void dyn_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_App_Data(uint8_t* sysThreadId, class CLIB_LeftHemishpore_Framework* obj, struct CLIB_LeftHemishpore_STRUCT_Input* objInput, struct CLIB_LeftHemishpore_STRUCT_Output* objOutput);

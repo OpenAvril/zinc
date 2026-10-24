@@ -44,21 +44,20 @@
 		stat_REG_boot3_INITIALISE_CLIB_array_Of_flag_isINSTANTIATED(sysThreadId);
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: done Program - INSTANTIATION." << std::endl;
 
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: " << std::endl;
-		std::cout << "thread " << std::to_string(*sysThreadId) << " ::         ,     \\      /      ," << std::endl;
-		std::cout << "thread " << std::to_string(*sysThreadId) << " ::         ,     \\      /      ," << std::endl;
-		std::cout << "thread " << std::to_string(*sysThreadId) << " ::        / \\    )\\ _ /(     / \\ " << std::endl;
-		std::cout << "thread " << std::to_string(*sysThreadId) << " ::       /   \\   (_\\  /_)    /   \\ " << std::endl;
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: __ / __\\_ \\@  @/ __/___\\___" << std::endl;
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: |              |\\../|               |" << std::endl;
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: |               \\VV/                |" << std::endl;
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: |      Open Source MIT Package       |" << std::endl;
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: |      OpenAvril : ThreadLogs        |" << std::endl;
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: |__________________|" << std::endl;
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: |    / \\ /        \\\\        \\ /\\    |" << std::endl;
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: |  /    V          ))        V   \\  |" << std::endl;
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: |/                //               \\| " << std::endl;
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: `                 V                 '" << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << "" << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << "        ,     \\      /      ," << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << "       / \\    )\\ __ /(     / \\ " << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << "      /   \\   (_\\  /_)    /   \\ " << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << "____ / ____\\__ \\@  @/ ___/_____\\_____" << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << "|              |\\../|               |" << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << "|               \\VV/                |" << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << "|     MIT Sys Threads Log .dll       |" << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << "|___________________________________|" << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << "|    / \\ /        \\\\        \\ /\\    |" << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << "|  /    V          ))        V   \\  |" << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << "|/                //               \\|"  << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << "`                 V                 '" << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << "" << std::endl;
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: CLIB : ThreadLogs : stat_App_FUNCT_CLIB_generate_Program(sysThreadId)." << std::endl;
 	}
 	unsigned char* zinc::ThreadLogs::isINSTANTIATED(uint8_t* sysThreadId) {

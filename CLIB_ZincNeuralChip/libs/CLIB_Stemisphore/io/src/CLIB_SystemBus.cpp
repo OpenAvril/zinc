@@ -63,21 +63,20 @@
 		stat_REG_boot3_INITIALISE_zinc_array_Of_flag_isINSTANTIATED(sysThreadId);
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: done Program - INSTANTIATION." << std::endl;
 
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: " << std::endl;
-		std::cout << "thread " << std::to_string(*sysThreadId) << " ::         ,     \\      /      ," << std::endl;
-		std::cout << "thread " << std::to_string(*sysThreadId) << " ::         ,     \\      /      ," << std::endl;
-		std::cout << "thread " << std::to_string(*sysThreadId) << " ::        / \\    )\\ _ /(     / \\ " << std::endl;
-		std::cout << "thread " << std::to_string(*sysThreadId) << " ::       /   \\   (_\\  /_)    /   \\ " << std::endl;
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: __ / __\\_ \\@  @/ __/___\\___" << std::endl;
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: |              |\\../|               |" << std::endl;
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: |               \\VV/                |" << std::endl;
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: |      Open Source MIT Package       |" << std::endl;
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: |      OpenAvril : Bus        |" << std::endl;
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: |__________________|" << std::endl;
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: |    / \\ /        \\\\        \\ /\\    |" << std::endl;
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: |  /    V          ))        V   \\  |" << std::endl;
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: |/                //               \\| " << std::endl;
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: `                 V                 '" << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << "" << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << "        ,     \\      /      ," << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << "       / \\    )\\ __ /(     / \\ " << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << "      /   \\   (_\\  /_)    /   \\ " << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << "____ / ____\\__ \\@  @/ ___/_____\\_____" << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << "|              |\\../|               |" << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << "|               \\VV/                |" << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << "| MIT Concurrent System Bussing .dll |" << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << "|___________________________________|" << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << "|    / \\ /        \\\\        \\ /\\    |" << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << "|  /    V          ))        V   \\  |" << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << "|/                //               \\|"  << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << "`                 V                 '" << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << "" << std::endl;
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: zinc : Bus : stat_App_FUNCT_zinc_generate_Program(sysThreadId)." << std::endl;
 	}
 	unsigned char* zinc::Stemisphore::isINSTANTIATED(uint8_t* sysThreadId) {

@@ -117,22 +117,20 @@
 
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: started Architecture array_of_array_of_isMemberFunctionINSTANTIATED REG - DECLARE DEFINE INITIALISE" << std::endl;
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: done Architecture array_of_array_of_isMemberFunctionINSTANTIATED REG - DECLARE DEFINE INITIALISE" << std::endl;
-
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: " << std::endl;
-		std::cout << "thread " << std::to_string(*sysThreadId) << " ::         ,     \\      /      ," << std::endl;
-		std::cout << "thread " << std::to_string(*sysThreadId) << " ::         ,     \\      /      ," << std::endl;
-		std::cout << "thread " << std::to_string(*sysThreadId) << " ::        / \\    )\\ _ /(     / \\ " << std::endl;
-		std::cout << "thread " << std::to_string(*sysThreadId) << " ::       /   \\   (_\\  /_)    /   \\ " << std::endl;
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: __ / __\\_ \\@  @/ __/___\\___" << std::endl;
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: |              |\\../|               |" << std::endl;
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: |               \\VV/                |" << std::endl;
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: |      Open Source MIT Package       |" << std::endl;
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: |        OpenAvril - WriteQue       |" << std::endl;
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: |__________________|" << std::endl;
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: |    / \\ /        \\\\        \\ /\\    |" << std::endl;
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: |  /    V          ))        V   \\  |" << std::endl;
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: |/                //               \\| " << std::endl;
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: `                 V                 '" << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << "" << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << "        ,     \\      /      ," << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << "       / \\    )\\ __ /(     / \\ " << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << "      /   \\   (_\\  /_)    /   \\ " << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << "____ / ____\\__ \\@  @/ ___/_____\\_____" << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << "|              |\\../|               |" << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << "|               \\VV/                |" << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << "|     MIT Custom Mutex Que .dll      |" << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << "|___________________________________|" << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << "|    / \\ /        \\\\        \\ /\\    |" << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << "|  /    V          ))        V   \\  |" << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << "|/                //               \\|"  << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << "`                 V                 '" << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << "" << std::endl;
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_MutexQue : CLIB_MutexQue_App_FUNCT_generate_Program(sysThreadId)" << std::endl;
 	}
 	bool zinc::MutexQue::CLIB_MutexQue_stat_APP_FUNCT_Calc_IsAllINSTANTIATED(uint8_t* sysThreadId) {
