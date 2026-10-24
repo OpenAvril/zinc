@@ -78,6 +78,6 @@
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_ThreadLogs_Framework_App_Execute : stat_PGM_boot4_INSTANTIATE_CLIB_Framework_Execute(sysThreadId)." << std::endl;
     }
     int* zinc::CLIB_ThreadLogs_Framework_App_Execute::stat_REG_get_PGM_CLIB_ForThreadsAt_MutexQueForThreadsLog(uint8_t* sysThreadId) {
-        std::cout << "thread " << std::to_string(*sysThreadId) << " :: <= PGM : stat_PGM_get_ptr_ForThreadsAt__ThreadLogsId(sysThreadId)." << std::endl;
+        //std::cout << "thread " << std::to_string(*sysThreadId) << " :: <= PGM : stat_PGM_get_ptr_ForThreadsAt__ThreadLogsId(sysThreadId)." << std::endl;
         return stat_PGM_CLIB_ForThreadsAt_MutexQueForThreadsLog;
     }

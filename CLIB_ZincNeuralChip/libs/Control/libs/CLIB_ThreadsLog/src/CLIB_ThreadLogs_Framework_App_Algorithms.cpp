@@ -56,7 +56,7 @@
 		std::cout << "thread " << std::to_string(*sysThreadId) << *message << std::endl;
 	}
 	void zinc::CLIB_ThreadLogs_Framework_App_Algorithms::stat_APP_FUNCT_CLIB_printLog(uint8_t* sysThreadId, std::string* message)	{
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: * APP_FUNCT : dyn_APP_FUNCT_CLIB_printLog(sysThreadId)." << std::endl;
+		//std::cout << "thread " << std::to_string(*sysThreadId) << " :: * APP_FUNCT : dyn_APP_FUNCT_CLIB_printLog(sysThreadId)." << std::endl;
 		//todo log file
 	}
 
