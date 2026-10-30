@@ -1,5 +1,5 @@
 # Zinc Insulate Neural Chip Open Source Package:
-OpenAvril / slif, now named **zinc** as part of Grittith University - Nathan Open Source comtrubitation to MIT packages, is an open-source development project hosted on GitHub under the Silicon Lifecosystem.
+OpenAvril / slif, now named **zinc** is planned to become a part of as part of Grittith University - Nathan Open Source comtrubitation to MIT packages for my master thesis project, is an open-source development project hosted on GitHub under the Silicon Lifecosystem.
 
 The repository is officially marked as "UNDER DEVELOPMENT" and serves as a collection of full-stack concurrent programming packages.
 
