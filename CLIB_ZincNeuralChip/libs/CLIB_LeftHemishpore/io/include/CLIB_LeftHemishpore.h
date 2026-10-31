@@ -10,23 +10,22 @@ extern "C" {
 		public:
 			static unsigned char* gernerateHandle(uint8_t* sysThreadId);
 			static void generateProgram(uint8_t* sysThreadId);
-
 			static unsigned char* get_Output(uint8_t* sysThreadId, unsigned char* handleId, unsigned char* bytes_praiseId);
 			static unsigned char* get_FLAG_isINITIALISED(uint8_t* sysThreadId, unsigned char* handleId);
 			static unsigned char* get_FLAG_isINSTANTIATED(uint8_t* sysThreadId);
 			static unsigned char* get_FLAG_isStackLoaded_ServerInputReceive(uint8_t* sysThreadId, unsigned char* handleId);
 			static unsigned char* get_FLAG_isStackLoaded_ServerOutputSend(uint8_t* sysThreadId, unsigned char* handleId);
 			static unsigned char* get_MetaData_PraiseEventId(uint8_t* sysThreadId, unsigned char* handleId);
-			static void set_InputItemsFor_praise0(uint8_t* sysThreadId, unsigned char* handleId, unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B);
-			static void set_InputItemsFor_praise1(uint8_t* sysThreadId, unsigned char* handleId, unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B);
-			static void set_InputItemsFor_praise2(uint8_t* sysThreadId, unsigned char* handleId, unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B);
-			static void set_InputItemsFor_praise3(uint8_t* sysThreadId, unsigned char* handleId, unsigned char* bytesPraiseId, unsigned char* bytesValue_A, unsigned char* bytesValue_B);
-			static void set_MetaData_PraiseEventId(uint8_t* sysThreadId, unsigned char* handleId, unsigned char* bytesPraiseId);
-			static void reInitialiseHandle(uint8_t* sysThreadId, unsigned char* handleId, uint8_t* NUMBER_OF_TASK_THREADS);
+			static void set_InputItemsFor_praise0(uint8_t* sysThreadId, unsigned char* handleId, unsigned char* praiseId, unsigned char* value_A, unsigned char* value_B);
+			static void set_InputItemsFor_praise1(uint8_t* sysThreadId, unsigned char* handleId, unsigned char* praiseId, unsigned char* value_A, unsigned char* value_B);
+			static void set_InputItemsFor_praise2(uint8_t* sysThreadId, unsigned char* handleId, unsigned char* praiseId, unsigned char* value_A, unsigned char* value_B);
+			static void set_InputItemsFor_praise3(uint8_t* sysThreadId, unsigned char* handleId, unsigned char* praiseId, unsigned char* value_A, unsigned char* value_B);
+			static void set_MetaData_PraiseEventId(uint8_t* sysThreadId, unsigned char* handleId, unsigned char* praiseId);
+			static void reInitialiseHandle(uint8_t* sysThreadId, unsigned char* handleId, unsigned char* NUMBER_OF_TASK_THREADS);
 			static void terminateProgram(uint8_t* sysThreadId);
 		private:
-			static void stat_app_do_CLIB_LeftHemishpore_STRUCT_Input_MetaData(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytesPraiseId);
-			static void stat_app_do_CLIB_LeftHemishpore_STRUCT_Input_DataControl(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* bytesPraiseId);
+			static void stat_app_do_CLIB_LeftHemishpore_STRUCT_Input_MetaData(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* praiseId);
+			static void stat_app_do_CLIB_LeftHemishpore_STRUCT_Input_DataControl(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* praiseId);
 			static void CLIB_LeftHemishpore_stat_app_FUNCT_Calc_IsAllINSTANTIATED(uint8_t* sysThreadId);
 			static void CLIB_LeftHemishpore_stat_CLASS_boot1_DEFINE_Framework(uint8_t* sysThreadId);
 			static void CLIB_LeftHemishpore_stat_CLASS_boot3_INITIALISE_Framework(uint8_t* sysThreadId);
