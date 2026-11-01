@@ -1,8 +1,7 @@
-
-#include "../CLIB_ZincNeuralChip/libs/Control/libs/CLIB_MutexQue/io/include/CLIB_MutexQue.h"
 #include "../CLIB_ZincNeuralChip/libs/Control/libs/CLIB_ThreadsLog/io/include/CLIB_ThreadLogs.h"
-#include "../CLIB_ZincNeuralChip/libs/Control/libs/CLIB_LaunchQue/io/include/CLIB_LaunchQue.h"
+#include "../CLIB_ZincNeuralChip/libs/Control/libs/CLIB_MutexQue/io/include/CLIB_MutexQue.h"
 #include "../CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/io/include/CLIB_SystemBus.h"
+#include "../CLIB_ZincNeuralChip/libs/Control/libs/CLIB_LaunchQue/io/include/CLIB_LaunchQue.h"
 #include "../CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/io/include/CLIB_LeftHemishpore.h"
 #include "../Optimus/CLIB_Optimus.h"
 #include <iostream>
@@ -22,17 +21,17 @@ int main() {
     zinc::ThreadLogs::generateProgram(sysThreadId);
     std::this_thread::sleep_for(std::chrono::seconds(2));
 
-    zinc::MutexQue::generateProgram(sysThreadId);
-    std::this_thread::sleep_for(std::chrono::seconds(2));
+    //zinc::MutexQue::generateProgram(sysThreadId);
+    //std::this_thread::sleep_for(std::chrono::seconds(2));
 
-    zinc::Stemisphore::generateProgram(sysThreadId);
-    std::this_thread::sleep_for(std::chrono::seconds(2));
+    //zinc::Stemisphore::generateProgram(sysThreadId);
+    //std::this_thread::sleep_for(std::chrono::seconds(2));
 
-    zinc::LaunchQue::generateProgram(sysThreadId);
-    std::this_thread::sleep_for(std::chrono::seconds(2));
+    //zinc::LaunchQue::generateProgram(sysThreadId);
+    //std::this_thread::sleep_for(std::chrono::seconds(2));
 
-    zinc::Epicentre::generateProgram(sysThreadId);
-    std::this_thread::sleep_for(std::chrono::seconds(2));
+    //zinc::Epicentre::generateProgram(sysThreadId);
+    ///std::this_thread::sleep_for(std::chrono::seconds(2));
     std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting : generateProgram(s)." << std::endl;
 
     zinc::ThreadLogs::printl(new uint8_t(8), new std::string("test"));

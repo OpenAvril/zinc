@@ -5,7 +5,7 @@
 #include <cstdint>
 #include <iostream>
 	static class zinc::CLIB_ThreadLogs_Framework* stat_REG_CLIB_Framework;
-	static std::array<bool, 4>* stat_REG_flag_CLIB_isMemberFunctionINSTANTIATED;
+	static std::array<bool, 5>* stat_REG_flag_CLIB_isMemberFunctionINSTANTIATED;
 // public.
 	void zinc::ThreadLogs::generateProgram(uint8_t* sysThreadId) {
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: CLIB : ThreadLogs : stat_App_FUNCT_CLIB_generate_Program(sysThreadId)." << std::endl;
@@ -93,6 +93,13 @@
 	}
 	void zinc::ThreadLogs::reInitialiseHandle(uint8_t* sysThreadId, unsigned char* MAX_NUMBER_OF_THREADS_FOR_ACCESS_ARRAY) {
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: CLIB : ThreadLogs : reInitialiseHandle(sysThreadId)." << std::endl;
+		zinc::MutexQueForThreadsLog::startByLock(sysThreadId, CLIB_MutexQueForThreadsLog_Framework_Global::stat_CONVERT_CLIB_MutexQueForThreadsLog_Framework_Global_VUALUEofMsbInt_To_MsbByteArray(sysThreadId, stat_CLASS_get_ptr_CLIB_Framework(sysThreadId)->dyn_CLASS_get_ptr_CLIB_ThreadLogs_Framework_App(sysThreadId)->dyn_CLASS_ptr_CLIB_ThreadLogs_Framework_App_Execute(sysThreadId)->dyn_REG_get_HandleId_For_PGM_CLIB_ForThreadsAt_MutexQueForThreadsLog(sysThreadId)), MAX_NUMBER_OF_THREADS_FOR_ACCESS_ARRAY);
+		if (!stat_REG_get_CLIB_array_Of_flag_isINSTANTIATED(sysThreadId)->at(0)) {
+			//todo
+		}
+		else {
+			stat_REG_get_CLIB_array_Of_flag_isINSTANTIATED(sysThreadId)->at(3) = !stat_REG_get_CLIB_array_Of_flag_isINSTANTIATED(sysThreadId)->at(0);
+		}
 		zinc::MutexQueForThreadsLog::endByUnlock(sysThreadId, CLIB_MutexQueForThreadsLog_Framework_Global::stat_CONVERT_CLIB_MutexQueForThreadsLog_Framework_Global_VUALUEofMsbInt_To_MsbByteArray(sysThreadId, stat_CLASS_get_ptr_CLIB_Framework(sysThreadId)->dyn_CLASS_get_ptr_CLIB_ThreadLogs_Framework_App(sysThreadId)->dyn_CLASS_ptr_CLIB_ThreadLogs_Framework_App_Execute(sysThreadId)->dyn_REG_get_HandleId_For_PGM_CLIB_ForThreadsAt_MutexQueForThreadsLog(sysThreadId)), MAX_NUMBER_OF_THREADS_FOR_ACCESS_ARRAY);
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: CLIB : ThreadLogs : reInitialiseHandle(sysThreadId)." << std::endl;
 	}
@@ -104,7 +111,7 @@
 			delete stat_REG_flag_CLIB_isMemberFunctionINSTANTIATED;
 		}
 		else {
-			stat_REG_get_CLIB_array_Of_flag_isINSTANTIATED(sysThreadId)->at(3) = !stat_REG_get_CLIB_array_Of_flag_isINSTANTIATED(sysThreadId)->at(2);
+			stat_REG_get_CLIB_array_Of_flag_isINSTANTIATED(sysThreadId)->at(4) = !stat_REG_get_CLIB_array_Of_flag_isINSTANTIATED(sysThreadId)->at(0);
 		}
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: CLIB : ThreadLogs : stat_App_FUNCT_CLIB_terminate_Program(sysThreadId)." << std::endl;
 		zinc::MutexQueForThreadsLog::endByUnlock(sysThreadId, CLIB_ThreadLogs_Framework_Global::stat_CONVERT_CLIB_ThreadsLog_Framework_Global_VUALUEofMsbInt_To_MsbByteArray(sysThreadId, stat_CLASS_get_ptr_CLIB_Framework(sysThreadId)->dyn_CLASS_get_ptr_CLIB_ThreadLogs_Framework_App(sysThreadId)->dyn_CLASS_ptr_CLIB_ThreadLogs_Framework_App_Execute(sysThreadId)->dyn_REG_get_HandleId_For_PGM_CLIB_ForThreadsAt_MutexQueForThreadsLog(sysThreadId)), CLIB_ThreadLogs_Framework_Global::stat_CONVERT_CLIB_ThreadsLog_Framework_Global_VUALUEofMsbuint8_t_To_MsbByteArray(sysThreadId, sysThreadId));
@@ -140,7 +147,7 @@
 	}
 	void zinc::ThreadLogs::stat_REG_boot2_SUBSTANTIATE_CLIB_array_Of_flag_isINSTANTIATED(uint8_t* sysThreadId) {
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: CLIB : ThreadLogs : stat_REG_boot2_SUBSTANTIATE_CLIB_array_Of_flag_isINSTANTIATED(sysThreadId)." << std::endl;
-		stat_REG_flag_CLIB_isMemberFunctionINSTANTIATED = new std::array<bool, 4>();//todo number of function checks and summed or of.
+		stat_REG_flag_CLIB_isMemberFunctionINSTANTIATED = new std::array<bool, 5>();//todo number of function checks and summed or of.
 		while (stat_REG_get_CLIB_array_Of_flag_isINSTANTIATED(sysThreadId) == nullptr) {}
 		for (uint8_t index = 0; index < static_cast<uint8_t>(stat_REG_get_CLIB_array_Of_flag_isINSTANTIATED(sysThreadId)->size()); index++)	{
 			stat_REG_get_CLIB_array_Of_flag_isINSTANTIATED(sysThreadId)->at(index) = true;
@@ -154,7 +161,7 @@
 		}
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: CLIB : ThreadLogs : stat_REG_boot3_INITIALISE_CLIB_array_Of_flag_isINSTANTIATED(sysThreadId)." << std::endl;
 	}
-	std::array<bool, 4>*  zinc::ThreadLogs::stat_REG_get_CLIB_array_Of_flag_isINSTANTIATED(uint8_t* sysThreadId) {
+	std::array<bool, 5>*  zinc::ThreadLogs::stat_REG_get_CLIB_array_Of_flag_isINSTANTIATED(uint8_t* sysThreadId) {
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: <= std::array<bool, 4>* : stat_REG_get_CLIB_array_Of_flag_isINSTANTIATED(uint8_t* sysThreadId) = " << std::endl;
 		return stat_REG_flag_CLIB_isMemberFunctionINSTANTIATED;
 	}
