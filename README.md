@@ -5,10 +5,7 @@ Is planned to become a part of as part of Grittith University - Nathan Open Sour
 ## CONCURRENT Systems:
 Wi-Fi dual bandwidth each railed to an Interrupt Request Stack array, reading the bandwidth array, writing to the Bus loader for rail. Super computer injection and extraction on independent threads for task algorithms via concurrent I and O. Building concurrent rail systems as RTCOS (Real-Time-Concurrent-Operationg-System). 
 
-Wi-Fi 2.5 Input 64 pins.
-Wi-Fi 2.5 Output 64 pins.
-Wi-Fi 5 Input 64 pins.
-Wi-Fi 5 Output 64 pins.
+Wi-Fi 2.5 Input 64 pins, Wi-Fi 2.5 Output 64 pins, Wi-Fi 5 Input 64 pins, Wi-Fi 5 Output 64 pins.
 
 The repository is officially marked as "UNDER DEVELOPMENT" and serves as a collection of full-stack concurrent programming packages.
 
