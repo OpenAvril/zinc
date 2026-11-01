@@ -19,21 +19,23 @@ int main() {
     std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting : Optimus : prime." << std::endl;
 
     std::cout << "thread " << std::to_string(*sysThreadId) << " :: starting : generateProgram(s)." << std::endl;
-    zinc::MutexQue::generateProgram(sysThreadId);
-    std::this_thread::sleep_for(std::chrono::seconds(2));
+    //zinc::MutexQue::generateProgram(sysThreadId);
+   // std::this_thread::sleep_for(std::chrono::seconds(2));
 
     zinc::ThreadLogs::generateProgram(sysThreadId);
-    std::this_thread::sleep_for(std::chrono::seconds(2));
+    //std::this_thread::sleep_for(std::chrono::seconds(2));
 
-    zinc::Stemisphore::generateProgram(sysThreadId);
-    std::this_thread::sleep_for(std::chrono::seconds(2));
+    //zinc::Stemisphore::generateProgram(sysThreadId);
+    //std::this_thread::sleep_for(std::chrono::seconds(2));
 
-    zinc::LaunchQue::generateProgram(sysThreadId);
-    std::this_thread::sleep_for(std::chrono::seconds(2));
+   // zinc::LaunchQue::generateProgram(sysThreadId);
+   // std::this_thread::sleep_for(std::chrono::seconds(2));
 
-    zinc::Epicentre::generateProgram(sysThreadId);
-    std::this_thread::sleep_for(std::chrono::seconds(2));
+   // zinc::Epicentre::generateProgram(sysThreadId);
+    //std::this_thread::sleep_for(std::chrono::seconds(2));
     std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting : generateProgram(s)." << std::endl;
+
+    zinc::ThreadLogs::printl(new uint8_t(8), new std::string("test"));
 
     std::cout << "thread " << std::to_string(*sysThreadId) << " :: Main : End!." << std::endl;
     return 0;

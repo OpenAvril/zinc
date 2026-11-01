@@ -38,7 +38,7 @@
 		return stat_CLASS_get_ptr_CLIB_ThreadLogs_Framework_App_Algorithms(sysThreadId);
 	}
 	zinc::CLIB_ThreadLogs_Framework_App_Execute* zinc::CLIB_ThreadLogs_Framework_App::dyn_CLASS_ptr_CLIB_ThreadLogs_Framework_App_Execute(uint8_t* sysThreadId)	{
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: <= class : dyn_CLASS_ptr_CLIB_ThreadLogs_Framework_App_Execute(sysThreadId)." << std::endl;
+		//std::cout << "thread " << std::to_string(*sysThreadId) << " :: <= class : dyn_CLASS_ptr_CLIB_ThreadLogs_Framework_App_Execute(sysThreadId)." << std::endl;
 		return stat_CLASS_get_ptr_CLIB_ThreadLogs_Framework_App_Execute(sysThreadId);
 	}
 	void zinc::CLIB_ThreadLogs_Framework_App::stat_CLASS_boot0_DECLAIRE_CLIB_ThreadLogs_Framework_App(uint8_t* sysThreadId) {

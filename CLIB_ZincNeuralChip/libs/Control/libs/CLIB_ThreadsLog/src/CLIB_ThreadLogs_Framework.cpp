@@ -104,10 +104,10 @@
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_ThreadLogs_Framework : stat_CLASS_boot3_INITIALISE_CLIB_ThreadLogs_Framework_Global(sysThreadId)." << std::endl;
 	}
 	zinc::CLIB_ThreadLogs_Framework_App* zinc::CLIB_ThreadLogs_Framework::stat_CLASS_get_ptr_CLIB_ThreadLogs_Framework_App(uint8_t* sysThreadId)	{
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: <= class : stat_CLASS_get_ptr_CLIB_ThreadLogs_Framework_App(sysThreadId)." << std::endl;
+		//std::cout << "thread " << std::to_string(*sysThreadId) << " :: <= class : stat_CLASS_get_ptr_CLIB_ThreadLogs_Framework_App(sysThreadId)." << std::endl;
 		return stat_CLASS_ptr_CLIB_ThreadLogs_Framework_App;
 	}
 	zinc::CLIB_ThreadLogs_Framework_Global* zinc::CLIB_ThreadLogs_Framework::stat_CLASS_get_ptr_CLIB_ThreadLogs_Framework_Global(uint8_t* sysThreadId) {
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: <= class : stat_CLASS_get_ptr_CLIB_ThreadLogs_Framework_Global(sysThreadId)."<< std::endl;
+		//std::cout << "thread " << std::to_string(*sysThreadId) << " :: <= class : stat_CLASS_get_ptr_CLIB_ThreadLogs_Framework_Global(sysThreadId)."<< std::endl;
 		return stat_CLASS_ptr_CLIB_ThreadLogs_Framework_Global;
 	}
