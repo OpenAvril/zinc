@@ -28,9 +28,8 @@ target_include_directories(${PROJECT_NAME}
         PRIVATE
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/libs/CLIB_MutexQueForThreadsLog/include>
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
-        $<INSTALL_INTERFACE:include>
 )
 
 target_link_libraries(${PROJECT_NAME} PRIVATE
-        zinc_control_mutex_que
+        zinc_control_sys_threads_log_mutex_que
 )
