@@ -1,13 +1,13 @@
 # Zinc Insulate Neural Chip Open Source Package:
-##OpenAvril / slif, now named **zinc**:
+## OpenAvril / slif, now named **zinc**:
 Is planned to become a part of as part of Grittith University - Nathan Open Source comtrubitation to MIT packages for my master thesis project, is an open-source development project hosted on GitHub under the Silicon Lifecosystem.
 
-##CONCURRENT Systems:
+## CONCURRENT Systems:
 Wi-Fi dual bandwidth each railed to an Interrupt Request Stack array, reading the bandwidth array, writing to the Bus loader for rail. Super computer injection and extraction on independent threads for task algorithms. Building concurrent rail systems without RTCOS (Real-Time-Concurrent-Operationg-System).
 
 The repository is officially marked as "UNDER DEVELOPMENT" and serves as a collection of full-stack concurrent programming packages.
 
-##Key Focus Areas & Features
+## Key Focus Areas & Features
 The project contains architectural implementations centered heavily around high-concurrency, systems-level logic, and early-stage artificial intelligence:
 - Concurrent Programming Tools: Implementations for full-stack concurrent pipelines, including custom mutex locks, mutex synchronization, and concurrent queues.
 - Silicon Life Concepts: Targeted frameworks designed for "Silicon Life" computing architectures.
