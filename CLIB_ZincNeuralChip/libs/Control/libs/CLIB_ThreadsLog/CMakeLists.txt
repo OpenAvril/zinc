@@ -23,6 +23,7 @@ target_include_directories(${PROJECT_NAME} PUBLIC
 )
 
 target_include_directories(${PROJECT_NAME} PRIVATE
+        $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/libs/CLIB_MutexQueForThreadsLog/io/include>
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/libs/CLIB_MutexQueForThreadsLog/include>
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
 )

@@ -4,6 +4,7 @@ project(zinc_control VERSION 1.0 LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+add_subdirectory(libs/CLIB_ThreadsLog/libs/CLIB_MutexQueForThreadsLog)
 add_subdirectory(libs/CLIB_ThreadsLog)
 add_subdirectory(libs/CLIB_MutexQue)
 add_subdirectory(libs/CLIB_LaunchQue)
@@ -34,12 +35,14 @@ add_library(${PROJECT_NAME} STATIC
 )
 
 target_include_directories(${PROJECT_NAME} PUBLIC
+        $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/libs/CLIB_ThreadsLogQue/libs/CLIB_MutexQueForThreadsLog/io/include>
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/libs/CLIB_ThreadsLogQue/io/include>
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/libs/CLIB_MutexQue/io/include>
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/libs/CLIB_LaunchQue/io/include>
 )
 
 target_include_directories(${PROJECT_NAME} PRIVATE
+        $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/libs/CLIB_ThreadsLogQue/libs/CLIB_MutexQueForThreadsLog/include>
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/libs/CLIB_ThreadsLogQue/include>
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/libs/CLIB_MutexQue/include>
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/libs/CLIB_LaunchQue/include>
