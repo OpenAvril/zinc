@@ -2,7 +2,7 @@
 ## OpenAvril / zinc, previously named slif:
 Is planned to become a part of as part of Grittith University - Nathan Open Source comtrubitation to MIT packages for my master thesis project, is an open-source development project hosted on GitHub under the Silicon Lifecosystem.
 
-## CONCURRENT Systems: Concurrent Zinc Vs. Synchronis Gold.
+## CONCURRENT Systems: 
 Wi-Fi dual bandwidth each railed to an Interrupt Request Stack array, reading the bandwidth array, writing to the Bus loader for rail. Super computer injection and extraction on independent threads for task algorithms via concurrent I and O. Building concurrent rail systems as RTCOS (Real-Time-Concurrent-Operationg-System). 
 
 Wi-Fi 2.5 Input 64 pins, Wi-Fi 2.5 Output 64 pins, Wi-Fi 5 Input 64 pins, Wi-Fi 5 Output 64 pins.
