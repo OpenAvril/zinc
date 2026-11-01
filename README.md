@@ -1,5 +1,5 @@
 # Zinc Insulate Neural Chip Open Source Package:
-## OpenAvril / slif, now named **zinc**:
+## OpenAvril / zinc, previously named slif:
 Is planned to become a part of as part of Grittith University - Nathan Open Source comtrubitation to MIT packages for my master thesis project, is an open-source development project hosted on GitHub under the Silicon Lifecosystem.
 
 ## CONCURRENT Systems: Concurrent Zinc Vs. Synchronis Gold.
