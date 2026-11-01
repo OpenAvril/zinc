@@ -33,6 +33,13 @@ CLIB Request, Wait, Write-Read for 'ThreadId' at 'DataCluster'.
 **Double standard Mutex combined Input/Output efficiency.**
 
 ---
+# ThreadsLog:
+
+Neural Chip Thread Logging:
+
+CLIB Console output via MutexQue, DataCluster is 'Console'.
+
+---
 # LaunchQue:
 
 Left Hemisphore Task Launcher:
@@ -46,14 +53,7 @@ ex: Core task chunker.
 ex: Graphics post process.
 
 ---
-# ThreadsLog:
-  
-Neural Chip Thread Logging:
-     
-CLIB Console output via MutexQue, DataCluster is 'Console'.
-
----
-* Stemisphore:
+# Concurrent System Bussing - Stemisphore:
   
 System Bussing for Zinc Neural Hemisphoric Chip:  
 
@@ -64,7 +64,7 @@ Open Concurrent SCADA.
 **Triple MutexQue into a set/get data buffer of bus for route of paired junctions.**
 
 ---
-* LeftHemisphore:
+# Epicentre - LeftHemisphore:
   
 Left Hemisphore Logic Task Result Deducer:      
 
@@ -117,28 +117,26 @@ slif_epicentre INJECTION paths:
 
 ---
 ### slif_control.
-- Optimus: Package INSTANTIATION Primer.
+#### slif::ThreadsLog : Threads Log.
+ThreadsLog: CLIB Console output via Dynamic Custom MutexQue, DataCluster is 'Console'.
 
 #### slif::MutexQue : Exclusive Cohesion Mutex Queue.
-* MutexQue: CLIB Request, Wait, Write-Read for 'ThreadId' at 'DataCluster'.
-
-#### slif::ThreadsLog : Threads Log.
-* ThreadsLog: CLIB Console output via MutexQue, DataCluster is 'Console'.
+MutexQue: CLIB Request, Wait, Write-Read for 'ThreadId' at 'DataCluster'.
 
 #### slif::LaunchQue : Concurrent Launch Queue.
-* LaunchQue: CIB Request, Wait, Launch for : ('ConcurrentThreadId') deployed at Server or Client.
+LaunchQue: CIB Request, Wait, Launch for : ('ConcurrentThreadId') deployed at Server or Client.
 
 ---
 ### slif::Stemisphore : System Bussing for Zinc Neural Hemisphoric Chip:.
-* MainStreamBussing: CLIB Compound of ExclusiveCohesionMutexQueue(s). An array of a single Bus with route array of Stations. A single Bus deploying an ExclusiveCohesionMutexQueue('AccessId_A=StationId','DataClusterId_A=BusId'), and each Station deploying an ExclusiveCohesionMutexQueue('AccessId_B','DataClusterId_B=StationId').
+MainStreamBussing: CLIB Compound of ExclusiveCohesionMutexQueue(s). An array of a single Bus with route array of Stations. A single Bus deploying an ExclusiveCohesionMutexQueue('AccessId_A=StationId','DataClusterId_A=BusId'), and each Station deploying an ExclusiveCohesionMutexQueue('AccessId_B','DataClusterId_B=StationId').
 
 ---
 ### slif::epicentre : Left Hemisphore.
-* Left Hemisphore Logic Task Result Deducer: CLIB Concurrent Server with independent task threads and IO wrapper.
+Left Hemisphore Logic Task Result Deducer: CLIB Concurrent Server with independent task threads and IO wrapper.
 
 ---
-### slif::intuition : Right Hemisphore.
-* Right Hemisphore Intuition antenna array.
+* slif::intuition : Right Hemisphore.
+Right Hemisphore Intuition antenna array.
 
 
 ---
