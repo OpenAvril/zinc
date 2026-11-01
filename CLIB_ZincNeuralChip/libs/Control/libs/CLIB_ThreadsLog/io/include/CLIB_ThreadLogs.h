@@ -21,7 +21,7 @@ extern "C" {
             static void stat_REG_boot1_DEFINE_CLIB_array_Of_flag_isINSTANTIATED(uint8_t* sysThreadId);
             static void stat_REG_boot2_SUBSTANTIATE_CLIB_array_Of_flag_isINSTANTIATED(uint8_t* sysThreadId);
             static void stat_REG_boot3_INITIALISE_CLIB_array_Of_flag_isINSTANTIATED(uint8_t* sysThreadId);
-            static std::array<bool, 4>* stat_REG_get_CLIB_array_Of_flag_isINSTANTIATED(uint8_t* sysThreadId);
+            static std::array<bool, 5>* stat_REG_get_CLIB_array_Of_flag_isINSTANTIATED(uint8_t* sysThreadId);
         };
     }
 }
