@@ -8,8 +8,8 @@ namespace zinc {
     public:
         CLIB_ThreadLogs_Framework(uint8_t* sysThreadId);
         virtual ~CLIB_ThreadLogs_Framework();
-        void dyn_CLASS_CLIB_ThreadLogs_Framework_create_Architecture(uint8_t* sysThreadId);
-        void dyn_CLASS_CLIB_ThreadLogs_Framework_create_LaunchEnableForConcurrentThreadsAt_Server_Global_and_Settings(uint8_t* sysThreadId);
+        void dyn_CLASS_create_CLIB_ThreadLogs_Framework_Architecture(uint8_t* sysThreadId);
+        void dyn_CLASS_create_CLIB_ThreadLogs_Framework_Global_and_Settings(uint8_t* sysThreadId);
         class CLIB_ThreadLogs_Framework_App* dyn_CLASS_get_CLIB_ThreadLogs_Framework_App(uint8_t* sysThreadId);
         class CLIB_ThreadLogs_Framework_Global*dyn_CLASS_get_CLIB_ThreadLogs_Framework_Global(uint8_t* sysThreadId);
         void dyn_APP_CLIB_ThreadLogs_Framework_STRUCT_boot1_DEFINE(uint8_t* sysThreadId);

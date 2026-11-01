@@ -6,13 +6,13 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_library(${PROJECT_NAME} STATIC
         io/src/CLIB_ThreadLogs.cpp
+        src/CLIB_ThreadLogs_Framework.cpp
+        src/CLIB_ThreadLogs_Framework_Global.cpp
         libs/CLIB_MutexQueForThreadsLog/io/src/CLIB_MutexQueForThreadsLog.cpp
         libs/CLIB_MutexQueForThreadsLog/src/CLIB_MutexQueForThreadsLog_Framework.cpp
         libs/CLIB_MutexQueForThreadsLog/src/CLIB_MutexQueForThreadsLog_Framework_Global.cpp
         libs/CLIB_MutexQueForThreadsLog/src/CLIB_MutexQueForThreadsLog_Framework_App.cpp
         libs/CLIB_MutexQueForThreadsLog/src/CLIB_MutexQueForThreadsLog_Framework_App_Control.cpp
-        src/CLIB_ThreadLogs_Framework.cpp
-        src/CLIB_ThreadLogs_Framework_Global.cpp
         src/CLIB_ThreadLogs_Framework_App.cpp
         src/CLIB_ThreadLogs_Framework_App_Algorithms.cpp
         src/CLIB_ThreadLogs_Framework_App_Execute.cpp

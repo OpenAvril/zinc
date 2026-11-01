@@ -53,7 +53,7 @@
 	}
 	void zinc::CLIB_ThreadLogs_Framework_App_Algorithms::stat_APP_FUNCT_CLIB_printConsoleAndLog(uint8_t* sysThreadId, CLIB_ThreadLogs_Framework* obj, std::string* message)	{
 		//std::cout << "thread " << std::to_string(*sysThreadId) << " :: * APP_FUNCT : dyn_APP_FUNCT_CLIB_printConsoleAndLog(sysThreadId)." << std::endl;
-		//stat_APP_FUNCT_CLIB_printLog(sysThreadId, message);
+		stat_APP_FUNCT_CLIB_printLog(sysThreadId, obj, message);
 		std::cout << "thread " << std::to_string(*sysThreadId) << *message << std::endl;
 	}
 	void zinc::CLIB_ThreadLogs_Framework_App_Algorithms::stat_APP_FUNCT_CLIB_printLog(uint8_t* sysThreadId, CLIB_ThreadLogs_Framework* obj, std::string* message)	{

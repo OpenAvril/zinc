@@ -16,31 +16,31 @@
 		delete stat_CLASS_ptr_CLIB_ThreadLogs_Framework_Global;
 		std::cout << "thread "  << 0 << ":: exiting LIB :: CLIB : CLIB_ThreadLogs_Framework : ~CLIB_ThreadLogs_Framework()." << std::endl;
 	}
-	void zinc::CLIB_ThreadLogs_Framework::dyn_CLASS_CLIB_create_Architecture(std::uint8_t* sysThreadId)	{
+	void zinc::CLIB_ThreadLogs_Framework::dyn_CLASS_create_CLIB_ThreadLogs_Framework_Architecture(std::uint8_t* sysThreadId)	{
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_ThreadLogs_Framework : dyn_CLASS_CLIB_create_Architecture(sysThreadId)." << std::endl;
 		stat_CLASS_boot1_DEFINE_CLIB_ThreadLogs_Framework(sysThreadId);
 		stat_CLASS_boot3_INITIALISE_CLIB_ThreadLogs_Framework(sysThreadId);
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_ThreadLogs_Framework : dyn_CLASS_CLIB_create_Architecture(sysThreadId)." << std::endl;
 	}
-	void zinc::CLIB_ThreadLogs_Framework::dyn_CLASS_CLIB_create_LaunchEnableForConcurrentThreadsAt_Server_Global_and_Settings(uint8_t* sysThreadId) {
+	void zinc::CLIB_ThreadLogs_Framework::dyn_CLASS_create_CLIB_ThreadLogs_Framework_Global_and_Settings(uint8_t* sysThreadId) {
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_ThreadLogs_Framework : dyn_CLASS_CLIB_create_LaunchEnableForConcurrentThreadsAt_Server_Global_and_Settings(sysThreadId)." << std::endl;
 		stat_CLASS_boot1_DEFINE_CLIB_ThreadLogs_Framework_Global(sysThreadId);
 		stat_CLASS_boot3_INITIALISE_CLIB_ThreadLogs_Framework_Global(sysThreadId);
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_ThreadLogs_Framework : dyn_CLASS_CLIB_create_LaunchEnableForConcurrentThreadsAt_Server_Global_and_Settings(sysThreadId)." << std::endl;
 	}
-	zinc::CLIB_ThreadLogs_Framework_App* zinc::CLIB_ThreadLogs_Framework::dyn_CLASS_get_ptr_LaunchEnableForConcurrentThreadsAt_Server_App(uint8_t* sysThreadId) {
+	zinc::CLIB_ThreadLogs_Framework_App* zinc::CLIB_ThreadLogs_Framework::dyn_CLASS_get_CLIB_ThreadLogs_Framework_App(uint8_t* sysThreadId) {
 		//std::cout << "thread " << std::to_string(*sysThreadId) << " :: <= class : dyn_CLASS_get_ptr_LaunchEnableForConcurrentThreadsAt_Server_App(sysThreadId)." << std::endl;
 		return stat_CLASS_get_ptr_CLIB_ThreadLogs_Framework_App(sysThreadId);
 	}
-	zinc::CLIB_ThreadLogs_Framework_Global* zinc::CLIB_ThreadLogs_Framework::dyn_CLASS_get_ptr_LaunchEnableForConcurrentThreadsAt_Server_Global(uint8_t* sysThreadId) {
+	zinc::CLIB_ThreadLogs_Framework_Global* zinc::CLIB_ThreadLogs_Framework::dyn_CLASS_get_CLIB_ThreadLogs_Framework_Global(uint8_t* sysThreadId) {
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: <= class : dyn_CLASS_get_ptr_LaunchEnableForConcurrentThreadsAt_Server_Global(sysThreadId)." << std::endl;
 		return stat_CLASS_get_ptr_CLIB_ThreadLogs_Framework_Global(sysThreadId);
 	}
-	void zinc::CLIB_ThreadLogs_Framework::dyn_APP_CLIB_stat_STRUCT_boot1_DEFINE(uint8_t* sysThreadId) {
+	void zinc::CLIB_ThreadLogs_Framework::dyn_APP_CLIB_ThreadLogs_Framework_STRUCT_boot1_DEFINE(uint8_t* sysThreadId) {
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_ThreadLogs_Framework : dyn_APP_CLIB_stat_STRUCT_boot1_DEFINE(sysThreadId)." << std::endl;
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_ThreadLogs_Framework : dyn_APP_CLIB_stat_STRUCT_boot1_DEFINE(sysThreadId)." << std::endl;
 	}
-	void zinc::CLIB_ThreadLogs_Framework::dyn_APP_CLIB_stat_STRUCT_boot3_INITIALISE(uint8_t* sysThreadId)	{
+	void zinc::CLIB_ThreadLogs_Framework::dyn_APP_CLIB_ThreadLogs_Framework_STRUCT_boot3_INITIALISE(uint8_t* sysThreadId)	{
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_ThreadLogs_Framework : dyn_APP_CLIB_stat_STRUCT_boot3_INITIALISE(sysThreadId)." << std::endl;
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_ThreadLogs_Framework : dyn_APP_CLIB_stat_STRUCT_boot3_INITIALISE(sysThreadId)." << std::endl;
 	}

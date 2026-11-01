@@ -15,17 +15,17 @@
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: started Architecture Framework CLASS - DECLARE DEFINE INITIALISE." << std::endl;
 
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: started CLIB_OpenEpiCentre_Global Meta-Data and Settings." << std::endl;
-		stat_CLASS_get_ptr_CLIB_Framework(sysThreadId)->dyn_CLASS_CLIB_create_LaunchEnableForConcurrentThreadsAt_Server_Global_and_Settings(sysThreadId);
-		stat_CLASS_get_ptr_CLIB_Framework(sysThreadId)->dyn_CLASS_get_ptr_LaunchEnableForConcurrentThreadsAt_Server_Global(sysThreadId)->dyn_REG_boot1_DEFINE_CLIB_ThreadLogs_Framework_Global(sysThreadId);
-		stat_CLASS_get_ptr_CLIB_Framework(sysThreadId)->dyn_CLASS_get_ptr_LaunchEnableForConcurrentThreadsAt_Server_Global(sysThreadId)->dyn_REG_boot2_SUBSTANTIATE_CLIB_ThreadLogs_Framework_Global(sysThreadId);
-		stat_CLASS_get_ptr_CLIB_Framework(sysThreadId)->dyn_CLASS_get_ptr_LaunchEnableForConcurrentThreadsAt_Server_Global(sysThreadId)->dyn_REG_boot3_INITIALISE_CLIB_ThreadLogs_Framework_Global(sysThreadId);
+		stat_CLASS_get_ptr_CLIB_Framework(sysThreadId)->dyn_CLASS_create_CLIB_ThreadLogs_Framework_Global_and_Settings(sysThreadId);
+		stat_CLASS_get_ptr_CLIB_Framework(sysThreadId)->dyn_CLASS_get_CLIB_ThreadLogs_Framework_Global(sysThreadId)->dyn_REG_boot1_DEFINE_CLIB_ThreadLogs_Framework_Global(sysThreadId);
+		stat_CLASS_get_ptr_CLIB_Framework(sysThreadId)->dyn_CLASS_get_CLIB_ThreadLogs_Framework_Global(sysThreadId)->dyn_REG_boot2_SUBSTANTIATE_CLIB_ThreadLogs_Framework_Global(sysThreadId);
+		stat_CLASS_get_ptr_CLIB_Framework(sysThreadId)->dyn_CLASS_get_CLIB_ThreadLogs_Framework_Global(sysThreadId)->dyn_REG_boot3_INITIALISE_CLIB_ThreadLogs_Framework_Global(sysThreadId);
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: done CLIB_OpenEpiCentre_Global Meta-Data and Settings." << std::endl;
 
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: started Independent STRUCT(s) - DECLARE DEFINE INITIALISE, Registers - DECLARE SUBSTANTIATE INITIALISE." << std::endl;
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: done Independent STRUCT(s) - DECLARE DEFINE INITIALISE, Registers - DECLARE SUBSTANTIATE INITIALISE." << std::endl;
 
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: started Architecture Application CLASS(s) - DECLARE DEFINE INITIALISE, Registers - DECLARE SUBSTANTIATE INITIALISE." << std::endl;
-		stat_CLASS_get_ptr_CLIB_Framework(sysThreadId)->dyn_CLASS_CLIB_create_Architecture(sysThreadId);
+		stat_CLASS_get_ptr_CLIB_Framework(sysThreadId)->dyn_CLASS_create_CLIB_ThreadLogs_Framework_Architecture(sysThreadId);
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: started Registers - DEFINE" << std::endl;
 
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: done Registers - DEFINE." << std::endl;
@@ -78,12 +78,11 @@
 		zinc::MutexQueForThreadsLog::endByUnlock(sysThreadId, CLIB_ThreadLogs_Framework_Global::stat_CONVERT_CLIB_ThreadsLog_Framework_Global_VUALUEofMsbInt_To_MsbByteArray(sysThreadId, stat_CLASS_get_ptr_CLIB_Framework(sysThreadId)->dyn_CLASS_get_ptr_CLIB_ThreadLogs_Framework_App(sysThreadId)->dyn_CLASS_ptr_CLIB_ThreadLogs_Framework_App_Execute(sysThreadId)->dyn_REG_get_HandleId_For_PGM_CLIB_ForThreadsAt_MutexQueForThreadsLog(sysThreadId)), CLIB_ThreadLogs_Framework_Global::stat_CONVERT_CLIB_ThreadsLog_Framework_Global_VUALUEofMsbuint8_t_To_MsbByteArray(sysThreadId, sysThreadId));
 		return result;
 	}
-	void zinc::ThreadLogs::printl(uint8_t* sysThreadId, std::string stringForLogPrint) {
-		std::string* temp = &stringForLogPrint;
+	void zinc::ThreadLogs::printl(uint8_t* sysThreadId, std::string* stringForLogPrint) {
 		zinc::MutexQueForThreadsLog::startByLock(sysThreadId, CLIB_ThreadLogs_Framework_Global::stat_CONVERT_CLIB_ThreadsLog_Framework_Global_VUALUEofMsbInt_To_MsbByteArray(sysThreadId, stat_CLASS_get_ptr_CLIB_Framework(sysThreadId)->dyn_CLASS_get_ptr_CLIB_ThreadLogs_Framework_App(sysThreadId)->dyn_CLASS_ptr_CLIB_ThreadLogs_Framework_App_Execute(sysThreadId)->dyn_REG_get_HandleId_For_PGM_CLIB_ForThreadsAt_MutexQueForThreadsLog(sysThreadId)), CLIB_ThreadLogs_Framework_Global::stat_CONVERT_CLIB_ThreadsLog_Framework_Global_VUALUEofMsbuint8_t_To_MsbByteArray(sysThreadId, sysThreadId));
 		//std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: CLIB : ThreadLogs : stat_APP_FUNCT_CLIB_printConsoleAndLog(sysThreadId)." << std::endl;
 		if (!stat_REG_get_CLIB_array_Of_flag_isINSTANTIATED(sysThreadId)->at(0)) {
-			stat_CLASS_get_ptr_CLIB_Framework(sysThreadId)->dyn_CLASS_get_ptr_CLIB_ThreadLogs_Framework_App(sysThreadId)->dyn_CLASS_ptr_CLIB_ThreadLogs_Framework_App_Algorithms(sysThreadId)->dyn_APP_FUNCT_CLIB_printConsoleAndLog(sysThreadId, stat_CLASS_get_ptr_CLIB_Framework(sysThreadId), temp);
+			stat_CLASS_get_ptr_CLIB_Framework(sysThreadId)->dyn_CLASS_get_ptr_CLIB_ThreadLogs_Framework_App(sysThreadId)->dyn_CLASS_ptr_CLIB_ThreadLogs_Framework_App_Algorithms(sysThreadId)->dyn_APP_FUNCT_CLIB_printConsoleAndLog(sysThreadId, stat_CLASS_get_ptr_CLIB_Framework(sysThreadId), stringForLogPrint);
 		}
 		else {
 			stat_REG_get_CLIB_array_Of_flag_isINSTANTIATED(sysThreadId)->at(2) = !stat_REG_get_CLIB_array_Of_flag_isINSTANTIATED(sysThreadId)->at(0);
@@ -119,9 +118,6 @@
 			break;
 		}
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: CLIB : ThreadLogs : stat_APP_FUNCT_CLIB_Calc_IsAllINSTANTIATED(sysThreadId)." << std::endl;
-	}
-	void zinc::ThreadLogs::pr_stat_APP_FUNCT_CLIB_printConsoleAndLog(uint8_t* sysThreadId, CLIB_ThreadLogs_Framework* obj, std::string* stringForLogPrint) {
-		obj->dyn_CLASS_get_ptr_CLIB_ThreadLogs_Framework_App(sysThreadId)->dyn_CLASS_ptr_CLIB_ThreadLogs_Framework_App_Algorithms(sysThreadId)->dyn_APP_FUNCT_CLIB_printConsoleAndLog(sysThreadId, stringForLogPrint);
 	}
 	void zinc::ThreadLogs::stat_CLASS_boot1_DEFINE_CLIB_Framework(uint8_t* sysThreadId) {
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: CLIB : ThreadLogs : stat_CLASS_boot1_DEFINE_CLIB_Framework(sysThreadId)." << std::endl;
