@@ -1,10 +1,9 @@
 #include "../include/CLIB_SystemBus_Framework_Global.h"
-
 #include <cfloat>
 #include <climits>
 #include <cstdint>
 #include <cstring>
-#include "CLIB_ThreadLogs.h"
+#include <iostream>
     uint8_t* zinc::CLIB_SystemBus_Framework_Global::stat_REG_CLIB_SystemBus_Framework_Global_MAX_NUMBER_OF_JUNCTIONS;
     std::list<uint8_t>* zinc::CLIB_SystemBus_Framework_Global::stat_REG_CLIB_SystemBus_Framework_Global_List_Of_MAX_NUMBER_OF_ACCESS_THREADS_AT_JUNCTIONS;
 // public.

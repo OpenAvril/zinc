@@ -73,8 +73,8 @@ add_library(${PROJECT_NAME} STATIC
         libs/CLIB_LeftHemishpore/src/engine/CLIB_LeftHemishpore_Framework_App_Execute_Control.cpp
 )
 
-target_include_directories(${PROJECT_NAME}
-        PUBLIC
+target_include_directories(${PROJECT_NAME} PUBLIC
+        $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/libs/Control/libs/CLIB_ThreadsLogQue/libs/CLIB_MutexQueForThreadsLog/io/include>
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/libs/Control/libs/CLIB_ThreadsLogQue/io/include>
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/libs/Control/libs/CLIB_MutexQue/io/include>
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/libs/Control/libs/CLIB_LaunchQue/io/include>
@@ -83,8 +83,8 @@ target_include_directories(${PROJECT_NAME}
         #$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/libs/CLIB_RightHemisphore/io/include>
 )
 
-target_include_directories(${PROJECT_NAME}
-        PRIVATE
+target_include_directories(${PROJECT_NAME} PRIVATE
+        $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/libs/Control/libs/CLIB_ThreadsLogQue/libs/CLIB_MutexQueForThreadsLog/include>
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/libs/Control/libs/CLIB_ThreadsLogQue/include>
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/libs/Control/libs/CLIB_MutexQue/include>
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/libs/Control/libs/CLIB_LaunchQue/include>
@@ -95,6 +95,7 @@ target_include_directories(${PROJECT_NAME}
 )
 
 target_link_libraries(${PROJECT_NAME} PRIVATE
+        zinc_control_sys_threads_log_mutex_que
         zinc_control_sys_threads_log
         zinc_control_mutex_que
         zinc_control_launch_que

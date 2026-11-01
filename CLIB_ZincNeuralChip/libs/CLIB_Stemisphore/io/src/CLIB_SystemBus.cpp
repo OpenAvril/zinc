@@ -5,6 +5,7 @@
 #include "../../../CLIB_Stemisphore/include/CLIB_SystemBus_Framework_Global.h"
 #include <array>
 #include <cstdint>
+#include <iostream>
 	static zinc::CLIB_SystemBus_Framework* stat_REG_CLIB_SystemBus_Framework;
 	static std::array<bool, 4>* stat_REG_flag_zinc_isMemberFunctionINSTANTIATED;
 	uint8_t* zinc::Stemisphore::accessId = new uint8_t(0);

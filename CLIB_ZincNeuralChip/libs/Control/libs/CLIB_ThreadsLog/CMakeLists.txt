@@ -18,14 +18,12 @@ add_library(${PROJECT_NAME} STATIC
         src/CLIB_ThreadLogs_Framework_App_Execute.cpp
 )
 
-target_include_directories(${PROJECT_NAME}
-        PUBLIC
+target_include_directories(${PROJECT_NAME} PUBLIC
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/io/include>
-        $<INSTALL_INTERFACE:include>
 )
 
-target_include_directories(${PROJECT_NAME}
-        PRIVATE
+target_include_directories(${PROJECT_NAME} PRIVATE
+        $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/libs/CLIB_MutexQueForThreadsLog/io/include>
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/libs/CLIB_MutexQueForThreadsLog/include>
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
 )

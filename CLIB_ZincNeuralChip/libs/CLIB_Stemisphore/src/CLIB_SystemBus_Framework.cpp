@@ -2,6 +2,7 @@
 #include "../include/CLIB_SystemBus_Framework_App.h"
 #include "../include/CLIB_SystemBus_Framework_Global.h"
 #include "../../Control/libs/CLIB_ThreadsLog/io/include/CLIB_ThreadLogs.h"
+#include <iostream>
 	zinc::CLIB_SystemBus_Framework_App* zinc::CLIB_SystemBus_Framework::stat_CLASS_ptr_CLIB_SystemBus_Framework_App;
 	zinc::CLIB_SystemBus_Framework_Global* zinc::CLIB_SystemBus_Framework::stat_CLASS_ptr_CLIB_SystemBus_Framework_Global;
 // private.

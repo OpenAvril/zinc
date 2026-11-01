@@ -6,6 +6,7 @@
 #include "../../include/CLIB_LaunchQue_Framework_Execute.h"
 #include "../../include/CLIB_LaunchQue_Framework_Global.h"
 #include <thread>
+#include <iostream>
 static std::list<zinc::CLIB_LaunchQue_Framework*>* stat_REG_List_Of_PGM_CLIB_LaunchQue;
     static std::array<bool, 12>* stat_REG_Flag_CLIB_LaunchQue_isMemberFunctionINSTANTIATED;
     uint8_t* accessId = new uint8_t(0);

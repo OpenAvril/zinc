@@ -17,7 +17,8 @@
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_ThreadLogs_Framework_App_Execute : CLIB_Framework_Execute(sysThreadId)." << std::endl;
     }
     zinc::CLIB_ThreadLogs_Framework_App_Execute::~CLIB_ThreadLogs_Framework_App_Execute() {
-        delete stat_PGM_CLIB_ForThreadsAt_MutexQueForThreadsLog;
+        delete stat_REG_CLIB_Framework_App_Execute_FILE_For_Log;
+        delete stat_PGM_CLIB_Framework_App_Execute_ForThreadsAt_MutexQueOfThreadsLog;
     }
     void zinc::CLIB_ThreadLogs_Framework_App_Execute::dyn_REG_boot1_DEFINE_CLIB_Framework_Execute(uint8_t* sysThreadId) {
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_ThreadLogs_Framework_App_Execute : dyn_REG_boot1_DEFINE_CLIB_Framework_Execute(sysThreadId)." << std::endl;
@@ -33,7 +34,7 @@
     }
     void zinc::CLIB_ThreadLogs_Framework_App_Execute::dyn_PGM_boot3_REINITIALISE_CLIB_ForThreadsAt_MutexQueForThreadsLog(uint8_t* sysThreadId, uint8_t* MAX_NUMBER_OF_THREADS_FOR_ACCESS_ARRAY) {
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_ThreadLogs_Framework_App_Execute : dyn_REG_boot3_INITIALISE_CLIB_Framework_Execute(sysThreadId)." << std::endl;
-        stat_PGM_boot3_REINITIALISE_CLIB_ForThreadsAt_MutexQueForThreadsLog(sysThreadId, MAX_NUMBER_OF_THREADS_FOR_ACCESS_ARRAY);
+        stat_PGM_boot3_REINITIALISE_CLIB_Framework_App_Execute_ForThreadsAt_MutexQueOfThreadsLog(sysThreadId, MAX_NUMBER_OF_THREADS_FOR_ACCESS_ARRAY);
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_ThreadLogs_Framework_App_Execute : dyn_REG_boot3_INITIALISE_CLIB_Framework_Execute(sysThreadId)." << std::endl;
     }
     void zinc::CLIB_ThreadLogs_Framework_App_Execute::dyn_PGM_boot4_INSTANTIATE_CLIB_Framework_Execute(uint8_t* sysThreadId) {
