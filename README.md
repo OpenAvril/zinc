@@ -1,9 +1,13 @@
 # Zinc Insulate Neural Chip Open Source Package:
-OpenAvril / slif, now named **zinc** is planned to become a part of as part of Grittith University - Nathan Open Source comtrubitation to MIT packages for my master thesis project, is an open-source development project hosted on GitHub under the Silicon Lifecosystem.
+##OpenAvril / slif, now named **zinc**:
+Is planned to become a part of as part of Grittith University - Nathan Open Source comtrubitation to MIT packages for my master thesis project, is an open-source development project hosted on GitHub under the Silicon Lifecosystem.
+
+##CONCURRENT Systems:
+Wi-Fi dual bandwidth each railed to an Interrupt Request Stack array, reading the bandwidth array, writing to the Bus loader for rail. Super computer injection and extraction on independent threads for task algorithms. Building concurrent rail systems without RTCOS (Real-Time-Concurrent-Operationg-System).
 
 The repository is officially marked as "UNDER DEVELOPMENT" and serves as a collection of full-stack concurrent programming packages.
 
-Key Focus Areas & Features
+##Key Focus Areas & Features
 The project contains architectural implementations centered heavily around high-concurrency, systems-level logic, and early-stage artificial intelligence:
 - Concurrent Programming Tools: Implementations for full-stack concurrent pipelines, including custom mutex locks, mutex synchronization, and concurrent queues.
 - Silicon Life Concepts: Targeted frameworks designed for "Silicon Life" computing architectures.
@@ -18,7 +22,7 @@ A master by coursework with five specialisation electives, I propose Convener of
 
 ---
 ---
-* MutexQue:
+# MutexQue:
   
 Exclusive Cohesion Mutex Queue:   
 
@@ -27,7 +31,7 @@ CLIB Request, Wait, Write-Read for 'ThreadId' at 'DataCluster'.
 **Double standard Mutex combined Input/Output efficiency.**
 
 ---
-* LaunchQue:
+# LaunchQue:
 
 Left Hemisphore Task Launcher:
 
@@ -40,7 +44,7 @@ ex: Core task chunker.
 ex: Graphics post process.
 
 ---
-* ThreadsLog:
+# ThreadsLog:
   
 Neural Chip Thread Logging:
      
@@ -71,6 +75,7 @@ CLIB Concurrent Server with independent task threads and IO wrapper.
 
 ---
 ---
+# DRAFTING.
 ## zinc - Zinc Insulate Neural Chip.
   - 3x Zones: Id, Ego, SuperEgo.
   - 2x Hemisphores; Left, Right. per Zone, and 'x' number of Junctions to all parts of the Hemisphore.
@@ -128,18 +133,18 @@ slif_epicentre INJECTION paths:
 
 ---
 ---
-## Using.
-### LINUX Ubuntu.
+# Using.
+## LINUX Ubuntu.
 **version:** Ubuntu 24.04.4 LTS.
 
-### CLion.
+## CLion.
 **Version:** 2026.1.2.
 
 ---
-### Dependencies.
+## Dependencies.
 - [Open Source suite install script for Silicon Life Engineering.](https://github.com/MEngSc-Electrical-ComputerSystems/Linux_bash_scripts/blob/main/freshinstall.sh)
 
-#### Ubuntu Terminal.
+### Ubuntu Terminal.
 ````
 sudo apt install git
 ````
@@ -160,18 +165,18 @@ sudo apt install snapd
 sudo snap install clion --classic
 ````
 
-#### CLion plugins.
+### CLion plugins.
 - Native Build Tools.
 - Cmake.
 - CLion C and C++.
 
 
-#### CLion: Clone from GuitHub.
+### CLion: Clone from GuitHub.
  - File - > New -> Project from Version Control.
  - URL : user entry "https://github.com/OpenAvril/zinc"
 
    ---
-## Building - Compiler Terminal Commands.
+# Building - Compiler Terminal Commands.
 
 *** Load Root CMake Project ***
 
@@ -185,9 +190,9 @@ cmake --build build
 *** run TESTBENCH ***
 
 ---
-## Implementation.
-### How To Guide - Stack Flow From Client Input Scanner To Server And Back To Client.
+# Implementation.
+## How To Guide - Stack Flow From Client Input Scanner To Server And Back To Client.
 
-### Wrapper Imports and Native IO.
+## Wrapper Imports and Native IO.
 
 ---
