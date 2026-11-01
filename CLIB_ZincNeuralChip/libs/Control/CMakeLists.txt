@@ -33,23 +33,20 @@ add_library(${PROJECT_NAME} STATIC
         libs/CLIB_LaunchQue/src/CLIB_LaunchQue_Framework_Execute.cpp
 )
 
-target_include_directories(${PROJECT_NAME}
-        PUBLIC
+target_include_directories(${PROJECT_NAME} PUBLIC
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/libs/CLIB_ThreadsLogQue/io/include>
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/libs/CLIB_MutexQue/io/include>
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/libs/CLIB_LaunchQue/io/include>
-        $<INSTALL_INTERFACE:include>
 )
 
-target_include_directories(${PROJECT_NAME}
-        PRIVATE
+target_include_directories(${PROJECT_NAME} PRIVATE
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/libs/CLIB_ThreadsLogQue/include>
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/libs/CLIB_MutexQue/include>
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/libs/CLIB_LaunchQue/include>
-        $<INSTALL_INTERFACE:include>
-)
+ )
 
 target_link_libraries(${PROJECT_NAME} PRIVATE
+        zinc_control_sys_threads_log_mutex_que
         zinc_control_sys_threads_log
         zinc_control_mutex_que
         zinc_control_launch_que

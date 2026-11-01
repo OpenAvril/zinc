@@ -1,4 +1,6 @@
 #include "../include/CLIB_ThreadLogs_Framework_Global.h"
+
+#include <cfloat>
 #include <climits>
 #include <cstdint>
 #include <cstring>

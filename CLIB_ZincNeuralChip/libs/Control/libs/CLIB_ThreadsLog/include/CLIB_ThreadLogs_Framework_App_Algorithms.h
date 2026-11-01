@@ -1,5 +1,6 @@
-#ifndef CLIB_CLIB_CLIB_ThreadLogs_Framework_App_Algorithms_H
-#define CLIB_CLIB_CLIB_ThreadLogs_Framework_App_Algorithms_H
+#ifndef CLIB_THEADLOGS_CLIB_FRAMEWORK_APP_ALGORITHM_H
+#define CLIB_THEADLOGS_CLIB_FRAMEWORK_APP_ALGORITHM_H
+#include "../include/CLIB_ThreadLogs_Framework.h"
 #include <cstdint>
 #include <string>
 namespace zinc {
@@ -7,8 +8,8 @@ namespace zinc {
     public:
         CLIB_ThreadLogs_Framework_App_Algorithms(uint8_t* sysThreadId);
         virtual ~CLIB_ThreadLogs_Framework_App_Algorithms();
-        void dyn_APP_FUNCT_CLIB_printConsoleAndLog(uint8_t* sysThreadId, std::string* message);
-        void dyn_APP_FUNCT_CLIB_printLog(uint8_t* sysThreadId, std::string* message);
+        void dyn_APP_FUNCT_CLIB_printConsoleAndLog(uint8_t* sysThreadId, class CLIB_ThreadLogs_Framework* obj, std::string* message);
+        void dyn_APP_FUNCT_CLIB_printLog(uint8_t* sysThreadId, class CLIB_ThreadLogs_Framework* obj, std::string* message);
         void dyn_REG_boot1_DEFINE_CLIB_ThreadLogs_Framework_App_Algorithms(uint8_t* sysThreadId);
         void dyn_REG_boot2_SUBSTANTIATE_CLIB_ThreadLogs_Framework_App_Algorithms(uint8_t* sysThreadId);
         void dyn_REG_boot3_INITIALISE_CLIB_ThreadLogs_Framework_App_Algorithms(uint8_t* sysThreadId);
@@ -17,8 +18,8 @@ namespace zinc {
         static void stat_CLASS_boot3_INITIALISE_CLIB_ThreadLogs_Framework_App_Algorithms(uint8_t* sysThreadId);
         static void stat_REG_boot0_DECLAIRE_CLIB_ThreadLogs_Framework_App_Algorithms(uint8_t* sysThreadId);
     private:
-        void stat_APP_FUNCT_CLIB_printConsoleAndLog(uint8_t* sysThreadId, std::string* message);
-        void stat_APP_FUNCT_CLIB_printLog(uint8_t* sysThreadId, std::string* message);
+        void stat_APP_FUNCT_CLIB_printConsoleAndLog(uint8_t* sysThreadId, std::ofstream* objOUTPUT_FILE, std::string* message);
+        void stat_APP_FUNCT_CLIB_printLog(uint8_t* sysThreadId, std::ofstream* objOUTPUT_FILE, std::string* message);
     };
 }
 #endif

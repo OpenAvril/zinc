@@ -17,6 +17,7 @@
 #include "../../../include/independent/praise_sets/CLIB_LeftHemishpore_STRUCT_Output_praise1.h"
 #include "../../../include/independent/praise_sets/CLIB_LeftHemishpore_STRUCT_Output_praise2.h"
 #include "../../../include/independent/praise_sets/CLIB_LeftHemishpore_STRUCT_Output_praise3.h"
+#include <iostream>
     uint8_t* zinc::CLIB_LeftHemishpore_STRUCT_Concurrent::stat_REG_CLIB_LeftHemishpore_Concurrent_ThreadId;
 // public.
     void zinc::CLIB_LeftHemishpore_STRUCT_Concurrent::app_do_Concurrent_Algorithm_For_PraiseEventId(uint8_t* sysThreadId, CLIB_LeftHemishpore_Framework* obj, uint8_t* playerId, unsigned long long* praiseEventId, Object* ptr_Input_Subset, Object* ptr_Output_Subset) {

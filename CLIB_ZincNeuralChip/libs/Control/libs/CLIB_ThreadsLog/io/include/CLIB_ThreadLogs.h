@@ -15,7 +15,6 @@ extern "C" {
             static void terminateProgram(uint8_t* sysThreadId);
         private:
             static void stat_APP_FUNCT_CLIB_Calc_IsAllINSTANTIATED(uint8_t* sysThreadId);
-            static void pr_stat_APP_FUNCT_CLIB_printConsoleAndLog(uint8_t* sysThreadId, std::string* stringForLogPrint);
             static void stat_CLASS_boot1_DEFINE_CLIB_Framework(uint8_t* sysThreadId);
             static void stat_CLASS_boot3_INITIALISE_CLIB_Framework(uint8_t* sysThreadId);
             static class CLIB_ThreadLogs_Framework* stat_CLASS_get_ptr_CLIB_Framework(uint8_t* sysThreadId);

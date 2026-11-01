@@ -4,6 +4,7 @@
 #include "../../../Control/libs/CLIB_MutexQue/io/include/CLIB_MutexQue.h"
 #include "../../include/independent/CLIB_Bus_STRUCT_SingleBus_Framework_Global.h"
 #include "../../include/independent/CLIB_Bus_STRUCT_SingleBus.h"
+#include <iostream>
     std::list<void*>* zinc::CLIB_Bus_STRUCT_SingleBus_Framework_App_Execute::stat_PGM_CLIB_List_Of_Busses;
     int* zinc::CLIB_Bus_STRUCT_SingleBus_Framework_App_Execute::stat_PGM_CLIB_MutexQue_Of_Bus;
     std::list<int*>* zinc::CLIB_Bus_STRUCT_SingleBus_Framework_App_Execute::stat_PGM_CLIB_MutexQue_Of_Bus_At_Junction;

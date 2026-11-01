@@ -2,6 +2,7 @@
 #include "../../../CLIB_Stemisphore/include/CLIB_SystemBus_Framework_Global.h"
 #include "../../include/independent/CLIB_Bus_STRUCT_SingleBus_Framework_Global.h"
 #include "../../../Control/libs/CLIB_ThreadsLog/io/include/CLIB_ThreadLogs.h"
+#include <iostream>
 	unsigned char* zinc::CLIB_Bus_STRUCT_SingleBus_Framework_App_Data::stat_REG_CLIB_Bus_STRUCT_SingleBus_Framework_App_Data_DATA;
 // public.
 	zinc::CLIB_Bus_STRUCT_SingleBus_Framework_App_Data::CLIB_Bus_STRUCT_SingleBus_Framework_App_Data(uint8_t* sysThreadId) {

@@ -1,10 +1,6 @@
-#ifndef CLIB_CLIB_CLIB_ThreadLogs_Framework_Global_H
-#define CLIB_CLIB_CLIB_ThreadLogs_Framework_Global_H
-#include <cfloat>
-#include <climits>
+#ifndef CLIB_THEADLOGS_CLIB_FRAMEWORK_APP_GLOBAL_H
+#define CLIB_THEADLOGS_CLIB_FRAMEWORK_APP_GLOBAL_H
 #include <cstdint>
-#include <cstring>
-#include <iostream>
 namespace zinc {
     class CLIB_ThreadLogs_Framework_Global {
     public:

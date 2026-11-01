@@ -1,5 +1,5 @@
-#ifndef CLIB_CLIB_CLIB_ThreadLogs_Framework_App_H
-#define CLIB_CLIB_CLIB_ThreadLogs_Framework_App_H
+#ifndef CLIB_THEADLOGS_CLIB_FRAMEWORK_APP_H
+#define CLIB_THEADLOGS_CLIB_FRAMEWORK_APP_H
 #include "CLIB_ThreadLogs_Framework_App_Algorithms.h"
 #include "CLIB_ThreadLogs_Framework_App_Execute.h"
 #include <cstdint>
