@@ -1,8 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/brenton-jmaes/CLionProjects/zinc/CLIB_ZincNeuralChip/libs/Control/libs/CLIB_ThreadsLog/build/cmake_install.cmake",
-		"/home/brenton-jmaes/CLionProjects/zinc/CLIB_ZincNeuralChip/libs/Control/libs/CLIB_ThreadsLog/build/libs/CLIB_MutexQueForThreadsLog/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

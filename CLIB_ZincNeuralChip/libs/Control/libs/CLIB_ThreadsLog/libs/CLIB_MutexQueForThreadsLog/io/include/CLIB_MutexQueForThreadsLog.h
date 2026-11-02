@@ -11,7 +11,6 @@ extern "C" {
             static void endByUnlock(uint8_t* sysThreadId, unsigned char* handleId, unsigned char* bytes_ACCESS_ID);
             static unsigned char* generateHandle(uint8_t* sysThreadId);
             static void generateProgram(uint8_t* sysThreadId);
-            static unsigned char* isINSTANTIATED(uint8_t* sysThreadId);
             static void reInitialiseHandle(uint8_t* sysThreadId, unsigned char* handleId, unsigned char* bytes_MAX_NUMBER_OF_THREADS_FOR_ACCESS);
             static void startByLock(uint8_t* sysThreadId, unsigned char* handleId, unsigned char* bytes_ACCESS_ID);
             static void terminateProgram(uint8_t* sysThreadId, unsigned char* handleId);
@@ -23,9 +22,9 @@ extern "C" {
             static void CLIB_MutexQueForThreadsLog_stat_boot1_DEFINE_array_of_isMemberFunctionINSTANTIATED(uint8_t* sysThreadId);
             static void CLIB_MutexQueForThreadsLog_stat_REG_boot2_SUBSTANTIATE_array_of_isMemberFunctionINSTANTIATED(uint8_t* sysThreadId);
             static void CLIB_MutexQueForThreadsLog_stat_REG_boot3_INITIALISE_array_of_isMemberFunctionINSTANTIATED(uint8_t* sysThreadId);
-            static std::array<bool, 5>* CLIB_MutexQueForThreadsLog_stat_REG_get_array_of_isMemberFunctionINSTANTIATED(uint8_t* sysThreadId);
-            static std::list<void*>* CLIB_MutexQueForThreadsLog_stat_PGM_get_array_of_ptr_CLIB_MutexQueForThreadsLog(uint8_t* sysThreadId);
-            static CLIB_MutexQueForThreadsLog_Framework* CLIB_MutexQueForThreadsLog_stat_PGM_get_ptr_CLIB_MutexQueForThreadsLog(uint8_t* sysThreadId, int* handleId);
+            static std::array<bool, 7>* CLIB_MutexQueForThreadsLog_stat_REG_get_array_of_isMemberFunctionINSTANTIATED(uint8_t* sysThreadId);
+            static std::list<CLIB_MutexQueForThreadsLog_Framework*>* CLIB_MutexQueForThreadsLog_stat_PGM_get_array_of_ptr_CLIB_MutexQueForThreadsLog(uint8_t *sysThreadId);
+            static class zinc::CLIB_MutexQueForThreadsLog_Framework* CLIB_MutexQueForThreadsLog_stat_PGM_get_ptr_CLIB_MutexQueForThreadsLog(uint8_t* sysThreadId, int* handleId);
         };
     }
 }

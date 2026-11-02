@@ -19,8 +19,8 @@
 	void zinc::Optimus::prime(uint8_t* sysThreadId) {
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: zinc : Optimus : prime(sysThreadId)." << std::endl;
 		if (!zinc_Optimus_stat_REG_get_array_of_isMemberFunctionINSTANTIATED(sysThreadId).at(0)) {
-			zinc_Optimus_App_FUNCT_prime(sysThreadId);
 			std::cout << "thread " << std::to_string(*sysThreadId) << " :: Optimus : PRIMING PACKAGE." << std::endl;
+			zinc_Optimus_App_FUNCT_prime(sysThreadId);
 		}
 		else {
 			zinc_Optimus_stat_REG_get_array_of_isMemberFunctionINSTANTIATED(sysThreadId).at(0) = !zinc_Optimus_stat_REG_get_array_of_isMemberFunctionINSTANTIATED(sysThreadId).at(0);
@@ -61,17 +61,9 @@
 		auto bytesValue = new unsigned char();
 		bytesValue = valueofMsbDouble_To_MsbByteArray(sysThreadId, 0);
 
-		zinc::MutexQueForThreadsLog::endByUnlock(sysThreadId, handleId, bytes_AccessId);
-		int* tempA0 = msbByteArray_To_valueOfmsbInt(sysThreadId, zinc::MutexQueForThreadsLog::generateHandle(sysThreadId));
-		//zinc::MutexQueForThreadsLog::generateProgram(sysThreadId);
-		unsigned char* tempA1 = zinc::MutexQueForThreadsLog::isINSTANTIATED(sysThreadId);
-		zinc::MutexQueForThreadsLog::reInitialiseHandle(sysThreadId, handleId, valueofMsbuint8_t_To_MsbByteArray(sysThreadId, MAX_NUMBER_OF_THREADS_FOR_ACCESS));
-		zinc::MutexQueForThreadsLog::startByLock(sysThreadId, handleId, bytes_AccessId);
-		zinc::MutexQueForThreadsLog::terminateProgram(sysThreadId, handleId);
 		//zinc::ThreadLogs::generateProgram(uint8_t* sysThreadId);
-		unsigned char* tempB0 = zinc::ThreadLogs::isINSTANTIATED(sysThreadId);
-		zinc::ThreadLogs::printl(sysThreadId, string);
-		zinc::ThreadLogs::reInitialiseHandle(sysThreadId, MAX_NUMBER_OF_THREADS_FOR_ACCESS);
+		zinc::ThreadLogs::printl(sysThreadId, handleId, string);
+		zinc::ThreadLogs::reInitialiseProgram(sysThreadId, MAX_NUMBER_OF_THREADS_FOR_ACCESS);
 		zinc::ThreadLogs::terminateProgram(sysThreadId);
 
 		/*

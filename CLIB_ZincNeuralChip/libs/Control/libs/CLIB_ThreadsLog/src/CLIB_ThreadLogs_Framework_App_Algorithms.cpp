@@ -52,12 +52,12 @@
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_ThreadLogs_Framework_App_Algorithms : stat_REG_boot0_DECLAIRE_CLIB_ThreadLogs_Framework_App_Algorithms(sysThreadId)." << std::endl;
 	}
 	void zinc::CLIB_ThreadLogs_Framework_App_Algorithms::stat_APP_FUNCT_CLIB_printConsoleAndLog(uint8_t* sysThreadId, std::ofstream objOUTPUT_FILE, std::string* message)	{
-		//std::cout << "thread " << std::to_string(*sysThreadId) << " :: * APP_FUNCT : dyn_APP_FUNCT_CLIB_printConsoleAndLog(sysThreadId)." << std::endl;
+		std::cout << "thread " << std::to_string(*sysThreadId) << " :: * APP_FUNCT : dyn_APP_FUNCT_CLIB_printConsoleAndLog(sysThreadId)." << std::endl;
 		stat_APP_FUNCT_CLIB_printLog(sysThreadId, std::move(objOUTPUT_FILE), message);
-		std::cout << "thread " << std::to_string(*sysThreadId) << *message << std::endl;
+		std::cout << "*** thread " << std::to_string(*sysThreadId) << *message << std::endl;
 	}
 	void zinc::CLIB_ThreadLogs_Framework_App_Algorithms::stat_APP_FUNCT_CLIB_printLog(uint8_t* sysThreadId, std::ofstream objOUTPUT_FILE, std::string* message)	{
-		//std::cout << "thread " << std::to_string(*sysThreadId) << " :: * APP_FUNCT : dyn_APP_FUNCT_CLIB_printLog(sysThreadId)." << std::endl;
-		objOUTPUT_FILE << "thread " << std::to_string(*sysThreadId) << *message << ".\n";
+		std::cout << "thread " << std::to_string(*sysThreadId) << " :: * APP_FUNCT : dyn_APP_FUNCT_CLIB_printLog(sysThreadId)." << std::endl;
+		objOUTPUT_FILE << "thread " << std::to_string(*sysThreadId) << *message << std::endl;
 	}
 

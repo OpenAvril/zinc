@@ -235,3 +235,12 @@
         //std::cout << "thread " << std::to_string(*sysThreadId) << " :: => uint8_t* : stat_REG_set_ptr_CLIB_MutexQueForThreadsLog_number_Of_Implemented_Threads(sysThreadId)." << std::endl;
         *stat_REG_ptr_CLIB_MutexQueForThreadsLog_number_Of_Implemented_Threads = MAX_NUMBER_OF_THREADS_FOR_ACCESS;
     }
+
+
+
+
+
+
+
+
+

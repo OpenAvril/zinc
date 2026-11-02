@@ -4,21 +4,21 @@
 #include <array>
 #include <cstdint>
 #include <iostream>
-	static class zinc::CLIB_ThreadLogs_Framework* stat_REG_CLIB_Framework;
-	static std::array<bool, 5>* stat_REG_flag_CLIB_isMemberFunctionINSTANTIATED;
+	static zinc::CLIB_ThreadLogs_Framework* stat_REG_PGM_CLIB_Framework;
+	static std::array<bool, 4>* stat_REG_flag_CLIB_isMemberFunctionINSTANTIATED;
 // public.
 	void zinc::ThreadLogs::generateProgram(uint8_t* sysThreadId) {
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: CLIB : ThreadLogs : stat_App_FUNCT_CLIB_generate_Program(sysThreadId)." << std::endl;
-		
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: started Architecture Framework CLASS - DECLARE DEFINE INITIALISE." << std::endl;
-		stat_CLASS_get_ptr_CLIB_Framework(sysThreadId)->dyn_REG_boot1_DEFINE_CLIB_ThreadLogs_Framework(sysThreadId);
+		stat_CLASS_boot1_DEFINE_CLIB_Framework(sysThreadId);
+		stat_CLASS_boot3_INITIALISE_CLIB_Framework(sysThreadId);
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: started Architecture Framework CLASS - DECLARE DEFINE INITIALISE." << std::endl;
 
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: started CLIB_OpenEpiCentre_Global Meta-Data and Settings." << std::endl;
 		stat_CLASS_get_ptr_CLIB_Framework(sysThreadId)->dyn_CLASS_create_CLIB_ThreadLogs_Framework_Global_and_Settings(sysThreadId);
-		stat_CLASS_get_ptr_CLIB_Framework(sysThreadId)->dyn_CLASS_get_CLIB_ThreadLogs_Framework_Global(sysThreadId)->dyn_REG_boot1_DEFINE_CLIB_ThreadLogs_Framework_Global(sysThreadId);
-		stat_CLASS_get_ptr_CLIB_Framework(sysThreadId)->dyn_CLASS_get_CLIB_ThreadLogs_Framework_Global(sysThreadId)->dyn_REG_boot2_SUBSTANTIATE_CLIB_ThreadLogs_Framework_Global(sysThreadId);
-		stat_CLASS_get_ptr_CLIB_Framework(sysThreadId)->dyn_CLASS_get_CLIB_ThreadLogs_Framework_Global(sysThreadId)->dyn_REG_boot3_INITIALISE_CLIB_ThreadLogs_Framework_Global(sysThreadId);
+		stat_CLASS_get_ptr_CLIB_Framework(sysThreadId)->dyn_CLASS_get_CLIB_ThreadLogs_Framework_Global(sysThreadId)->dyn_REG_boot1_DEFINE_CLIB_MutexQueForThreadsLog_Global(sysThreadId);
+		stat_CLASS_get_ptr_CLIB_Framework(sysThreadId)->dyn_CLASS_get_CLIB_ThreadLogs_Framework_Global(sysThreadId)->dyn_REG_boot2_SUBSTANTIATE_CLIB_MutexQueForThreadsLog_Global(sysThreadId);
+		stat_CLASS_get_ptr_CLIB_Framework(sysThreadId)->dyn_CLASS_get_CLIB_ThreadLogs_Framework_Global(sysThreadId)->dyn_REG_boot3_INITIALISE_CLIB_MutexQueForThreadsLog_Global(sysThreadId);
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: done CLIB_OpenEpiCentre_Global Meta-Data and Settings." << std::endl;
 
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: started Independent STRUCT(s) - DECLARE DEFINE INITIALISE, Registers - DECLARE SUBSTANTIATE INITIALISE." << std::endl;
@@ -59,62 +59,43 @@
 		std::cout << "thread " << std::to_string(*sysThreadId) << "" << std::endl;
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: CLIB : ThreadLogs : stat_App_FUNCT_CLIB_generate_Program(sysThreadId)." << std::endl;
 	}
-	unsigned char* zinc::ThreadLogs::isINSTANTIATED(uint8_t* sysThreadId) {
-		zinc::MutexQueForThreadsLog::startByLock(sysThreadId, CLIB_ThreadLogs_Framework_Global::stat_CONVERT_CLIB_ThreadsLog_Framework_Global_VUALUEofMsbInt_To_MsbByteArray(sysThreadId, stat_CLASS_get_ptr_CLIB_Framework(sysThreadId)->dyn_CLASS_get_ptr_CLIB_ThreadLogs_Framework_App(sysThreadId)->dyn_CLASS_ptr_CLIB_ThreadLogs_Framework_App_Execute(sysThreadId)->dyn_REG_get_HandleId_For_PGM_CLIB_ForThreadsAt_MutexQueForThreadsLog(sysThreadId)), CLIB_ThreadLogs_Framework_Global::stat_CONVERT_CLIB_ThreadsLog_Framework_Global_VUALUEofMsbuint8_t_To_MsbByteArray(sysThreadId, sysThreadId));
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: CLIB : ThreadLogs : stat_App_FUNCT_CLIB_get_flag_isPGM_INSTANTIATED(sysThreadId)." << std::endl;
-		unsigned char* result = nullptr;
-		bool* temp = nullptr;
-		temp = new bool();
-		*temp = true;
+	void zinc::ThreadLogs::printl(uint8_t* sysThreadId, uint8_t* ACCESS_ID, std::string* stringForLogPrint) {
+		zinc::MutexQueForThreadsLog::startByLock(sysThreadId, CLIB_ThreadLogs_Framework_Global::stat_CONVERT_CLIB_ThreadLogs_Framework_Global_VUALUEofMsbInt_To_MsbByteArray(sysThreadId, stat_CLASS_get_ptr_CLIB_Framework(sysThreadId)->dyn_CLASS_get_ptr_CLIB_ThreadLogs_Framework_App(sysThreadId)->dyn_CLASS_ptr_CLIB_ThreadLogs_Framework_App_Execute(sysThreadId)->dyn_REG_get_HandleId_For_PGM_CLIB_ForThreadsAt_MutexQueForThreadsLog(sysThreadId)), CLIB_ThreadLogs_Framework_Global::stat_CONVERT_CLIB_ThreadLogs_Framework_Global_VUALUEofMsbuint8_t_To_MsbByteArray(sysThreadId, sysThreadId));
+		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: CLIB : ThreadLogs : printl(sysThreadId)." << std::endl;
 		if (!stat_REG_get_CLIB_array_Of_flag_isINSTANTIATED(sysThreadId)->at(0)) {
-			*temp = stat_REG_get_CLIB_array_Of_flag_isINSTANTIATED(sysThreadId)->at(0);
+			stat_CLASS_get_ptr_CLIB_Framework(sysThreadId)->dyn_CLASS_get_ptr_CLIB_ThreadLogs_Framework_App(sysThreadId)->dyn_CLASS_ptr_CLIB_ThreadLogs_Framework_App_Algorithms(sysThreadId)->dyn_APP_FUNCT_CLIB_printConsoleAndLog(sysThreadId, stat_CLASS_get_ptr_CLIB_Framework(sysThreadId), stringForLogPrint);
 		}
 		else {
 			stat_REG_get_CLIB_array_Of_flag_isINSTANTIATED(sysThreadId)->at(1) = !stat_REG_get_CLIB_array_Of_flag_isINSTANTIATED(sysThreadId)->at(0);
 			stat_REG_get_CLIB_array_Of_flag_isINSTANTIATED(sysThreadId);
 		}
-		result = CLIB_ThreadLogs_Framework_Global::stat_CONVERT_CLIB_ThreadsLog_Framework_Global_VUALUEofMsbBool_to_MsbByteArray(sysThreadId, *temp);
-		std::cout << "thread " << std::to_string(*sysThreadId) << " ::  exiting LIB :: CLIB : ThreadLogs : stat_App_FUNCT_CLIB_get_flag_isPGM_INSTANTIATED(sysThreadId)." << std::endl;
-		zinc::MutexQueForThreadsLog::endByUnlock(sysThreadId, CLIB_ThreadLogs_Framework_Global::stat_CONVERT_CLIB_ThreadsLog_Framework_Global_VUALUEofMsbInt_To_MsbByteArray(sysThreadId, stat_CLASS_get_ptr_CLIB_Framework(sysThreadId)->dyn_CLASS_get_ptr_CLIB_ThreadLogs_Framework_App(sysThreadId)->dyn_CLASS_ptr_CLIB_ThreadLogs_Framework_App_Execute(sysThreadId)->dyn_REG_get_HandleId_For_PGM_CLIB_ForThreadsAt_MutexQueForThreadsLog(sysThreadId)), CLIB_ThreadLogs_Framework_Global::stat_CONVERT_CLIB_ThreadsLog_Framework_Global_VUALUEofMsbuint8_t_To_MsbByteArray(sysThreadId, sysThreadId));
-		return result;
+		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: CLIB : ThreadLogs : printl(sysThreadId)." << std::endl;
+		zinc::MutexQueForThreadsLog::endByUnlock(sysThreadId, CLIB_ThreadLogs_Framework_Global::stat_CONVERT_CLIB_ThreadLogs_Framework_Global_VUALUEofMsbInt_To_MsbByteArray(sysThreadId, stat_CLASS_get_ptr_CLIB_Framework(sysThreadId)->dyn_CLASS_get_ptr_CLIB_ThreadLogs_Framework_App(sysThreadId)->dyn_CLASS_ptr_CLIB_ThreadLogs_Framework_App_Execute(sysThreadId)->dyn_REG_get_HandleId_For_PGM_CLIB_ForThreadsAt_MutexQueForThreadsLog(sysThreadId)), CLIB_ThreadLogs_Framework_Global::stat_CONVERT_CLIB_ThreadLogs_Framework_Global_VUALUEofMsbuint8_t_To_MsbByteArray(sysThreadId, sysThreadId));
 	}
-	void zinc::ThreadLogs::printl(uint8_t* sysThreadId, std::string* stringForLogPrint) {
-		zinc::MutexQueForThreadsLog::startByLock(sysThreadId, CLIB_ThreadLogs_Framework_Global::stat_CONVERT_CLIB_ThreadsLog_Framework_Global_VUALUEofMsbInt_To_MsbByteArray(sysThreadId, stat_CLASS_get_ptr_CLIB_Framework(sysThreadId)->dyn_CLASS_get_ptr_CLIB_ThreadLogs_Framework_App(sysThreadId)->dyn_CLASS_ptr_CLIB_ThreadLogs_Framework_App_Execute(sysThreadId)->dyn_REG_get_HandleId_For_PGM_CLIB_ForThreadsAt_MutexQueForThreadsLog(sysThreadId)), CLIB_ThreadLogs_Framework_Global::stat_CONVERT_CLIB_ThreadsLog_Framework_Global_VUALUEofMsbuint8_t_To_MsbByteArray(sysThreadId, sysThreadId));
-		//std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: CLIB : ThreadLogs : stat_APP_FUNCT_CLIB_printConsoleAndLog(sysThreadId)." << std::endl;
+	void zinc::ThreadLogs::reInitialiseProgram(uint8_t* sysThreadId, uint8_t* MAX_NUMBER_OF_THREADS_FOR_ACCESS_ARRAY) {
+		zinc::MutexQueForThreadsLog::startByLock(sysThreadId, CLIB_ThreadLogs_Framework_Global::stat_CONVERT_CLIB_ThreadLogs_Framework_Global_VUALUEofMsbInt_To_MsbByteArray(sysThreadId, stat_CLASS_get_ptr_CLIB_Framework(sysThreadId)->dyn_CLASS_get_ptr_CLIB_ThreadLogs_Framework_App(sysThreadId)->dyn_CLASS_ptr_CLIB_ThreadLogs_Framework_App_Execute(sysThreadId)->dyn_REG_get_HandleId_For_PGM_CLIB_ForThreadsAt_MutexQueForThreadsLog(sysThreadId)), CLIB_ThreadLogs_Framework_Global::stat_CONVERT_CLIB_ThreadLogs_Framework_Global_VUALUEofMsbuint8_t_To_MsbByteArray(sysThreadId, sysThreadId));
+		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: CLIB : ThreadLogs : reInitialiseHandle(sysThreadId)." << std::endl;
 		if (!stat_REG_get_CLIB_array_Of_flag_isINSTANTIATED(sysThreadId)->at(0)) {
-			stat_CLASS_get_ptr_CLIB_Framework(sysThreadId)->dyn_CLASS_get_ptr_CLIB_ThreadLogs_Framework_App(sysThreadId)->dyn_CLASS_ptr_CLIB_ThreadLogs_Framework_App_Algorithms(sysThreadId)->dyn_APP_FUNCT_CLIB_printConsoleAndLog(sysThreadId, stat_CLASS_get_ptr_CLIB_Framework(sysThreadId), stringForLogPrint);
+			stat_CLASS_get_ptr_CLIB_Framework(sysThreadId)->dyn_CLASS_get_CLIB_ThreadLogs_Framework_App(sysThreadId)->dyn_CLASS_ptr_CLIB_ThreadLogs_Framework_App_Execute(sysThreadId)->dyn_PGM_boot3_REINITIALISE_CLIB_ForThreadsAt_MutexQueForThreadsLog(sysThreadId, MAX_NUMBER_OF_THREADS_FOR_ACCESS_ARRAY);
 		}
 		else {
 			stat_REG_get_CLIB_array_Of_flag_isINSTANTIATED(sysThreadId)->at(2) = !stat_REG_get_CLIB_array_Of_flag_isINSTANTIATED(sysThreadId)->at(0);
-			stat_REG_get_CLIB_array_Of_flag_isINSTANTIATED(sysThreadId);
 		}
-		//std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: CLIB : ThreadLogs : stat_APP_FUNCT_CLIB_printConsoleAndLog(sysThreadId)." << std::endl;
-		zinc::MutexQueForThreadsLog::endByUnlock(sysThreadId, CLIB_ThreadLogs_Framework_Global::stat_CONVERT_CLIB_ThreadsLog_Framework_Global_VUALUEofMsbInt_To_MsbByteArray(sysThreadId, stat_CLASS_get_ptr_CLIB_Framework(sysThreadId)->dyn_CLASS_get_ptr_CLIB_ThreadLogs_Framework_App(sysThreadId)->dyn_CLASS_ptr_CLIB_ThreadLogs_Framework_App_Execute(sysThreadId)->dyn_REG_get_HandleId_For_PGM_CLIB_ForThreadsAt_MutexQueForThreadsLog(sysThreadId)), CLIB_ThreadLogs_Framework_Global::stat_CONVERT_CLIB_ThreadsLog_Framework_Global_VUALUEofMsbuint8_t_To_MsbByteArray(sysThreadId, sysThreadId));
+		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: CLIB : ThreadLogs : reInitialiseHandle(sysThreadId)." << std::endl;
+		zinc::MutexQueForThreadsLog::endByUnlock(sysThreadId, CLIB_ThreadLogs_Framework_Global::stat_CONVERT_CLIB_ThreadLogs_Framework_Global_VUALUEofMsbInt_To_MsbByteArray(sysThreadId, stat_CLASS_get_ptr_CLIB_Framework(sysThreadId)->dyn_CLASS_get_ptr_CLIB_ThreadLogs_Framework_App(sysThreadId)->dyn_CLASS_ptr_CLIB_ThreadLogs_Framework_App_Execute(sysThreadId)->dyn_REG_get_HandleId_For_PGM_CLIB_ForThreadsAt_MutexQueForThreadsLog(sysThreadId)), CLIB_ThreadLogs_Framework_Global::stat_CONVERT_CLIB_ThreadLogs_Framework_Global_VUALUEofMsbuint8_t_To_MsbByteArray(sysThreadId, sysThreadId));
 	}
-	void zinc::ThreadLogs::reInitialiseHandle(uint8_t* sysThreadId, unsigned char* MAX_NUMBER_OF_THREADS_FOR_ACCESS_ARRAY) {
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: CLIB : ThreadLogs : reInitialiseHandle(sysThreadId)." << std::endl;
-		zinc::MutexQueForThreadsLog::startByLock(sysThreadId, CLIB_MutexQueForThreadsLog_Framework_Global::stat_CONVERT_CLIB_MutexQueForThreadsLog_Framework_Global_VUALUEofMsbInt_To_MsbByteArray(sysThreadId, stat_CLASS_get_ptr_CLIB_Framework(sysThreadId)->dyn_CLASS_get_ptr_CLIB_ThreadLogs_Framework_App(sysThreadId)->dyn_CLASS_ptr_CLIB_ThreadLogs_Framework_App_Execute(sysThreadId)->dyn_REG_get_HandleId_For_PGM_CLIB_ForThreadsAt_MutexQueForThreadsLog(sysThreadId)), MAX_NUMBER_OF_THREADS_FOR_ACCESS_ARRAY);
+	void zinc::ThreadLogs::terminateProgram(uint8_t* sysThreadId) {
+		zinc::MutexQueForThreadsLog::startByLock(sysThreadId, CLIB_ThreadLogs_Framework_Global::stat_CONVERT_CLIB_ThreadLogs_Framework_Global_VUALUEofMsbInt_To_MsbByteArray(sysThreadId, stat_CLASS_get_ptr_CLIB_Framework(sysThreadId)->dyn_CLASS_get_ptr_CLIB_ThreadLogs_Framework_App(sysThreadId)->dyn_CLASS_ptr_CLIB_ThreadLogs_Framework_App_Execute(sysThreadId)->dyn_REG_get_HandleId_For_PGM_CLIB_ForThreadsAt_MutexQueForThreadsLog(sysThreadId)), CLIB_ThreadLogs_Framework_Global::stat_CONVERT_CLIB_ThreadLogs_Framework_Global_VUALUEofMsbuint8_t_To_MsbByteArray(sysThreadId, sysThreadId));
+		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: CLIB : ThreadLogs : stat_App_FUNCT_CLIB_terminate_Program(sysThreadId)." << std::endl;
 		if (!stat_REG_get_CLIB_array_Of_flag_isINSTANTIATED(sysThreadId)->at(0)) {
-			//todo
+			delete stat_REG_PGM_CLIB_Framework;
+			delete stat_REG_flag_CLIB_isMemberFunctionINSTANTIATED;
 		}
 		else {
 			stat_REG_get_CLIB_array_Of_flag_isINSTANTIATED(sysThreadId)->at(3) = !stat_REG_get_CLIB_array_Of_flag_isINSTANTIATED(sysThreadId)->at(0);
 		}
-		zinc::MutexQueForThreadsLog::endByUnlock(sysThreadId, CLIB_MutexQueForThreadsLog_Framework_Global::stat_CONVERT_CLIB_MutexQueForThreadsLog_Framework_Global_VUALUEofMsbInt_To_MsbByteArray(sysThreadId, stat_CLASS_get_ptr_CLIB_Framework(sysThreadId)->dyn_CLASS_get_ptr_CLIB_ThreadLogs_Framework_App(sysThreadId)->dyn_CLASS_ptr_CLIB_ThreadLogs_Framework_App_Execute(sysThreadId)->dyn_REG_get_HandleId_For_PGM_CLIB_ForThreadsAt_MutexQueForThreadsLog(sysThreadId)), MAX_NUMBER_OF_THREADS_FOR_ACCESS_ARRAY);
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: CLIB : ThreadLogs : reInitialiseHandle(sysThreadId)." << std::endl;
-	}
-	void zinc::ThreadLogs::terminateProgram(uint8_t* sysThreadId) {
-		zinc::MutexQueForThreadsLog::startByLock(sysThreadId, CLIB_ThreadLogs_Framework_Global::stat_CONVERT_CLIB_ThreadsLog_Framework_Global_VUALUEofMsbInt_To_MsbByteArray(sysThreadId, stat_CLASS_get_ptr_CLIB_Framework(sysThreadId)->dyn_CLASS_get_ptr_CLIB_ThreadLogs_Framework_App(sysThreadId)->dyn_CLASS_ptr_CLIB_ThreadLogs_Framework_App_Execute(sysThreadId)->dyn_REG_get_HandleId_For_PGM_CLIB_ForThreadsAt_MutexQueForThreadsLog(sysThreadId)), CLIB_ThreadLogs_Framework_Global::stat_CONVERT_CLIB_ThreadsLog_Framework_Global_VUALUEofMsbuint8_t_To_MsbByteArray(sysThreadId, sysThreadId));
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: CLIB : ThreadLogs : stat_App_FUNCT_CLIB_terminate_Program(sysThreadId)." << std::endl;
-		if (!stat_REG_get_CLIB_array_Of_flag_isINSTANTIATED(sysThreadId)->at(0)) {
-			delete stat_REG_CLIB_Framework;
-			delete stat_REG_flag_CLIB_isMemberFunctionINSTANTIATED;
-		}
-		else {
-			stat_REG_get_CLIB_array_Of_flag_isINSTANTIATED(sysThreadId)->at(4) = !stat_REG_get_CLIB_array_Of_flag_isINSTANTIATED(sysThreadId)->at(0);
-		}
-		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: CLIB : ThreadLogs : stat_App_FUNCT_CLIB_terminate_Program(sysThreadId)." << std::endl;
-		zinc::MutexQueForThreadsLog::endByUnlock(sysThreadId, CLIB_ThreadLogs_Framework_Global::stat_CONVERT_CLIB_ThreadsLog_Framework_Global_VUALUEofMsbInt_To_MsbByteArray(sysThreadId, stat_CLASS_get_ptr_CLIB_Framework(sysThreadId)->dyn_CLASS_get_ptr_CLIB_ThreadLogs_Framework_App(sysThreadId)->dyn_CLASS_ptr_CLIB_ThreadLogs_Framework_App_Execute(sysThreadId)->dyn_REG_get_HandleId_For_PGM_CLIB_ForThreadsAt_MutexQueForThreadsLog(sysThreadId)), CLIB_ThreadLogs_Framework_Global::stat_CONVERT_CLIB_ThreadsLog_Framework_Global_VUALUEofMsbuint8_t_To_MsbByteArray(sysThreadId, sysThreadId));
+		zinc::MutexQueForThreadsLog::endByUnlock(sysThreadId, CLIB_ThreadLogs_Framework_Global::stat_CONVERT_CLIB_ThreadLogs_Framework_Global_VUALUEofMsbInt_To_MsbByteArray(sysThreadId, stat_CLASS_get_ptr_CLIB_Framework(sysThreadId)->dyn_CLASS_get_ptr_CLIB_ThreadLogs_Framework_App(sysThreadId)->dyn_CLASS_ptr_CLIB_ThreadLogs_Framework_App_Execute(sysThreadId)->dyn_REG_get_HandleId_For_PGM_CLIB_ForThreadsAt_MutexQueForThreadsLog(sysThreadId)), CLIB_ThreadLogs_Framework_Global::stat_CONVERT_CLIB_ThreadLogs_Framework_Global_VUALUEofMsbuint8_t_To_MsbByteArray(sysThreadId, sysThreadId));
 	}
 // private.
 	void zinc::ThreadLogs::stat_APP_FUNCT_CLIB_Calc_IsAllINSTANTIATED(uint8_t* sysThreadId) {
@@ -128,17 +109,18 @@
 	}
 	void zinc::ThreadLogs::stat_CLASS_boot1_DEFINE_CLIB_Framework(uint8_t* sysThreadId) {
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: CLIB : ThreadLogs : stat_CLASS_boot1_DEFINE_CLIB_Framework(sysThreadId)." << std::endl;
-		stat_REG_CLIB_Framework = nullptr;
+		stat_REG_PGM_CLIB_Framework = nullptr;
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: CLIB : ThreadLogs : stat_CLASS_boot1_DEFINE_CLIB_Framework(sysThreadId)." << std::endl;
 	}
 	void zinc::ThreadLogs::stat_CLASS_boot3_INITIALISE_CLIB_Framework(uint8_t* sysThreadId) {
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: CLIB : ThreadLogs : stat_CLASS_boot3_INITIALISE_CLIB_Framework(sysThreadId)." << std::endl;
-		stat_REG_CLIB_Framework = new class zinc::CLIB_ThreadLogs_Framework(sysThreadId);
+		stat_REG_PGM_CLIB_Framework = new class zinc::CLIB_ThreadLogs_Framework(sysThreadId);
 		while (stat_CLASS_get_ptr_CLIB_Framework(sysThreadId) == nullptr) {}
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: CLIB : ThreadLogs : stat_CLASS_boot3_INITIALISE_CLIB_Framework(sysThreadId)." << std::endl;
 	}
 	class zinc::CLIB_ThreadLogs_Framework* zinc::ThreadLogs::stat_CLASS_get_ptr_CLIB_Framework(uint8_t* sysThreadId) {
-		return stat_REG_CLIB_Framework;
+		std::cout << "thread " << std::to_string(*sysThreadId) << " :: <= class* : stat_CLASS_get_ptr_CLIB_Framework(uint8_t* sysThreadId) = " << std::endl;
+		return stat_REG_PGM_CLIB_Framework;
 	}
 	void zinc::ThreadLogs::stat_REG_boot1_DEFINE_CLIB_array_Of_flag_isINSTANTIATED(uint8_t* sysThreadId) {
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: CLIB : ThreadLogs : stat_REG_boot1_DEFINE_CLIB_array_Of_flag_isINSTANTIATED(sysThreadId)." << std::endl;
@@ -147,7 +129,7 @@
 	}
 	void zinc::ThreadLogs::stat_REG_boot2_SUBSTANTIATE_CLIB_array_Of_flag_isINSTANTIATED(uint8_t* sysThreadId) {
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: CLIB : ThreadLogs : stat_REG_boot2_SUBSTANTIATE_CLIB_array_Of_flag_isINSTANTIATED(sysThreadId)." << std::endl;
-		stat_REG_flag_CLIB_isMemberFunctionINSTANTIATED = new std::array<bool, 5>();//todo number of function checks and summed or of.
+		stat_REG_flag_CLIB_isMemberFunctionINSTANTIATED = new std::array<bool, 4>();//todo number of function checks and summed or of.
 		while (stat_REG_get_CLIB_array_Of_flag_isINSTANTIATED(sysThreadId) == nullptr) {}
 		for (uint8_t index = 0; index < static_cast<uint8_t>(stat_REG_get_CLIB_array_Of_flag_isINSTANTIATED(sysThreadId)->size()); index++)	{
 			stat_REG_get_CLIB_array_Of_flag_isINSTANTIATED(sysThreadId)->at(index) = true;
@@ -161,7 +143,7 @@
 		}
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: CLIB : ThreadLogs : stat_REG_boot3_INITIALISE_CLIB_array_Of_flag_isINSTANTIATED(sysThreadId)." << std::endl;
 	}
-	std::array<bool, 5>*  zinc::ThreadLogs::stat_REG_get_CLIB_array_Of_flag_isINSTANTIATED(uint8_t* sysThreadId) {
+	std::array<bool, 4>*  zinc::ThreadLogs::stat_REG_get_CLIB_array_Of_flag_isINSTANTIATED(uint8_t* sysThreadId) {
 		std::cout << "thread " << std::to_string(*sysThreadId) << " :: <= std::array<bool, 4>* : stat_REG_get_CLIB_array_Of_flag_isINSTANTIATED(uint8_t* sysThreadId) = " << std::endl;
 		return stat_REG_flag_CLIB_isMemberFunctionINSTANTIATED;
 	}
