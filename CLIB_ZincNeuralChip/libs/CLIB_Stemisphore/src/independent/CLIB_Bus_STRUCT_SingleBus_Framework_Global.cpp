@@ -1,5 +1,5 @@
 #include "../../include/independent/CLIB_Bus_STRUCT_SingleBus_Framework_Global.h"
-#include "../../../Control/libs/CLIB_ThreadsLog/io/include/CLIB_ThreadLogs.h"
+#include "../../../CLIB_ThreadsLog/io/include/CLIB_ThreadLogs.h"
 #include <cfloat>
 #include <climits>
 #include <cstdint>

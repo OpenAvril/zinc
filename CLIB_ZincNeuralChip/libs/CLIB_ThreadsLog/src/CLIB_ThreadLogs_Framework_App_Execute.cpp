@@ -1,9 +1,7 @@
 #include "../include/CLIB_ThreadLogs_Framework_App_Execute.h"
-
-#include <climits>
-
-#include "../../libs/CLIB_MutexQueForThreadsLog/io/include/CLIB_MutexQueForThreadsLog.h"
+#include "../libs/CLIB_MutexQueForThreadsLog/io/include/CLIB_MutexQueForThreadsLog.h"
 #include "../include/CLIB_ThreadLogs_Framework_Global.h"
+#include <climits>
 #include <fstream>
 #include <iostream>
     std::ofstream zinc::CLIB_ThreadLogs_Framework_App_Execute::stat_REG_CLIB_Framework_App_Execute_FILE_For_Log;

@@ -9,7 +9,7 @@ extern "C" {
         class ThreadLogs {
             public:
             static void generateProgram(uint8_t* sysThreadId);
-            static void printl(uint8_t* sysThreadId, uint8_t* ACCESS_ID, std::string* stringForLogPrint);
+            static void printl(uint8_t* sysThreadId, std::string* stringForLogPrint);
             static void reInitialiseProgram(uint8_t* sysThreadId, uint8_t* MAX_NUMBER_OF_THREADS_FOR_ACCESS_ARRAY);
             static void terminateProgram(uint8_t* sysThreadId);
         private:

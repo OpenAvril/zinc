@@ -1,7 +1,7 @@
 #include "../../include/independent/CLIB_Bus_STRUCT_SingleBus_Framework.h"
 #include "../../include/independent/CLIB_Bus_STRUCT_SingleBus_Framework_App.h"
 #include "../../include/independent/CLIB_Bus_STRUCT_SingleBus_Framework_Global.h"
-#include "../../../Control/libs/CLIB_ThreadsLog/io/include/CLIB_ThreadLogs.h"
+#include "../../../CLIB_ThreadsLog/io/include/CLIB_ThreadLogs.h"
 #include <iostream>
 	zinc::CLIB_Bus_STRUCT_SingleBus_Framework_App* zinc::CLIB_Bus_STRUCT_SingleBus_Framework::stat_CLASS_ptr_CLIB_Bus_STRUCT_SingleBus_Framework_App;
 	zinc::CLIB_Bus_STRUCT_SingleBus_Framework_Global* zinc::CLIB_Bus_STRUCT_SingleBus_Framework::stat_CLASS_ptr_CLIB_Bus_STRUCT_SingleBus_Framework_Global;

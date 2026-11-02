@@ -1,5 +1,5 @@
 #include "../include/CLIB_SystemBus_Framework_App.h"
-#include "../../Control/libs/CLIB_ThreadsLog/io/include/CLIB_ThreadLogs.h"
+#include "../../CLIB_ThreadsLog/io/include/CLIB_ThreadLogs.h"
 #include <iostream>
 	zinc::CLIB_SystemBus_Framework_App_Execute* zinc::CLIB_SystemBus_Framework_App::stat_CLASS_ptr_CLIB_SystemBus_Framework_App_Execute;
 // public.

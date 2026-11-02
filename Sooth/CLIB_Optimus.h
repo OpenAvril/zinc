@@ -1,15 +1,15 @@
-#ifndef CLIB_CLIB_PACKAGE_OPTIMUSPRIME_H
-#define CLIB_CLIB_PACKAGE_OPTIMUSPRIME_H
+#ifndef CLIB_CLIB_PACKAGE_SoothCutePRIME_H
+#define CLIB_CLIB_PACKAGE_SoothCutePRIME_H
 #include <array>
 #include <cstdint>
 extern "C" {
     namespace zinc {
-        class Optimus {
+        class SoothCute {
         public:
             static void prime(uint8_t* sysThreadId);
         private:
-            static void zinc_Optimus_App_FUNCT_prime(uint8_t* sysThreadId);
-            static std::array<bool, 1> zinc_Optimus_stat_REG_get_array_of_isMemberFunctionINSTANTIATED(uint8_t* sysThreadId);
+            static void zinc_SoothCute_App_FUNCT_prime(uint8_t* sysThreadId);
+            static std::array<bool, 1> zinc_SoothCute_stat_REG_get_array_of_isMemberFunctionINSTANTIATED(uint8_t* sysThreadId);
             static class Object* msbByteArray_To_ObjDATA(uint8_t* sysThreadId, unsigned char* byteArray_DATA);
             static bool msbByteArray_To_valueOfmsbBool(uint8_t* sysThreadId, unsigned char* bytes_Array);
             static int* msbByteArray_To_valueOfmsbInt(uint8_t* sysThreadId, unsigned char* bytes_Array);

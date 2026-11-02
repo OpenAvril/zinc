@@ -11,5 +11,5 @@ add_executable(TESTBENCH main.cpp
         src/CLIB_Framework_Execute.cpp
 )
 
-target_link_libraries(TESTBENCH PRIVATE zinc_control_sys_threads_log)
-target_link_libraries(TESTBENCH PRIVATE OptimusPrime)
+target_link_libraries(TESTBENCH PRIVATE zinc_sys_threads_log)
+target_link_libraries(TESTBENCH PRIVATE SoothCute)

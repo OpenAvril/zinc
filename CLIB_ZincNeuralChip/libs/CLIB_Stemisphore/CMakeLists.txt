@@ -6,15 +6,15 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_library(${PROJECT_NAME} STATIC
         io/src/CLIB_SystemBus.cpp
-        ../Control/libs/CLIB_MutexQue/src/CLIB_MutexQue_Framework.cpp
-        ../Control/libs/CLIB_MutexQue/src/CLIB_MutexQue_Framework_Global.cpp
-        ../Control/libs/CLIB_MutexQue/src/CLIB_MutexQue_Framework_App.cpp
-        ../Control/libs/CLIB_MutexQue/src/CLIB_MutexQue_Framework_App_Control.cpp
-        ../Control/libs/CLIB_ThreadsLog/src/CLIB_ThreadLogs_Framework.cpp
-        ../Control/libs/CLIB_ThreadsLog/src/CLIB_ThreadLogs_Framework_Global.cpp
-        ../Control/libs/CLIB_ThreadsLog/src/CLIB_ThreadLogs_Framework_App.cpp
-        ../Control/libs/CLIB_ThreadsLog/src/CLIB_ThreadLogs_Framework_App_Algorithms.cpp
-        ../Control/libs/CLIB_ThreadsLog/src/CLIB_ThreadLogs_Framework_App_Execute.cpp
+        ../CLIB_MutexQue/src/CLIB_MutexQue_Framework.cpp
+        ../CLIB_MutexQue/src/CLIB_MutexQue_Framework_Global.cpp
+        ../CLIB_MutexQue/src/CLIB_MutexQue_Framework_App.cpp
+        ../CLIB_MutexQue/src/CLIB_MutexQue_Framework_App_Control.cpp
+        ../CLIB_ThreadsLog/src/CLIB_ThreadLogs_Framework.cpp
+        ../CLIB_ThreadsLog/src/CLIB_ThreadLogs_Framework_Global.cpp
+        ../CLIB_ThreadsLog/src/CLIB_ThreadLogs_Framework_App.cpp
+        ../CLIB_ThreadsLog/src/CLIB_ThreadLogs_Framework_App_Algorithms.cpp
+        ../CLIB_ThreadsLog/src/CLIB_ThreadLogs_Framework_App_Execute.cpp
         src/independent/CLIB_Bus_STRUCT_SingleBus.cpp
         src/independent/CLIB_Bus_STRUCT_SingleBus_Framework.cpp
         src/independent/CLIB_Bus_STRUCT_SingleBus_Framework_Global.cpp
@@ -31,8 +31,8 @@ add_library(${PROJECT_NAME} STATIC
 
 target_include_directories(${PROJECT_NAME}  PUBLIC
         "../CLIB_MutexQue/include/independent"
-        "../../../Control/libs/CLIB_MutexQue/include"
-        "../../../Control/libs/CLIB_ThreadsLog/include"
+        "../../../CLIB_MutexQue/include"
+        "../../../CLIB_ThreadsLog/include"
 )
 
 target_link_libraries(${PROJECT_NAME}  PUBLIC

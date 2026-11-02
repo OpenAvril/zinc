@@ -1,6 +1,6 @@
 #include "../../include/engine/CLIB_LeftHemishpore_Framework_App_Execute.h"
-#include "../../../Control/libs/CLIB_MutexQue/io/include/CLIB_MutexQue.h"
-#include "../../../Control/libs/CLIB_LaunchQue/io/include/CLIB_LaunchQue.h"
+#include "../../../CLIB_MutexQue/io/include/CLIB_MutexQue.h"
+#include "../../../CLIB_LaunchQue/io/include/CLIB_LaunchQue.h"
 #include "../../include/engine/CLIB_LeftHemishpore_Framework_App_Execute_Control.h"
 #include "../../include/engine/CLIB_LeftHemishpore_Framework_Global.h"
 #include <cstdint>
