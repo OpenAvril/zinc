@@ -41,7 +41,7 @@
 		auto MAX_NUMBER_OF_THREADS_FOR_ACCESS = new uint8_t();
 		*MAX_NUMBER_OF_THREADS_FOR_ACCESS = static_cast<uint8_t>(255);
 		
-		auto string = new std::string("");
+		auto string = new std::string(" ");
 		
 		auto byte_bool = new unsigned char();
 		byte_bool = valueofMsbBool_to_MsbByteArray(sysThreadId,true);

@@ -27,9 +27,9 @@ int main() {
     std::cout << "thread " << std::to_string(*sysThreadId) << " :: starting : Optimus : prime." << std::endl;
     zinc::Optimus::prime(sysThreadId);
     zinc::Optimus::prime(sysThreadId);
-    zinc::ThreadLogs::reInitialiseProgram(sysThreadId, new uint8_t(6));
     std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting : Optimus : prime." << std::endl;
-    zinc::ThreadLogs::printl(sysThreadId, new uint8_t(6), new std::string("test"));
+    zinc::ThreadLogs::reInitialiseProgram(sysThreadId, new uint8_t(6));
+    zinc::ThreadLogs::printl(sysThreadId, new uint8_t(5), new std::string("test"));
 
     //todo /\ /\ /\
     std::cout << "thread " << std::to_string(*sysThreadId) << " :: Main : End!." << std::endl;
