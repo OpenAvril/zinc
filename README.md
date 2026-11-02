@@ -1,9 +1,15 @@
-# Silicon Life Open Source Package:
-OpenAvril / slif, now named **zinc** as part of Grittith University - Nathan Open Source comtrubitation to MIT packages, is an open-source development project hosted on GitHub under the Silicon Lifecosystem.
+# Zinc Insulate Neural Chip Open Source Package:
+## OpenAvril / zinc, previously named slif:
+Is planned to become a part of as part of Grittith University - Nathan Open Source comtrubitation to MIT packages for my master thesis project, is an open-source development project hosted on GitHub under the Silicon Lifecosystem.
+
+## CONCURRENT Systems: 
+Wi-Fi dual bandwidth each railed to an Interrupt Request Stack array, reading the bandwidth array, writing to the Bus loader for rail. Super computer injection and extraction on independent threads for task algorithms via concurrent I and O. Building concurrent rail systems as RTCOS (Real-Time-Concurrent-Operationg-System). 
+
+Wi-Fi 2.5 Input 64 pins, Wi-Fi 2.5 Output 64 pins, Wi-Fi 5 Input 64 pins, Wi-Fi 5 Output 64 pins.
 
 The repository is officially marked as "UNDER DEVELOPMENT" and serves as a collection of full-stack concurrent programming packages.
 
-Key Focus Areas & Features
+## Key Focus Areas & Features
 The project contains architectural implementations centered heavily around high-concurrency, systems-level logic, and early-stage artificial intelligence:
 - Concurrent Programming Tools: Implementations for full-stack concurrent pipelines, including custom mutex locks, mutex synchronization, and concurrent queues.
 - Silicon Life Concepts: Targeted frameworks designed for "Silicon Life" computing architectures.
@@ -18,7 +24,7 @@ A master by coursework with five specialisation electives, I propose Convener of
 
 ---
 ---
-* MutexQue:
+# MutexQue:
   
 Exclusive Cohesion Mutex Queue:   
 
@@ -27,7 +33,14 @@ CLIB Request, Wait, Write-Read for 'ThreadId' at 'DataCluster'.
 **Double standard Mutex combined Input/Output efficiency.**
 
 ---
-* LaunchQue:
+# ThreadsLog:
+
+Neural Chip Thread Logging:
+
+CLIB Console output via MutexQue, DataCluster is 'Console'.
+
+---
+# LaunchQue:
 
 Left Hemisphore Task Launcher:
 
@@ -40,14 +53,7 @@ ex: Core task chunker.
 ex: Graphics post process.
 
 ---
-* ThreadsLog:
-  
-Neural Chip Thread Logging:
-     
-CLIB Console output via MutexQue, DataCluster is 'Console'.
-
----
-* Stemisphore:
+# Concurrent System Bussing - Stemisphore:
   
 System Bussing for Zinc Neural Hemisphoric Chip:  
 
@@ -58,7 +64,7 @@ Open Concurrent SCADA.
 **Triple MutexQue into a set/get data buffer of bus for route of paired junctions.**
 
 ---
-* LeftHemisphore:
+# Epicentre - LeftHemisphore:
   
 Left Hemisphore Logic Task Result Deducer:      
 
@@ -71,6 +77,7 @@ CLIB Concurrent Server with independent task threads and IO wrapper.
 
 ---
 ---
+# DRAFTING.
 ## zinc - Zinc Insulate Neural Chip.
   - 3x Zones: Id, Ego, SuperEgo.
   - 2x Hemisphores; Left, Right. per Zone, and 'x' number of Junctions to all parts of the Hemisphore.
@@ -110,44 +117,42 @@ slif_epicentre INJECTION paths:
 
 ---
 ### slif_control.
-- Optimus: Package INSTANTIATION Primer.
+#### slif::ThreadsLog : Threads Log.
+ThreadsLog: CLIB Console output via Dynamic Custom MutexQue, DataCluster is 'Console'.
 
 #### slif::MutexQue : Exclusive Cohesion Mutex Queue.
-* MutexQue: CLIB Request, Wait, Write-Read for 'ThreadId' at 'DataCluster'.
-
-#### slif::ThreadsLog : Threads Log.
-* ThreadsLog: CLIB Console output via MutexQue, DataCluster is 'Console'.
+MutexQue: CLIB Request, Wait, Write-Read for 'ThreadId' at 'DataCluster'.
 
 #### slif::LaunchQue : Concurrent Launch Queue.
-* LaunchQue: CIB Request, Wait, Launch for : ('ConcurrentThreadId') deployed at Server or Client.
+LaunchQue: CIB Request, Wait, Launch for : ('ConcurrentThreadId') deployed at Server or Client.
 
 ---
 ### slif::Stemisphore : System Bussing for Zinc Neural Hemisphoric Chip:.
-* MainStreamBussing: CLIB Compound of ExclusiveCohesionMutexQueue(s). An array of a single Bus with route array of Stations. A single Bus deploying an ExclusiveCohesionMutexQueue('AccessId_A=StationId','DataClusterId_A=BusId'), and each Station deploying an ExclusiveCohesionMutexQueue('AccessId_B','DataClusterId_B=StationId').
+MainStreamBussing: CLIB Compound of ExclusiveCohesionMutexQueue(s). An array of a single Bus with route array of Stations. A single Bus deploying an ExclusiveCohesionMutexQueue('AccessId_A=StationId','DataClusterId_A=BusId'), and each Station deploying an ExclusiveCohesionMutexQueue('AccessId_B','DataClusterId_B=StationId').
 
 ---
 ### slif::epicentre : Left Hemisphore.
-* Left Hemisphore Logic Task Result Deducer: CLIB Concurrent Server with independent task threads and IO wrapper.
+Left Hemisphore Logic Task Result Deducer: CLIB Concurrent Server with independent task threads and IO wrapper.
 
 ---
-### slif::intuition : Right Hemisphore.
-* Right Hemisphore Intuition antenna array.
+* slif::intuition : Right Hemisphore.
+Right Hemisphore Intuition antenna array.
 
 
 ---
 ---
-## Using.
-### LINUX Ubuntu.
+# Using.
+## LINUX Ubuntu.
 **version:** Ubuntu 24.04.4 LTS.
 
-### CLion.
+## CLion.
 **Version:** 2026.1.2.
 
 ---
-### Dependencies.
+## Dependencies.
 - [Open Source suite install script for Silicon Life Engineering.](https://github.com/MEngSc-Electrical-ComputerSystems/Linux_bash_scripts/blob/main/freshinstall.sh)
 
-#### Ubuntu Terminal.
+### Ubuntu Terminal.
 ````
 sudo apt install git
 ````
@@ -168,19 +173,18 @@ sudo apt install snapd
 sudo snap install clion --classic
 ````
 
-#### CLion plugins.
+### CLion plugins.
 - Native Build Tools.
 - Cmake.
 - CLion C and C++.
 
 
-#### CLion: Clone from GuitHub.
+### CLion: Clone from GuitHub.
  - File - > New -> Project from Version Control.
  - URL : user entry https://github.com/OpenAvril/zinc
 
    ---
-## Building - Compiler Terminal Commands.
-### CLIB_LaunchEnableForConcurrentThreadsAt_END.so
+# Building - Compiler Terminal Commands.
 
 *** Load Root CMake Project ***
 
@@ -194,9 +198,9 @@ cmake --build build
 *** run TESTBENCH ***
 
 ---
-## Implementation.
-### How To Guide - Stack Flow From Client Input Scanner To Server And Back To Client.
+# Implementation.
+## How To Guide - Stack Flow From Client Input Scanner To Server And Back To Client.
 
-### Wrapper Imports and Native IO.
+## Wrapper Imports and Native IO.
 
 ---
