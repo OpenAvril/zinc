@@ -16,16 +16,7 @@ namespace zinc {
         static void stat_CLASS_boot3_INITIALISE_zinc_Framework_Execute(uint8_t* sysThreadId);
         static void stat_REG_boot0_DECLARE_zinc_Framework_Execute(uint8_t* sysThreadId);
     private:
-        static int* stat_REG_HandleId_For_PGM_zincMutexQue;
-        static int* stat_REG_HandleId_For_PGM_zincLaunchQue;
-        static void stat_PGM_boot1_DEFINE_HandleId_For_PGM_zincMutexQue(uint8_t* sysThreadId);
-        static void stat_PGM_boot1_DEFINE_HandleId_For_PGM_zincLaunchQue(uint8_t* sysThreadId);
-        static void stat_PGM_boot2_SUBSTANTIATE_HandleId_For_PGM_zincMutexQue(uint8_t* sysThreadId);
-        static void stat_PGM_boot2_SUBSTANTIATE_HandleId_For_PGM_zincLaunchQue(uint8_t* sysThreadId);
-        static void stat_PGM_boot3_INITIALISE_HandleId_For_PGM_zincMutexQue(uint8_t* sysThreadId);
-        static void stat_PGM_boot3_INITIALISE_HandleId_For_PGM_zincLaunchQue(uint8_t* sysThreadId);
-        static int* stat_PGM_get_array_of_ptrPGM_HandleId_For_PGM_zincMutexQue(uint8_t* sysThreadId);
-        static int* stat_PGM_get_array_of_ptrPGM_HandleId_For_PGM_zincLaunchQue(uint8_t* sysThreadId);
+
     };
 };
 #endif //OPENEPICENTRE_BACKENDSUBUNTU_zinc_Framework_Execute_H

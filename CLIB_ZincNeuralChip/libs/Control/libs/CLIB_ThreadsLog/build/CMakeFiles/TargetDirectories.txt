@@ -1,0 +1,6 @@
+/home/brenton-jmaes/CLionProjects/zinc/CLIB_ZincNeuralChip/libs/Control/libs/CLIB_ThreadsLog/build/CMakeFiles/zinc_control_sys_threads_log.dir
+/home/brenton-jmaes/CLionProjects/zinc/CLIB_ZincNeuralChip/libs/Control/libs/CLIB_ThreadsLog/build/CMakeFiles/edit_cache.dir
+/home/brenton-jmaes/CLionProjects/zinc/CLIB_ZincNeuralChip/libs/Control/libs/CLIB_ThreadsLog/build/CMakeFiles/rebuild_cache.dir
+/home/brenton-jmaes/CLionProjects/zinc/CLIB_ZincNeuralChip/libs/Control/libs/CLIB_ThreadsLog/build/libs/CLIB_MutexQueForThreadsLog/CMakeFiles/zinc_control_sys_threads_log_mutex_que.dir
+/home/brenton-jmaes/CLionProjects/zinc/CLIB_ZincNeuralChip/libs/Control/libs/CLIB_ThreadsLog/build/libs/CLIB_MutexQueForThreadsLog/CMakeFiles/edit_cache.dir
+/home/brenton-jmaes/CLionProjects/zinc/CLIB_ZincNeuralChip/libs/Control/libs/CLIB_ThreadsLog/build/libs/CLIB_MutexQueForThreadsLog/CMakeFiles/rebuild_cache.dir

@@ -1,11 +1,12 @@
 #include "../include/CLIB_ThreadLogs_Framework_App_Execute.h"
 
-#include <fstream>
+#include <climits>
 
 #include "../../libs/CLIB_MutexQueForThreadsLog/io/include/CLIB_MutexQueForThreadsLog.h"
 #include "../include/CLIB_ThreadLogs_Framework_Global.h"
+#include <fstream>
 #include <iostream>
-    std::ofstream* zinc::CLIB_ThreadLogs_Framework_App_Execute::stat_REG_CLIB_Framework_App_Execute_FILE_For_Log;
+    std::ofstream zinc::CLIB_ThreadLogs_Framework_App_Execute::stat_REG_CLIB_Framework_App_Execute_FILE_For_Log;
     int* zinc::CLIB_ThreadLogs_Framework_App_Execute::stat_PGM_CLIB_Framework_App_Execute_ForThreadsAt_MutexQueOfThreadsLog;
 // public.
     zinc::CLIB_ThreadLogs_Framework_App_Execute::CLIB_ThreadLogs_Framework_App_Execute(uint8_t* sysThreadId) {
@@ -17,7 +18,6 @@
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_ThreadLogs_Framework_App_Execute : CLIB_Framework_Execute(sysThreadId)." << std::endl;
     }
     zinc::CLIB_ThreadLogs_Framework_App_Execute::~CLIB_ThreadLogs_Framework_App_Execute() {
-        delete stat_REG_CLIB_Framework_App_Execute_FILE_For_Log;
         delete stat_PGM_CLIB_Framework_App_Execute_ForThreadsAt_MutexQueOfThreadsLog;
     }
     void zinc::CLIB_ThreadLogs_Framework_App_Execute::dyn_REG_boot1_DEFINE_CLIB_Framework_Execute(uint8_t* sysThreadId) {
@@ -40,7 +40,7 @@
     void zinc::CLIB_ThreadLogs_Framework_App_Execute::dyn_PGM_boot4_INSTANTIATE_CLIB_Framework_Execute(uint8_t* sysThreadId) {
         stat_PGM_boot4_INSTANTIATE_CLIB_Framework_Execute(sysThreadId);
     }
-    std::ofstream* zinc::CLIB_ThreadLogs_Framework_App_Execute::dyn_REG_get_CLIB_Framework_App_Execute_FILE_For_Log(uint8_t* sysThreadId) {
+    std::ofstream zinc::CLIB_ThreadLogs_Framework_App_Execute::dyn_REG_get_CLIB_Framework_App_Execute_FILE_For_Log(uint8_t* sysThreadId) {
         return stat_REG_get_CLIB_Framework_App_Execute_FILE_For_Log(sysThreadId);
     }
     int* zinc::CLIB_ThreadLogs_Framework_App_Execute::dyn_REG_get_HandleId_For_PGM_CLIB_ForThreadsAt_MutexQueForThreadsLog(uint8_t* sysThreadId) {
@@ -75,6 +75,19 @@
     void zinc::CLIB_ThreadLogs_Framework_App_Execute::stat_PGM_boot3_INITIALISE_CLIB_Framework_App_Execute_ForThreadsAt_MutexQueOfThreadsLog(uint8_t* sysThreadId) {
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_ThreadLogs_Framework_App_Execute : stat_PGM_boot3_INITIALISE_ForThreadsAt_MutexQueForThreadLogsId(sysThreadId)." << std::endl;
         zinc::MutexQueForThreadsLog::generateProgram(sysThreadId);
+        auto handleId = new unsigned char();
+        handleId = CLIB_ThreadLogs_Framework_Global::stat_CONVERT_CLIB_ThreadsLog_Framework_Global_VUALUEofMsbInt_To_MsbByteArray(sysThreadId,new int(INT_MAX));
+        auto bytes_AccessId = new unsigned char();
+        bytes_AccessId = CLIB_ThreadLogs_Framework_Global::stat_CONVERT_CLIB_ThreadsLog_Framework_Global_VUALUEofMsbuint8_t_To_MsbByteArray(sysThreadId, new uint8_t(255));
+        auto MAX_NUMBER_OF_THREADS_FOR_ACCESS = new uint8_t();
+        *MAX_NUMBER_OF_THREADS_FOR_ACCESS = static_cast<uint8_t>(255);
+		zinc::MutexQueForThreadsLog::endByUnlock(sysThreadId, handleId, bytes_AccessId);
+        int* tempA0 = CLIB_ThreadLogs_Framework_Global::stat_CONVERT_CLIB_ThreadsLog_Framework_Global_MsbByteArray_To_VUALUEofMsbInt(sysThreadId, zinc::MutexQueForThreadsLog::generateHandle(sysThreadId));
+        //zinc::MutexQueForThreadsLog::generateProgram(sysThreadId);
+        unsigned char* tempA1 = zinc::MutexQueForThreadsLog::isINSTANTIATED(sysThreadId);
+        zinc::MutexQueForThreadsLog::reInitialiseHandle(sysThreadId, handleId, MAX_NUMBER_OF_THREADS_FOR_ACCESS);
+        zinc::MutexQueForThreadsLog::startByLock(sysThreadId, handleId, bytes_AccessId);
+        zinc::MutexQueForThreadsLog::terminateProgram(sysThreadId, handleId);
         stat_PGM_CLIB_Framework_App_Execute_ForThreadsAt_MutexQueOfThreadsLog = CLIB_ThreadLogs_Framework_Global::stat_CONVERT_CLIB_ThreadsLog_Framework_Global_MsbByteArray_To_VUALUEofMsbInt(sysThreadId, zinc::MutexQueForThreadsLog::generateHandle(sysThreadId));
           std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_ThreadLogs_Framework_App_Execute : stat_PGM_boot3_INITIALISE_ForThreadsAt_MutexQueForThreadLogsId(sysThreadId)." << std::endl;
     }
@@ -88,13 +101,15 @@
         std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_ThreadLogs_Framework_App_Execute : stat_PGM_boot4_INSTANTIATE_CLIB_Framework_Execute(sysThreadId)." << std::endl;
     }
     void zinc::CLIB_ThreadLogs_Framework_App_Execute::stat_REG_boot1_DEFINE_CLIB_Framework_App_Execute_FILE_For_Log(uint8_t* sysThreadId) {
-        stat_REG_CLIB_Framework_App_Execute_FILE_For_Log = nullptr;
+        std::cout << "thread " << std::to_string(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_ThreadLogs_Framework_App_Execute : stat_REG_boot1_DEFINE_CLIB_Framework_App_Execute_FILE_For_Log(sysThreadId)." << std::endl;
+        stat_REG_CLIB_Framework_App_Execute_FILE_For_Log = std::ofstream(nullptr);
+        std::cout << "thread " << std::to_string(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_ThreadLogs_Framework_App_Execute : stat_REG_boot1_DEFINE_CLIB_Framework_App_Execute_FILE_For_Log(sysThreadId)." << std::endl;
     }
     void zinc::CLIB_ThreadLogs_Framework_App_Execute::stat_REG_boot3_INITIALISE_CLIB_Framework_App_Execute_FILE_For_Log(uint8_t* sysThreadId) {
-        stat_REG_CLIB_Framework_App_Execute_FILE_For_Log = new std::ofstream("/logs/system_threads_log.txt");
+        stat_REG_CLIB_Framework_App_Execute_FILE_For_Log = std::ofstream("${CMAKE_CURRENT_SOURCE_DIR}/__system_threads_log/system_threads_log.txt");
     }
-    std::ofstream* zinc::CLIB_ThreadLogs_Framework_App_Execute::stat_REG_get_CLIB_Framework_App_Execute_FILE_For_Log(uint8_t* sysThreadId) {
-        return stat_REG_CLIB_Framework_App_Execute_FILE_For_Log;
+    std::ofstream zinc::CLIB_ThreadLogs_Framework_App_Execute::stat_REG_get_CLIB_Framework_App_Execute_FILE_For_Log(uint8_t* sysThreadId) {
+        return std::move(stat_REG_CLIB_Framework_App_Execute_FILE_For_Log);
     }
     int* zinc::CLIB_ThreadLogs_Framework_App_Execute::stat_REG_get_PGM_CLIB_ForThreadsAt_MutexQueForThreadsLog(uint8_t* sysThreadId) {
         //std::cout << "thread " << std::to_string(*sysThreadId) << " :: <= PGM : stat_PGM_get_ptr_ForThreadsAt__ThreadLogsId(sysThreadId)." << std::endl;

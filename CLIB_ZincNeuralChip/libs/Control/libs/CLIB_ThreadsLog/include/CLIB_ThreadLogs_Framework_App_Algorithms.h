@@ -18,8 +18,8 @@ namespace zinc {
         static void stat_CLASS_boot3_INITIALISE_CLIB_ThreadLogs_Framework_App_Algorithms(uint8_t* sysThreadId);
         static void stat_REG_boot0_DECLAIRE_CLIB_ThreadLogs_Framework_App_Algorithms(uint8_t* sysThreadId);
     private:
-        void stat_APP_FUNCT_CLIB_printConsoleAndLog(uint8_t* sysThreadId, std::ofstream* objOUTPUT_FILE, std::string* message);
-        void stat_APP_FUNCT_CLIB_printLog(uint8_t* sysThreadId, std::ofstream* objOUTPUT_FILE, std::string* message);
+        void stat_APP_FUNCT_CLIB_printConsoleAndLog(uint8_t* sysThreadId, std::ofstream objOUTPUT_FILE, std::string* message);
+        void stat_APP_FUNCT_CLIB_printLog(uint8_t* sysThreadId, std::ofstream objOUTPUT_FILE, std::string* message);
     };
 }
 #endif
