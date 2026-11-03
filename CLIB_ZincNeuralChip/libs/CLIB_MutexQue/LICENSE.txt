@@ -1,7 +1,7 @@
 MIT License
 
-Copyright (c) 2004-2026, CLIB Write Que For Threads At Register Sets. SWINBURNE
-University of Technology - Peter O'Donoghue and King Brenton James Maddocks 
+Copyright (c) 2004-2026, Dynamic Concurrent Mutex Queue. SWINBURNE University of
+Technology - Mr Peter O'Donoghue MEng(CompSys), and King Brenton James Maddocks
 Crown of Queensland BEng(CompSys).
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
