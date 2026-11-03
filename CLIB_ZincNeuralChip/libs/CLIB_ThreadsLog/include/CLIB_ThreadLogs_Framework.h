@@ -2,36 +2,36 @@
 #define CLIB_THEADLOGS_CLIB_FRAMEWORK_H
 #include "CLIB_ThreadLogs_Framework_App.h"
 #include "CLIB_ThreadLogs_Framework_Global.h"
-#include <cstdint>
+#include <cstddef>
 namespace zinc {
     class CLIB_ThreadLogs_Framework {
     public:
-        CLIB_ThreadLogs_Framework(uint8_t* sysThreadId);
+        CLIB_ThreadLogs_Framework(std::byte* sysThreadId);
         virtual ~CLIB_ThreadLogs_Framework();
-        void dyn_CLASS_create_CLIB_ThreadLogs_Framework_Architecture(uint8_t* sysThreadId);
-        void dyn_CLASS_create_CLIB_ThreadLogs_Framework_Global_and_Settings(uint8_t* sysThreadId);
-        class CLIB_ThreadLogs_Framework_App* dyn_CLASS_get_CLIB_ThreadLogs_Framework_App(uint8_t* sysThreadId);
-        class CLIB_ThreadLogs_Framework_Global*dyn_CLASS_get_CLIB_ThreadLogs_Framework_Global(uint8_t* sysThreadId);
-        void dyn_APP_CLIB_ThreadLogs_Framework_STRUCT_boot1_DEFINE(uint8_t* sysThreadId);
-        void dyn_APP_CLIB_ThreadLogs_Framework_STRUCT_boot3_INITIALISE(uint8_t* sysThreadId);
-        class CLIB_ThreadLogs_Framework_App* dyn_CLASS_get_ptr_CLIB_ThreadLogs_Framework_App(uint8_t* sysThreadId);
-        class CLIB_ThreadLogs_Framework_Global* dyn_CLASS_get_ptr_CLIB_ThreadLogs_Framework_Global(uint8_t* sysThreadId);
-        void dyn_REG_boot1_DEFINE_CLIB_ThreadLogs_Framework(uint8_t* sysThreadId);
-        void dyn_REG_boot2_SUBSTANTIATE_CLIB_ThreadLogs_Framework(uint8_t* sysThreadId);
-        void dyn_REG_boot3_INITIALISE_CLIB_ThreadLogs_Framework(uint8_t* sysThreadId);
-        static void stat_CLASS_boot0_DECLAIRE_CLIB_ThreadLogs_Framework(uint8_t* sysThreadId);
-        static void stat_CLASS_boot1_DEFINE_CLIB_ThreadLogs_Framework(uint8_t* sysThreadId);
-        static void stat_CLASS_boot3_INITIALISE_CLIB_ThreadLogs_Framework(uint8_t* sysThreadId);
-        static void stat_REG_boot0_DECLAIRE_CLIB_ThreadLogs_Framework(uint8_t* sysThreadId);
+        void dyn_CLASS_create_CLIB_ThreadLogs_Framework_Architecture(std::byte* sysThreadId);
+        void dyn_CLASS_create_CLIB_ThreadLogs_Framework_Global_and_Settings(std::byte* sysThreadId);
+        class CLIB_ThreadLogs_Framework_App* dyn_CLASS_get_CLIB_ThreadLogs_Framework_App(std::byte* sysThreadId);
+        class CLIB_ThreadLogs_Framework_Global*dyn_CLASS_get_CLIB_ThreadLogs_Framework_Global(std::byte* sysThreadId);
+        void dyn_APP_CLIB_ThreadLogs_Framework_STRUCT_boot1_DEFINE(std::byte* sysThreadId);
+        void dyn_APP_CLIB_ThreadLogs_Framework_STRUCT_boot3_INITIALISE(std::byte* sysThreadId);
+        class CLIB_ThreadLogs_Framework_App* dyn_CLASS_get_ptr_CLIB_ThreadLogs_Framework_App(std::byte* sysThreadId);
+        class CLIB_ThreadLogs_Framework_Global* dyn_CLASS_get_ptr_CLIB_ThreadLogs_Framework_Global(std::byte* sysThreadId);
+        void dyn_REG_boot1_DEFINE_CLIB_ThreadLogs_Framework(std::byte* sysThreadId);
+        void dyn_REG_boot2_SUBSTANTIATE_CLIB_ThreadLogs_Framework(std::byte* sysThreadId);
+        void dyn_REG_boot3_INITIALISE_CLIB_ThreadLogs_Framework(std::byte* sysThreadId);
+        static void stat_CLASS_boot0_DECLAIRE_CLIB_ThreadLogs_Framework(std::byte* sysThreadId);
+        static void stat_CLASS_boot1_DEFINE_CLIB_ThreadLogs_Framework(std::byte* sysThreadId);
+        static void stat_CLASS_boot3_INITIALISE_CLIB_ThreadLogs_Framework(std::byte* sysThreadId);
+        static void stat_REG_boot0_DECLAIRE_CLIB_ThreadLogs_Framework(std::byte* sysThreadId);
     private:
         static class CLIB_ThreadLogs_Framework_App* stat_CLASS_ptr_CLIB_ThreadLogs_Framework_App;
         static class CLIB_ThreadLogs_Framework_Global* stat_CLASS_ptr_CLIB_ThreadLogs_Framework_Global;
-        static void stat_CLASS_boot1_DEFINE_CLIB_ThreadLogs_Framework_App(uint8_t* sysThreadId);
-        static void stat_CLASS_boot1_DEFINE_CLIB_ThreadLogs_Framework_Global(uint8_t* sysThreadId);
-        static void stat_CLASS_boot3_INITIALISE_CLIB_ThreadLogs_Framework_App(uint8_t* sysThreadId);
-        static void stat_CLASS_boot3_INITIALISE_CLIB_ThreadLogs_Framework_Global(uint8_t* sysThreadId);
-        static class CLIB_ThreadLogs_Framework_App* stat_CLASS_get_ptr_CLIB_ThreadLogs_Framework_App(uint8_t* sysThreadId);
-        static class CLIB_ThreadLogs_Framework_Global* stat_CLASS_get_ptr_CLIB_ThreadLogs_Framework_Global(uint8_t* sysThreadId);
+        static void stat_CLASS_boot1_DEFINE_CLIB_ThreadLogs_Framework_App(std::byte* sysThreadId);
+        static void stat_CLASS_boot1_DEFINE_CLIB_ThreadLogs_Framework_Global(std::byte* sysThreadId);
+        static void stat_CLASS_boot3_INITIALISE_CLIB_ThreadLogs_Framework_App(std::byte* sysThreadId);
+        static void stat_CLASS_boot3_INITIALISE_CLIB_ThreadLogs_Framework_Global(std::byte* sysThreadId);
+        static class CLIB_ThreadLogs_Framework_App* stat_CLASS_get_ptr_CLIB_ThreadLogs_Framework_App(std::byte* sysThreadId);
+        static class CLIB_ThreadLogs_Framework_Global* stat_CLASS_get_ptr_CLIB_ThreadLogs_Framework_Global(std::byte* sysThreadId);
     };
 }
 #endif
