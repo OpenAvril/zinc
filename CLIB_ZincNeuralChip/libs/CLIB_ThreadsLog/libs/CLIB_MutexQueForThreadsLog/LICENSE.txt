@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026, CLIB Write Que For Threads At Register Sets. SWINBURNE 
+Copyright (c) 2004-2026, CLIB Write Que For Threads At Register Sets. SWINBURNE
 University of Technology - Peter O'Donoghue and King Brenton James Maddocks 
 Crown of Queensland BEng(CompSys).
 
