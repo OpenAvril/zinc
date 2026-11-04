@@ -1,7 +1,15 @@
 # Zinc Insulate Neural Chip Open Source Package:
 ## OpenAvril / zinc, previously named slif:
+
+***UNDER DEVELOPMENT*** 
+
+C++ LIB 'zinc' Adurino prototype board firmware update :: MIT package(s) for 'Silicon life' engineering tools :: Concurrent; Embedded control systems, Core, Post-process, Networking, Full stack development, System bussing., Binary neural intelligence.
+
 Is planned to become a part of as part of Grittith University - Nathan Open Source comtrubitation to MIT packages for my master thesis project, is an open-source development project hosted on GitHub under the Silicon Lifecosystem.
 
+Expect a united trio making developer / editors protytype board(s). xilinx, Arduino, Raspberry Pi. All making boards for editors with 10 Cores: BNI, Networking, Input_Scanner, Ouput_Draw, Core_Injection, Core_Extraction, 2x Concurrent(s), SIM_IN(concurrent_9), SIM_OUT(concurrent_10), 
+
+---
 ## CONCURRENT Systems: 
 Wi-Fi dual bandwidth each railed to an Interrupt Request Stack array, reading the bandwidth array, writing to the Bus loader for rail. Super computer injection and extraction on independent threads for task algorithms via concurrent I and O. Building concurrent rail systems as RTCOS (Real-Time-Concurrent-Operationg-System). 
 
@@ -9,6 +17,7 @@ Wi-Fi 2.5 Input 64 pins, Wi-Fi 2.5 Output 64 pins, Wi-Fi 5 Input 64 pins, Wi-Fi 
 
 The repository is officially marked as "UNDER DEVELOPMENT" and serves as a collection of full-stack concurrent programming packages.
 
+---
 ## Key Focus Areas & Features
 The project contains architectural implementations centered heavily around high-concurrency, systems-level logic, and early-stage artificial intelligence:
 - Concurrent Programming Tools: Implementations for full-stack concurrent pipelines, including custom mutex locks, mutex synchronization, and concurrent queues.
@@ -30,7 +39,7 @@ Exclusive Cohesion Mutex Queue:
 
 CLIB Request, Wait, Write-Read for 'ThreadId' at 'DataCluster'.
 
-**Double standard Mutex combined Input/Output efficiency.**
+Via concurrency, 'zinc' and 'slif' libraries double the combined input and output efficiency with three "Threads; Input, Output, Task." on Raspberry Pi & Arduino via respectivly. 
 
 ---
 # LaunchQue:
@@ -46,24 +55,6 @@ ex: Core task chunker.
 ex: Graphics post process.
 
 ---
-* ThreadsLog:
-  
-Neural Chip Thread Logging:
-     
-CLIB Console output via MutexQue, DataCluster is 'Console'.
-
----
-* Stemisphore:
-  
-System Bussing for Zinc Neural Hemisphoric Chip:  
-
-CLIB Concurrent System Bussing.
-
-Open Concurrent SCADA.
-
-**Triple MutexQue into a set/get data buffer of bus for route of paired junctions.**
-
----
 * LeftHemisphore:
   
 Left Hemisphore Logic Task Result Deducer:      
@@ -71,13 +62,31 @@ Left Hemisphore Logic Task Result Deducer:
 CLIB Concurrent Server with independent task threads and IO wrapper.
 
 ---
-* RightHemisphore:
+* ThreadsLog: ***UNDER DEVELOPMENT***
   
-**Wi-Fi hi and low bandwidth direct injection to a independent thread 'access-id (ThreadId)' of stemisphore.**
+Neural Chip Thread Logging:
+     
+CLIB Console output via MutexQue, DataCluster is 'Console'.
+
+---
+* Stemisphore: ***UNDER DEVELOPMENT***
+  
+System Bussing for Zinc Neural Hemisphoric Chip:  
+
+CLIB Concurrent System Bussing.
+
+Open Concurrent SCADA.
+
+Triple MutexQue into a set/get data buffer of bus for route of paired junctions.
+
+---
+* RightHemisphore: ***UNDER DEVELOPMENT***
+  
+Wi-Fi hi and low bandwidth direct injection to a independent thread 'access-id (ThreadId)' of stemisphore.
 
 ---
 ---
-# DRAFTING.
+# DRAFTING. ***UNDER DEVELOPMENT***
 ## zinc - Zinc Insulate Neural Chip.
   - 3x Zones: Id, Ego, SuperEgo.
   - 2x Hemisphores; Left, Right. per Zone, and 'x' number of Junctions to all parts of the Hemisphore.
@@ -192,7 +201,7 @@ cmake --build build
 *** run TESTBENCH ***
 
 ---
-# Implementation.
+# Implementation. ***UNDER DEVELOPMENT***
 ## How To Guide - Stack Flow From Client Input Scanner To Server And Back To Client.
 
 ## Wrapper Imports and Native IO.
