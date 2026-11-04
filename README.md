@@ -33,7 +33,7 @@ A master by coursework with five specialisation electives, I propose Convener of
 
 ---
 ---
-# MutexQue: zinc_mute_que.
+# MutexQue: zinc_mutex_que.
   
 Exclusive Cohesion Mutex Queue:   
 
