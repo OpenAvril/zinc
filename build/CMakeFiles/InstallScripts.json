@@ -1,0 +1,13 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/brenton-jmaes/CLionProjects/zinc/build/cmake_install.cmake",
+		"/home/brenton-jmaes/CLionProjects/zinc/build/CLIB_ZincNeuralChip/cmake_install.cmake",
+		"/home/brenton-jmaes/CLionProjects/zinc/build/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/cmake_install.cmake",
+		"/home/brenton-jmaes/CLionProjects/zinc/build/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/cmake_install.cmake",
+		"/home/brenton-jmaes/CLionProjects/zinc/build/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/cmake_install.cmake",
+		"/home/brenton-jmaes/CLionProjects/zinc/build/SoothCute/cmake_install.cmake",
+		"/home/brenton-jmaes/CLionProjects/zinc/build/TESTBENCH/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

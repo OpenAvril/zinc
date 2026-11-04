@@ -1,5 +1,5 @@
 #include "../include/CLIB_LaunchQue.h"
-#include "../../../CLIB_ThreadsLog/io/include/CLIB_ThreadLogs.h"
+//#include "../../../CLIB_ThreadsLog/io/include/CLIB_ThreadLogs.h"
 #include "../../../CLIB_MutexQue/io/include/CLIB_MutexQue.h"
 #include "../../include/CLIB_LaunchQue_Framework_App.h"
 #include "../../include/CLIB_LaunchQue_Framework_App_Control.h"

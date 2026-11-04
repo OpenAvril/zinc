@@ -6,20 +6,20 @@
 namespace zinc {
     class CLIB_ThreadLogs_Framework_App_Algorithms {
     public:
-        CLIB_ThreadLogs_Framework_App_Algorithms(uint8_t* sysThreadId);
+        CLIB_ThreadLogs_Framework_App_Algorithms(std::byte* sysThreadId);
         virtual ~CLIB_ThreadLogs_Framework_App_Algorithms();
-        void dyn_APP_FUNCT_CLIB_printConsoleAndLog(uint8_t* sysThreadId, class CLIB_ThreadLogs_Framework* obj, std::string* message);
-        void dyn_APP_FUNCT_CLIB_printLog(uint8_t* sysThreadId, class CLIB_ThreadLogs_Framework* obj, std::string* message);
-        void dyn_REG_boot1_DEFINE_CLIB_ThreadLogs_Framework_App_Algorithms(uint8_t* sysThreadId);
-        void dyn_REG_boot2_SUBSTANTIATE_CLIB_ThreadLogs_Framework_App_Algorithms(uint8_t* sysThreadId);
-        void dyn_REG_boot3_INITIALISE_CLIB_ThreadLogs_Framework_App_Algorithms(uint8_t* sysThreadId);
-        static void stat_CLASS_boot0_DECLAIRE_CLIB_ThreadLogs_Framework_App_Algorithms(uint8_t* sysThreadId);
-        static void stat_CLASS_boot1_DEFINE_CLIB_ThreadLogs_Framework_App_Algorithms(uint8_t* sysThreadId);
-        static void stat_CLASS_boot3_INITIALISE_CLIB_ThreadLogs_Framework_App_Algorithms(uint8_t* sysThreadId);
-        static void stat_REG_boot0_DECLAIRE_CLIB_ThreadLogs_Framework_App_Algorithms(uint8_t* sysThreadId);
+        void dyn_APP_FUNCT_CLIB_printConsoleAndLog(std::byte* sysThreadId, class CLIB_ThreadLogs_Framework* obj, std::string* message);
+        void dyn_APP_FUNCT_CLIB_printLog(std::byte* sysThreadId, class CLIB_ThreadLogs_Framework* obj, std::string* message);
+        void dyn_REG_boot1_DEFINE_CLIB_ThreadLogs_Framework_App_Algorithms(std::byte* sysThreadId);
+        void dyn_REG_boot2_SUBSTANTIATE_CLIB_ThreadLogs_Framework_App_Algorithms(std::byte* sysThreadId);
+        void dyn_REG_boot3_INITIALISE_CLIB_ThreadLogs_Framework_App_Algorithms(std::byte* sysThreadId);
+        static void stat_CLASS_boot0_DECLAIRE_CLIB_ThreadLogs_Framework_App_Algorithms(std::byte* sysThreadId);
+        static void stat_CLASS_boot1_DEFINE_CLIB_ThreadLogs_Framework_App_Algorithms(std::byte* sysThreadId);
+        static void stat_CLASS_boot3_INITIALISE_CLIB_ThreadLogs_Framework_App_Algorithms(std::byte* sysThreadId);
+        static void stat_REG_boot0_DECLAIRE_CLIB_ThreadLogs_Framework_App_Algorithms(std::byte* sysThreadId);
     private:
-        void stat_APP_FUNCT_CLIB_printConsoleAndLog(uint8_t* sysThreadId, std::ofstream objOUTPUT_FILE, std::string* message);
-        void stat_APP_FUNCT_CLIB_printLog(uint8_t* sysThreadId, std::ofstream objOUTPUT_FILE, std::string* message);
+        void stat_APP_FUNCT_CLIB_printConsoleAndLog(std::byte* sysThreadId, std::ofstream objOUTPUT_FILE, std::string* message);
+        void stat_APP_FUNCT_CLIB_printLog(std::byte* sysThreadId, std::ofstream objOUTPUT_FILE, std::string* message);
     };
 }
 #endif

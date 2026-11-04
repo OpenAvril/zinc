@@ -5,15 +5,15 @@
 namespace zinc {
     class CLIB_Framework_Global {
     public:
-        CLIB_Framework_Global(uint8_t* sysThreadId);
+        CLIB_Framework_Global(std::byte* sysThreadId);
         ~CLIB_Framework_Global();
-        static void boot0_CLASS_DECLARE_zinc_Framework_Global(uint8_t* sysThreadId);
-        static void boot1_CLASS_DEFINE_zinc_Framework_Global(uint8_t* sysThreadId);
-        static void boot3_CLASS_INITIALISE_zinc_Framework_Global(uint8_t* sysThreadId);
-        static void boot0_REG_DECLARE_zinc_Framework_Global(uint8_t* sysThreadId);
-        void boot1_REG_DEFINE_zinc_Framework_Global(uint8_t* sysThreadId);
-        void boot2_REG_SUBSTANTIATE_zinc_Framework_Global(uint8_t* sysThreadId);
-        void boot3_REG_INITIALISE_zinc_Framework_Global(uint8_t* sysThreadId, std::byte* MAX_NUMBER_OF_THREADS_FOR_ACCESS);
+        static void boot0_CLASS_DECLARE_zinc_Framework_Global(std::byte* sysThreadId);
+        static void boot1_CLASS_DEFINE_zinc_Framework_Global(std::byte* sysThreadId);
+        static void boot3_CLASS_INITIALISE_zinc_Framework_Global(std::byte* sysThreadId);
+        static void boot0_REG_DECLARE_zinc_Framework_Global(std::byte* sysThreadId);
+        void boot1_REG_DEFINE_zinc_Framework_Global(std::byte* sysThreadId);
+        void boot2_REG_SUBSTANTIATE_zinc_Framework_Global(std::byte* sysThreadId);
+        void boot3_REG_INITIALISE_zinc_Framework_Global(std::byte* sysThreadId, std::byte* MAX_NUMBER_OF_THREADS_FOR_ACCESS);
     private:
     };
 }

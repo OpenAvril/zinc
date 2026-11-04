@@ -1,7 +1,7 @@
 #include "../include/CLIB_LaunchQue_Framework_App.h"
 #include "../include/CLIB_LaunchQue_Framework_App_Control.h"
 #include "../include/CLIB_LaunchQue_Framework.h"
-#include "../../CLIB_ThreadsLog/io/include/CLIB_ThreadLogs.h"
+//#include "../../CLIB_ThreadsLog/io/include/CLIB_ThreadLogs.h"
 #include <iostream>
     zinc::CLIB_LaunchQue_Framework_App_Control* zinc::CLIB_LaunchQue_Framework_App::stat_CLASS_CLIB_LaunchQue_Framework_App_Control;
     zinc::CLIB_LaunchQue_Framework_Execute* zinc::CLIB_LaunchQue_Framework_App::stat_CLASS_CLIB_LaunchQue_Framework_App_Ececute;
