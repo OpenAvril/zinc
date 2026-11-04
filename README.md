@@ -33,7 +33,7 @@ A master by coursework with five specialisation electives, I propose Convener of
 
 ---
 ---
-# MutexQue:
+# MutexQue: zinc_mute_que.
   
 Exclusive Cohesion Mutex Queue:   
 
@@ -42,7 +42,7 @@ CLIB Request, Wait, Write-Read for 'ThreadId' at 'DataCluster'.
 Via concurrency, 'zinc' and 'slif' libraries double the combined input and output efficiency with three "Threads; Input, Output, Task." on Raspberry Pi & Arduino via respectivly. 
 
 ---
-# LaunchQue:
+# LaunchQue: zinc_epicentre.
 
 Left Hemisphore Task Launcher: 
 
@@ -50,7 +50,6 @@ CLIB Request, Wait, Launch for 'ThreadId' at Server-Client.
 
 Concurrency; Core, Post-Process.
 
-Consumer of spare threads.
 
 ---
 * LeftHemisphore:
@@ -58,6 +57,8 @@ Consumer of spare threads.
 Left Hemisphore Logic Task Result Deducer:      
 
 CLIB Concurrent Server with independent task threads and IO wrapper.
+
+Consumer of spare threads.
 
 ---
 * ThreadsLog: ***UNDER DEVELOPMENT***
