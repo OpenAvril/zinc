@@ -44,15 +44,13 @@ Via concurrency, 'zinc' and 'slif' libraries double the combined input and outpu
 ---
 # LaunchQue:
 
-Left Hemisphore Task Launcher:
+Left Hemisphore Task Launcher: 
 
 CLIB Request, Wait, Launch for 'ThreadId' at Server-Client.
 
-**Concurrency; Core, Post-Process.**
+Concurrency; Core, Post-Process.
 
-ex: Core task chunker.
-
-ex: Graphics post process.
+Consumer of spare threads.
 
 ---
 * LeftHemisphore:
