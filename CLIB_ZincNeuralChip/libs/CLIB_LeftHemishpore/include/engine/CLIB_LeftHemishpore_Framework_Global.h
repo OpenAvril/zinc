@@ -1,6 +1,6 @@
 #ifndef CLIB_OPENEPICENTRE_FRAMEWORK_GLOBAL_H
 #define CLIB_OPENEPICENTRE_FRAMEWORK_GLOBAL_H
-#include <cstdint>
+#include <cstddef>
 namespace zinc {
     enum Axis {
         X,
@@ -12,44 +12,44 @@ namespace zinc {
     };
     class CLIB_LeftHemishpore_Framework_Global {
     public:
-        CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId);
+        CLIB_LeftHemishpore_Framework_Global(std::byte* sysThreadId);
         virtual ~CLIB_LeftHemishpore_Framework_Global();
-        static void stat_REG_boot0_DECLARE_CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId);
-        static void stat_REG_boot1_DEFINE_CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId);
-        static void stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId);
-        static void stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId);
-           static uint8_t* stat_REG_get_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS(uint8_t* sysThreadId);
-        static unsigned long long* stat_REG_get_CLIB_LeftHemishpore_Framework_Global_Item_number_Of_Praise_Events(uint8_t* sysThreadId);
-        static void stat_REG_set_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS(uint8_t* sysThreadId, uint8_t* MAX_NUMBER_OF_THREADS);
-        static void stat_CLASS_boot0_DECLARE_CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId);
-        static void stat_CLASS_boot1_DEFINE_CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId);
-        static void stat_CLASS_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId);
-        static void stat_CLASS_boot4_INSTANTIATE_CLIB_LeftHemishpore_Framework_Global(uint8_t* sysThreadId);
-        static int* stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_Bool_To_Int(uint8_t* sysThreadId, bool newValue_Bool);
-        static class Object* stat_APP_CONVERT_CLIB_SystemBus_Framework_Global_MsbByteArray_To_DATA(uint8_t* sysThreadId, unsigned char* byteArray_DATA);
-        static bool stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbByteArray_To_VUALUEofMsbBool(uint8_t* sysThreadId, unsigned char* bytes_Array);
-        static int* stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbByteArray_To_VUALUEofMsbInt(uint8_t* sysThreadId, unsigned char* bytes_Array);
-        static double* stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbByteArray_To_VUALUEofMsbDouble(uint8_t* sysThreadId, unsigned char* bytes_Array);
-        static uint8_t* stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbByteArray_To_VUALUEofMsbuint8_t(uint8_t* sysThreadId, unsigned char* bytes_Array);
-        static unsigned long long* stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbByteArray_To_VUALUEofMsbunsignedLongLong(uint8_t* sysThreadId, unsigned char* bytes_Array);
-        static unsigned char* stat_APP_CONVERT_CLIB_SystemBus_Framework_Global_DATA_To_MsbByteArray(uint8_t* sysThreadId, class Object* DATA);
-        static unsigned char* stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_VUALUEofMsbBool_to_MsbByteArray(uint8_t* sysThreadId, bool newValue_Bool);
-        static unsigned char* stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_VUALUEofMsbInt_To_MsbByteArray(uint8_t* sysThreadId, int* newValue_Int);
-        static unsigned char* stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_VUALUEofMsbDouble_To_MsbByteArray(uint8_t* sysThreadId, double* newValue_Double);
-        static unsigned char* stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_VUALUEofMsbUnsignedLongLong_to_ByteArray(uint8_t* sysThreadId, unsigned long long* newValue_ULongLong);
-        static unsigned char* stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_VUALUEofMsbuint8_t_To_MsbByteArray(uint8_t* sysThreadId, uint8_t* newValue_uint8_t);
+        static void stat_REG_boot0_DECLARE_CLIB_LeftHemishpore_Framework_Global(std::byte* sysThreadId);
+        static void stat_REG_boot1_DEFINE_CLIB_LeftHemishpore_Framework_Global(std::byte* sysThreadId);
+        static void stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_Global(std::byte* sysThreadId);
+        static void stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_Global(std::byte* sysThreadId);
+           static std::byte* stat_REG_get_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS(std::byte* sysThreadId);
+        static unsigned long long* stat_REG_get_CLIB_LeftHemishpore_Framework_Global_Item_number_Of_Praise_Events(std::byte* sysThreadId);
+        static void stat_REG_set_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS(std::byte* sysThreadId, std::byte* MAX_NUMBER_OF_THREADS);
+        static void stat_CLASS_boot0_DECLARE_CLIB_LeftHemishpore_Framework_Global(std::byte* sysThreadId);
+        static void stat_CLASS_boot1_DEFINE_CLIB_LeftHemishpore_Framework_Global(std::byte* sysThreadId);
+        static void stat_CLASS_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_Global(std::byte* sysThreadId);
+        static void stat_CLASS_boot4_INSTANTIATE_CLIB_LeftHemishpore_Framework_Global(std::byte* sysThreadId);
+        static int* stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_Bool_To_Int(std::byte* sysThreadId, bool newValue_Bool);
+        static class Object* stat_APP_CONVERT_CLIB_SystemBus_Framework_Global_MsbByteArray_To_DATA(std::byte* sysThreadId, unsigned char* byteArray_DATA);
+        static bool stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbByteArray_To_VUALUEofMsbBool(std::byte* sysThreadId, unsigned char* bytes_Array);
+        static int* stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbByteArray_To_VUALUEofMsbInt(std::byte* sysThreadId, unsigned char* bytes_Array);
+        static double* stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbByteArray_To_VUALUEofMsbDouble(std::byte* sysThreadId, unsigned char* bytes_Array);
+        static std::byte* stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbByteArray_To_VUALUEofMsbStdByte(std::byte* sysThreadId, unsigned char* bytes_Array);
+        static unsigned long long* stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbByteArray_To_VUALUEofMsbunsignedLongLong(std::byte* sysThreadId, unsigned char* bytes_Array);
+        static unsigned char* stat_APP_CONVERT_CLIB_SystemBus_Framework_Global_DATA_To_MsbByteArray(std::byte* sysThreadId, class Object* DATA);
+        static unsigned char* stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_VUALUEofMsbBool_to_MsbByteArray(std::byte* sysThreadId, bool newValue_Bool);
+        static unsigned char* stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_VUALUEofMsbInt_To_MsbByteArray(std::byte* sysThreadId, int* newValue_Int);
+        static unsigned char* stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_VUALUEofMsbDouble_To_MsbByteArray(std::byte* sysThreadId, double* newValue_Double);
+        static unsigned char* stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_VUALUEofMsbUnsignedLongLong_to_ByteArray(std::byte* sysThreadId, unsigned long long* newValue_ULongLong);
+        static unsigned char* stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_VUALUEofMsbStdByte_To_MsbByteArray(std::byte* sysThreadId, std::byte* newValue_stdbyte);
     private:
-        static uint8_t* stat_REG_ptr_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS;
+        static std::byte* stat_REG_ptr_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS;
         static unsigned long long* stat_REG_ptr_CLIB_LeftHemishpore_Framework_Global_number_Of_Praise_Events;
-        static void stat_REG_boot1_DEFINE_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS(uint8_t* sysThreadId);
-        static void stat_REG_boot1_DEFINE_CLIB_LeftHemishpore_Framework_Global_number_Of_Praise_Events(uint8_t* sysThreadId);
-        static void stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS(uint8_t* sysThreadId);
-        static void stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_Global_number_Of_Praise_Events(uint8_t* sysThreadId);
-        static void stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS(uint8_t* sysThreadId);
-        static void stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_Global_number_Of_Praise_Events(uint8_t* sysThreadId);
-        static uint8_t* pr_stat_REG_get_ptr_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS(uint8_t* sysThreadId);
-        static unsigned long long* pr_stat_REG_get_ptr_CLIB_LeftHemishpore_Framework_Global_number_Of_Praise_Events(uint8_t* sysThreadId);
-        static void pr_stat_REG_set_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS(uint8_t* sysThreadId, uint8_t MAX_NUMBER_OF_THREADS);
+        static void stat_REG_boot1_DEFINE_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS(std::byte* sysThreadId);
+        static void stat_REG_boot1_DEFINE_CLIB_LeftHemishpore_Framework_Global_number_Of_Praise_Events(std::byte* sysThreadId);
+        static void stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS(std::byte* sysThreadId);
+        static void stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_Global_number_Of_Praise_Events(std::byte* sysThreadId);
+        static void stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS(std::byte* sysThreadId);
+        static void stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_Global_number_Of_Praise_Events(std::byte* sysThreadId);
+        static std::byte* pr_stat_REG_get_ptr_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS(std::byte* sysThreadId);
+        static unsigned long long* pr_stat_REG_get_ptr_CLIB_LeftHemishpore_Framework_Global_number_Of_Praise_Events(std::byte* sysThreadId);
+        static void pr_stat_REG_set_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS(std::byte* sysThreadId, std::byte MAX_NUMBER_OF_THREADS);
     };
 }
 #endif

@@ -9,33 +9,33 @@
 namespace zinc {
 	struct CLIB_LeftHemishpore_STRUCT_User_Algorithm {
 	public:
-		std::list<struct zinc::Object*>* dyn_STRUCT_get_CLIB_LeftHemishpore_STRUCT_UserAlgorithm_Item_On_List_Of_ptr_PraiseAlgorithmSubsets(uint8_t* sysThreadId, unsigned long long* praiseId);
-		void dyn_REG_boot1_DEFINE_CLIB_LeftHemishpore_STRUCT_UserAlgorithm(uint8_t* sysThreadId);
-		void dyn_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_STRUCT_UserAlgorithm(uint8_t* sysThreadId);
-		void dyn_REG_boot3_INITIALISE_CLIB_LeftHemishpore_STRUCT_UserAlgorithm(uint8_t* sysThreadId);
-		void dyn_REG_boot4_INSTANTIATE_CLIB_LeftHemishpore_STRUCT_UserAlgorithm(uint8_t* sysThreadId);
-		static void stat_STRUCT_boot0_DECLARE_CLIB_LeftHemishpore_STRUCT_UserAlgorithm(uint8_t* sysThreadId);
-		static void stat_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_STRUCT_UserAlgorithm(uint8_t* sysThreadId);
-		static void stat_STRUCT_boot3_INITIALISE_CLIB_LeftHemishpore_STRUCT_UserAlgorithm(uint8_t* sysThreadId);
-		static void stat_STRUCT_boot4_INSTANTIATE_CLIB_LeftHemishpore_STRUCT_UserAlgorithm(uint8_t* sysThreadId);
-		static void stat_REG_boot0_DECLARE_CLIB_LeftHemishpore_STRUCT_UserAlgorithm(uint8_t* sysThreadId);
+		std::list<struct zinc::Object*>* dyn_STRUCT_get_CLIB_LeftHemishpore_STRUCT_UserAlgorithm_Item_On_List_Of_ptr_PraiseAlgorithmSubsets(std::byte* sysThreadId, unsigned long long* praiseId);
+		void dyn_REG_boot1_DEFINE_CLIB_LeftHemishpore_STRUCT_UserAlgorithm(std::byte* sysThreadId);
+		void dyn_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_STRUCT_UserAlgorithm(std::byte* sysThreadId);
+		void dyn_REG_boot3_INITIALISE_CLIB_LeftHemishpore_STRUCT_UserAlgorithm(std::byte* sysThreadId);
+		void dyn_REG_boot4_INSTANTIATE_CLIB_LeftHemishpore_STRUCT_UserAlgorithm(std::byte* sysThreadId);
+		static void stat_STRUCT_boot0_DECLARE_CLIB_LeftHemishpore_STRUCT_UserAlgorithm(std::byte* sysThreadId);
+		static void stat_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_STRUCT_UserAlgorithm(std::byte* sysThreadId);
+		static void stat_STRUCT_boot3_INITIALISE_CLIB_LeftHemishpore_STRUCT_UserAlgorithm(std::byte* sysThreadId);
+		static void stat_STRUCT_boot4_INSTANTIATE_CLIB_LeftHemishpore_STRUCT_UserAlgorithm(std::byte* sysThreadId);
+		static void stat_REG_boot0_DECLARE_CLIB_LeftHemishpore_STRUCT_UserAlgorithm(std::byte* sysThreadId);
 	private:
 		static CLIB_LeftHemishpore_STRUCT_Algorithm_praise0* stat_REG_ptr_CLIB_LeftHemishpore_STRUCT_UserAlgorithm_Algorithm_praise0;
 		static CLIB_LeftHemishpore_STRUCT_Algorithm_praise1* stat_REG_ptr_CLIB_LeftHemishpore_STRUCT_UserAlgorithm_Algorithm_praise1;
 		static CLIB_LeftHemishpore_STRUCT_Algorithm_praise2* stat_REG_ptr_CLIB_LeftHemishpore_STRUCT_UserAlgorithm_Algorithm_praise2;
 		static CLIB_LeftHemishpore_STRUCT_Algorithm_praise3* stat_REG_ptr_CLIB_LeftHemishpore_STRUCT_UserAlgorithm_Algorithm_praise3;
-		static void stat_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_STRUCT_UserAlgorithm_Algorithm_praise0(uint8_t* sysThreadId);
-		static void stat_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_STRUCT_UserAlgorithm_Algorithm_praise1(uint8_t* sysThreadId);
-		static void stat_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_STRUCT_UserAlgorithm_Algorithm_praise2(uint8_t* sysThreadId);
-		static void stat_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_STRUCT_UserAlgorithm_Algorithm_praise3(uint8_t* sysThreadId);
-		static void stat_STRUCT_boot3_INITIALISE_CLIB_LeftHemishpore_STRUCT_UserAlgorithm_Algorithm_praise0(uint8_t* sysThreadId);
-		static void stat_STRUCT_boot3_INITIALISE_CLIB_LeftHemishpore_STRUCT_UserAlgorithm_Algorithm_praise1(uint8_t* sysThreadId);
-		static void stat_STRUCT_boot3_INITIALISE_CLIB_LeftHemishpore_STRUCT_UserAlgorithm_Algorithm_praise2(uint8_t* sysThreadId);
-		static void stat_STRUCT_boot3_INITIALISE_CLIB_LeftHemishpore_STRUCT_UserAlgorithm_Algorithm_praise3(uint8_t* sysThreadId);
-		static CLIB_LeftHemishpore_STRUCT_Algorithm_praise0* stat_REG_get_ptr_CLIB_LeftHemishpore_STRUCT_UserAlgorithm_Algorithm_praise0(uint8_t* sysThreadId);
-		static CLIB_LeftHemishpore_STRUCT_Algorithm_praise1* stat_REG_get_ptr_CLIB_LeftHemishpore_STRUCT_UserAlgorithm_Algorithm_praise1(uint8_t* sysThreadId);
-		static CLIB_LeftHemishpore_STRUCT_Algorithm_praise2* stat_REG_get_ptr_CLIB_LeftHemishpore_STRUCT_UserAlgorithm_Algorithm_praise2(uint8_t* sysThreadId);
-		static CLIB_LeftHemishpore_STRUCT_Algorithm_praise3* stat_REG_get_ptr_CLIB_LeftHemishpore_STRUCT_UserAlgorithm_Algorithm_praise3(uint8_t* sysThreadId);
+		static void stat_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_STRUCT_UserAlgorithm_Algorithm_praise0(std::byte* sysThreadId);
+		static void stat_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_STRUCT_UserAlgorithm_Algorithm_praise1(std::byte* sysThreadId);
+		static void stat_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_STRUCT_UserAlgorithm_Algorithm_praise2(std::byte* sysThreadId);
+		static void stat_STRUCT_boot1_DEFINE_CLIB_LeftHemishpore_STRUCT_UserAlgorithm_Algorithm_praise3(std::byte* sysThreadId);
+		static void stat_STRUCT_boot3_INITIALISE_CLIB_LeftHemishpore_STRUCT_UserAlgorithm_Algorithm_praise0(std::byte* sysThreadId);
+		static void stat_STRUCT_boot3_INITIALISE_CLIB_LeftHemishpore_STRUCT_UserAlgorithm_Algorithm_praise1(std::byte* sysThreadId);
+		static void stat_STRUCT_boot3_INITIALISE_CLIB_LeftHemishpore_STRUCT_UserAlgorithm_Algorithm_praise2(std::byte* sysThreadId);
+		static void stat_STRUCT_boot3_INITIALISE_CLIB_LeftHemishpore_STRUCT_UserAlgorithm_Algorithm_praise3(std::byte* sysThreadId);
+		static CLIB_LeftHemishpore_STRUCT_Algorithm_praise0* stat_REG_get_ptr_CLIB_LeftHemishpore_STRUCT_UserAlgorithm_Algorithm_praise0(std::byte* sysThreadId);
+		static CLIB_LeftHemishpore_STRUCT_Algorithm_praise1* stat_REG_get_ptr_CLIB_LeftHemishpore_STRUCT_UserAlgorithm_Algorithm_praise1(std::byte* sysThreadId);
+		static CLIB_LeftHemishpore_STRUCT_Algorithm_praise2* stat_REG_get_ptr_CLIB_LeftHemishpore_STRUCT_UserAlgorithm_Algorithm_praise2(std::byte* sysThreadId);
+		static CLIB_LeftHemishpore_STRUCT_Algorithm_praise3* stat_REG_get_ptr_CLIB_LeftHemishpore_STRUCT_UserAlgorithm_Algorithm_praise3(std::byte* sysThreadId);
 	};
 }
 #endif
