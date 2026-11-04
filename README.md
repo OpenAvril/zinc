@@ -46,7 +46,7 @@ ex: Core task chunker.
 ex: Graphics post process.
 
 ---
-# ThreadsLog:
+* ThreadsLog:
   
 Neural Chip Thread Logging:
      
