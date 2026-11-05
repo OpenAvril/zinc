@@ -126,8 +126,6 @@ Concurrency; Core, Post-Process.
   
 Left Hemisphore Logic Task Result Deducer:      
 
-CLIB Concurrent Server with independent task threads and IO wrapper.
-
 Consumer of spare threads.
 
 Left Hemisphore Logic Task Result Deducer: CLIB Concurrent Server with independent task threads and IO wrapper.
