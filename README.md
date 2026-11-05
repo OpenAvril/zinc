@@ -263,3 +263,8 @@ cmake --build build
 ## Wrapper Imports and Native IO.
 
 ---
+
+Copyright (c) 2026 King Brenton James Maddocks BEng(CompSys), Crown of Queensland the Commonwealth Empire.
+
+---
+---
