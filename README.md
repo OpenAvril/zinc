@@ -8,6 +8,7 @@ Is planned to become a part of as part of Grittith University - Nathan Open Sour
 Via concurrency, 'zinc' and 'slif' libraries double the combined input and output efficiency with three "Threads; Input, Output, Task." Expect a united trio, making developer / editors protytype board(s). xilinx, Arduino, Raspberry Pi. All making boards for editors with multiple cores. PRAM Model and the BNI Thread for your custom BNI tasks. Such needed to fully test-bench a Concurrent Full Stack Development side for a Server inside a firmware Application.
 
 ---
+---
 ## CONCURRENT Systems: 
 Wi-Fi dual bandwidth each railed to an Interrupt Request Stack array, reading the bandwidth array, writing to the Bus loader for rail. Super computer injection and extraction on independent threads for task algorithms via concurrent I and O. Building concurrent rail systems as RTCOS (Real-Time-Concurrent-Operationg-System). 
 
@@ -15,6 +16,7 @@ Wi-Fi 2.5 Input 64 pins, Wi-Fi 2.5 Output 64 pins, Wi-Fi 5 Input 64 pins, Wi-Fi 
 
 The repository is officially marked as "UNDER DEVELOPMENT" and serves as a collection of full-stack concurrent programming packages.
 
+---
 ---
 ## Key Focus Areas & Features
 The project contains architectural implementations centered heavily around high-concurrency, systems-level logic, and early-stage artificial intelligence:
@@ -31,32 +33,39 @@ A master by coursework with five specialisation electives, I propose Convener of
 
 ---
 ---
+---
 # zinc - Zinc Insulate Neural Chip.
 
 ---
+---
 ## Binary Neural Inteligence. ***UNDER DEVELOPMENT***
 
+---
 ### BNI : zinc_bni_bnn_design_suite. ***UNDER DEVELOPMENT***
 
   - 3x Zones: Id, Ego, SuperEgo.
   - 2x Hemisphores; Left, Right. per Zone, and 'x' number of Junctions to all parts of the Hemisphore.
   - [(x/2)^2 - (x/2)] number of Busses.
 
+---
 ### In A Unified Image
 - **Id**                  : binary neural algorithms. : left hemisphore as self requested tasks, right hemisphore as communicated tasks; for 'slif_epicentre'.
 - **Ego**                 : binary neural controls.
 - **Super-Ego**           : binary neural Directive Feng Shui Karmas.
 
 
-#### Id : binary neural algorithms.
+---
+### Id : binary neural algorithms.
 slif_epicentre INJECTION paths:
   - left hemisphore as self requested tasks. 
   - right hemisphore as communicated tasks.
 
-#### Ego : binary neural controls.
+---
+### Ego : binary neural controls.
   - BOOLEAN states of "desire" = 'active', 'idle'., for all 'praise-Id' events.
 
-#### SuperEgo: binary neural Directive Feng Shui Karmas.
+---
+### SuperEgo: binary neural Directive Feng Shui Karmas.
   - Scorpio - Trust in Truth.
   - Sagittarius - Intellect in Intuition.
   - Capricorn - Expression in Perception.
@@ -73,6 +82,7 @@ slif_epicentre INJECTION paths:
 [PSUDOCODE Repository : Binary Neural Intelligence - Java.](https://github.com/OpenAvril/Binary-Neural-Intelligence)
 
 
+---
 ---
 ## zinc : zinc::.*
 ---
@@ -133,13 +143,17 @@ Wi-Fi hi and low bandwidth direct injection to a independent thread 'access-id (
 
 ---
 ---
+---
 # Using.
 ## LINUX Ubuntu.
 **version:** Ubuntu 24.04.4 LTS.
 
+---
+---
 ## CLion.
 **Version:** 2026.1.2.
 
+---
 ---
 ## Dependencies.
 - [Open Source suite install script for Silicon Life Engineering.](https://github.com/MEngSc-Electrical-ComputerSystems/Linux_bash_scripts/blob/main/freshinstall.sh)
@@ -165,17 +179,20 @@ sudo apt install snapd
 sudo snap install clion --classic
 ````
 
+---
 ### CLion plugins.
 - Native Build Tools.
 - Cmake.
 - CLion C and C++.
 
-
+---
 ### CLion: Clone from GuitHub.
  - File - > New -> Project from Version Control.
  - URL : user entry "https://github.com/OpenAvril/zinc"
 
-   ---
+---
+---
+---
 # Building - Compiler Terminal Commands.
 
 *** Load Root CMake Project ***
@@ -191,12 +208,15 @@ cmake --build build
 
 ---
 ---
+---
 # Implementation.
 
 ---
+---
 ## How To Guide - Flow From Client I - Server - Client O.
 
-Thread(s):
+---
+### Thread(s):
 
   (1) **Binary Neural Intellijence**,
   
@@ -219,7 +239,8 @@ Thread(s):
   (10) **SIM_OUT** ***(concurrentTask(s)_4)***.
 
 
-Data Cluster(s):
+---
+### Data Cluster(s): via Thread(S).
 
 thread => **SIM_IN**
 
@@ -248,7 +269,9 @@ thread => ***Ouput_Draw*** || ***NETWORKING***
 thread => **SIM_OUT**
 
 ---
+---
 ## Wrapper Imports and Native IO.  ***UNDER DEVELOPMENT***
 
+---
 ---
 ---
