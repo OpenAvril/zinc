@@ -120,7 +120,7 @@ Concurrency; Core, Post-Process.
 
 
 ---
-# LeftHemisphore : zinc_epicentre. **TEMPLATE for user Compilation**
+# LeftHemisphore : zinc_epicentre. ***TEMPLATE for user Compilation***
   
 Left Hemisphore Logic Task Result Deducer:      
 
