@@ -62,7 +62,7 @@
 		int* tempF0 = msbByteArray_To_valueOfmsbInt(sysThreadId, zinc::MutexQue::generateHandle(sysThreadId));
 		//zinc::MutexQue::generateProgram(sysThreadId);
 		unsigned char* tempF1 = zinc::MutexQue::isINSTANTIATED(sysThreadId);
-		zinc::MutexQue::reInitialiseHandle(sysThreadId, handleId, valueofMsbStdByte_To_MsbByteArray(sysThreadId, MAX_NUMBER_OF_THREADS_FOR_ACCESS));
+		zinc::MutexQue::reInitialiseHandle(sysThreadId, handleId, MAX_NUMBER_OF_THREADS_FOR_ACCESS);
 		zinc::MutexQue::startByLock(sysThreadId, handleId, accessId);
 		zinc::MutexQue::terminateProgram(sysThreadId, handleId);
 
@@ -74,7 +74,7 @@
 		unsigned char* tempC4 = zinc::LaunchQue::get_FlagisIdle(sysThreadId, handleId, accessId);
 		unsigned char* tempC5 = zinc::LaunchQue::get_FlagSTATEofThreadToLaunch(sysThreadId, handleId, accessId);
 		unsigned char* tempC6 =  zinc::LaunchQue::isINSTANTIATED(sysThreadId);
-		zinc::LaunchQue::reInitialiseHandle(sysThreadId, handleId, accessId, MAX_NUMBER_OF_THREADS_FOR_ACCESS);
+		zinc::LaunchQue::reInitialiseHandle(sysThreadId, handleId, MAX_NUMBER_OF_THREADS_FOR_ACCESS);
 		zinc::LaunchQue::set_FlagSTATEofConcurrentCore(sysThreadId, handleId, concuurentThreadId, boolValue);
 		zinc::LaunchQue::terminateProgaram(sysThreadId);
 		zinc::LaunchQue::threadRequestlaunch(sysThreadId, handleId, concuurentThreadId);
