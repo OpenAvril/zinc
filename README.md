@@ -189,7 +189,7 @@ cmake --build build
 ---
 # Implementation.
 ---
-## How To Guide - Stack Flow From Client Input Scanner To Server And Back To Client.
+## How To Guide - Flow From Client I - Server - Client O.
 
 Thread(s):
 
