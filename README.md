@@ -5,10 +5,6 @@ C++ LIB 'zinc' Adurino prototype board firmware update :: MIT package(s) for 'Si
 
 Is planned to become a part of as part of Grittith University - Nathan Open Source comtrubitation to MIT packages for my master thesis project, is an open-source development project hosted on GitHub under the Silicon Life ecosystem.
 
-Via concurrency, 'zinc' and 'slif' libraries double the combined input and output efficiency with three "Threads; Input, Output, Task." Expect a united trio, making developer / editors protytype board(s). xilinx, Arduino, Raspberry Pi. All making boards for editors with 10 Cores.
-
-Is planned to become a part of as part of Grittith University - Nathan Open Source comtrubitation to MIT packages for my master thesis project, is an open-source development project hosted on GitHub under the Silicon Life ecosystem.
-
 Via concurrency, 'zinc' and 'slif' libraries double the combined input and output efficiency with three "Threads; Input, Output, Task." Expect a united trio, making developer / editors protytype board(s). xilinx, Arduino, Raspberry Pi. All making boards for editors with multiple cores. PRAM Model and the BNI Thread for your custom BNI tasks. Such needed to fully test-bench a Concurrent Full Stack Development side for a Server inside a firmware Application.
 
 ---
