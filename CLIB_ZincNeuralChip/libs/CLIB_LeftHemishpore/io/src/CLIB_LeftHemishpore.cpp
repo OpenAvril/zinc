@@ -14,7 +14,9 @@
 #include "../../include/independent/praise_sets/CLIB_LeftHemishpore_STRUCT_Output_praise3.h"
 #include <string>
 #include <iostream>
-	static std::list<zinc::CLIB_LeftHemishpore_Framework*>* stat_CLASS_CLIB_LeftHemishpore_Framework = nullptr;
+
+#include "CLIB_LaunchQue.h"
+static std::list<zinc::CLIB_LeftHemishpore_Framework*>* stat_CLASS_CLIB_LeftHemishpore_Framework = nullptr;
 	static std::array<bool, 15>* stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED = nullptr;
 	static struct zinc::CLIB_LeftHemishpore_STRUCT_Input_praise0* objInputSUBSET_praise0 = nullptr;
 	static struct zinc::CLIB_LeftHemishpore_STRUCT_Input_praise1* objInputSUBSET_praise1 = nullptr;
@@ -371,7 +373,7 @@
 		if (!CLIB_LeftHemishpore_stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED(sysThreadId)->at(0)) {
 			CLIB_LeftHemishpore_Framework_Global::stat_REG_set_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS(sysThreadId, NUMBER_OF_TASK_THREADS);
 			CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbByteArray_To_VUALUEofMsbInt(sysThreadId, handleId))->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Algorithms(sysThreadId)->dyn_REG_boot3_REINITIALISE_CLIB_LeftHemishpore_Algorithm(sysThreadId, CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_MsbByteArray_To_VUALUEofMsbInt(sysThreadId, handleId)));
-			//todo
+			zinc::LaunchQue::reInitialiseHandle(sysThreadId, handleId, NUMBER_OF_TASK_THREADS);
 		}
 		else {
 			CLIB_LeftHemishpore_stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED(sysThreadId)->at(13) = !CLIB_LeftHemishpore_stat_REG_flag_CLIB_LeftHemishpore_array_isINSTANTIATED(sysThreadId)->at(0) ;

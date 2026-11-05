@@ -15,7 +15,7 @@ extern "C" {
             static unsigned char* get_FlagisIdle(std::byte* sysThreadId, unsigned char* handleId, std::byte* concurrentThreadId);
             static unsigned char* get_FlagSTATEofThreadToLaunch(std::byte* sysThreadId, unsigned char* handleId, std::byte* concurrentThreadId);
             static unsigned char* isINSTANTIATED(std::byte* sysThreadId);
-            static void reInitialiseHandle(std::byte* sysThreadId, unsigned char* handleId, std::byte* concurrentThreadId, std::byte* MAX_NUMBER_OF_CONCURRENT_TASK_THREADS);
+            static void reInitialiseHandle(std::byte* sysThreadId, unsigned char* handleId, std::byte* MAX_NUMBER_OF_CONCURRENT_TASK_THREADS);
             static void set_FlagSTATEofConcurrentCore(std::byte* sysThreadId, unsigned char* handleId, std::byte* concurrentThreadId, bool valueBool);
             static void terminateProgaram(std::byte* sysThreadId);
             static void threadRequestlaunch(std::byte* sysThreadId, unsigned char* handleId, std::byte* concurrentThreadId);

@@ -54,12 +54,12 @@
 		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << " :: exiting LIB :: CLIB : CLIB_MutexQue : isINSTANTIATED(sysThreadId)" << std::endl;
 		return zinc::CLIB_MutexQue_Framework_Global::stat_CONVERT_CLIB_MutexQue_Framework_Global_VUALUEofMsbBool_to_MsbByteArray(sysThreadId, *result);
 	}
-	void zinc::MutexQue::reInitialiseHandle(std::byte* sysThreadId, unsigned char* handleId, unsigned char* bytes_MAX_NUMBER_OF_THREADS_FOR_ACCESS) {
+	void zinc::MutexQue::reInitialiseHandle(std::byte* sysThreadId, unsigned char* handleId, std::byte* MAX_NUMBER_OF_THREADS_FOR_ACCESS) {
 		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << " :: entered LIB :: CLIB : CLIB_MutexQue : reInitialiseHandle(sysThreadId)" << std::endl;
 		auto temp = CLIB_MutexQue_stat_PGM_get_array_of_ptr_CLIB_MutexQue(sysThreadId)->begin();
 		std::advance(temp, *handleId);
 		const auto tempObj = static_cast<CLIB_MutexQue_Framework*>(*temp);
-		tempObj->dyn_CLASS_get_ptr_CLIB_MutexQue_Global(sysThreadId)->stat_REG_set_ptr_CLIB_MutexQue_number_Of_Implemented_Threads(sysThreadId, CLIB_MutexQue_Framework_Global::stat_CONVERT_CLIB_MutexQue_Framework_Global_MsbByteArray_To_VUALUEofMsbStdByte(sysThreadId, bytes_MAX_NUMBER_OF_THREADS_FOR_ACCESS));
+		tempObj->dyn_CLASS_get_ptr_CLIB_MutexQue_Global(sysThreadId)->stat_REG_set_ptr_CLIB_MutexQue_number_Of_Implemented_Threads(sysThreadId, MAX_NUMBER_OF_THREADS_FOR_ACCESS);
 		tempObj->dyn_CLASS_get_ptr_CLIB_MutexQue_App(sysThreadId)->dyn_CLASS_get_ptr_CLIB_MutexQue_App_Control(sysThreadId)->dyn_REG_boot3_REINITIALISE_CLIB_MutexQue_Framework_App_Control_For_New_Access_Count(sysThreadId, tempObj);
 		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << " :: exiting LIB :: CLIB : CLIB_MutexQue : reInitialiseHandle(sysThreadId)" << std::endl;
 	}
