@@ -64,6 +64,8 @@ add_library(${PROJECT_NAME} STATIC
         libs/CLIB_LeftHemishpore/src/engine/CLIB_LeftHemishpore_Framework_App_Execute_Control.cpp
         BNI/BNN/CLIB_BNI_BNN_Design_Suite/io/src/BNIDS.cpp
         BNI/BNN/CLIB_BNI_BNN_Design_Suite/io/include/BNIDS.h
+        BNI/BNN/BNITT/src/CLIB_BNIBNN_Framework.cpp
+        BNI/BNN/BNITT/include/CLIB_BNIBNN_Framework.h
 )
 
 target_include_directories(${PROJECT_NAME} PUBLIC

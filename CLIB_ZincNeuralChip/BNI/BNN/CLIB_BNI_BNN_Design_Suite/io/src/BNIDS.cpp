@@ -4,7 +4,7 @@
 #include <list>
 
 // public.
-	void zinc::BNIBNNDS::generateBNN(std::byte* sysThreadId, unsigned char* praiseEventId) {
+	void* zinc::BNIBNNDS::generateBNN(std::byte* sysThreadId, unsigned char* praiseEventId) {
 		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << " :: entered LIB :: CLIB : CLIB_MutexQue : unlock(sysThreadId)" << std::endl;
 		if (!stat_REG_get_CLIB_MutexQue_array_of_isMemberFunctionINSTANTIATED(sysThreadId)->at(0)) {
 			stat_App_FUNCT_CLIB_MutexQue_generate_Program(sysThreadId, Global_BNI_BNN_Framework_Global::stat_CONVERT_MsbByteArray_To_MsbULongLong(praiseEventId, praiseEventId));
@@ -29,7 +29,7 @@
 			stat_REG_get_CLIB_MutexQue_array_of_isMemberFunctionINSTANTIATED(sysThreadId)->at(2) = !stat_REG_get_CLIB_MutexQue_array_of_isMemberFunctionINSTANTIATED(sysThreadId)->at(0);
 			stat_APP_FUNCT_CLIB_MutexQue_Calc_IsAllINSTANTIATED(sysThreadId);
 		}
-		return reinterpret_cast<zinc::Object*>(result);
+		return reinterpret_cast<void*>(reinterpret_cast<zinc::Object*>(result));
 		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << " :: exiting LIB :: CLIB : CLIB_MutexQue : unlock(sysThreadId)" << std::endl;
     }
 // private.

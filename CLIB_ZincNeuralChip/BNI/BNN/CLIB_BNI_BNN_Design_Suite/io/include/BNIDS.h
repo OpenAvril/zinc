@@ -2,11 +2,13 @@
 #define SILICONLIFE_BNIDS_H
 #include <array>
 #include <cstddef>
+#include <list>
+
 extern "C" {
 namespace zinc {
     class BNIBNNDS {
     public:
-        static void generateBNN(std::byte* sysThreadId, unsigned char* praiseEventId);
+        static void* generateBNN(std::byte* sysThreadId, unsigned char* praiseEventId);
         static unsigned char* runBNN(std::byte* sysThreadId, unsigned char* praiseEventId);
     private:
         static void stat_App_FUNCT_CLIB_MutexQue_generate_Program(std::byte* sysThreadId, unsigned long long* praiseEventId);
