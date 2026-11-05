@@ -124,6 +124,8 @@ slif_epicentre INJECTION paths:
   - Leo - Manifestation in Thought
   - Virgo - Interlect in Emotion.
   - Libra - Balance in Harmony.
+
+[Repository : Binary Neural Intelligence - Java.](https://github.com/OpenAvril/Binary-Neural-Intelligence)
  
 ---
 ---
