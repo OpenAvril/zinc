@@ -185,7 +185,7 @@ cmake --build build
 
 ---
 ---
-# Implementation. ***UNDER DEVELOPMENT***
+# Implementation.
 ---
 ## How To Guide - Stack Flow From Client Input Scanner To Server And Back To Client.
 
@@ -243,7 +243,7 @@ thread => ***Ouput_Draw*** / ***NETWORKING***
 thread => **SIM_OUT**
 
 ---
-## Wrapper Imports and Native IO.
+## Wrapper Imports and Native IO.  ***UNDER DEVELOPMENT***
 
 ---
 ---
