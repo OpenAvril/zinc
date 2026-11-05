@@ -99,7 +99,7 @@ CLIB Request, Wait, Write-Read for 'ThreadId' at 'DataCluster'.
 Via concurrency, 'zinc' and 'slif' libraries double the combined input and output efficiency with three "Threads; Input, Output, Task." on Raspberry Pi & Arduino via respectivly. 
 
 ---
-# LaunchQue: zinc_epicentre.
+# LaunchQue: zinc_launch_que.
 
 Left Hemisphore Task Launcher: 
 
@@ -109,7 +109,7 @@ Concurrency; Core, Post-Process.
 
 
 ---
-* LeftHemisphore:
+# LeftHemisphore : zinc_epicentre.
   
 Left Hemisphore Logic Task Result Deducer:      
 
