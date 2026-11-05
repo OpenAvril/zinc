@@ -240,7 +240,7 @@ cmake --build build
 
 
 ---
-### Data Cluster(s): via Thread(S).
+### Data Cluster(s): via Thread Options as 'AcessId'.
 
 thread => **SIM_IN**
 
