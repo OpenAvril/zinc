@@ -34,7 +34,7 @@ A master by coursework with five specialisation electives, I propose Convener of
 # zinc - Zinc Insulate Neural Chip.
 
 ---
-## Binary Neural Inteligence. 
+## Binary Neural Inteligence. ***UNDER DEVELOPMENT***
 
 ### BNI : zinc_bni_bnn_design_suite. ***UNDER DEVELOPMENT***
 
@@ -72,6 +72,9 @@ slif_epicentre INJECTION paths:
 
 [PSUDOCODE Repository : Binary Neural Intelligence - Java.](https://github.com/OpenAvril/Binary-Neural-Intelligence)
 
+
+---
+## zinc : zinc::.*
 ---
 ### MutexQue : zinc_mutex_que.
   
