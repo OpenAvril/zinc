@@ -31,6 +31,48 @@ A master by coursework with five specialisation electives, I propose Convener of
 
 ---
 ---
+# zinc - Zinc Insulate Neural Chip.
+
+---
+## Binary Neural Inteligence. 
+
+### BNI : zinc_bni_bnn_design_suite. ***UNDER DEVELOPMENT***
+
+  - 3x Zones: Id, Ego, SuperEgo.
+  - 2x Hemisphores; Left, Right. per Zone, and 'x' number of Junctions to all parts of the Hemisphore.
+  - [(x/2)^2 - (x/2)] number of Busses.
+
+### In A Unified Image
+- **Id**                  : binary neural algorithms. : left hemisphore as self requested tasks, right hemisphore as communicated tasks; for 'slif_epicentre'.
+- **Ego**                 : binary neural controls.
+- **Super-Ego**           : binary neural Directive Feng Shui Karmas.
+
+
+#### Id : binary neural algorithms.
+slif_epicentre INJECTION paths:
+  - left hemisphore as self requested tasks. 
+  - right hemisphore as communicated tasks.
+
+#### Ego : binary neural controls.
+  - BOOLEAN states of "desire" = 'active', 'idle'., for all 'praise-Id' events.
+
+#### SuperEgo: binary neural Directive Feng Shui Karmas.
+  - Scorpio - Trust in Truth.
+  - Sagittarius - Intellect in Intuition.
+  - Capricorn - Expression in Perception.
+  - Aquarius - Wisdom in Thought.
+  - Pisces - Flexible in Adapting.
+  - Aries - Assertive in Motivation.
+  - Taurus - Power in Momentum.
+  - Gemini - Adaptable in Intellect.
+  - Cancer - Comfort in Emotion.
+  - Leo - Manifestation in Thought
+  - Virgo - Interlect in Emotion.
+  - Libra - Balance in Harmony.
+
+[Repository : Binary Neural Intelligence - Java.](https://github.com/OpenAvril/Binary-Neural-Intelligence)
+
+---
 # MutexQue : zinc_mutex_que.
   
 Exclusive Cohesion Mutex Queue:   
@@ -85,44 +127,7 @@ CLIB Console output via MutexQue, DataCluster is 'Console'.
   
 Wi-Fi hi and low bandwidth direct injection to a independent thread 'access-id (ThreadId)' of stemisphore.
 
----
----
-# DRAFTING. ***UNDER DEVELOPMENT***
-## zinc - Zinc Insulate Neural Chip.
-  - 3x Zones: Id, Ego, SuperEgo.
-  - 2x Hemisphores; Left, Right. per Zone, and 'x' number of Junctions to all parts of the Hemisphore.
-  - [(x/2)^2 - (x/2)] number of Busses.
 
-### In A Unified Image
-- **Id**                  : binary neural algorithms. : left hemisphore as self requested tasks, right hemisphore as communicated tasks; for 'slif_epicentre'.
-- **Ego**                 : binary neural controls.
-- **Super-Ego**           : binary neural Directive Feng Shui Karmas.
-
-
-#### Id : binary neural algorithms.
-slif_epicentre INJECTION paths:
-  - left hemisphore as self requested tasks. 
-  - right hemisphore as communicated tasks.
-
-#### Ego : binary neural controls.
-  - BOOLEAN states of "desire" = 'active', 'idle'., for all 'praise-Id' events.
-
-#### SuperEgo: binary neural Directive Feng Shui Karmas.
-  - Scorpio - Trust in Truth.
-  - Sagittarius - Intellect in Intuition.
-  - Capricorn - Expression in Perception.
-  - Aquarius - Wisdom in Thought.
-  - Pisces - Flexible in Adapting.
-  - Aries - Assertive in Motivation.
-  - Taurus - Power in Momentum.
-  - Gemini - Adaptable in Intellect.
-  - Cancer - Comfort in Emotion.
-  - Leo - Manifestation in Thought
-  - Virgo - Interlect in Emotion.
-  - Libra - Balance in Harmony.
-
-[Repository : Binary Neural Intelligence - Java.](https://github.com/OpenAvril/Binary-Neural-Intelligence)
- 
 ---
 ---
 # Using.
