@@ -1,8 +1,6 @@
 # Zinc Insulate Neural Chip Open Source Package:
 ## OpenAvril / zinc, previously named slif:
 
-***UNDER DEVELOPMENT*** 
-
 C++ LIB 'zinc' Adurino prototype board firmware update :: MIT package(s) for 'Silicon life' engineering tools :: Concurrent; Embedded control systems, Core, Post-process, Networking, Full stack development, System bussing., Binary neural intelligence.
 
 Is planned to become a part of as part of Grittith University - Nathan Open Source comtrubitation to MIT packages for my master thesis project, is an open-source development project hosted on GitHub under the Silicon Life ecosystem.
@@ -99,7 +97,7 @@ CLIB Request, Wait, Write-Read for 'ThreadId' at 'DataCluster'.
 Via concurrency, 'zinc' and 'slif' libraries double the combined input and output efficiency with three "Threads; Input, Output, Task." on Raspberry Pi & Arduino via respectivly. 
 
 ---
-# Stemisphore : zinc_stemisphore. 
+# Stemisphore : zinc_stemisphore. ***UNDER DEVELOPMENT***
 
 System Bussing for Zinc Neural Hemisphoric Chip:
 
@@ -122,7 +120,7 @@ Concurrency; Core, Post-Process.
 
 
 ---
-# LeftHemisphore : zinc_epicentre. ***TEMPLATE for user Compilation***
+# LeftHemisphore : zinc_epicentre. ***TEMPLATE for user Compilation*** ***UNDER DEVELOPMENT***
   
 Left Hemisphore Logic Task Result Deducer:      
 
