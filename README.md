@@ -90,7 +90,7 @@ A master by coursework with five specialisation electives, I propose Convener of
 
 ---
 ---
-# MutexQue: zinc_mutex_que.
+# MutexQue : zinc_mutex_que.
   
 Exclusive Cohesion Mutex Queue:   
 
@@ -110,7 +110,7 @@ Open Concurrent SCADA.
 Triple MutexQue into a set/get data buffer of bus for route of paired junctions.
 
 ---
-# LaunchQue: zinc_launch_que.
+# LaunchQue : zinc_launch_que.
 
 Left Hemisphore Task Launcher: 
 
