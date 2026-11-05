@@ -1,10 +1,11 @@
 cmake_minimum_required(VERSION 4.2.3)
-project(zinc_neural_chip VERSION 1.0 LANGUAGES CXX)
+project(zinc_neural_chip VERSION 1.1.1 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_subdirectory(libs/CLIB_MutexQue)
+add_subdirectory(libs/CLIB_Stemisphore)
 add_subdirectory(libs/CLIB_LaunchQue)
 add_subdirectory(libs/CLIB_LeftHemishpore)
 
@@ -14,6 +15,20 @@ add_library(${PROJECT_NAME} STATIC
         libs/CLIB_MutexQue/src/CLIB_MutexQue_Framework_Global.cpp
         libs/CLIB_MutexQue/src/CLIB_MutexQue_Framework_App.cpp
         libs/CLIB_MutexQue/src/CLIB_MutexQue_Framework_App_Control.cpp
+        libs/CLIB_Stemisphore/io/src/CLIB_SystemBus.cpp
+        libs/CLIB_Stemisphore/src/independent/CLIB_Bus_STRUCT_SingleBus.cpp
+        libs/CLIB_Stemisphore/src/independent/CLIB_Bus_STRUCT_SingleBus_Framework.cpp
+        libs/CLIB_Stemisphore/src/independent/CLIB_Bus_STRUCT_SingleBus_Framework_Global.cpp
+        libs/CLIB_Stemisphore/src/independent/CLIB_Bus_STRUCT_SingleBus_STRUCT_BusDATA.cpp
+        libs/CLIB_Stemisphore/src/independent/CLIB_Bus_STRUCT_SingleBus_STRUCT_BusDATA_CLASS_StemTicket.cpp
+        libs/CLIB_Stemisphore/src/independent/CLIB_Bus_STRUCT_SingleBus_Framework_App.cpp
+        libs/CLIB_Stemisphore/src/independent/CLIB_Bus_STRUCT_SingleBus_Framework_App_Data.cpp
+        libs/CLIB_Stemisphore/src/independent/CLIB_Bus_STRUCT_SingleBus_Framework_App_Execute.cpp
+        libs/CLIB_Stemisphore/include/CLIB_SystemBus_Framework.h
+        libs/CLIB_Stemisphore/include/CLIB_SystemBus_Framework_Global.h
+        libs/CLIB_Stemisphore/include/CLIB_SystemBus_Framework_App.h
+        libs/CLIB_Stemisphore/include/CLIB_SystemBus_Framework_App_Data.h
+        libs/CLIB_Stemisphore/include/CLIB_SystemBus_Framework_App_Execute.h
         libs/CLIB_LaunchQue/io/src/CLIB_LaunchQue.cpp
         libs/CLIB_LaunchQue/src/CLIB_LaunchQue_Framework.cpp
         libs/CLIB_LaunchQue/src/CLIB_LaunchQue_Framework_Global.cpp
@@ -51,19 +66,22 @@ add_library(${PROJECT_NAME} STATIC
 
 target_include_directories(${PROJECT_NAME} PUBLIC
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/libs/CLIB_MutexQue/io/include>
+        $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/libs/CLIB_Stemisphore/io/include>
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/libs/CLIB_LaunchQue/io/include>
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/libs/CLIB_LeftHemishpore/io/include>
+
 )
 
 target_include_directories(${PROJECT_NAME} PRIVATE
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/libs/CLIB_MutexQue/include>
+        $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/libs/CLIB_Stemisphore/include>
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/libs/CLIB_LaunchQue/include>
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/libs/CLIB_LeftHemishpore/include>
-        $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
 )
 
 target_link_libraries(${PROJECT_NAME} PRIVATE
         zinc_mutex_que
+        zinc_stemisphore
         zinc_launch_que
         zinc_epicentre
 )

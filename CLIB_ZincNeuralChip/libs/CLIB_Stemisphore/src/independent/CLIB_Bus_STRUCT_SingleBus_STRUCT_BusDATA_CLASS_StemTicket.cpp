@@ -1,6 +1,6 @@
 #include <cstddef>
 #include "../include/independent/CLIB_Bus_STRUCT_SingleBus_STRUCT_BusDATA_CLASS_StemTicket.h"
-std::byte* zinc::StemTicket::reg_ptr_CLIB_Bus_STRUCT_SingleBus_CLASS_StemTicket_arrivalJunctionId;
+    std::byte* zinc::StemTicket::reg_ptr_CLIB_Bus_STRUCT_SingleBus_CLASS_StemTicket_arrivalJunctionId;
     std::byte* zinc::StemTicket::reg_ptr_CLIB_Bus_STRUCT_SingleBus_CLASS_StemTicket_arrivalAccessId;
     std::byte* zinc::StemTicket::reg_ptr_CLIB_Bus_STRUCT_SingleBus_CLASS_StemTicket_busId;
     std::byte* zinc::StemTicket::reg_ptr_CLIB_Bus_STRUCT_SingleBus_CLASS_StemTicket_departureJunctionId;
@@ -101,23 +101,23 @@ std::byte* zinc::StemTicket::reg_ptr_CLIB_Bus_STRUCT_SingleBus_CLASS_StemTicket_
     }
     void zinc::StemTicket::stat_REG_boot2_SUBSTANTIATE_CLIB_Bus_STRUCT_SingleBus_CLASS_StemTicket_arrivalJunctionId() {
         reg_ptr_CLIB_Bus_STRUCT_SingleBus_CLASS_StemTicket_arrivalJunctionId = new std::byte();
-        *reg_ptr_CLIB_Bus_STRUCT_SingleBus_CLASS_StemTicket_arrivalJunctionId = reinterpret_cast<std::byte *>(0xFF);
+        *reg_ptr_CLIB_Bus_STRUCT_SingleBus_CLASS_StemTicket_arrivalJunctionId = std::byte{0xFF};
     }
     void zinc::StemTicket::stat_REG_boot2_SUBSTANTIATE_CLIB_Bus_STRUCT_SingleBus_CLASS_StemTicket_arrivalAccessId() {
         reg_ptr_CLIB_Bus_STRUCT_SingleBus_CLASS_StemTicket_arrivalAccessId = new std::byte();
-        *reg_ptr_CLIB_Bus_STRUCT_SingleBus_CLASS_StemTicket_arrivalAccessId = reinterpret_cast<std::byte *>(0xFF);
+        *reg_ptr_CLIB_Bus_STRUCT_SingleBus_CLASS_StemTicket_arrivalAccessId = std::byte{0xFF};
     }
     void zinc::StemTicket::stat_REG_boot2_SUBSTANTIATE_CLIB_Bus_STRUCT_SingleBus_CLASS_StemTicket_busId() {
         reg_ptr_CLIB_Bus_STRUCT_SingleBus_CLASS_StemTicket_busId = new std::byte();
-        *reg_ptr_CLIB_Bus_STRUCT_SingleBus_CLASS_StemTicket_busId = reinterpret_cast<std::byte *>(0xFF);
+        *reg_ptr_CLIB_Bus_STRUCT_SingleBus_CLASS_StemTicket_busId = std::byte{0xFF};
     }
     void zinc::StemTicket::stat_REG_boot2_SUBSTANTIATE_CLIB_Bus_STRUCT_SingleBus_CLASS_StemTicket_departureJunctionId() {
         reg_ptr_CLIB_Bus_STRUCT_SingleBus_CLASS_StemTicket_departureJunctionId = new std::byte();
-        *reg_ptr_CLIB_Bus_STRUCT_SingleBus_CLASS_StemTicket_departureJunctionId = reinterpret_cast<std::byte *>(0xFF);
+        *reg_ptr_CLIB_Bus_STRUCT_SingleBus_CLASS_StemTicket_departureJunctionId = std::byte{0xFF};
     }
     void zinc::StemTicket::stat_REG_boot2_SUBSTANTIATE_CLIB_Bus_STRUCT_SingleBus_CLASS_StemTicket_departureAccessId() {
         reg_ptr_CLIB_Bus_STRUCT_SingleBus_CLASS_StemTicket_departureAccessId = new std::byte();
-        *reg_ptr_CLIB_Bus_STRUCT_SingleBus_CLASS_StemTicket_departureAccessId = reinterpret_cast<std::byte *>(0xFF);
+        *reg_ptr_CLIB_Bus_STRUCT_SingleBus_CLASS_StemTicket_departureAccessId = std::byte{0xFF};
     }
     void zinc::StemTicket::stat_REG_boot3_INITIALISE_OpenEpiCentre_STRUCT_Input(){
         stat_REG_boot3_INITIALISE_CLIB_Bus_STRUCT_SingleBus_CLASS_StemTicket_arrivalJunctionId();

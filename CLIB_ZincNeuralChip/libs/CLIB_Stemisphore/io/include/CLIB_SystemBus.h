@@ -7,7 +7,7 @@ extern "C" {
     namespace zinc {
         class Stemisphore {
             public:
-            static int* generateHandle(std::byte* sysThreadId);
+            static unsigned char* generateHandle(std::byte* sysThreadId);
             static void generateProgram(std::byte* sysThreadId);
             static unsigned char* isINSTANTIATED(std::byte* sysThreadId);
             static void load(std::byte* sysThreadId, StemTicket StemTicket, unsigned char* bytes_Cargo);

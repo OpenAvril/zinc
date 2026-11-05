@@ -64,7 +64,7 @@
 		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << " :: entered LIB :: zinc : CLIB_Bus_STRUCT_SingleBus_Framework_App_Data : stat_CLASS_boot2_SUBSTANTIATE_CLIB_Bus_STRUCT_SingleBus_Framework_App_Data_DATA(sysThreadId)." << std::endl;
 		auto* DATA = new std::byte[1028];
 		for (int i = 0; i < sizeof(*DATA); i++) {
-			DATA[i] = std::byte{reinterpret_cast<std::byte *>(0xFF)};
+			DATA[i] = std::byte{0xFF};
 		}
 		*stat_REG_CLIB_Bus_STRUCT_SingleBus_Framework_App_Data_DATA = *CLIB_SystemBus_Framework_Global::stat_APP_CONVERT_CLIB_SystemBus_Framework_Global_DATA_To_MsbByteArray(sysThreadId, reinterpret_cast<class Object*>(DATA));
 		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << " :: exiting LIB :: zinc : CLIB_Bus_STRUCT_SingleBus_Framework_App_Data : stat_CLASS_boot2_SUBSTANTIATE_CLIB_Bus_STRUCT_SingleBus_Framework_App_Data_DATA(sysThreadId)." << std::endl;

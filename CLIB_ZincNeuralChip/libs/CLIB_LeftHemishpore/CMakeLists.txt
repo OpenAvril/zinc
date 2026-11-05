@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 4.2.3)
-project(zinc_epicentre VERSION 1.0 LANGUAGES CXX)
+project(zinc_epicentre VERSION 1.1.1 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)

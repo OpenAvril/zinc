@@ -2,18 +2,19 @@
 //#include "../CLIB_ZincNeuralChip/libs/CLIB_ThreadsLog/libs/CLIB_MutexQueForThreadsLog/io/include/CLIB_MutexQueForThreadsLog.h"
 //#include "../CLIB_ZincNeuralChip/libs/CLIB_ThreadsLog/io/include/CLIB_ThreadLogs.h"
 #include "../CLIB_ZincNeuralChip/libs/CLIB_MutexQue/io/include/CLIB_MutexQue.h"
-// #include "../CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/io/include/CLIB_SystemBus.h"
+#include "../CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/io/include/CLIB_SystemBus.h"
 #include "../CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/io/include/CLIB_LaunchQue.h"
 #include "../CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/io/include/CLIB_LeftHemishpore.h"
 #include "../CLIB_ZincNeuralChip/libs/CLIB_MutexQue/include/CLIB_MutexQue_Framework_Global.h"
 //#include "../CLIB_ZincNeuralChip/libs/CLIB_ThreadsLog/include/CLIB_ThreadLogs_Framework_Global.h"
 #include "../CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/include/CLIB_LaunchQue_Framework_Global.h"
 //#include "../CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/include/CLIB_SystemBus_Framework_Global.h"
-//#include "../CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/include/independent/CLIB_Bus_STRUCT_SingleBus_STRUCT_BusDATA_CLASS_Ticket.h"
+#include "../CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/include/independent/CLIB_Bus_STRUCT_SingleBus_STRUCT_BusDATA_CLASS_StemTicket.h"
 #include <cfloat>
 #include <climits>
 #include <cstring>
 #include <iostream>
+	static zinc::StemTicket* TICKET = nullptr;
 	static std::array<bool, 1> stat_REG_ptr_CLIB_SoothCute_array_of_array_of_isMemberFunctionINSTANTIATED = { true };
 // public.
 	void zinc::SoothCute::optimusPrime(std::byte* sysThreadId) {
@@ -31,16 +32,10 @@
 	void zinc::SoothCute::zinc_SoothCute_PhoenixPrime(std::byte* sysThreadId) {
 		auto handleId = new unsigned char();
 		handleId = valueofMsbInt_To_MsbByteArray(sysThreadId,new int(INT_MAX));
-		auto accessId = new std::byte();
-		accessId = new std::byte{0xFF};
-		auto concuurentThreadId = new std::byte();
-		concuurentThreadId = new std::byte{0xFF};
 		auto praiseId = new unsigned char();
 		praiseId = valueofMsbInt_To_MsbByteArray(sysThreadId,new int(INT_MAX));
-		auto MAX_NUMBER_OF_JUNCTIONS = new std::byte();
-		MAX_NUMBER_OF_JUNCTIONS = new std::byte{0xFF};
-		auto MAX_NUMBER_OF_THREADS_FOR_ACCESS = new std::byte();
-		MAX_NUMBER_OF_THREADS_FOR_ACCESS = new std::byte{0xFF};
+		auto stdByte = new std::byte();
+		stdByte = new std::byte{0x00};
 		auto string = new std::string(" ");
 		auto boolValue = new bool();
 		boolValue = new bool(true);
@@ -52,42 +47,42 @@
 		auto bytes_Cargo = new unsigned char();
 		class zinc::Object* value_DATA = nullptr;
 		bytes_Cargo = objDATA_To_MsbByteArray(sysThreadId, value_DATA);
-
+		TICKET = new class zinc::StemTicket(sysThreadId, stdByte, stdByte, stdByte, stdByte);
 		//zinc::ThreadLogs::generateProgram(std::byte* sysThreadId);
 		//zinc::ThreadLogs::printl(sysThreadId, string);
 		//zinc::ThreadLogs::reInitialiseProgram(sysThreadId, MAX_NUMBER_OF_THREADS_FOR_ACCESS);
 		//zinc::ThreadLogs::terminateProgram(sysThreadId);
 
-		zinc::MutexQue::endByUnlock(sysThreadId, handleId, accessId);
+		zinc::MutexQue::endByUnlock(sysThreadId, handleId, stdByte);
 		int* tempF0 = msbByteArray_To_valueOfmsbInt(sysThreadId, zinc::MutexQue::generateHandle(sysThreadId));
 		//zinc::MutexQue::generateProgram(sysThreadId);
 		unsigned char* tempF1 = zinc::MutexQue::isINSTANTIATED(sysThreadId);
-		zinc::MutexQue::reInitialiseHandle(sysThreadId, handleId, MAX_NUMBER_OF_THREADS_FOR_ACCESS);
-		zinc::MutexQue::startByLock(sysThreadId, handleId, accessId);
+		zinc::MutexQue::reInitialiseHandle(sysThreadId, handleId, stdByte);
+		zinc::MutexQue::startByLock(sysThreadId, handleId, stdByte);
 		zinc::MutexQue::terminateProgram(sysThreadId, handleId);
 
 		int* tempC0 = zinc::LaunchQue::generateHandle(sysThreadId);
 		//zinc::LaunchQue::generateProgram(sysThreadId);
-		unsigned char* tempC1 = zinc::LaunchQue::get_coreIdTolaunch(sysThreadId, handleId, accessId);
-		unsigned char* tempC2 = zinc::LaunchQue::get_FlagSTATEisActive(sysThreadId, handleId, accessId);
-		unsigned char* tempC3 = zinc::LaunchQue::get_FlagSTATEofConcurrentCore(sysThreadId, handleId, concuurentThreadId);
-		unsigned char* tempC4 = zinc::LaunchQue::get_FlagisIdle(sysThreadId, handleId, accessId);
-		unsigned char* tempC5 = zinc::LaunchQue::get_FlagSTATEofThreadToLaunch(sysThreadId, handleId, accessId);
+		unsigned char* tempC1 = zinc::LaunchQue::get_coreIdTolaunch(sysThreadId, handleId, stdByte);
+		unsigned char* tempC2 = zinc::LaunchQue::get_FlagSTATEisActive(sysThreadId, handleId, stdByte);
+		unsigned char* tempC3 = zinc::LaunchQue::get_FlagSTATEofConcurrentCore(sysThreadId, handleId, stdByte);
+		unsigned char* tempC4 = zinc::LaunchQue::get_FlagisIdle(sysThreadId, handleId, stdByte);
+		unsigned char* tempC5 = zinc::LaunchQue::get_FlagSTATEofThreadToLaunch(sysThreadId, handleId, stdByte);
 		unsigned char* tempC6 =  zinc::LaunchQue::isINSTANTIATED(sysThreadId);
-		zinc::LaunchQue::reInitialiseHandle(sysThreadId, handleId, MAX_NUMBER_OF_THREADS_FOR_ACCESS);
-		zinc::LaunchQue::set_FlagSTATEofConcurrentCore(sysThreadId, handleId, concuurentThreadId, boolValue);
+		zinc::LaunchQue::reInitialiseHandle(sysThreadId, handleId, stdByte);
+		zinc::LaunchQue::set_FlagSTATEofConcurrentCore(sysThreadId, handleId, stdByte, boolValue);
 		zinc::LaunchQue::terminateProgaram(sysThreadId);
-		zinc::LaunchQue::threadRequestlaunch(sysThreadId, handleId, concuurentThreadId);
-		zinc::LaunchQue::threadEnd(sysThreadId, handleId, concuurentThreadId);
-/*
-		int* tempD0 = zinc::Stemisphore::generateHandle(sysThreadId);
+		zinc::LaunchQue::threadRequestlaunch(sysThreadId, handleId, stdByte);
+		zinc::LaunchQue::threadEnd(sysThreadId, handleId, stdByte);
+
+		unsigned char* tempD0 = zinc::Stemisphore::generateHandle(sysThreadId);
 		//zinc::SystemBusses::generateProgram(sysThreadId);
 		unsigned char* tempD1 = zinc::Stemisphore::isINSTANTIATED(sysThreadId);
-		zinc::Stemisphore::load(sysThreadId, *ticket, bytes_Cargo);
-		zinc::Stemisphore::reInitialiseHandle(sysThreadId, MAX_NUMBER_OF_JUNCTIONS);
-		unsigned char* tempD2 = zinc::Stemisphore::unload(sysThreadId, *ticket);
+		zinc::Stemisphore::load(sysThreadId, *TICKET, bytes_Cargo);
+		zinc::Stemisphore::reInitialiseHandle(sysThreadId, stdByte);
+		unsigned char* tempD2 = zinc::Stemisphore::unload(sysThreadId, *TICKET);
 		zinc::Stemisphore::terminateProgram(sysThreadId);
-*/
+
 		unsigned char* tempE0 = zinc::Epicentre::gernerateHandle(sysThreadId);
 		zinc::Epicentre::generateProgram(sysThreadId);
 		unsigned char* tempE1 = zinc::Epicentre::get_Output(sysThreadId, handleId, praiseId);
@@ -101,7 +96,7 @@
 		zinc::Epicentre::set_InputItemsFor_praise2(sysThreadId, handleId, praiseId, bytes_Double, bytes_Double);
 		zinc::Epicentre::set_InputItemsFor_praise3(sysThreadId, handleId, praiseId, bytes_Double, bytes_Double);
 		zinc::Epicentre::set_MetaData_PraiseEventId(sysThreadId, handleId, praiseId);
-		zinc::Epicentre::reInitialiseHandle(sysThreadId, handleId, MAX_NUMBER_OF_THREADS_FOR_ACCESS);
+		zinc::Epicentre::reInitialiseHandle(sysThreadId, handleId, stdByte);
 		zinc::Epicentre::terminateProgram(sysThreadId);
 }
 	std::array<bool, 1> zinc::SoothCute::zinc_SoothCute_stat_REG_get_array_of_isMemberFunctionINSTANTIATED(std::byte* sysThreadId) {
