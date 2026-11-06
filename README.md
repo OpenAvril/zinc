@@ -215,7 +215,58 @@ cmake --build build
 ---
 ## How To Guide - Flow From Client I - Server - Client O.
 
-(7) **Core_Extraction** into Ouput_Draw O data for class Output || Networking O 1028 bytes,
+---
+### Thread(s):
+
+  (1) **Binary Neural Intellijence** in || with the following, while training and doing tasks.
+  
+  (2) **Networking** into Core_Injection, double loop for I and O 1028 bytes,
+  
+  (3) **Input_Scanner** *server interface input* ***(concurrentTask(s)_5)*** into Core_Injection, I data for class Input,
+  
+  (4) **Core_Injection**,
+  
+  (5) **concurrentTask(s)_1**,
+  
+  (6) **concurrentTask(s)_2**,
+  
+  (7) **Core_Extraction** into Ouput_Draw O data for class Output || Networking O 1028 bytes,
+  
+  (8) **Ouput_Draw** *server interface output* ***(concurrentTask(s)_6)***,
+  
+  (9) **SIM_IN** ***(concurrentTask(s)_3)***,
+  
+  (10) **SIM_OUT** ***(concurrentTask(s)_4)***.
+
+
+---
+### Data Cluster(s): via Thread(S).
+
+thread => **SIM_IN**
+
+ (1) **SIM_Input_SAMPLE** *(HandleId_SIM_Input_Sample_R-W-Buffer = MutexQue::generateHandle())*,
+
+thread => ***Input_Scanner*** || ***NETWORKING***
+
+ (2) **Input_Sample_Buffer** *(HandleId_Input_Sample_R-W-Buffer = MutexQue::generateHandle())*,
+
+thread => ***Core_Injection***
+ 
+ (3) **zinc_epicentre : Stack_of_Input** *(HandleId_Stack_of_Input_R-W-Buffer = MutexQue::generateHandle())*,
+
+thread => ***CONCURRENT***
+ 
+ (4) **zinc_epicentre : Stack_of_Output** *(HandleId_Stack_of_Output_R-W-Buffer = MutexQue::generateHandle())*,
+
+thread => ***Core_Extraction***,
+ 
+ (5) **Output_Sample_Buffer** *(HandleId_Output_Sample_R-W-Buffer = MutexQue::generateHandle())*,
+
+thread => ***Ouput_Draw*** || ***NETWORKING***
+   
+ (6) **SIM_Output_SAMPLE** *(HandleId_SIM_Output_Sample_R-W-Buffer = MutexQue::generateHandle())*,
+
+thread => **SIM_OUT**
 
 ---
 ---
