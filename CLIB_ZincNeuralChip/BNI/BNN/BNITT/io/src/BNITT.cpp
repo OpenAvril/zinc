@@ -1,15 +1,9 @@
 #include "../include/BNITT.h"
-
 #include <iostream>
 #include <list>
-
-namespace zinc {
-	class CLIB_BNIBNN_Framework;
-}
-
 	static std::list<class zinc::CLIB_BNIBNN_Framework*> stat_REG_Of_PGM_Array_For_BNITT;
 // public.
-	zinc::Object* zinc::BNIBNNDS::generateBNI(std::byte* sysThreadId, unsigned char* listOf_FLAG_PraiseEventId) {
+	unsigned char* zinc::BNITT::generateBNI(std::byte* sysThreadId, unsigned char* listOf_FLAG_PraiseEventId) {
 		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << " :: entered LIB :: CLIB : CLIB_MutexQue : unlock(sysThreadId)" << std::endl;
 		auto result = new std::list<class zinc::Object*>;
 		if (!stat_REG_get_CLIB_MutexQue_array_of_isMemberFunctionINSTANTIATED(sysThreadId)->at(0)) {
@@ -29,9 +23,13 @@ namespace zinc {
 		}
 		return result;
 		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << " :: exiting LIB :: CLIB : CLIB_MutexQue : unlock(sysThreadId)" << std::endl;
+
+	}
+	unsigned char* zinc::BNITT::runBNN(std::byte* sysThreadId, unsigned char* bytes_PraiseEventId) {
+
 	}
 // private.
-    class zinc::CLIB_BNIBNN_Framework* zinc::BNIBNNDS::stat_App_FUNCT_CLIB_MutexQue_generate_Program(std::byte* sysThreadId, unsigned long long* praiseEventId){
+    class zinc::CLIB_BNIBNN_Framework* zinc::BNITT::stat_App_FUNCT_CLIB_MutexQue_generate_Program(std::byte* sysThreadId, unsigned long long* praiseEventId){
 		auto result = nullptr;
 		switch () {
 			case 0:
@@ -53,27 +51,27 @@ namespace zinc {
 		}
 		return result;
     }
-    bool zinc::BNIBNNDS::stat_APP_FUNCT_CLIB_MutexQue_Calc_IsAllINSTANTIATED(std::byte* sysThreadId){
+    bool zinc::BNITT::stat_APP_FUNCT_CLIB_MutexQue_Calc_IsAllINSTANTIATED(std::byte* sysThreadId){
 
     }
-    void zinc::BNIBNNDS::stat_REG_boot1_DEFINE_CLIB_MutexQue_array_of_isMemberFunctionINSTANTIATED(std::byte* sysThreadId){
+    void zinc::BNITT::stat_REG_boot1_DEFINE_CLIB_MutexQue_array_of_isMemberFunctionINSTANTIATED(std::byte* sysThreadId){
 
     }
-    void zinc::BNIBNNDS::stat_REG_boot2_SUBSTANTIATE_CLIB_MutexQue_array_of_isMemberFunctionINSTANTIATED(std::byte* sysThreadId){
+    void zinc::BNITT::stat_REG_boot2_SUBSTANTIATE_CLIB_MutexQue_array_of_isMemberFunctionINSTANTIATED(std::byte* sysThreadId){
 
     }
-    void zinc::BNIBNNDS::stat_REG_boot3_INITIALISE_CLIB_MutexQue_array_of_isMemberFunctionINSTANTIATED(std::byte* sysThreadId){
+    void zinc::BNITT::stat_REG_boot3_INITIALISE_CLIB_MutexQue_array_of_isMemberFunctionINSTANTIATED(std::byte* sysThreadId){
 
     }
-    std::array<bool, 2>* zinc::BNIBNNDS::stat_REG_get_CLIB_MutexQue_array_of_isMemberFunctionINSTANTIATED(std::byte* sysThreadId){
+    std::array<bool, 2>* zinc::BNITT::stat_REG_get_CLIB_MutexQue_array_of_isMemberFunctionINSTANTIATED(std::byte* sysThreadId){
 
     }
-    void zinc::BNIBNNDS::stat_STRUCT_boot1_DEFINE_CLIB_BNITT_List_Of_PGM_For_CLIB_BNIBNN_Framework(std::byte* sysThreadId){
+    void zinc::BNITT::stat_STRUCT_boot1_DEFINE_CLIB_BNITT_List_Of_PGM_For_CLIB_BNIBNN_Framework(std::byte* sysThreadId){
 
     }
-	void zinc::BNIBNNDS::stat_STRUCT_boot3_INITIALISE_CLIB_BNITT_List_Of_PGM_For_CLIB_BNIBNN_Framework(std::byte* sysThreadId){
+	void zinc::BNITT::stat_STRUCT_boot3_INITIALISE_CLIB_BNITT_List_Of_PGM_For_CLIB_BNIBNN_Framework(std::byte* sysThreadId){
 
 	}
-	void zinc::BNIBNNDS::stat_STRUCT_get_CLIB_BNITT_List_Of_PGM_For_CLIB_BNIBNN_Framework(std::byte* sysThreadId){
+	void zinc::BNITT::stat_STRUCT_get_CLIB_BNITT_List_Of_PGM_For_CLIB_BNIBNN_Framework(std::byte* sysThreadId){
 
 	}
