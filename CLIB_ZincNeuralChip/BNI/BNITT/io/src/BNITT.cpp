@@ -53,25 +53,33 @@
 						break;
 				}
 				auto bitId = bufferIn[2];
+				auto bitId_B = bufferIn[3];
 				switch (bitId) {
 					case false:
+						switch (bitId_B) {
+							case false:
+								// linear
+								break;
 
+							case true:
+								// constant
+								break;
+						}
 						break;
 
 					case true:
+						switch (bitId_B) {
+							case false:
+								// switching bool
+								break;
 
+							case true:
+
+								break;
+						}
 						break;
 				}
-				auto bitId = bufferIn[3];
-				switch (bitId) {
-					case false:
 
-						break;
-
-					case true:
-
-						break;
-				}
 				auto bitId = bufferIn[4];
 				switch (bitId) {
 					case false:
