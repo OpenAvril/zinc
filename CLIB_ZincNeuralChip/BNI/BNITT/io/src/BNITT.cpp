@@ -40,12 +40,12 @@
 								switch (bitId_C) {
 									case false:
 										switch (bitId_D) {
-											case false:// ConditionCode for PARAMETER = LL
+											case false:// ConditionCode for PARAMETER = LHLL
 												//linear
 												stat_REG_set_CLIB_BNIBNN_PGM_Array_For_BNITT(sysThreadId, stat_App_FUNCT_CLIB_BNIBNN_generate_Program_Linear_Double(sysThreadId, index_usedPraiseEventId));
 												break;
 
-											case true:// ConditionCode for PARAMETER = LH
+											case true:// ConditionCode for PARAMETER = LHLH
 												// constant
 												break;
 										}
