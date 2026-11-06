@@ -6,33 +6,33 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable(${PROJECT_NAME}
         main.cpp
-        io/src/BNITT.cpp
-        src/engine/CLIB_BNIBNN_Framework.h
-        src/engine/CLIB_BNIBNN_Framework_Global.h
-        src/engine/CLIB_BNIBNN_Framework_App.h
-        src/engine/CLIB_BNIBNN_Framework_App_Algotithms.h
-        src/engine/CLIB_BNIBNN_Framework_App_Data.h
+        io/src/BNIDS.cpp
+        src/engine/CLIB_BNIBNN_Framework.cpp
+        src/engine/CLIB_BNIBNN_Framework_Global.cpp
+        src/engine/CLIB_BNIBNN_Framework_App.cpp
+        src/engine/CLIB_BNIBNN_Framework_App_Algotithms.cpp
+        src/engine/CLIB_BNIBNN_Framework_App_Data.cpp
         src/engine/CLIB_BNIBNN_Framework_App_Execute.cpp
-        src/engine/CLIB_BNIBNN_Framework_App_Execute_Control.h
-        src/independent/binary_neural_network/CLIB_BNIBNN_STRUCT_bnn.h
-        src/independent/binary_neural_network/CLIB_BNIBNN_STRUCT_bnn_MetaData.h
-        src/independent/binary_neural_network/CLIB_BNIBNN_STRUCT_bnn_Binary.h
-        src/independent/binary_neural_network/CLIB_BNIBNN_STRUCT_bnn_Constant.h
-        src/independent/binary_neural_network/CLIB_BNIBNN_STRUCT_bnn_Linear.h
-        src/independent/neural_path/CLIB_BNIBNN_STRUCT_np.h
-        src/independent/neural_path/CLIB_BNIBNN_STRUCT_np_Linear.h
-        src/independent/neural_path/CLIB_BNIBNN_STRUCT_np_Node.h
-        src/independent/neural_path/CLIB_BNIBNN_STRUCT_np_PraiseSet.h
-        src/independent/neural_path/CLIB_BNIBNN_STRUCT_np_PraiseSet.h
-        src/independent/praise_sets/do_tasks/CLIB_BNIBNN_STRUCT_DoTask.h
-        src/independent/praise_sets/do_tasks/CLIB_BNIBNN_STRUCT_DoTask_praose0.h
-        src/independent/praise_sets/do_tasks/CLIB_BNIBNN_STRUCT_DoTask_UserAlgorithms.h
-        src/independent/praise_sets/inputs/CLIB_BNIBNN_STRUCT_Input_Data.h
-        src/independent/praise_sets/inputs/CLIB_BNIBNN_STRUCT_Input_praise0.h
-        src/independent/praise_sets/inputs/CLIB_BNIBNN_STRUCT_Input_UserInputs.h
-        src/independent/praise_sets/outputs/CLIB_BNIBNN_STRUCT_Output_Data.h
-        src/independent/praise_sets/outputs/CLIB_BNIBNN_STRUCT_Output_praise0.h
-        src/independent/praise_sets/outputs/CLIB_BNIBNN_STRUCT_Output_UserOutputs.h
+        src/engine/CLIB_BNIBNN_Framework_App_Execute_Control.cpp
+        src/independent/binary_neural_network/CLIB_BNIBNN_STRUCT_bnn.cpp
+        src/independent/binary_neural_network/CLIB_BNIBNN_STRUCT_bnn_MetaData.cpp
+        src/independent/binary_neural_network/CLIB_BNIBNN_STRUCT_bnn_Binary.cpp
+        src/independent/binary_neural_network/CLIB_BNIBNN_STRUCT_bnn_Constant.cpp
+        src/independent/binary_neural_network/CLIB_BNIBNN_STRUCT_bnn_Linear.cpp
+        src/independent/neural_path/CLIB_BNIBNN_STRUCT_np.cpp
+        src/independent/neural_path/CLIB_BNIBNN_STRUCT_np_Linear.cpp
+        src/independent/neural_path/CLIB_BNIBNN_STRUCT_np_Node.cpp
+        src/independent/neural_path/CLIB_BNIBNN_STRUCT_np_PraiseSet.cpp
+        src/independent/neural_path/CLIB_BNIBNN_STRUCT_np_PraiseSet.cpp
+        src/independent/praise_sets/do_tasks/CLIB_BNIBNN_STRUCT_DoTask.cpp
+        src/independent/praise_sets/do_tasks/CLIB_BNIBNN_STRUCT_DoTask_praose0.cpp
+        src/independent/praise_sets/do_tasks/CLIB_BNIBNN_STRUCT_DoTask_UserAlgorithms.cpp
+        src/independent/praise_sets/inputs/CLIB_BNIBNN_STRUCT_Input_Data.cpp
+        src/independent/praise_sets/inputs/CLIB_BNIBNN_STRUCT_Input_praise0.cpp
+        src/independent/praise_sets/inputs/CLIB_BNIBNN_STRUCT_Input_UserInputs.cpp
+        src/independent/praise_sets/outputs/CLIB_BNIBNN_STRUCT_Output_Data.cpp
+        src/independent/praise_sets/outputs/CLIB_BNIBNN_STRUCT_Output_praise0.cpp
+        src/independent/praise_sets/outputs/CLIB_BNIBNN_STRUCT_Output_UserOutputs.cpp
 )
 
 target_include_directories(${PROJECT_NAME} PUBLIC

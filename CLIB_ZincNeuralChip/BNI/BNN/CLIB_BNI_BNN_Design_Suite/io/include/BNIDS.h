@@ -8,8 +8,9 @@ extern "C" {
 namespace zinc {
     class BNIBNNDS {
     public:
-        static void* generateBNN(std::byte* sysThreadId, unsigned char* praiseEventId);
-        static unsigned char* runBNN(std::byte* sysThreadId, unsigned char* praiseEventId);
+        static /* HandleId */unsigned char* generateBNN(std::byte* sysThreadId, std::byte* CODE_PARAM, std::byte* NUMBER_OF_INPUTS);
+        static /* Output PARAMETER */unsigned char* runBNN(std::byte* sysThreadId, unsigned char* handleId);
+        static /* objObjectOfPGM */void* get_BNN(std::byte* sysThreadId, unsigned char* handleId);
     private:
         static void stat_App_FUNCT_CLIB_MutexQue_generate_Program(std::byte* sysThreadId, unsigned long long* praiseEventId);
         static bool stat_APP_FUNCT_CLIB_MutexQue_Calc_IsAllINSTANTIATED(std::byte* sysThreadId);

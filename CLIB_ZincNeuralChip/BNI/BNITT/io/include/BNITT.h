@@ -1,6 +1,6 @@
 #ifndef SILICONLIFE_BINARY_NEURAL_INTELLIGENCE_THREAD_TASKS_H
 #define SILICONLIFE_BINARY_NEURAL_INTELLIGENCE_THREAD_TASKS_H
-#import "../../include/CLIB_BNIBNN_Framework.h"
+#include "../../../BNN/CLIB_BNI_BNN_Design_Suite/include/engine/CLIB_BNIBNN_Framework.h"
 #include <array>
 #include <list>
 extern "C" {
