@@ -8,7 +8,7 @@ extern "C" {
     namespace zinc {
         class BNN_Arch {
         public:
-            static /* HandleId */unsigned char* generate_BNN_File(std::byte* sysThreadId, class zinc::CLIB_BNIBNN_Framework* obj, std::string* local_location_to_save_file);
+            static /* HandleId */unsigned char* generate_BNN_File(std::byte* sysThreadId, void* objFram, std::string* local_location_to_save_file);
         private:
             static bool stat_APP_FUNCT_CLIB_BNIBNN_Calc_IsAllINSTANTIATED(std::byte* sysThreadId);
             static void stat_REG_boot1_DEFINE_CLIB_BNIBNN_array_of_isMemberFunctionINSTANTIATED(std::byte* sysThreadId);
