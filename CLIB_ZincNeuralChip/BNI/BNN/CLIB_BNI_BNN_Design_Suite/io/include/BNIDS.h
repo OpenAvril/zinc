@@ -8,7 +8,7 @@ extern "C" {
 namespace zinc {
     class BNIBNNDS {
     public:
-        static /* HandleId */unsigned char* generateBNN(std::byte* sysThreadId, std::byte* CODE_PARAM, std::byte* NUMBER_OF_INPUTS);
+        static /* HandleId */unsigned char* generateBNN(std::byte* sysThreadId, std::byte* ConditionCode, std::byte* NUMBER_OF_INPUTS);
         static /* Output PARAMETER */unsigned char* runBNN(std::byte* sysThreadId, unsigned char* handleId);
         static /* objObjectOfPGM */void* get_BNN(std::byte* sysThreadId, unsigned char* handleId);
     private:

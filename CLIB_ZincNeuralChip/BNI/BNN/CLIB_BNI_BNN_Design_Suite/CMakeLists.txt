@@ -19,11 +19,11 @@ add_executable(${PROJECT_NAME}
         src/independent/binary_neural_network/CLIB_BNIBNN_STRUCT_bnn_Binary.cpp
         src/independent/binary_neural_network/CLIB_BNIBNN_STRUCT_bnn_Constant.cpp
         src/independent/binary_neural_network/CLIB_BNIBNN_STRUCT_bnn_Linear.cpp
-        src/independent/neural_path/CLIB_BNIBNN_STRUCT_np.cpp
-        src/independent/neural_path/CLIB_BNIBNN_STRUCT_np_Linear.cpp
-        src/independent/neural_path/CLIB_BNIBNN_STRUCT_np_Node.cpp
-        src/independent/neural_path/CLIB_BNIBNN_STRUCT_np_PraiseSet.cpp
-        src/independent/neural_path/CLIB_BNIBNN_STRUCT_np_PraiseSet.cpp
+        src/independent/binary_neural_network/neural_path/CLIB_BNIBNN_STRUCT_np.cpp
+        src/independent/binary_neural_network/neural_path/CLIB_BNIBNN_STRUCT_np_Linear.cpp
+        src/independent/binary_neural_network/neural_path/CLIB_BNIBNN_STRUCT_np_Node.cpp
+        src/independent/binary_neural_network/neural_path/CLIB_BNIBNN_STRUCT_np_PraiseSet.cpp
+        src/independent/binary_neural_network/neural_path/CLIB_BNIBNN_STRUCT_np_PraiseSet.cpp
         src/independent/praise_sets/do_tasks/CLIB_BNIBNN_STRUCT_DoTask.cpp
         src/independent/praise_sets/do_tasks/CLIB_BNIBNN_STRUCT_DoTask_praose0.cpp
         src/independent/praise_sets/do_tasks/CLIB_BNIBNN_STRUCT_DoTask_UserAlgorithms.cpp

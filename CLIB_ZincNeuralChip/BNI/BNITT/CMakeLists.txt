@@ -6,6 +6,7 @@ set(CMAKE_CXX_STANDARD 20)
 add_executable(${PROJECT_NAME}
         main.cpp
         io/src/BNITT.cpp
+        src/CLIB_BNIBNN_STRUCT_BNITT.cpp
 )
 
 target_include_directories(${PROJECT_NAME} PUBLIC
