@@ -1,0 +1,13 @@
+//
+// Created by brenton-jmaes on 11/6/26.
+//
+
+#ifndef BNI_CLIB_BNIBNN_FRAMEWORK_APP_EXECUTE_CONTROL_H
+#define BNI_CLIB_BNIBNN_FRAMEWORK_APP_EXECUTE_CONTROL_H
+
+
+class CLIB_BNIBNN_Framework_App_Execute_Control {
+};
+
+
+#endif //BNI_CLIB_BNIBNN_FRAMEWORK_APP_EXECUTE_CONTROL_H
