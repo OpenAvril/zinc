@@ -10,7 +10,7 @@ extern "C" {
             static unsigned char* generateBNI(std::byte* sysThreadId, unsigned char* listOf_FLAG_PraiseEventId);
             static unsigned char* runBNN(std::byte* sysThreadId, unsigned char* bytes_PraiseEventId);
         private:
-            static class zinc::CLIB_BNIBNN_STRUCT_BNITT* stat_App_FUNCT_CLIB_BNIBNN_generate_Program(std::byte* sysThreadId, unsigned long long* praiseEventId);
+            static class zinc::CLIB_BNIBNN_STRUCT_BNITT* stat_App_FUNCT_CLIB_BNIBNN_generate_Program_Linear_Double(std::byte* sysThreadId, unsigned long long* praiseEventId);
             static bool stat_APP_FUNCT_CLIB_BNIBNN_Calc_IsAllINSTANTIATED(std::byte* sysThreadId);
             static void stat_REG_boot1_DEFINE_CLIB_BNIBNN_array_of_isMemberFunctionINSTANTIATED(std::byte* sysThreadId);
             static void stat_REG_boot2_SUBSTANTIATE_CLIB_BNIBNN_array_of_isMemberFunctionINSTANTIATED(std::byte* sysThreadId);
