@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2004-2026, 'zinc::Stemisphore'. SWINBURNE University of
+Copyright (c) 2022-2026, 'zinc::Stemisphore'. SWINBURNE University of
 Technology - Mr Peter O'Donoghue MEng(CompSys), and King Brenton James Maddocks
 BEng(CompSys) - Emperor of Queensland to the King of the Commonwealth (echelon
 three).

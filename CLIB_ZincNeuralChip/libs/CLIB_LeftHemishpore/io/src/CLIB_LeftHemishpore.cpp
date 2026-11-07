@@ -29,7 +29,7 @@ static std::list<zinc::CLIB_LeftHemishpore_Framework*>* stat_CLASS_CLIB_LeftHemi
 	static std::byte* threadAccessId_Of_injection = new std::byte{0x00};
 	static std::byte* threadAccessId_Of_extraction = new std::byte{0x00};
 // public
-	unsigned char* zinc::Epicentre::gernerateHandle(std::byte* sysThreadId) {
+	/unsigned char* zinc::Epicentre::gernerateHandle(std::byte* sysThreadId) {
 		for ( int* index_handleId = new int(1); *index_handleId < CLIB_LeftHemishpore_stat_CLASS_get_List_Of_ptr_CLIB_LeftHemishpore_Framework(sysThreadId)->size(); index_handleId++) {
 			zinc::MutexQue::startByLock(sysThreadId, CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_VUALUEofMsbInt_To_MsbByteArray(sysThreadId, CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, index_handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Execute(sysThreadId)->dyn_PGM_get_HandleId_For_CLIB_MutexQue_Input_LaunchQue_Server(sysThreadId)), sysThreadId);
 			zinc::MutexQue::startByLock(sysThreadId, CLIB_LeftHemishpore_Framework_Global::stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_VUALUEofMsbInt_To_MsbByteArray(sysThreadId, CLIB_LeftHemishpore_stat_CLASS_get_ptr_CLIB_LeftHemishpore_Framework(sysThreadId, index_handleId)->dyn_CLASS_get_ptr_CLIB_LeftHemishpore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Execute(sysThreadId)->dyn_PGM_get_HandleId_For_CLIB_MutexQue_Output_LaunchQue_Server(sysThreadId)),sysThreadId);

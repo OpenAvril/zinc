@@ -53,7 +53,7 @@ SOFTWARE.
 
 MIT License
 
-Copyright (c) 2004-2026, 'zinc::Stemisphore'. SWINBURNE University of
+Copyright (c) 2022-2026, 'zinc::Stemisphore'. SWINBURNE University of
 Technology - Mr Peter O'Donoghue MEng(CompSys), and King Brenton James Maddocks
 BEng(CompSys) - Emperor of Queensland to the King of the Commonwealth (echelon
 three).
@@ -132,7 +132,7 @@ SOFTWARE.
 
 MIT License
 
-Copyright (c) 2004-2026, 'zinc::ThreadsLog'. SWINBURNE University of
+Copyright (c) 2022-2026, 'zinc::ThreadsLog'. SWINBURNE University of
 Technology - Mr Peter O'Donoghue MEng(CompSys), and King Brenton James Maddocks
 BEng(CompSys) - Emperor of Queensland to the King of the Commonwealth (echelon
 three).
@@ -157,24 +157,24 @@ SOFTWARE.
 
 --
 
-Copyright (c) 2004-2026, 'zinc::BNI'. SWINBURNE University of
+Copyright (c) 2022-2026, 'zinc::BNI'. SWINBURNE University of
 Technology - Mr Peter O'Donoghue MEng(CompSys), and King Brenton James Maddocks
 BEng(CompSys) - Emperor of Queensland to the King of the Commonwealth (echelon
 three).
 
 -
 
-Copyright (c) 2004-2026, 'zinc::BNITT'. King Brenton James Maddocks BEng(CompSys)
+Copyright (c) 2022-2026, 'zinc::BNITT'. King Brenton James Maddocks BEng(CompSys)
 - Emperor of Queensland to the King of the Commonwealth (echelon three).
 
 --
 
-Copyright (c) 2004-2026, 'zinc::BNN_Archiving'. King Brenton James Maddocks BEng(CompSys)
+Copyright (c) 2022-2026, 'zinc::BNN_Archiving'. King Brenton James Maddocks BEng(CompSys)
 - Emperor of Queensland to the King of the Commonwealth (echelon three).
 
 --
 
-Copyright (c) 2004-2026, 'zinc::BNI_BNN_DS'. King Brenton James Maddocks BEng(CompSys)
+Copyright (c) 2022-2026, 'zinc::BNI_BNN_DS'. King Brenton James Maddocks BEng(CompSys)
 - Emperor of Queensland to the King of the Commonwealth (echelon three).
 
 --
