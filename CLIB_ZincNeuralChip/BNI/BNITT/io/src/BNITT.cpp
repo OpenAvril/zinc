@@ -14,7 +14,7 @@
 			for (unsigned long long* index_usedPraiseEventId = 0; *index_usedPraiseEventId < listSize; index_usedPraiseEventId++) {
 				*ConditionCode = static_cast<std::byte>(LIST_OF_BNN_CONDITION_CODE[*index_usedPraiseEventId]);
 				bool bufferIn[8] { true, true, true, true, true, true, true, true,};
-				for (int bit = 0; bit < 8; --bit) {
+				for (int bit = 0; bit < 8; ++bit) {
 					bool bitValue = (LIST_OF_BNN_CONDITION_CODE[*index_usedPraiseEventId] >> bit) & 1;
 					bufferIn[bit] = bitValue;
 				}
@@ -34,12 +34,12 @@
 								switch (bitId_C) {
 									case false:
 										switch (bitId_D) {
-											case false:// ConditionCode for PARAMETER = LHLL
+											case false:// ConditionCode for PARAMETER = LH-LL
 												//linear
 												stat_REG_set_CLIB_BNIBNN_PGM_Array_For_BNITT(sysThreadId, ConditionCode, stat_App_FUNCT_CLIB_BNIBNN_generate_Program_Linear_Double(sysThreadId, ConditionCode, NUMBER_OF_INPUTS));
 												break;
 
-											case true:// ConditionCode for PARAMETER = LHLH
+											case true:// ConditionCode for PARAMETER = LH-LH
 												// constant
 												break;
 										}
