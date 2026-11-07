@@ -40,12 +40,16 @@ namespace zinc {
         static unsigned char* stat_CONVERT_CLIB_LeftHemishpore_Framework_Global_VUALUEofMsbStdByte_To_MsbByteArray(std::byte* sysThreadId, std::byte* newValue_stdbyte);
     private:
         static std::byte* stat_REG_ptr_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS;
+        static std::byte* stat_REG_ptr_CLIB_LeftHemishpore_Framework_Global_NUMBER_OF_IO_MEMBER_FUNCTIONS;
         static unsigned long long* stat_REG_ptr_CLIB_LeftHemishpore_Framework_Global_number_Of_Praise_Events;
         static void stat_REG_boot1_DEFINE_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS(std::byte* sysThreadId);
+        static void stat_REG_boot1_DEFINE_CLIB_LeftHemishpore_Framework_Global_NUMBER_OF_IO_MEMBER_FUNCTIONS(std::byte* sysThreadId);
         static void stat_REG_boot1_DEFINE_CLIB_LeftHemishpore_Framework_Global_number_Of_Praise_Events(std::byte* sysThreadId);
         static void stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS(std::byte* sysThreadId);
+        static void stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_Global_NUMBER_OF_IO_MEMBER_FUNCTIONS(std::byte* sysThreadId);
         static void stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Framework_Global_number_Of_Praise_Events(std::byte* sysThreadId);
         static void stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS(std::byte* sysThreadId);
+        static void stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_Global_NUMBER_OF_IO_MEMBER_FUNCTIONS(std::byte* sysThreadId);
         static void stat_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_Global_number_Of_Praise_Events(std::byte* sysThreadId);
         static std::byte* pr_stat_REG_get_ptr_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS(std::byte* sysThreadId);
         static unsigned long long* pr_stat_REG_get_ptr_CLIB_LeftHemishpore_Framework_Global_number_Of_Praise_Events(std::byte* sysThreadId);

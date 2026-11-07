@@ -12,12 +12,11 @@ extern "C" {
 			static void generateProgram(std::byte* sysThreadId);
 			static unsigned char* get_Output(std::byte* sysThreadId, unsigned char* handleId, unsigned char* bytes_praiseId);
 			static unsigned char* get_FLAG_isINITIALISED(std::byte* sysThreadId, unsigned char* handleId);
-			static unsigned char* get_FLAG_isINSTANTIATED(std::byte* sysThreadId);
 			static unsigned char* get_FLAG_isStackLoaded_ServerInputReceive(std::byte* sysThreadId, unsigned char* handleId);
 			static unsigned char* get_FLAG_isStackLoaded_ServerOutputSend(std::byte* sysThreadId, unsigned char* handleId);
 			static unsigned char* get_MetaData_PraiseEventId(std::byte* sysThreadId, unsigned char* handleId);
-			static unsigned char* get_PGM_HandleId_For_MutexQue_At_InputStackBuffer(std::byte* sysThreadId);
-			static unsigned char* get_PGM_HandleId_For_MutexQue_At_OutputStackBuffer(std::byte* sysThreadId);
+			static unsigned char* get_PGM_HandleId_For_MutexQue_At_InputStackBuffer(std::byte* sysThreadId, unsigned char* handleId);
+			static unsigned char* get_PGM_HandleId_For_MutexQue_At_OutputStackBuffer(std::byte* sysThreadId, unsigned char* handleId);
 			static void set_InputItemsFor_praise0(std::byte* sysThreadId, unsigned char* handleId, unsigned char* praiseId, unsigned char* value_A, unsigned char* value_B);
 			static void set_InputItemsFor_praise1(std::byte* sysThreadId, unsigned char* handleId, unsigned char* praiseId, unsigned char* value_A, unsigned char* value_B);
 			static void set_InputItemsFor_praise2(std::byte* sysThreadId, unsigned char* handleId, unsigned char* praiseId, unsigned char* value_A, unsigned char* value_B);
