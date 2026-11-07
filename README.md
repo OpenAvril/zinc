@@ -283,5 +283,10 @@ thread => **SIM_OUT**
 ## Wrapper Imports and Native IO.  ***UNDER DEVELOPMENT***
 
 ---
+
+Copyright (c) 2026 King Brenton James Maddocks BEng(CompSys), Crown of Queensland, of the Commonwealth Empire.
+
 ---
 ---
+---
+
