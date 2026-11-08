@@ -15,9 +15,9 @@ int main() {
     std::this_thread::sleep_for(std::chrono::seconds(2));
     //zinc::ThreadLogs::generateProgram(sysThreadId);
     //std::this_thread::sleep_for(std::chrono::seconds(2));
-    zinc::LaunchQue::generateProgram(sysThreadId);
-    std::this_thread::sleep_for(std::chrono::seconds(2));
     zinc::Stemisphore::generateProgram(sysThreadId);
+    std::this_thread::sleep_for(std::chrono::seconds(2));
+    zinc::LaunchQue::generateProgram(sysThreadId);
     std::this_thread::sleep_for(std::chrono::seconds(2));
     zinc::Epicentre::generateProgram(sysThreadId);
     std::this_thread::sleep_for(std::chrono::seconds(2));
