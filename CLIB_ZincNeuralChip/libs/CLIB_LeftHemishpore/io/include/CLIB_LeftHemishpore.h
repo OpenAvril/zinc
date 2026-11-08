@@ -1,7 +1,6 @@
 #ifndef CLIB_LEFTHEMISPHORE_H
 #define CLIB_LEFTHEMISPHORE_H
 #include <array>
-#include <cstddef>
 #include <list>
 #include "../../include/engine/CLIB_LeftHemishpore_Framework.h"
 extern "C" {
