@@ -22,7 +22,7 @@ extern "C" {
 			static void set_InputItemsFor_praise2(std::byte* sysThreadId, unsigned char* handleId, unsigned char* praiseId, unsigned char* value_A, unsigned char* value_B);
 			static void set_InputItemsFor_praise3(std::byte* sysThreadId, unsigned char* handleId, unsigned char* praiseId, unsigned char* value_A, unsigned char* value_B);
 			static void set_MetaData_PraiseEventId(std::byte* sysThreadId, unsigned char* handleId, unsigned char* praiseId);
-			static void reInitialiseHandle(std::byte* sysThreadId, unsigned char* handleId, std::byte* NUMBER_OF_TASK_THREADS);
+			static void reInitialiseHandle(std::byte* sysThreadId, unsigned char* handleId, std::byte* NUMBER_OF_TASK_THREADS, std::byte* NUMBER_OF_THREADS_FOR_ONE_SIDE_OF_INJECTORS_EXTRACTORS);
 			static void terminateProgram(std::byte* sysThreadId);
 		private:
 			static void stat_app_do_CLIB_LeftHemishpore_STRUCT_Input_MetaData(std::byte* sysThreadId, CLIB_LeftHemishpore_Framework* obj, unsigned char* handleId, unsigned char* praiseId);
