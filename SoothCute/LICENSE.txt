@@ -1,0 +1,4 @@
+Copyright (c) 2022-2026, 'zinc::MutexQue'. SWINBURNE University of
+Technology - Mr Peter O'Donoghue MEng(CompSys), and King Brenton James Maddocks
+BEng(CompSys) - Emperor of Queensland to the King of the Commonwealth (echelon
+three).

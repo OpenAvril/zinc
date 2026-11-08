@@ -1,0 +1,13 @@
+//
+// Created by brenton-jmaes on 11/6/26.
+//
+
+#ifndef BNI_CLIB_BNIBNN_STRUCT_OUTPUT_PRAISE0_H
+#define BNI_CLIB_BNIBNN_STRUCT_OUTPUT_PRAISE0_H
+
+
+class CLIB_BNIBNN_STRUCT_Output_praise0 {
+};
+
+
+#endif //BNI_CLIB_BNIBNN_STRUCT_OUTPUT_PRAISE0_H

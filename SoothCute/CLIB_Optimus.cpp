@@ -87,7 +87,6 @@
 		zinc::Epicentre::generateProgram(sysThreadId);
 		unsigned char* tempE1 = zinc::Epicentre::get_Output(sysThreadId, handleId, praiseId);
 		unsigned char* tempE2 = zinc::Epicentre::get_FLAG_isINITIALISED(sysThreadId, handleId);
-		unsigned char* tempE3 = zinc::Epicentre::get_FLAG_isINSTANTIATED(sysThreadId);
 		unsigned char* tempE4 = zinc::Epicentre::get_FLAG_isStackLoaded_ServerInputReceive(sysThreadId, handleId);
 		unsigned char* tempE5 = zinc::Epicentre::get_FLAG_isStackLoaded_ServerOutputSend(sysThreadId, handleId);
 		unsigned char* tempE6 = zinc::Epicentre::get_MetaData_PraiseEventId(sysThreadId, handleId);
@@ -96,7 +95,7 @@
 		zinc::Epicentre::set_InputItemsFor_praise2(sysThreadId, handleId, praiseId, bytes_Double, bytes_Double);
 		zinc::Epicentre::set_InputItemsFor_praise3(sysThreadId, handleId, praiseId, bytes_Double, bytes_Double);
 		zinc::Epicentre::set_MetaData_PraiseEventId(sysThreadId, handleId, praiseId);
-		zinc::Epicentre::reInitialiseHandle(sysThreadId, handleId, stdByte);
+		zinc::Epicentre::reInitialiseHandle(sysThreadId, handleId, stdByte, stdByte);
 		zinc::Epicentre::terminateProgram(sysThreadId);
 }
 	std::array<bool, 1> zinc::SoothCute::zinc_SoothCute_stat_REG_get_array_of_isMemberFunctionINSTANTIATED(std::byte* sysThreadId) {

@@ -1,0 +1,13 @@
+//
+// Created by brenton-jmaes on 11/6/26.
+//
+
+#ifndef BNI_CLIB_BNIBNN_STRUCT_DOTASK_USERALGORITHM_H
+#define BNI_CLIB_BNIBNN_STRUCT_DOTASK_USERALGORITHM_H
+
+
+class CLIB_BNIBNN_STRUCT_DoTask_UserAlgorithms {
+};
+
+
+#endif //BNI_CLIB_BNIBNN_STRUCT_DOTASK_USERALGORITHM_H

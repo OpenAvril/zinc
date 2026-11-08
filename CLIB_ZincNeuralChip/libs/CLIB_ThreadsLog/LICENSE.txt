@@ -1,13 +1,15 @@
-Copyright (c) 2026, CLIB_Bus_STRUCT_SingleBus, Brenton James Maddocks, King Crown of Queensland to
-the King Emperor of the Commonwealth.
+Copyright (c) 2026, CLIB_Bus_STRUCT_SingleBus, King Brenton James Maddocks
+BEng(CompSys) - Emperor of Queensland to the King of the Commonwealth (echelon
+three).
 
 -
 
 MIT License
 
-Copyright (c) 2026, CLIB Write Que For Threads At Register Sets. SWINBURNE 
-University of Technology - Peter O'Donoghue and King Brenton James Maddocks 
-Crown of Queensland BEng(CompSys).
+Copyright (c) 2004-2026, 'zinc::ThreadsLog'. SWINBURNE University of
+Technology - Mr Peter O'Donoghue MEng(CompSys), and King Brenton James Maddocks
+BEng(CompSys) - Emperor of Queensland to the King of the Commonwealth (echelon
+three).
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

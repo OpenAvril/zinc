@@ -1,6 +1,8 @@
 MIT License
 
-Copyright (c) 2026 LeftHemishpore - Concurrent Input/Output Server. Brenton James Maddocks BEng(CompSys).
+Copyright (c) 2022 - 2026, 'zinc::Epicentre'. King Brenton James Maddocks
+BEng(CompSys) - Emperor of Queensland to the King of the Commonwealth (echelon
+three).
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -20,11 +22,13 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
--
+--
 
 MIT License
 
-Copyright (c) 2022 - 2026 OpenAvril - Library for Request, Wait & Launch Next Free Concurrent Thread At Ends. Brenton James Maddocks BEng(CompSys).
+Copyright (c) 2022 - 2026, 'zinc::LaunchQue'. King Brenton James Maddocks
+BEng(CompSys) - Emperor of Queensland to the King of the Commonwealth (echelon
+three).
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -68,11 +72,14 @@ The copyright notices in the Software and this entire statement, including the a
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR ANYONE DISTRIBUTING THE SOFTWARE BE LIABLE FOR ANY DAMAGES OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
--
+--
 
 MIT License
 
-Copyright (c) 2022 - 2026 OpenAvril - Library for Request, Wait, Write for Threads at Stacks. Brenton James Maddocks BEng(CompSys).
+Copyright (c) 2004-2026, 'zinc::MutexQue'. SWINBURNE University of
+Technology - Mr Peter O'Donoghue MEng(CompSys), and King Brenton James Maddocks
+BEng(CompSys) - Emperor of Queensland to the King of the Commonwealth (echelon
+three).
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
