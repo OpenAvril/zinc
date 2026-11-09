@@ -53,12 +53,12 @@
 		//zinc::ThreadLogs::reInitialiseProgram(sysThreadId, MAX_NUMBER_OF_THREADS_FOR_ACCESS);
 		//zinc::ThreadLogs::terminateProgram(sysThreadId);
 
-		zinc::MutexQue::endByUnlock(sysThreadId, handleId, stdByte);
+		zinc::MutexQue::endByUnlock(sysThreadId, handleId, bytes_UnsignedLongLong);
 		int* tempF0 = msbByteArray_To_valueOfmsbInt(sysThreadId, zinc::MutexQue::generateHandle(sysThreadId));
 		//zinc::MutexQue::generateProgram(sysThreadId);
 		unsigned char* tempF1 = zinc::MutexQue::isINSTANTIATED(sysThreadId);
-		zinc::MutexQue::reInitialiseHandle(sysThreadId, handleId, stdByte);
-		zinc::MutexQue::startByLock(sysThreadId, handleId, stdByte);
+		zinc::MutexQue::reInitialiseHandle(sysThreadId, handleId, bytes_UnsignedLongLong);
+		zinc::MutexQue::startByLock(sysThreadId, handleId, bytes_UnsignedLongLong);
 		zinc::MutexQue::terminateProgram(sysThreadId, handleId);
 
 		int* tempC0 = zinc::LaunchQue::generateHandle(sysThreadId);

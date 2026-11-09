@@ -47,10 +47,10 @@ namespace zinc {
         static bool* stat_REG_FLAG_CLIB_MutexQue_FLAG_Control_isWriteEndThreadRELASE_ONE;
         static bool* stat_REG_FLAG_CLIB_MutexQue_FLAG_Control_isWriteEndThreadRELASE_REMAINING;
         static std::array<std::array<bool, 2>, 3>* stat_REG_CONST_CLIB_MutexQue_Framework_App_Control_2bitFLAG_STATE;
-        static std::list<unsigned long long*>* stat_REG_LIST_Of_CLIB_MutexQue_Framework_App_Control_WriteACTIVE_Count_For_ThreadId;
-        static std::list<unsigned long long*>* stat_REG_LIST_Of_CLIB_MutexQue_Framework_App_Control_WriteIDLE_Count_For_ThreadId;
-        static std::list<unsigned long long*>* stat_REG_LIST_Of_CLIB_MutexQue_Framework_App_Control_WriteWAIT_Count_For_ThreadId;
-        static std::list<unsigned long long*>* stat_REG_QUE_Of_CLIB_MutexQue_Framework_App_Control_ThreadId_To_WRITE;
+        static std::list<unsigned long long>* stat_REG_LIST_Of_CLIB_MutexQue_Framework_App_Control_WriteACTIVE_Count_For_ThreadId;
+        static std::list<unsigned long long>* stat_REG_LIST_Of_CLIB_MutexQue_Framework_App_Control_WriteIDLE_Count_For_ThreadId;
+        static std::list<unsigned long long>* stat_REG_LIST_Of_CLIB_MutexQue_Framework_App_Control_WriteWAIT_Count_For_ThreadId;
+        static std::list<unsigned long long>* stat_REG_QUE_Of_CLIB_MutexQue_Framework_App_Control_ThreadId_To_WRITE;
         static unsigned long long* stat_REG_ptr_CLIB_MutexQue_Framework_App_Control_writeCycle_Try_WriteStartThreadId_Index;
         static unsigned long long* stat_REG_ptr_CLIB_MutexQue_Framework_App_Control_writeCycle_Try_WriteEndThreadId_Index;
         static void stat_REG_boot1_DEFINE_ptr_FLAG_CLIB_MutexQue_Framework_App_Control_isWriteStartThreadRELASE_ONE(std::byte* sysThreadId);
@@ -94,7 +94,7 @@ namespace zinc {
         static unsigned long long* stat_REG_get_ptr_list_Of_CLIB_MutexQue_Framework_App_Control_WriteActive_Count_For_ThreadId(std::byte* sysThreadId, unsigned long long* coreId);
         static unsigned long long* stat_REG_get_ptr_list_Of_CLIB_MutexQue_Framework_App_Control_WriteIdle_Count_For_ThreadId(std::byte* sysThreadId, unsigned long long* coreId);
         static unsigned long long* stat_REG_get_ptr_list_Of_CLIB_MutexQue_Framework_App_Control_WriteWait_Count_For_ThreadId(std::byte* sysThreadId, unsigned long long* coreId);
-        static std::list<unsigned long long*>* stat_REG_get_ptr_QUE_CLIB_MutexQue_Framework_App_Control_List_Of_ThreadToWrite(std::byte* sysThreadId);
+        static std::list<unsigned long long>* stat_REG_get_ptr_QUE_CLIB_MutexQue_Framework_App_Control_List_Of_ThreadToWrite(std::byte* sysThreadId);
         static unsigned long long* stat_REG_get_ptr_CLIB_MutexQue_Framework_App_Control_writeCycle_Try_WriteStartsysThreadId_Index(std::byte* sysThreadId, unsigned long long* coreId);
         static unsigned long long* stat_REG_get_ptr_CLIB_MutexQue_Framework_App_Control_writeCycle_Try_WriteEndsysThreadId_Index(std::byte* sysThreadId, unsigned long long* coreId);
         static void stat_REG_set_FLAG_CLIB_MutexQue_Framework_App_Control_isWriteStartThreadRELASE_ONE(std::byte* sysThreadId, bool newFLAG);
