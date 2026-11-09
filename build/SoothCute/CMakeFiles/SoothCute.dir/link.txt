@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSoothCute.a CMakeFiles/SoothCute.dir/CLIB_Optimus.cpp.o
+/usr/bin/ranlib libSoothCute.a

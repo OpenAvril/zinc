@@ -5,7 +5,7 @@
 	static std::list<class zinc::CLIB_BNIBNN_Framework*> stat_REG_Of_PGM_Array_For_BNITT;
 // public.
 	unsigned char* zinc::BNITT::generateBNI(std::byte* sysThreadId, unsigned char* listOf_FLAG_PraiseEventId) {
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << " :: entered LIB :: CLIB : CLIB_MutexQue : unlock(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_MutexQue : unlock(sysThreadId)" << std::endl;
 		auto result = new std::list<class zinc::Object*>;
 		if (!stat_REG_get_CLIB_BNIBNN_array_of_isMemberFunctionINSTANTIATED(sysThreadId)->at(0)) {
 			std::list<bool>* temp_listOf_FLAG_PraiseEventId = CLIB_BNI_BNN_Framework_Global::stat_CONVERT_MsbByteArray_To_MsbListOfBool(sysThreadId, listOf_FLAG_PraiseEventId);
@@ -19,7 +19,7 @@
 			stat_REG_get_CLIB_BNIBNN_array_of_isMemberFunctionINSTANTIATED(sysThreadId)->at(1) = !stat_REG_get_CLIB_BNIBNN_array_of_isMemberFunctionINSTANTIATED(sysThreadId)->at(0);
 			stat_APP_FUNCT_CLIB_BNIBNN_Calc_IsAllINSTANTIATED(sysThreadId);
 		}
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << " :: exiting LIB :: CLIB : CLIB_MutexQue : unlock(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_MutexQue : unlock(sysThreadId)" << std::endl;
 		return result;
 	}
 	unsigned char* zinc::BNITT::runBNN(std::byte* sysThreadId, unsigned char* bytes_PraiseEventId) {

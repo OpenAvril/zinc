@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/zinc_stemisphore.dir/__/CLIB_MutexQue/src/CLIB_MutexQue_Framework.cpp.o"
+  "CMakeFiles/zinc_stemisphore.dir/__/CLIB_MutexQue/src/CLIB_MutexQue_Framework.cpp.o.d"
+  "CMakeFiles/zinc_stemisphore.dir/__/CLIB_MutexQue/src/CLIB_MutexQue_Framework_App.cpp.o"
+  "CMakeFiles/zinc_stemisphore.dir/__/CLIB_MutexQue/src/CLIB_MutexQue_Framework_App.cpp.o.d"
+  "CMakeFiles/zinc_stemisphore.dir/__/CLIB_MutexQue/src/CLIB_MutexQue_Framework_App_Control.cpp.o"
+  "CMakeFiles/zinc_stemisphore.dir/__/CLIB_MutexQue/src/CLIB_MutexQue_Framework_App_Control.cpp.o.d"
+  "CMakeFiles/zinc_stemisphore.dir/__/CLIB_MutexQue/src/CLIB_MutexQue_Framework_Global.cpp.o"
+  "CMakeFiles/zinc_stemisphore.dir/__/CLIB_MutexQue/src/CLIB_MutexQue_Framework_Global.cpp.o.d"
+  "CMakeFiles/zinc_stemisphore.dir/io/src/CLIB_SystemBus.cpp.o"
+  "CMakeFiles/zinc_stemisphore.dir/io/src/CLIB_SystemBus.cpp.o.d"
+  "CMakeFiles/zinc_stemisphore.dir/src/CLIB_SystemBus_Framework.cpp.o"
+  "CMakeFiles/zinc_stemisphore.dir/src/CLIB_SystemBus_Framework.cpp.o.d"
+  "CMakeFiles/zinc_stemisphore.dir/src/CLIB_SystemBus_Framework_App.cpp.o"
+  "CMakeFiles/zinc_stemisphore.dir/src/CLIB_SystemBus_Framework_App.cpp.o.d"
+  "CMakeFiles/zinc_stemisphore.dir/src/CLIB_SystemBus_Framework_App_Execute.cpp.o"
+  "CMakeFiles/zinc_stemisphore.dir/src/CLIB_SystemBus_Framework_App_Execute.cpp.o.d"
+  "CMakeFiles/zinc_stemisphore.dir/src/CLIB_SystemBus_Framework_Global.cpp.o"
+  "CMakeFiles/zinc_stemisphore.dir/src/CLIB_SystemBus_Framework_Global.cpp.o.d"
+  "CMakeFiles/zinc_stemisphore.dir/src/independent/CLIB_Bus_STRUCT_SingleBus.cpp.o"
+  "CMakeFiles/zinc_stemisphore.dir/src/independent/CLIB_Bus_STRUCT_SingleBus.cpp.o.d"
+  "CMakeFiles/zinc_stemisphore.dir/src/independent/CLIB_Bus_STRUCT_SingleBus_Framework.cpp.o"
+  "CMakeFiles/zinc_stemisphore.dir/src/independent/CLIB_Bus_STRUCT_SingleBus_Framework.cpp.o.d"
+  "CMakeFiles/zinc_stemisphore.dir/src/independent/CLIB_Bus_STRUCT_SingleBus_Framework_App.cpp.o"
+  "CMakeFiles/zinc_stemisphore.dir/src/independent/CLIB_Bus_STRUCT_SingleBus_Framework_App.cpp.o.d"
+  "CMakeFiles/zinc_stemisphore.dir/src/independent/CLIB_Bus_STRUCT_SingleBus_Framework_App_Data.cpp.o"
+  "CMakeFiles/zinc_stemisphore.dir/src/independent/CLIB_Bus_STRUCT_SingleBus_Framework_App_Data.cpp.o.d"
+  "CMakeFiles/zinc_stemisphore.dir/src/independent/CLIB_Bus_STRUCT_SingleBus_Framework_App_Execute.cpp.o"
+  "CMakeFiles/zinc_stemisphore.dir/src/independent/CLIB_Bus_STRUCT_SingleBus_Framework_App_Execute.cpp.o.d"
+  "CMakeFiles/zinc_stemisphore.dir/src/independent/CLIB_Bus_STRUCT_SingleBus_Framework_Global.cpp.o"
+  "CMakeFiles/zinc_stemisphore.dir/src/independent/CLIB_Bus_STRUCT_SingleBus_Framework_Global.cpp.o.d"
+  "CMakeFiles/zinc_stemisphore.dir/src/independent/CLIB_Bus_STRUCT_SingleBus_STRUCT_BusDATA.cpp.o"
+  "CMakeFiles/zinc_stemisphore.dir/src/independent/CLIB_Bus_STRUCT_SingleBus_STRUCT_BusDATA.cpp.o.d"
+  "CMakeFiles/zinc_stemisphore.dir/src/independent/CLIB_Bus_STRUCT_SingleBus_STRUCT_BusDATA_CLASS_StemTicket.cpp.o"
+  "CMakeFiles/zinc_stemisphore.dir/src/independent/CLIB_Bus_STRUCT_SingleBus_STRUCT_BusDATA_CLASS_StemTicket.cpp.o.d"
+  "libzinc_stemisphore.a"
+  "libzinc_stemisphore.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/zinc_stemisphore.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

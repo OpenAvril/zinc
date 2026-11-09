@@ -9,7 +9,7 @@ namespace zinc {
     public:
         CLIB_LeftHemishpore_Framework_App_Algorithms(std::byte* sysThreadId);
         virtual ~CLIB_LeftHemishpore_Framework_App_Algorithms();
-        struct CLIB_LeftHemishpore_STRUCT_Concurrent* dyn_STRUCT_get_Item_On_list_Of_ptr_Concurrent(std::byte* sysThreadId, std::byte* concurrentThreadId);
+        struct CLIB_LeftHemishpore_STRUCT_Concurrent* dyn_STRUCT_get_Item_On_list_Of_ptr_Concurrent(std::byte* sysThreadId, std::byte*  concurrentThreadId);
         void dyn_REG_boot1_DEFINE_CLIB_LeftHemishpore_Algorithm(std::byte* sysThreadId, class CLIB_LeftHemishpore_Framework* obj);
         void dyn_REG_boot2_SUBSTANTIATE_CLIB_LeftHemishpore_Algorithm(std::byte* sysThreadId);
         void dyn_REG_boot3_INITIALISE_CLIB_LeftHemishpore_Algorithm(std::byte* sysThreadId, class CLIB_LeftHemishpore_Framework* obj, struct CLIB_LeftHemishpore_STRUCT_Concurrent* objConcurrent);
