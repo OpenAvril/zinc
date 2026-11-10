@@ -23,7 +23,7 @@ namespace zinc {
         static unsigned long long* stat_REG_get_CLIB_LeftHemishpore_Framework_Global_Item_NUMBER_OF_PRAISE_EVENTS(std::byte* sysThreadId);
         static void stat_REG_set_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS(std::byte* sysThreadId, std::byte* MAX_NUMBER_OF_THREADS);
         static void stat_REG_set_CLIB_LeftHemishpore_Framework_Global_NUMBER_OF_THREADS_FOR_ONE_SIDE_OF_INJECTORS_EXTRACTORS(std::byte* sysThreadId, std::byte* NUMBER_OF_THREADS_FOR_ONE_SIDE_OF_INJECTORS_EXTRACTORS);
-        static void stat_REG_set_CLIB_LeftHemishpore_Framework_Global_NUMBER_OF_PRAISE_EVENTS(std::byte* sysThreadId, std::byte* NUMBER_OF_THREADS_FOR_ONE_SIDE_OF_INJECTORS_EXTRACTORS);
+        static void stat_REG_set_CLIB_LeftHemishpore_Framework_Global_NUMBER_OF_PRAISE_EVENTS(std::byte* sysThreadId, std::byte* NUMBER_OF_PRAISE_EVENTS);
         static void stat_CLASS_boot0_DECLARE_CLIB_LeftHemishpore_Framework_Global(std::byte* sysThreadId);
         static void stat_CLASS_boot1_DEFINE_CLIB_LeftHemishpore_Framework_Global(std::byte* sysThreadId);
         static void stat_CLASS_boot3_INITIALISE_CLIB_LeftHemishpore_Framework_Global(std::byte* sysThreadId);

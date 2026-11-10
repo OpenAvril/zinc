@@ -246,11 +246,14 @@ unsigned char* zinc::CLIB_LeftHemishpore_Framework_Global::stat_APP_CONVERT_CLIB
         return stat_REG_ptr_CLIB_LeftHemishpore_Framework_Global_NUMBER_OF_PRAISE_EVENTS;
     }
     void zinc::CLIB_LeftHemishpore_Framework_Global::pr_stat_REG_set_CLIB_LeftHemishpore_Framework_Global_NUMBER_OF_PRAISE_EVENTS(std::byte* sysThreadId, std::byte NUMBER_OF_THREADS_FOR_ONE_SIDE_OF_INJECTORS_EXTRACTORS) {
+        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: => std::byte* : pr_stat_REG_set_CLIB_LeftHemishpore_Framework_Global_NUMBER_OF_PRAISE_EVENTS(sysThreadId). " << std::endl;
         *stat_REG_ptr_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS = NUMBER_OF_THREADS_FOR_ONE_SIDE_OF_INJECTORS_EXTRACTORS;
     }
     void zinc::CLIB_LeftHemishpore_Framework_Global::pr_stat_REG_set_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS(std::byte* sysThreadId, std::byte MAX_NUMBER_OF_THREADS) {
+        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: => std::byte* : pr_stat_REG_set_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS(sysThreadId). " << std::endl;
         *stat_REG_ptr_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS = MAX_NUMBER_OF_THREADS;
     }
     void zinc::CLIB_LeftHemishpore_Framework_Global::pr_stat_REG_set_CLIB_LeftHemishpore_Framework_Global_NUMBER_OF_THREADS_FOR_ONE_SIDE_OF_INJECTORS_EXTRACTORS(std::byte* sysThreadId, std::byte NUMBER_OF_THREADS_FOR_ONE_SIDE_OF_INJECTORS_EXTRACTORS) {
+        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: => std::byte* : pr_stat_REG_set_CLIB_LeftHemishpore_Framework_Global_NUMBER_OF_THREADS_FOR_ONE_SIDE_OF_INJECTORS_EXTRACTORS(sysThreadId). " << std::endl;
         *stat_REG_ptr_CLIB_LeftHemishpore_Framework_Global_MAX_NUMBER_OF_THREADS = NUMBER_OF_THREADS_FOR_ONE_SIDE_OF_INJECTORS_EXTRACTORS;
     }

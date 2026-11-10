@@ -57,9 +57,9 @@
 	void zinc::MutexQue::reInitialiseHandle(std::byte* sysThreadId, unsigned char* handleId, unsigned char* MAX_NUMBER_OF_THREADS_FOR_ACCESS) {
 		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_MutexQue : reInitialiseHandle(sysThreadId)" << std::endl;
 		auto temp = CLIB_MutexQue_stat_PGM_get_array_of_ptr_CLIB_MutexQue(sysThreadId)->begin();
-		std::advance(temp, *handleId);
-		const auto tempObj = *temp;
-		tempObj->dyn_CLASS_get_ptr_CLIB_MutexQue_Global(sysThreadId)->stat_REG_set_CLIB_MutexQue_MAX_NUMBER_OF_THREADS_FOR_ACCESS_ID(sysThreadId, CLIB_MutexQue_Framework_Global::stat_CONVERT_CLIB_MutexQue_Framework_Global_MsbByteArray_To_VUALUEofMsbunsignedLongLong(sysThreadId, MAX_NUMBER_OF_THREADS_FOR_ACCESS));
+		std::advance(temp, *CLIB_MutexQue_Framework_Global::stat_CONVERT_CLIB_MutexQue_Framework_Global_MsbByteArray_To_VUALUEofMsbInt(sysThreadId, handleId));
+		auto tempObj = *temp;
+		tempObj->dyn_CLASS_get_ptr_CLIB_MutexQue_Global(sysThreadId)->stat_REG_set_CLIB_MutexQue_MAX_NUMBER_OF_THREADS_FOR_ACCESS_ID(sysThreadId,CLIB_MutexQue_Framework_Global::stat_CONVERT_CLIB_MutexQue_Framework_Global_MsbByteArray_To_VUALUEofMsbunsignedLongLong(sysThreadId, MAX_NUMBER_OF_THREADS_FOR_ACCESS));
 		tempObj->dyn_CLASS_get_ptr_CLIB_MutexQue_App(sysThreadId)->dyn_CLASS_get_ptr_CLIB_MutexQue_App_Control(sysThreadId)->dyn_REG_boot3_REINITIALISE_CLIB_MutexQue_Framework_App_Control_For_New_Access_Count(sysThreadId, tempObj);
 		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_MutexQue : reInitialiseHandle(sysThreadId)" << std::endl;
 	}

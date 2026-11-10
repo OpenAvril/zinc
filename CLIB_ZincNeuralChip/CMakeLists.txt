@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_subdirectory(libs/CLIB_MutexQue)
-add_subdirectory(libs/CLIB_Stemisphore)
+/add_subdirectory(libs/CLIB_Stemisphore)
 add_subdirectory(libs/CLIB_LaunchQue)
 add_subdirectory(libs/CLIB_LeftHemishpore)
 
