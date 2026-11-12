@@ -101,24 +101,24 @@ Wi-Fi hi and low bandwidth direct injection to a independent thread 'access-id (
   - [(x/2)^2 - (x/2)] number of Busses.
 
 ---
-### In A Unified Image
+#### In A Unified Image
 - **Id**                  : binary neural algorithms. : left hemisphore as self requested tasks, right hemisphore as communicated tasks; for 'slif_epicentre'.
 - **Ego**                 : binary neural controls.
 - **Super-Ego**           : binary neural Directive Feng Shui Karmas.
 
 
 ---
-### Id : binary neural algorithms.
+#### Id : binary neural algorithms.
 slif_epicentre INJECTION paths:
   - left hemisphore as self requested tasks. 
   - right hemisphore as communicated tasks.
 
 ---
-### Ego : binary neural controls.
+#### Ego : binary neural controls.
   - BOOLEAN states of "desire" = 'active', 'idle'., for all 'praise-Id' events.
 
 ---
-### SuperEgo: binary neural Directive Feng Shui Karmas.
+#### SuperEgo: binary neural Directive Feng Shui Karmas.
   - Scorpio - Trust in Truth.
   - Sagittarius - Intellect in Intuition.
   - Capricorn - Expression in Perception.
