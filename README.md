@@ -205,6 +205,63 @@ cmake --build build
 ---
 ---
 ---
+## Using.
+### LINUX Ubuntu.
+
+**version:** Ubuntu 24.04.4 LTS.
+
+### CLion.
+
+**Version:** 2026.1.2.
+
+---
+### Dependencies.
+- [Open Source suite install script for Silicon Life Engineering.](https://github.com/.../Linux.../blob/main/freshinstall.sh)
+
+#### CLion plugins.
+
+- Native Build Tools.
+
+- Cmake.
+
+- CLion C and C++.
+
+#### CLion: Clone from GuitHub.
+
+ - File - > New -> Project from Version Control.
+ 
+ - URL : user entry https://github.com/OpenAvril/zinc
+
+---
+#### Building - Compiler Terminal Commands.
+
+Change Directory > zinc > CLIB_ZincNeuralChip > libs > Control > libs > CLIB_MutexQue.
+
+(where "CmakeList.txt' is located) 
+
+*** Load Root CMake Project ***
+
+cmake -B build
+
+cmake --build build
+
+---
+#### Using.
+
+#include "...CLIB_MutexQue.h"
+
+zinc::MutexQue::generateProgram(sysThreadId);
+
+int* stat_REG_HandleId_For_PGM_zincMutexQue = zinc::MutexQue::generateHandle(sysThreadId);
+
+zinc::MutexQue::reInitialiseHandle(sysThreadId, handleId, MAX_NUMBER_OF_THREADS_FOR_ACCESS);
+
+zinc::MutexQue::startByLock(sysThreadId, handleId, ACCESS_ID);
+
+zinc::MutexQue::endByUnlock(sysThreadId, handleId, ACCESS_ID);
+
+---
+---
 # Implementation.
 
 ---
