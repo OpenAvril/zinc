@@ -6,7 +6,7 @@ Stemisphore : zinc_stemisphore, v-1.2.0.
 
 LaunchQue : zinc_launch_que, v-1.2.0.
 
-LeftHemisphore : zinc_epicentre. ***TEMPLATE for user Compilation*** ***UNDER DEVELOPMENT***
+LeftHemisphore : zinc_epicentre. ***TEMPLATE for user Compilation*** **UNDER DEVELOPMENT**
  
 ---
 ---
