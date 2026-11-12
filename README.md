@@ -32,51 +32,6 @@ The project contains architectural implementations centered heavily around high-
 The Silicon Life Project reverlates the field of digital electronics post epitome, which is what I bring after six year reduced hours.
 A master by coursework with five specialisation electives, I propose Convener of Masters of Engineering – Silicon Life Engineer; (1) Concurrent Embedded Control Systems, (2) Concurrency; Core, Post-Process., (3) Concurrent Networking, (4) Concurrent Bus Systems. (5) Concurrent Full Stack Development, (6) Hemesphoric Binary Neural Intelligence..
 
----
----
-## Binary Neural Inteligence. ***UNDER DEVELOPMENT***
-
----
-### BNI : zinc_bni_bnn_design_suite. ***UNDER DEVELOPMENT***
-
-  - 3x Zones: Id, Ego, SuperEgo.
-  - 2x Hemisphores; Left, Right. per Zone, and 'x' number of Junctions to all parts of the Hemisphore.
-  - [(x/2)^2 - (x/2)] number of Busses.
-
----
-### In A Unified Image
-- **Id**                  : binary neural algorithms. : left hemisphore as self requested tasks, right hemisphore as communicated tasks; for 'slif_epicentre'.
-- **Ego**                 : binary neural controls.
-- **Super-Ego**           : binary neural Directive Feng Shui Karmas.
-
-
----
-### Id : binary neural algorithms.
-slif_epicentre INJECTION paths:
-  - left hemisphore as self requested tasks. 
-  - right hemisphore as communicated tasks.
-
----
-### Ego : binary neural controls.
-  - BOOLEAN states of "desire" = 'active', 'idle'., for all 'praise-Id' events.
-
----
-### SuperEgo: binary neural Directive Feng Shui Karmas.
-  - Scorpio - Trust in Truth.
-  - Sagittarius - Intellect in Intuition.
-  - Capricorn - Expression in Perception.
-  - Aquarius - Wisdom in Thought.
-  - Pisces - Flexible in Adapting.
-  - Aries - Assertive in Motivation.
-  - Taurus - Power in Momentum.
-  - Gemini - Adaptable in Intellect.
-  - Cancer - Comfort in Emotion.
-  - Leo - Manifestation in Thought
-  - Virgo - Interlect in Emotion.
-  - Libra - Balance in Harmony.
-
-[PSUDOCODE Repository : Binary Neural Intelligence - Java.](https://github.com/OpenAvril/Binary-Neural-Intelligence)
-
 
 ---
 ---
@@ -125,16 +80,70 @@ Left Hemisphore Logic Task Result Deducer: CLIB Concurrent Server with independe
 **TEMPLATE for user Compilation**
 
 ---
-* ThreadsLog: ***UNDER DEVELOPMENT***
+### ThreadsLog: ***UNDER DEVELOPMENT***
   
 Neural Chip Thread Logging:
      
 CLIB Console output via MutexQue, DataCluster is 'Console'.
 
 ---
-* RightHemisphore: ***UNDER DEVELOPMENT***
+### RightHemisphore: ***UNDER DEVELOPMENT***
   
 Wi-Fi hi and low bandwidth direct injection to a independent thread 'access-id (ThreadId)' of stemisphore.
+
+
+--
+---
+## BNI : Binary Neural Inteligence. ***UNDER DEVELOPMENT***
+
+  - 3x Zones: Id, Ego, SuperEgo.
+  - 2x Hemisphores; Left, Right. per Zone, and 'x' number of Junctions to all parts of the Hemisphore.
+  - [(x/2)^2 - (x/2)] number of Busses.
+
+---
+### In A Unified Image
+- **Id**                  : binary neural algorithms. : left hemisphore as self requested tasks, right hemisphore as communicated tasks; for 'slif_epicentre'.
+- **Ego**                 : binary neural controls.
+- **Super-Ego**           : binary neural Directive Feng Shui Karmas.
+
+
+---
+### Id : binary neural algorithms.
+slif_epicentre INJECTION paths:
+  - left hemisphore as self requested tasks. 
+  - right hemisphore as communicated tasks.
+
+---
+### Ego : binary neural controls.
+  - BOOLEAN states of "desire" = 'active', 'idle'., for all 'praise-Id' events.
+
+---
+### SuperEgo: binary neural Directive Feng Shui Karmas.
+  - Scorpio - Trust in Truth.
+  - Sagittarius - Intellect in Intuition.
+  - Capricorn - Expression in Perception.
+  - Aquarius - Wisdom in Thought.
+  - Pisces - Flexible in Adapting.
+  - Aries - Assertive in Motivation.
+  - Taurus - Power in Momentum.
+  - Gemini - Adaptable in Intellect.
+  - Cancer - Comfort in Emotion.
+  - Leo - Manifestation in Thought
+  - Virgo - Interlect in Emotion.
+  - Libra - Balance in Harmony.
+
+[PSUDOCODE Repository : Binary Neural Intelligence - Java.](https://github.com/OpenAvril/Binary-Neural-Intelligence)
+
+---
+### BNITT : zinc_bni_bnn_thread_tasks. ***UNDER DEVELOPMENT***
+
+
+---
+### BNI : BNN : zinc_bni_bnn_archiving. ***UNDER DEVELOPMENT***
+
+
+---
+### BNI : BNN : zinc_bni_bnn_design_suite. ***UNDER DEVELOPMENT***
 
 
 ---
@@ -153,27 +162,6 @@ Wi-Fi hi and low bandwidth direct injection to a independent thread 'access-id (
 ---
 ## Dependencies.
 - [Open Source suite install script for Silicon Life Engineering.](https://github.com/MEngSc-Electrical-ComputerSystems/Linux_bash_scripts/blob/main/freshinstall.sh)
-
-### Ubuntu Terminal.
-````
-sudo apt install git
-````
-
-````
-sudo apt install build-essential
-````
-
-````
-sudo apt install cmake
-````
-
-````
-sudo apt install snapd
-````
-
-````
-sudo snap install clion --classic
-````
 
 ---
 ### CLion plugins.
