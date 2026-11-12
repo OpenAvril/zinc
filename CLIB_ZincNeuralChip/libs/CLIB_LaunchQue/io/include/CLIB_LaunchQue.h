@@ -9,17 +9,16 @@ extern "C" {
         public:
             static int* generateHandle(std::byte* sysThreadId);
             static void generateProgram(std::byte* sysThreadId);
-            static unsigned char* get_coreIdTolaunch(std::byte* sysThreadId, unsigned char* handleId, std::byte* concurrentThreadId);
-            static unsigned char* get_FlagSTATEisActive(std::byte* sysThreadId, unsigned char* handleId, std::byte* concurrentThreadId);
-            static unsigned char* get_FlagSTATEofConcurrentCore(std::byte* sysThreadId, unsigned char* handleId, std::byte* concurrentThreadId);
-            static unsigned char* get_FlagisIdle(std::byte* sysThreadId, unsigned char* handleId, std::byte* concurrentThreadId);
-            static unsigned char* get_FlagSTATEofThreadToLaunch(std::byte* sysThreadId, unsigned char* handleId, std::byte* concurrentThreadId);
-            static unsigned char* isINSTANTIATED(std::byte* sysThreadId);
-            static void reInitialiseHandle(std::byte* sysThreadId, unsigned char* handleId, std::byte* MAX_NUMBER_OF_CONCURRENT_TASK_THREADS);
-            static void set_FlagSTATEofConcurrentCore(std::byte* sysThreadId, unsigned char* handleId, std::byte* concurrentThreadId, bool valueBool);
+            static std::byte* get_coreIdTolaunch(std::byte* sysThreadId, std::byte* handleId, std::byte* concurrentThreadId);
+            static bool get_FlagSTATEisActive(std::byte* sysThreadId, std::byte* handleId, std::byte* concurrentThreadId);
+            static bool get_FlagSTATEofConcurrentCore(std::byte* sysThreadId, std::byte* handleId, std::byte* concurrentThreadId);
+            static bool get_FlagisIdle(std::byte* sysThreadId, std::byte* handleId, std::byte* concurrentThreadId);
+            static bool get_FlagSTATEofThreadToLaunch(std::byte* sysThreadId, std::byte* handleId, std::byte* concurrentThreadId);
+            static void reInitialiseHandle(std::byte* sysThreadId, std::byte* handleId, std::byte* MAX_NUMBER_OF_CONCURRENT_TASK_THREADS);
+            static void set_FlagSTATEofConcurrentCore(std::byte* sysThreadId, std::byte* handleId, std::byte* concurrentThreadId, bool valueBool);
             static void terminateProgaram(std::byte* sysThreadId);
-            static void threadRequestlaunch(std::byte* sysThreadId, unsigned char* handleId, std::byte* concurrentThreadId);
-            static void threadEnd(std::byte* sysThreadId, unsigned char* handleId, std::byte* concurrentThreadId);
+            static void threadRequestlaunch(std::byte* sysThreadId, std::byte* handleId, std::byte* concurrentThreadId);
+            static void threadEnd(std::byte* sysThreadId, std::byte* handleId, std::byte* concurrentThreadId);
         private:
             static int* stat_REG_HandleId_For_PGM_CLIBMutexQue;
             static void CLIB_LaunchQue_generateProgram(std::byte* sysThreadId);

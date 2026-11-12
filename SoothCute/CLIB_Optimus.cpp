@@ -4,7 +4,7 @@
 #include "../CLIB_ZincNeuralChip/libs/CLIB_MutexQue/io/include/CLIB_MutexQue.h"
 #include "../CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/io/include/CLIB_SystemBus.h"
 #include "../CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/io/include/CLIB_LaunchQue.h"
-#include "../CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/io/include/CLIB_LeftHemishpore.h"
+#include "../CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/io/include/CLIB_LeftHemisphore.h"
 #include "../CLIB_ZincNeuralChip/libs/CLIB_MutexQue/include/CLIB_MutexQue_Framework_Global.h"
 //#include "../CLIB_ZincNeuralChip/libs/CLIB_ThreadsLog/include/CLIB_ThreadLogs_Framework_Global.h"
 #include "../CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/include/CLIB_LaunchQue_Framework_Global.h"

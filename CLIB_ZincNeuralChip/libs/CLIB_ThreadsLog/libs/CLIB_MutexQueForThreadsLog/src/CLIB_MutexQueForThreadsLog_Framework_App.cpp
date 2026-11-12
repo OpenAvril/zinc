@@ -43,7 +43,7 @@
         std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_MutexQueForThreadsLog_Framework_App_Control : REG_boot3_INITIALISE_CLIB_MutexQueForThreadsLog_App(sysThreadId)" << std::endl;
         std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_MutexQueForThreadsLog_Framework_App_Control : REG_boot3_INITIALISE_CLIB_MutexQueForThreadsLog_App(sysThreadId)" << std::endl;
     }
-    void zinc::CLIB_MutexQueForThreadsLog_Framework_App::dyn_APP_FUNCT_write_End(std::byte* sysThreadId, zinc::CLIB_MutexQueForThreadsLog_Framework* obj, std::byte* coreId) {
+    void zinc::CLIB_MutexQueForThreadsLog_Framework_App::dyn_APP_FUNCT_write_End(std::byte* sysThreadId, zinc::CLIB_MutexQueForThreadsLog_Framework* obj, uint8_t* coreId) {
         //std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_MutexQueForThreadsLog_Framework_App_Control : dyn_APP_FUNCT_write_End(sysThreadId)" << std::endl;
         while (obj->dyn_CLASS_get_ptr_CLIB_MutexQueForThreadsLog_App(sysThreadId)->dyn_CLASS_get_ptr_CLIB_MutexQueForThreadsLog_App_Control(sysThreadId)->dyn_REG_get_FLAG_CLIB_MutexQueForThreadsLog_Framework_App_Control_isWriteEndThreadRELASE_ONE(sysThreadId)) {
             obj->dyn_CLASS_get_ptr_CLIB_MutexQueForThreadsLog_App(sysThreadId)->dyn_CLASS_get_ptr_CLIB_MutexQueForThreadsLog_App_Control(sysThreadId)->dyn_APP_FUNCT_CLIB_MutexQueForThreadsLog_Framework_App_Control_dynamicIn(sysThreadId, obj, coreId);
@@ -61,7 +61,7 @@
         obj->dyn_CLASS_get_ptr_CLIB_MutexQueForThreadsLog_App(sysThreadId)->dyn_CLASS_get_ptr_CLIB_MutexQueForThreadsLog_App_Control(sysThreadId)->dyn_REG_set_FLAG_CLIB_MutexQueForThreadsLog_Framework_App_Control_isWriteStartThreadRELASE_REMAINING(sysThreadId, true);
         //std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_MutexQueForThreadsLog_Framework_App_Control : dyn_APP_FUNCT_write_End(sysThreadId)" << std::endl;
     }
-    void zinc::CLIB_MutexQueForThreadsLog_Framework_App::dyn_APP_FUNCT_write_Start(std::byte* sysThreadId, zinc::CLIB_MutexQueForThreadsLog_Framework* obj, std::byte* coreId) {
+    void zinc::CLIB_MutexQueForThreadsLog_Framework_App::dyn_APP_FUNCT_write_Start(std::byte* sysThreadId, zinc::CLIB_MutexQueForThreadsLog_Framework* obj, uint8_t* coreId) {
         //std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_MutexQueForThreadsLog_Framework_App_Control : dyn_APP_FUNCT_write_Start(sysThreadId)" << std::endl;
         while (obj->dyn_CLASS_get_ptr_CLIB_MutexQueForThreadsLog_App(sysThreadId)->dyn_CLASS_get_ptr_CLIB_MutexQueForThreadsLog_App_Control(sysThreadId)->dyn_REG_get_FLAG_CLIB_MutexQueForThreadsLog_Framework_App_Control_isWriteStartThreadRELASE_ONE(sysThreadId)) {
             obj->dyn_CLASS_get_ptr_CLIB_MutexQueForThreadsLog_App(sysThreadId)->dyn_CLASS_get_ptr_CLIB_MutexQueForThreadsLog_App_Control(sysThreadId)->dyn_APP_FUNCT_CLIB_MutexQueForThreadsLog_Framework_App_Control_dynamicIn(sysThreadId, obj, coreId);

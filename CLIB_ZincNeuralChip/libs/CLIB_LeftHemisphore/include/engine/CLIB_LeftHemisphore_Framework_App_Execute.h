@@ -1,0 +1,52 @@
+#ifndef CLIB_OPENEPICENTRE_FRAMEWORK_APP_EXECUTE_H
+#define CLIB_OPENEPICENTRE_FRAMEWORK_APP_EXECUTE_H
+#include "../../include/engine/CLIB_LeftHemisphore_Framework.h"
+#include "../../include/engine/CLIB_LeftHemisphore_Framework_App_Execute_Control.h"
+#include <cstddef>
+namespace zinc {
+    class CLIB_LeftHemisphore_Framework_App_Execute {
+    public:
+        CLIB_LeftHemisphore_Framework_App_Execute(std::byte* sysThreadId, class CLIB_LeftHemisphore_Framework* obj);
+        virtual ~CLIB_LeftHemisphore_Framework_App_Execute();
+        class CLIB_LeftHemisphore_Framework_App_Execute_Control* dyn_CLASS_get_ptr_CLIB_LeftHemisphore_Framework_App_Execute_Control(std::byte* sysThreadId);
+        void dyn_REG_boot1_DEFINE_CLIB_LeftHemisphore_Framework_App_Execute(std::byte* sysThreadId, class CLIB_LeftHemisphore_Framework* obj);
+        void dyn_REG_boot2_SUBSTANTIATE_CLIB_LeftHemisphore_Framework_App_Execute(std::byte* sysThreadId, class CLIB_LeftHemisphore_Framework* obj);
+        void dyn_REG_boot3_INITIALISE_CLIB_LeftHemisphore_Framework_App_Execute(std::byte* sysThreadId, class CLIB_LeftHemisphore_Framework* obj);
+       void dyn_REG_boot3_REINITIALISE_CLIB_LeftHemisphore_Framework_App_Execute(std::byte* sysThreadId);
+        void dyn_REG_boot4_INSTANTIATE_CLIB_LeftHemisphore_Framework_App_Execute(std::byte* sysThreadId, class CLIB_LeftHemisphore_Framework* obj);
+        int* dyn_PGM_get_HandleId_For_CLIB_LaunchQue_Server(std::byte* sysThreadId);
+        int* dyn_PGM_get_HandleId_For_CLIB_MutexQue_Epicentre_MetaData(std::byte* sysThreadId);
+        int* dyn_PGM_get_HandleId_For_CLIB_MutexQue_ServerInputReceive(std::byte* sysThreadId);
+        int* dyn_PGM_get_HandleId_For_CLIB_MutexQue_ServerOutputSend(std::byte* sysThreadId);
+        static void stat_CLASS_boot0_DECLARE_CLIB_LeftHemisphore_Framework_App_Execute(std::byte* sysThreadId);
+        static void stat_CLASS_boot1_DEFINE_CLIB_LeftHemisphore_Framework_App_Execute(std::byte* sysThreadId);
+        static void stat_CLASS_boot3_INITIALISE_CLIB_LeftHemisphore_Framework_App_Execute(std::byte* sysThreadId);
+        static void stat_REG_boot0_DECLARE_CLIB_LeftHemisphore_Framework_App_Execute(std::byte* sysThreadId);
+    private:
+        static class CLIB_LeftHemisphore_Framework_App_Execute_Control* stat_CLASS_CLIB_LeftHemisphore_Framework_App_Execute_Control;
+        static int* stat_REG_HandleId_For_CLIB_LaunchQue_Server;
+        static int* stat_REG_HandleId_For_CLIB_MutexQue_LaunchQue_MetaData;
+        static int* stat_REG_HandleId_For_CLIB_MutexQue_ServerInputReceive;
+        static int* stat_REG_HandleId_For_CLIB_MutexQue_ServerOutputSend;
+        static void stat_CLASS_boot1_DEFINE_Execute_Control(std::byte* sysThreadId);
+        static void stat_CLASS_boot3_INITIALISE_Execute_Control(std::byte* sysThreadId);
+        static class CLIB_LeftHemisphore_Framework_App_Execute_Control* stat_CLASS_get_ptr_CLIB_LeftHemisphore_Framework_App_Execute_Control(std::byte* sysThreadId);
+        static void stat_PGM_boot1_DEFINE_HandleId_For_CLIB_LaunchQue_Server(std::byte* sysThreadId);
+        static void stat_PGM_boot1_DEFINE_HandleId_For_CLIB_MutexQue_LaunchQue_MetaData(std::byte* sysThreadId);
+        static void stat_PGM_boot1_DEFINE_HandleId_For_CLIB_MutexQue_ServerInputReceive(std::byte* sysThreadId);
+        static void stat_PGM_boot1_DEFINE_HandleId_For_CLIB_MutexQue_ServerOutputSend(std::byte* sysThreadId);
+        static void stat_PGM_boot3_INITIALISE_HandleId_For_CLIB_LaunchQue_Server(std::byte* sysThreadId);
+        static void stat_PGM_boot3_INITIALISE_HandleId_For_CLIB_MutexQue_LaunchQue_MetaData(std::byte* sysThreadId);
+        static void stat_PGM_boot3_INITIALISE_HandleId_For_CLIB_MutexQue_ServerInputReceive(std::byte* sysThreadId);
+        static void stat_PGM_boot3_INITIALISE_HandleId_For_CLIB_MutexQue_ServerOutputSend(std::byte* sysThreadId);
+        static void stat_PGM_boot3_REINITIALISE_HandleId_For_CLIB_LaunchQue_Server(std::byte* sysThreadId);
+        static void stat_PGM_boot3_REINITIALISE_HandleId_For_CLIB_MutexQue_LaunchQue_MetaData(std::byte* sysThreadId);
+        static void stat_PGM_boot3_REINITIALISE_HandleId_For_CLIB_MutexQue_ServerInputReceive(std::byte* sysThreadId);
+        static void stat_PGM_boot3_REINITIALISE_HandleId_For_CLIB_MutexQue_ServerOutputSend(std::byte* sysThreadId);
+        static int* stat_PGM_get_HandleId_For_CLIB_LaunchQue_Server(std::byte* sysThreadId);
+        static int* stat_PGM_get_HandleId_For_CLIB_MutexQue_LaunchQue_MetaData(std::byte* sysThreadId);
+        static int* stat_PGM_get_HandleId_For_CLIB_MutexQue_ServerInputReceive(std::byte* sysThreadId);
+        static int* stat_PGM_get_HandleId_For_CLIB_MutexQue_ServerOutputSend(std::byte* sysThreadId);
+    };
+};
+#endif
