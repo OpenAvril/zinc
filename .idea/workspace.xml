@@ -33,302 +33,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fb33d3f-99ba-4f2a-b0ec-fe17b1bccdcf" name="Changes" comment="DEVELOPMENT_2026_11_09_1931, &lt;COMPILE_SUCCESS&gt; &lt;RUNTIME_TEST&gt;.&#10;BUILT: DEVELOPMENT_2026_11_09_1931.&#10;PHASE: Design, **Implementation**, *Testing*, Review.&#10;&#10;IMPLEMENTED:&#10;   - LIBRARIES:&#10;     - CLIB_MutexQue v1.1.2.&#10;     - CLIB_Stemisphore v1.1.2.&#10;     - CLIB_LaunchQue v1.1.2.&#10;&#10;TODO:&#10; - CLIB_LeftHemishpore v1.1.3.&#10; - PROJECT BNI:&#10;   - PROJECT BNITT:&#10;     - BNITT.h&#10;     - BNITT.cpp&#10;   - PROJECT BNN:&#10;     - PROJECT BNN ARCH:&#10;       - BNN_Arch.h&#10;       - BNN_Arch.cpp&#10;     - PROJECT BNIBNNDS:&#10;       - BNIDS.h&#10;       - BNIDS.cpp&#10; - LIBRARIES:&#10;   - CLIB_ThreadsLog.">
-      <change afterPath="$PROJECT_DIR$/.idea/SiliconLife.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/zinc.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/include/engine/CLIB_LeftHemisphore_Framework_Global.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/io/src/CLIB_LeftHemisphore.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/src/engine/CLIB_LeftHemisphore_Framework_Global.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/.idea/CLIB_MutexQue.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/.idea/editor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/CMakeFiles/progress.marks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/CMakeFiles/zinc_neural_chip.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/CMakeFiles/zinc_neural_chip.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/CMakeFiles/zinc_neural_chip.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/CMakeFiles/zinc_neural_chip.dir/cmake_clean_target.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/CMakeFiles/zinc_neural_chip.dir/compiler_depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/CMakeFiles/zinc_neural_chip.dir/compiler_depend.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/CMakeFiles/zinc_neural_chip.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/CMakeFiles/zinc_neural_chip.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/CMakeFiles/zinc_neural_chip.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/CMakeFiles/zinc_neural_chip.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/CMakeFiles/progress.marks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/CMakeFiles/zinc_launch_que.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/CMakeFiles/zinc_launch_que.dir/__/CLIB_MutexQue/io/src/CLIB_MutexQue.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/CMakeFiles/zinc_launch_que.dir/__/CLIB_MutexQue/io/src/CLIB_MutexQue.cpp.o.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/CMakeFiles/zinc_launch_que.dir/__/CLIB_MutexQue/src/CLIB_MutexQue_Framework.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/CMakeFiles/zinc_launch_que.dir/__/CLIB_MutexQue/src/CLIB_MutexQue_Framework.cpp.o.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/CMakeFiles/zinc_launch_que.dir/__/CLIB_MutexQue/src/CLIB_MutexQue_Framework_App.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/CMakeFiles/zinc_launch_que.dir/__/CLIB_MutexQue/src/CLIB_MutexQue_Framework_App.cpp.o.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/CMakeFiles/zinc_launch_que.dir/__/CLIB_MutexQue/src/CLIB_MutexQue_Framework_App_Control.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/CMakeFiles/zinc_launch_que.dir/__/CLIB_MutexQue/src/CLIB_MutexQue_Framework_App_Control.cpp.o.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/CMakeFiles/zinc_launch_que.dir/__/CLIB_MutexQue/src/CLIB_MutexQue_Framework_Global.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/CMakeFiles/zinc_launch_que.dir/__/CLIB_MutexQue/src/CLIB_MutexQue_Framework_Global.cpp.o.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/CMakeFiles/zinc_launch_que.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/CMakeFiles/zinc_launch_que.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/CMakeFiles/zinc_launch_que.dir/cmake_clean_target.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/CMakeFiles/zinc_launch_que.dir/compiler_depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/CMakeFiles/zinc_launch_que.dir/compiler_depend.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/CMakeFiles/zinc_launch_que.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/CMakeFiles/zinc_launch_que.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/CMakeFiles/zinc_launch_que.dir/io/src/CLIB_LaunchQue.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/CMakeFiles/zinc_launch_que.dir/io/src/CLIB_LaunchQue.cpp.o.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/CMakeFiles/zinc_launch_que.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/CMakeFiles/zinc_launch_que.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/CMakeFiles/zinc_launch_que.dir/src/CLIB_LaunchQue_Framework.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/CMakeFiles/zinc_launch_que.dir/src/CLIB_LaunchQue_Framework.cpp.o.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/CMakeFiles/zinc_launch_que.dir/src/CLIB_LaunchQue_Framework_App.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/CMakeFiles/zinc_launch_que.dir/src/CLIB_LaunchQue_Framework_App.cpp.o.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/CMakeFiles/zinc_launch_que.dir/src/CLIB_LaunchQue_Framework_App_Control.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/CMakeFiles/zinc_launch_que.dir/src/CLIB_LaunchQue_Framework_App_Control.cpp.o.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/CMakeFiles/zinc_launch_que.dir/src/CLIB_LaunchQue_Framework_Execute.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/CMakeFiles/zinc_launch_que.dir/src/CLIB_LaunchQue_Framework_Execute.cpp.o.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/CMakeFiles/zinc_launch_que.dir/src/CLIB_LaunchQue_Framework_Global.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/CMakeFiles/zinc_launch_que.dir/src/CLIB_LaunchQue_Framework_Global.cpp.o.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/libzinc_launch_que.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/CMakeFiles/progress.marks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/CMakeFiles/zinc_epicentre.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/CMakeFiles/zinc_epicentre.dir/__/CLIB_LaunchQue/src/CLIB_LaunchQue_Framework.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/CMakeFiles/zinc_epicentre.dir/__/CLIB_LaunchQue/src/CLIB_LaunchQue_Framework.cpp.o.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/CMakeFiles/zinc_epicentre.dir/__/CLIB_LaunchQue/src/CLIB_LaunchQue_Framework_App.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/CMakeFiles/zinc_epicentre.dir/__/CLIB_LaunchQue/src/CLIB_LaunchQue_Framework_App.cpp.o.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/CMakeFiles/zinc_epicentre.dir/__/CLIB_LaunchQue/src/CLIB_LaunchQue_Framework_App_Control.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/CMakeFiles/zinc_epicentre.dir/__/CLIB_LaunchQue/src/CLIB_LaunchQue_Framework_App_Control.cpp.o.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/CMakeFiles/zinc_epicentre.dir/__/CLIB_LaunchQue/src/CLIB_LaunchQue_Framework_Execute.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/CMakeFiles/zinc_epicentre.dir/__/CLIB_LaunchQue/src/CLIB_LaunchQue_Framework_Execute.cpp.o.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/CMakeFiles/zinc_epicentre.dir/__/CLIB_LaunchQue/src/CLIB_LaunchQue_Framework_Global.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/CMakeFiles/zinc_epicentre.dir/__/CLIB_LaunchQue/src/CLIB_LaunchQue_Framework_Global.cpp.o.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/CMakeFiles/zinc_epicentre.dir/__/CLIB_MutexQue/src/CLIB_MutexQue_Framework.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/CMakeFiles/zinc_epicentre.dir/__/CLIB_MutexQue/src/CLIB_MutexQue_Framework.cpp.o.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/CMakeFiles/zinc_epicentre.dir/__/CLIB_MutexQue/src/CLIB_MutexQue_Framework_App.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/CMakeFiles/zinc_epicentre.dir/__/CLIB_MutexQue/src/CLIB_MutexQue_Framework_App.cpp.o.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/CMakeFiles/zinc_epicentre.dir/__/CLIB_MutexQue/src/CLIB_MutexQue_Framework_App_Control.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/CMakeFiles/zinc_epicentre.dir/__/CLIB_MutexQue/src/CLIB_MutexQue_Framework_App_Control.cpp.o.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/CMakeFiles/zinc_epicentre.dir/__/CLIB_MutexQue/src/CLIB_MutexQue_Framework_Global.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/CMakeFiles/zinc_epicentre.dir/__/CLIB_MutexQue/src/CLIB_MutexQue_Framework_Global.cpp.o.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/CMakeFiles/zinc_epicentre.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/CMakeFiles/zinc_epicentre.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/CMakeFiles/zinc_epicentre.dir/cmake_clean_target.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/CMakeFiles/zinc_epicentre.dir/compiler_depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/CMakeFiles/zinc_epicentre.dir/compiler_depend.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/CMakeFiles/zinc_epicentre.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/CMakeFiles/zinc_epicentre.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/CMakeFiles/zinc_epicentre.dir/io/src/CLIB_LeftHemisphore.cpp.o.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/CMakeFiles/zinc_epicentre.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/CMakeFiles/zinc_epicentre.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/CMakeFiles/progress.marks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/CMakeFiles/zinc_mutex_que.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/CMakeFiles/zinc_mutex_que.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/CMakeFiles/zinc_mutex_que.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/CMakeFiles/zinc_mutex_que.dir/cmake_clean_target.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/CMakeFiles/zinc_mutex_que.dir/compiler_depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/CMakeFiles/zinc_mutex_que.dir/compiler_depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/CMakeFiles/zinc_mutex_que.dir/compiler_depend.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/CMakeFiles/zinc_mutex_que.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/CMakeFiles/zinc_mutex_que.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/CMakeFiles/zinc_mutex_que.dir/io/src/CLIB_MutexQue.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/CMakeFiles/zinc_mutex_que.dir/io/src/CLIB_MutexQue.cpp.o.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/CMakeFiles/zinc_mutex_que.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/CMakeFiles/zinc_mutex_que.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/CMakeFiles/zinc_mutex_que.dir/src/CLIB_MutexQue_Framework.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/CMakeFiles/zinc_mutex_que.dir/src/CLIB_MutexQue_Framework.cpp.o.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/CMakeFiles/zinc_mutex_que.dir/src/CLIB_MutexQue_Framework_App.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/CMakeFiles/zinc_mutex_que.dir/src/CLIB_MutexQue_Framework_App.cpp.o.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/CMakeFiles/zinc_mutex_que.dir/src/CLIB_MutexQue_Framework_App_Control.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/CMakeFiles/zinc_mutex_que.dir/src/CLIB_MutexQue_Framework_App_Control.cpp.o.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/CMakeFiles/zinc_mutex_que.dir/src/CLIB_MutexQue_Framework_Global.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/CMakeFiles/zinc_mutex_que.dir/src/CLIB_MutexQue_Framework_Global.cpp.o.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/libzinc_mutex_que.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/CMakeFiles/progress.marks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/CMakeFiles/zinc_stemisphore.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/CMakeFiles/zinc_stemisphore.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/CMakeFiles/zinc_stemisphore.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/CMakeFiles/zinc_stemisphore.dir/cmake_clean_target.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/CMakeFiles/zinc_stemisphore.dir/compiler_depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/CMakeFiles/zinc_stemisphore.dir/compiler_depend.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/CMakeFiles/zinc_stemisphore.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/CMakeFiles/zinc_stemisphore.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/CMakeFiles/zinc_stemisphore.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/CMakeFiles/zinc_stemisphore.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/4.2.3/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/4.2.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/4.2.3/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/4.2.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/4.2.3/CompilerIdCXX/a.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/InstallScripts.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/Progress/10" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/Progress/11" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/Progress/12" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/Progress/13" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/Progress/14" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/Progress/36" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/Progress/37" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/Progress/38" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/Progress/39" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/Progress/40" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/Progress/41" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/Progress/42" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/Progress/43" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/Progress/44" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/Progress/45" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/Progress/46" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/Progress/47" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/Progress/48" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/Progress/49" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/Progress/7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/Progress/8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/Progress/9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/Progress/count.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/SoothCute/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/SoothCute/CMakeFiles/SoothCute.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/SoothCute/CMakeFiles/SoothCute.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/SoothCute/CMakeFiles/SoothCute.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/SoothCute/CMakeFiles/SoothCute.dir/cmake_clean_target.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/SoothCute/CMakeFiles/SoothCute.dir/compiler_depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/SoothCute/CMakeFiles/SoothCute.dir/compiler_depend.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/SoothCute/CMakeFiles/SoothCute.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/SoothCute/CMakeFiles/SoothCute.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/SoothCute/CMakeFiles/SoothCute.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/SoothCute/CMakeFiles/SoothCute.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/SoothCute/CMakeFiles/progress.marks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/SoothCute/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/SoothCute/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/TESTBENCH/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/TESTBENCH/CMakeFiles/TESTBENCH.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/TESTBENCH/CMakeFiles/TESTBENCH.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/TESTBENCH/CMakeFiles/TESTBENCH.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/TESTBENCH/CMakeFiles/TESTBENCH.dir/compiler_depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/TESTBENCH/CMakeFiles/TESTBENCH.dir/compiler_depend.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/TESTBENCH/CMakeFiles/TESTBENCH.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/TESTBENCH/CMakeFiles/TESTBENCH.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/TESTBENCH/CMakeFiles/TESTBENCH.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/TESTBENCH/CMakeFiles/TESTBENCH.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/TESTBENCH/CMakeFiles/progress.marks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/TESTBENCH/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/TESTBENCH/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/slif.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/include/CLIB_LaunchQue_Framework.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/include/CLIB_LaunchQue_Framework.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/include/CLIB_LaunchQue_Framework_App.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/include/CLIB_LaunchQue_Framework_App.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/include/CLIB_LaunchQue_Framework_App_Control.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/include/CLIB_LaunchQue_Framework_App_Control.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/include/CLIB_LaunchQue_Framework_Global.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/include/CLIB_LaunchQue_Framework_Global.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/io/include/CLIB_LaunchQue.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/io/include/CLIB_LaunchQue.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/io/src/CLIB_LaunchQue.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/io/src/CLIB_LaunchQue.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/src/CLIB_LaunchQue_Framework_App.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/src/CLIB_LaunchQue_Framework_App.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/src/CLIB_LaunchQue_Framework_App_Control.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/src/CLIB_LaunchQue_Framework_App_Control.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/src/CLIB_LaunchQue_Framework_Execute.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/src/CLIB_LaunchQue_Framework_Execute.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/src/CLIB_LaunchQue_Framework_Global.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/src/CLIB_LaunchQue_Framework_Global.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/include/engine/CLIB_LeftHemishpore_Framework.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/include/engine/CLIB_LeftHemisphore_Framework.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/include/engine/CLIB_LeftHemishpore_Framework_App.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/include/engine/CLIB_LeftHemisphore_Framework_App.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/include/engine/CLIB_LeftHemishpore_Framework_App_Algorithms.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/include/engine/CLIB_LeftHemisphore_Framework_App_Algorithms.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/include/engine/CLIB_LeftHemishpore_Framework_App_Data.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/include/engine/CLIB_LeftHemisphore_Framework_App_Data.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/include/engine/CLIB_LeftHemishpore_Framework_App_Data_Control.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/include/engine/CLIB_LeftHemisphore_Framework_App_Data_Control.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/include/engine/CLIB_LeftHemishpore_Framework_App_Execute.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/include/engine/CLIB_LeftHemisphore_Framework_App_Execute.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/include/engine/CLIB_LeftHemishpore_Framework_App_Execute_Control.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/include/engine/CLIB_LeftHemisphore_Framework_App_Execute_Control.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/include/engine/CLIB_LeftHemishpore_Framework_Global.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/include/independent/CLIB_LeftHemishpore_STRUCT_Input.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/include/independent/CLIB_LeftHemisphore_STRUCT_Input.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/include/independent/CLIB_LeftHemishpore_STRUCT_Output.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/include/independent/CLIB_LeftHemisphore_STRUCT_Output.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/include/independent/CLIB_LeftHemishpore_STRUCT_User_Algorithm.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/include/independent/CLIB_LeftHemisphore_STRUCT_User_Algorithm.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/include/independent/CLIB_LeftHemishpore_STRUCT_User_Input.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/include/independent/CLIB_LeftHemisphore_STRUCT_User_Input.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/include/independent/CLIB_LeftHemishpore_STRUCT_User_Output.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/include/independent/CLIB_LeftHemisphore_STRUCT_User_Output.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/include/independent/praise_sets/CLIB_LeftHemishpore_STRUCT_Algorithm_praise0.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/include/independent/praise_sets/CLIB_LeftHemisphore_STRUCT_Algorithm_praise0.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/include/independent/praise_sets/CLIB_LeftHemishpore_STRUCT_Algorithm_praise1.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/include/independent/praise_sets/CLIB_LeftHemisphore_STRUCT_Algorithm_praise1.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/include/independent/praise_sets/CLIB_LeftHemishpore_STRUCT_Algorithm_praise2.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/include/independent/praise_sets/CLIB_LeftHemisphore_STRUCT_Algorithm_praise2.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/include/independent/praise_sets/CLIB_LeftHemishpore_STRUCT_Algorithm_praise3.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/include/independent/praise_sets/CLIB_LeftHemisphore_STRUCT_Algorithm_praise3.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/include/independent/praise_sets/CLIB_LeftHemishpore_STRUCT_Input_praise0.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/include/independent/praise_sets/CLIB_LeftHemisphore_STRUCT_Input_praise0.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/include/independent/praise_sets/CLIB_LeftHemishpore_STRUCT_Input_praise1.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/include/independent/praise_sets/CLIB_LeftHemisphore_STRUCT_Input_praise1.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/include/independent/praise_sets/CLIB_LeftHemishpore_STRUCT_Input_praise2.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/include/independent/praise_sets/CLIB_LeftHemisphore_STRUCT_Input_praise2.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/include/independent/praise_sets/CLIB_LeftHemishpore_STRUCT_Input_praise3.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/include/independent/praise_sets/CLIB_LeftHemisphore_STRUCT_Input_praise3.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/include/independent/praise_sets/CLIB_LeftHemishpore_STRUCT_Output_praise0.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/include/independent/praise_sets/CLIB_LeftHemisphore_STRUCT_Output_praise0.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/include/independent/praise_sets/CLIB_LeftHemishpore_STRUCT_Output_praise1.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/include/independent/praise_sets/CLIB_LeftHemisphore_STRUCT_Output_praise1.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/include/independent/praise_sets/CLIB_LeftHemishpore_STRUCT_Output_praise2.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/include/independent/praise_sets/CLIB_LeftHemisphore_STRUCT_Output_praise2.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/include/independent/praise_sets/CLIB_LeftHemishpore_STRUCT_Output_praise3.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/include/independent/praise_sets/CLIB_LeftHemisphore_STRUCT_Output_praise3.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/include/independent/threads/CLIB_LeftHemishpore_STRUCT_Concurrent.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/include/independent/threads/CLIB_LeftHemisphore_STRUCT_Concurrent.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/io/include/CLIB_LeftHemishpore.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/io/include/CLIB_LeftHemisphore.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/io/src/CLIB_LeftHemishpore.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/src/engine/CLIB_LeftHemishpore_Framework.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/src/engine/CLIB_LeftHemisphore_Framework.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/src/engine/CLIB_LeftHemishpore_Framework_App.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/src/engine/CLIB_LeftHemisphore_Framework_App.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/src/engine/CLIB_LeftHemishpore_Framework_App_Algorithms.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/src/engine/CLIB_LeftHemisphore_Framework_App_Algorithms.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/src/engine/CLIB_LeftHemishpore_Framework_App_Data.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/src/engine/CLIB_LeftHemisphore_Framework_App_Data.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/src/engine/CLIB_LeftHemishpore_Framework_App_Data_Control.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/src/engine/CLIB_LeftHemisphore_Framework_App_Data_Control.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/src/engine/CLIB_LeftHemishpore_Framework_App_Execute.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/src/engine/CLIB_LeftHemisphore_Framework_App_Execute.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/src/engine/CLIB_LeftHemishpore_Framework_App_Execute_Control.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/src/engine/CLIB_LeftHemisphore_Framework_App_Execute_Control.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/src/engine/CLIB_LeftHemishpore_Framework_Global.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/src/independent/CLIB_LeftHemishpore_STRUCT_Input.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/src/independent/CLIB_LeftHemisphore_STRUCT_Input.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/src/independent/CLIB_LeftHemishpore_STRUCT_Output.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/src/independent/CLIB_LeftHemisphore_STRUCT_Output.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/src/independent/CLIB_LeftHemishpore_STRUCT_User_Algorithm.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/src/independent/CLIB_LeftHemisphore_STRUCT_User_Algorithm.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/src/independent/CLIB_LeftHemishpore_STRUCT_User_Input.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/src/independent/CLIB_LeftHemisphore_STRUCT_User_Input.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/src/independent/CLIB_LeftHemishpore_STRUCT_User_Output.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/src/independent/CLIB_LeftHemisphore_STRUCT_User_Output.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/src/independent/praise_sets/CLIB_LeftHemishpore_STRUCT_Algorithm_praise0.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/src/independent/praise_sets/CLIB_LeftHemisphore_STRUCT_Algorithm_praise0.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/src/independent/praise_sets/CLIB_LeftHemishpore_STRUCT_Algorithm_praise1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/src/independent/praise_sets/CLIB_LeftHemisphore_STRUCT_Algorithm_praise1.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/src/independent/praise_sets/CLIB_LeftHemishpore_STRUCT_Algorithm_praise2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/src/independent/praise_sets/CLIB_LeftHemisphore_STRUCT_Algorithm_praise2.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/src/independent/praise_sets/CLIB_LeftHemishpore_STRUCT_Algorithm_praise3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/src/independent/praise_sets/CLIB_LeftHemisphore_STRUCT_Algorithm_praise3.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/src/independent/praise_sets/CLIB_LeftHemishpore_STRUCT_Input_praise0.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/src/independent/praise_sets/CLIB_LeftHemisphore_STRUCT_Input_praise0.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/src/independent/praise_sets/CLIB_LeftHemishpore_STRUCT_Input_praise1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/src/independent/praise_sets/CLIB_LeftHemisphore_STRUCT_Input_praise1.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/src/independent/praise_sets/CLIB_LeftHemishpore_STRUCT_Input_praise2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/src/independent/praise_sets/CLIB_LeftHemisphore_STRUCT_Input_praise2.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/src/independent/praise_sets/CLIB_LeftHemishpore_STRUCT_Input_praise3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/src/independent/praise_sets/CLIB_LeftHemisphore_STRUCT_Input_praise3.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/src/independent/praise_sets/CLIB_LeftHemishpore_STRUCT_Output_praise0.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/src/independent/praise_sets/CLIB_LeftHemisphore_STRUCT_Output_praise0.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/src/independent/praise_sets/CLIB_LeftHemishpore_STRUCT_Output_praise1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/src/independent/praise_sets/CLIB_LeftHemisphore_STRUCT_Output_praise1.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/src/independent/praise_sets/CLIB_LeftHemishpore_STRUCT_Output_praise2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/src/independent/praise_sets/CLIB_LeftHemisphore_STRUCT_Output_praise2.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/src/independent/praise_sets/CLIB_LeftHemishpore_STRUCT_Output_praise3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/src/independent/praise_sets/CLIB_LeftHemisphore_STRUCT_Output_praise3.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/src/independent/threads/CLIB_LeftHemishpore_STRUCT_Concurrent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/src/independent/threads/CLIB_LeftHemisphore_STRUCT_Concurrent.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/include/CLIB_MutexQue_Framework_App.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/include/CLIB_MutexQue_Framework_App.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/include/CLIB_MutexQue_Framework_App_Control.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/include/CLIB_MutexQue_Framework_App_Control.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/include/CLIB_MutexQue_Framework_Global.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/include/CLIB_MutexQue_Framework_Global.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/io/include/CLIB_MutexQue.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/io/include/CLIB_MutexQue.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/io/src/CLIB_MutexQue.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/io/src/CLIB_MutexQue.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/src/CLIB_MutexQue_Framework_App.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/src/CLIB_MutexQue_Framework_App.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/src/CLIB_MutexQue_Framework_App_Control.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/src/CLIB_MutexQue_Framework_App_Control.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/src/CLIB_MutexQue_Framework_Global.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/src/CLIB_MutexQue_Framework_Global.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/include/CLIB_SystemBus_Framework_Global.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/include/CLIB_SystemBus_Framework_Global.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/src/CLIB_SystemBus_Framework_Global.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/src/CLIB_SystemBus_Framework_Global.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/src/independent/CLIB_Bus_STRUCT_SingleBus.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/src/independent/CLIB_Bus_STRUCT_SingleBus.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/src/independent/CLIB_Bus_STRUCT_SingleBus_Framework_App_Data.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/src/independent/CLIB_Bus_STRUCT_SingleBus_Framework_App_Data.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/src/independent/CLIB_Bus_STRUCT_SingleBus_STRUCT_BusDATA.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/src/independent/CLIB_Bus_STRUCT_SingleBus_STRUCT_BusDATA.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_ThreadsLog/libs/CLIB_MutexQueForThreadsLog/include/CLIB_MutexQueForThreadsLog_Framework_App.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_ThreadsLog/libs/CLIB_MutexQueForThreadsLog/include/CLIB_MutexQueForThreadsLog_Framework_App.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_ThreadsLog/libs/CLIB_MutexQueForThreadsLog/include/CLIB_MutexQueForThreadsLog_Framework_App_Control.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_ThreadsLog/libs/CLIB_MutexQueForThreadsLog/include/CLIB_MutexQueForThreadsLog_Framework_App_Control.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_ThreadsLog/libs/CLIB_MutexQueForThreadsLog/src/CLIB_MutexQueForThreadsLog_Framework_App.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_ThreadsLog/libs/CLIB_MutexQueForThreadsLog/src/CLIB_MutexQueForThreadsLog_Framework_App.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_ThreadsLog/libs/CLIB_MutexQueForThreadsLog/src/CLIB_MutexQueForThreadsLog_Framework_App_Control.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_ThreadsLog/libs/CLIB_MutexQueForThreadsLog/src/CLIB_MutexQueForThreadsLog_Framework_App_Control.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SoothCute/CLIB_Optimus.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/SoothCute/CLIB_Optimus.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TESTBENCH/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TESTBENCH/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TESTBENCH/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TESTBENCH/main.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="2fb33d3f-99ba-4f2a-b0ec-fe17b1bccdcf" name="Changes" comment="DEVELOPMENT_2026_11_12_1345, &lt;COMPILE_SUCCESS&gt; &lt;RUNTIME_TEST&gt;.&#10;BUILT: DEVELOPMENT_2026_11_12_1345.&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.1.2.&#10;     - zinc_launch_que v1.1.3.&#10;PHASE: Design, **Implementation**, *Testing*, Review.&#10;&#10;IMPLEMENTED:&#10;   - LIBRARIES:&#10;     - CLIB_MutexQue v1.1.2.&#10;     - CLIB_LaunchQue v1.1.3.&#10;&#10;TODO:&#10; - CLIB_Stemisphore v1.1.3.&#10; - CLIB_LeftHemishpore v1.1.3.&#10; - PROJECT BNI:&#10;   - PROJECT BNITT:&#10;     - BNITT.h&#10;     - BNITT.cpp&#10;   - PROJECT BNN:&#10;     - PROJECT BNN ARCH:&#10;       - BNN_Arch.h&#10;       - BNN_Arch.cpp&#10;     - PROJECT BNIBNNDS:&#10;       - BNIDS.h&#10;       - BNIDS.cpp&#10; - LIBRARIES:&#10;   - CLIB_ThreadsLog." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -346,63 +51,75 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ScholarDragon"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/OpenAvril/zinc.git",
+    "accountId": "aaf3520f-cb71-49c6-b6f9-fec131509ea2"
+  }
+}]]></component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
       <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000000001420877" />
-      <entry key="S5" value="1.0001150860029198" />
-      <entry key="S10" value="1.0107278144521477" />
-      <entry key="S30" value="1.220548328996475" />
-      <entry key="S60" value="1.4697278399690155" />
-      <entry key="M2" value="1.6954717604762077" />
-      <entry key="M5" value="2.143258163451636" />
-      <entry key="M10" value="4.187720916832141" />
-      <entry key="M15" value="7.527670557886728" />
-      <entry key="M30" value="19.467779930081733" />
-      <entry key="H1" value="46.47130574024268" />
-      <entry key="H2" value="99.98667570976738" />
-      <entry key="H4" value="170.8806579733479" />
-      <entry key="D1" value="293.1905752355391" />
-      <entry key="W1" value="324.4041911420624" />
+      <entry key="S2" value="1.0000000931770234" />
+      <entry key="S5" value="1.002635037762286" />
+      <entry key="S10" value="1.1066709856304822" />
+      <entry key="S30" value="2.5909243835250537" />
+      <entry key="S60" value="4.287633880284655" />
+      <entry key="M2" value="5.777580651224842" />
+      <entry key="M5" value="7.067651613534495" />
+      <entry key="M10" value="8.215250470860347" />
+      <entry key="M15" value="10.008238051133894" />
+      <entry key="M30" value="18.720844423965044" />
+      <entry key="H1" value="42.68128912322045" />
+      <entry key="H2" value="94.44337159577469" />
+      <entry key="H4" value="166.90554031429645" />
+      <entry key="D1" value="297.6647492570457" />
+      <entry key="W1" value="331.8440472982953" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="1.470492556417326E-121" />
-      <entry key="S5" value="4.644993730899943E-49" />
-      <entry key="S10" value="6.815419144060414E-25" />
-      <entry key="S30" value="8.827893015698305E-9" />
-      <entry key="S60" value="1.0194289957971808E-4" />
-      <entry key="M2" value="0.015370144227207479" />
-      <entry key="M5" value="0.5408348883426756" />
-      <entry key="M10" value="2.300049049396362" />
-      <entry key="M15" value="4.095834737374616" />
-      <entry key="M30" value="8.365820334400878" />
-      <entry key="H1" value="14.999261255094158" />
-      <entry key="H2" value="27.137049226716403" />
-      <entry key="H4" value="44.26082637759962" />
-      <entry key="D1" value="76.0421376544841" />
-      <entry key="W1" value="84.47663229431025" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="9.31098168964534E-140" />
+      <entry key="S10" value="3.0513901504154105E-70" />
+      <entry key="S30" value="6.753446307739774E-24" />
+      <entry key="S60" value="2.819623861377709E-12" />
+      <entry key="M2" value="2.556201234670867E-6" />
+      <entry key="M5" value="0.01665066328446008" />
+      <entry key="M10" value="0.4035715261146276" />
+      <entry key="M15" value="1.2837034389954547" />
+      <entry key="M30" value="4.68349081881322" />
+      <entry key="H1" value="11.222779743080249" />
+      <entry key="H2" value="23.47350312482283" />
+      <entry key="H4" value="41.164909095776295" />
+      <entry key="D1" value="75.12865099679341" />
+      <entry key="W1" value="84.33090754779188" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.29118339661711395" />
-      <entry key="MS500" value="0.7813278801723174" />
-      <entry key="S2" value="0.9401742026497928" />
-      <entry key="S5" value="0.9757405492321721" />
-      <entry key="S10" value="0.9984440533297531" />
-      <entry key="S30" value="1.2162963812073961" />
-      <entry key="S60" value="1.4676096600927089" />
-      <entry key="M2" value="1.7091482314907536" />
-      <entry key="M5" value="2.6762710966336067" />
-      <entry key="M10" value="6.467884819842458" />
-      <entry key="M15" value="11.597202721727193" />
-      <entry key="M30" value="27.803312002781258" />
-      <entry key="H1" value="61.441367604320945" />
-      <entry key="H2" value="127.09687509474566" />
-      <entry key="H4" value="215.119915760064" />
-      <entry key="D1" value="369.22669764857915" />
-      <entry key="W1" value="408.8798739291997" />
+      <entry key="MS100" value="0.25173888751417967" />
+      <entry key="MS500" value="0.758909626487027" />
+      <entry key="S2" value="0.9333565044866798" />
+      <entry key="S5" value="0.97541256714226" />
+      <entry key="S10" value="1.092692465061933" />
+      <entry key="S30" value="2.5848401455519148" />
+      <entry key="S60" value="4.283767697566068" />
+      <entry key="M2" value="5.775285949520806" />
+      <entry key="M5" value="7.083022693047328" />
+      <entry key="M10" value="8.614790031486628" />
+      <entry key="M15" value="11.28333039199411" />
+      <entry key="M30" value="23.387192223126732" />
+      <entry key="H1" value="53.88212723767679" />
+      <entry key="H2" value="117.89360247032374" />
+      <entry key="H4" value="208.05036584350444" />
+      <entry key="D1" value="372.787453327087" />
+      <entry key="W1" value="416.17400641299923" />
     </decayedShown>
   </component>
   <component name="ProjectApplicationVersion">
@@ -551,6 +268,10 @@
     <isAutomaticFoundErrors value="true" />
     <isAutomaticReloadCMake value="true" />
     <isAutomaticBootstrapAfterUpdate value="false" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="DEVELOPMENT_2026_11_12_1345, &lt;COMPILE_SUCCESS&gt; &lt;RUNTIME_TEST&gt;.&#10;BUILT: DEVELOPMENT_2026_11_12_1345.&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.1.2.&#10;     - zinc_launch_que v1.1.3.&#10;PHASE: Design, **Implementation**, *Testing*, Review.&#10;&#10;IMPLEMENTED:&#10;   - LIBRARIES:&#10;     - CLIB_MutexQue v1.1.2.&#10;     - CLIB_LaunchQue v1.1.3.&#10;&#10;TODO:&#10; - CLIB_Stemisphore v1.1.3.&#10; - CLIB_LeftHemishpore v1.1.3.&#10; - PROJECT BNI:&#10;   - PROJECT BNITT:&#10;     - BNITT.h&#10;     - BNITT.cpp&#10;   - PROJECT BNN:&#10;     - PROJECT BNN ARCH:&#10;       - BNN_Arch.h&#10;       - BNN_Arch.cpp&#10;     - PROJECT BNIBNNDS:&#10;       - BNIDS.h&#10;       - BNIDS.cpp&#10; - LIBRARIES:&#10;   - CLIB_ThreadsLog." />
+    <option name="LAST_COMMIT_MESSAGE" value="DEVELOPMENT_2026_11_12_1345, &lt;COMPILE_SUCCESS&gt; &lt;RUNTIME_TEST&gt;.&#10;BUILT: DEVELOPMENT_2026_11_12_1345.&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.1.2.&#10;     - zinc_launch_que v1.1.3.&#10;PHASE: Design, **Implementation**, *Testing*, Review.&#10;&#10;IMPLEMENTED:&#10;   - LIBRARIES:&#10;     - CLIB_MutexQue v1.1.2.&#10;     - CLIB_LaunchQue v1.1.3.&#10;&#10;TODO:&#10; - CLIB_Stemisphore v1.1.3.&#10; - CLIB_LeftHemishpore v1.1.3.&#10; - PROJECT BNI:&#10;   - PROJECT BNITT:&#10;     - BNITT.h&#10;     - BNITT.cpp&#10;   - PROJECT BNN:&#10;     - PROJECT BNN ARCH:&#10;       - BNN_Arch.h&#10;       - BNN_Arch.cpp&#10;     - PROJECT BNIBNNDS:&#10;       - BNIDS.h&#10;       - BNIDS.cpp&#10; - LIBRARIES:&#10;   - CLIB_ThreadsLog." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
