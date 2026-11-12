@@ -177,22 +177,6 @@ slif_epicentre INJECTION paths:
 ---
 ---
 ---
-# Building - Compiler Terminal Commands.
-
-*** Load Root CMake Project ***
-
-````
-cmake -B build
-````
-````
-cmake --build build
-````
-
-*** run TESTBENCH ***
-
----
----
----
 ## Using.
 ### LINUX Ubuntu.
 
@@ -221,20 +205,24 @@ cmake --build build
  - URL : user entry https://github.com/OpenAvril/zinc
 
 ---
-#### Building - Compiler Terminal Commands.
-
-Change Directory > zinc > CLIB_ZincNeuralChip > libs > Control > libs > CLIB_MutexQue.
-
-(where "CmakeList.txt' is located) 
+---
+---
+## Building.
 
 *** Load Root CMake Project ***
 
+````
 cmake -B build
-
+````
+````
 cmake --build build
+````
+
 
 ---
-#### Using.
+---
+---
+## Using.
 
 #include "...CLIB_MutexQue.h"
 
@@ -250,6 +238,7 @@ zinc::MutexQue::endByUnlock(sysThreadId, handleId, ACCESS_ID);
 
 ---
 ---
+---
 # Implementation.
 
 ---
@@ -257,7 +246,7 @@ zinc::MutexQue::endByUnlock(sysThreadId, handleId, ACCESS_ID);
 ## How To Guide - Flow From Client I - Server - Client O.
 
 ---
-### Thread(s):
+## Thread(s):
 
   (1)A **Binary Neural Intellijence** in || with the following, while training and doing tasks.
   
@@ -291,7 +280,7 @@ zinc::MutexQue::endByUnlock(sysThreadId, handleId, ACCESS_ID);
 
 
 ---
-### Data Cluster(s): via Thread Options as 'AcessId'.
+## Data Cluster(s): via Thread Options as 'AcessId'.
 
 thread => **SIM_IN**
 
@@ -319,7 +308,7 @@ thread => ***Ouput_Draw*** || ***NETWORKING***
 
 thread => **SIM_OUT**
 
----
+
 ---
 ## Wrapper Imports and Native IO.  ***UNDER DEVELOPMENT***
 
