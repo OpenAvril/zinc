@@ -146,32 +146,6 @@ slif_epicentre INJECTION paths:
 ### BNI : BNN : zinc_bni_bnn_design_suite. ***UNDER DEVELOPMENT***
 
 
----
----
-# Using.
-## LINUX Ubuntu.
-**version:** Ubuntu 24.04.4 LTS.
-
----
----
-## CLion.
-**Version:** 2026.1.2.
-
----
----
-## Dependencies.
-- [Open Source suite install script for Silicon Life Engineering.](https://github.com/MEngSc-Electrical-ComputerSystems/Linux_bash_scripts/blob/main/freshinstall.sh)
-
----
-### CLion plugins.
-- Native Build Tools.
-- Cmake.
-- CLion C and C++.
-
----
-### CLion: Clone from GuitHub.
- - File - > New -> Project from Version Control.
- - URL : user entry "https://github.com/OpenAvril/zinc"
 
 ---
 ---
