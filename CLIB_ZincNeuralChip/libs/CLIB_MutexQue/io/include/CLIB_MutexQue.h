@@ -1,8 +1,8 @@
 #ifndef CLIB_CLIB_PACKAGE_MUTEXQUE_H
 #define CLIB_CLIB_PACKAGE_MUTEXQUE_H
 #include "../../include/CLIB_MutexQue_Framework.h"
-#include <array>
 #include <cstddef>
+#include <array>
 #include <list>
 extern "C" {
     namespace zinc {
@@ -11,7 +11,6 @@ extern "C" {
             static void endByUnlock(std::byte* sysThreadId, unsigned char* handleId, std::byte* byte_ACCESS_ID);
             static unsigned char* generateHandle(std::byte* sysThreadId);
             static void generateProgram(std::byte* sysThreadId);
-            static unsigned char* isINSTANTIATED(std::byte* sysThreadId);
             static void reInitialiseHandle(std::byte* sysThreadId, unsigned char* handleId, std::byte* MAX_NUMBER_OF_THREADS_FOR_ACCESS);
             static void startByLock(std::byte* sysThreadId, unsigned char* handleId, std::byte* byte_ACCESS_ID);
             static void terminateProgram(std::byte* sysThreadId, unsigned char* handleId);
@@ -24,7 +23,7 @@ extern "C" {
             static void CLIB_MutexQue_stat_REG_boot2_SUBSTANTIATE_array_of_isMemberFunctionINSTANTIATED(std::byte* sysThreadId);
             static void CLIB_MutexQue_stat_REG_boot3_INITIALISE_array_of_isMemberFunctionINSTANTIATED(std::byte* sysThreadId);
             static std::array<bool, 5>* CLIB_MutexQue_stat_REG_get_array_of_isMemberFunctionINSTANTIATED(std::byte* sysThreadId);
-            static std::list<void*>* CLIB_MutexQue_stat_PGM_get_array_of_ptr_CLIB_MutexQue(std::byte* sysThreadId);
+            static std::list<CLIB_MutexQue_Framework*>* CLIB_MutexQue_stat_PGM_get_array_of_ptr_CLIB_MutexQue(std::byte* sysThreadId);
             static CLIB_MutexQue_Framework* CLIB_MutexQue_stat_PGM_get_ptr_CLIB_MutexQue(std::byte* sysThreadId, int* handleId);
         };
     }

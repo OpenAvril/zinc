@@ -1,5 +1,13 @@
 # Zinc Insulate Neural Chip Open Source Package:
 
+MutexQue : zinc_mutex_que, v-1.2.0.
+
+Stemisphore : zinc_stemisphore, v-1.2.0.
+
+LaunchQue : zinc_launch_que, v-1.2.0.
+
+LeftHemisphore : zinc_epicentre. ***TEMPLATE for user Compilation*** ***UNDER DEVELOPMENT***
+ 
 ---
 ---
 ## zinc.
@@ -37,7 +45,7 @@ A master by coursework with five specialisation electives, I propose Convener of
 ---
 ## zinc : zinc::.*
 ---
-### MutexQue : zinc_mutex_que.
+### MutexQue : zinc_mutex_que, v-1.2.0.
   
 Exclusive Cohesion Mutex Queue:   
 
@@ -46,7 +54,7 @@ CLIB Request, Wait, Write-Read for 'ThreadId' at 'DataCluster'.
 Via concurrency, 'zinc' and 'slif' libraries double the combined input and output efficiency with three "Threads; Input, Output, Task." on Raspberry Pi & Arduino via respectivly. 
 
 ---
-### Stemisphore : zinc_stemisphore. ***UNDER DEVELOPMENT***
+### Stemisphore : zinc_stemisphore, v-1.2.0.
 
 System Bussing for Zinc Neural Hemisphoric Chip:
 
@@ -59,7 +67,7 @@ Triple MutexQue into a set/get data buffer of bus for route of paired junctions.
 MainStreamBussing: CLIB Compound of ExclusiveCohesionMutexQueue(s). An array of a single Bus with route array of Stations. A single Bus deploying an ExclusiveCohesionMutexQueue('AccessId_A=StationId','DataClusterId_A=BusId'), and each Station deploying an ExclusiveCohesionMutexQueue('AccessId_B','DataClusterId_B=StationId').
 
 ---
-### LaunchQue : zinc_launch_que.
+### LaunchQue : zinc_launch_que, v-1.2.0.
 
 Left Hemisphore Task Launcher: 
 

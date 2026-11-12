@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="SiliconLife" targetName="SoothCute" />
+      <config projectName="SiliconLife" targetName="zinc_mutex_que" />
+      <config projectName="SiliconLife" targetName="TESTBENCH" />
+      <config projectName="SiliconLife" targetName="zinc_neural_chip" />
+      <config projectName="SiliconLife" targetName="zinc_epicentre" />
+      <config projectName="SiliconLife" targetName="zinc_launch_que" />
+      <config projectName="SiliconLife" targetName="zinc_stemisphore" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2fb33d3f-99ba-4f2a-b0ec-fe17b1bccdcf" name="Changes" comment="DEVELOPMENT_2026_11_12_1521, &lt;COMPILE_SUCCESS&gt; &lt;RUNTIME_TEST&gt;.&#10;BUILT: DEVELOPMENT_2026_11_12_1521.&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.0.&#10;     - zinc_stemisphore v1.2.0.&#10;     - zinc_launch_que v1.2.0.&#10;     - zinc_epicentre v1.2.0.&#10;PHASE: Design, **Implementation**, *Testing*, Review.&#10;&#10;IMPLEMENTED:&#10;   - LIBRARIES:&#10;     - CLIB_MutexQue v1.2.0.&#10;     - CLIB_LaunchQue v1.2.0.&#10;     - CLIB_Stemisphore v1.2.0.&#10;     - CLIB_LeftHemishpore v1.2.0.&#10;     &#10;---&#10;---">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/io/include/CLIB_LaunchQue.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/io/include/CLIB_LaunchQue.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/io/src/CLIB_LaunchQue.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/io/src/CLIB_LaunchQue.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/include/engine/CLIB_LeftHemisphore_Framework_App_Algorithms.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/include/engine/CLIB_LeftHemisphore_Framework_App_Algorithms.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/include/engine/CLIB_LeftHemisphore_Framework_App_Data.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/include/engine/CLIB_LeftHemisphore_Framework_App_Data.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/include/engine/CLIB_LeftHemisphore_Framework_App_Data_Control.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/include/engine/CLIB_LeftHemisphore_Framework_App_Data_Control.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/include/engine/CLIB_LeftHemisphore_Framework_App_Execute.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/include/engine/CLIB_LeftHemisphore_Framework_App_Execute.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/include/engine/CLIB_LeftHemisphore_Framework_App_Execute_Control.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/include/engine/CLIB_LeftHemisphore_Framework_App_Execute_Control.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/include/engine/CLIB_LeftHemisphore_Framework_Global.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/include/engine/CLIB_LeftHemisphore_Framework_Global.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/include/independent/CLIB_LeftHemisphore_STRUCT_Input.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/include/independent/CLIB_LeftHemisphore_STRUCT_Input.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/include/independent/threads/CLIB_LeftHemisphore_STRUCT_Concurrent.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/include/independent/threads/CLIB_LeftHemisphore_STRUCT_Concurrent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/io/include/CLIB_LeftHemisphore.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/io/include/CLIB_LeftHemisphore.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/io/src/CLIB_LeftHemisphore.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/io/src/CLIB_LeftHemisphore.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/src/engine/CLIB_LeftHemisphore_Framework_App_Data_Control.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/src/engine/CLIB_LeftHemisphore_Framework_App_Data_Control.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/src/engine/CLIB_LeftHemisphore_Framework_App_Execute.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/src/engine/CLIB_LeftHemisphore_Framework_App_Execute.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/src/engine/CLIB_LeftHemisphore_Framework_App_Execute_Control.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/src/engine/CLIB_LeftHemisphore_Framework_App_Execute_Control.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/src/engine/CLIB_LeftHemisphore_Framework_Global.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/src/engine/CLIB_LeftHemisphore_Framework_Global.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/src/independent/CLIB_LeftHemisphore_STRUCT_Input.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/src/independent/CLIB_LeftHemisphore_STRUCT_Input.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/src/independent/threads/CLIB_LeftHemisphore_STRUCT_Concurrent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/src/independent/threads/CLIB_LeftHemisphore_STRUCT_Concurrent.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/src/CLIB_MutexQue_Framework_App_Control.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/src/CLIB_MutexQue_Framework_App_Control.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/io/src/CLIB_SystemBus.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/io/src/CLIB_SystemBus.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/src/independent/CLIB_Bus_STRUCT_SingleBus.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/src/independent/CLIB_Bus_STRUCT_SingleBus.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/src/independent/CLIB_Bus_STRUCT_SingleBus_Framework_App_Execute.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/src/independent/CLIB_Bus_STRUCT_SingleBus_Framework_App_Execute.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoothCute/CLIB_Optimus.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/SoothCute/CLIB_Optimus.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TESTBENCH/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TESTBENCH/main.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ScholarDragon"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/OpenAvril/zinc.git",
+    "accountId": "aaf3520f-cb71-49c6-b6f9-fec131509ea2"
+  }
+}]]></component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0000070859547678" />
+      <entry key="MS500" value="1.1211135156202001" />
+      <entry key="S2" value="1.961058676680854" />
+      <entry key="S5" value="2.493101022919903" />
+      <entry key="S10" value="2.8798978901849095" />
+      <entry key="S30" value="4.917585960855148" />
+      <entry key="S60" value="7.641292365714666" />
+      <entry key="M2" value="11.115840956341572" />
+      <entry key="M5" value="16.49332805246203" />
+      <entry key="M10" value="23.976850410890776" />
+      <entry key="M15" value="32.1404340081405" />
+      <entry key="M30" value="54.65616716995064" />
+      <entry key="H1" value="89.1490773320396" />
+      <entry key="H2" value="146.58053590470973" />
+      <entry key="H4" value="229.78776156661496" />
+      <entry key="D1" value="398.63992266861965" />
+      <entry key="W1" value="446.2816023842464" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="2.227514540949501E-158" />
+      <entry key="S5" value="1.4765262872605177E-63" />
+      <entry key="S10" value="6.453872659697999E-32" />
+      <entry key="S30" value="8.364430471785893E-11" />
+      <entry key="S60" value="1.7095252300645076E-5" />
+      <entry key="M2" value="0.00911232108355758" />
+      <entry key="M5" value="0.5220203537659125" />
+      <entry key="M10" value="2.523943388758377" />
+      <entry key="M15" value="4.679283156738861" />
+      <entry key="M30" value="9.928413908901788" />
+      <entry key="H1" value="17.726393887816126" />
+      <entry key="H2" value="30.843847609693693" />
+      <entry key="H4" value="50.61932738720673" />
+      <entry key="D1" value="93.24340793071792" />
+      <entry key="W1" value="105.70340312067773" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.8010757960863784" />
+      <entry key="MS500" value="1.0738463104845752" />
+      <entry key="S2" value="1.9429543389648731" />
+      <entry key="S5" value="2.48434126599912" />
+      <entry key="S10" value="2.8745899745534715" />
+      <entry key="S30" value="4.911493127790294" />
+      <entry key="S60" value="7.628115863980212" />
+      <entry key="M2" value="11.104983720609315" />
+      <entry key="M5" value="16.988578454598958" />
+      <entry key="M10" value="26.4589854785019" />
+      <entry key="M15" value="36.76503936327487" />
+      <entry key="M30" value="64.51749845977831" />
+      <entry key="H1" value="106.8141849302228" />
+      <entry key="H2" value="177.37568757523957" />
+      <entry key="H4" value="280.3715836394239" />
+      <entry key="D1" value="491.8738408889914" />
+      <entry key="W1" value="551.9835070535436" />
+    </decayedShown>
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2026" />
+    <option name="minorVersion" value="3.0.1" />
+    <option name="productBranch" value="Classic" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3LtnUwYt2xg8LBF2QYIsJi6Bvk0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "CMake Application.TESTBENCH.executor": "Run",
+    "CidrDebugProfileConversion": "true",
+    "CidrDebugProfileConversion262": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "DEVELOPMENT",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/brenton-james/CLionProjects/zinc/CLIB_ZincNeuralChip/libs/CLIB_MutexQue",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="CMake Application.TESTBENCH">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SoothCute" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SiliconLife" TARGET_NAME="SoothCute" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TESTBENCH" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SiliconLife" TARGET_NAME="TESTBENCH" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SiliconLife" RUN_TARGET_NAME="TESTBENCH">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="zinc_epicentre" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SiliconLife" TARGET_NAME="zinc_epicentre" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="zinc_launch_que" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SiliconLife" TARGET_NAME="zinc_launch_que" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="zinc_mutex_que" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SiliconLife" TARGET_NAME="zinc_mutex_que" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="zinc_neural_chip" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SiliconLife" TARGET_NAME="zinc_neural_chip" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="zinc_stemisphore" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SiliconLife" TARGET_NAME="zinc_stemisphore" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.SoothCute" />
+      <item itemvalue="CMake Application.TESTBENCH" />
+      <item itemvalue="CMake Application.zinc_epicentre" />
+      <item itemvalue="CMake Application.zinc_launch_que" />
+      <item itemvalue="CMake Application.zinc_mutex_que" />
+      <item itemvalue="CMake Application.zinc_neural_chip" />
+      <item itemvalue="CMake Application.zinc_stemisphore" />
+    </list>
+  </component>
+  <component name="SelectedDebugProfileService"><![CDATA[{
+  "profileIdByStamp": [
+    {
+      "first": {
+        "##RUN_CONFIGURATION##": "CMake Application.TESTBENCH",
+        "cmake": "CMakeBuildProfile:Debug"
+      },
+      "second": "0f33b337-bf07-49b1-b36b-bed896229a10"
+    },
+    {
+      "first": {
+        "##RUN_CONFIGURATION##": "CMake Application.SoothCute",
+        "cmake": "CMakeBuildProfile:Debug"
+      },
+      "second": "0f33b337-bf07-49b1-b36b-bed896229a10"
+    },
+    {
+      "first": {
+        "##RUN_CONFIGURATION##": "CMake Application.SoothCute",
+        "cmake": null
+      },
+      "second": "0f33b337-bf07-49b1-b36b-bed896229a10"
+    },
+    {
+      "first": {
+        "##RUN_CONFIGURATION##": "CMake Application.TESTBENCH",
+        "cmake": null
+      },
+      "second": "0f33b337-bf07-49b1-b36b-bed896229a10"
+    }
+  ],
+  "modificationCount": 14
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.27258.136" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.27258.136" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2fb33d3f-99ba-4f2a-b0ec-fe17b1bccdcf" name="Changes" comment="" />
+      <created>1794282252819</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1794282252819</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+    <isAutomaticBootstrapAfterUpdate value="false" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="DEVELOPMENT_2026_11_12_1345, &lt;COMPILE_SUCCESS&gt; &lt;RUNTIME_TEST&gt;.&#10;BUILT: DEVELOPMENT_2026_11_12_1345.&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.1.2.&#10;     - zinc_launch_que v1.1.3.&#10;PHASE: Design, **Implementation**, *Testing*, Review.&#10;&#10;IMPLEMENTED:&#10;   - LIBRARIES:&#10;     - CLIB_MutexQue v1.1.2.&#10;     - CLIB_LaunchQue v1.1.3.&#10;&#10;TODO:&#10; - CLIB_Stemisphore v1.1.3.&#10; - CLIB_LeftHemishpore v1.1.3.&#10; - PROJECT BNI:&#10;   - PROJECT BNITT:&#10;     - BNITT.h&#10;     - BNITT.cpp&#10;   - PROJECT BNN:&#10;     - PROJECT BNN ARCH:&#10;       - BNN_Arch.h&#10;       - BNN_Arch.cpp&#10;     - PROJECT BNIBNNDS:&#10;       - BNIDS.h&#10;       - BNIDS.cpp&#10; - LIBRARIES:&#10;   - CLIB_ThreadsLog." />
+    <MESSAGE value="DEVELOPMENT_2026_11_12_1345, &lt;COMPILE_SUCCESS&gt; &lt;RUNTIME_TEST&gt;.&#10;BUILT: DEVELOPMENT_2026_11_12_1345.&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.1.3.&#10;     - zinc_launch_que v1.1.3.&#10;PHASE: Design, **Implementation**, *Testing*, Review.&#10;&#10;IMPLEMENTED:&#10;   - LIBRARIES:&#10;     - CLIB_MutexQue v1.1.2.&#10;     - CLIB_LaunchQue v1.1.3.&#10;&#10;TODO:&#10; - CLIB_Stemisphore v1.1.3.&#10; - CLIB_LeftHemishpore v1.1.3.&#10; - PROJECT BNI:&#10;   - PROJECT BNITT:&#10;     - BNITT.h&#10;     - BNITT.cpp&#10;   - PROJECT BNN:&#10;     - PROJECT BNN ARCH:&#10;       - BNN_Arch.h&#10;       - BNN_Arch.cpp&#10;     - PROJECT BNIBNNDS:&#10;       - BNIDS.h&#10;       - BNIDS.cpp&#10; - LIBRARIES:&#10;   - CLIB_ThreadsLog." />
+    <option name="LAST_COMMIT_MESSAGE" value="DEVELOPMENT_2026_11_12_1345, &lt;COMPILE_SUCCESS&gt; &lt;RUNTIME_TEST&gt;.&#10;BUILT: DEVELOPMENT_2026_11_12_1345.&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.1.3.&#10;     - zinc_launch_que v1.1.3.&#10;PHASE: Design, **Implementation**, *Testing*, Review.&#10;&#10;IMPLEMENTED:&#10;   - LIBRARIES:&#10;     - CLIB_MutexQue v1.1.2.&#10;     - CLIB_LaunchQue v1.1.3.&#10;&#10;TODO:&#10; - CLIB_Stemisphore v1.1.3.&#10; - CLIB_LeftHemishpore v1.1.3.&#10; - PROJECT BNI:&#10;   - PROJECT BNITT:&#10;     - BNITT.h&#10;     - BNITT.cpp&#10;   - PROJECT BNN:&#10;     - PROJECT BNN ARCH:&#10;       - BNN_Arch.h&#10;       - BNN_Arch.cpp&#10;     - PROJECT BNIBNNDS:&#10;       - BNIDS.h&#10;       - BNIDS.cpp&#10; - LIBRARIES:&#10;   - CLIB_ThreadsLog." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/src/CLIB_LaunchQue_Framework_Global.cpp</url>
+          <line>57</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/src/CLIB_LaunchQue_Framework_Global.cpp</url>
+          <line>118</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

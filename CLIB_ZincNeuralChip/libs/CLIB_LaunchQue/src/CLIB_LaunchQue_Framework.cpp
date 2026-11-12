@@ -6,9 +6,9 @@
 	zinc::CLIB_LaunchQue_Framework_Global* zinc::CLIB_LaunchQue_Framework::stat_CLASS_ptr_CLIB_LaunchQue_Framework_Global;
 // public.
 	zinc::CLIB_LaunchQue_Framework::CLIB_LaunchQue_Framework(std::byte* sysThreadId) {
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << "  :: entered LIB :: wq : CLIB_LaunchQue_Framework : CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "  :: entered LIB :: wq : CLIB_LaunchQue_Framework : CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
 		stat_CLASS_boot0_DECLARE_CLIB_LaunchQue_Framework(sysThreadId);
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << "  :: exiting LIB :: wq : CLIB_LaunchQue_Framework : CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "  :: exiting LIB :: wq : CLIB_LaunchQue_Framework : CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
 	}
 	zinc::CLIB_LaunchQue_Framework::~CLIB_LaunchQue_Framework() {
 		std::cout << "thread " << std::to_string(0) << " :: entered LIB :: wq : CLIB_LaunchQue_Framework : ~CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
@@ -17,87 +17,87 @@
 		std::cout << "thread " << std::to_string(0) << " :: exiting LIB :: wq : CLIB_LaunchQue_Framework : ~CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
 	}
 	void zinc::CLIB_LaunchQue_Framework::dyn_CLASS_create_Architecture(std::byte* sysThreadId) {
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << "  :: entered LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "  :: entered LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
 		stat_CLASS_boot1_DEFINE_CLIB_LaunchQue_Framework(sysThreadId);
 		stat_CLASS_boot3_INITIALISE_CLIB_LaunchQue_Framework(sysThreadId);
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << "  :: exiting LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "  :: exiting LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
 	}
 	void zinc::CLIB_LaunchQue_Framework::dyn_CLASS_create_CLIB_LaunchQue_Framework_Global_and_Settings(std::byte* sysThreadId) {
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << "  :: entered LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "  :: entered LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
 		stat_CLASS_boot1_DEFINE_CLIB_LaunchQue_Framework_Global(sysThreadId);
 		stat_CLASS_boot3_INITIALISE_CLIB_LaunchQue_Framework_Global(sysThreadId);
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << "  :: exiting LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "  :: exiting LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
 	}
 	zinc::CLIB_LaunchQue_Framework_App* zinc::CLIB_LaunchQue_Framework::dyn_CLASS_get_ptr_CLIB_LaunchQue_Framework_App(std::byte* sysThreadId) {
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << "  :: <= class : dyn_CLASS_get_ptr_CLIB_LaunchQue_Framework_App(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "  :: <= class : dyn_CLASS_get_ptr_CLIB_LaunchQue_Framework_App(sysThreadId)" << std::endl;
 		return stat_CLASS_get_ptr_CLIB_LaunchQue_Framework_App(sysThreadId);
 	}
 	zinc::CLIB_LaunchQue_Framework_Global* zinc::CLIB_LaunchQue_Framework::dyn_CLASS_get_ptr_CLIB_LaunchQue_Framework_Global(std::byte* sysThreadId) {
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << "  :: <= class : stat_CLASS_boot3_INITIALISE_CLIB_LaunchQue_Framework_Globaldyn_CLASS_get_ptr_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "  :: <= class : stat_CLASS_boot3_INITIALISE_CLIB_LaunchQue_Framework_Globaldyn_CLASS_get_ptr_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
 		return stat_CLASS_get_ptr_CLIB_LaunchQue_Framework_Global(sysThreadId);
 	}
 	void zinc::CLIB_LaunchQue_Framework::dyn_REG_boot0_DECLARE_CLIB_LaunchQue_Framework(std::byte* sysThreadId) {
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << "  :: entered LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << "  :: exiting LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "  :: entered LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "  :: exiting LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
 	}
 	void zinc::CLIB_LaunchQue_Framework::dyn_REG_boot1_DEFINE_CLIB_LaunchQue_Framework(std::byte* sysThreadId) {
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << "  :: entered LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << "  :: exiting LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "  :: entered LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "  :: exiting LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
 	}
 	void zinc::CLIB_LaunchQue_Framework::dyn_REG_boot2_SUBSTANTIATE_CLIB_LaunchQue_Framework(std::byte* sysThreadId) {
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << "  :: entered LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << "  :: exiting LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;	}
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "  :: entered LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "  :: exiting LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;	}
 
 	void zinc::CLIB_LaunchQue_Framework::dyn_REG_boot3_INITIALISE_CLIB_LaunchQue_Framework(std::byte* sysThreadId) {
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << "  :: entered LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << "  :: exiting LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "  :: entered LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "  :: exiting LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
 	}
 	void zinc::CLIB_LaunchQue_Framework::stat_CLASS_boot0_DECLARE_CLIB_LaunchQue_Framework(std::byte* sysThreadId) {
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << "  :: entered LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << "  :: exiting LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "  :: entered LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "  :: exiting LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
 	}
 	void zinc::CLIB_LaunchQue_Framework::stat_CLASS_boot1_DEFINE_CLIB_LaunchQue_Framework(std::byte* sysThreadId) {
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << "  :: entered LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "  :: entered LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
 		stat_CLASS_boot1_DEFINE_CLIB_LaunchQue_Framework_App(sysThreadId);
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << "  :: exiting LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "  :: exiting LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
 	}
 	void zinc::CLIB_LaunchQue_Framework::stat_CLASS_boot3_INITIALISE_CLIB_LaunchQue_Framework(std::byte* sysThreadId) {
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << "  :: entered LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "  :: entered LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
 		stat_CLASS_boot3_INITIALISE_CLIB_LaunchQue_Framework_App(sysThreadId);
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << "  :: exiting LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "  :: exiting LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
 	}
 	void zinc::CLIB_LaunchQue_Framework::stat_REG_boot0_DECLARE_CLIB_LaunchQue_Framework(std::byte* sysThreadId) {
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << "  :: entered LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << "  :: exiting LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "  :: entered LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "  :: exiting LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
 	}
 // private.
 	void zinc::CLIB_LaunchQue_Framework::stat_CLASS_boot1_DEFINE_CLIB_LaunchQue_Framework_App(std::byte* sysThreadId) {
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << "  :: entered LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "  :: entered LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
 		stat_CLASS_ptr_CLIB_LaunchQue_Framework_App = nullptr;
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << "  :: exiting LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "  :: exiting LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
 	}
 	void zinc::CLIB_LaunchQue_Framework::stat_CLASS_boot1_DEFINE_CLIB_LaunchQue_Framework_Global(std::byte* sysThreadId)	{
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << "  :: entered LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "  :: entered LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
 		stat_CLASS_ptr_CLIB_LaunchQue_Framework_Global = nullptr;
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << "  :: exiting LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "  :: exiting LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
 	}
 	void zinc::CLIB_LaunchQue_Framework::stat_CLASS_boot3_INITIALISE_CLIB_LaunchQue_Framework_App(std::byte* sysThreadId) {
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << "  :: entered LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "  :: entered LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
 		stat_CLASS_ptr_CLIB_LaunchQue_Framework_App = new class zinc::CLIB_LaunchQue_Framework_App(sysThreadId);
 		while (stat_CLASS_get_ptr_CLIB_LaunchQue_Framework_App(sysThreadId) == nullptr) {}
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << "  :: exiting LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "  :: exiting LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
 	}
 	void zinc::CLIB_LaunchQue_Framework::stat_CLASS_boot3_INITIALISE_CLIB_LaunchQue_Framework_Global(std::byte* sysThreadId) {
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << "  :: entered LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "  :: entered LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
 		stat_CLASS_ptr_CLIB_LaunchQue_Framework_Global = new class zinc::CLIB_LaunchQue_Framework_Global(sysThreadId);
 		while (stat_CLASS_get_ptr_CLIB_LaunchQue_Framework_Global(sysThreadId) == nullptr) {}
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << "  :: exiting LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "  :: exiting LIB :: wq : CLIB_LaunchQue_Framework : boot0_REG_DECLARE_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
 	}
 	zinc::CLIB_LaunchQue_Framework_App* zinc::CLIB_LaunchQue_Framework::stat_CLASS_get_ptr_CLIB_LaunchQue_Framework_App(std::byte* sysThreadId)	{
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << "  :: <= class : stat_CLASS_get_ptr_CLIB_LaunchQue_Framework_App(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "  :: <= class : stat_CLASS_get_ptr_CLIB_LaunchQue_Framework_App(sysThreadId)" << std::endl;
 		return stat_CLASS_ptr_CLIB_LaunchQue_Framework_App;
 	}
 	zinc::CLIB_LaunchQue_Framework_Global* zinc::CLIB_LaunchQue_Framework::stat_CLASS_get_ptr_CLIB_LaunchQue_Framework_Global(std::byte* sysThreadId) {
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << "  :: <= class : stat_CLASS_get_ptr_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "  :: <= class : stat_CLASS_get_ptr_CLIB_LaunchQue_Framework(sysThreadId)" << std::endl;
 		return stat_CLASS_ptr_CLIB_LaunchQue_Framework_Global;
 	}

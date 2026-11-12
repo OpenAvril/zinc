@@ -4,8 +4,8 @@
 	zinc::CLIB_MutexQue_Framework_Global* zinc::CLIB_MutexQue_Framework::stat_CLASS_ptr_CLIB_MutexQue_Framework_Global;
 // public.
 	zinc::CLIB_MutexQue_Framework::CLIB_MutexQue_Framework(std::byte* sysThreadId) {
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << " :: entered LIB :: CLIB : CLIB_MutexQue_Framework : CLIB_MutexQue_Framework(sysThreadId)" << std::endl;
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << " :: exiting LIB :: CLIB : CLIB_MutexQue_Framework : CLIB_MutexQue_Framework(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_MutexQue_Framework : CLIB_MutexQue_Framework(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_MutexQue_Framework : CLIB_MutexQue_Framework(sysThreadId)" << std::endl;
 	}
 	zinc::CLIB_MutexQue_Framework::~CLIB_MutexQue_Framework() {
 		std::cout << "thread "  << 0 << " :: entered LIB :: CLIB : CLIB_MutexQue_Framework : CLIB_MutexQue_Framework(sysThreadId)" << std::endl;
@@ -14,70 +14,70 @@
 		std::cout << "thread "  << 0 << " :: exiting LIB :: CLIB : CLIB_MutexQue_Framework : CLIB_MutexQue_Framework(sysThreadId)" << std::endl;
 	}
 	void zinc::CLIB_MutexQue_Framework::dyn_CLASS_create_CLIB_MutexQue_Architecture(std::byte* sysThreadId) {
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << " :: entered LIB :: CLIB : CLIB_MutexQue_Framework : dyn_CLASS_create_CLIB_MutexQue_Architecture(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_MutexQue_Framework : dyn_CLASS_create_CLIB_MutexQue_Architecture(sysThreadId)" << std::endl;
 		stat_CLASS_boot1_DEFINE_CLIB_MutexQue_Framework(sysThreadId);
 		stat_CLASS_boot3_INITIALISE_CLIB_MutexQue_Framework(sysThreadId);
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << " :: exiting LIB :: CLIB : CLIB_MutexQue_Framework : dyn_CLASS_create_CLIB_MutexQue_Architecture(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_MutexQue_Framework : dyn_CLASS_create_CLIB_MutexQue_Architecture(sysThreadId)" << std::endl;
 	}
 	void zinc::CLIB_MutexQue_Framework::dyn_CLASS_create_CLIB_MutexQue_Global_and_Settings(std::byte* sysThreadId)
 	{
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << " :: entered LIB :: CLIB : CLIB_MutexQue_Framework : dyn_CLASS_create_CLIB_MutexQue_Global_and_Settings(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_MutexQue_Framework : dyn_CLASS_create_CLIB_MutexQue_Global_and_Settings(sysThreadId)" << std::endl;
 		stat_CLASS_boot1_DEFINE_CLIB_MutexQue_Global(sysThreadId);
 		stat_CLASS_boot3_INITIALISE_CLIB_MutexQue_Global(sysThreadId);
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << " :: exiting LIB :: CLIB : CLIB_MutexQue_Framework : dyn_CLASS_create_CLIB_MutexQue_Global_and_Settings(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_MutexQue_Framework : dyn_CLASS_create_CLIB_MutexQue_Global_and_Settings(sysThreadId)" << std::endl;
 	}
 	zinc::CLIB_MutexQue_Framework_App* zinc::CLIB_MutexQue_Framework::dyn_CLASS_get_ptr_CLIB_MutexQue_App(std::byte* sysThreadId) {
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << " :: <= class : dyn_CLASS_get_ptr_CLIB_MutexQue_App(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: <= class : dyn_CLASS_get_ptr_CLIB_MutexQue_App(sysThreadId)" << std::endl;
 		return stat_CLASS_get_ptr_CLIB_MutexQue_App(sysThreadId);
 	}
 	zinc::CLIB_MutexQue_Framework_Global* zinc::CLIB_MutexQue_Framework::dyn_CLASS_get_ptr_CLIB_MutexQue_Global(std::byte* sysThreadId) {
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << " :: <= class : dyn_CLASS_get_ptr_CLIB_MutexQue_Global(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: <= class : dyn_CLASS_get_ptr_CLIB_MutexQue_Global(sysThreadId)" << std::endl;
 		return stat_CLASS_get_ptr_CLIB_MutexQue_Global(sysThreadId);
 	}
 	void zinc::CLIB_MutexQue_Framework::stat_CLASS_boot1_DEFINE_CLIB_MutexQue_Framework(std::byte* sysThreadId) {
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << " :: entered LIB :: CLIB : CLIB_MutexQue_Framework : stat_CLASS_boot1_DEFINE_CLIB_MutexQue_Framework(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_MutexQue_Framework : stat_CLASS_boot1_DEFINE_CLIB_MutexQue_Framework(sysThreadId)" << std::endl;
 		stat_CLASS_boot1_DEFINE_CLIB_MutexQue_App(sysThreadId);
 		stat_CLASS_boot1_DEFINE_CLIB_MutexQue_Global(sysThreadId);
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << " :: exiting LIB :: CLIB : CLIB_MutexQue_Framework : stat_CLASS_boot1_DEFINE_CLIB_MutexQue_Framework(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_MutexQue_Framework : stat_CLASS_boot1_DEFINE_CLIB_MutexQue_Framework(sysThreadId)" << std::endl;
 	}
 	void zinc::CLIB_MutexQue_Framework::stat_CLASS_boot3_INITIALISE_CLIB_MutexQue_Framework(std::byte* sysThreadId) {
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << " :: entered LIB :: CLIB : CLIB_MutexQue_Framework : stat_CLASS_boot3_INITIALISE_CLIB_MutexQue_Framework(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_MutexQue_Framework : stat_CLASS_boot3_INITIALISE_CLIB_MutexQue_Framework(sysThreadId)" << std::endl;
 		stat_CLASS_boot3_INITIALISE_CLIB_MutexQue_App(sysThreadId);
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << " :: exiting LIB :: CLIB : CLIB_MutexQue_Framework : stat_CLASS_boot3_INITIALISE_CLIB_MutexQue_Framework(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_MutexQue_Framework : stat_CLASS_boot3_INITIALISE_CLIB_MutexQue_Framework(sysThreadId)" << std::endl;
 	}
 	void zinc::CLIB_MutexQue_Framework::stat_CLASS_boot3_INITIALISE_CLIB_MutexQue_Global(std::byte* sysThreadId) {
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << " :: entered LIB :: CLIB : CLIB_MutexQue_Framework : stat_CLASS_boot3_INITIALISE_CLIB_MutexQue_Global(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_MutexQue_Framework : stat_CLASS_boot3_INITIALISE_CLIB_MutexQue_Global(sysThreadId)" << std::endl;
 		pr_stat_CLASS_boot3_INITIALISE_CLIB_MutexQue_Global(sysThreadId);
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << " :: exiting LIB :: CLIB : CLIB_MutexQue_Framework : stat_CLASS_boot3_INITIALISE_CLIB_MutexQue_Global(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_MutexQue_Framework : stat_CLASS_boot3_INITIALISE_CLIB_MutexQue_Global(sysThreadId)" << std::endl;
 	}
 // private.
 	void zinc::CLIB_MutexQue_Framework::stat_CLASS_boot1_DEFINE_CLIB_MutexQue_App(std::byte* sysThreadId) {
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << " :: entered LIB :: CLIB : CLIB_MutexQue_Framework : stat_CLASS_boot1_DEFINE_CLIB_MutexQue_App(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_MutexQue_Framework : stat_CLASS_boot1_DEFINE_CLIB_MutexQue_App(sysThreadId)" << std::endl;
 		stat_CLASS_get_ptr_CLIB_MutexQue_Framework_App = nullptr;
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << " :: exiting LIB :: CLIB : CLIB_MutexQue_Framework : stat_CLASS_boot1_DEFINE_CLIB_MutexQue_App(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_MutexQue_Framework : stat_CLASS_boot1_DEFINE_CLIB_MutexQue_App(sysThreadId)" << std::endl;
 	}
 	void zinc::CLIB_MutexQue_Framework::stat_CLASS_boot1_DEFINE_CLIB_MutexQue_Global(std::byte* sysThreadId) {
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << " :: entered LIB :: CLIB : CLIB_MutexQue_Framework : stat_CLASS_boot1_DEFINE_CLIB_MutexQue_Global(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_MutexQue_Framework : stat_CLASS_boot1_DEFINE_CLIB_MutexQue_Global(sysThreadId)" << std::endl;
 		stat_CLASS_ptr_CLIB_MutexQue_Framework_Global = nullptr;
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << " :: exiting LIB :: CLIB : CLIB_MutexQue_Framework : stat_CLASS_boot1_DEFINE_CLIB_MutexQue_Global(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_MutexQue_Framework : stat_CLASS_boot1_DEFINE_CLIB_MutexQue_Global(sysThreadId)" << std::endl;
 	}
 	void zinc::CLIB_MutexQue_Framework::stat_CLASS_boot3_INITIALISE_CLIB_MutexQue_App(std::byte* sysThreadId)	{
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << " :: entered LIB :: CLIB : CLIB_MutexQue_Framework : stat_CLASS_boot3_INITIALISE_CLIB_MutexQue_App(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_MutexQue_Framework : stat_CLASS_boot3_INITIALISE_CLIB_MutexQue_App(sysThreadId)" << std::endl;
 		stat_CLASS_get_ptr_CLIB_MutexQue_Framework_App = new class zinc::CLIB_MutexQue_Framework_App(sysThreadId);
 		while (stat_CLASS_get_ptr_CLIB_MutexQue_App(sysThreadId) == nullptr) {}
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << " :: exiting LIB :: CLIB : CLIB_MutexQue_Framework : stat_CLASS_boot3_INITIALISE_CLIB_MutexQue_App(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_MutexQue_Framework : stat_CLASS_boot3_INITIALISE_CLIB_MutexQue_App(sysThreadId)" << std::endl;
 	}
 	void zinc::CLIB_MutexQue_Framework::pr_stat_CLASS_boot3_INITIALISE_CLIB_MutexQue_Global(std::byte* sysThreadId) {
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << " :: entered LIB :: CLIB : CLIB_MutexQue_Framework : pr_stat_CLASS_boot3_INITIALISE_CLIB_MutexQue_Global(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_MutexQue_Framework : pr_stat_CLASS_boot3_INITIALISE_CLIB_MutexQue_Global(sysThreadId)" << std::endl;
 		stat_CLASS_ptr_CLIB_MutexQue_Framework_Global = new class zinc::CLIB_MutexQue_Framework_Global(sysThreadId);
 		while (stat_CLASS_get_ptr_CLIB_MutexQue_Global(sysThreadId) == nullptr) {}
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << " :: exiting LIB :: CLIB : CLIB_MutexQue_Framework : pr_stat_CLASS_boot3_INITIALISE_CLIB_MutexQue_Global(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_MutexQue_Framework : pr_stat_CLASS_boot3_INITIALISE_CLIB_MutexQue_Global(sysThreadId)" << std::endl;
 	}
 	zinc::CLIB_MutexQue_Framework_App* zinc::CLIB_MutexQue_Framework::stat_CLASS_get_ptr_CLIB_MutexQue_App(std::byte* sysThreadId) {
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << " :: <= class : stat_CLASS_get_ptr_CLIB_MutexQue_App(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: <= class : stat_CLASS_get_ptr_CLIB_MutexQue_App(sysThreadId)" << std::endl;
 		return stat_CLASS_get_ptr_CLIB_MutexQue_Framework_App;
 	}
 	zinc::CLIB_MutexQue_Framework_Global* zinc::CLIB_MutexQue_Framework::stat_CLASS_get_ptr_CLIB_MutexQue_Global(std::byte* sysThreadId) {
-		std::cout << "thread " << static_cast<int>(std::to_integer<unsigned char>(*sysThreadId)) << " :: <= class : stat_CLASS_get_ptr_CLIB_MutexQue_Global(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: <= class : stat_CLASS_get_ptr_CLIB_MutexQue_Global(sysThreadId)" << std::endl;
 		return stat_CLASS_ptr_CLIB_MutexQue_Framework_Global;
 	}

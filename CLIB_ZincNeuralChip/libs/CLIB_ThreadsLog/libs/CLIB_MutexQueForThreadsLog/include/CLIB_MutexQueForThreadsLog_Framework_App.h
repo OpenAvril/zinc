@@ -7,8 +7,8 @@ namespace zinc {
     public:
         CLIB_MutexQueForThreadsLog_Framework_App(std::byte* sysThreadId);
         virtual ~CLIB_MutexQueForThreadsLog_Framework_App();
-        void dyn_APP_FUNCT_write_End(std::byte* sysThreadId, class CLIB_MutexQueForThreadsLog_Framework* obj, std::byte* coreId);
-        void dyn_APP_FUNCT_write_Start(std::byte* sysThreadId, class CLIB_MutexQueForThreadsLog_Framework* obj, std::byte* coreId);
+        void dyn_APP_FUNCT_write_End(std::byte* sysThreadId, class CLIB_MutexQueForThreadsLog_Framework* obj, uint8_t* coreId);
+        void dyn_APP_FUNCT_write_Start(std::byte* sysThreadId, class CLIB_MutexQueForThreadsLog_Framework* obj, uint8_t* coreId);
         class CLIB_MutexQueForThreadsLog_Framework_App_Control* dyn_CLASS_get_ptr_CLIB_MutexQueForThreadsLog_App_Control(std::byte* sysThreadId);
         void REG_boot1_DEFINE_CLIB_MutexQueForThreadsLog_App(std::byte* sysThreadId, class CLIB_MutexQueForThreadsLog_Framework* obj);
         void REG_boot2_SUBSTANTIATE_CLIB_MutexQueForThreadsLog_App(std::byte* sysThreadId, class CLIB_MutexQueForThreadsLog_Framework* obj);

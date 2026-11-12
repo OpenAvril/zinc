@@ -2,14 +2,14 @@
 #define CLIB_LAUNCHQUEUEATEND_FRAMEWORK_APP_H
 #include "../include/CLIB_LaunchQue_Framework_App_Control.h"
 #include "../include/CLIB_LaunchQue_Framework_Execute.h"
-#include <cstddef>
+#include <cstdint>
 namespace zinc {
     class CLIB_LaunchQue_Framework_App {
     public:
         CLIB_LaunchQue_Framework_App(std::byte* sysThreadId);
         virtual ~CLIB_LaunchQue_Framework_App();
-        void dyn_APP_FUNCT_CLIB_LaunchQue_thread_Start(std::byte* sysThreadId, class CLIB_LaunchQue_Framework* obj, std::byte* concurrentThreadId);
-        void dyn_APP_FUNCT_CLIB_LaunchQue_thread_End(std::byte* sysThreadId, class CLIB_LaunchQue_Framework* obj, std::byte* concurrentThreadId);
+        void dyn_APP_FUNCT_CLIB_LaunchQue_thread_Start(std::byte* sysThreadId, class CLIB_LaunchQue_Framework* obj, uint8_t* concurrentThreadId);
+        void dyn_APP_FUNCT_CLIB_LaunchQue_thread_End(std::byte* sysThreadId, class CLIB_LaunchQue_Framework* obj, uint8_t* concurrentThreadId);
         class CLIB_LaunchQue_Framework_App_Control* dyn_CLASS_get_CLIB_LaunchQue_Framework_App_Control(std::byte* sysThreadId);
         class CLIB_LaunchQue_Framework_Execute* dyn_CLASS_get_CLIB_LaunchQue_Framework_Execute(std::byte* sysThreadId);
         void dyn_REG_boot1_REG_DEFINE_CLIB_LaunchQue_Framework_App(std::byte* sysThreadId);
