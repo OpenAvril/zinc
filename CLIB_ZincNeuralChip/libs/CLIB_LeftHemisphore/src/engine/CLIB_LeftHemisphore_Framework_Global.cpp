@@ -114,11 +114,15 @@
             std::memcpy(&temp, bytes_Array, sizeof(unsigned long long));
             std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "  :: <= std::byte* : stat_CONVERT_CLIB_LeftHemisphore_Framework_Global_MsbByteArray_To_MsbStdByte(sysThreadId)." << std::endl;
             return temp;
-        }
-        unsigned char* zinc::CLIB_LeftHemisphore_Framework_Global::stat_APP_CONVERT_CLIB_SystemBus_Framework_Global_VUALUEofOBJ_To_MsbByteArray(std::byte* sysThreadId, class zinc::Object* DATA) {
-            std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: <= unsigned long long* : stat_APP_CONVERT_CLIB_SystemBus_Framework_Global_VUALUEofOBJ_To_MsbByteArray(sysThreadId). " << std::endl;
-            return reinterpret_cast<unsigned char*>(DATA);
-        }
+    }
+    unsigned char* zinc::CLIB_LeftHemisphore_Framework_Global::stat_APP_CONVERT_CLIB_SystemBus_Framework_Global_VUALUEofOBJ_To_MsbByteArray(std::byte* sysThreadId, class zinc::Object* DATA) {
+        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: <= unsigned long long* : stat_APP_CONVERT_CLIB_SystemBus_Framework_Global_VUALUEofOBJ_To_MsbByteArray(sysThreadId). " << std::endl;
+        return reinterpret_cast<unsigned char*>(DATA);
+    }
+    unsigned char* zinc::CLIB_LeftHemisphore_Framework_Global::stat_CONVERT_CLIB_LeftHemisphore_Framework_Global_VUALUEofMsb_uint8_t_To_VALUEofMsbULongLong_In_MsbByteArray(std::byte* sysThreadId, uint8_t* newValue_uint8_t) {
+        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "  :: <= unsigned char* : stat_CONVERT_CLIB_LeftHemisphore_Framework_Global_VUALUEofMsb_uint8_t_To_VALUEofMsbULongLong_In_MsbByteArray(sysThreadId)." << std::endl;
+        return reinterpret_cast<unsigned char*>(reinterpret_cast<unsigned long long*>(newValue_uint8_t));
+    }
     unsigned char* zinc::CLIB_LeftHemisphore_Framework_Global::stat_CONVERT_CLIB_LeftHemisphore_Framework_Global_VUALUEofMsbInt_To_MsbByteArray(std::byte* sysThreadId, int* newValue_Int) {
             unsigned char* buffer = nullptr;
             buffer = new unsigned char(static_cast<unsigned char>(INT_MAX));
@@ -140,20 +144,20 @@
             std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "  :: <= unsigned char* : stat_CONVERT_CLIB_LeftHemisphore_Framework_Global_unsignedLongLong_to_ByteArray(sysThreadId)." << std::endl;
             return buffer;
         }
-    int* zinc::CLIB_LeftHemisphore_Framework_Global::stat_CONVERT_CLIB_MutexQue_Framework_Global_VUALUEofMsbStdByte_To_Msbint(std::byte* sysThreadId, std::byte* newValue_stdbyte) {
+    int* zinc::CLIB_LeftHemisphore_Framework_Global::stat_CONVERT_CLIB_LeftHemisphore_Framework_Global_VUALUEofMsbStdByte_To_Msbint(std::byte* sysThreadId, std::byte* newValue_stdbyte) {
             std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "  :: <= int* : stat_CONVERT_CLIB_MutexQue_Framework_Global_VUALUEofMsbStdByte_To_Msbint(sysThreadId)." << std::endl;
             auto buffer = new int();
             std::memcpy(buffer, &newValue_stdbyte, sizeof(int));
             return buffer;
         }
-    unsigned char* zinc::CLIB_LeftHemisphore_Framework_Global::stat_CONVERT_CLIB_MutexQue_Framework_Global_VUALUEofMsbStdByteOf_uint8_t_To_MsbUnsignedLongLong_In_ByteArray(std::byte* sysThreadId, std::byte* newValue_stdbyte) {
+    unsigned char* zinc::CLIB_LeftHemisphore_Framework_Global::stat_CONVERT_CLIB_LeftHemisphore_Framework_Global_VUALUEofMsbStdByteOf_uint8_t_To_MsbUnsignedLongLong_In_ByteArray(std::byte* sysThreadId, std::byte* newValue_stdbyte) {
             auto ULL = new unsigned long long();
             auto temp = std::to_integer<uint8_t>(*newValue_stdbyte);
             *ULL = temp;
             return reinterpret_cast<unsigned char*>(ULL);
         }
 
-    unsigned long long* zinc::CLIB_LeftHemisphore_Framework_Global::stat_CONVERT_CLIB_MutexQue_Framework_Global_VUALUEofMsbStdByte_To_MsbUnsignedLongLong(std::byte* sysThreadId, std::byte* newValue_stdbyte) {
+    unsigned long long* zinc::CLIB_LeftHemisphore_Framework_Global::stat_CONVERT_CLIB_LeftHemisphore_Framework_Global_VUALUEofMsbStdByte_To_MsbUnsignedLongLong(std::byte* sysThreadId, std::byte* newValue_stdbyte) {
             std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "  :: <= unsigned long long* : stat_CONVERT_CLIB_MutexQue_Framework_Global_VUALUEofMsbStdByte_To_MsbUnsignedLongLong(sysThreadId)." << std::endl;
             auto tempA = new unsigned long long(ULONG_LONG_MAX);
             auto tempB = new std::uint8_t(UINT8_MAX);

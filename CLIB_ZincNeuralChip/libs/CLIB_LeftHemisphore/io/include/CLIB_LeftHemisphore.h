@@ -1,8 +1,9 @@
 #ifndef CLIB_LEFTHEMISPHORE_H
 #define CLIB_LEFTHEMISPHORE_H
+#include "../../include/engine/CLIB_LeftHemisphore_Framework.h"
 #include <array>
 #include <list>
-#include "../../include/engine/CLIB_LeftHemisphore_Framework.h"
+#include <cstddef>
 extern "C" {
 	namespace zinc {
 		class Epicentre {

@@ -3,6 +3,7 @@
 #include "../engine/CLIB_LeftHemisphore_Framework.h"
 #include "../independent/threads/CLIB_LeftHemisphore_STRUCT_Concurrent.h"
 #include <cstddef>
+#include <cstdint>
 #include <list>
 namespace zinc {
     class CLIB_LeftHemisphore_Framework_App_Algorithms {

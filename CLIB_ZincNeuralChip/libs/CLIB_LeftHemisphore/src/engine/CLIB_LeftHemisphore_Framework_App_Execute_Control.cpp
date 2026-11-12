@@ -60,7 +60,7 @@
 	bool zinc::CLIB_LeftHemisphore_Framework_App_Execute_Control::dyn_REG_get_LeftHemishpore_Execute_Control_ItemOnListOf_FLAGisThreadInitialised(std::byte* sysThreadId, uint8_t* concurrnetThreadId)	{
 		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: <= bool : dyn_REG_get_LeftHemishpore_Execute_Control_ItemOnListOf_FLAGisThreadInitialised(sysThreadId)." << std::endl;
 		auto temp = stat_get_ptr_CLIB_LeftHemisphore_Framework_App_Execute_Control_ListOf_FLAGisThreadInitialised(sysThreadId)->begin();
-		std::advance(temp, concurrnetThreadId);
+		std::advance(temp, *concurrnetThreadId);
 		return *temp;
 	}
 	void zinc::CLIB_LeftHemisphore_Framework_App_Execute_Control::dyn_REG_set_FLAG_CLIB_LeftHemisphore_Framework_App_Execute_Control_isSystemInitialised(std::byte* sysThreadId, bool state) {
@@ -152,9 +152,9 @@
 	void zinc::CLIB_LeftHemisphore_Framework_App_Execute_Control::stat_REG_boot3_INITIALISE_CLIB_LeftHemisphore_Framework_App_Execute_Control_ListOf_Threads(std::byte* sysThreadId, class CLIB_LeftHemisphore_Framework* obj) {
 		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemisphore_Framework_App_Execute_Control : stat_REG_boot3_INITIALISE_CLIB_LeftHemisphore_Framework_App_Execute_Control_ListOf_Threads(sysThreadId). " << std::endl;
 		stat_REG_ptr_CLIB_LeftHemisphore_Framework_App_Execute_Control_ListOf_Threads->resize(*CLIB_LeftHemisphore_Framework_Global::stat_REG_get_CLIB_LeftHemisphore_Framework_Global_MAX_NUMBER_OF_THREADS(sysThreadId));
-		for (auto* concurrentThreadId = new std::byte{0x02}; *concurrentThreadId < static_cast<std::byte>(stat_REG_ptr_CLIB_LeftHemisphore_Framework_App_Execute_Control_ListOf_Threads->size()); concurrentThreadId++) {
+		for (auto concurrentThreadId = new uint8_t(*CLIB_LeftHemisphore_Framework_Global::stat_REG_get_CLIB_LeftHemisphore_Framework_Global_MAX_NUMBER_OF_THREADS(sysThreadId) - 2); *concurrentThreadId < static_cast<uint8_t>(stat_REG_ptr_CLIB_LeftHemisphore_Framework_App_Execute_Control_ListOf_Threads->size()); concurrentThreadId++) {
 			auto temp = stat_REG_ptr_CLIB_LeftHemisphore_Framework_App_Execute_Control_ListOf_Threads->begin();
-			std::advance(temp, std::to_integer<std::uint8_t>(*concurrentThreadId));
+			std::advance(temp, *concurrentThreadId);
 			*temp = new std::thread(zinc::CLIB_LeftHemisphore_STRUCT_Concurrent::stat_app_thread_Concurrency, sysThreadId, obj, concurrentThreadId);
 		}
 		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemisphore_Framework_App_Execute_Control : stat_REG_boot3_INITIALISE_CLIB_LeftHemisphore_Framework_App_Execute_Control_ListOf_Threads(sysThreadId). " << std::endl;
@@ -174,9 +174,9 @@
 		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemisphore_Framework_App_Execute_Control : stat_REG_boot3_INITIALISE_CLIB_LeftHemisphore_Framework_App_Execute_Control_ListOf_Threads(sysThreadId). " << std::endl;
 		auto oldSize = stat_REG_ptr_CLIB_LeftHemisphore_Framework_App_Execute_Control_ListOf_Threads->size();
 		stat_REG_ptr_CLIB_LeftHemisphore_Framework_App_Execute_Control_ListOf_Threads->resize(*CLIB_LeftHemisphore_Framework_Global::stat_REG_get_CLIB_LeftHemisphore_Framework_Global_MAX_NUMBER_OF_THREADS(sysThreadId));
-		for (auto* concurrentThreadId = new std::byte{0x00}; *concurrentThreadId < static_cast<std::__byte_op_t<unsigned char>>(stat_REG_ptr_CLIB_LeftHemisphore_Framework_App_Execute_Control_ListOf_Threads->size()); concurrentThreadId++) {
+		for (auto* concurrentThreadId = new uint8_t(0); *concurrentThreadId < stat_REG_ptr_CLIB_LeftHemisphore_Framework_App_Execute_Control_ListOf_Threads->size(); concurrentThreadId++) {
 			auto temp = stat_REG_ptr_CLIB_LeftHemisphore_Framework_App_Execute_Control_ListOf_Threads->begin();
-			std::advance(temp, std::to_integer<std::uint8_t>(*concurrentThreadId));
+			std::advance(temp, *concurrentThreadId);
 			*temp = new std::thread(zinc::CLIB_LeftHemisphore_STRUCT_Concurrent::stat_app_thread_Concurrency, sysThreadId, obj, concurrentThreadId);
 		}
 		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemisphore_Framework_App_Execute_Control : stat_REG_boot3_INITIALISE_CLIB_LeftHemisphore_Framework_App_Execute_Control_ListOf_Threads(sysThreadId). " << std::endl;

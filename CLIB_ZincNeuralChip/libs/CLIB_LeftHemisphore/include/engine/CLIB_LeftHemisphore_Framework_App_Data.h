@@ -4,8 +4,9 @@
 #include "../engine/CLIB_LeftHemisphore_Framework.h"
 #include "../independent/CLIB_LeftHemisphore_STRUCT_Input.h"
 #include "../independent/CLIB_LeftHemisphore_STRUCT_Output.h"
-#include <cstddef>
 #include <array>
+#include <cstddef>
+#include <cstdint>
 #include <vector>
 namespace zinc {
     class CLIB_LeftHemisphore_Framework_App_Data {

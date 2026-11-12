@@ -2,6 +2,7 @@
 #define CLIB_OPENEPICENTRE_STRUCT_CONCURRENT_H
 #include "../../engine/CLIB_LeftHemisphore_Framework.h"
 #include <cstddef>
+#include <cstdint>
 namespace zinc {
     struct CLIB_LeftHemisphore_STRUCT_Concurrent {
     public:

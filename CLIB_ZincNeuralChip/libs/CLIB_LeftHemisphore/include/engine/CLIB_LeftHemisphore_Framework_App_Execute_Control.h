@@ -2,6 +2,7 @@
 #define CLIB_OPENEPICENTRE_FRAMEWORK_APP_EXECUTE_CONTROL_H
 #include "CLIB_LeftHemisphore_Framework.h"
 #include <cstddef>
+#include <cstdint>
 #include <thread>
 namespace zinc {
     class CLIB_LeftHemisphore_Framework_App_Execute_Control {
@@ -11,7 +12,7 @@ namespace zinc {
         void dyn_REG_boot1_DEFINE_CLIB_LeftHemisphore_Framework_App_Execute_Control(std::byte* sysThreadId, class CLIB_LeftHemisphore_Framework* obj);
         void dyn_REG_boot2_SUBSTANTIATE_CLIB_LeftHemisphore_Framework_App_Execute_Control(std::byte* sysThreadId, class CLIB_LeftHemisphore_Framework* obj);
         void dyn_REG_boot3_INITIALISE_CLIB_LeftHemisphore_Framework_App_Execute_Control(std::byte* sysThreadId, class CLIB_LeftHemisphore_Framework* obj);
-        void dyn_REG_boot4_INSTANTIATE_CLIB_LeftHemisphore_Framework_App_Execute_Control(std::byte* sysThreadId, class CLIB_LeftHemisphore_Framework* obj);\
+        void dyn_REG_boot4_INSTANTIATE_CLIB_LeftHemisphore_Framework_App_Execute_Control(std::byte* sysThreadId, class CLIB_LeftHemisphore_Framework* obj);
         void dyn_REG_boot4_REINITIALISE_CLIB_LeftHemoshpore_Framework_App_Execute_Control_MAX_NUMBER_OF_THREADS(std::byte* sysThreadId, zinc::CLIB_LeftHemisphore_Framework* obj, uint8_t* MAX_NUMBER_OF_THREADS);
         bool dyn_REG_get_FLAG_CLIB_LeftHemisphore_Framework_App_Execute_Control_isSystemInitialised(std::byte* sysThreadId);
         bool dyn_REG_get_LeftHemishpore_Execute_Control_ItemOnListOf_FLAGisThreadInitialised(std::byte* sysThreadId, uint8_t* concurrnetThreadId);

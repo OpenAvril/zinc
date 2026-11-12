@@ -4,7 +4,7 @@
 #include <cstddef>
 #include <iostream>
 #include <list>
-    std::byte* zinc::CLIB_LeftHemisphore_STRUCT_Input::stat_REG_ptr_LeftHemishpore_STRUCT_Input_playerId;
+    uint8_t* zinc::CLIB_LeftHemisphore_STRUCT_Input::stat_REG_ptr_LeftHemishpore_STRUCT_Input_playerId;
     unsigned long long* zinc::CLIB_LeftHemisphore_STRUCT_Input::stat_REG_ptr_LeftHemishpore_STRUCT_Input_praiseEventId;
     std::list<zinc::Object*>* zinc::CLIB_LeftHemisphore_STRUCT_Input::stat_REG_ptr_LeftHemishpore_STRUCT_Input_Subset;
 // public.
@@ -54,7 +54,7 @@
         stat_REG_boot3_INITIALISE_CLIB_LeftHemisphore_STRUCT_Input_Subset(sysThreadId, obj);
         std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Input : dyn_REG_boot3_INITIALISE_LeftHemishpore_STRUCT_Input(sysThreadId)." << std::endl;
     }
-    std::byte* zinc::CLIB_LeftHemisphore_STRUCT_Input::dyn_REG_get_ptr_CLIB_LeftHemisphore_STRUCT_Input_playerId(std::byte* sysThreadId) {
+    uint8_t* zinc::CLIB_LeftHemisphore_STRUCT_Input::dyn_REG_get_ptr_CLIB_LeftHemisphore_STRUCT_Input_playerId(std::byte* sysThreadId) {
         std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: <= std::byte* : dyn_REG_get_ptr_CLIB_LeftHemisphore_STRUCT_Input_playerId(sysThreadId)." << std::endl;
         return stat_REG_get_ptr_CLIB_LeftHemisphore_STRUCT_Input_playerId(sysThreadId);
     }
@@ -66,7 +66,7 @@
         std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: <= zinc::Object* : dyn_REG_get_ptr_Item_Of_ptr_CLIB_LeftHemisphore_STRUCT_Input_Subset(sysThreadId)." << std::endl;
         return stat_REG_get_ptr_CLIB_LeftHemisphore_STRUCT_Input_Subset(sysThreadId);
     }
-    void zinc::CLIB_LeftHemisphore_STRUCT_Input::dyn_REG_set_CLIB_LeftHemisphore_STRUCT_Input_playerId(std::byte* sysThreadId, std::byte* newPlayerId) {
+    void zinc::CLIB_LeftHemisphore_STRUCT_Input::dyn_REG_set_CLIB_LeftHemisphore_STRUCT_Input_playerId(std::byte* sysThreadId, uint8_t* newPlayerId) {
         std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: => std::byte : dyn_REG_set_CLIB_LeftHemisphore_STRUCT_Input_playerId(sysThreadId)." << std::endl;
         stat_REG_set_CLIB_LeftHemisphore_STRUCT_Input_playerId(sysThreadId, *newPlayerId);
     }
@@ -136,8 +136,8 @@
     }
     void zinc::CLIB_LeftHemisphore_STRUCT_Input::stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemisphore_STRUCT_Input_playerId(std::byte* sysThreadId) {
         std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Input : stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemisphore_STRUCT_Input_playerId(sysThreadId). " << std::endl;
-        stat_REG_ptr_LeftHemishpore_STRUCT_Input_playerId = new std::byte();
-        *stat_REG_ptr_LeftHemishpore_STRUCT_Input_playerId = static_cast<std::byte>(255);
+        stat_REG_ptr_LeftHemishpore_STRUCT_Input_playerId = new uint8_t();
+        *stat_REG_ptr_LeftHemishpore_STRUCT_Input_playerId = static_cast<uint8_t>(255);
         std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Input : stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemisphore_STRUCT_Input_playerId(sysThreadId). " << std::endl;
     }
     void zinc::CLIB_LeftHemisphore_STRUCT_Input::stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemisphore_STRUCT_Input_praiseEventId(std::byte* sysThreadId) {
@@ -155,7 +155,7 @@
     }
     void zinc::CLIB_LeftHemisphore_STRUCT_Input::stat_REG_boot3_INITIALISE_CLIB_LeftHemisphore_STRUCT_Input_playerId(std::byte* sysThreadId) {
         std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Input : stat_REG_boot3_INITIALISE_CLIB_LeftHemisphore_STRUCT_Input_playerId(sysThreadId). " << std::endl;
-        *stat_REG_ptr_LeftHemishpore_STRUCT_Input_playerId = static_cast<std::byte>(0);
+        *stat_REG_ptr_LeftHemishpore_STRUCT_Input_playerId = static_cast<uint8_t>(0);
         std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Input : stat_REG_boot3_INITIALISE_CLIB_LeftHemisphore_STRUCT_Input_playerId(sysThreadId). " << std::endl;
     }
     void zinc::CLIB_LeftHemisphore_STRUCT_Input::stat_REG_boot3_INITIALISE_CLIB_LeftHemisphore_STRUCT_Input_praiseEventId(std::byte* sysThreadId) {
@@ -169,7 +169,7 @@
         stat_REG_get_ptr_CLIB_LeftHemisphore_STRUCT_Input_Subset(sysThreadId)->assign(0ULL, *obj->dyn_STRUCT_get_CLIB_LeftHemisphore_Framework_User_Input(sysThreadId)->dyn_STRUCT_get_CLIB_LeftHemisphore_STRUCT_UserInput_Item_On_List_Of_ptr_PraiseInputSubsets(sysThreadId, new unsigned long long(0))->begin());
         std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Input : stat_REG_boot3_INITIALISE_CLIB_LeftHemisphore_STRUCT_Input_praiseEventId(sysThreadId). " << std::endl;
     }
-    std::byte* zinc::CLIB_LeftHemisphore_STRUCT_Input::stat_REG_get_ptr_CLIB_LeftHemisphore_STRUCT_Input_playerId(std::byte* sysThreadId) {
+    uint8_t* zinc::CLIB_LeftHemisphore_STRUCT_Input::stat_REG_get_ptr_CLIB_LeftHemisphore_STRUCT_Input_playerId(std::byte* sysThreadId) {
         std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: <= std::byte* : stat_REG_get_ptr_CLIB_LeftHemisphore_STRUCT_Input_playerId(sysThreadId). " << std::endl;
         return stat_REG_ptr_LeftHemishpore_STRUCT_Input_playerId;
     }
@@ -181,7 +181,7 @@
         std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: <= std::list<zinc::Object*>* : stat_REG_get_ptr_CLIB_LeftHemisphore_STRUCT_Input_Subset(sysThreadId). " << std::endl;
         return stat_REG_ptr_LeftHemishpore_STRUCT_Input_Subset;
     }
-    void zinc::CLIB_LeftHemisphore_STRUCT_Input::stat_REG_set_CLIB_LeftHemisphore_STRUCT_Input_playerId(std::byte* sysThreadId, std::byte newPlayerId) {
+    void zinc::CLIB_LeftHemisphore_STRUCT_Input::stat_REG_set_CLIB_LeftHemisphore_STRUCT_Input_playerId(std::byte* sysThreadId, uint8_t newPlayerId) {
         std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: => std::byte : stat_REG_set_CLIB_LeftHemisphore_STRUCT_Input_playerId(sysThreadId). " << std::endl;
         *stat_REG_ptr_LeftHemishpore_STRUCT_Input_playerId = newPlayerId;
     }

@@ -53,27 +53,25 @@
 		//zinc::ThreadLogs::reInitialiseProgram(sysThreadId, MAX_NUMBER_OF_THREADS_FOR_ACCESS);
 		//zinc::ThreadLogs::terminateProgram(sysThreadId);
 
-		zinc::MutexQue::endByUnlock(sysThreadId, handleId, bytes_UnsignedLongLong);
+		zinc::MutexQue::endByUnlock(sysThreadId, handleId, stdByte);
 		int* tempF0 = msbByteArray_To_valueOfmsbInt(sysThreadId, zinc::MutexQue::generateHandle(sysThreadId));
 		//zinc::MutexQue::generateProgram(sysThreadId);
-		unsigned char* tempF1 = zinc::MutexQue::isINSTANTIATED(sysThreadId);
-		zinc::MutexQue::reInitialiseHandle(sysThreadId, handleId, bytes_UnsignedLongLong);
-		zinc::MutexQue::startByLock(sysThreadId, handleId, bytes_UnsignedLongLong);
+		zinc::MutexQue::reInitialiseHandle(sysThreadId, handleId, stdByte);
+		zinc::MutexQue::startByLock(sysThreadId, handleId, stdByte);
 		zinc::MutexQue::terminateProgram(sysThreadId, handleId);
 
-		int* tempC0 = zinc::LaunchQue::generateHandle(sysThreadId);
+		std::byte* tempC0 = zinc::LaunchQue::generateHandle(sysThreadId);
 		//zinc::LaunchQue::generateProgram(sysThreadId);
-		unsigned char* tempC1 = zinc::LaunchQue::get_coreIdTolaunch(sysThreadId, handleId, stdByte);
-		unsigned char* tempC2 = zinc::LaunchQue::get_FlagSTATEisActive(sysThreadId, handleId, stdByte);
-		unsigned char* tempC3 = zinc::LaunchQue::get_FlagSTATEofConcurrentCore(sysThreadId, handleId, stdByte);
-		unsigned char* tempC4 = zinc::LaunchQue::get_FlagisIdle(sysThreadId, handleId, stdByte);
-		unsigned char* tempC5 = zinc::LaunchQue::get_FlagSTATEofThreadToLaunch(sysThreadId, handleId, stdByte);
-		unsigned char* tempC6 =  zinc::LaunchQue::isINSTANTIATED(sysThreadId);
-		zinc::LaunchQue::reInitialiseHandle(sysThreadId, handleId, stdByte);
-		zinc::LaunchQue::set_FlagSTATEofConcurrentCore(sysThreadId, handleId, stdByte, boolValue);
+		std::byte* tempC1 = zinc::LaunchQue::get_coreIdTolaunch(sysThreadId, stdByte, stdByte);
+		bool tempC2 = zinc::LaunchQue::get_FlagSTATEisActive(sysThreadId, stdByte, stdByte);
+		bool tempC3 = zinc::LaunchQue::get_FlagSTATEofConcurrentCore(sysThreadId, stdByte, stdByte);
+		bool tempC4 = zinc::LaunchQue::get_FlagisIdle(sysThreadId, stdByte, stdByte);
+		bool tempC5 = zinc::LaunchQue::get_FlagSTATEofThreadToLaunch(sysThreadId, stdByte, stdByte);
+		zinc::LaunchQue::reInitialiseHandle(sysThreadId, stdByte, stdByte);
+		zinc::LaunchQue::set_FlagSTATEofConcurrentCore(sysThreadId, stdByte, stdByte, boolValue);
 		zinc::LaunchQue::terminateProgaram(sysThreadId);
-		zinc::LaunchQue::threadRequestlaunch(sysThreadId, handleId, stdByte);
-		zinc::LaunchQue::threadEnd(sysThreadId, handleId, stdByte);
+		zinc::LaunchQue::threadRequestlaunch(sysThreadId, stdByte, stdByte);
+		zinc::LaunchQue::threadEnd(sysThreadId, stdByte, stdByte);
 
 		unsigned char* tempD0 = zinc::Stemisphore::generateHandle(sysThreadId);
 		//zinc::SystemBusses::generateProgram(sysThreadId);
@@ -83,19 +81,19 @@
 		unsigned char* tempD2 = zinc::Stemisphore::unload(sysThreadId, *TICKET);
 		zinc::Stemisphore::terminateProgram(sysThreadId);
 
-		unsigned char* tempE0 = zinc::Epicentre::gernerateHandle(sysThreadId);
+		std::byte* tempE0 = zinc::Epicentre::gernerateHandle(sysThreadId);
 		zinc::Epicentre::generateProgram(sysThreadId);
-		unsigned char* tempE1 = zinc::Epicentre::get_Output(sysThreadId, handleId, praiseId);
-		unsigned char* tempE2 = zinc::Epicentre::get_FLAG_isINITIALISED(sysThreadId, handleId);
-		unsigned char* tempE4 = zinc::Epicentre::get_FLAG_isStackLoaded_ServerInputReceive(sysThreadId, handleId);
-		unsigned char* tempE5 = zinc::Epicentre::get_FLAG_isStackLoaded_ServerOutputSend(sysThreadId, handleId);
-		unsigned char* tempE6 = zinc::Epicentre::get_MetaData_PraiseEventId(sysThreadId, handleId);
-		zinc::Epicentre::set_InputItemsFor_praise0(sysThreadId, handleId, praiseId, bytes_Double, bytes_Double);
-		zinc::Epicentre::set_InputItemsFor_praise1(sysThreadId, handleId, praiseId, bytes_Double, bytes_Double);
-		zinc::Epicentre::set_InputItemsFor_praise2(sysThreadId, handleId, praiseId, bytes_Double, bytes_Double);
-		zinc::Epicentre::set_InputItemsFor_praise3(sysThreadId, handleId, praiseId, bytes_Double, bytes_Double);
-		zinc::Epicentre::set_MetaData_PraiseEventId(sysThreadId, handleId, praiseId);
-		zinc::Epicentre::reInitialiseHandle(sysThreadId, handleId, stdByte, stdByte);
+		unsigned char* tempE1 = zinc::Epicentre::get_Output(sysThreadId, stdByte, praiseId);
+		bool tempE2 = zinc::Epicentre::get_FLAG_isINITIALISED(sysThreadId, stdByte);
+		bool tempE4 = zinc::Epicentre::get_FLAG_isStackLoaded_ServerInputReceive(sysThreadId, stdByte);
+		bool tempE5 = zinc::Epicentre::get_FLAG_isStackLoaded_ServerOutputSend(sysThreadId, stdByte);
+		unsigned char* tempE6 = zinc::Epicentre::get_MetaData_PraiseEventId(sysThreadId, stdByte);
+		zinc::Epicentre::set_InputItemsFor_praise0(sysThreadId, stdByte, praiseId, bytes_Double, bytes_Double);
+		zinc::Epicentre::set_InputItemsFor_praise1(sysThreadId, stdByte, praiseId, bytes_Double, bytes_Double);
+		zinc::Epicentre::set_InputItemsFor_praise2(sysThreadId, stdByte, praiseId, bytes_Double, bytes_Double);
+		zinc::Epicentre::set_InputItemsFor_praise3(sysThreadId, stdByte, praiseId, bytes_Double, bytes_Double);
+		zinc::Epicentre::set_MetaData_PraiseEventId(sysThreadId, stdByte, praiseId);
+		zinc::Epicentre::reInitialiseHandle(sysThreadId, stdByte, stdByte, stdByte);
 		zinc::Epicentre::terminateProgram(sysThreadId);
 }
 	std::array<bool, 1> zinc::SoothCute::zinc_SoothCute_stat_REG_get_array_of_isMemberFunctionINSTANTIATED(std::byte* sysThreadId) {

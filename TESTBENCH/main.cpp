@@ -15,12 +15,12 @@ int main() {
     std::this_thread::sleep_for(std::chrono::seconds(2));
     //zinc::ThreadLogs::generateProgram(sysThreadId);
     //std::this_thread::sleep_for(std::chrono::seconds(2));
-    //zinc::LaunchQue::generateProgram(sysThreadId);
-    //std::this_thread::sleep_for(std::chrono::seconds(2));
-    //zinc::Stemisphore::generateProgram(sysThreadId);
-    //std::this_thread::sleep_for(std::chrono::seconds(2));
-    //zinc::Epicentre::generateProgram(sysThreadId);
-    //std::this_thread::sleep_for(std::chrono::seconds(2));
+    zinc::Stemisphore::generateProgram(sysThreadId);
+    std::this_thread::sleep_for(std::chrono::seconds(2));
+    zinc::LaunchQue::generateProgram(sysThreadId);
+    std::this_thread::sleep_for(std::chrono::seconds(2));
+    zinc::Epicentre::generateProgram(sysThreadId);
+    std::this_thread::sleep_for(std::chrono::seconds(2));
     std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: exiting : generateProgram(s)." << std::endl;
     std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: starting : SoothCute : prime." << std::endl;
     zinc::SoothCute::optimusPrime(sysThreadId);

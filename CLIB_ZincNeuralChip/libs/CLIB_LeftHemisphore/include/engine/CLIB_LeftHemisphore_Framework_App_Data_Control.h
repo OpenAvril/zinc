@@ -1,7 +1,8 @@
 #ifndef CLIB_OPENEPICENTRE_FRAMEWORK_APP_DATA_CONTROL_H
 #define CLIB_OPENEPICENTRE_FRAMEWORK_APP_DATA_CONTROL_H
-#include "../engine/CLIB_LeftHemisphore_Framework.h"
+#include "CLIB_LeftHemisphore_Framework.h"
 #include <cstddef>
+#include <cstdint>
 namespace zinc {
     class CLIB_LeftHemisphore_Framework_App_Data_Control {
     public:

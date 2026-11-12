@@ -7,7 +7,7 @@ extern "C" {
     namespace zinc {
         class LaunchQue {
         public:
-            static int* generateHandle(std::byte* sysThreadId);
+            static std::byte* generateHandle(std::byte* sysThreadId);
             static void generateProgram(std::byte* sysThreadId);
             static std::byte* get_coreIdTolaunch(std::byte* sysThreadId, std::byte* handleId, std::byte* concurrentThreadId);
             static bool get_FlagSTATEisActive(std::byte* sysThreadId, std::byte* handleId, std::byte* concurrentThreadId);
