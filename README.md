@@ -92,7 +92,7 @@ CLIB Console output via MutexQue, DataCluster is 'Console'.
 Wi-Fi hi and low bandwidth direct injection to a independent thread 'access-id (ThreadId)' of stemisphore.
 
 
---
+---
 ---
 ## BNI : Binary Neural Inteligence. ***UNDER DEVELOPMENT***
 
@@ -148,7 +148,6 @@ slif_epicentre INJECTION paths:
 
 ---
 ---
----
 # Using.
 ## LINUX Ubuntu.
 **version:** Ubuntu 24.04.4 LTS.
@@ -174,7 +173,6 @@ slif_epicentre INJECTION paths:
  - File - > New -> Project from Version Control.
  - URL : user entry "https://github.com/OpenAvril/zinc"
 
----
 ---
 ---
 ## Using.
@@ -206,7 +204,6 @@ slif_epicentre INJECTION paths:
 
 ---
 ---
----
 ## Building.
 
 *** Load Root CMake Project ***
@@ -219,7 +216,6 @@ cmake --build build
 ````
 
 
----
 ---
 ---
 ## Using.
@@ -238,15 +234,14 @@ zinc::MutexQue::endByUnlock(sysThreadId, handleId, ACCESS_ID);
 
 ---
 ---
----
-# Implementation.
+## Implementation.
+
 
 ---
----
-## How To Guide - Flow From Client I - Server - Client O.
+### How To Guide - Flow From Client I - Server - Client O.
 
 ---
-## Thread(s):
+#### Thread(s):
 
   (1)A **Binary Neural Intellijence** in || with the following, while training and doing tasks.
   
@@ -280,7 +275,7 @@ zinc::MutexQue::endByUnlock(sysThreadId, handleId, ACCESS_ID);
 
 
 ---
-## Data Cluster(s): via Thread Options as 'AcessId'.
+### Data Cluster(s): via Thread Options as 'AcessId'.
 
 thread => **SIM_IN**
 
@@ -309,6 +304,7 @@ thread => ***Ouput_Draw*** || ***NETWORKING***
 thread => **SIM_OUT**
 
 
+___
 ---
 ## Wrapper Imports and Native IO.  ***UNDER DEVELOPMENT***
 
