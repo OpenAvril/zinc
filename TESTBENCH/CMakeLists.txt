@@ -16,7 +16,7 @@ target_include_directories(${PROJECT_NAME} PUBLIC
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}../CLIB_ZincNeuralChip/libs/CLIB_MutexQue/io/include>
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}../CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/io/include>
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}../CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/io/include>
-        $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}../CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/io/include>
+        $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}../CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/io/include>
 
 )
 
@@ -25,7 +25,7 @@ target_include_directories(${PROJECT_NAME} PRIVATE
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}../CLIB_ZincNeuralChip/libs/CLIB_MutexQue/include>
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}../CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/include>
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}../CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/include>
-        $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}../CLIB_ZincNeuralChip/libs/CLIB_LeftHemishpore/include>
+        $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}../CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/include>
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
 )
 

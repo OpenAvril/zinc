@@ -1,19 +1,18 @@
 #ifndef CLIB_CLIB_PACKAGE_MUTEXQUE_H
 #define CLIB_CLIB_PACKAGE_MUTEXQUE_H
 #include "../../include/CLIB_MutexQue_Framework.h"
-#include <array>
 #include <cstddef>
+#include <array>
 #include <list>
 extern "C" {
     namespace zinc {
         class MutexQue {
         public:
-            static void endByUnlock(std::byte* sysThreadId, unsigned char* handleId, unsigned char* byte_ACCESS_ID);
+            static void endByUnlock(std::byte* sysThreadId, unsigned char* handleId, std::byte* byte_ACCESS_ID);
             static unsigned char* generateHandle(std::byte* sysThreadId);
             static void generateProgram(std::byte* sysThreadId);
-            static unsigned char* isINSTANTIATED(std::byte* sysThreadId);
-            static void reInitialiseHandle(std::byte* sysThreadId, unsigned char* handleId, unsigned char* MAX_NUMBER_OF_THREADS_FOR_ACCESS);
-            static void startByLock(std::byte* sysThreadId, unsigned char* handleId, unsigned char* byte_ACCESS_ID);
+            static void reInitialiseHandle(std::byte* sysThreadId, unsigned char* handleId, std::byte* MAX_NUMBER_OF_THREADS_FOR_ACCESS);
+            static void startByLock(std::byte* sysThreadId, unsigned char* handleId, std::byte* byte_ACCESS_ID);
             static void terminateProgram(std::byte* sysThreadId, unsigned char* handleId);
         private:
             static void CLIB_MutexQue_App_FUNCT_generate_Program(std::byte* sysThreadId);

@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/slif.iml" filepath="$PROJECT_DIR$/.idea/slif.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SiliconLife.iml" filepath="$PROJECT_DIR$/.idea/SiliconLife.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/zinc.iml" filepath="$PROJECT_DIR$/.idea/zinc.iml" />
     </modules>
   </component>
 </project>

@@ -2,6 +2,7 @@
 #define CLIB_LAUNCHQUEUEATEND_FRAMEWORK_H
 #include "../include/CLIB_LaunchQue_Framework_App.h"
 #include "../include/CLIB_LaunchQue_Framework_Global.h"
+#include <cstddef>
 namespace zinc {
     class CLIB_LaunchQue_Framework {
     public:

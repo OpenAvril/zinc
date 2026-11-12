@@ -35,7 +35,7 @@ bool* zinc::CLIB_MutexQueForThreadsLog_Framework_App_Control::stat_REG_FLAG_CLIB
         delete stat_REG_ptr_CLIB_MutexQueForThreadsLog_Framework_App_Control_writeCycle_Try_WriteEndThreadId_Index;
         std::cout << "thread "  << 0 << " :: exiting LIB :: CLIB : CLIB_MutexQueForThreadsLog_Framework_App_Control : ~CLIB_MutexQueForThreadsLog_Framework_App_Control(sysThreadId)" << std::endl;
     }
-    void zinc::CLIB_MutexQueForThreadsLog_Framework_App_Control::dyn_APP_FUNCT_CLIB_MutexQueForThreadsLog_Framework_App_Control_dynamicIn(std::byte* sysThreadId, CLIB_MutexQueForThreadsLog_Framework* obj, std::byte* coreId) {
+    void zinc::CLIB_MutexQueForThreadsLog_Framework_App_Control::dyn_APP_FUNCT_CLIB_MutexQueForThreadsLog_Framework_App_Control_dynamicIn(std::byte* sysThreadId, CLIB_MutexQueForThreadsLog_Framework* obj, uint8_t* coreId) {
         //std::cout << "thread " << std::to_integer<int>(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_MutexQueForThreadsLog_Framework_App_Control : dyn_APP_FUNCT_CLIB_MutexQueForThreadsLog_Framework_App_Control_dynamicIn(sysThreadId)" << std::endl;
         obj->dyn_CLASS_get_ptr_CLIB_MutexQueForThreadsLog_App(sysThreadId)->dyn_CLASS_get_ptr_CLIB_MutexQueForThreadsLog_App_Control(sysThreadId)->dyn_REG_set_FLAG_CLIB_MutexQueForThreadsLog_Framework_App_Control_writeCycle_Try_WriteStartsysThreadId_Index(sysThreadId,new uint8_t(*obj->dyn_CLASS_get_ptr_CLIB_MutexQueForThreadsLog_App(sysThreadId)->dyn_CLASS_get_ptr_CLIB_MutexQueForThreadsLog_App_Control(sysThreadId)->dyn_REG_get_FLAG_CLIB_MutexQueForThreadsLog_Framework_App_Control_writeCycle_Try_WriteStartsysThreadId_Index(sysThreadId, coreId) + 1));
         if (*obj->dyn_CLASS_get_ptr_CLIB_MutexQueForThreadsLog_App(sysThreadId)->dyn_CLASS_get_ptr_CLIB_MutexQueForThreadsLog_App_Control(sysThreadId)->dyn_REG_get_FLAG_CLIB_MutexQueForThreadsLog_Framework_App_Control_writeCycle_Try_WriteStartsysThreadId_Index(sysThreadId, coreId) == *coreId) {
@@ -48,7 +48,7 @@ bool* zinc::CLIB_MutexQueForThreadsLog_Framework_App_Control::stat_REG_FLAG_CLIB
         }
         //std::cout << "thread " << std::to_integer<int>(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_MutexQueForThreadsLog_Framework_App_Control : dyn_APP_FUNCT_CLIB_MutexQueForThreadsLog_Framework_App_Control_dynamicIn(sysThreadId)" << std::endl;
     }
-    void zinc::CLIB_MutexQueForThreadsLog_Framework_App_Control::dyn_APP_FUNCT_CLIB_MutexQueForThreadsLog_Framework_App_Control_dynamicOut(std::byte* sysThreadId, CLIB_MutexQueForThreadsLog_Framework* obj, std::byte* coreId) {
+    void zinc::CLIB_MutexQueForThreadsLog_Framework_App_Control::dyn_APP_FUNCT_CLIB_MutexQueForThreadsLog_Framework_App_Control_dynamicOut(std::byte* sysThreadId, CLIB_MutexQueForThreadsLog_Framework* obj, uint8_t* coreId) {
         //std::cout << "thread " << std::to_integer<int>(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_MutexQueForThreadsLog_Framework_App_Control : dyn_APP_FUNCT_CLIB_MutexQueForThreadsLog_Framework_App_Control_dynamicOut(sysThreadId)" << std::endl;
         obj->dyn_CLASS_get_ptr_CLIB_MutexQueForThreadsLog_App(sysThreadId)->dyn_CLASS_get_ptr_CLIB_MutexQueForThreadsLog_App_Control(sysThreadId)->dyn_REG_set_FLAG_CLIB_MutexQueForThreadsLog_Framework_App_Control_writeCycle_Try_WriteEndsysThreadId_Index(sysThreadId,new uint8_t(*obj->dyn_CLASS_get_ptr_CLIB_MutexQueForThreadsLog_App(sysThreadId)->dyn_CLASS_get_ptr_CLIB_MutexQueForThreadsLog_App_Control(sysThreadId)->dyn_REG_get_FLAG_CLIB_MutexQueForThreadsLog_Framework_App_Control_writeCycle_Try_WriteEndsysThreadId_Index(sysThreadId, coreId) + 1));
         if (*obj->dyn_CLASS_get_ptr_CLIB_MutexQueForThreadsLog_App(sysThreadId)->dyn_CLASS_get_ptr_CLIB_MutexQueForThreadsLog_App_Control(sysThreadId)->dyn_REG_get_FLAG_CLIB_MutexQueForThreadsLog_Framework_App_Control_writeCycle_Try_WriteEndsysThreadId_Index(sysThreadId, coreId) == *coreId) {
@@ -61,12 +61,12 @@ bool* zinc::CLIB_MutexQueForThreadsLog_Framework_App_Control::stat_REG_FLAG_CLIB
         }
         //std::cout << "thread " << std::to_integer<int>(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_MutexQueForThreadsLog_Framework_App_Control : dyn_APP_FUNCT_CLIB_MutexQueForThreadsLog_Framework_App_Control_dynamicOut(sysThreadId)" << std::endl;
     }
-    void zinc::CLIB_MutexQueForThreadsLog_Framework_App_Control::dyn_APP_FUNCT_CLIB_MutexQueForThreadsLog_Framework_App_Control_writeEnable_Activate(std::byte* sysThreadId, CLIB_MutexQueForThreadsLog_Framework* obj, std::byte* coreId) {
+    void zinc::CLIB_MutexQueForThreadsLog_Framework_App_Control::dyn_APP_FUNCT_CLIB_MutexQueForThreadsLog_Framework_App_Control_writeEnable_Activate(std::byte* sysThreadId, CLIB_MutexQueForThreadsLog_Framework* obj, uint8_t* coreId) {
         //std::cout << "thread " << std::to_integer<int>(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_MutexQueForThreadsLog_Framework_App_Control : dyn_APP_FUNCT_CLIB_MutexQueForThreadsLog_Framework_App_Control_writeEnable_Activate(sysThreadId)" << std::endl;
         obj->dyn_CLASS_get_ptr_CLIB_MutexQueForThreadsLog_App(sysThreadId)->dyn_CLASS_get_ptr_CLIB_MutexQueForThreadsLog_App_Control(sysThreadId)->dyn_REG_set_Item_On_list_Of_CLIB_MutexQueForThreadsLog_Framework_App_Control_2ibt_FLAG_WriteState(sysThreadId, coreId, *CLIB_MutexQueForThreadsLog_Framework_Global::stat_REG_get_ptr_CONST_CLIB_MutexQueForThreadsLog_2bitFLAG_WAIT(sysThreadId));
         //std::cout << "thread " << std::to_integer<int>(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_MutexQueForThreadsLog_Framework_App_Control : dyn_APP_FUNCT_CLIB_MutexQueForThreadsLog_Framework_App_Control_writeEnable_Activate(sysThreadId)" << std::endl;
     }
-    void zinc::CLIB_MutexQueForThreadsLog_Framework_App_Control::dyn_APP_FUNCT_CLIB_MutexQueForThreadsLog_Framework_App_Control_writeEnable_ShiftQueValues(std::byte* sysThreadId, CLIB_MutexQueForThreadsLog_Framework* obj, std::byte* coreId_A, std::byte* coreId_B) {
+    void zinc::CLIB_MutexQueForThreadsLog_Framework_App_Control::dyn_APP_FUNCT_CLIB_MutexQueForThreadsLog_Framework_App_Control_writeEnable_ShiftQueValues(std::byte* sysThreadId, CLIB_MutexQueForThreadsLog_Framework* obj, uint8_t* coreId_A, uint8_t* coreId_B) {
         //std::cout << "thread " << std::to_integer<int>(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_MutexQueForThreadsLog_Framework_App_Control : dyn_APP_FUNCT_CLIB_MutexQueForThreadsLog_Framework_App_Control_writeEnable_ShiftQueValues(sysThreadId)" << std::endl;
         auto temp_A = new unsigned long long(0);
         temp_A = obj->dyn_CLASS_get_ptr_CLIB_MutexQueForThreadsLog_App(sysThreadId)->dyn_CLASS_get_ptr_CLIB_MutexQueForThreadsLog_App_Control(sysThreadId)->dyn_REG_get_Item_On_CLIB_MutexQueForThreadsLog_Framework_App_Control_list_Of_WriteActive_Count_For_ThreadId(sysThreadId, coreId_A);
@@ -230,33 +230,33 @@ bool* zinc::CLIB_MutexQueForThreadsLog_Framework_App_Control::stat_REG_FLAG_CLIB
         //std::cout << "thread " << std::to_integer<int>(*sysThreadId) << " :: <= bool : dyn_REG_get_FLAG_CLIB_MutexQueForThreadsLog_Framework_App_Control_isWriteEndThreadRELASE_REMAINING(sysThreadId)" << std::endl;
         return stat_REG_get_FLAG_CLIB_MutexQueForThreadsLog_Framework_App_Control_isWriteEndThreadRELASE_REMAINING(sysThreadId);
     }
-    std::byte* zinc::CLIB_MutexQueForThreadsLog_Framework_App_Control::dyn_REG_get_FLAG_CLIB_MutexQueForThreadsLog_Framework_App_Control_writeCycle_Try_WriteStartsysThreadId_Index(std::byte* sysThreadId, std::byte* coreId) {
+    std::byte* zinc::CLIB_MutexQueForThreadsLog_Framework_App_Control::dyn_REG_get_FLAG_CLIB_MutexQueForThreadsLog_Framework_App_Control_writeCycle_Try_WriteStartsysThreadId_Index(std::byte* sysThreadId, uint8_t* coreId) {
         //std::cout << "thread " << std::to_integer<int>(*sysThreadId) << " :: <= uint8_t : dyn_REG_get_FLAG_CLIB_MutexQueForThreadsLog_Framework_App_Control_writeCycle_Try_WriteStartsysThreadId_Index(sysThreadId)" << std::endl;
         return stat_REG_get_ptr_CLIB_MutexQueForThreadsLog_Framework_App_Control_writeCycle_Try_WriteStartsysThreadId_Index(sysThreadId, coreId);
     }
-    std::byte* zinc::CLIB_MutexQueForThreadsLog_Framework_App_Control::dyn_REG_get_FLAG_CLIB_MutexQueForThreadsLog_Framework_App_Control_writeCycle_Try_WriteEndsysThreadId_Index(std::byte* sysThreadId, std::byte* coreId) {
+    std::byte* zinc::CLIB_MutexQueForThreadsLog_Framework_App_Control::dyn_REG_get_FLAG_CLIB_MutexQueForThreadsLog_Framework_App_Control_writeCycle_Try_WriteEndsysThreadId_Index(std::byte* sysThreadId, uint8_t* coreId) {
         //std::cout << "thread " << std::to_integer<int>(*sysThreadId) << " :: <= uint8_t : dyn_REG_get_FLAG_CLIB_MutexQueForThreadsLog_Framework_App_Control_writeCycle_Try_WriteEndsysThreadId_Index(sysThreadId)" << std::endl;
         return stat_REG_get_ptr_CLIB_MutexQueForThreadsLog_Framework_App_Control_writeCycle_Try_WriteEndsysThreadId_Index(sysThreadId, coreId);
     }
-    std::array<bool, 2> zinc::CLIB_MutexQueForThreadsLog_Framework_App_Control::dyn_REG_get_ptr_CLIB_MutexQueForThreadsLog_Framework_App_Control_list_Of_2ibt_FLAG_WriteState(std::byte* sysThreadId, std::byte* coreId) {
+    std::array<bool, 2> zinc::CLIB_MutexQueForThreadsLog_Framework_App_Control::dyn_REG_get_ptr_CLIB_MutexQueForThreadsLog_Framework_App_Control_list_Of_2ibt_FLAG_WriteState(std::byte* sysThreadId, uint8_t* coreId) {
         auto temp = stat_REG_get_ptr_Array_Of_CLIB_MutexQueForThreadsLog_Framework_App_Control_3STATE_FLAG_WriteState(sysThreadId)->begin();
         std::advance(temp, *coreId);
         //std::cout << "thread " << std::to_integer<int>(*sysThreadId) << " :: <= std::array<bool, 2> : dyn_REG_get_ptr_CLIB_MutexQueForThreadsLog_Framework_App_Control_list_Of_2ibt_FLAG_WriteState(sysThreadId)" << std::endl;
         return *temp;
     }
-    unsigned long long* zinc::CLIB_MutexQueForThreadsLog_Framework_App_Control::dyn_REG_get_Item_On_CLIB_MutexQueForThreadsLog_Framework_App_Control_list_Of_WriteActive_Count_For_ThreadId(std::byte* sysThreadId, std::byte* coreId) {
+    unsigned long long* zinc::CLIB_MutexQueForThreadsLog_Framework_App_Control::dyn_REG_get_Item_On_CLIB_MutexQueForThreadsLog_Framework_App_Control_list_Of_WriteActive_Count_For_ThreadId(std::byte* sysThreadId, uint8_t* coreId) {
         auto temp = stat_REG_LIST_Of_CLIB_MutexQueForThreadsLog_Framework_App_Control_WriteACTIVE_Count_For_ThreadId->begin();
         std::advance(temp, *coreId);
         //std::cout << "thread " << std::to_integer<int>(*sysThreadId) << " :: <= unsigned long long : dyn_REG_get_Item_On_CLIB_MutexQueForThreadsLog_Framework_App_Control_list_Of_WriteActive_Count_For_ThreadId(sysThreadId)" << std::endl;
         return new unsigned long long(*temp);
     }
-    unsigned long long* zinc::CLIB_MutexQueForThreadsLog_Framework_App_Control::dyn_REG_get_Item_On_CLIB_MutexQueForThreadsLog_Framework_App_Control_list_Of_WriteIdle_Count_For_ThreadId(std::byte* sysThreadId, std::byte* coreId) {
+    unsigned long long* zinc::CLIB_MutexQueForThreadsLog_Framework_App_Control::dyn_REG_get_Item_On_CLIB_MutexQueForThreadsLog_Framework_App_Control_list_Of_WriteIdle_Count_For_ThreadId(std::byte* sysThreadId, uint8_t* coreId) {
         auto temp = stat_REG_LIST_Of_CLIB_MutexQueForThreadsLog_Framework_App_Control_WriteIDLE_Count_For_ThreadId->begin();
         std::advance(temp, *coreId);
         //std::cout << "thread " << std::to_integer<int>(*sysThreadId) << " :: <= unsigned long long : dyn_REG_get_Item_On_CLIB_MutexQueForThreadsLog_Framework_App_Control_list_Of_WriteIdle_Count_For_ThreadId(sysThreadId)" << std::endl;
         return new unsigned long long(*temp);
     }
-    unsigned long long* zinc::CLIB_MutexQueForThreadsLog_Framework_App_Control::dyn_REG_get_Item_On_CLIB_MutexQueForThreadsLog_Framework_App_Control_list_Of_WriteWait_Count_For_ThreadId(std::byte* sysThreadId, std::byte* coreId) {
+    unsigned long long* zinc::CLIB_MutexQueForThreadsLog_Framework_App_Control::dyn_REG_get_Item_On_CLIB_MutexQueForThreadsLog_Framework_App_Control_list_Of_WriteWait_Count_For_ThreadId(std::byte* sysThreadId, uint8_t* coreId) {
         auto temp = stat_REG_LIST_Of_CLIB_MutexQueForThreadsLog_Framework_App_Control_WriteWAIT_Count_For_ThreadId->begin();
         std::advance(temp, *coreId);
         //std::cout << "thread " << std::to_integer<int>(*sysThreadId) << " :: <= unsigned long long : dyn_REG_get_Item_On_CLIB_MutexQueForThreadsLog_Framework_App_Control_list_Of_WriteWait_Count_For_ThreadId(sysThreadId)" << std::endl;
@@ -284,19 +284,19 @@ bool* zinc::CLIB_MutexQueForThreadsLog_Framework_App_Control::stat_REG_FLAG_CLIB
         //std::cout << "thread " << std::to_integer<int>(*sysThreadId) << " :: => bool : dyn_REG_set_FLAG_CLIB_MutexQueForThreadsLog_Framework_App_Control_isWriteEndThreadRELASE_REMAINING(sysThreadId)." << std::endl;
         stat_REG_set_FLAG_CLIB_MutexQueForThreadsLog_Framework_App_Control_isWriteEndThreadRELASE_REMAINING(sysThreadId, FLAGState);
     }
-    void zinc::CLIB_MutexQueForThreadsLog_Framework_App_Control::dyn_REG_set_Item_On_list_Of_CLIB_MutexQueForThreadsLog_Framework_App_Control_2ibt_FLAG_WriteState(std::byte* sysThreadId, std::byte* coreId, std::array<bool, 2> new2bitState) {
+    void zinc::CLIB_MutexQueForThreadsLog_Framework_App_Control::dyn_REG_set_Item_On_list_Of_CLIB_MutexQueForThreadsLog_Framework_App_Control_2ibt_FLAG_WriteState(std::byte* sysThreadId, uint8_t* coreId, std::array<bool, 2> new2bitState) {
         //std::cout << "thread " << std::to_integer<int>(*sysThreadId) << " :: => std::array<bool, 2> : dyn_REG_set_Item_On_list_Of_CLIB_MutexQueForThreadsLog_Framework_App_Control_2ibt_FLAG_WriteState(sysThreadId)." << std::endl;
         stat_REG_set_Item_On_Of_CLIB_MutexQueForThreadsLog_Framework_App_Control_3STATE_FLAG_WriteState(sysThreadId, *coreId, new2bitState);
     }
-    void zinc::CLIB_MutexQueForThreadsLog_Framework_App_Control::dyn_REG_set_Item_On_list_Of_CLIB_MutexQueForThreadsLog_Framework_App_Control_WriteActive_Count_For_ThreadId(std::byte* sysThreadId, std::byte* coreId, unsigned long long* newCount) {
+    void zinc::CLIB_MutexQueForThreadsLog_Framework_App_Control::dyn_REG_set_Item_On_list_Of_CLIB_MutexQueForThreadsLog_Framework_App_Control_WriteActive_Count_For_ThreadId(std::byte* sysThreadId, uint8_t* coreId, unsigned long long* newCount) {
         //std::cout << "thread " << std::to_integer<int>(*sysThreadId) << " :: => unsigned long long : dyn_REG_set_Item_On_list_Of_CLIB_MutexQueForThreadsLog_Framework_App_Control_WriteActive_Count_For_ThreadId(sysThreadId)." << std::endl;
         stat_REG_set_Item_On_list_Of_CLIB_MutexQueForThreadsLog_Framework_App_Control_WriteACTIVE_Count_For_ThreadId(sysThreadId, *coreId, *newCount);
     }
-    void zinc::CLIB_MutexQueForThreadsLog_Framework_App_Control::dyn_REG_set_Item_On_list_Of_CLIB_MutexQueForThreadsLog_Framework_App_Control_WriteIdle_Count_For_ThreadId(std::byte* sysThreadId, std::byte* coreId, unsigned long long* newCount) {
+    void zinc::CLIB_MutexQueForThreadsLog_Framework_App_Control::dyn_REG_set_Item_On_list_Of_CLIB_MutexQueForThreadsLog_Framework_App_Control_WriteIdle_Count_For_ThreadId(std::byte* sysThreadId, uint8_t* coreId, unsigned long long* newCount) {
         //std::cout << "thread " << std::to_integer<int>(*sysThreadId) << " :: => unsigned long long : dyn_REG_set_Item_On_list_Of_CLIB_MutexQueForThreadsLog_Framework_App_Control_WriteIdle_Count_For_ThreadId(sysThreadId)." << std::endl;
         stat_REG_set_Item_On_list_Of_CLIB_MutexQueForThreadsLog_Framework_App_Control_WriteIdle_Count_For_ThreadId(sysThreadId, *coreId, *newCount);
     }
-    void zinc::CLIB_MutexQueForThreadsLog_Framework_App_Control::dyn_REG_set_Item_On_list_Of_CLIB_MutexQueForThreadsLog_Framework_App_Control_WriteWait_Count_For_ThreadId(std::byte* sysThreadId, std::byte* coreId, unsigned long long* newCount){
+    void zinc::CLIB_MutexQueForThreadsLog_Framework_App_Control::dyn_REG_set_Item_On_list_Of_CLIB_MutexQueForThreadsLog_Framework_App_Control_WriteWait_Count_For_ThreadId(std::byte* sysThreadId, uint8_t* coreId, unsigned long long* newCount){
         //std::cout << "thread " << std::to_integer<int>(*sysThreadId) << " :: => unsigned long long : dyn_REG_set_Item_On_list_Of_CLIB_MutexQueForThreadsLog_Framework_App_Control_WriteWait_Count_For_ThreadId(sysThreadId)." << std::endl;
         stat_REG_set_Item_On_list_Of_CLIB_MutexQueForThreadsLog_Framework_App_Control_WriteWait_Count_For_ThreadId(sysThreadId, *coreId, *newCount);
     }
@@ -563,17 +563,17 @@ bool* zinc::CLIB_MutexQueForThreadsLog_Framework_App_Control::stat_REG_FLAG_CLIB
         //std::cout << "thread " << std::to_integer<int>(*sysThreadId) << " :: <= std::array<std::array<bool, 2>*, 3>* : stat_REG_get_ptr_Array_Of_CLIB_MutexQueForThreadsLog_Framework_App_Control_3STATE_FLAG_WriteState(sysThreadId)." << std::endl;
         return stat_REG_CONST_CLIB_MutexQueForThreadsLog_Framework_App_Control_2bitFLAG_STATE;
     }
-    unsigned long long zinc::CLIB_MutexQueForThreadsLog_Framework_App_Control::stat_REG_get_ptr_list_Of_CLIB_MutexQueForThreadsLog_Framework_App_Control_WriteActive_Count_For_ThreadId(std::byte* sysThreadId, std::byte* coreId) {
+    unsigned long long zinc::CLIB_MutexQueForThreadsLog_Framework_App_Control::stat_REG_get_ptr_list_Of_CLIB_MutexQueForThreadsLog_Framework_App_Control_WriteActive_Count_For_ThreadId(std::byte* sysThreadId, uint8_t* coreId) {
         auto temp = stat_REG_LIST_Of_CLIB_MutexQueForThreadsLog_Framework_App_Control_WriteACTIVE_Count_For_ThreadId->begin();
         std::advance(temp, *coreId);
         return *temp;
     }
-    unsigned long long zinc::CLIB_MutexQueForThreadsLog_Framework_App_Control::stat_REG_get_ptr_list_Of_CLIB_MutexQueForThreadsLog_Framework_App_Control_WriteIdle_Count_For_ThreadId(std::byte* sysThreadId, std::byte* coreId) {
+    unsigned long long zinc::CLIB_MutexQueForThreadsLog_Framework_App_Control::stat_REG_get_ptr_list_Of_CLIB_MutexQueForThreadsLog_Framework_App_Control_WriteIdle_Count_For_ThreadId(std::byte* sysThreadId, uint8_t* coreId) {
         auto temp = stat_REG_LIST_Of_CLIB_MutexQueForThreadsLog_Framework_App_Control_WriteIDLE_Count_For_ThreadId->begin();
         std::advance(temp, *coreId);
         return *temp;
     }
-    unsigned long long zinc::CLIB_MutexQueForThreadsLog_Framework_App_Control::stat_REG_get_ptr_list_Of_CLIB_MutexQueForThreadsLog_Framework_App_Control_WriteWait_Count_For_ThreadId(std::byte* sysThreadId, std::byte* coreId) {
+    unsigned long long zinc::CLIB_MutexQueForThreadsLog_Framework_App_Control::stat_REG_get_ptr_list_Of_CLIB_MutexQueForThreadsLog_Framework_App_Control_WriteWait_Count_For_ThreadId(std::byte* sysThreadId, uint8_t* coreId) {
         //std::cout << "thread " << std::to_integer<int>(*sysThreadId) << " :: <= std::list<unsigned long long>* : stat_REG_get_ptr_list_Of_CLIB_MutexQueForThreadsLog_Framework_App_Control_WriteWait_Count_For_ThreadId(sysThreadId)." << std::endl;
         auto temp = stat_REG_LIST_Of_CLIB_MutexQueForThreadsLog_Framework_App_Control_WriteWAIT_Count_For_ThreadId->begin();
         std::advance(temp, *coreId);
@@ -583,11 +583,11 @@ bool* zinc::CLIB_MutexQueForThreadsLog_Framework_App_Control::stat_REG_FLAG_CLIB
         //std::cout << "thread " << std::to_integer<int>(*sysThreadId) << " :: <= std::list<uint8_t>* : stat_REG_get_ptr_QUE_CLIB_MutexQueForThreadsLog_Framework_App_Control_List_Of_ThreadToWrite(sysThreadId)." << std::endl;
         return stat_REG_QUE_Of_CLIB_MutexQueForThreadsLog_Framework_App_Control_ThreadId_To_WRITE;
     }
-    std::byte* zinc::CLIB_MutexQueForThreadsLog_Framework_App_Control::stat_REG_get_ptr_CLIB_MutexQueForThreadsLog_Framework_App_Control_writeCycle_Try_WriteStartsysThreadId_Index(std::byte* sysThreadId, std::byte* coreId) {
+    std::byte* zinc::CLIB_MutexQueForThreadsLog_Framework_App_Control::stat_REG_get_ptr_CLIB_MutexQueForThreadsLog_Framework_App_Control_writeCycle_Try_WriteStartsysThreadId_Index(std::byte* sysThreadId, uint8_t* coreId) {
         //std::cout << "thread " << std::to_integer<int>(*sysThreadId) << " :: <= std::byte* : stat_REG_get_ptr_CLIB_MutexQueForThreadsLog_Framework_App_Control_writeCycle_Try_WriteStartsysThreadId_Index(sysThreadId)." << std::endl;
         return stat_REG_ptr_CLIB_MutexQueForThreadsLog_Framework_App_Control_writeCycle_Try_WriteStartThreadId_Index;
     }
-    std::byte* zinc::CLIB_MutexQueForThreadsLog_Framework_App_Control::stat_REG_get_ptr_CLIB_MutexQueForThreadsLog_Framework_App_Control_writeCycle_Try_WriteEndsysThreadId_Index(std::byte* sysThreadId, std::byte* coreId) {
+    std::byte* zinc::CLIB_MutexQueForThreadsLog_Framework_App_Control::stat_REG_get_ptr_CLIB_MutexQueForThreadsLog_Framework_App_Control_writeCycle_Try_WriteEndsysThreadId_Index(std::byte* sysThreadId, uint8_t* coreId) {
         //std::cout << "thread " << std::to_integer<int>(*sysThreadId) << " :: <= std::byte* : stat_REG_get_ptr_CLIB_MutexQueForThreadsLog_Framework_App_Control_writeCycle_Try_WriteEndsysThreadId_Index(sysThreadId)." << std::endl;
         return stat_REG_ptr_CLIB_MutexQueForThreadsLog_Framework_App_Control_writeCycle_Try_WriteEndThreadId_Index;
     }

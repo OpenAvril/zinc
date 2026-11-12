@@ -1,10 +1,9 @@
 #include "../include/CLIB_LaunchQue_Framework_Execute.h"
 //#include "../../CLIB_ThreadsLog/io/include/CLIB_ThreadLogs.h"
 #include "../../CLIB_MutexQue/io/include/CLIB_MutexQue.h"
+#include "../include/CLIB_LaunchQue_Framework_Global.h"
 #include <iostream>
 #include <limits.h>
-
-#include "../include/CLIB_LaunchQue_Framework_Global.h"
 int* zinc::CLIB_LaunchQue_Framework_Execute::stat_REG_HandleId_For_PGM_CLIBMutexQue;
 // public.
     zinc::CLIB_LaunchQue_Framework_Execute::CLIB_LaunchQue_Framework_Execute(std::byte* sysThreadId) {
