@@ -1,7 +1,6 @@
 #include "../include/CLIB_MutexQue_Framework_App_Control.h"
 #include "../include/CLIB_MutexQue_Framework_App.h"
 #include "../include/CLIB_MutexQue_Framework_Global.h"
-#include <cstdint>
 #include <iostream>
 #include <iterator>
 #include <thread>

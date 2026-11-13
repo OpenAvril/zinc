@@ -1,8 +1,6 @@
 #include "../include/CLIB_MutexQue_Framework_Global.h"
-
 #include <cfloat>
 #include <climits>
-#include <cstdint>
 #include <cstring>
 #include <iostream>
     std::array<bool,2>* zinc::CLIB_MutexQue_Framework_Global::stat_REG_CONST_CLIB_MutexQue_2bitFLAG_IDLE;
@@ -47,10 +45,20 @@
         stat_REG_boot3_INITIALISE_CONST_CLIB_MutexQue_2bitFLAG_IDLE(sysThreadId);
         stat_REG_boot3_INITIALISE_CONST_CLIB_MutexQue_2bitFLAG_WAIT(sysThreadId);
         stat_REG_boot3_INITIALISE_CONST_CLIB_MutexQue_2bitFLAG_WRITE(sysThreadId);
-        auto MAX_NUMBER_OF_THREADS_FOR_ACCESS =  new std::byte();
-        *MAX_NUMBER_OF_THREADS_FOR_ACCESS = static_cast<std::byte>(1);
+        auto MAX_NUMBER_OF_THREADS_FOR_ACCESS =  new unsigned long long();
+        *MAX_NUMBER_OF_THREADS_FOR_ACCESS = static_cast<unsigned long long>(2);
         stat_REG_boot3_INITIALISE_ptr_CLIB_MutexQue_MAX_NUMBER_OF_THREADS_FOR_ACCESS_ID(sysThreadId);
         std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_MutexQue_Global : dyn_REG_boot3_INITIALISE_CLIB_MutexQue_Global(sysThreadId)" << std::endl;
+    }
+    void zinc::CLIB_MutexQue_Framework_Global::dyn_REG_boot3_REINITIALISE_CLIB_MutexQue_Global_MAX_NUMBER_OF_THREADS_FOR_ACCESS_ID(std::byte* sysThreadId, uint8_t* MAX_NUMBER_OF_THREADS_FOR_ACCESS) {
+        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_MutexQue_Global : dyn_REG_boot3_REINITIALISE_CLIB_MutexQue_Global_MAX_NUMBER_OF_THREADS_FOR_ACCESS_ID(sysThreadId)" << std::endl;
+        stat_REG_set_ptr_CLIB_MutexQue_MAX_NUMBER_OF_THREADS_FOR_ACCESS_ID(sysThreadId, *MAX_NUMBER_OF_THREADS_FOR_ACCESS);
+        stat_REG_boot3_INITIALISE_ptr_CLIB_MutexQue_MAX_NUMBER_OF_THREADS_FOR_ACCESS_ID(sysThreadId);
+        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_MutexQue_Global : dyn_REG_boot3_REINITIALISE_CLIB_MutexQue_Global_MAX_NUMBER_OF_THREADS_FOR_ACCESS_ID(sysThreadId)" << std::endl;
+    }
+    void zinc::CLIB_MutexQue_Framework_Global::dyn_REG_set_CLIB_MutexQue_MAX_NUMBER_OF_THREADS_FOR_ACCESS_ID(std::byte* sysThreadId, uint8_t* MAX_NUMBER_OF_THREADS_FOR_ACCESS) {
+        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: => std::unsigned long long* : dyn_REG_set_CLIB_MutexQue_MAX_NUMBER_OF_THREADS_FOR_ACCESS_ID(sysThreadId)" << std::endl;
+        stat_REG_set_ptr_CLIB_MutexQue_MAX_NUMBER_OF_THREADS_FOR_ACCESS_ID(sysThreadId, *MAX_NUMBER_OF_THREADS_FOR_ACCESS);
     }
     std::array<bool,2>* zinc::CLIB_MutexQue_Framework_Global::stat_REG_get_ptr_CONST_CLIB_MutexQue_2bitFLAG_IDLE(std::byte* sysThreadId) {
         std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: <= CONST : stat_REG_get_ptr_CONST_CLIB_MutexQue_2bitFLAG_IDLE(sysThreadId)" << std::endl;
@@ -68,10 +76,7 @@
         std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: <= std::byte : stat_REG_get_CLIB_MutexQue_MAX_NUMBER_OF_THREADS_FOR_ACCESS_ID(sysThreadId)" << std::endl;
         return pr_stat_REG_get_ptr_CLIB_MutexQue_MAX_NUMBER_OF_THREADS_FOR_ACCESS_ID(sysThreadId);
     }
-    void zinc::CLIB_MutexQue_Framework_Global::stat_REG_set_CLIB_MutexQue_MAX_NUMBER_OF_THREADS_FOR_ACCESS_ID(std::byte* sysThreadId, uint8_t* MAX_NUMBER_OF_THREADS_FOR_ACCESS) {
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: => std::unsigned long long* : stat_REG_set_CLIB_MutexQue_MAX_NUMBER_OF_THREADS_FOR_ACCESS_ID(sysThreadId)" << std::endl;
-        pr_stat_REG_set_ptr_CLIB_MutexQue_MAX_NUMBER_OF_THREADS_FOR_ACCESS_ID(sysThreadId, *MAX_NUMBER_OF_THREADS_FOR_ACCESS);
-    }
+
 
     int* zinc::CLIB_MutexQue_Framework_Global::stat_CONVERT_CLIB_MutexQue_Framework_Global_MsbByteArray_To_VUALUEofMsbInt(std::byte* sysThreadId, unsigned char* bytes_Array) {
         int* temp;
@@ -88,10 +93,9 @@
         return temp;
     }
     unsigned long long* zinc::CLIB_MutexQue_Framework_Global::stat_CONVERT_CLIB_MutexQue_Framework_Global_MsbByteArray_To_VUALUEofMsbunsignedLongLong(std::byte* sysThreadId, unsigned char* bytes_Array) {
-        unsigned long long* temp;
-        temp = new unsigned long long();
+        auto temp = new unsigned long long(ULONG_LONG_MAX);
         std::memcpy(&temp, bytes_Array, sizeof(unsigned long long));
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "  :: <= std::byte* : stat_CONVERT_CLIB_MutexQue_Framework_Global_MsbByteArray_To_MsbStdByte(sysThreadId)." << std::endl;
+        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "  :: <= unsigned long long* : stat_CONVERT_CLIB_MutexQue_Framework_Global_MsbByteArray_To_VUALUEofMsbunsignedLongLong(sysThreadId)." << std::endl;
         return temp;
     }
 
@@ -221,7 +225,7 @@
         std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: <= std::byte* : pr_stat_REG_get_ptr_CLIB_MutexQue_MAX_NUMBER_OF_THREADS_FOR_ACCESS_ID(sysThreadId)." << std::endl;
         return stat_REG_ptr_CLIB_MutexQue_MAX_NUMBER_OF_THREADS_FOR_ACCESS_ID;
     }
-    void zinc::CLIB_MutexQue_Framework_Global::pr_stat_REG_set_ptr_CLIB_MutexQue_MAX_NUMBER_OF_THREADS_FOR_ACCESS_ID(std::byte* sysThreadId, uint8_t MAX_NUMBER_OF_THREADS_FOR_ACCESS) {
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: => std::byte* : pr_stat_REG_set_ptr_CLIB_MutexQue_MAX_NUMBER_OF_THREADS_FOR_ACCESS_ID(sysThreadId)." << std::endl;
+    void zinc::CLIB_MutexQue_Framework_Global::stat_REG_set_ptr_CLIB_MutexQue_MAX_NUMBER_OF_THREADS_FOR_ACCESS_ID(std::byte* sysThreadId, uint8_t MAX_NUMBER_OF_THREADS_FOR_ACCESS) {
+        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: => uint8_t : stat_REG_set_ptr_CLIB_MutexQue_MAX_NUMBER_OF_THREADS_FOR_ACCESS_ID(sysThreadId)." << std::endl;
         *stat_REG_ptr_CLIB_MutexQue_MAX_NUMBER_OF_THREADS_FOR_ACCESS_ID = MAX_NUMBER_OF_THREADS_FOR_ACCESS;
     }
