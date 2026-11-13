@@ -15,8 +15,8 @@ int main() {
     std::this_thread::sleep_for(std::chrono::seconds(2));
     //zinc::ThreadLogs::generateProgram(sysThreadId);
     //std::this_thread::sleep_for(std::chrono::seconds(2));
-    zinc::Stemisphore::generateProgram(sysThreadId);
-    std::this_thread::sleep_for(std::chrono::seconds(2));
+    //zinc::Stemisphore::generateProgram(sysThreadId);
+    //std::this_thread::sleep_for(std::chrono::seconds(2));
     zinc::LaunchQue::generateProgram(sysThreadId);
     std::this_thread::sleep_for(std::chrono::seconds(2));
     //zinc::Epicentre::generateProgram(sysThreadId);
@@ -36,8 +36,12 @@ int main() {
     zinc::MutexQue::endByUnlock(sysThreadId, CLIB_MutexQue_Framework_Global::stat_CONVERT_CLIB_MutexQue_Framework_Global_VUALUEofMsbUnsignedLongLong_to_ByteArray(sysThreadId, handleId),new std::byte{0x00});
     std::this_thread::sleep_for(std::chrono::seconds(2));
 
-    auto handle_Id_stemisphore = zinc::Stemisphore::generateHandle(sysThreadId));
-    zinc::Stemisphore::reInitialiseHandle(sysThreadId, CLIB_MutexQue_Framework_Global::stat_CONVERT_CLIB_MutexQue_Framework_Global_VUALUEofMsbUnsignedLongLong_to_ByteArray(sysThreadId, handle_Id_stemisphore), new std::byte{0x00});
+    auto NUM_CONCURRENT_THREADS = new std::byte{0x02};
+    auto handle_Id_LaunchQue = reinterpret_cast<uint8_t*>(zinc::LaunchQue::generateHandle(sysThreadId));
+    zinc::LaunchQue::reInitialiseHandle(sysThreadId, reinterpret_cast<std::byte*>(handle_Id_LaunchQue), NUM_CONCURRENT_THREADS);
+
+    //auto handle_Id_stemisphore = zinc::Stemisphore::generateHandle(sysThreadId);
+    //zinc::Stemisphore::reInitialiseHandle(sysThreadId, CLIB_MutexQue_Framework_Global::stat_CONVERT_CLIB_MutexQue_Framework_Global_VUALUEofMsbUnsignedLongLong_to_ByteArray(sysThreadId, handle_Id_stemisphore), new std::byte{0x00});
     //todo /\ /\ /\
 
     std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: Main : End!." << std::endl;

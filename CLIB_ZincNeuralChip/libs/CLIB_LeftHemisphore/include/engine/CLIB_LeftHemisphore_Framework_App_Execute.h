@@ -15,9 +15,9 @@ namespace zinc {
        void dyn_REG_boot3_REINITIALISE_CLIB_LeftHemisphore_Framework_App_Execute(std::byte* sysThreadId);
         void dyn_REG_boot4_INSTANTIATE_CLIB_LeftHemisphore_Framework_App_Execute(std::byte* sysThreadId, class CLIB_LeftHemisphore_Framework* obj);
         uint8_t* dyn_PGM_get_HandleId_For_CLIB_LaunchQue_Server(std::byte* sysThreadId);
-        int* dyn_PGM_get_HandleId_For_CLIB_MutexQue_Epicentre_MetaData(std::byte* sysThreadId);
-        int* dyn_PGM_get_HandleId_For_CLIB_MutexQue_ServerInputReceive(std::byte* sysThreadId);
-        int* dyn_PGM_get_HandleId_For_CLIB_MutexQue_ServerOutputSend(std::byte* sysThreadId);
+        unsigned long long* dyn_PGM_get_HandleId_For_CLIB_MutexQue_Epicentre_MetaData(std::byte* sysThreadId);
+        unsigned long long* dyn_PGM_get_HandleId_For_CLIB_MutexQue_ServerInputReceive(std::byte* sysThreadId);
+        unsigned long long* dyn_PGM_get_HandleId_For_CLIB_MutexQue_ServerOutputSend(std::byte* sysThreadId);
         static void stat_CLASS_boot0_DECLARE_CLIB_LeftHemisphore_Framework_App_Execute(std::byte* sysThreadId);
         static void stat_CLASS_boot1_DEFINE_CLIB_LeftHemisphore_Framework_App_Execute(std::byte* sysThreadId);
         static void stat_CLASS_boot3_INITIALISE_CLIB_LeftHemisphore_Framework_App_Execute(std::byte* sysThreadId);
@@ -25,9 +25,9 @@ namespace zinc {
     private:
         static class CLIB_LeftHemisphore_Framework_App_Execute_Control* stat_CLASS_CLIB_LeftHemisphore_Framework_App_Execute_Control;
         static uint8_t* stat_REG_HandleId_For_CLIB_LaunchQue_Server;
-        static int* stat_REG_HandleId_For_CLIB_MutexQue_LaunchQue_MetaData;
-        static int* stat_REG_HandleId_For_CLIB_MutexQue_ServerInputReceive;
-        static int* stat_REG_HandleId_For_CLIB_MutexQue_ServerOutputSend;
+        static unsigned long long* stat_REG_HandleId_For_CLIB_MutexQue_LaunchQue_MetaData;
+        static unsigned long long* stat_REG_HandleId_For_CLIB_MutexQue_ServerInputReceive;
+        static unsigned long long* stat_REG_HandleId_For_CLIB_MutexQue_ServerOutputSend;
         static void stat_CLASS_boot1_DEFINE_Execute_Control(std::byte* sysThreadId);
         static void stat_CLASS_boot3_INITIALISE_Execute_Control(std::byte* sysThreadId);
         static class CLIB_LeftHemisphore_Framework_App_Execute_Control* stat_CLASS_get_ptr_CLIB_LeftHemisphore_Framework_App_Execute_Control(std::byte* sysThreadId);
@@ -44,9 +44,9 @@ namespace zinc {
         static void stat_PGM_boot3_REINITIALISE_HandleId_For_CLIB_MutexQue_ServerInputReceive(std::byte* sysThreadId);
         static void stat_PGM_boot3_REINITIALISE_HandleId_For_CLIB_MutexQue_ServerOutputSend(std::byte* sysThreadId);
         static uint8_t* stat_PGM_get_HandleId_For_CLIB_LaunchQue_Server(std::byte* sysThreadId);
-        static int* stat_PGM_get_HandleId_For_CLIB_MutexQue_LaunchQue_MetaData(std::byte* sysThreadId);
-        static int* stat_PGM_get_HandleId_For_CLIB_MutexQue_ServerInputReceive(std::byte* sysThreadId);
-        static int* stat_PGM_get_HandleId_For_CLIB_MutexQue_ServerOutputSend(std::byte* sysThreadId);
+        static unsigned long long* stat_PGM_get_HandleId_For_CLIB_MutexQue_LaunchQue_MetaData(std::byte* sysThreadId);
+        static unsigned long long* stat_PGM_get_HandleId_For_CLIB_MutexQue_ServerInputReceive(std::byte* sysThreadId);
+        static unsigned long long* stat_PGM_get_HandleId_For_CLIB_MutexQue_ServerOutputSend(std::byte* sysThreadId);
     };
 };
 #endif

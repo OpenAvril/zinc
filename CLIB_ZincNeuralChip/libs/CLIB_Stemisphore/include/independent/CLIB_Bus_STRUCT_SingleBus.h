@@ -8,10 +8,9 @@ namespace zinc {
     public:
         static int* generateHandle(std::byte* sysThreadId);
         static void generateProgram(std::byte* sysThreadId);
-        static unsigned char* isINSTANTIATED(std::byte* sysThreadId);
         static void load(std::byte* sysThreadId, StemTicket StemTicket, unsigned char* bytes_Cargo);
         static unsigned char* unload(std::byte* sysThreadId, StemTicket StemTicket);
-        static void reInitialiseHandle(std::byte* sysThreadId, std::byte MAX_NUMBER_OF_JUNCTIONS);
+        static void reInitialiseHandle(std::byte* sysThreadId, unsigned char* MAX_NUMBER_OF_JUNCTIONS);
         static void terminateProgram(std::byte* sysThreadId);
     private:
         static void stat_APP_FUNCT_zinc_Calc_IsAllINSTANTIATED(std::byte* sysThreadId);
