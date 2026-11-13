@@ -93,7 +93,12 @@
         std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "  :: <= std::byte* : stat_CONVERT_CLIB_LaunchQue_Framework_Global_MsbByteArray_To_MsbStdByte(sysThreadId)." << std::endl;
         return temp;
     }
-
+    int* zinc::CLIB_LaunchQue_Framework_Global::stat_CONVERT_CLIB_LaunchQue_Framework_Global_VUALUEofMsb_uint8_t_To_MsbInt(std::byte* sysThreadId, uint8_t* newValue_uint8_t) {
+        int value = 0;
+        std::memcpy(&value, newValue_uint8_t, sizeof(int));
+        int* int_ptr = &value;
+        return int_ptr;
+    }
     unsigned char* zinc::CLIB_LaunchQue_Framework_Global::stat_CONVERT_CLIB_LaunchQue_Framework_Global_VUALUEofMsbInt_To_MsbByteArray(std::byte* sysThreadId, int* newValue_Int) {
         unsigned char* buffer = nullptr;
         buffer = new unsigned char(static_cast<unsigned char>(INT_MAX));
