@@ -33,17 +33,14 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fb33d3f-99ba-4f2a-b0ec-fe17b1bccdcf" name="Changes" comment="DEVELOPMENT_2026_11_13_1544, &lt;COMPILE_SUCCESS&gt; &lt;RUNTIME_TEST&gt;.&#10;BUILT: DEVELOPMENT_2026_11_13_1544.&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.1.&#10;PHASE: Design, **Implementation**, *Testing*, Review.&#10;&#10;IMPLEMENTED:&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.1.&#10;TODO:&#10; - zinc_stemisphore v1.2.1.&#10; - zinc_launch_que v1.2.1.&#10; - zinc_epicentre v1.2.1.&#10;&#10;---&#10;---">
+    <list default="true" id="2fb33d3f-99ba-4f2a-b0ec-fe17b1bccdcf" name="Changes" comment="DEVELOPMENT_2026_11_14_1713, &lt;COMPILE_SUCCESS&gt; &lt;RUNTIME_TEST&gt;.&#10;BUILT: DEVELOPMENT_2026_11_14_1713.&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.1.&#10;     - zinc_launch_que v1.2.1.&#10;     - zinc_stemisphore v1.2.1.&#10;PHASE: Design, Implementation, **Testing**, *Review*.&#10;&#10;IMPLEMENTED:&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.1.&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;     - zinc_launch_que v1.2.1.&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;     - zinc_stemisphore v1.2.1.&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;TODO:&#10; - zinc_stemisphore v1.2.1.&#10;   - generateHandle();&#10; - zinc_epicentre v1.2.1.&#10;&#10;---&#10;---">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/include/engine/CLIB_LeftHemisphore_Framework_App_Execute.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/include/engine/CLIB_LeftHemisphore_Framework_App_Execute.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/io/src/CLIB_LeftHemisphore.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/io/src/CLIB_LeftHemisphore.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/src/engine/CLIB_LeftHemisphore_Framework_App_Execute.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/src/engine/CLIB_LeftHemisphore_Framework_App_Execute.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/src/independent/threads/CLIB_LeftHemisphore_STRUCT_Concurrent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/src/independent/threads/CLIB_LeftHemisphore_STRUCT_Concurrent.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/include/CLIB_SystemBus_Framework_Global.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/include/CLIB_SystemBus_Framework_Global.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/io/include/CLIB_SystemBus.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/io/include/CLIB_SystemBus.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/include/independent/CLIB_Bus_STRUCT_SingleBus_Framework_Global.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/include/independent/CLIB_Bus_STRUCT_SingleBus_Framework_Global.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/io/src/CLIB_SystemBus.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/io/src/CLIB_SystemBus.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/src/CLIB_SystemBus_Framework_Global.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/src/CLIB_SystemBus_Framework_Global.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/src/CLIB_SystemBus_Framework_App_Execute.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/src/CLIB_SystemBus_Framework_App_Execute.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/src/independent/CLIB_Bus_STRUCT_SingleBus.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/src/independent/CLIB_Bus_STRUCT_SingleBus.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/src/independent/CLIB_Bus_STRUCT_SingleBus_Framework_Global.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/src/independent/CLIB_Bus_STRUCT_SingleBus_Framework_Global.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoothCute/CLIB_Optimus.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/SoothCute/CLIB_Optimus.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TESTBENCH/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TESTBENCH/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,63 +72,66 @@
     &quot;accountId&quot;: &quot;aaf3520f-cb71-49c6-b6f9-fec131509ea2&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000013827179117" />
-      <entry key="S2" value="1.1045653344296151" />
-      <entry key="S5" value="2.175450083744666" />
-      <entry key="S10" value="3.842185166871982" />
-      <entry key="S30" value="6.8960448366699785" />
-      <entry key="S60" value="8.714959570063353" />
-      <entry key="M2" value="11.260771589788073" />
-      <entry key="M5" value="18.699409316731316" />
-      <entry key="M10" value="33.09658722111767" />
-      <entry key="M15" value="48.394255258160975" />
-      <entry key="M30" value="88.2112300378648" />
-      <entry key="H1" value="144.65066368639032" />
-      <entry key="H2" value="226.83223034147073" />
-      <entry key="H4" value="346.44669099360624" />
-      <entry key="D1" value="642.486566426808" />
-      <entry key="W1" value="740.4081115569529" />
+      <entry key="MS100" value="1.0067075424721699" />
+      <entry key="MS500" value="1.3675468359345868" />
+      <entry key="S2" value="1.7893705211280508" />
+      <entry key="S5" value="2.203369973001995" />
+      <entry key="S10" value="3.031020627799682" />
+      <entry key="S30" value="5.233955577264285" />
+      <entry key="S60" value="6.635739651502066" />
+      <entry key="M2" value="7.808034247929305" />
+      <entry key="M5" value="10.986103738382596" />
+      <entry key="M10" value="16.280007568191404" />
+      <entry key="M15" value="21.01278498806798" />
+      <entry key="M30" value="38.66666587852975" />
+      <entry key="H1" value="86.08271513073801" />
+      <entry key="H2" value="176.8708540275763" />
+      <entry key="H4" value="315.2843598727935" />
+      <entry key="D1" value="674.6588778345304" />
+      <entry key="W1" value="799.0906241677906" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="3.0947753605605086E-197" />
-      <entry key="MS500" value="4.990290478615108E-40" />
-      <entry key="S2" value="1.4946222959216858E-10" />
-      <entry key="S5" value="1.1743906437610384E-4" />
-      <entry key="S10" value="0.010836930593813372" />
-      <entry key="S30" value="0.22154238422241007" />
-      <entry key="S60" value="0.48929816961915934" />
-      <entry key="M2" value="0.9170524901368067" />
-      <entry key="M5" value="2.4993390001973896" />
-      <entry key="M10" value="5.891273424089709" />
-      <entry key="M15" value="9.677103783091873" />
-      <entry key="M30" value="20.444681634070825" />
-      <entry key="H1" value="38.27053021039938" />
-      <entry key="H2" value="65.68202604293135" />
-      <entry key="H4" value="102.4824133533633" />
-      <entry key="D1" value="186.60204412922738" />
-      <entry key="W1" value="213.83811717060078" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="9.354730857169877E-119" />
+      <entry key="S5" value="1.1148403192616032E-47" />
+      <entry key="S10" value="5.711099595111129E-24" />
+      <entry key="S30" value="3.712674793658034E-8" />
+      <entry key="S60" value="3.4077998476568516E-4" />
+      <entry key="M2" value="0.034344645939419015" />
+      <entry key="M5" value="0.5858376818709584" />
+      <entry key="M10" value="1.715826449940827" />
+      <entry key="M15" value="2.8359669511023426" />
+      <entry key="M30" value="7.238361062757794" />
+      <entry key="H1" value="20.069669900018198" />
+      <entry key="H2" value="47.201916314919046" />
+      <entry key="H4" value="88.67896375327517" />
+      <entry key="D1" value="191.41572555778396" />
+      <entry key="W1" value="226.310454222062" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="8.501470344688712E-4" />
-      <entry key="MS500" value="0.24316478646342127" />
-      <entry key="S2" value="0.7954154697311556" />
-      <entry key="S5" value="1.9851939642622474" />
-      <entry key="S10" value="3.7075633544406568" />
-      <entry key="S30" value="7.022487434932658" />
-      <entry key="S60" value="9.137603501570592" />
-      <entry key="M2" value="12.131801138215428" />
-      <entry key="M5" value="21.164048441466655" />
-      <entry key="M10" value="38.9506745315373" />
-      <entry key="M15" value="58.03084075641094" />
-      <entry key="M30" value="108.61245555035708" />
-      <entry key="H1" value="182.87771043152532" />
-      <entry key="H2" value="292.47110636315193" />
-      <entry key="H4" value="448.8905466871221" />
-      <entry key="D1" value="829.0753592287024" />
-      <entry key="W1" value="954.2440201978511" />
+      <entry key="MS100" value="0.6611586519641839" />
+      <entry key="MS500" value="1.2778990129116572" />
+      <entry key="S2" value="1.7637863807056564" />
+      <entry key="S5" value="2.1916877767031657" />
+      <entry key="S10" value="3.022240966979183" />
+      <entry key="S30" value="5.224292685411372" />
+      <entry key="S60" value="6.628268578437289" />
+      <entry key="M2" value="7.836488170040192" />
+      <entry key="M5" value="11.563662040012694" />
+      <entry key="M10" value="17.984550650183575" />
+      <entry key="M15" value="23.835395377947595" />
+      <entry key="M30" value="45.886643056894016" />
+      <entry key="H1" value="106.12700600271741" />
+      <entry key="H2" value="224.0407551590036" />
+      <entry key="H4" value="403.9298827742341" />
+      <entry key="D1" value="866.0610977907139" />
+      <entry key="W1" value="1025.3987561009103" />
     </decayedShown>
   </component>
   <component name="ProjectApplicationVersion">
@@ -149,46 +149,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "CMake Application.TESTBENCH.executor": "Run",
-    "CidrDebugProfileConversion": "true",
-    "CidrDebugProfileConversion262": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.RadMigrateCodeStyle": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "DEVELOPMENT",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/brenton-james/CLionProjects/zinc/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.jshint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.jshint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;CMake Application.TESTBENCH.executor&quot;: &quot;Run&quot;,
+    &quot;CidrDebugProfileConversion&quot;: &quot;true&quot;,
+    &quot;CidrDebugProfileConversion262&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;DEVELOPMENT&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/brenton-james/CLionProjects/zinc/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="CMake Application.TESTBENCH">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SoothCute" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SiliconLife" TARGET_NAME="SoothCute" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="TESTBENCH" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SiliconLife" TARGET_NAME="TESTBENCH" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SiliconLife" RUN_TARGET_NAME="TESTBENCH">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -293,7 +293,8 @@
     <MESSAGE value="DEVELOPMENT_2026_11_12_1345, &lt;COMPILE_SUCCESS&gt; &lt;RUNTIME_TEST&gt;.&#10;BUILT: DEVELOPMENT_2026_11_12_1345.&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.1.3.&#10;     - zinc_launch_que v1.1.3.&#10;PHASE: Design, **Implementation**, *Testing*, Review.&#10;&#10;IMPLEMENTED:&#10;   - LIBRARIES:&#10;     - CLIB_MutexQue v1.1.2.&#10;     - CLIB_LaunchQue v1.1.3.&#10;&#10;TODO:&#10; - CLIB_Stemisphore v1.1.3.&#10; - CLIB_LeftHemishpore v1.1.3.&#10; - PROJECT BNI:&#10;   - PROJECT BNITT:&#10;     - BNITT.h&#10;     - BNITT.cpp&#10;   - PROJECT BNN:&#10;     - PROJECT BNN ARCH:&#10;       - BNN_Arch.h&#10;       - BNN_Arch.cpp&#10;     - PROJECT BNIBNNDS:&#10;       - BNIDS.h&#10;       - BNIDS.cpp&#10; - LIBRARIES:&#10;   - CLIB_ThreadsLog." />
     <MESSAGE value="Update README.md&#10;&#10;Signed-off-by: zinc (Zinc Insulate Neural Chip) &amp; slif (Silicon Life), both MIT open source resource package(s). &lt;Jasper.Assembly@icloud.com&gt;" />
     <MESSAGE value="Merge branch 'refs/heads/DEVELOPMENT'&#10;&#10;# Conflicts:&#10;#&#9;README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'refs/heads/DEVELOPMENT'&#10;&#10;# Conflicts:&#10;#&#9;README.md" />
+    <MESSAGE value="DEVELOPMENT_2026_11_13_1714, &lt;COMPILE_SUCCESS&gt; &lt;RUNTIME_TEST&gt;.&#10;BUILT: DEVELOPMENT_2026_11_13_1714.&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.1.&#10;     - zinc_launch_que v1.2.1.&#10;     - DEBUGGING : zinc_stemisphore v1.2.1.&#10;PHASE: Design, **Implementation**, *Testing*, Review.&#10;&#10;IMPLEMENTED:&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.1.&#10;     - zinc_launch_que v1.2.1.&#10;     - DEBUGGING : zinc_stemisphore v1.2.1.&#10;TODO:&#10; - DEBUGGING : zinc_stemisphore v1.2.1.&#10; - zinc_epicentre v1.2.1.&#10;&#10;---&#10;---" />
+    <option name="LAST_COMMIT_MESSAGE" value="DEVELOPMENT_2026_11_13_1714, &lt;COMPILE_SUCCESS&gt; &lt;RUNTIME_TEST&gt;.&#10;BUILT: DEVELOPMENT_2026_11_13_1714.&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.1.&#10;     - zinc_launch_que v1.2.1.&#10;     - DEBUGGING : zinc_stemisphore v1.2.1.&#10;PHASE: Design, **Implementation**, *Testing*, Review.&#10;&#10;IMPLEMENTED:&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.1.&#10;     - zinc_launch_que v1.2.1.&#10;     - DEBUGGING : zinc_stemisphore v1.2.1.&#10;TODO:&#10; - DEBUGGING : zinc_stemisphore v1.2.1.&#10; - zinc_epicentre v1.2.1.&#10;&#10;---&#10;---" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

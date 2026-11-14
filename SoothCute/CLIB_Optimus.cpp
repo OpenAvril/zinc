@@ -73,12 +73,11 @@
 		zinc::LaunchQue::threadRequestlaunch(sysThreadId, stdByte, stdByte);
 		zinc::LaunchQue::threadEnd(sysThreadId, stdByte, stdByte);
 
-		unsigned char* tempD0 = zinc::Stemisphore::generateHandle(sysThreadId);
+		std::byte* tempD0 = zinc::Stemisphore::generateHandle(sysThreadId);
 		//zinc::SystemBusses::generateProgram(sysThreadId);
-		unsigned char* tempD1 = zinc::Stemisphore::isINSTANTIATED(sysThreadId);
-		zinc::Stemisphore::load(sysThreadId, *TICKET, bytes_Cargo);
-		zinc::Stemisphore::reInitialiseHandle(sysThreadId, stdByte);
-		unsigned char* tempD2 = zinc::Stemisphore::unload(sysThreadId, *TICKET);
+		zinc::Stemisphore::load(sysThreadId, stdByte, *TICKET, bytes_Cargo);
+		zinc::Stemisphore::reInitialiseHandle(sysThreadId, stdByte, praiseId);
+		unsigned char* tempD2 = zinc::Stemisphore::unload(sysThreadId, stdByte, *TICKET);
 		zinc::Stemisphore::terminateProgram(sysThreadId);
 
 		std::byte* tempE0 = zinc::Epicentre::gernerateHandle(sysThreadId);
