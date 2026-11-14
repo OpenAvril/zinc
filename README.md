@@ -206,7 +206,7 @@ cmake --build build
 
 zinc::MutexQue::generateProgram(sysThreadId);
 
-int* stat_REG_HandleId_For_PGM_zincMutexQue = zinc::MutexQue::generateHandle(sysThreadId);
+unsigned char* stat_REG_HandleId_For_PGM_zincMutexQue = zinc::MutexQue::generateHandle(sysThreadId);
 
 zinc::MutexQue::reInitialiseHandle(sysThreadId, handleId, MAX_NUMBER_OF_THREADS_FOR_ACCESS);
 
