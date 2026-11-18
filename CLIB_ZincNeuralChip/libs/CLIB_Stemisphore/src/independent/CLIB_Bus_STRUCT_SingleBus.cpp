@@ -9,18 +9,11 @@
 #include <cstddef>
 #include <cstdint>
 #include <iostream>
-static zinc::CLIB_Bus_STRUCT_SingleBus_Framework* stat_REG_CLIB_SingleBus_STRUCT_SingleBus_Framework;
-	static std::array<bool, 4>* stat_REG_flag_zinc_isMemberFunctionINSTANTIATED;
+	static zinc::CLIB_Bus_STRUCT_SingleBus_Framework* stat_REG_CLIB_SingleBus_STRUCT_SingleBus_Framework;
+	static std::array<bool, 5>* stat_REG_flag_zinc_isMemberFunctionINSTANTIATED;
 // public.
-	int* zinc::CLIB_Bus_STRUCT_SingleBus::generateHandle(std::byte* sysThreadId) {
-		auto oldSize = stat_CLASS_get_ptr_CLIB_Bus_STRUCT_SingleBus_Framework(sysThreadId)->dyn_CLASS_get_ptr_CLIB_Bus_STRUCT_SingleBus_Framework_App(sysThreadId)->dyn_CLASS_ptr_CLIB_Bus_STRUCT_SingleBus_Framework_App_Execute(sysThreadId)->dyn_PGM_get_List_CLIB_List_Of_Busses(sysThreadId)->size();
-		stat_CLASS_get_ptr_CLIB_Bus_STRUCT_SingleBus_Framework(sysThreadId)->dyn_CLASS_get_ptr_CLIB_Bus_STRUCT_SingleBus_Framework_App(sysThreadId)->dyn_CLASS_ptr_CLIB_Bus_STRUCT_SingleBus_Framework_App_Execute(sysThreadId)->dyn_PGM_get_List_CLIB_List_Of_Busses(sysThreadId)->resize(oldSize+1);
-		for (uint8_t i = oldSize; i < stat_CLASS_get_ptr_CLIB_Bus_STRUCT_SingleBus_Framework(sysThreadId)->dyn_CLASS_get_ptr_CLIB_Bus_STRUCT_SingleBus_Framework_App(sysThreadId)->dyn_CLASS_ptr_CLIB_Bus_STRUCT_SingleBus_Framework_App_Execute(sysThreadId)->dyn_PGM_get_List_CLIB_List_Of_Busses(sysThreadId)->size(); i++) {
-			auto temp = stat_CLASS_get_ptr_CLIB_Bus_STRUCT_SingleBus_Framework(sysThreadId)->dyn_CLASS_get_ptr_CLIB_Bus_STRUCT_SingleBus_Framework_App(sysThreadId)->dyn_CLASS_ptr_CLIB_Bus_STRUCT_SingleBus_Framework_App_Execute(sysThreadId)->dyn_PGM_get_List_CLIB_List_Of_Busses(sysThreadId)->begin();
-			std::advance(temp, i);
-			temp = stat_CLASS_get_ptr_CLIB_Bus_STRUCT_SingleBus_Framework(sysThreadId)->dyn_CLASS_get_ptr_CLIB_Bus_STRUCT_SingleBus_Framework_App(sysThreadId)->dyn_CLASS_ptr_CLIB_Bus_STRUCT_SingleBus_Framework_App_Execute(sysThreadId)->dyn_PGM_get_List_CLIB_List_Of_Busses(sysThreadId)->begin();
-		}
-		return new int(static_cast<int>(stat_CLASS_get_ptr_CLIB_Bus_STRUCT_SingleBus_Framework(sysThreadId)->dyn_CLASS_get_ptr_CLIB_Bus_STRUCT_SingleBus_Framework_App(sysThreadId)->dyn_CLASS_ptr_CLIB_Bus_STRUCT_SingleBus_Framework_App_Execute(sysThreadId)->dyn_PGM_get_List_CLIB_List_Of_Busses(sysThreadId)->size() - 1));
+	zinc::CLIB_Bus_STRUCT_SingleBus_Framework* zinc::CLIB_Bus_STRUCT_SingleBus::getHandle(std::byte* sysThreadId) {
+		return stat_CLASS_get_ptr_CLIB_Bus_STRUCT_SingleBus_Framework(sysThreadId);
 	}
 	void zinc::CLIB_Bus_STRUCT_SingleBus::generateProgram(std::byte* sysThreadId) {
 		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: entered LIB :: zinc : CLIB_Bus_STRUCT_SingleBus : stat_App_FUNCT_zinc_generate_Program(sysThreadId)." << std::endl;
@@ -89,9 +82,9 @@ static zinc::CLIB_Bus_STRUCT_SingleBus_Framework* stat_REG_CLIB_SingleBus_STRUCT
 		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: `                 V                 '" << std::endl;
 		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_Bus_STRUCT_SingleBus : stat_App_FUNCT_zinc_generate_Program(sysThreadId)." << std::endl;
 	}
-	void zinc::CLIB_Bus_STRUCT_SingleBus::load(std::byte* sysThreadId, StemTicket StemTicket, unsigned char* bytes_DATA) {
+	void zinc::CLIB_Bus_STRUCT_SingleBus::load(std::byte* sysThreadId, StemTicket StemTicket, unsigned char* DATA) {
 		if (!stat_REG_get_zinc_array_Of_flag_isINSTANTIATED(sysThreadId)->at(0)) {
-			stat_CLASS_get_ptr_CLIB_Bus_STRUCT_SingleBus_Framework(sysThreadId)->dyn_CLASS_get_ptr_CLIB_Bus_STRUCT_SingleBus_Framework_App(sysThreadId)->dyn_CLASS_ptr_CLIB_Bus_STRUCT_SingleBus_Framework_App_Data(sysThreadId)->dyn_REG_set_CLIB_Bus_STRUCT_SingleBus_Framework_App_Data_DATA(sysThreadId, CLIB_SystemBus_Framework_Global::stat_APP_CONVERT_CLIB_SystemBus_Framework_Global_VUALUEofOBJ_To_MsbByteArray(sysThreadId, reinterpret_cast<class Object*>(bytes_DATA)));
+			stat_CLASS_get_ptr_CLIB_Bus_STRUCT_SingleBus_Framework(sysThreadId)->dyn_CLASS_get_ptr_CLIB_Bus_STRUCT_SingleBus_Framework_App(sysThreadId)->dyn_CLASS_ptr_CLIB_Bus_STRUCT_SingleBus_Framework_App_Data(sysThreadId)->dyn_REG_set_CLIB_Bus_STRUCT_SingleBus_Framework_App_Data_DATA(sysThreadId, CLIB_SystemBus_Framework_Global::stat_APP_CONVERT_CLIB_SystemBus_Framework_Global_VUALUEofOBJ_To_MsbByteArray(sysThreadId, reinterpret_cast<class Object*>(DATA)));
 		}
 		else {
 			stat_REG_get_zinc_array_Of_flag_isINSTANTIATED(sysThreadId)->at(1) = !stat_REG_get_zinc_array_Of_flag_isINSTANTIATED(sysThreadId)->at(0);
@@ -152,7 +145,6 @@ static zinc::CLIB_Bus_STRUCT_SingleBus_Framework* stat_REG_CLIB_SingleBus_STRUCT
 		}
 		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_Bus_STRUCT_SingleBus : stat_APP_FUNCT_zinc_Calc_IsAllINSTANTIATED(sysThreadId)." << std::endl;
 	}
-
 	void zinc::CLIB_Bus_STRUCT_SingleBus::stat_CLASS_boot1_DEFINE_CLIB_Bus_STRUCT_SingleBus_Framework(std::byte* sysThreadId) {
 		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: entered LIB :: zinc : CLIB_Bus_STRUCT_SingleBus : stat_CLASS_boot1_DEFINE_CLIB_SingleBus_STRUCT_SingleBus_Framework(sysThreadId)." << std::endl;
 		stat_REG_CLIB_SingleBus_STRUCT_SingleBus_Framework = nullptr;
@@ -175,7 +167,7 @@ static zinc::CLIB_Bus_STRUCT_SingleBus_Framework* stat_REG_CLIB_SingleBus_STRUCT
 	}
 	void zinc::CLIB_Bus_STRUCT_SingleBus::stat_REG_boot2_SUBSTANTIATE_zinc_array_Of_flag_isINSTANTIATED(std::byte* sysThreadId) {
 		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: entered LIB :: zinc : CLIB_Bus_STRUCT_SingleBus : stat_REG_boot2_SUBSTANTIATE_zinc_array_Of_flag_isINSTANTIATED(sysThreadId)." << std::endl;
-		stat_REG_flag_zinc_isMemberFunctionINSTANTIATED = new std::array<bool, 4>();//todo number of function checks and summed or of.
+		stat_REG_flag_zinc_isMemberFunctionINSTANTIATED = new std::array<bool, 5>();//todo number of function checks and summed or of.
 		while (stat_REG_get_zinc_array_Of_flag_isINSTANTIATED(sysThreadId) == nullptr) {}
 		for (uint8_t* index = 0; *index < stat_REG_get_zinc_array_Of_flag_isINSTANTIATED(sysThreadId)->size(); index++)	{
 			stat_REG_get_zinc_array_Of_flag_isINSTANTIATED(sysThreadId)->at(*index) = true;
@@ -189,8 +181,8 @@ static zinc::CLIB_Bus_STRUCT_SingleBus_Framework* stat_REG_CLIB_SingleBus_STRUCT
 		}
 		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_Bus_STRUCT_SingleBus : stat_REG_boot3_INITIALISE_zinc_array_Of_flag_isINSTANTIATED(sysThreadId)." << std::endl;
 	}
-	std::array<bool, 4>*  zinc::CLIB_Bus_STRUCT_SingleBus::stat_REG_get_zinc_array_Of_flag_isINSTANTIATED(std::byte* sysThreadId) {
-		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: <= std::array<bool, 4>* : stat_REG_get_zinc_array_Of_flag_isINSTANTIATED(std::byte* sysThreadId)" << std::endl;
+	std::array<bool, 5>*  zinc::CLIB_Bus_STRUCT_SingleBus::stat_REG_get_zinc_array_Of_flag_isINSTANTIATED(std::byte* sysThreadId) {
+		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: <= std::array<bool, 5>* : stat_REG_get_zinc_array_Of_flag_isINSTANTIATED(std::byte* sysThreadId)" << std::endl;
 		return stat_REG_flag_zinc_isMemberFunctionINSTANTIATED;
 	}
 
