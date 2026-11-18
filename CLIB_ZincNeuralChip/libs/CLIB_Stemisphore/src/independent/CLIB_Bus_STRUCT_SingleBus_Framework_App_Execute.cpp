@@ -46,9 +46,9 @@
         stat_PGM_boot3_REINITIALISE_CLIB_MutexQue_Of_Bus_At_Junction_At_AccessLock(sysThreadId);
     }
 
-    zinc::CLIB_Bus_STRUCT_SingleBus_Framework* zinc::CLIB_Bus_STRUCT_SingleBus_Framework_App_Execute::dyn_REG_get_PGM_CLIB_Bus_STRUCT_SingleBus_Item_On_List_Of_Busses(std::byte* sysThreadId, std::byte* busId) {
+    zinc::CLIB_Bus_STRUCT_SingleBus_Framework* zinc::CLIB_Bus_STRUCT_SingleBus_Framework_App_Execute::dyn_REG_get_PGM_CLIB_Bus_STRUCT_SingleBus_Item_On_List_Of_Busses(std::byte* sysThreadId, uint16_t* busId) {
         auto temp = stat_REG_get_PGM_CLIB_List_Of_Busses(sysThreadId)->begin();
-        std::advance(temp, *reinterpret_cast<uint8_t*>(*busId));
+        std::advance(temp, *busId);
         return *temp;
     }
     int* zinc::CLIB_Bus_STRUCT_SingleBus_Framework_App_Execute::dyn_REG_get_PGM_CLIB_Bus_STRUCT_SingleBus_MutexQue_Of_Bus(std::byte* sysThreadId) {

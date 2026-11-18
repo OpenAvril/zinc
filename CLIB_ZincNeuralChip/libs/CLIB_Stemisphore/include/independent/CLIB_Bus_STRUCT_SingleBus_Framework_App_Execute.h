@@ -15,7 +15,7 @@ namespace zinc {
         void dyn_PGM_boot3_REINITIALISE_CLIB_List_Of_Busses(std::byte* sysThreadId, class CLIB_Bus_STRUCT_SingleBus_Framework* obj);
         void dyn_PGM_boot3_REINITIALISE_CLIB_MutexQue_Of_Bus_At_Junction(std::byte* sysThreadId);
         void dyn_PGM_boot3_REINITIALISE_CLIB_MutexQue_Of_Bus_At_Junction_At_AccessLock(std::byte* sysThreadId);
-        CLIB_Bus_STRUCT_SingleBus_Framework* dyn_REG_get_PGM_CLIB_Bus_STRUCT_SingleBus_Item_On_List_Of_Busses(std::byte* sysThreadId, std::byte* busId);
+        CLIB_Bus_STRUCT_SingleBus_Framework* dyn_REG_get_PGM_CLIB_Bus_STRUCT_SingleBus_Item_On_List_Of_Busses(std::byte* sysThreadId, uint16_t* busId);
         int* dyn_REG_get_PGM_CLIB_Bus_STRUCT_SingleBus_MutexQue_Of_Bus(std::byte* sysThreadId);
         std::list<void*>* dyn_PGM_get_List_CLIB_List_Of_Busses(std::byte* sysThreadId);
         int* dyn_REG_get_HandleId_CLIB_Item_MutexQue_On_List_Of_Busses_At_Junction(std::byte* sysThreadId, std::byte* busId);

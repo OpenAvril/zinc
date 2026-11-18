@@ -6,7 +6,7 @@
 namespace zinc {
     class StemTicket {
     public:
-        StemTicket(std::byte* sysThreadId, std::byte* departureAccessId, std::byte* departureJunctionId, std::byte* arrivalJunctionId, std::byte* arrivalAccessId);
+        StemTicket(std::byte* sysThreadId, uint16_t* busIdForRoute, uint8_t* departureAccessId, uint64_t* departureJunctionId, uint64_t* arrivalJunctionId, uint8_t* arrivalAccessId);
         ~StemTicket();
         uint8_t* get_Arrival_AccessId();
         uint16_t* get_busId();
