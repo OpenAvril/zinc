@@ -33,10 +33,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fb33d3f-99ba-4f2a-b0ec-fe17b1bccdcf" name="Changes" comment="DEVELOPMENT_2026_11_18_1220, &lt;COMPILE_SUCCESS&gt; &lt;RUNTIME_TEST&gt;.&#10;BUILT: DEVELOPMENT_2026_11_18_1220.&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.1.&#10;     - zinc_launch_que v1.2.1.&#10;     ** UNDER DEVELOPMENT **&#10;       - zinc_stemisphore vx.x.x.&#10;PHASE: Design, Implementation, **Testing**, *Review*.&#10;&#10;IMPLEMENTED:&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.1.&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;     - zinc_launch_que v1.2.1.&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;     ** UNDER DEVELOPMENT **&#10;       - zinc_stemisphore vx.x.x.&#10;         - gernerateProgram();&#10;         - generateHandle();&#10;       - zinc_epicentre vx.x.x.&#10;TODO:&#10; - zinc_stemisphore v1.2.2.&#10;   - generatereInitialiseHandle();&#10; - zinc_epicentre v1.2.2.&#10;&#10;---&#10;---">
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/include/CLIB_SystemBus_Framework_Global.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/include/CLIB_SystemBus_Framework_Global.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/io/src/CLIB_SystemBus.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/io/src/CLIB_SystemBus.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/src/CLIB_SystemBus_Framework_Global.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/src/CLIB_SystemBus_Framework_Global.cpp" afterDir="false" />
+    <list default="true" id="2fb33d3f-99ba-4f2a-b0ec-fe17b1bccdcf" name="Changes" comment="DEVELOPMENT_2026_11_18_1230, &lt;COMPILE_SUCCESS&gt; &lt;RUNTIME_TEST&gt;.&#10;BUILT: DEVELOPMENT_2026_11_18_1230.&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.1.&#10;     - zinc_launch_que v1.2.1.&#10;     ** UNDER DEVELOPMENT **&#10;       - zinc_stemisphore vx.x.x.&#10;PHASE: Design, Implementation, **Testing**, *Review*.&#10;&#10;IMPLEMENTED:&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.1.&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;     - zinc_launch_que v1.2.1.&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;     ** UNDER DEVELOPMENT **&#10;       - zinc_stemisphore vx.x.x.&#10;         - gernerateProgram();&#10;         - generateHandle();&#10;       - zinc_epicentre vx.x.x.&#10;TODO:&#10; - zinc_stemisphore v1.2.2.&#10;   - generatereInitialiseHandle();&#10; - zinc_epicentre v1.2.2.&#10;&#10;---&#10;---">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,61 +71,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="1.0031392373707455E-104" />
-      <entry key="S2" value="1.0007838871423318E-26" />
-      <entry key="S5" value="3.982319696634268E-11" />
-      <entry key="S10" value="6.310602556172233E-6" />
-      <entry key="S30" value="0.018830787541844876" />
-      <entry key="S60" value="0.1630075533395031" />
-      <entry key="M2" value="0.8038902777972984" />
-      <entry key="M5" value="4.059320920483066" />
-      <entry key="M10" value="9.838689558583393" />
-      <entry key="M15" value="15.798656147002221" />
-      <entry key="M30" value="32.84651909717277" />
-      <entry key="H1" value="61.64086175839817" />
-      <entry key="H2" value="122.1230559143553" />
-      <entry key="H4" value="251.76181351418032" />
-      <entry key="D1" value="727.6550142003085" />
-      <entry key="W1" value="926.203225737243" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.000000000180098" />
+      <entry key="S5" value="1.0001265328849722" />
+      <entry key="S10" value="1.0112486837002277" />
+      <entry key="S30" value="1.2241517031348068" />
+      <entry key="S60" value="1.484633431175757" />
+      <entry key="M2" value="1.8994942381610116" />
+      <entry key="M5" value="4.240588462581833" />
+      <entry key="M10" value="9.460719037970708" />
+      <entry key="M15" value="15.173415310235313" />
+      <entry key="M30" value="32.024288710736215" />
+      <entry key="H1" value="60.94502184443334" />
+      <entry key="H2" value="121.4290331407864" />
+      <entry key="H4" value="250.97277170615567" />
+      <entry key="D1" value="728.3062584943649" />
+      <entry key="W1" value="927.9577971075776" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0000000006865102" />
-      <entry key="MS500" value="1.014700407929903" />
-      <entry key="S2" value="1.3482028701672588" />
-      <entry key="S5" value="1.6557419059381044" />
-      <entry key="S10" value="1.8097795550941047" />
-      <entry key="S30" value="1.9406620039771316" />
-      <entry key="S60" value="2.058072999307873" />
-      <entry key="M2" value="2.2914200487618155" />
-      <entry key="M5" value="2.9230955591950707" />
-      <entry key="M10" value="4.686140940894223" />
-      <entry key="M15" value="6.712203718572765" />
-      <entry key="M30" value="12.081523940513264" />
-      <entry key="H1" value="20.22184338888743" />
-      <entry key="H2" value="36.8890908048432" />
-      <entry key="H4" value="73.80934795013727" />
-      <entry key="D1" value="208.95132764495142" />
-      <entry key="W1" value="264.82141626601094" />
+      <entry key="MS100" value="1.0106331807580572E-205" />
+      <entry key="MS500" value="1.0021176482701972E-41" />
+      <entry key="S2" value="5.626387993484818E-11" />
+      <entry key="S5" value="7.94496285625153E-5" />
+      <entry key="S10" value="0.008913651048280331" />
+      <entry key="S30" value="0.2166358309104116" />
+      <entry key="S60" value="0.5977888511720069" />
+      <entry key="M2" value="1.2776237882352948" />
+      <entry key="M5" value="2.5678948458416846" />
+      <entry key="M10" value="4.512188630315764" />
+      <entry key="M15" value="6.566415616729091" />
+      <entry key="M30" value="12.026632354535598" />
+      <entry key="H1" value="20.328486574437893" />
+      <entry key="H2" value="37.07066346458149" />
+      <entry key="H4" value="73.98932047757499" />
+      <entry key="D1" value="209.56362576086573" />
+      <entry key="W1" value="265.75118611547435" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.4022196716272385E-4" />
-      <entry key="MS500" value="0.1695755409310231" />
-      <entry key="S2" value="0.6422161768450811" />
-      <entry key="S5" value="0.8853473608139051" />
-      <entry key="S10" value="1.1340543931107527" />
-      <entry key="S30" value="1.590637351862779" />
-      <entry key="S60" value="1.9714189419208483" />
-      <entry key="M2" value="2.91733283391065" />
-      <entry key="M5" value="6.877165988319149" />
-      <entry key="M10" value="14.449486544736772" />
-      <entry key="M15" value="22.445249340422773" />
-      <entry key="M30" value="44.874023546192106" />
-      <entry key="H1" value="81.81914285757746" />
-      <entry key="H2" value="158.97560944926337" />
-      <entry key="H4" value="325.5373155532673" />
-      <entry key="D1" value="936.5906382227159" />
-      <entry key="W1" value="1191.0217882001998" />
+      <entry key="MS100" value="0.8122523963562355" />
+      <entry key="MS500" value="0.9592641193252643" />
+      <entry key="S2" value="0.9896566565439493" />
+      <entry key="S5" value="0.9960126888438375" />
+      <entry key="S10" value="1.015883823493793" />
+      <entry key="S30" value="1.422172009166312" />
+      <entry key="S60" value="2.0472826345460775" />
+      <entry key="M2" value="3.117226536159344" />
+      <entry key="M5" value="6.740210558728639" />
+      <entry key="M10" value="13.911672113930067" />
+      <entry key="M15" value="21.682492829540173" />
+      <entry key="M30" value="44.00025709192141" />
+      <entry key="H1" value="81.2312118223413" />
+      <entry key="H2" value="158.46364609592018" />
+      <entry key="H4" value="324.928461599855" />
+      <entry key="D1" value="937.8541831245665" />
+      <entry key="W1" value="1193.706126373587" />
     </decayedShown>
   </component>
   <component name="ProjectApplicationVersion">
@@ -295,7 +293,8 @@
     <MESSAGE value="DEVELOPMENT_2026_11_18_1012, &lt;COMPILE_SUCCESS&gt; &lt;RUNTIME_TEST&gt;.&#10;BUILT: DEVELOPMENT_2026_11_18_1012.&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.1.&#10;     - zinc_launch_que v1.2.1.&#10;     - UNDER DEVELOPMENT zinc_stemisphore v1.2.1.&#10;PHASE: Design, Implementation, **Testing**, *Review*.&#10;&#10;IMPLEMENTED:&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.1.&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;     - zinc_launch_que v1.2.1.&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;     - UNDER DEVELOPMENT zinc_stemisphore v1.2.1.&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;TODO:&#10; - UNDER DEVELOPMENT zinc_stemisphore v1.2.1.&#10;   - generatereInitialiseHandle();&#10; - UNDER DEVELOPMENT zinc_epicentre v1.2.1.&#10;&#10;---&#10;---" />
     <MESSAGE value="DEVELOPMENT_2026_11_18_1107, &lt;COMPILE_SUCCESS&gt; &lt;RUNTIME_TEST&gt;.&#10;BUILT: DEVELOPMENT_2026_11_18_1107.&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.1.&#10;     - zinc_launch_que v1.2.1.&#10;     - UNDER DEVELOPMENT zinc_stemisphore v1.2.1.&#10;PHASE: Design, Implementation, **Testing**, *Review*.&#10;&#10;IMPLEMENTED:&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.1.&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;     - zinc_launch_que v1.2.1.&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;     - UNDER DEVELOPMENT zinc_stemisphore v1.2.1.&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;TODO:&#10; - UNDER DEVELOPMENT zinc_stemisphore v1.2.1.&#10;   - generatereInitialiseHandle();&#10; - UNDER DEVELOPMENT zinc_epicentre v1.2.1.&#10;&#10;---&#10;---" />
     <MESSAGE value="DEVELOPMENT_2026_11_18_1220, &lt;COMPILE_SUCCESS&gt; &lt;RUNTIME_TEST&gt;.&#10;BUILT: DEVELOPMENT_2026_11_18_1220.&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.1.&#10;     - zinc_launch_que v1.2.1.&#10;     ** UNDER DEVELOPMENT **&#10;       - zinc_stemisphore vx.x.x.&#10;PHASE: Design, Implementation, **Testing**, *Review*.&#10;&#10;IMPLEMENTED:&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.1.&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;     - zinc_launch_que v1.2.1.&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;     ** UNDER DEVELOPMENT **&#10;       - zinc_stemisphore vx.x.x.&#10;         - gernerateProgram();&#10;         - generateHandle();&#10;       - zinc_epicentre vx.x.x.&#10;TODO:&#10; - zinc_stemisphore v1.2.2.&#10;   - generatereInitialiseHandle();&#10; - zinc_epicentre v1.2.2.&#10;&#10;---&#10;---" />
-    <option name="LAST_COMMIT_MESSAGE" value="DEVELOPMENT_2026_11_18_1220, &lt;COMPILE_SUCCESS&gt; &lt;RUNTIME_TEST&gt;.&#10;BUILT: DEVELOPMENT_2026_11_18_1220.&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.1.&#10;     - zinc_launch_que v1.2.1.&#10;     ** UNDER DEVELOPMENT **&#10;       - zinc_stemisphore vx.x.x.&#10;PHASE: Design, Implementation, **Testing**, *Review*.&#10;&#10;IMPLEMENTED:&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.1.&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;     - zinc_launch_que v1.2.1.&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;     ** UNDER DEVELOPMENT **&#10;       - zinc_stemisphore vx.x.x.&#10;         - gernerateProgram();&#10;         - generateHandle();&#10;       - zinc_epicentre vx.x.x.&#10;TODO:&#10; - zinc_stemisphore v1.2.2.&#10;   - generatereInitialiseHandle();&#10; - zinc_epicentre v1.2.2.&#10;&#10;---&#10;---" />
+    <MESSAGE value="DEVELOPMENT_2026_11_18_1230, &lt;COMPILE_SUCCESS&gt; &lt;RUNTIME_TEST&gt;.&#10;BUILT: DEVELOPMENT_2026_11_18_1230.&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.1.&#10;     - zinc_launch_que v1.2.1.&#10;     ** UNDER DEVELOPMENT **&#10;       - zinc_stemisphore vx.x.x.&#10;PHASE: Design, Implementation, **Testing**, *Review*.&#10;&#10;IMPLEMENTED:&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.1.&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;     - zinc_launch_que v1.2.1.&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;     ** UNDER DEVELOPMENT **&#10;       - zinc_stemisphore vx.x.x.&#10;         - gernerateProgram();&#10;         - generateHandle();&#10;       - zinc_epicentre vx.x.x.&#10;TODO:&#10; - zinc_stemisphore v1.2.2.&#10;   - generatereInitialiseHandle();&#10; - zinc_epicentre v1.2.2.&#10;&#10;---&#10;---" />
+    <option name="LAST_COMMIT_MESSAGE" value="DEVELOPMENT_2026_11_18_1230, &lt;COMPILE_SUCCESS&gt; &lt;RUNTIME_TEST&gt;.&#10;BUILT: DEVELOPMENT_2026_11_18_1230.&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.1.&#10;     - zinc_launch_que v1.2.1.&#10;     ** UNDER DEVELOPMENT **&#10;       - zinc_stemisphore vx.x.x.&#10;PHASE: Design, Implementation, **Testing**, *Review*.&#10;&#10;IMPLEMENTED:&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.1.&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;     - zinc_launch_que v1.2.1.&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;     ** UNDER DEVELOPMENT **&#10;       - zinc_stemisphore vx.x.x.&#10;         - gernerateProgram();&#10;         - generateHandle();&#10;       - zinc_epicentre vx.x.x.&#10;TODO:&#10; - zinc_stemisphore v1.2.2.&#10;   - generatereInitialiseHandle();&#10; - zinc_epicentre v1.2.2.&#10;&#10;---&#10;---" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
