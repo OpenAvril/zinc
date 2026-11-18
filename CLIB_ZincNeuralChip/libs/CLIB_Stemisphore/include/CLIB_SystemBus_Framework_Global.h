@@ -17,6 +17,7 @@ namespace zinc {
         static class Object* stat_APP_CONVERT_CLIB_SystemBus_Framework_Global_MsbByteArray_To_VUALUEofOBJ(std::byte* sysThreadId, unsigned char* byteArray_DATA);
 
         static bool stat_CONVERT_CLIB_SystemBusses_Framework_Global_MsbByteArray_To_VUALUEofMsbBool(std::byte* sysThreadId, unsigned char* bytes_Array);
+        static uint8_t* stat_CONVERT_CLIB_SystemBusses_Framework_Global_MsbByteArray_To_VUALUEofMsbInt8(std::byte* sysThreadId, unsigned char* bytes_Array);
         static uint16_t* stat_CONVERT_CLIB_SystemBusses_Framework_Global_MsbByteArray_To_VUALUEofMsbInt16(std::byte* sysThreadId, unsigned char* bytes_Array);
         static uint32_t* stat_CONVERT_CLIB_SystemBusses_Framework_Global_MsbByteArray_To_VUALUEofMsbInt32(std::byte* sysThreadId, unsigned char* bytes_Array);
         static uint64_t* stat_CONVERT_CLIB_SystemBusses_Framework_Global_MsbByteArray_To_VUALUEofMsbInt64(std::byte* sysThreadId, unsigned char* bytes_Array);
@@ -25,6 +26,7 @@ namespace zinc {
         static unsigned char* stat_APP_CONVERT_CLIB_SystemBus_Framework_Global_VUALUEofOBJ_To_MsbByteArray(std::byte* sysThreadId, class Object* DATA);
 
         static unsigned char* stat_CONVERT_CLIB_SystemBusses_Framework_Global_VUALUEofMsbBool_to_MsbByteArray(std::byte* sysThreadId, bool newValue_Bool);
+        static unsigned char* stat_CONVERT_CLIB_SystemBusses_Framework_Global_VUALUEofMsbInt8_To_MsbByteArray(std::byte* sysThreadId, uint8_t* newValue_Int);
         static unsigned char* stat_CONVERT_CLIB_SystemBusses_Framework_Global_VUALUEofMsbInt16_To_MsbByteArray(std::byte* sysThreadId, uint16_t* newValue_Int);
         static unsigned char* stat_CONVERT_CLIB_SystemBusses_Framework_Global_VUALUEofMsbInt32_To_MsbByteArray(std::byte* sysThreadId, uint32_t* newValue_Int);
         static unsigned char* stat_CONVERT_CLIB_SystemBusses_Framework_Global_VUALUEofMsbInt64_To_MsbByteArray(std::byte* sysThreadId, uint64_t* newValue_Int);

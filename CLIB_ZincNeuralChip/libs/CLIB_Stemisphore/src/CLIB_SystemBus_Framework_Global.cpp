@@ -55,6 +55,12 @@
         std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << "  :: <= bool : stat_CONVERT_CLIB_SystemBusses_Framework_Global_MsbByteArray_To_Msbbool(sysThreadId)." << std::endl;
         return (bytes_Array[7] & 1) != 0;
     }
+    uint8_t* zinc::CLIB_SystemBus_Framework_Global::stat_CONVERT_CLIB_SystemBusses_Framework_Global_MsbByteArray_To_VUALUEofMsbInt8(std::byte* sysThreadId, unsigned char* bytes_Array) {
+        auto temp = new uint8_t(UINT8_MAX);
+        std::memcpy(&temp, bytes_Array, sizeof(uint8_t));
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << "  :: <= uint16_t* : stat_CONVERT_CLIB_SystemBusses_Framework_Global_MsbByteArray_To_VUALUEofMsbInt16(sysThreadId)." << std::endl;
+        return temp;
+    }
     uint16_t* zinc::CLIB_SystemBus_Framework_Global::stat_CONVERT_CLIB_SystemBusses_Framework_Global_MsbByteArray_To_VUALUEofMsbInt16(std::byte* sysThreadId, unsigned char* bytes_Array) {
         auto temp = new uint16_t(UINT16_MAX);
         std::memcpy(&temp, bytes_Array, sizeof(uint16_t));
@@ -90,6 +96,12 @@
             buffer[bitIndex] = static_cast<unsigned char>(newValue_Bool);
         }
         std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << "  :: <= unsigned char* : stat_CONVERT_CLIB_SystemBusses_Framework_Global_Msbbool_to_MsbByteArray(sysThreadId)." << std::endl;
+        return buffer;
+    }
+    unsigned char* zinc::CLIB_SystemBus_Framework_Global::stat_CONVERT_CLIB_SystemBusses_Framework_Global_VUALUEofMsbInt8_To_MsbByteArray(std::byte* sysThreadId, uint8_t* newValue_Int) {
+        auto buffer = new unsigned char(static_cast<unsigned char>(UINT8_MAX));
+        std::memcpy(buffer, &newValue_Int, sizeof(uint8_t));
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << "  :: <= unsigned char* : stat_CONVERT_CLIB_SystemBusses_Framework_Global_VUALUEofMsbInt16_To_MsbByteArray(sysThreadId)." << std::endl;
         return buffer;
     }
     unsigned char* zinc::CLIB_SystemBus_Framework_Global::stat_CONVERT_CLIB_SystemBusses_Framework_Global_VUALUEofMsbInt16_To_MsbByteArray(std::byte* sysThreadId, uint16_t* newValue_Int) {
