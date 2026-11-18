@@ -9,7 +9,7 @@
 namespace zinc {
 	struct CLIB_LeftHemisphore_STRUCT_User_Input {
 	public:
-		std::list<class Object*>* dyn_STRUCT_get_CLIB_LeftHemisphore_STRUCT_UserInput_Item_On_List_Of_ptr_PraiseInputSubsets(std::byte* sysThreadId, const unsigned long long* praiseId);
+		std::list<class Object*>* dyn_STRUCT_get_CLIB_LeftHemisphore_STRUCT_UserInput_Item_On_List_Of_ptr_PraiseInputSubsets(std::byte* sysThreadId, const uint64_t* praiseId);
 		void dyn_REG_boot1_DEFINE_CLIB_LeftHemisphore_STRUCT_UserInput(std::byte* sysThreadId);
 		void dyn_REG_boot2_SUBSTANTIATE_CLIB_LeftHemisphore_STRUCT_UserInput(std::byte* sysThreadId);
 		void dyn_REG_boot3_INITIALISE_CLIB_LeftHemisphore_STRUCT_UserInput(std::byte* sysThreadId);

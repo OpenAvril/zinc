@@ -21,11 +21,11 @@ namespace zinc {
         static int* stat_CONVERT_CLIB_MutexQueForThreadsLog_Framework_Global_MsbByteArray_To_VUALUEofMsbInt(std::byte* sysThreadId, unsigned char* bytes_Array);
         static double* stat_CONVERT_CLIB_MutexQueForThreadsLog_Framework_Global_MsbByteArray_To_VUALUEofMsbDouble(std::byte* sysThreadId, unsigned char* bytes_Array);
         static std::byte* stat_CONVERT_CLIB_MutexQueForThreadsLog_Framework_Global_MsbByteArray_To_VUALUEofMsbStdByte(std::byte* sysThreadId, unsigned char* bytes_Array);
-        static unsigned long long* stat_CONVERT_CLIB_MutexQueForThreadsLog_Framework_Global_MsbByteArray_To_VUALUEofMsbunsignedLongLong(std::byte* sysThreadId, unsigned char* bytes_Array);
+        static uint64_t* stat_CONVERT_CLIB_MutexQueForThreadsLog_Framework_Global_MsbByteArray_To_VUALUEofMsbunsignedLongLong(std::byte* sysThreadId, unsigned char* bytes_Array);
         static unsigned char* stat_CONVERT_CLIB_MutexQueForThreadsLog_Framework_Global_VUALUEofMsbBool_to_MsbByteArray(std::byte* sysThreadId, bool newValue_Bool);
         static unsigned char* stat_CONVERT_CLIB_MutexQueForThreadsLog_Framework_Global_VUALUEofMsbInt_To_MsbByteArray(std::byte* sysThreadId, int* newValue_Int);
         static unsigned char* stat_CONVERT_CLIB_MutexQueForThreadsLog_Framework_Global_VUALUEofMsbDouble_To_MsbByteArray(std::byte* sysThreadId, double* newValue_Double);
-        static unsigned char* stat_CONVERT_CLIB_MutexQueForThreadsLog_Framework_Global_VUALUEofMsbUnsignedLongLong_to_ByteArray(std::byte* sysThreadId, unsigned long long* newValue_ULongLong);
+        static unsigned char* stat_CONVERT_CLIB_MutexQueForThreadsLog_Framework_Global_VUALUEofMsbUnsignedLongLong_to_ByteArray(std::byte* sysThreadId, uint64_t* newValue_ULongLong);
         static unsigned char* stat_CONVERT_CLIB_MutexQueForThreadsLog_Framework_Global_VUALUEofMsbStdByte_To_MsbByteArray(std::byte* sysThreadId, std::byte* newValue_uint8_t);
     private:
         static std::array<bool,2>* stat_REG_CONST_CLIB_MutexQueForThreadsLog_2bitFLAG_IDLE;

@@ -6,7 +6,7 @@
 namespace zinc {
     struct CLIB_LeftHemisphore_STRUCT_Concurrent {
     public:
-        void app_do_Concurrent_Algorithm_For_PraiseEventId(std::byte* sysThreadId, class CLIB_LeftHemisphore_Framework* obj, uint8_t* playerId, unsigned long long* praiseEventId, class Object* ptr_Input_Subset, class Object* ptr_Output_Subset);
+        void app_do_Concurrent_Algorithm_For_PraiseEventId(std::byte* sysThreadId, class CLIB_LeftHemisphore_Framework* obj, uint8_t* playerId, uint64_t* praiseEventId, class Object* ptr_Input_Subset, class Object* ptr_Output_Subset);
         void dyn_REG_boot1_DEFINE_Concurrent(std::byte* sysThreadId);
         void dyn_REG_boot2_SUBSTANTIATE_Concurrent(std::byte* sysThreadId);
         void dyn_REG_boot3_INITIALISE_Concurrent(std::byte* sysThreadId, CLIB_LeftHemisphore_Framework* obj);

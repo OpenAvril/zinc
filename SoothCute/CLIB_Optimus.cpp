@@ -40,7 +40,7 @@
 		auto boolValue = new bool();
 		boolValue = new bool(true);
 		auto bytes_UnsignedLongLong = new unsigned char();
-		bytes_UnsignedLongLong = valueofMsbUnsignedLongLong_to_ByteArray(sysThreadId, new unsigned long long(0));
+		bytes_UnsignedLongLong = valueofMsbUnsignedLongLong_to_ByteArray(sysThreadId, new uint64_t(0));
 		auto bytes_Double = new unsigned char();
 		bytes_Double = valueofMsbDouble_To_MsbByteArray(sysThreadId, new double(0));
 		//auto ticket = new class Ticket(0,0,0,0,0);
@@ -126,10 +126,10 @@
 		std::cout << "thread " << std::to_integer<int>(*sysThreadId) << "  :: <= std::byte* : stat_CONVERT_CLIB_SystemBusses_Framework_Global_MsbByteArray_To_MsbStdByte(sysThreadId)." << std::endl;
 		return temp;
 	}
-	unsigned long long* zinc::SoothCute::msbByteArray_To_valueOfmsbunsignedLongLong(std::byte* sysThreadId, unsigned char* bytes_Array) {
-		unsigned long long* temp;
-		temp = new unsigned long long();
-		std::memcpy(&temp, bytes_Array, sizeof(unsigned long long));
+	uint64_t* zinc::SoothCute::msbByteArray_To_valueOfmsbunsignedLongLong(std::byte* sysThreadId, unsigned char* bytes_Array) {
+		uint64_t* temp;
+		temp = new uint64_t();
+		std::memcpy(&temp, bytes_Array, sizeof(uint64_t));
 		std::cout << "thread " << std::to_integer<int>(*sysThreadId) << "  :: <= std::byte* : stat_CONVERT_CLIB_SystemBusses_Framework_Global_MsbByteArray_To_MsbStdByte(sysThreadId)." << std::endl;
 		return temp;
 	}
@@ -159,10 +159,10 @@
 		std::cout << "thread " << std::to_integer<int>(*sysThreadId) << "  :: <= unsigned char* : stat_CONVERT_CLIB_SystemBusses_Framework_Global_unsignedLongLong_to_ByteArray(sysThreadId)." << std::endl;
 		return buffer;
 	}
-	unsigned char* zinc::SoothCute::valueofMsbUnsignedLongLong_to_ByteArray(std::byte* sysThreadId, unsigned long long* newValue_ULongLong) {
+	unsigned char* zinc::SoothCute::valueofMsbUnsignedLongLong_to_ByteArray(std::byte* sysThreadId, uint64_t* newValue_ULongLong) {
 		unsigned char* buffer = nullptr;
 		buffer = new unsigned char(static_cast<unsigned char>(ULONG_LONG_MAX));
-		std::memcpy(buffer, &newValue_ULongLong, sizeof(unsigned long long));
+		std::memcpy(buffer, &newValue_ULongLong, sizeof(uint64_t));
 		std::cout << "thread " << std::to_integer<int>(*sysThreadId) << "  :: <= unsigned char* : stat_CONVERT_CLIB_SystemBusses_Framework_Global_unsignedLongLong_to_ByteArray(sysThreadId)." << std::endl;
 		return buffer;
 	}

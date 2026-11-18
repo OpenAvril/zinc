@@ -15,7 +15,7 @@
         for (auto index_HandleId = new uint8_t(1); *index_HandleId < *CLIB_LaunchQue_Framework_Global::stat_REG_get_CLIB_LaunchQue_Framework_Global_MAX_NUMBER_OF_THREADS(sysThreadId); index_HandleId++) {
             zinc::MutexQue::startByLock(sysThreadId, CLIB_LaunchQue_Framework_Global::stat_CONVERT_CLIB_LaunchQue_Framework_Global_VUALUEofMsbUnsignedLongLong_to_ByteArray(sysThreadId, CLIB_LaunchQue_stat_CLASS_get_ptr_PGM_CLIB_LaunchQue_Framework(sysThreadId, index_HandleId)->dyn_CLASS_get_ptr_CLIB_LaunchQue_Framework_App(sysThreadId)->dyn_CLASS_get_CLIB_LaunchQue_Framework_Execute(sysThreadId)->dyn_REG_get_HandleId_For_PGM_CLIBMutexQue(sysThreadId)), 0);
         }
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "  :: entered LIB :: CLIB : LaunchQue : generateHandle(sysThreadId)" << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << "  :: entered LIB :: CLIB : LaunchQue : generateHandle(sysThreadId)" << std::endl;
         if (!CLIB_LaunchQue_stat_REG_get_ptr_FLAG_Array_isMemberFunctionINSTANTIATED(sysThreadId)->at(0)) {
             CLIB_LaunchQue_stat_REG_get_ptr_List_Of_PGM_CLIB_LaunchQue(sysThreadId)->resize( CLIB_LaunchQue_stat_REG_get_ptr_List_Of_PGM_CLIB_LaunchQue(sysThreadId)->size());
             CLIB_LaunchQue_stat_REG_get_ptr_List_Of_PGM_CLIB_LaunchQue(sysThreadId)->assign(CLIB_LaunchQue_stat_REG_get_ptr_List_Of_PGM_CLIB_LaunchQue(sysThreadId)->size(), *CLIB_LaunchQue_stat_REG_get_ptr_List_Of_PGM_CLIB_LaunchQue(sysThreadId)->begin());
@@ -25,7 +25,7 @@
             CLIB_LaunchQue_stat_REG_get_ptr_FLAG_Array_isMemberFunctionINSTANTIATED(sysThreadId)->at(1) = !CLIB_LaunchQue_stat_REG_get_ptr_FLAG_Array_isMemberFunctionINSTANTIATED(sysThreadId)->at(0);
             CLIB_LaunchQue_stat_app_FUNCT_Calc_IsAllINSTANTIATED(sysThreadId);
         }
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "  :: exiting LIB :: CLIB : LaunchQue : generateHandle(sysThreadId)" << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << "  :: exiting LIB :: CLIB : LaunchQue : generateHandle(sysThreadId)" << std::endl;
         for (auto index_HandleId = new uint8_t(0); *index_HandleId < static_cast<int>(*CLIB_LaunchQue_Framework_Global::stat_REG_get_CLIB_LaunchQue_Framework_Global_MAX_NUMBER_OF_THREADS(sysThreadId)); index_HandleId++) {
             zinc::MutexQue::endByUnlock(sysThreadId, CLIB_LaunchQue_Framework_Global::stat_CONVERT_CLIB_LaunchQue_Framework_Global_VUALUEofMsbUnsignedLongLong_to_ByteArray(sysThreadId, CLIB_LaunchQue_stat_CLASS_get_ptr_PGM_CLIB_LaunchQue_Framework(sysThreadId, index_HandleId)->dyn_CLASS_get_ptr_CLIB_LaunchQue_Framework_App(sysThreadId)->dyn_CLASS_get_CLIB_LaunchQue_Framework_Execute(sysThreadId)->dyn_REG_get_HandleId_For_PGM_CLIBMutexQue(sysThreadId)), 0);
         }
@@ -171,52 +171,52 @@
 // private.
     void zinc::LaunchQue::CLIB_LaunchQue_generateProgram(std::byte* sysThreadId) {
         auto handleId = new uint8_t(0);
-		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " entered app_FUNCT_generate_Program(sysThreadId)" << std::endl;
-		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " started CLIB_LaunchQue_Framework_Global Meta-Data and Settings" << std::endl;
+		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " entered app_FUNCT_generate_Program(sysThreadId)" << std::endl;
+		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " started CLIB_LaunchQue_Framework_Global Meta-Data and Settings" << std::endl;
 		CLIB_LaunchQue_stat_CLASS_get_ptr_PGM_CLIB_LaunchQue_Framework(sysThreadId, handleId)->dyn_CLASS_create_CLIB_LaunchQue_Framework_Global_and_Settings(sysThreadId);
 		CLIB_LaunchQue_stat_CLASS_get_ptr_PGM_CLIB_LaunchQue_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LaunchQue_Framework_Global(sysThreadId)->boot1_REG_DEFINE_CLIB_LaunchQue_Framework_Global(sysThreadId);
 		CLIB_LaunchQue_stat_CLASS_get_ptr_PGM_CLIB_LaunchQue_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LaunchQue_Framework_Global(sysThreadId)->boot2_REG_SUBSTANTIATE_CLIB_LaunchQue_Framework_Global(sysThreadId);
 		CLIB_LaunchQue_stat_CLASS_get_ptr_PGM_CLIB_LaunchQue_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LaunchQue_Framework_Global(sysThreadId)->boot3_REG_INITIALISE_CLIB_LaunchQue_Framework_Global(sysThreadId, CLIB_LaunchQue_stat_CLASS_get_ptr_PGM_CLIB_LaunchQue_Framework(sysThreadId, handleId));
-		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " done CLIB_LaunchQue_Framework_Global Meta-Data and Settings" << std::endl;
+		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " done CLIB_LaunchQue_Framework_Global Meta-Data and Settings" << std::endl;
 
-		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " started IndepENDSent STRUCT(s) - DECLARE DEFINE INITIALISE, Registers - DECLARE SUBSTANTIATE INITIALISE" << std::endl;
-		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " done IndepENDSent STRUCT(s) - DECLARE DEFINE INITIALISE, Registers - DECLARE SUBSTANTIATE INITIALISE" << std::endl;
+		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " started IndepENDSent STRUCT(s) - DECLARE DEFINE INITIALISE, Registers - DECLARE SUBSTANTIATE INITIALISE" << std::endl;
+		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " done IndepENDSent STRUCT(s) - DECLARE DEFINE INITIALISE, Registers - DECLARE SUBSTANTIATE INITIALISE" << std::endl;
 
-		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " started Architecture Application CLASS(s) - DECLARE DEFINE INITIALISE, Registers - DECLARE SUBSTANTIATE INITIALISE" << std::endl;
+		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " started Architecture Application CLASS(s) - DECLARE DEFINE INITIALISE, Registers - DECLARE SUBSTANTIATE INITIALISE" << std::endl;
         CLIB_LaunchQue_stat_CLASS_get_ptr_PGM_CLIB_LaunchQue_Framework(sysThreadId, handleId)->dyn_CLASS_create_Architecture(sysThreadId);
-		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " started Registers - DEFINE" << std::endl;
+		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " started Registers - DEFINE" << std::endl;
 
 		CLIB_LaunchQue_stat_CLASS_get_ptr_PGM_CLIB_LaunchQue_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LaunchQue_Framework_App(sysThreadId)->dyn_CLASS_get_CLIB_LaunchQue_Framework_App_Control(sysThreadId)->dyn_REG_boot1_DEFINE_CLIB_LaunchQue_Framework_App_Control(sysThreadId);
-		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " done Registers - DEFINE" << std::endl;
-		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " started Registers - SUBSTANTIATE" << std::endl;
+		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " done Registers - DEFINE" << std::endl;
+		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " started Registers - SUBSTANTIATE" << std::endl;
 		CLIB_LaunchQue_stat_CLASS_get_ptr_PGM_CLIB_LaunchQue_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LaunchQue_Framework_App(sysThreadId)->dyn_CLASS_get_CLIB_LaunchQue_Framework_App_Control(sysThreadId)->dyn_REG_boot2_SUBSTANTIATE_CLIB_LaunchQue_Framework_App_Control(sysThreadId, CLIB_LaunchQue_stat_CLASS_get_ptr_PGM_CLIB_LaunchQue_Framework(sysThreadId, handleId));
-		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " done Registers - SUBSTANTIATE" << std::endl;
-		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " started Registers - INITIALISE" << std::endl;
+		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " done Registers - SUBSTANTIATE" << std::endl;
+		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " started Registers - INITIALISE" << std::endl;
 		CLIB_LaunchQue_stat_CLASS_get_ptr_PGM_CLIB_LaunchQue_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LaunchQue_Framework_App(sysThreadId)->dyn_CLASS_get_CLIB_LaunchQue_Framework_App_Control(sysThreadId)->dyn_REG_boot3_INITIALISE_CLIB_LaunchQue_Framework_App_Control(sysThreadId);
-		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " done Registers - INITIALISE" << std::endl;
-		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " done Architecture Application CLASS(s) - DECLARE DEFINE INITIALISE, Registers - DECLARE SUBSTANTIATE INITIALISE" << std::endl;
+		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " done Registers - INITIALISE" << std::endl;
+		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " done Architecture Application CLASS(s) - DECLARE DEFINE INITIALISE, Registers - DECLARE SUBSTANTIATE INITIALISE" << std::endl;
 
-		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " started Program - INSTANTIATION" << std::endl;
+		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " started Program - INSTANTIATION" << std::endl;
 		CLIB_LaunchQue_stat_REG_boot1_DEFINE_flag_isMemberFunctionINSTANTIATED(sysThreadId);
 		CLIB_LaunchQue_stat_REG_boot2_SUBSTANTIATE_flag_isMemberFunctionINSTANTIATED(sysThreadId);
 		CLIB_LaunchQue_stat_REG_boot3_INITIALISE_flag_isMemberFunctionINSTANTIATED(sysThreadId);
         CLIB_LaunchQue_stat_CLASS_get_ptr_PGM_CLIB_LaunchQue_Framework(sysThreadId, handleId)->dyn_CLASS_get_ptr_CLIB_LaunchQue_Framework_App(sysThreadId)->dyn_CLASS_get_CLIB_LaunchQue_Framework_Execute(sysThreadId)->dyn_PGM_boot4_INSTANTIATE_CLIB_LaunchQue_Framework_Execute(sysThreadId);
-		std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " done Program - INSTANTIATION" << std::endl;
+		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " done Program - INSTANTIATION" << std::endl;
 
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "" << std::endl;
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "        ,     \\      /      ," << std::endl;
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "       / \\    )\\ __ /(     / \\ " << std::endl;
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "      /   \\   (_\\  /_)    /   \\ " << std::endl;
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "____ / ____\\__ \\@  @/ ___/_____\\_____" << std::endl;
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "|              |\\../|               |" << std::endl;
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "|               \\VV/                |" << std::endl;
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "|        MIT Launch Que .dll        |" << std::endl;
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "|___________________________________|" << std::endl;
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "|    / \\ /        \\\\        \\ /\\    |" << std::endl;
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "|  /    V          ))        V   \\  |" << std::endl;
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "|/                //               \\|"  << std::endl;
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "`                 V                 '" << std::endl;
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << "" << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << "" << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << "        ,     \\      /      ," << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << "       / \\    )\\ __ /(     / \\ " << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << "      /   \\   (_\\  /_)    /   \\ " << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << "____ / ____\\__ \\@  @/ ___/_____\\_____" << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << "|              |\\../|               |" << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << "|               \\VV/                |" << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << "|        MIT Launch Que .dll        |" << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << "|___________________________________|" << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << "|    / \\ /        \\\\        \\ /\\    |" << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << "|  /    V          ))        V   \\  |" << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << "|/                //               \\|"  << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << "`                 V                 '" << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << "" << std::endl;
     }
     void zinc::LaunchQue::CLIB_LaunchQue_stat_app_FUNCT_Calc_IsAllINSTANTIATED(std::byte* sysThreadId) {
         CLIB_LaunchQue_stat_REG_get_ptr_FLAG_Array_isMemberFunctionINSTANTIATED(sysThreadId)->at(0) = false;

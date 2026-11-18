@@ -18,10 +18,11 @@
 #include "../../../include/independent/praise_sets/CLIB_LeftHemisphore_STRUCT_Output_praise2.h"
 #include "../../../include/independent/praise_sets/CLIB_LeftHemisphore_STRUCT_Output_praise3.h"
 #include <iostream>
+#include <cstdint>
     std::byte* zinc::CLIB_LeftHemisphore_STRUCT_Concurrent::stat_REG_CLIB_LeftHemisphore_Concurrent_ThreadId;
 // public.
-    void zinc::CLIB_LeftHemisphore_STRUCT_Concurrent::app_do_Concurrent_Algorithm_For_PraiseEventId(std::byte* sysThreadId, CLIB_LeftHemisphore_Framework* obj, uint8_t* playerId, unsigned long long* praiseEventId, Object* ptr_Input_Subset, Object* ptr_Output_Subset) {
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Concurrent : app_do_Concurrent_Algorithm_For_PraiseEventId(sysThreadId)." << std::endl;
+    void zinc::CLIB_LeftHemisphore_STRUCT_Concurrent::app_do_Concurrent_Algorithm_For_PraiseEventId(std::byte* sysThreadId, CLIB_LeftHemisphore_Framework* obj, uint8_t* playerId, uint64_t* praiseEventId, Object* ptr_Input_Subset, Object* ptr_Output_Subset) {
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Concurrent : app_do_Concurrent_Algorithm_For_PraiseEventId(sysThreadId)." << std::endl;
         switch (*praiseEventId) {
             case 0: {
                 auto temp = reinterpret_cast<CLIB_LeftHemisphore_STRUCT_Algorithm_praise0*>(*obj->dyn_STRUCT_get_CLIB_LeftHemisphore_Framework_User_Algorithm(sysThreadId)->dyn_STRUCT_get_CLIB_LeftHemisphore_STRUCT_UserAlgorithm_Item_On_List_Of_ptr_PraiseAlgorithmSubsets(sysThreadId, praiseEventId)->begin());
@@ -47,34 +48,34 @@
                 break;
             }
         }
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Concurrent : app_do_Concurrent_Algorithm_For_PraiseEventId(sysThreadId)." << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Concurrent : app_do_Concurrent_Algorithm_For_PraiseEventId(sysThreadId)." << std::endl;
     }
     void zinc::CLIB_LeftHemisphore_STRUCT_Concurrent::dyn_REG_boot1_DEFINE_Concurrent(std::byte* sysThreadId) {
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Concurrent : dyn_REG_boot1_DEFINE_Concurrent(sysThreadId)." << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Concurrent : dyn_REG_boot1_DEFINE_Concurrent(sysThreadId)." << std::endl;
         stat_REG_CLIB_LeftHemisphore_Concurrent_ThreadId = nullptr;
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Concurrent : dyn_REG_boot1_DEFINE_Concurrent(sysThreadId)." << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Concurrent : dyn_REG_boot1_DEFINE_Concurrent(sysThreadId)." << std::endl;
     }
     void zinc::CLIB_LeftHemisphore_STRUCT_Concurrent::dyn_REG_boot2_SUBSTANTIATE_Concurrent(std::byte* sysThreadId) {
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Concurrent : dyn_REG_boot2_SUBSTANTIATE_Concurrent(sysThreadId)." << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Concurrent : dyn_REG_boot2_SUBSTANTIATE_Concurrent(sysThreadId)." << std::endl;
         stat_REG_CLIB_LeftHemisphore_Concurrent_ThreadId = new std::byte();
         *stat_REG_CLIB_LeftHemisphore_Concurrent_ThreadId = static_cast<std::byte>(255);
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Concurrent : dyn_REG_boot2_SUBSTANTIATE_Concurrent(sysThreadId)." << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Concurrent : dyn_REG_boot2_SUBSTANTIATE_Concurrent(sysThreadId)." << std::endl;
     }
     void zinc::CLIB_LeftHemisphore_STRUCT_Concurrent::dyn_REG_boot3_INITIALISE_Concurrent(std::byte* sysThreadId, zinc::CLIB_LeftHemisphore_Framework* obj) {
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Concurrent : dyn_REG_boot3_INITIALISE_Concurrent(sysThreadId)." << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Concurrent : dyn_REG_boot3_INITIALISE_Concurrent(sysThreadId)." << std::endl;
         *stat_REG_CLIB_LeftHemisphore_Concurrent_ThreadId = static_cast<std::byte>(255);
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Concurrent : dyn_REG_boot3_INITIALISE_Concurrent(sysThreadId)." << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Concurrent : dyn_REG_boot3_INITIALISE_Concurrent(sysThreadId)." << std::endl;
     }
     std::byte* zinc::CLIB_LeftHemisphore_STRUCT_Concurrent::dyn_REG_get_CLIB_LeftHemisphore_Concurrent_ThreadId(std::byte* sysThreadId) {
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: <= std::byte* : dyn_REG_get_CLIB_LeftHemisphore_Concurrent_ThreadId(sysThreadId)." << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: <= std::byte* : dyn_REG_get_CLIB_LeftHemisphore_Concurrent_ThreadId(sysThreadId)." << std::endl;
         return stat_REG_get_CLIB_LeftHemisphore_Concurrent_ThreadId(sysThreadId);
     }
     void zinc::CLIB_LeftHemisphore_STRUCT_Concurrent::dyn_REG_set_CLIB_LeftHemisphore_Concurrent_ThreadId(std::byte* sysThreadId, std::byte* praiseId) {
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: => std::byte* : dyn_REG_set_CLIB_LeftHemisphore_Concurrent_ThreadId(sysThreadId)." << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: => std::byte* : dyn_REG_set_CLIB_LeftHemisphore_Concurrent_ThreadId(sysThreadId)." << std::endl;
         stat_REG_set_CLIB_LeftHemisphore_Concurrent_ThreadId(sysThreadId, *praiseId);
     }
     void zinc::CLIB_LeftHemisphore_STRUCT_Concurrent::stat_app_thread_Concurrency(std::byte* sysThreadId, CLIB_LeftHemisphore_Framework* obj, uint8_t* concurrentThreadId) {
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Concurrent : stat_app_thread_Concurrency(sysThreadId)." << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Concurrent : stat_app_thread_Concurrency(sysThreadId)." << std::endl;
         bool* checkPass = new bool(false);
         bool* doneOnce = new bool(false);
         while (!checkPass) {
@@ -140,35 +141,35 @@
                 *checkPass = obj->dyn_CLASS_get_ptr_CLIB_LeftHemisphore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Execute(sysThreadId)->dyn_CLASS_get_ptr_CLIB_LeftHemisphore_Framework_App_Execute_Control(sysThreadId)->dyn_REG_get_FLAG_CLIB_LeftHemisphore_Framework_App_Execute_Control_isSystemInitialised(sysThreadId);
                 zinc::MutexQue::endByUnlock(sysThreadId, CLIB_LeftHemisphore_Framework_Global::stat_CONVERT_CLIB_LeftHemisphore_Framework_Global_VUALUEofMsbUnsignedLongLong_to_ByteArray(sysThreadId, obj->dyn_CLASS_get_ptr_CLIB_LeftHemisphore_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_Execute(sysThreadId)->dyn_PGM_get_HandleId_For_CLIB_MutexQue_Epicentre_MetaData(sysThreadId)), reinterpret_cast<std::byte*>(concurrentThreadId));
             }
-            std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Concurrent : stat_app_thread_Concurrency(sysThreadId)." << std::endl;
+            std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Concurrent : stat_app_thread_Concurrency(sysThreadId)." << std::endl;
         }
     }
     void zinc::CLIB_LeftHemisphore_STRUCT_Concurrent::stat_STRUCT_boot0_DECLARE_Concurrent(std::byte* sysThreadId) {
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Concurrent : stat_STRUCT_boot0_DECLARE_Concurrent(sysThreadId)." << std::endl;
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Concurrent : stat_STRUCT_boot0_DECLARE_Concurrent(sysThreadId)." << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Concurrent : stat_STRUCT_boot0_DECLARE_Concurrent(sysThreadId)." << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Concurrent : stat_STRUCT_boot0_DECLARE_Concurrent(sysThreadId)." << std::endl;
     }
     void zinc::CLIB_LeftHemisphore_STRUCT_Concurrent::stat_STRUCT_boot1_DEFINE_Concurrent(std::byte* sysThreadId) {
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Concurrent : stat_STRUCT_boot1_DEFINE_Concurrent(sysThreadId)." << std::endl;
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Concurrent : stat_STRUCT_boot1_DEFINE_Concurrent(sysThreadId)." << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Concurrent : stat_STRUCT_boot1_DEFINE_Concurrent(sysThreadId)." << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Concurrent : stat_STRUCT_boot1_DEFINE_Concurrent(sysThreadId)." << std::endl;
     }
     void zinc::CLIB_LeftHemisphore_STRUCT_Concurrent::stat_STRUCT_boot3_INITIALISE_Concurrent(std::byte* sysThreadId) {
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Concurrent : stat_STRUCT_boot3_INITIALISE_Concurrent(sysThreadId). " << std::endl;
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Concurrent : stat_STRUCT_boot3_INITIALISE_Concurrent(sysThreadId). " << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Concurrent : stat_STRUCT_boot3_INITIALISE_Concurrent(sysThreadId). " << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Concurrent : stat_STRUCT_boot3_INITIALISE_Concurrent(sysThreadId). " << std::endl;
     }
     void zinc::CLIB_LeftHemisphore_STRUCT_Concurrent::stat_STRUCT_boot4_INSTANTIATE_Concurrent(std::byte* sysThreadId) {
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Concurrent : stat_STRUCT_boot4_INSTANTIATE_Concurrent(sysThreadId). " << std::endl;
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Concurrent : stat_STRUCT_boot4_INSTANTIATE_Concurrent(sysThreadId). " << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Concurrent : stat_STRUCT_boot4_INSTANTIATE_Concurrent(sysThreadId). " << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Concurrent : stat_STRUCT_boot4_INSTANTIATE_Concurrent(sysThreadId). " << std::endl;
     }
     void zinc::CLIB_LeftHemisphore_STRUCT_Concurrent::stat_REG_boot0_DECLARE_Concurrent(std::byte* sysThreadId) {
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Concurrent : stat_REG_boot0_DECLARE_Concurrent(sysThreadId). " << std::endl;
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Concurrent : stat_REG_boot0_DECLARE_Concurrent(sysThreadId). " << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Concurrent : stat_REG_boot0_DECLARE_Concurrent(sysThreadId). " << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Concurrent : stat_REG_boot0_DECLARE_Concurrent(sysThreadId). " << std::endl;
     }
 // private.
     std::byte* zinc::CLIB_LeftHemisphore_STRUCT_Concurrent::stat_REG_get_CLIB_LeftHemisphore_Concurrent_ThreadId(std::byte* sysThreadId) {
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: <= std::byte* : stat_REG_get_CLIB_LeftHemisphore_Concurrent_ThreadId(sysThreadId). " << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: <= std::byte* : stat_REG_get_CLIB_LeftHemisphore_Concurrent_ThreadId(sysThreadId). " << std::endl;
         return stat_REG_CLIB_LeftHemisphore_Concurrent_ThreadId;
     }
     void zinc::CLIB_LeftHemisphore_STRUCT_Concurrent::stat_REG_set_CLIB_LeftHemisphore_Concurrent_ThreadId(std::byte* sysThreadId, std::byte newValue_praiseId) {
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: => std::byte : stat_REG_set_CLIB_LeftHemisphore_Concurrent_ThreadId(sysThreadId). " << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: => std::byte : stat_REG_set_CLIB_LeftHemisphore_Concurrent_ThreadId(sysThreadId). " << std::endl;
         *stat_REG_CLIB_LeftHemisphore_Concurrent_ThreadId = newValue_praiseId;
     }

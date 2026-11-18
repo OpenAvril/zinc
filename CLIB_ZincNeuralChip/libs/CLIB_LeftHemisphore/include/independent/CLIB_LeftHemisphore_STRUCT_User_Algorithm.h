@@ -9,7 +9,7 @@
 namespace zinc {
 	struct CLIB_LeftHemisphore_STRUCT_User_Algorithm {
 	public:
-		std::list<struct zinc::Object*>* dyn_STRUCT_get_CLIB_LeftHemisphore_STRUCT_UserAlgorithm_Item_On_List_Of_ptr_PraiseAlgorithmSubsets(std::byte* sysThreadId, unsigned long long* praiseId);
+		std::list<struct zinc::Object*>* dyn_STRUCT_get_CLIB_LeftHemisphore_STRUCT_UserAlgorithm_Item_On_List_Of_ptr_PraiseAlgorithmSubsets(std::byte* sysThreadId, uint64_t* praiseId);
 		void dyn_REG_boot1_DEFINE_CLIB_LeftHemisphore_STRUCT_UserAlgorithm(std::byte* sysThreadId);
 		void dyn_REG_boot2_SUBSTANTIATE_CLIB_LeftHemisphore_STRUCT_UserAlgorithm(std::byte* sysThreadId);
 		void dyn_REG_boot3_INITIALISE_CLIB_LeftHemisphore_STRUCT_UserAlgorithm(std::byte* sysThreadId);

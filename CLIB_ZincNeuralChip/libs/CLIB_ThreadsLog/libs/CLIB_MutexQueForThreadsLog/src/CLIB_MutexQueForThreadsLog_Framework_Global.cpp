@@ -99,10 +99,10 @@
         //std::cout << "thread " << std::to_integer<int>(*sysThreadId) << "  :: <= std::byte* : stat_CONVERT_CLIB_MutexQueForThreadsLog_Framework_Global_MsbByteArray_To_MsbStdByte(sysThreadId)." << std::endl;
         return temp;
     }
-    unsigned long long* zinc::CLIB_MutexQueForThreadsLog_Framework_Global::stat_CONVERT_CLIB_MutexQueForThreadsLog_Framework_Global_MsbByteArray_To_VUALUEofMsbunsignedLongLong(std::byte* sysThreadId, unsigned char* bytes_Array) {
-        unsigned long long* temp;
-        temp = new unsigned long long();
-        std::memcpy(&temp, bytes_Array, sizeof(unsigned long long));
+    uint64_t* zinc::CLIB_MutexQueForThreadsLog_Framework_Global::stat_CONVERT_CLIB_MutexQueForThreadsLog_Framework_Global_MsbByteArray_To_VUALUEofMsbunsignedLongLong(std::byte* sysThreadId, unsigned char* bytes_Array) {
+        uint64_t* temp;
+        temp = new uint64_t();
+        std::memcpy(&temp, bytes_Array, sizeof(uint64_t));
         //std::cout << "thread " << std::to_integer<int>(*sysThreadId) << "  :: <= std::byte* : stat_CONVERT_CLIB_MutexQueForThreadsLog_Framework_Global_MsbByteArray_To_MsbStdByte(sysThreadId)." << std::endl;
         return temp;
     }
@@ -143,10 +143,10 @@
         //std::cout << "thread " << std::to_integer<int>(*sysThreadId) << "  :: <= unsigned char* : stat_CONVERT_CLIB_MutexQueForThreadsLog_Framework_Global_unsignedLongLong_to_ByteArray(sysThreadId)." << std::endl;
         return buffer;
     }
-    unsigned char* zinc::CLIB_MutexQueForThreadsLog_Framework_Global::stat_CONVERT_CLIB_MutexQueForThreadsLog_Framework_Global_VUALUEofMsbUnsignedLongLong_to_ByteArray(std::byte* sysThreadId, unsigned long long* value) {
+    unsigned char* zinc::CLIB_MutexQueForThreadsLog_Framework_Global::stat_CONVERT_CLIB_MutexQueForThreadsLog_Framework_Global_VUALUEofMsbUnsignedLongLong_to_ByteArray(std::byte* sysThreadId, uint64_t* value) {
         unsigned char* buffer = nullptr;
         buffer = new unsigned char(static_cast<unsigned char>(ULONG_LONG_MAX));
-        std::memcpy(buffer, &value, sizeof(unsigned long long));
+        std::memcpy(buffer, &value, sizeof(uint64_t));
         //std::cout << "thread " << std::to_integer<int>(*sysThreadId) << "  :: <= unsigned char* : stat_CONVERT_CLIB_MutexQueForThreadsLog_Framework_Global_unsignedLongLong_to_ByteArray(sysThreadId)." << std::endl;
         return buffer;
     }

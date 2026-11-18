@@ -9,8 +9,8 @@
 using namespace zinc;
 int main() {
     auto sysThreadId = new std::byte{0x00};
-    std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: Main : Running..." << std::endl;
-    std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: starting : generateProgram(s)." << std::endl;
+    std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: Main : Running..." << std::endl;
+    std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: starting : generateProgram(s)." << std::endl;
     zinc::MutexQue::generateProgram(sysThreadId);
     std::this_thread::sleep_for(std::chrono::seconds(2));
     //zinc::ThreadLogs::generateProgram(sysThreadId);
@@ -21,17 +21,17 @@ int main() {
     std::this_thread::sleep_for(std::chrono::seconds(2));
     //zinc::Epicentre::generateProgram(sysThreadId);
     //std::this_thread::sleep_for(std::chrono::seconds(2));
-    std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: exiting : generateProgram(s)." << std::endl;
-    std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: starting : SoothCute : prime." << std::endl;
+    std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: exiting : generateProgram(s)." << std::endl;
+    std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: starting : SoothCute : prime." << std::endl;
     zinc::SoothCute::optimusPrime(sysThreadId);
     zinc::SoothCute::optimusPrime(sysThreadId);
-    std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: exiting : SoothCute : prime." << std::endl;
+    std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: exiting : SoothCute : prime." << std::endl;
 
-    auto NUM_OF_JUNCTIONS = new unsigned long long(2);
+    auto NUM_OF_JUNCTIONS = new uint64_t(2);
     auto handle_Id_stemisphore = zinc::Stemisphore::generateHandle(sysThreadId);
-    zinc::Stemisphore::reInitialiseHandle(sysThreadId, handle_Id_stemisphore, CLIB_SystemBus_Framework_Global::stat_CONVERT_CLIB_SystemBusses_Framework_Global_VUALUEofMsbUnsignedLongLong_to_ByteArray(sysThreadId, NUM_OF_JUNCTIONS));
+    zinc::Stemisphore::reInitialiseHandle(sysThreadId, handle_Id_stemisphore, CLIB_SystemBus_Framework_Global::stat_CONVERT_CLIB_SystemBusses_Framework_Global_VUALUEofMsbInt64_To_MsbByteArray(sysThreadId, NUM_OF_JUNCTIONS));
     //todo /\ /\ /\
 
-    std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: Main : End!." << std::endl;
+    std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: Main : End!." << std::endl;
     return 0;
 }

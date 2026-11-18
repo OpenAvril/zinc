@@ -10,9 +10,9 @@ extern "C" {
             public:
             static std::byte* generateHandle(std::byte* sysThreadId);
             static void generateProgram(std::byte* sysThreadId);
-            static void load(std::byte* sysThreadId, unsigned char* handle_Id, StemTicket StemTicket, unsigned char* bytes_Cargo);
-            static void reInitialiseHandle(std::byte* sysThreadId, unsigned char* handle_Id, unsigned char* MAX_NUMBER_OF_JUNCTIONS);
-            static unsigned char* unload(std::byte* sysThreadId, unsigned char* handle_Id, StemTicket StemTicket);
+            static void load(std::byte* sysThreadId, std::byte* handle_Id, StemTicket StemTicket, unsigned char* bytes_Cargo);
+            static void reInitialiseHandle(std::byte* sysThreadId, std::byte* handle_Id, unsigned char* MAX_NUMBER_OF_JUNCTIONS);
+            static unsigned char* unload(std::byte* sysThreadId, std::byte* handle_Id, StemTicket StemTicket);
             static void terminateProgram(std::byte* sysThreadId);
         private:
             static std::byte* accessId;
@@ -21,7 +21,7 @@ extern "C" {
             static void stat_CLASS_boot1_DEFINE_CLIB_SystemBus_Framework(std::byte* sysThreadId);
             static void stat_CLASS_boot3_INITIALISE_CLIB_SystemBus_Framework(std::byte* sysThreadId);
             static std::list<zinc::CLIB_SystemBus_Framework*>* stat_CLASS_get_ptr_CLIB_List_Of_SystemBus_Framework(std::byte* sysThreadId);
-            static class CLIB_SystemBus_Framework* stat_CLASS_get_ptr_CLIB_SystemBus_Framework(std::byte* sysThreadId, uint16_t* handleId);
+            static class CLIB_SystemBus_Framework* stat_CLASS_get_ptr_CLIB_SystemBus_Framework(std::byte* sysThreadId, uint8_t* handleId);
             static void stat_REG_boot1_DEFINE_zinc_array_Of_flag_isINSTANTIATED(std::byte* sysThreadId);
             static void stat_REG_boot2_SUBSTANTIATE_zinc_array_Of_flag_isINSTANTIATED(std::byte* sysThreadId);
             static void stat_REG_boot3_INITIALISE_zinc_array_Of_flag_isINSTANTIATED(std::byte* sysThreadId);

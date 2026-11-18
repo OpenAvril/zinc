@@ -4,11 +4,11 @@
     zinc::CLIB_MutexQue_Framework_App_Control* zinc::CLIB_MutexQue_Framework_App::stat_CLASS_ptr_CLIB_MutexQue_App_Control;
 // public.
     zinc::CLIB_MutexQue_Framework_App::CLIB_MutexQue_Framework_App(std::byte* sysThreadId) {
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_MutexQue_Framework_App_Control : CLIB_MutexQue_App(sysThreadId)" << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_MutexQue_Framework_App_Control : CLIB_MutexQue_App(sysThreadId)" << std::endl;
         CLASS_boot0_DECLARE_CLIB_MutexQue_App(sysThreadId);
         CLASS_boot1_DEFINE_CLIB_MutexQue_App(sysThreadId);
         CLASS_boot3_INITIALISE_CLIB_MutexQue_App(sysThreadId);
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_MutexQue_Framework_App_Control : CLIB_MutexQue_App(sysThreadId)" << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_MutexQue_Framework_App_Control : CLIB_MutexQue_App(sysThreadId)" << std::endl;
     }
     zinc::CLIB_MutexQue_Framework_App::~CLIB_MutexQue_Framework_App() {
         std::cout << "thread "  << 0 << " :: entered LIB :: CLIB : CLIB_MutexQue_Framework_App_Control : CLIB_MutexQue_App(sysThreadId)" << std::endl;
@@ -16,7 +16,7 @@
         std::cout << "thread "  << 0 << " :: exiting LIB :: CLIB : CLIB_MutexQue_Framework_App_Control : CLIB_MutexQue_App(sysThreadId)" << std::endl;
     }
     void zinc::CLIB_MutexQue_Framework_App::dyn_APP_FUNCT_write_End(std::byte* sysThreadId, class CLIB_MutexQue_Framework* obj, uint8_t* coreId) {
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_MutexQue_Framework_App_Control : dyn_APP_FUNCT_write_End(sysThreadId)" << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_MutexQue_Framework_App_Control : dyn_APP_FUNCT_write_End(sysThreadId)" << std::endl;
         while (obj->dyn_CLASS_get_ptr_CLIB_MutexQue_App(sysThreadId)->dyn_CLASS_get_ptr_CLIB_MutexQue_App_Control(sysThreadId)->dyn_REG_get_FLAG_CLIB_MutexQue_Framework_App_Control_isWriteEndThreadRELASE_ONE(sysThreadId)) {
             obj->dyn_CLASS_get_ptr_CLIB_MutexQue_App(sysThreadId)->dyn_CLASS_get_ptr_CLIB_MutexQue_App_Control(sysThreadId)->dyn_APP_FUNCT_CLIB_MutexQue_Framework_App_Control_dynamicIn(sysThreadId, obj, coreId);
             obj->dyn_CLASS_get_ptr_CLIB_MutexQue_App(sysThreadId)->dyn_CLASS_get_ptr_CLIB_MutexQue_App_Control(sysThreadId)->dyn_REG_set_FLAG_CLIB_MutexQue_Framework_App_Control_isWriteEndThreadRELASE_ONE(sysThreadId, false);
@@ -31,10 +31,10 @@
         obj->dyn_CLASS_get_ptr_CLIB_MutexQue_App(sysThreadId)->dyn_CLASS_get_ptr_CLIB_MutexQue_App_Control(sysThreadId)->dyn_APP_FUNCT_CLIB_MutexQue_Framework_App_Control_writeEnable_SortQue(sysThreadId, obj);
         obj->dyn_CLASS_get_ptr_CLIB_MutexQue_App(sysThreadId)->dyn_CLASS_get_ptr_CLIB_MutexQue_App_Control(sysThreadId)->dyn_REG_set_FLAG_CLIB_MutexQue_Framework_App_Control_isWriteEndThreadRELASE_REMAINING(sysThreadId, true);
         obj->dyn_CLASS_get_ptr_CLIB_MutexQue_App(sysThreadId)->dyn_CLASS_get_ptr_CLIB_MutexQue_App_Control(sysThreadId)->dyn_REG_set_FLAG_CLIB_MutexQue_Framework_App_Control_isWriteStartThreadRELASE_REMAINING(sysThreadId, true);
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_MutexQue_Framework_App_Control : dyn_APP_FUNCT_write_End(sysThreadId)" << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_MutexQue_Framework_App_Control : dyn_APP_FUNCT_write_End(sysThreadId)" << std::endl;
     }
     void zinc::CLIB_MutexQue_Framework_App::dyn_APP_FUNCT_write_Start(std::byte* sysThreadId, class CLIB_MutexQue_Framework* obj, uint8_t* coreId) {
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_MutexQue_Framework_App_Control : dyn_APP_FUNCT_write_Start(sysThreadId)" << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_MutexQue_Framework_App_Control : dyn_APP_FUNCT_write_Start(sysThreadId)" << std::endl;
         while (obj->dyn_CLASS_get_ptr_CLIB_MutexQue_App(sysThreadId)->dyn_CLASS_get_ptr_CLIB_MutexQue_App_Control(sysThreadId)->dyn_REG_get_FLAG_CLIB_MutexQue_Framework_App_Control_isWriteStartThreadRELASE_ONE(sysThreadId)) {
             obj->dyn_CLASS_get_ptr_CLIB_MutexQue_App(sysThreadId)->dyn_CLASS_get_ptr_CLIB_MutexQue_App_Control(sysThreadId)->dyn_APP_FUNCT_CLIB_MutexQue_Framework_App_Control_dynamicIn(sysThreadId, obj, coreId);
             obj->dyn_CLASS_get_ptr_CLIB_MutexQue_App(sysThreadId)->dyn_CLASS_get_ptr_CLIB_MutexQue_App_Control(sysThreadId)->dyn_REG_set_FLAG_CLIB_MutexQue_Framework_App_Control_isWriteStartThreadRELASE_ONE(sysThreadId, false);
@@ -47,55 +47,55 @@
         obj->dyn_CLASS_get_ptr_CLIB_MutexQue_App(sysThreadId)->dyn_CLASS_get_ptr_CLIB_MutexQue_App_Control(sysThreadId)->dyn_APP_FUNCT_CLIB_MutexQue_Framework_App_Control_writeQue_Update(sysThreadId, obj);
         obj->dyn_CLASS_get_ptr_CLIB_MutexQue_App(sysThreadId)->dyn_CLASS_get_ptr_CLIB_MutexQue_App_Control(sysThreadId)->dyn_APP_FUNCT_CLIB_MutexQue_Framework_App_Control_writeEnable_SortQue(sysThreadId, obj);
         obj->dyn_CLASS_get_ptr_CLIB_MutexQue_App(sysThreadId)->dyn_CLASS_get_ptr_CLIB_MutexQue_App_Control(sysThreadId)->dyn_APP_FUNCT_CLIB_MutexQue_Framework_App_Control_writeEnable_Activate(sysThreadId, obj, coreId);
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_MutexQue_Framework_App_Control : dyn_APP_FUNCT_write_Start(sysThreadId)" << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_MutexQue_Framework_App_Control : dyn_APP_FUNCT_write_Start(sysThreadId)" << std::endl;
     }
     zinc::CLIB_MutexQue_Framework_App_Control* zinc::CLIB_MutexQue_Framework_App::dyn_CLASS_get_ptr_CLIB_MutexQue_App_Control(std::byte* sysThreadId) {
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: <= class : dyn_CLASS_get_ptr_CLIB_MutexQue_App_Control(sysThreadId)" << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: <= class : dyn_CLASS_get_ptr_CLIB_MutexQue_App_Control(sysThreadId)" << std::endl;
         return stat_CLASS_get_ptr_CLIB_MutexQue_App_Control(sysThreadId);
     }
     void zinc::CLIB_MutexQue_Framework_App::CLASS_boot0_DECLARE_CLIB_MutexQue_App(std::byte* sysThreadId) {
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_MutexQue_Framework_App_Control : CLASS_boot0_DECLARE_CLIB_MutexQue_App(sysThreadId)" << std::endl;
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_MutexQue_Framework_App_Control : CLASS_boot0_DECLARE_CLIB_MutexQue_App(sysThreadId)" << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_MutexQue_Framework_App_Control : CLASS_boot0_DECLARE_CLIB_MutexQue_App(sysThreadId)" << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_MutexQue_Framework_App_Control : CLASS_boot0_DECLARE_CLIB_MutexQue_App(sysThreadId)" << std::endl;
     }
     void zinc::CLIB_MutexQue_Framework_App::CLASS_boot1_DEFINE_CLIB_MutexQue_App(std::byte* sysThreadId) {
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_MutexQue_Framework_App_Control : CLASS_boot1_DEFINE_CLIB_MutexQue_App(sysThreadId)" << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_MutexQue_Framework_App_Control : CLASS_boot1_DEFINE_CLIB_MutexQue_App(sysThreadId)" << std::endl;
         stat_CLASS_boot1_DEFINE_CLIB_MutexQue_App_Control(sysThreadId);
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_MutexQue_Framework_App_Control : CLASS_boot1_DEFINE_CLIB_MutexQue_App(sysThreadId)" << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_MutexQue_Framework_App_Control : CLASS_boot1_DEFINE_CLIB_MutexQue_App(sysThreadId)" << std::endl;
     }
     void zinc::CLIB_MutexQue_Framework_App::CLASS_boot3_INITIALISE_CLIB_MutexQue_App(std::byte* sysThreadId) {
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_MutexQue_Framework_App_Control : CLASS_boot3_INITIALISE_CLIB_MutexQue_App(sysThreadId)" << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_MutexQue_Framework_App_Control : CLASS_boot3_INITIALISE_CLIB_MutexQue_App(sysThreadId)" << std::endl;
         stat_CLASS_boot3_INITIALISE_CLIB_MutexQue_App_Control(sysThreadId);
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_MutexQue_Framework_App_Control : CLASS_boot3_INITIALISE_CLIB_MutexQue_App(sysThreadId)" << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_MutexQue_Framework_App_Control : CLASS_boot3_INITIALISE_CLIB_MutexQue_App(sysThreadId)" << std::endl;
     }
     void zinc::CLIB_MutexQue_Framework_App::REG_boot0_DECLARE_CLIB_MutexQue_App(std::byte* sysThreadId) {
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_MutexQue_Framework_App_Control : REG_boot0_DECLARE_CLIB_MutexQue_App(sysThreadId)" << std::endl;
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_MutexQue_Framework_App_Control : REG_boot0_DECLARE_CLIB_MutexQue_App(sysThreadId)" << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_MutexQue_Framework_App_Control : REG_boot0_DECLARE_CLIB_MutexQue_App(sysThreadId)" << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_MutexQue_Framework_App_Control : REG_boot0_DECLARE_CLIB_MutexQue_App(sysThreadId)" << std::endl;
     }
     void zinc::CLIB_MutexQue_Framework_App::REG_boot1_DEFINE_CLIB_MutexQue_App(std::byte* sysThreadId, zinc::CLIB_MutexQue_Framework* obj) {
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_MutexQue_Framework_App_Control : REG_boot1_DEFINE_CLIB_MutexQue_App(sysThreadId)" << std::endl;
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_MutexQue_Framework_App_Control : REG_boot1_DEFINE_CLIB_MutexQue_App(sysThreadId)" << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_MutexQue_Framework_App_Control : REG_boot1_DEFINE_CLIB_MutexQue_App(sysThreadId)" << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_MutexQue_Framework_App_Control : REG_boot1_DEFINE_CLIB_MutexQue_App(sysThreadId)" << std::endl;
     }
     void zinc::CLIB_MutexQue_Framework_App::REG_boot2_SUBSTANTIATE_CLIB_MutexQue_App(std::byte* sysThreadId, zinc::CLIB_MutexQue_Framework* obj) {
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_MutexQue_Framework_App_Control : REG_boot2_SUBSTANTIATE_CLIB_MutexQue_App(sysThreadId)" << std::endl;
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_MutexQue_Framework_App_Control : REG_boot2_SUBSTANTIATE_CLIB_MutexQue_App(sysThreadId)" << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_MutexQue_Framework_App_Control : REG_boot2_SUBSTANTIATE_CLIB_MutexQue_App(sysThreadId)" << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_MutexQue_Framework_App_Control : REG_boot2_SUBSTANTIATE_CLIB_MutexQue_App(sysThreadId)" << std::endl;
     }
     void zinc::CLIB_MutexQue_Framework_App::REG_boot3_INITIALISE_CLIB_MutexQue_App(std::byte* sysThreadId, zinc::CLIB_MutexQue_Framework* obj) {
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_MutexQue_Framework_App_Control : REG_boot3_INITIALISE_CLIB_MutexQue_App(sysThreadId)" << std::endl;
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_MutexQue_Framework_App_Control : REG_boot3_INITIALISE_CLIB_MutexQue_App(sysThreadId)" << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_MutexQue_Framework_App_Control : REG_boot3_INITIALISE_CLIB_MutexQue_App(sysThreadId)" << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_MutexQue_Framework_App_Control : REG_boot3_INITIALISE_CLIB_MutexQue_App(sysThreadId)" << std::endl;
     }
 // private.
     void zinc::CLIB_MutexQue_Framework_App::stat_CLASS_boot1_DEFINE_CLIB_MutexQue_App_Control(std::byte* sysThreadId) {
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_MutexQue_Framework_App_Control : stat_CLASS_boot1_DEFINE_CLIB_MutexQue_App_Control(sysThreadId)" << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_MutexQue_Framework_App_Control : stat_CLASS_boot1_DEFINE_CLIB_MutexQue_App_Control(sysThreadId)" << std::endl;
         stat_CLASS_ptr_CLIB_MutexQue_App_Control = nullptr;
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_MutexQue_Framework_App_Control : stat_CLASS_boot1_DEFINE_CLIB_MutexQue_App_Control(sysThreadId)" << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_MutexQue_Framework_App_Control : stat_CLASS_boot1_DEFINE_CLIB_MutexQue_App_Control(sysThreadId)" << std::endl;
     }
     void zinc::CLIB_MutexQue_Framework_App::stat_CLASS_boot3_INITIALISE_CLIB_MutexQue_App_Control(std::byte* sysThreadId) {
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_MutexQue_Framework_App_Control : stat_CLASS_boot3_INITIALISE_CLIB_MutexQue_App_Control(sysThreadId)" << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_MutexQue_Framework_App_Control : stat_CLASS_boot3_INITIALISE_CLIB_MutexQue_App_Control(sysThreadId)" << std::endl;
         stat_CLASS_ptr_CLIB_MutexQue_App_Control = new class zinc::CLIB_MutexQue_Framework_App_Control(sysThreadId);
         while (stat_CLASS_get_ptr_CLIB_MutexQue_App_Control(sysThreadId) == nullptr) {}
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_MutexQue_Framework_App_Control : stat_CLASS_boot3_INITIALISE_CLIB_MutexQue_App_Control(sysThreadId)" << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_MutexQue_Framework_App_Control : stat_CLASS_boot3_INITIALISE_CLIB_MutexQue_App_Control(sysThreadId)" << std::endl;
     }
     zinc::CLIB_MutexQue_Framework_App_Control* zinc::CLIB_MutexQue_Framework_App::stat_CLASS_get_ptr_CLIB_MutexQue_App_Control(std::byte* sysThreadId) {
-        std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: <= class : stat_CLASS_get_ptr_CLIB_MutexQue_App_Control(sysThreadId)" << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: <= class : stat_CLASS_get_ptr_CLIB_MutexQue_App_Control(sysThreadId)" << std::endl;
         return stat_CLASS_ptr_CLIB_MutexQue_App_Control;
     }

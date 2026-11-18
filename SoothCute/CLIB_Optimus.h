@@ -15,12 +15,12 @@ extern "C" {
             static int* msbByteArray_To_valueOfmsbInt(std::byte* sysThreadId, unsigned char* bytes_Array);
             static double* msbByteArray_To_valueOfmsbDouble(std::byte* sysThreadId, unsigned char* bytes_Array);
             static std::byte* msbByteArray_To_valueOfMsbStdByte(std::byte* sysThreadId, unsigned char* bytes_Array);
-            static unsigned long long* msbByteArray_To_valueOfmsbunsignedLongLong(std::byte* sysThreadId, unsigned char* bytes_Array);
+            static uint64_t* msbByteArray_To_valueOfmsbunsignedLongLong(std::byte* sysThreadId, unsigned char* bytes_Array);
             static unsigned char* objDATA_To_MsbByteArray(std::byte* sysThreadId, class Object* DATA);
             static unsigned char* valueofMsbBool_to_MsbByteArray(std::byte* sysThreadId, bool newValue_Bool);
             static unsigned char* valueofMsbInt_To_MsbByteArray(std::byte* sysThreadId, int* newValue_Int);
             static unsigned char* valueofMsbDouble_To_MsbByteArray(std::byte* sysThreadId, double* newValue_Double);
-            static unsigned char* valueofMsbUnsignedLongLong_to_ByteArray(std::byte* sysThreadId, unsigned long long* newValue_ULongLong);
+            static unsigned char* valueofMsbUnsignedLongLong_to_ByteArray(std::byte* sysThreadId, uint64_t* newValue_ULongLong);
             static unsigned char* valueofMsbStdByte_To_MsbByteArray(std::byte* sysThreadId, std::byte* newValue_uint8_t);
         };
     }
