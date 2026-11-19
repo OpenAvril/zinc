@@ -103,7 +103,7 @@ uint64_t* zinc::StemTicket::reg_ptr_CLIB_Bus_STRUCT_SingleBus_CLASS_StemTicket_a
     }
     void zinc::StemTicket::stat_REG_boot2_SUBSTANTIATE_CLIB_Bus_STRUCT_SingleBus_CLASS_StemTicket_arrivalJunctionId() {
         reg_ptr_CLIB_Bus_STRUCT_SingleBus_CLASS_StemTicket_arrivalJunctionId = new uint64_t();
-        *reg_ptr_CLIB_Bus_STRUCT_SingleBus_CLASS_StemTicket_arrivalJunctionId = static_cast<uint64_t>(ULONG_LONG_MAX);
+        *reg_ptr_CLIB_Bus_STRUCT_SingleBus_CLASS_StemTicket_arrivalJunctionId = static_cast<uint64_t>(UINT64_MAX);
     }
     void zinc::StemTicket::stat_REG_boot2_SUBSTANTIATE_CLIB_Bus_STRUCT_SingleBus_CLASS_StemTicket_arrivalAccessId() {
         reg_ptr_CLIB_Bus_STRUCT_SingleBus_CLASS_StemTicket_arrivalAccessId = new uint8_t();
@@ -115,7 +115,7 @@ uint64_t* zinc::StemTicket::reg_ptr_CLIB_Bus_STRUCT_SingleBus_CLASS_StemTicket_a
     }
     void zinc::StemTicket::stat_REG_boot2_SUBSTANTIATE_CLIB_Bus_STRUCT_SingleBus_CLASS_StemTicket_departureJunctionId() {
         reg_ptr_CLIB_Bus_STRUCT_SingleBus_CLASS_StemTicket_departureJunctionId = new uint64_t();
-        *reg_ptr_CLIB_Bus_STRUCT_SingleBus_CLASS_StemTicket_departureJunctionId = static_cast<uint64_t>(ULONG_LONG_MAX);
+        *reg_ptr_CLIB_Bus_STRUCT_SingleBus_CLASS_StemTicket_departureJunctionId = static_cast<uint64_t>(UINT64_MAX);
     }
     void zinc::StemTicket::stat_REG_boot2_SUBSTANTIATE_CLIB_Bus_STRUCT_SingleBus_CLASS_StemTicket_departureAccessId() {
         reg_ptr_CLIB_Bus_STRUCT_SingleBus_CLASS_StemTicket_departureAccessId = new uint8_t();

@@ -145,7 +145,7 @@
     }
     unsigned char* zinc::CLIB_MutexQueForThreadsLog_Framework_Global::stat_CONVERT_CLIB_MutexQueForThreadsLog_Framework_Global_VUALUEofMsbUnsignedLongLong_to_ByteArray(std::byte* sysThreadId, uint64_t* value) {
         unsigned char* buffer = nullptr;
-        buffer = new unsigned char(static_cast<unsigned char>(ULONG_LONG_MAX));
+        buffer = new unsigned char(static_cast<unsigned char>(UINT64_MAX));
         std::memcpy(buffer, &value, sizeof(uint64_t));
         //std::cout << "thread " << std::to_integer<int>(*sysThreadId) << "  :: <= unsigned char* : stat_CONVERT_CLIB_MutexQueForThreadsLog_Framework_Global_unsignedLongLong_to_ByteArray(sysThreadId)." << std::endl;
         return buffer;

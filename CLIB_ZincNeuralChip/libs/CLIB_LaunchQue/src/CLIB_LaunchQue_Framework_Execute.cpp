@@ -63,7 +63,7 @@
     }
     void zinc::CLIB_LaunchQue_Framework_Execute::stat_REG_boot2_SUBSTANTIATE_HandleId_For_PGM_CLIBMutexQue(std::byte* sysThreadId) {
         stat_REG_HandleId_For_PGM_CLIBMutexQue = new uint64_t();
-        *stat_REG_HandleId_For_PGM_CLIBMutexQue = ULONG_LONG_MAX;
+        *stat_REG_HandleId_For_PGM_CLIBMutexQue = UINT64_MAX;
     }
     void zinc::CLIB_LaunchQue_Framework_Execute::stat_REG_boot3_INITIALISE_HandleId_For_PGM_CLIBMutexQue(std::byte* sysThreadId) {
         stat_REG_HandleId_For_PGM_CLIBMutexQue = CLIB_LaunchQue_Framework_Global::stat_CONVERT_CLIB_LaunchQue_Framework_Global_MsbByteArray_To_VUALUEofMsbunsignedLongLong(sysThreadId, zinc::MutexQue::generateHandle(sysThreadId));

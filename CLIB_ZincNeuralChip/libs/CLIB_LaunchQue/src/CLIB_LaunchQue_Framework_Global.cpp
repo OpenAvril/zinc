@@ -115,7 +115,7 @@
     }
     unsigned char* zinc::CLIB_LaunchQue_Framework_Global::stat_CONVERT_CLIB_LaunchQue_Framework_Global_VUALUEofMsbUnsignedLongLong_to_ByteArray(std::byte* sysThreadId, uint64_t* value) {
         unsigned char* buffer = nullptr;
-        buffer = new unsigned char(static_cast<unsigned char>(ULONG_LONG_MAX));
+        buffer = new unsigned char(static_cast<unsigned char>(UINT64_MAX));
         std::memcpy(buffer, &value, sizeof(uint64_t));
         std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << "  :: <= unsigned char* : stat_CONVERT_CLIB_LaunchQue_Framework_Global_unsignedLongLong_to_ByteArray(sysThreadId)." << std::endl;
         return buffer;
@@ -136,7 +136,7 @@
 
     uint64_t* zinc::CLIB_LaunchQue_Framework_Global::stat_CONVERT_CLIB_MutexQue_Framework_Global_VUALUEofMsbStdByte_To_MsbUnsignedLongLong(std::byte* sysThreadId, std::byte* newValue_stdbyte) {
         std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << "  :: <= uint64_t* : stat_CONVERT_CLIB_MutexQue_Framework_Global_VUALUEofMsbStdByte_To_MsbUnsignedLongLong(sysThreadId)." << std::endl;
-        auto tempA = new uint64_t(ULONG_LONG_MAX);
+        auto tempA = new uint64_t(UINT64_MAX);
         auto tempB = new std::uint8_t(UINT8_MAX);
         uint8_t bytes[8] = {0xFF, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
         std::memcpy(&tempB, newValue_stdbyte, sizeof(uint8_t));

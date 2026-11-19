@@ -1,6 +1,6 @@
 #include "../include/CLIB_SystemBus.h"
 #include "../../../CLIB_MutexQue/io/include/CLIB_MutexQue.h"
-#include "../../../CLIB_ThreadsLog/io/include/CLIB_ThreadLogs.h"
+//#include "../../../CLIB_ThreadsLog/io/include/CLIB_ThreadLogs.h"
 #include "../../include/independent/CLIB_Bus_STRUCT_SingleBus_Framework.h"
 #include "../../../CLIB_Stemisphore/include/CLIB_SystemBus_Framework_Global.h"
 #include <array>
@@ -39,9 +39,6 @@
 
 		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: started CLIB_OpenEpiCentre_Global Meta-Data and Settings." << std::endl;
 		stat_CLASS_get_ptr_CLIB_SystemBus_Framework(sysThreadId, handle_id)->dyn_APP_CLIB_SystemBus_Framework_create_Global_and_Settings(sysThreadId);
-		stat_CLASS_get_ptr_CLIB_SystemBus_Framework(sysThreadId, handle_id)->dyn_CLASS_get_ptr_CLIB_SystemBus_Framework_Global(sysThreadId)->dyn_REG_boot1_DEFINE_CLIB_SystemBus_Framework_Global(sysThreadId);
-		stat_CLASS_get_ptr_CLIB_SystemBus_Framework(sysThreadId, handle_id)->dyn_CLASS_get_ptr_CLIB_SystemBus_Framework_Global(sysThreadId)->dyn_REG_boot2_SUBSTANTIATE_CLIB_SystemBus_Framework_Global(sysThreadId);
-		stat_CLASS_get_ptr_CLIB_SystemBus_Framework(sysThreadId, handle_id)->dyn_CLASS_get_ptr_CLIB_SystemBus_Framework_Global(sysThreadId)->dyn_REG_boot3_INITIALISE_CLIB_SystemBus_Framework_Global(sysThreadId);
 		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: done CLIB_OpenEpiCentre_Global Meta-Data and Settings." << std::endl;
 
 		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: started Independent STRUCT(s) - DECLARE DEFINE INITIALISE, Registers - DECLARE SUBSTANTIATE INITIALISE." << std::endl;
@@ -177,9 +174,8 @@
 	}
 	void zinc::Stemisphore::stat_CLASS_boot3_INITIALISE_CLIB_SystemBus_Framework(std::byte* sysThreadId) {
 		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: entered LIB :: zinc : Bus : stat_CLASS_boot3_INITIALISE_CLIB_SystemBus_Framework(sysThreadId)." << std::endl;
-		stat_REG_CLIB_List_Of_SystemBus_Framework = new std::list<class zinc::CLIB_SystemBus_Framework*>();
-		while (stat_REG_CLIB_List_Of_SystemBus_Framework == nullptr) {}
-		stat_REG_CLIB_List_Of_SystemBus_Framework->resize(*reinterpret_cast<uint8_t*>(1));
+		stat_REG_CLIB_List_Of_SystemBus_Framework = new std::list<CLIB_SystemBus_Framework*>();
+		stat_REG_CLIB_List_Of_SystemBus_Framework->resize(1);
 		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: exiting LIB :: zinc : Bus : stat_CLASS_boot3_INITIALISE_CLIB_SystemBus_Framework(sysThreadId)." << std::endl;
 	}
 	std::list<zinc::CLIB_SystemBus_Framework*>* zinc::Stemisphore::stat_CLASS_get_ptr_CLIB_List_Of_SystemBus_Framework(std::byte* sysThreadId) {

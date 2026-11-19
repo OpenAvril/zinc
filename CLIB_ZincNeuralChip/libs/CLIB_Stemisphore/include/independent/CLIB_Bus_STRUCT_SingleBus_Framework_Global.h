@@ -1,6 +1,7 @@
 #ifndef CLIB_CLIB_Bus_STRUCT_SingleBus_Framework_Global_H
 #define CLIB_CLIB_Bus_STRUCT_SingleBus_Framework_Global_H
 #include <cstddef>
+#include <cstdint>
 #include <list>
 namespace zinc {
     class CLIB_Bus_STRUCT_SingleBus_Framework_Global {

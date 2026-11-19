@@ -24,7 +24,7 @@ static std::list<zinc::CLIB_MutexQue_Framework*>* stat_REG_ptr_CLIB_MutexQue_arr
 	}
 	unsigned char* zinc::MutexQue::generateHandle(std::byte* sysThreadId) {
 		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_MutexQue : generateHandle(sysThreadId)" << std::endl;
-		auto handleId = new uint64_t(ULONG_LONG_MAX);
+		auto handleId = new uint64_t(UINT64_MAX);
 		CLIB_MutexQue_stat_PGM_get_array_of_ptr_CLIB_MutexQue(sysThreadId)->resize(CLIB_MutexQue_stat_PGM_get_array_of_ptr_CLIB_MutexQue(sysThreadId)->size()+1);
 		CLIB_MutexQue_stat_PGM_get_array_of_ptr_CLIB_MutexQue(sysThreadId)->assign(CLIB_MutexQue_stat_PGM_get_array_of_ptr_CLIB_MutexQue(sysThreadId)->size(), *CLIB_MutexQue_stat_PGM_get_array_of_ptr_CLIB_MutexQue(sysThreadId)->begin());
 		*handleId = static_cast<uint64_t>(CLIB_MutexQue_stat_PGM_get_array_of_ptr_CLIB_MutexQue(sysThreadId)->size() - 1);

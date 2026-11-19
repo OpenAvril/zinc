@@ -144,7 +144,7 @@
     void zinc::CLIB_LeftHemisphore_STRUCT_Output::stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemisphore_STRUCT_Output_praiseEventId(std::byte* sysThreadId) {
         std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Output : stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemisphore_STRUCT_Output_praiseEventId(sysThreadId). " << std::endl;
         stat_REG_ptr_LeftHemishpore_STRUCT_Output_praiseEventId = new uint64_t();
-        *stat_REG_ptr_LeftHemishpore_STRUCT_Output_praiseEventId = ULONG_LONG_MAX;
+        *stat_REG_ptr_LeftHemishpore_STRUCT_Output_praiseEventId = UINT64_MAX;
         std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Output : stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemisphore_STRUCT_Output_praiseEventId(sysThreadId). " << std::endl;
     }
     void zinc::CLIB_LeftHemisphore_STRUCT_Output::stat_REG_boot2_SUBSTANTIATE_CLIB_LeftHemisphore_STRUCT_Output_Subset(std::byte* sysThreadId) {

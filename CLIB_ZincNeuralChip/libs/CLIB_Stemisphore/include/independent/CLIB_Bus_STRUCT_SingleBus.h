@@ -7,7 +7,7 @@
 namespace zinc {
     struct CLIB_Bus_STRUCT_SingleBus {
     public:
-        static class CLIB_Bus_STRUCT_SingleBus_Framework* getHandle(std::byte* sysThreadId);
+        static class CLIB_Bus_STRUCT_SingleBus_Framework* getProgram(std::byte* sysThreadId);
         static void generateProgram(std::byte* sysThreadId);
         static void load(std::byte* sysThreadId, StemTicket StemTicket, unsigned char* DATA);
         static unsigned char* unload(std::byte* sysThreadId, StemTicket StemTicket);

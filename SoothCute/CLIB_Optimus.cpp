@@ -47,7 +47,7 @@
 		auto bytes_Cargo = new unsigned char();
 		class zinc::Object* value_DATA = nullptr;
 		bytes_Cargo = objDATA_To_MsbByteArray(sysThreadId, value_DATA);
-		TICKET = new class zinc::StemTicket(sysThreadId, stdByte, stdByte, stdByte, stdByte);
+		TICKET = new class StemTicket(sysThreadId, new uint16_t(UINT16_MAX), new uint8_t(UINT8_MAX), new uint64_t(UINT64_MAX), new uint64_t(UINT64_MAX), new uint8_t(UINT8_MAX));
 		//zinc::ThreadLogs::generateProgram(std::byte* sysThreadId);
 		//zinc::ThreadLogs::printl(sysThreadId, string);
 		//zinc::ThreadLogs::reInitialiseProgram(sysThreadId, MAX_NUMBER_OF_THREADS_FOR_ACCESS);
@@ -161,7 +161,7 @@
 	}
 	unsigned char* zinc::SoothCute::valueofMsbUnsignedLongLong_to_ByteArray(std::byte* sysThreadId, uint64_t* newValue_ULongLong) {
 		unsigned char* buffer = nullptr;
-		buffer = new unsigned char(static_cast<unsigned char>(ULONG_LONG_MAX));
+		buffer = new unsigned char(static_cast<unsigned char>(UINT64_MAX));
 		std::memcpy(buffer, &newValue_ULongLong, sizeof(uint64_t));
 		std::cout << "thread " << std::to_integer<int>(*sysThreadId) << "  :: <= unsigned char* : stat_CONVERT_CLIB_SystemBusses_Framework_Global_unsignedLongLong_to_ByteArray(sysThreadId)." << std::endl;
 		return buffer;

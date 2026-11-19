@@ -8,10 +8,6 @@ namespace zinc {
     public:
         CLIB_SystemBus_Framework_Global(std::byte* sysThreadId);
         ~CLIB_SystemBus_Framework_Global();
-        void dyn_REG_boot1_DEFINE_CLIB_SystemBus_Framework_Global(std::byte* sysThreadId);
-        void dyn_REG_boot2_SUBSTANTIATE_CLIB_SystemBus_Framework_Global(std::byte* sysThreadId);
-        void dyn_REG_boot3_INITIALISE_CLIB_SystemBus_Framework_Global(std::byte* sysThreadId);
-        void dyn_REG_boot4_INSTANTIATE_CLIB_SystemBus_Framework_Global(std::byte* sysThreadId);
         static int* stat_CONVERT_CLIB_SystemBusses_Framework_Global_Bool_To_Int(std::byte* sysThreadId, bool newValue_Bool);
 
         static class Object* stat_APP_CONVERT_CLIB_SystemBus_Framework_Global_MsbByteArray_To_VUALUEofOBJ(std::byte* sysThreadId, unsigned char* byteArray_DATA);
@@ -34,32 +30,35 @@ namespace zinc {
 
         static unsigned char* stat_CONVERT_CLIB_MutexQue_Framework_Global_VUALUEofMsbStdByteOf_uint8_t_To_MsbUnsignedLongLong_In_ByteArray(std::byte* sysThreadId, std::byte* newValue_stdbyte);
 
+        static uint16_t* stat_REG_get_CLIB_SystemBus_Framework_Global_NUMBER_OF_BUSSES(std::byte* sysThreadId);
         static uint64_t* stat_REG_get_CLIB_SystemBus_Framework_Global_MAX_NUMBER_OF_JUNCTIONS(std::byte* sysThreadId);
         static std::list<uint64_t> stat_REG_get_CLIB_SystemBus_Framework_Global_List_Of_MAX_NUMBER_OF_ACCESS_THREADS_AT_JUNCTIONS(std::byte* sysThreadId);
+        static void stat_REG_set_CLIB_SystemBus_Framework_Global_NUMBER_OF_BUSSES(std::byte* sysThreadId, uint16_t* NUMBER_OF_BUSSES);
         static void stat_REG_set_CLIB_SystemBus_Framework_Global_MAX_NUMBER_OF_JUNCTIONS(std::byte* sysThreadId, uint64_t* MAX_NUMBER_OF_JUNCTIONS);
         static void stat_REG_set_CLIB_SystemBus_Framework_Global_List_Of_MAX_NUMBER_OF_ACCESS_THREADS_AT_JUNCTIONS(std::byte* sysThreadId, std::list<uint64_t>* List_Of_MAX_NUMBER_OF_ACCESS_THREADS_AT_JUNCTIONS);
     private:
+        static uint16_t* stat_REG_CLIB_SystemBus_Framework_Global_NUMBER_OF_BUSSES;
         static uint64_t* stat_REG_CLIB_SystemBus_Framework_Global_MAX_NUMBER_OF_JUNCTIONS;
         static std::list<uint64_t>* stat_REG_CLIB_SystemBus_Framework_Global_List_Of_MAX_NUMBER_OF_ACCESS_THREADS_AT_JUNCTIONS;
-        static class Object* pr_stat_APP_CONVERT_CLIB_SystemBus_Framework_Global_MsbByteArray_To_VUALUEofOBJ(std::byte* sysThreadId, unsigned char* byteArray_DATA);
-        static unsigned char* pr_stat_APP_CONVERT_CLIB_SystemBus_Framework_Global_MsbBoolean_To_MsbByteArray(std::byte* sysThreadId, bool value);
-        static unsigned char* pr_stat_APP_CONVERT_CLIB_SystemBus_Framework_Global_MsbDouble_To_MsbByteArray(std::byte* sysThreadId, double value);
-        static unsigned char* pr_stat_CONVERT_CLIB_SystemBusses_Framework_Global_VUALUEofMsbStdByte_To_MsbByteArray(std::byte* sysThreadId, std::byte value);
-        static bool pr_stat_APP_CONVERT_CLIB_SystemBus_Framework_Global_MsbByteArray_To_MsbBoolean(std::byte* sysThreadId, const unsigned char* byteArray);
-        static unsigned char* pr_stat_APP_CONVERT_CLIB_SystemBus_Framework_Global_VUALUEofOBJ_To_MsbByteArray(std::byte* sysThreadId, unsigned char* byteArray_DATA);
-        static double pr_stat_APP_CONVERT_CLIB_SystemBus_Framework_Global_MsbByteArray_To_MsbDouble(std::byte* sysThreadId, const unsigned char* byteArray);
         static void stat_CLASS_boot0_DECLAIRE_CLIB_SystemBus_Framework_Global(std::byte* sysThreadId);
         static void stat_CLASS_boot1_DEFINE_CLIB_SystemBus_Framework_Global(std::byte* sysThreadId);
         static void stat_CLASS_boot3_INITIALISE_CLIB_SystemBus_Framework_Global(std::byte* sysThreadId);
         static void stat_REG_boot0_DECLAIRE_CLIB_SystemBus_Framework_Global(std::byte* sysThreadId);
+        static void stat_REG_boot1_DEFINE_CLIB_SystemBus_Framework_Global(std::byte* sysThreadId);
+        static void stat_REG_boot2_SUBSTANTIATE_CLIB_SystemBus_Framework_Global(std::byte* sysThreadId);
+        static void stat_REG_boot3_INITIALISE_CLIB_SystemBus_Framework_Global(std::byte* sysThreadId);
+        static void stat_REG_boot1_DEFINE_CLIB_SystemBus_Framework_Global_NUMBER_OF_BUSSES(std::byte* sysThreadId);
         static void stat_REG_boot1_DEFINE_CLIB_SystemBus_Framework_Global_MAX_NUMBER_OF_JUNCTIONS(std::byte* sysThreadId);
         static void stat_REG_boot1_DEFINE_CLIB_SystemBus_Framework_Global_List_Of_MAX_NUMBER_OF_ACCESS_THREADS_AT_JUNCTIONS(std::byte* sysThreadId);
         static void stat_REG_boot2_SUBSTANTIATE_CLIB_SystemBus_Framework_Global_MAX_NUMBER_OF_JUNCTIONS(std::byte* sysThreadId);
         static void stat_REG_boot2_SUBSTANTIATE_CLIB_SystemBus_Framework_Global_List_Of_MAX_NUMBER_OF_ACCESS_THREADS_AT_JUNCTIONS(std::byte* sysThreadId);
+        static void stat_REG_boot3_INITIALISE_CLIB_SystemBus_Framework_Global_NUMBER_OF_BUSSES(std::byte* sysThreadId);
         static void stat_REG_boot3_INITIALISE_CLIB_SystemBus_Framework_Global_MAX_NUMBER_OF_JUNCTIONS(std::byte* sysThreadId);
         static void stat_REG_boot3_INITIALISE_CLIB_SystemBus_Framework_Global_List_Of_MAX_NUMBER_OF_ACCESS_THREADS_AT_JUNCTIONS(std::byte* sysThreadId);
         static uint64_t* pr_stat_REG_get_CLIB_SystemBus_Framework_Global_MAX_NUMBER_OF_JUNCTIONS(std::byte* sysThreadId);
+        static uint16_t* pr_stat_REG_get_CLIB_SystemBus_Framework_Global_NUMBER_OF_BUSSES(std::byte* sysThreadId);
         static std::list<uint64_t>* pr_stat_REG_get_CLIB_SystemBus_Framework_Global_List_Of_MAX_NUMBER_OF_ACCESS_THREADS_AT_JUNCTIONS(std::byte* sysThreadId);
+        static void pr_stat_REG_set_CLIB_SystemBus_Framework_Global_NUMBER_OF_BUSSES(std::byte* sysThreadId, uint16_t NUMBER_OF_BUSSES);
         static void pr_stat_REG_set_CLIB_SystemBus_Framework_Global_MAX_NUMBER_OF_JUNCTIONS(std::byte* sysThreadId, uint64_t MAX_NUMBER_OF_JUNCTIONS);
         static void pr_stat_REG_set_CLIB_SystemBus_Framework_Global_List_Of_MAX_NUMBER_OF_ACCESS_THREADS_AT_JUNCTIONS(std::byte* sysThreadId, std::list<uint64_t> List_Of_MAX_NUMBER_OF_ACCESS_THREADS_AT_JUNCTIONS);
     };

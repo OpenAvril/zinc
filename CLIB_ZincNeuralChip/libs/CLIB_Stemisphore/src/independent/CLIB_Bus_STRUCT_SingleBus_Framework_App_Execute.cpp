@@ -118,10 +118,9 @@
     }
     void zinc::CLIB_Bus_STRUCT_SingleBus_Framework_App_Execute::stat_PGM_boot3_INITIALISE_CLIB_MutexQue_Of_Bus(std::byte* sysThreadId) {
         std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: entered LIB :: zinc : CLIB_Bus_STRUCT_SingleBus_Framework_App_Data : stat_PGM_boot3_INITIALISE_CLIB_List_Of_Busses(sysThreadId)." << std::endl;
-        int* handleId = new int(0);
         stat_PGM_CLIB_MutexQue_Of_Bus = new uint64_t();
-        stat_PGM_CLIB_MutexQue_Of_Bus = CLIB_Bus_STRUCT_SingleBus_Framework_Global::stat_CONVERT_CLIB_Bus_STRUCT_SingleBus_Framework_Global_MsbByteArray_To_VUALUEofMsbInt(sysThreadId, zinc::MutexQue::generateHandle(sysThreadId));
-        zinc::MutexQue::reInitialiseHandle(sysThreadId, CLIB_SystemBus_Framework_Global::stat_CONVERT_CLIB_SystemBusses_Framework_Global_VUALUEofMsbInt32_To_MsbByteArray(sysThreadId, stat_PGM_CLIB_MutexQue_Of_Bus), new std::byte{0xFF});
+        *stat_PGM_CLIB_MutexQue_Of_Bus = *CLIB_Bus_STRUCT_SingleBus_Framework_Global::stat_CONVERT_CLIB_Bus_STRUCT_SingleBus_Framework_Global_MsbByteArray_To_VUALUEofMsbInt(sysThreadId, zinc::MutexQue::generateHandle(sysThreadId));
+        zinc::MutexQue::reInitialiseHandle(sysThreadId, CLIB_SystemBus_Framework_Global::stat_CONVERT_CLIB_SystemBusses_Framework_Global_VUALUEofMsbInt64_To_MsbByteArray(sysThreadId, stat_PGM_CLIB_MutexQue_Of_Bus), reinterpret_cast<std::byte*>(reinterpret_cast<uint8_t*>(CLIB_SystemBus_Framework_Global::stat_REG_get_CLIB_SystemBus_Framework_Global_MAX_NUMBER_OF_JUNCTIONS(sysThreadId))));
         std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_Bus_STRUCT_SingleBus_Framework_App_Data : stat_PGM_boot3_INITIALISE_CLIB_List_Of_Busses(sysThreadId)." << std::endl;
     }
     void zinc::CLIB_Bus_STRUCT_SingleBus_Framework_App_Execute::stat_PGM_boot3_INITIALISE_CLIB_MutexQue_Of_Bus_At_Junction(std::byte* sysThreadId) {
@@ -135,7 +134,7 @@
     }
     void zinc::CLIB_Bus_STRUCT_SingleBus_Framework_App_Execute::stat_PGM_boot3_INITIALISE_CLIB_MutexQue_Of_Bus_At_Junction_At_AccessLock(std::byte* sysThreadId) {
         std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: entered LIB :: zinc : CLIB_Bus_STRUCT_SingleBus_Framework_App_Data : stat_PGM_boot3_INITIALISE_MutexQue_Of___BusId(sysThreadId)." << std::endl;
-        stat_PGM_CLIB_MutexQue_Of_Bus_At_Junction_At_AccessLock = new std::list<std::list<int*>>();
+        stat_PGM_CLIB_MutexQue_Of_Bus_At_Junction_At_AccessLock = new std::list<std::list<uint64_t*>>();
         stat_REG_get_PGM_CLIB_MutexQue_Of_MutexQue_Junction_At_AccessLock(sysThreadId)->resize(*reinterpret_cast<uint8_t*>(zinc::CLIB_Bus_STRUCT_SingleBus_Framework_Global::dyn_REG_get_CLIB_Bus_STRUCT_SingleBus_Framework_Global_MAX_NUMBER_OF_JUNCTIONS(sysThreadId)));
         for (uint8_t junctionID = 0; junctionID < stat_REG_get_PGM_CLIB_MutexQue_Of_MutexQue_Junction_At_AccessLock(sysThreadId)->size(); junctionID++) {
             auto temp = stat_REG_get_PGM_CLIB_MutexQue_Of_MutexQue_Junction_At_AccessLock(sysThreadId)->begin();
