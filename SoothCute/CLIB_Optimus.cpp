@@ -9,7 +9,7 @@
 //#include "../CLIB_ZincNeuralChip/libs/CLIB_ThreadsLog/include/CLIB_ThreadLogs_Framework_Global.h"
 #include "../CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/include/CLIB_LaunchQue_Framework_Global.h"
 //#include "../CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/include/CLIB_SystemBus_Framework_Global.h"
-#include "../CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/include/independent/CLIB_Bus_STRUCT_SingleBus_STRUCT_BusDATA_CLASS_StemTicket.h"
+//#include "../CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/include/independent/CLIB_Bus_STRUCT_SingleBus_STRUCT_BusDATA_CLASS_StemTicket.h"
 #include <cfloat>
 #include <climits>
 #include <cstring>
@@ -47,19 +47,19 @@
 		auto bytes_Cargo = new unsigned char();
 		class zinc::Object* value_DATA = nullptr;
 		bytes_Cargo = objDATA_To_MsbByteArray(sysThreadId, value_DATA);
-		TICKET = new class zinc::StemTicket(sysThreadId, stdByte, stdByte, stdByte, stdByte);
+		//TICKET = new class zinc::StemTicket(sysThreadId, stdByte, stdByte, stdByte, stdByte);
 		//zinc::ThreadLogs::generateProgram(std::byte* sysThreadId);
 		//zinc::ThreadLogs::printl(sysThreadId, string);
 		//zinc::ThreadLogs::reInitialiseProgram(sysThreadId, MAX_NUMBER_OF_THREADS_FOR_ACCESS);
 		//zinc::ThreadLogs::terminateProgram(sysThreadId);
 
 		zinc::MutexQue::endByUnlock(sysThreadId, handleId, stdByte);
-		int* tempF0 = msbByteArray_To_valueOfmsbInt(sysThreadId, zinc::MutexQue::generateHandle(sysThreadId));
+		unsigned long long* tempF0 = msbByteArray_To_valueOfmsbunsignedLongLong(sysThreadId, zinc::MutexQue::generateHandle(sysThreadId));
 		//zinc::MutexQue::generateProgram(sysThreadId);
 		zinc::MutexQue::reInitialiseHandle(sysThreadId, handleId, stdByte);
 		zinc::MutexQue::startByLock(sysThreadId, handleId, stdByte);
 		zinc::MutexQue::terminateProgram(sysThreadId, handleId);
-
+/*
 		std::byte* tempC0 = zinc::LaunchQue::generateHandle(sysThreadId);
 		//zinc::LaunchQue::generateProgram(sysThreadId);
 		std::byte* tempC1 = zinc::LaunchQue::get_coreIdTolaunch(sysThreadId, stdByte, stdByte);
@@ -95,6 +95,7 @@
 		zinc::Epicentre::set_MetaData_PraiseEventId(sysThreadId, stdByte, praiseId);
 		zinc::Epicentre::reInitialiseHandle(sysThreadId, stdByte, stdByte, stdByte);
 		zinc::Epicentre::terminateProgram(sysThreadId);
+*/
 }
 	std::array<bool, 1> zinc::SoothCute::zinc_SoothCute_stat_REG_get_array_of_isMemberFunctionINSTANTIATED(std::byte* sysThreadId) {
 		return stat_REG_ptr_CLIB_SoothCute_array_of_array_of_isMemberFunctionINSTANTIATED;
