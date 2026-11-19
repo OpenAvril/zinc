@@ -3,38 +3,46 @@
 #include <cstdint>
 #include <iostream>
 #include <list>
+	std::list<class zinc::Object*>* zinc::CLIB_LeftHemisphore_STRUCT_User_Output::stat_REG_ptr_CLIB_LeftHemisphore_STRUCT_UserOutput_Output_SUBSET;
 	zinc::CLIB_LeftHemisphore_STRUCT_Output_praise0* zinc::CLIB_LeftHemisphore_STRUCT_User_Output::stat_REG_ptr_CLIB_LeftHemisphore_STRUCT_UserOutput_Output_praise0;
 	zinc::CLIB_LeftHemisphore_STRUCT_Output_praise1* zinc::CLIB_LeftHemisphore_STRUCT_User_Output::stat_REG_ptr_CLIB_LeftHemisphore_STRUCT_UserOutput_Output_praise1;
 	zinc::CLIB_LeftHemisphore_STRUCT_Output_praise2* zinc::CLIB_LeftHemisphore_STRUCT_User_Output::stat_REG_ptr_CLIB_LeftHemisphore_STRUCT_UserOutput_Output_praise2;
 	zinc::CLIB_LeftHemisphore_STRUCT_Output_praise3* zinc::CLIB_LeftHemisphore_STRUCT_User_Output::stat_REG_ptr_CLIB_LeftHemisphore_STRUCT_UserOutput_Output_praise3;
 // public.
-	std::list<struct zinc::Object*>* zinc::CLIB_LeftHemisphore_STRUCT_User_Output::dyn_STRUCT_get_CLIB_LeftHemisphore_STRUCT_UserOutput_Item_On_List_Of_ptr_PraiseOutputSubsets(std::byte* sysThreadId, uint64_t* praiseId) {
+	std::list<zinc::Object*>* zinc::CLIB_LeftHemisphore_STRUCT_User_Output::dyn_STRUCT_get_CLIB_LeftHemisphore_STRUCT_UserOutput_Item_On_List_Of_ptr_PraiseOutputSubsets(std::byte* sysThreadId, const uint64_t* praiseId) {
 		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Output : dyn_STRUCT_get_CLIB_LeftHemisphore_STRUCT_UserOutput_Item_On_List_Of_ptr_PraiseOutputSubsets(sysThreadId). " << std::endl;
-		auto* result = new std::list<struct zinc::Object*>();
-		result->resize(*reinterpret_cast<uint8_t*>(1));
-		auto temp = result->begin();
+		stat_REG_ptr_CLIB_LeftHemisphore_STRUCT_UserOutput_Output_SUBSET = new std::list<class zinc::Object*>(1);
+		auto temp = stat_REG_ptr_CLIB_LeftHemisphore_STRUCT_UserOutput_Output_SUBSET->begin();
+		std::advance(temp, 0);
+		std::cout << "alpha" << std::endl;
 		switch (*praiseId) {
-			case 0:
-				*temp = reinterpret_cast<struct zinc::Object*>(stat_REG_get_ptr_CLIB_LeftHemisphore_STRUCT_UserOutput_Output_praise0(sysThreadId));
+			case 0ULL:
+				std::cout << "alpha : alpha" << std::endl;
+				*temp = reinterpret_cast<class Object*>(stat_REG_get_ptr_CLIB_LeftHemisphore_STRUCT_UserOutput_Output_praise0(sysThreadId));
 				break;
 
-			case 1:
-				*temp = reinterpret_cast<struct zinc::Object*>(stat_REG_get_ptr_CLIB_LeftHemisphore_STRUCT_UserOutput_Output_praise1(sysThreadId));
+			case 1ULL:
+				std::cout << "alpha : bravo" << std::endl;
+				*temp = reinterpret_cast<class Object*>(stat_REG_get_ptr_CLIB_LeftHemisphore_STRUCT_UserOutput_Output_praise1(sysThreadId));
 				break;
 
-			case 2:
-				*temp = reinterpret_cast<struct zinc::Object*>(stat_REG_get_ptr_CLIB_LeftHemisphore_STRUCT_UserOutput_Output_praise2(sysThreadId));
+			case 2ULL:
+				std::cout << "alpha : charlie" << std::endl;
+				*temp = reinterpret_cast<class Object*>(stat_REG_get_ptr_CLIB_LeftHemisphore_STRUCT_UserOutput_Output_praise2(sysThreadId));
 				break;
 
-			case 3:
-				*temp = reinterpret_cast<struct zinc::Object*>(stat_REG_get_ptr_CLIB_LeftHemisphore_STRUCT_UserOutput_Output_praise3(sysThreadId));
+			case 3ULL:
+				std::cout << "alpha : delta" << std::endl;
+				*temp = reinterpret_cast<class Object*>(stat_REG_get_ptr_CLIB_LeftHemisphore_STRUCT_UserOutput_Output_praise3(sysThreadId));
 				break;
 
 			default:
+				std::cout << "alpha : zulu" << std::endl;
 				break;
+
 		}
 		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Output : dyn_STRUCT_get_CLIB_LeftHemisphore_STRUCT_UserOutput_Item_On_List_Of_ptr_PraiseOutputSubsets(sysThreadId). " << std::endl;
-		return result;
+		return stat_REG_ptr_CLIB_LeftHemisphore_STRUCT_UserOutput_Output_SUBSET;
 	}
 	void zinc::CLIB_LeftHemisphore_STRUCT_User_Output::dyn_REG_boot1_DEFINE_CLIB_LeftHemisphore_STRUCT_UserOutput(std::byte* sysThreadId) {
 		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Output : dyn_REG_boot1_DEFINE_CLIB_LeftHemisphore_STRUCT_UserOutput(sysThreadId). " << std::endl;
@@ -81,10 +89,15 @@
 		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Output : stat_REG_boot0_DECLARE_CLIB_LeftHemisphore_STRUCT_UserOutput(sysThreadId). " << std::endl;
 	}
 // private.
+	void zinc::CLIB_LeftHemisphore_STRUCT_User_Output::stat_STRUCT_boot1_DEFINE_CLIB_LeftHemisphore_STRUCT_UserOutput_Output_SUBSET(std::byte* sysThreadId) {
+		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Output : stat_STRUCT_boot1_DEFINE_CLIB_LeftHemisphore_STRUCT_UserOutput_Output_SUBSET(sysThreadId). " << std::endl;
+		stat_REG_ptr_CLIB_LeftHemisphore_STRUCT_UserOutput_Output_SUBSET = nullptr;
+		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Output : stat_STRUCT_boot1_DEFINE_CLIB_LeftHemisphore_STRUCT_UserOutput_Output_SUBSET(sysThreadId). " << std::endl;
+	}
 	void zinc::CLIB_LeftHemisphore_STRUCT_User_Output::stat_STRUCT_boot1_DEFINE_CLIB_LeftHemisphore_STRUCT_UserOutput_Output_praise0(std::byte* sysThreadId) {
-		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Output : stat_STRUCT_boot1_DEFINE_CLIB_LeftHemisphore_STRUCT_UserOutput_Outputpraise0(sysThreadId). " << std::endl;
+		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Output : stat_STRUCT_boot1_DEFINE_CLIB_LeftHemisphore_STRUCT_UserOutput_Output_praise0(sysThreadId). " << std::endl;
 		stat_REG_ptr_CLIB_LeftHemisphore_STRUCT_UserOutput_Output_praise0 = nullptr;
-		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Output : stat_STRUCT_boot1_DEFINE_CLIB_LeftHemisphore_STRUCT_UserOutput_Outputpraise0(sysThreadId). " << std::endl;
+		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Output : stat_STRUCT_boot1_DEFINE_CLIB_LeftHemisphore_STRUCT_UserOutput_Output_praise0(sysThreadId). " << std::endl;
 	}
 	void zinc::CLIB_LeftHemisphore_STRUCT_User_Output::stat_STRUCT_boot1_DEFINE_CLIB_LeftHemisphore_STRUCT_UserOutput_Output_praise1(std::byte* sysThreadId) {
 		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Output : stat_STRUCT_boot1_DEFINE_CLIB_LeftHemisphore_STRUCT_UserOutput_Output_praise1(sysThreadId). " << std::endl;
@@ -100,6 +113,11 @@
 		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Output : stat_STRUCT_boot1_DEFINE_CLIB_LeftHemisphore_STRUCT_UserOutput_Output_praise3(sysThreadId). " << std::endl;
 		stat_REG_ptr_CLIB_LeftHemisphore_STRUCT_UserOutput_Output_praise3 = nullptr;
 		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Output : stat_STRUCT_boot1_DEFINE_CLIB_LeftHemisphore_STRUCT_UserOutput_Output_praise3(sysThreadId). " << std::endl;
+	}
+	void zinc::CLIB_LeftHemisphore_STRUCT_User_Output::stat_STRUCT_boot3_INITIALISE_CLIB_LeftHemisphore_STRUCT_UserOutput_Output_SUBSET(std::byte* sysThreadId) {
+		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Output : stat_STRUCT_boot3_INITIALISE_CLIB_LeftHemisphore_STRUCT_UserOutput_Output_SUBSET(sysThreadId). " << std::endl;
+		stat_REG_ptr_CLIB_LeftHemisphore_STRUCT_UserOutput_Output_SUBSET = new std::list<class zinc::Object*>;
+		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Output : stat_STRUCT_boot3_INITIALISE_CLIB_LeftHemisphore_STRUCT_UserOutput_Output_SUBSET(sysThreadId). " << std::endl;
 	}
 	void zinc::CLIB_LeftHemisphore_STRUCT_User_Output::stat_STRUCT_boot3_INITIALISE_CLIB_LeftHemisphore_STRUCT_UserOutput_Output_praise0(std::byte* sysThreadId) {
 		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: entered LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Output : stat_STRUCT_boot3_INITIALISE_CLIB_LeftHemisphore_STRUCT_UserOutput_Output_praise0(sysThreadId). " << std::endl;
@@ -124,6 +142,10 @@
 		stat_REG_ptr_CLIB_LeftHemisphore_STRUCT_UserOutput_Output_praise3 = new struct zinc::CLIB_LeftHemisphore_STRUCT_Output_praise3();
 		while (stat_REG_get_ptr_CLIB_LeftHemisphore_STRUCT_UserOutput_Output_praise3(sysThreadId) == nullptr) {}
 		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_LeftHemisphore_STRUCT_Output : stat_STRUCT_boot3_INITIALISE_CLIB_LeftHemisphore_STRUCT_UserOutput_Output_praise3(sysThreadId). " << std::endl;
+	}
+	std::list<zinc::Object*>* zinc::CLIB_LeftHemisphore_STRUCT_User_Output::stat_REG_get_ptr_CLIB_LeftHemisphore_STRUCT_UserOutput_Output_SUBSET(std::byte* sysThreadId) {
+		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: <= std::list<zinc::Object*>* : stat_REG_get_ptr_CLIB_LeftHemisphore_STRUCT_UserOutput_Output_SUBSET(sysThreadId). " << std::endl;
+		return stat_REG_ptr_CLIB_LeftHemisphore_STRUCT_UserOutput_Output_SUBSET;
 	}
 	zinc::CLIB_LeftHemisphore_STRUCT_Output_praise0* zinc::CLIB_LeftHemisphore_STRUCT_User_Output::stat_REG_get_ptr_CLIB_LeftHemisphore_STRUCT_UserOutput_Output_praise0(std::byte* sysThreadId)	{
 		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: <= struct : stat_REG_get_ptr_CLIB_LeftHemisphore_STRUCT_UserOutput_Output_praise0(sysThreadId). " << std::endl;

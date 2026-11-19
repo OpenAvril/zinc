@@ -20,18 +20,22 @@ namespace zinc {
 		static void stat_STRUCT_boot4_INSTANTIATE_CLIB_LeftHemisphore_STRUCT_UserInput(std::byte* sysThreadId);
 		static void stat_REG_boot0_DECLARE_CLIB_LeftHemisphore_STRUCT_UserInput(std::byte* sysThreadId);
 	private:
+		static std::list<class zinc::Object*>* stat_REG_ptr_CLIB_LeftHemisphore_STRUCT_UserInput_Input_SUBSET;
 		static struct CLIB_LeftHemisphore_STRUCT_Input_praise0* stat_REG_ptr_CLIB_LeftHemisphore_STRUCT_UserInput_Input_praise0;
 		static struct CLIB_LeftHemisphore_STRUCT_Input_praise1* stat_REG_ptr_CLIB_LeftHemisphore_STRUCT_UserInput_Input_praise1;
 		static struct CLIB_LeftHemisphore_STRUCT_Input_praise2* stat_REG_ptr_CLIB_LeftHemisphore_STRUCT_UserInput_Input_praise2;
 		static struct CLIB_LeftHemisphore_STRUCT_Input_praise3* stat_REG_ptr_CLIB_LeftHemisphore_STRUCT_UserInput_Input_praise3;
+		static void stat_STRUCT_boot1_DEFINE_CLIB_LeftHemisphore_STRUCT_UserInput_Input_SUBSET(std::byte* sysThreadId);
 		static void stat_STRUCT_boot1_DEFINE_CLIB_LeftHemisphore_STRUCT_UserInput_Input_praise0(std::byte* sysThreadId);
 		static void stat_STRUCT_boot1_DEFINE_CLIB_LeftHemisphore_STRUCT_UserInput_Input_praise1(std::byte* sysThreadId);
 		static void stat_STRUCT_boot1_DEFINE_CLIB_LeftHemisphore_STRUCT_UserInput_Input_praise2(std::byte* sysThreadId);
 		static void stat_STRUCT_boot1_DEFINE_CLIB_LeftHemisphore_STRUCT_UserInput_Input_praise3(std::byte* sysThreadId);
+		static void stat_STRUCT_boot3_INITIALISE_CLIB_LeftHemisphore_STRUCT_UserInput_Input_SUBSET(std::byte* sysThreadId);
 		static void stat_STRUCT_boot3_INITIALISE_CLIB_LeftHemisphore_STRUCT_UserInput_Input_praise0(std::byte* sysThreadId);
 		static void stat_STRUCT_boot3_INITIALISE_CLIB_LeftHemisphore_STRUCT_UserInput_Input_praise1(std::byte* sysThreadId);
 		static void stat_STRUCT_boot3_INITIALISE_CLIB_LeftHemisphore_STRUCT_UserInput_Input_praise2(std::byte* sysThreadId);
 		static void stat_STRUCT_boot3_INITIALISE_CLIB_LeftHemisphore_STRUCT_UserInput_Input_praise3(std::byte* sysThreadId);
+		static std::list<class Object*>* stat_REG_get_ptr_CLIB_LeftHemisphore_STRUCT_UserInput_Input_SUBSET(std::byte* sysThreadId);
 		static struct CLIB_LeftHemisphore_STRUCT_Input_praise0* stat_REG_get_ptr_CLIB_LeftHemisphore_STRUCT_UserInput_Input_praise0(std::byte* sysThreadId);
 		static struct CLIB_LeftHemisphore_STRUCT_Input_praise1* stat_REG_get_ptr_CLIB_LeftHemisphore_STRUCT_UserInput_Input_praise1(std::byte* sysThreadId);
 		static struct CLIB_LeftHemisphore_STRUCT_Input_praise2* stat_REG_get_ptr_CLIB_LeftHemisphore_STRUCT_UserInput_Input_praise2(std::byte* sysThreadId);
