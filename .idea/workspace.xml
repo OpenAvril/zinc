@@ -33,12 +33,14 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fb33d3f-99ba-4f2a-b0ec-fe17b1bccdcf" name="Changes" comment="DEVELOPMENT_2026_11_19_1221 &lt;COMPILE_SUCCESS&gt; &lt;RUNTIME_TEST&gt;.&#10;&#10;PHASE: Design, *Implementation*, **Testing**, Review.&#10;&#10;---&#10;BUILT: DEVELOPMENT_2026_11_19_1221.&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.1.&#10;     - zinc_launch_que v1.2.1.&#10;     - zinc_stemisphore v1.2.2.&#10;       - LIMIT mutex AccessId of uint8_t : MutexQue(A_64-bit, B_8-bit) MutexQue(B_reduced-bit, C_8-bit).&#10;     - zinc_epicentre v1.2.2.&#10;       &#10;---&#10;IMPLEMENTED:&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.1.&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;     - zinc_launch_que v1.2.1.&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;     - zinc_stemisphore v1.2.2.&#10;       - LIMIT mutex AccessId of uint8_t : MutexQue(A_64-bit, B_8-bit) MutexQue(B_reduced-bit, C_8-bit).&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;     - zinc_epicentre v1.2.2.&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;&#10;---&#10;TODO:&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.1.&#10;       - reInitialiseHandle();&#10;     - zinc_launch_que v1.2.1.&#10;       - reInitialiseHandle();&#10;     - zinc_stemisphore v1.2.2.&#10;       - LIMIT mutex AccessId of uint8_t : MutexQue(A_64-bit, B_8-bit) MutexQue(B_reduced-bit, C_8-bit).&#10;       - reInitialiseHandle();&#10;   - zinc_epicentre v1.2.2.&#10;     - reInitialiseHandle();&#10;   - zinc_stemisphore v1.2.2.&#10;     - generateHandle();&#10;     - reInitialiseHandle();&#10;   - zinc_epicentre v1.2.2.&#10;     - gernerateProgram();&#10;     - generateHandle();&#10;     - reInitialiseHandle();&#10;   &#10;---&#10;---">
+    <list default="true" id="2fb33d3f-99ba-4f2a-b0ec-fe17b1bccdcf" name="Changes" comment="DEVELOPMENT_2026_11_19_1343 &lt;COMPILE_SUCCESS&gt; &lt;RUNTIME_TEST&gt;.&#10;&#10;PHASE: Design, *Implementation*, **Testing**, Review.&#10;&#10;---&#10;BUILT: DEVELOPMENT_2026_11_19_1343.&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.1.&#10;     - zinc_launch_que v1.2.1.&#10;     - zinc_stemisphore v1.2.2.&#10;       - LIMIT mutex AccessId of uint8_t : MutexQue(A_64-bit, B_8-bit) MutexQue(B_reduced-bit, C_8-bit).&#10;     - zinc_epicentre v1.2.2.&#10;       &#10;---&#10;IMPLEMENTED:&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.1.&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;     - zinc_launch_que v1.2.1.&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;     - zinc_stemisphore v1.2.2.&#10;       - LIMIT mutex AccessId of uint8_t : MutexQue(A_64-bit, B_8-bit) MutexQue(B_reduced-bit, C_8-bit).&#10;       - gernerateProgram();&#10;     - zinc_epicentre v1.2.2.&#10;       - gernerateProgram();&#10;&#10;---&#10;TODO:&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.1.&#10;       - reInitialiseHandle(); ERROR @ thread 0 :: entered LIB :: CLIB : CLIB_MutexQue : reInitialiseHandle(sysThreadId)&#10;     - zinc_launch_que v1.2.1.&#10;       - reInitialiseHandle();&#10;     - zinc_stemisphore v1.2.2.&#10;       - LIMIT mutex AccessId of uint8_t : MutexQue(A_64-bit, B_8-bit) MutexQue(B_reduced-bit, C_8-bit).&#10;       - reInitialiseHandle();&#10;   - zinc_epicentre v1.2.2.&#10;     - reInitialiseHandle();&#10;   - zinc_stemisphore v1.2.2.&#10;     - generateHandle();&#10;     - reInitialiseHandle();&#10;   - zinc_epicentre v1.2.2.&#10;     - gernerateProgram();&#10;     - generateHandle();&#10;     - reInitialiseHandle();&#10;   &#10;---&#10;---">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/include/independent/CLIB_LeftHemisphore_STRUCT_User_Input.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/include/independent/CLIB_LeftHemisphore_STRUCT_User_Input.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/include/independent/CLIB_LeftHemisphore_STRUCT_User_Output.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/include/independent/CLIB_LeftHemisphore_STRUCT_User_Output.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/src/independent/CLIB_LeftHemisphore_STRUCT_User_Input.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/src/independent/CLIB_LeftHemisphore_STRUCT_User_Input.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/src/independent/CLIB_LeftHemisphore_STRUCT_User_Output.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/src/independent/CLIB_LeftHemisphore_STRUCT_User_Output.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/io/include/CLIB_MutexQue.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/io/include/CLIB_MutexQue.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/io/src/CLIB_MutexQue.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/io/src/CLIB_MutexQue.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/CMakeLists.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,61 +77,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0008042881028003" />
-      <entry key="MS500" value="1.2404818638762085" />
-      <entry key="S2" value="1.7063720319504543" />
-      <entry key="S5" value="2.1556052778698453" />
-      <entry key="S10" value="3.245232167456765" />
-      <entry key="S30" value="6.793907323875032" />
-      <entry key="S60" value="9.338845422749522" />
-      <entry key="M2" value="11.297912018305334" />
-      <entry key="M5" value="12.813402174467889" />
-      <entry key="M10" value="13.746563238508173" />
-      <entry key="M15" value="15.644084488139697" />
-      <entry key="M30" value="27.69496609145761" />
-      <entry key="H1" value="58.33629124855753" />
-      <entry key="H2" value="110.52013741844495" />
-      <entry key="H4" value="210.6707699954952" />
-      <entry key="D1" value="782.4101814363332" />
-      <entry key="W1" value="1108.370491505062" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.000169882906248" />
+      <entry key="S2" value="1.133490949468194" />
+      <entry key="S5" value="1.6962423665419497" />
+      <entry key="S10" value="2.3723356181904576" />
+      <entry key="S30" value="3.2823190416792647" />
+      <entry key="S60" value="3.617167421578851" />
+      <entry key="M2" value="3.926315079473407" />
+      <entry key="M5" value="5.457410305940033" />
+      <entry key="M10" value="9.028574229982516" />
+      <entry key="M15" value="12.436490938263699" />
+      <entry key="M30" value="24.38097431057568" />
+      <entry key="H1" value="53.47294240614207" />
+      <entry key="H2" value="105.91308913768779" />
+      <entry key="H4" value="206.49242191893913" />
+      <entry key="D1" value="783.4922843296791" />
+      <entry key="W1" value="1116.5593246740573" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="5.89046234069957E-220" />
-      <entry key="S10" value="2.4270283474709774E-110" />
-      <entry key="S30" value="2.927953553685344E-37" />
-      <entry key="S60" value="6.188853795736759E-19" />
-      <entry key="M2" value="1.135521969069974E-9" />
-      <entry key="M5" value="4.86351687800619E-4" />
-      <entry key="M10" value="0.0385814151118843" />
-      <entry key="M15" value="0.18440700734203636" />
-      <entry key="M30" value="1.459859081274103" />
-      <entry key="H1" value="6.39503261815408" />
-      <entry key="H2" value="17.717676167670657" />
-      <entry key="H4" value="44.27269696598917" />
-      <entry key="D1" value="205.90408043795344" />
-      <entry key="W1" value="298.0578458229587" />
+      <entry key="S2" value="1.0748701183907E-109" />
+      <entry key="S5" value="2.5854872225291717E-44" />
+      <entry key="S10" value="1.6079450309414096E-22" />
+      <entry key="S30" value="5.4378062888241714E-8" />
+      <entry key="S60" value="2.3319104375649108E-4" />
+      <entry key="M2" value="0.01527059408686715" />
+      <entry key="M5" value="0.18775193951342936" />
+      <entry key="M10" value="0.4407422287715048" />
+      <entry key="M15" value="0.6342552097239962" />
+      <entry key="M30" value="1.6008607486770252" />
+      <entry key="H1" value="5.732835844722825" />
+      <entry key="H2" value="16.38291932254404" />
+      <entry key="H4" value="42.308586907083324" />
+      <entry key="D1" value="204.5619695395667" />
+      <entry key="W1" value="298.57151391024723" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.005226281951681167" />
-      <entry key="MS500" value="0.3685995335476931" />
-      <entry key="S2" value="1.1449327942791094" />
-      <entry key="S5" value="1.8376460900086466" />
-      <entry key="S10" value="3.0178612400456863" />
-      <entry key="S30" value="6.642484458905596" />
-      <entry key="S60" value="9.235463880935463" />
-      <entry key="M2" value="11.235553141656192" />
-      <entry key="M5" value="12.785643168107924" />
-      <entry key="M10" value="13.770048289234452" />
-      <entry key="M15" value="15.817350154821334" />
-      <entry key="M30" value="29.14443780691063" />
-      <entry key="H1" value="64.71560462189606" />
-      <entry key="H2" value="128.2174745023175" />
-      <entry key="H4" value="254.92004830777344" />
-      <entry key="D1" value="988.2979270688927" />
-      <entry key="W1" value="1406.424993798832" />
+      <entry key="MS100" value="0.7320428479728127" />
+      <entry key="MS500" value="0.9396839131886354" />
+      <entry key="S2" value="1.1161809413080952" />
+      <entry key="S5" value="1.6855587725737842" />
+      <entry key="S10" value="2.3643426530992113" />
+      <entry key="S30" value="3.278347203733807" />
+      <entry key="S60" value="3.6150701127836804" />
+      <entry key="M2" value="3.938349577129248" />
+      <entry key="M5" value="5.635040724876295" />
+      <entry key="M10" value="9.456592399735337" />
+      <entry key="M15" value="13.058518057658647" />
+      <entry key="M30" value="25.970286748087698" />
+      <entry key="H1" value="59.19065906970982" />
+      <entry key="H2" value="122.27658003674122" />
+      <entry key="H4" value="248.77826507431496" />
+      <entry key="D1" value="988.0379544720844" />
+      <entry key="W1" value="1415.127478979138" />
     </decayedShown>
   </component>
   <component name="ProjectApplicationVersion">
@@ -301,7 +303,8 @@
     <MESSAGE value="DEVELOPMENT_2026_11_18_1251, &lt;COMPILE_SUCCESS&gt; &lt;RUNTIME_TEST&gt;.&#10;BUILT: DEVELOPMENT_2026_11_18_1251.&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.1.&#10;     - zinc_launch_que v1.2.1.&#10;     ** UNDER DEVELOPMENT **&#10;       - zinc_stemisphore vx.x.x.&#10;PHASE: Design, Implementation, **Testing**, *Review*.&#10;&#10;IMPLEMENTED:&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.1.&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;     - zinc_launch_que v1.2.1.&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;     ** UNDER DEVELOPMENT **&#10;       - zinc_stemisphore vx.x.x.&#10;         - gernerateProgram();&#10;         - generateHandle();&#10;       - zinc_epicentre vx.x.x.&#10;TODO:&#10; - zinc_stemisphore v1.2.2.&#10;   - generatereInitialiseHandle();&#10; - zinc_epicentre v1.2.2.&#10;&#10;---&#10;---" />
     <MESSAGE value="DEVELOPMENT_2026_11_18_2000 &lt;COMPILE_SUCCESS&gt; &lt;RUNTIME_TEST&gt;.&#10;BUILT: DEVELOPMENT_2026_11_18_2000.&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.1.&#10;     - zinc_launch_que v1.2.1.&#10;     ** UNDER DEVELOPMENT **&#10;       - zinc_stemisphore vx.x.x.&#10;PHASE: Design, Implementation, **Testing**, *Review*.&#10;&#10;IMPLEMENTED:&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.1.&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;     - zinc_launch_que v1.2.1.&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;     ** UNDER DEVELOPMENT **&#10;       - zinc_stemisphore vx.x.x.&#10;         - gernerateProgram();&#10;         - generateHandle();&#10;       - zinc_epicentre vx.x.x.&#10;TODO:&#10; - zinc_stemisphore v1.2.2.&#10;   - generatereInitialiseHandle();&#10; - zinc_epicentre v1.2.2.&#10;&#10;---&#10;---" />
     <MESSAGE value="DEVELOPMENT_2026_11_19_1221 &lt;COMPILE_SUCCESS&gt; &lt;RUNTIME_TEST&gt;.&#10;&#10;PHASE: Design, *Implementation*, **Testing**, Review.&#10;&#10;---&#10;BUILT: DEVELOPMENT_2026_11_19_1221.&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.1.&#10;     - zinc_launch_que v1.2.1.&#10;     - zinc_stemisphore v1.2.2.&#10;       - LIMIT mutex AccessId of uint8_t : MutexQue(A_64-bit, B_8-bit) MutexQue(B_reduced-bit, C_8-bit).&#10;     - zinc_epicentre v1.2.2.&#10;       &#10;---&#10;IMPLEMENTED:&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.1.&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;     - zinc_launch_que v1.2.1.&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;     - zinc_stemisphore v1.2.2.&#10;       - LIMIT mutex AccessId of uint8_t : MutexQue(A_64-bit, B_8-bit) MutexQue(B_reduced-bit, C_8-bit).&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;     - zinc_epicentre v1.2.2.&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;&#10;---&#10;TODO:&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.1.&#10;       - reInitialiseHandle();&#10;     - zinc_launch_que v1.2.1.&#10;       - reInitialiseHandle();&#10;     - zinc_stemisphore v1.2.2.&#10;       - LIMIT mutex AccessId of uint8_t : MutexQue(A_64-bit, B_8-bit) MutexQue(B_reduced-bit, C_8-bit).&#10;       - reInitialiseHandle();&#10;   - zinc_epicentre v1.2.2.&#10;     - reInitialiseHandle();&#10;   - zinc_stemisphore v1.2.2.&#10;     - generateHandle();&#10;     - reInitialiseHandle();&#10;   - zinc_epicentre v1.2.2.&#10;     - gernerateProgram();&#10;     - generateHandle();&#10;     - reInitialiseHandle();&#10;   &#10;---&#10;---" />
-    <option name="LAST_COMMIT_MESSAGE" value="DEVELOPMENT_2026_11_19_1221 &lt;COMPILE_SUCCESS&gt; &lt;RUNTIME_TEST&gt;.&#10;&#10;PHASE: Design, *Implementation*, **Testing**, Review.&#10;&#10;---&#10;BUILT: DEVELOPMENT_2026_11_19_1221.&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.1.&#10;     - zinc_launch_que v1.2.1.&#10;     - zinc_stemisphore v1.2.2.&#10;       - LIMIT mutex AccessId of uint8_t : MutexQue(A_64-bit, B_8-bit) MutexQue(B_reduced-bit, C_8-bit).&#10;     - zinc_epicentre v1.2.2.&#10;       &#10;---&#10;IMPLEMENTED:&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.1.&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;     - zinc_launch_que v1.2.1.&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;     - zinc_stemisphore v1.2.2.&#10;       - LIMIT mutex AccessId of uint8_t : MutexQue(A_64-bit, B_8-bit) MutexQue(B_reduced-bit, C_8-bit).&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;     - zinc_epicentre v1.2.2.&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;&#10;---&#10;TODO:&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.1.&#10;       - reInitialiseHandle();&#10;     - zinc_launch_que v1.2.1.&#10;       - reInitialiseHandle();&#10;     - zinc_stemisphore v1.2.2.&#10;       - LIMIT mutex AccessId of uint8_t : MutexQue(A_64-bit, B_8-bit) MutexQue(B_reduced-bit, C_8-bit).&#10;       - reInitialiseHandle();&#10;   - zinc_epicentre v1.2.2.&#10;     - reInitialiseHandle();&#10;   - zinc_stemisphore v1.2.2.&#10;     - generateHandle();&#10;     - reInitialiseHandle();&#10;   - zinc_epicentre v1.2.2.&#10;     - gernerateProgram();&#10;     - generateHandle();&#10;     - reInitialiseHandle();&#10;   &#10;---&#10;---" />
+    <MESSAGE value="DEVELOPMENT_2026_11_19_1343 &lt;COMPILE_SUCCESS&gt; &lt;RUNTIME_TEST&gt;.&#10;&#10;PHASE: Design, *Implementation*, **Testing**, Review.&#10;&#10;---&#10;BUILT: DEVELOPMENT_2026_11_19_1343.&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.1.&#10;     - zinc_launch_que v1.2.1.&#10;     - zinc_stemisphore v1.2.2.&#10;       - LIMIT mutex AccessId of uint8_t : MutexQue(A_64-bit, B_8-bit) MutexQue(B_reduced-bit, C_8-bit).&#10;     - zinc_epicentre v1.2.2.&#10;       &#10;---&#10;IMPLEMENTED:&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.1.&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;     - zinc_launch_que v1.2.1.&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;     - zinc_stemisphore v1.2.2.&#10;       - LIMIT mutex AccessId of uint8_t : MutexQue(A_64-bit, B_8-bit) MutexQue(B_reduced-bit, C_8-bit).&#10;       - gernerateProgram();&#10;     - zinc_epicentre v1.2.2.&#10;       - gernerateProgram();&#10;&#10;---&#10;TODO:&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.1.&#10;       - reInitialiseHandle(); ERROR @ thread 0 :: entered LIB :: CLIB : CLIB_MutexQue : reInitialiseHandle(sysThreadId)&#10;     - zinc_launch_que v1.2.1.&#10;       - reInitialiseHandle();&#10;     - zinc_stemisphore v1.2.2.&#10;       - LIMIT mutex AccessId of uint8_t : MutexQue(A_64-bit, B_8-bit) MutexQue(B_reduced-bit, C_8-bit).&#10;       - reInitialiseHandle();&#10;   - zinc_epicentre v1.2.2.&#10;     - reInitialiseHandle();&#10;   - zinc_stemisphore v1.2.2.&#10;     - generateHandle();&#10;     - reInitialiseHandle();&#10;   - zinc_epicentre v1.2.2.&#10;     - gernerateProgram();&#10;     - generateHandle();&#10;     - reInitialiseHandle();&#10;   &#10;---&#10;---" />
+    <option name="LAST_COMMIT_MESSAGE" value="DEVELOPMENT_2026_11_19_1343 &lt;COMPILE_SUCCESS&gt; &lt;RUNTIME_TEST&gt;.&#10;&#10;PHASE: Design, *Implementation*, **Testing**, Review.&#10;&#10;---&#10;BUILT: DEVELOPMENT_2026_11_19_1343.&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.1.&#10;     - zinc_launch_que v1.2.1.&#10;     - zinc_stemisphore v1.2.2.&#10;       - LIMIT mutex AccessId of uint8_t : MutexQue(A_64-bit, B_8-bit) MutexQue(B_reduced-bit, C_8-bit).&#10;     - zinc_epicentre v1.2.2.&#10;       &#10;---&#10;IMPLEMENTED:&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.1.&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;     - zinc_launch_que v1.2.1.&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;     - zinc_stemisphore v1.2.2.&#10;       - LIMIT mutex AccessId of uint8_t : MutexQue(A_64-bit, B_8-bit) MutexQue(B_reduced-bit, C_8-bit).&#10;       - gernerateProgram();&#10;     - zinc_epicentre v1.2.2.&#10;       - gernerateProgram();&#10;&#10;---&#10;TODO:&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.1.&#10;       - reInitialiseHandle(); ERROR @ thread 0 :: entered LIB :: CLIB : CLIB_MutexQue : reInitialiseHandle(sysThreadId)&#10;     - zinc_launch_que v1.2.1.&#10;       - reInitialiseHandle();&#10;     - zinc_stemisphore v1.2.2.&#10;       - LIMIT mutex AccessId of uint8_t : MutexQue(A_64-bit, B_8-bit) MutexQue(B_reduced-bit, C_8-bit).&#10;       - reInitialiseHandle();&#10;   - zinc_epicentre v1.2.2.&#10;     - reInitialiseHandle();&#10;   - zinc_stemisphore v1.2.2.&#10;     - generateHandle();&#10;     - reInitialiseHandle();&#10;   - zinc_epicentre v1.2.2.&#10;     - gernerateProgram();&#10;     - generateHandle();&#10;     - reInitialiseHandle();&#10;   &#10;---&#10;---" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -374,6 +377,11 @@
           <url>file://$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/src/independent/CLIB_LeftHemisphore_STRUCT_User_Input.cpp</url>
           <line>153</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/io/src/CLIB_MutexQue.cpp</url>
+          <line>147</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -6,8 +6,8 @@
 #include <cstdint>
 #include <iostream>
 #include <limits.h>
-static std::list<zinc::CLIB_MutexQue_Framework*>* stat_REG_ptr_CLIB_MutexQue_array_of_ptr_MutexQue;//todo number of data clusters.
-	static std::array<bool, 5>* stat_REG_ptr_CLIB_MutexQue_array_of_array_of_isMemberFunctionINSTANTIATED;//todo number of data clusters.
+static std::list<zinc::CLIB_MutexQue_Framework*>* stat_REG_ptr_CLIB_MutexQue_array_of_ptr_MutexQue;
+	static std::array<bool, 6>* stat_REG_ptr_CLIB_MutexQue_array_of_array_of_isMemberFunctionINSTANTIATED;
 // public.
 	void zinc::MutexQue::endByUnlock(std::byte* sysThreadId, unsigned char* handleId, std::byte* byte_ACCESS_ID) {
 		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_MutexQue : unlock(sysThreadId)" << std::endl;
@@ -17,7 +17,7 @@ static std::list<zinc::CLIB_MutexQue_Framework*>* stat_REG_ptr_CLIB_MutexQue_arr
 			CLIB_MutexQue_stat_PGM_get_ptr_CLIB_MutexQue(sysThreadId, CLIB_MutexQue_Framework_Global::stat_CONVERT_CLIB_MutexQue_Framework_Global_MsbByteArray_To_VUALUEofMsbunsignedLongLong(sysThreadId, handleId))->dyn_CLASS_get_ptr_CLIB_MutexQue_App(sysThreadId)->dyn_CLASS_get_ptr_CLIB_MutexQue_App_Control(sysThreadId)->dyn_REG_set_FLAG_CLIB_MutexQue_Framework_App_Control_isWriteStartThreadRELASE_REMAINING(sysThreadId, true);
 		}
 		else {
-			CLIB_MutexQue_stat_REG_get_array_of_isMemberFunctionINSTANTIATED(sysThreadId)->at(3) = !CLIB_MutexQue_stat_REG_get_array_of_isMemberFunctionINSTANTIATED(sysThreadId)->at(0);
+			CLIB_MutexQue_stat_REG_get_array_of_isMemberFunctionINSTANTIATED(sysThreadId)->at(1) = !CLIB_MutexQue_stat_REG_get_array_of_isMemberFunctionINSTANTIATED(sysThreadId)->at(0);
 			CLIB_MutexQue_stat_REG_get_array_of_isMemberFunctionINSTANTIATED(sysThreadId);
 		}
 		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_MutexQue : unlock(sysThreadId)" << std::endl;
@@ -25,9 +25,15 @@ static std::list<zinc::CLIB_MutexQue_Framework*>* stat_REG_ptr_CLIB_MutexQue_arr
 	unsigned char* zinc::MutexQue::generateHandle(std::byte* sysThreadId) {
 		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_MutexQue : generateHandle(sysThreadId)" << std::endl;
 		auto handleId = new uint64_t(UINT64_MAX);
-		CLIB_MutexQue_stat_PGM_get_array_of_ptr_CLIB_MutexQue(sysThreadId)->resize(CLIB_MutexQue_stat_PGM_get_array_of_ptr_CLIB_MutexQue(sysThreadId)->size()+1);
-		CLIB_MutexQue_stat_PGM_get_array_of_ptr_CLIB_MutexQue(sysThreadId)->assign(CLIB_MutexQue_stat_PGM_get_array_of_ptr_CLIB_MutexQue(sysThreadId)->size(), *CLIB_MutexQue_stat_PGM_get_array_of_ptr_CLIB_MutexQue(sysThreadId)->begin());
-		*handleId = static_cast<uint64_t>(CLIB_MutexQue_stat_PGM_get_array_of_ptr_CLIB_MutexQue(sysThreadId)->size() - 1);
+		if (!CLIB_MutexQue_stat_REG_get_array_of_isMemberFunctionINSTANTIATED(sysThreadId)->at(0)) {
+			CLIB_MutexQue_stat_PGM_get_array_of_ptr_CLIB_MutexQue(sysThreadId)->resize(CLIB_MutexQue_stat_PGM_get_array_of_ptr_CLIB_MutexQue(sysThreadId)->size()+1);
+			CLIB_MutexQue_stat_PGM_get_array_of_ptr_CLIB_MutexQue(sysThreadId)->assign(CLIB_MutexQue_stat_PGM_get_array_of_ptr_CLIB_MutexQue(sysThreadId)->size(), *CLIB_MutexQue_stat_PGM_get_array_of_ptr_CLIB_MutexQue(sysThreadId)->begin());
+			*handleId = static_cast<uint64_t>(CLIB_MutexQue_stat_PGM_get_array_of_ptr_CLIB_MutexQue(sysThreadId)->size() - 1);
+		}
+		else {
+			CLIB_MutexQue_stat_REG_get_array_of_isMemberFunctionINSTANTIATED(sysThreadId)->at(2) = !CLIB_MutexQue_stat_REG_get_array_of_isMemberFunctionINSTANTIATED(sysThreadId)->at(0);
+			CLIB_MutexQue_stat_REG_get_array_of_isMemberFunctionINSTANTIATED(sysThreadId);
+		}
 		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_MutexQue : generateHandle(sysThreadId)" << std::endl;
 		return CLIB_MutexQue_Framework_Global::stat_CONVERT_CLIB_MutexQue_Framework_Global_VUALUEofMsbUnsignedLongLong_to_ByteArray(sysThreadId, handleId);
 	}
@@ -42,13 +48,19 @@ static std::list<zinc::CLIB_MutexQue_Framework*>* stat_REG_ptr_CLIB_MutexQue_arr
 	}
 	void zinc::MutexQue::reInitialiseHandle(std::byte* sysThreadId, unsigned char* handleId, std::byte* MAX_NUMBER_OF_THREADS_FOR_ACCESS) {
 		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_MutexQue : reInitialiseHandle(sysThreadId)" << std::endl;
-		auto temp = CLIB_MutexQue_stat_PGM_get_array_of_ptr_CLIB_MutexQue(sysThreadId)->begin();
-		std::advance(temp, *CLIB_MutexQue_Framework_Global::stat_CONVERT_CLIB_MutexQue_Framework_Global_MsbByteArray_To_VUALUEofMsbunsignedLongLong(sysThreadId, handleId));
-		auto tempObj = *temp;
-		std::cout << "a " << std::endl;
-		tempObj->dyn_CLASS_get_ptr_CLIB_MutexQue_Global(sysThreadId)->dyn_REG_boot3_REINITIALISE_CLIB_MutexQue_Global_MAX_NUMBER_OF_THREADS_FOR_ACCESS_ID(sysThreadId, reinterpret_cast<uint8_t*>(MAX_NUMBER_OF_THREADS_FOR_ACCESS));
-		std::cout << "b " << std::endl;
-		tempObj->dyn_CLASS_get_ptr_CLIB_MutexQue_App(sysThreadId)->dyn_CLASS_get_ptr_CLIB_MutexQue_App_Control(sysThreadId)->dyn_REG_boot3_REINITIALISE_CLIB_MutexQue_Framework_App_Control_For_New_Access_Count(sysThreadId, tempObj);
+		if (!CLIB_MutexQue_stat_REG_get_array_of_isMemberFunctionINSTANTIATED(sysThreadId)->at(0)) {
+			auto temp = CLIB_MutexQue_stat_PGM_get_array_of_ptr_CLIB_MutexQue(sysThreadId)->begin();
+			std::advance(temp, *CLIB_MutexQue_Framework_Global::stat_CONVERT_CLIB_MutexQue_Framework_Global_MsbByteArray_To_VUALUEofMsbunsignedLongLong(sysThreadId, handleId));
+			class zinc::CLIB_MutexQue_Framework* tempObj = *temp;
+			std::cout << "a " << std::endl;
+			tempObj->dyn_CLASS_get_ptr_CLIB_MutexQue_Global(sysThreadId)->dyn_REG_boot3_REINITIALISE_CLIB_MutexQue_Global_MAX_NUMBER_OF_THREADS_FOR_ACCESS_ID(sysThreadId, reinterpret_cast<uint8_t*>(MAX_NUMBER_OF_THREADS_FOR_ACCESS));
+			std::cout << "b " << std::endl;
+			tempObj->dyn_CLASS_get_ptr_CLIB_MutexQue_App(sysThreadId)->dyn_CLASS_get_ptr_CLIB_MutexQue_App_Control(sysThreadId)->dyn_REG_boot3_REINITIALISE_CLIB_MutexQue_Framework_App_Control_For_New_Access_Count(sysThreadId, tempObj);
+		}
+		else {
+			CLIB_MutexQue_stat_REG_get_array_of_isMemberFunctionINSTANTIATED(sysThreadId)->at(3) = !CLIB_MutexQue_stat_REG_get_array_of_isMemberFunctionINSTANTIATED(sysThreadId)->at(0);
+			CLIB_MutexQue_stat_REG_get_array_of_isMemberFunctionINSTANTIATED(sysThreadId);
+		}
 		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_MutexQue : reInitialiseHandle(sysThreadId)" << std::endl;
 	}
 	void zinc::MutexQue::startByLock(std::byte* sysThreadId, unsigned char* handleId, std::byte* byte_ACCESS_ID) {
@@ -69,7 +81,7 @@ static std::list<zinc::CLIB_MutexQue_Framework*>* stat_REG_ptr_CLIB_MutexQue_arr
 			delete stat_REG_ptr_CLIB_MutexQue_array_of_array_of_isMemberFunctionINSTANTIATED;
 		}
 		else {
-			CLIB_MutexQue_stat_REG_get_array_of_isMemberFunctionINSTANTIATED(sysThreadId)->at(2) = !CLIB_MutexQue_stat_REG_get_array_of_isMemberFunctionINSTANTIATED(sysThreadId)->at(0);
+			CLIB_MutexQue_stat_REG_get_array_of_isMemberFunctionINSTANTIATED(sysThreadId)->at(5) = !CLIB_MutexQue_stat_REG_get_array_of_isMemberFunctionINSTANTIATED(sysThreadId)->at(0);
 			CLIB_MutexQue_stat_REG_get_array_of_isMemberFunctionINSTANTIATED(sysThreadId);
 		}
 		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_MutexQue : terminateProgram(sysThreadId)" << std::endl;
@@ -153,7 +165,7 @@ static std::list<zinc::CLIB_MutexQue_Framework*>* stat_REG_ptr_CLIB_MutexQue_arr
 	}
 	void zinc::MutexQue::CLIB_MutexQue_stat_REG_boot2_SUBSTANTIATE_array_of_isMemberFunctionINSTANTIATED(std::byte* sysThreadId) {
 		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: entered LIB :: CLIB : CLIB_MutexQue : CLIB_MutexQue_stat_REG_boot2_SUBSTANTIATE_array_of_isMemberFunctionINSTANTIATED(sysThreadId)" << std::endl;
-		stat_REG_ptr_CLIB_MutexQue_array_of_array_of_isMemberFunctionINSTANTIATED = new std::array<bool, 5>();
+		stat_REG_ptr_CLIB_MutexQue_array_of_array_of_isMemberFunctionINSTANTIATED = new std::array<bool, 6>();
 		for (int memberFunctionId = 0; memberFunctionId < static_cast<int>(CLIB_MutexQue_stat_REG_get_array_of_isMemberFunctionINSTANTIATED(sysThreadId)->size()); memberFunctionId++) {
 			CLIB_MutexQue_stat_REG_get_array_of_isMemberFunctionINSTANTIATED(sysThreadId)->at(memberFunctionId) = true;
 		}
@@ -166,7 +178,7 @@ static std::list<zinc::CLIB_MutexQue_Framework*>* stat_REG_ptr_CLIB_MutexQue_arr
 		}
 	 	std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: exiting LIB :: CLIB : CLIB_MutexQue : CLIB_MutexQue_stat_REG_boot3_INITIALISE_array_of_isMemberFunctionINSTANTIATED(sysThreadId)" << std::endl;
 	}
-	std::array<bool, 5>* zinc::MutexQue::CLIB_MutexQue_stat_REG_get_array_of_isMemberFunctionINSTANTIATED(std::byte* sysThreadId) {
+	std::array<bool, 6>* zinc::MutexQue::CLIB_MutexQue_stat_REG_get_array_of_isMemberFunctionINSTANTIATED(std::byte* sysThreadId) {
 		return stat_REG_ptr_CLIB_MutexQue_array_of_array_of_isMemberFunctionINSTANTIATED;
 	}
 	std::list<zinc::CLIB_MutexQue_Framework*>* zinc::MutexQue::CLIB_MutexQue_stat_PGM_get_array_of_ptr_CLIB_MutexQue(std::byte* sysThreadId) {
