@@ -73,61 +73,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0779032210768125" />
-      <entry key="MS500" value="2.1272324107618408" />
-      <entry key="S2" value="3.3105421699146307" />
-      <entry key="S5" value="3.7815717206282073" />
-      <entry key="S10" value="4.487305092259554" />
-      <entry key="S30" value="6.469713488748116" />
-      <entry key="S60" value="7.5247891191009355" />
-      <entry key="M2" value="8.207447437781703" />
-      <entry key="M5" value="9.0341524468664" />
-      <entry key="M10" value="10.990401238535716" />
-      <entry key="M15" value="13.58954716172232" />
-      <entry key="M30" value="23.639685376733766" />
-      <entry key="H1" value="50.01219168654751" />
-      <entry key="H2" value="101.67385453534268" />
-      <entry key="H4" value="202.1702048698301" />
-      <entry key="D1" value="784.8921469030267" />
-      <entry key="W1" value="1126.3903219217793" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000480015535833" />
+      <entry key="S5" value="1.0380429916857403" />
+      <entry key="S10" value="1.4497331825133257" />
+      <entry key="S30" value="3.5010525180325724" />
+      <entry key="S60" value="4.94332990005506" />
+      <entry key="M2" value="7.08728817391903" />
+      <entry key="M5" value="13.626876849003807" />
+      <entry key="M10" value="20.372572245109872" />
+      <entry key="M15" value="25.05073184231932" />
+      <entry key="M30" value="37.2127258221267" />
+      <entry key="H1" value="64.22385020422603" />
+      <entry key="H2" value="116.27939859015649" />
+      <entry key="H4" value="217.04717679033106" />
+      <entry key="D1" value="801.693301380487" />
+      <entry key="W1" value="1145.7366135794996" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="2.7835034156736885E-146" />
-      <entry key="S10" value="1.6683834738074124E-73" />
-      <entry key="S30" value="5.505101023809235E-25" />
-      <entry key="S60" value="7.419636799607672E-13" />
-      <entry key="M2" value="8.613731363297691E-7" />
-      <entry key="M5" value="0.0037507540604216974" />
-      <entry key="M10" value="0.06229479220740863" />
-      <entry key="M15" value="0.17209784356131075" />
-      <entry key="M30" value="0.8338909277857182" />
-      <entry key="H1" value="4.137589038105181" />
-      <entry key="H2" value="13.918108435709895" />
-      <entry key="H4" value="38.996262205518995" />
-      <entry key="D1" value="201.80130639653814" />
-      <entry key="W1" value="297.99253259921693" />
+      <entry key="MS500" value="1.2242841794002567E-279" />
+      <entry key="S2" value="1.8705553319033513E-70" />
+      <entry key="S5" value="1.2846600647313097E-28" />
+      <entry key="S10" value="1.1334284559385781E-14" />
+      <entry key="S30" value="2.246284208244191E-5" />
+      <entry key="S60" value="0.004739498083390638" />
+      <entry key="M2" value="0.06884406043510181" />
+      <entry key="M5" value="0.3440626698653397" />
+      <entry key="M10" value="0.6204923888521734" />
+      <entry key="M15" value="0.8169440571517996" />
+      <entry key="M30" value="1.52424743131807" />
+      <entry key="H1" value="4.671928819742078" />
+      <entry key="H2" value="14.219399605230358" />
+      <entry key="H4" value="39.0454213257424" />
+      <entry key="D1" value="201.9884666551982" />
+      <entry key="W1" value="298.82102026828954" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.7869095398800702" />
-      <entry key="MS500" value="1.8808304082533898" />
-      <entry key="S2" value="3.206730408609247" />
-      <entry key="S5" value="3.731471762814194" />
-      <entry key="S10" value="4.448488626533023" />
-      <entry key="S30" value="6.441340604951436" />
-      <entry key="S60" value="7.506295186584635" />
-      <entry key="M2" value="8.196800095547875" />
-      <entry key="M5" value="9.033016604812152" />
-      <entry key="M10" value="11.048438732785726" />
-      <entry key="M15" value="13.756649493159516" />
-      <entry key="M30" value="24.46669706799598" />
-      <entry key="H1" value="54.13842909657139" />
-      <entry key="H2" value="115.57523559355673" />
-      <entry key="H4" value="241.1453923681326" />
-      <entry key="D1" value="986.6773551950973" />
-      <entry key="W1" value="1424.3794987606673" />
+      <entry key="MS100" value="3.3164516068300117E-5" />
+      <entry key="MS500" value="0.12709683416149453" />
+      <entry key="S2" value="0.5971036442192903" />
+      <entry key="S5" value="0.8453133025043199" />
+      <entry key="S10" value="1.3223832941865958" />
+      <entry key="S30" value="3.4219674595230196" />
+      <entry key="S60" value="4.896949243603967" />
+      <entry key="M2" value="7.122524226204789" />
+      <entry key="M5" value="13.948385499884859" />
+      <entry key="M10" value="20.97691610157612" />
+      <entry key="M15" value="25.854090669958453" />
+      <entry key="M30" value="38.72560143409983" />
+      <entry key="H1" value="68.88244867822792" />
+      <entry key="H2" value="130.48130094241546" />
+      <entry key="H4" value="256.0712348381399" />
+      <entry key="D1" value="1003.6656010350757" />
+      <entry key="W1" value="1444.5542609079312" />
     </decayedShown>
   </component>
   <component name="ProjectApplicationVersion">
@@ -346,17 +346,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/io/src/CLIB_SystemBus.cpp</url>
-          <line>147</line>
+          <line>148</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/io/src/CLIB_SystemBus.cpp</url>
-          <line>165</line>
+          <line>166</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/io/src/CLIB_SystemBus.cpp</url>
-          <line>185</line>
+          <line>186</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">

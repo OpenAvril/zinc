@@ -20,17 +20,18 @@
 		}
 		auto oldSize = stat_CLASS_get_ptr_CLIB_List_Of_SystemBus_Framework(sysThreadId)->size();
 		stat_CLASS_get_ptr_CLIB_List_Of_SystemBus_Framework(sysThreadId)->resize(oldSize+1);
-		for (auto index = new uint8_t(oldSize); *index < stat_CLASS_get_ptr_CLIB_SystemBus_Framework(sysThreadId, index)->dyn_CLASS_get_ptr_CLIB_SystemBus_Framework_App(sysThreadId)->dyn_CLASS_ptr_CLIB_SystemBus_Framework_App_Execute(sysThreadId)->dyn_PGM_get_List_CLIB_List_Of_Busses(sysThreadId)->size(); index++) {
-			auto temp = stat_CLASS_get_ptr_CLIB_SystemBus_Framework(sysThreadId, index)->dyn_CLASS_get_ptr_CLIB_SystemBus_Framework_App(sysThreadId)->dyn_CLASS_ptr_CLIB_SystemBus_Framework_App_Execute(sysThreadId)->dyn_PGM_get_List_CLIB_List_Of_Busses(sysThreadId)->begin();
+		for (auto index = new uint8_t(oldSize); *index < stat_CLASS_get_ptr_CLIB_List_Of_SystemBus_Framework(sysThreadId)->size(); index++) {
+			auto DEFAULT = stat_CLASS_get_ptr_CLIB_List_Of_SystemBus_Framework(sysThreadId)->begin();
+			auto temp = DEFAULT;
 			std::advance(temp, *index);
-			*temp = *stat_CLASS_get_ptr_CLIB_SystemBus_Framework(sysThreadId, index)->dyn_CLASS_get_ptr_CLIB_SystemBus_Framework_App(sysThreadId)->dyn_CLASS_ptr_CLIB_SystemBus_Framework_App_Execute(sysThreadId)->dyn_PGM_get_List_CLIB_List_Of_Busses(sysThreadId)->begin();
+			*temp = *DEFAULT;
 		}
-		*result = *reinterpret_cast<std::byte*>(stat_CLASS_get_ptr_CLIB_List_Of_SystemBus_Framework(sysThreadId)->size() - 1);
+		auto handleIndex = reinterpret_cast<uint8_t*>(stat_CLASS_get_ptr_CLIB_List_Of_SystemBus_Framework(sysThreadId)->size() - 1);
 		for (auto index_handleId = new uint8_t(0); *index_handleId < stat_CLASS_get_ptr_CLIB_List_Of_SystemBus_Framework(sysThreadId)->size(); index_handleId++) {
 			zinc::MutexQue::endByUnlock(sysThreadId, CLIB_SystemBus_Framework_Global::stat_CONVERT_CLIB_SystemBusses_Framework_Global_VUALUEofMsbInt64_To_MsbByteArray(sysThreadId, stat_CLASS_get_ptr_CLIB_SystemBus_Framework(sysThreadId, index_handleId)->dyn_CLASS_get_ptr_CLIB_SystemBus_Framework_App(sysThreadId)->dyn_CLASS_ptr_CLIB_SystemBus_Framework_App_Execute(sysThreadId)->dyn_REG_get_PGM_CLIB_MutexQue_Of_Stemisphore(sysThreadId)), accessId);
 		}
 		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: exiting LIB :: zinc : Bus : generateHandle(sysThreadId)." << std::endl;
-		return result;
+		return reinterpret_cast<std::byte*>(handleIndex);
 	}
 	void zinc::Stemisphore::generateProgram(std::byte* sysThreadId) {
 		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: entered LIB :: zinc : Bus : generateProgram(sysThreadId)." << std::endl;
