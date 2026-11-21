@@ -47,7 +47,7 @@
 		auto bytes_Cargo = new unsigned char();
 		class zinc::Object* value_DATA = nullptr;
 		bytes_Cargo = objDATA_To_MsbByteArray(sysThreadId, value_DATA);
-		TICKET = new class StemTicket(sysThreadId, new uint16_t(UINT16_MAX), new uint8_t(UINT8_MAX), new uint64_t(UINT64_MAX), new uint64_t(UINT64_MAX), new uint8_t(UINT8_MAX));
+		//TICKET = new class StemTicket(sysThreadId, new uint16_t(UINT16_MAX), new uint8_t(UINT8_MAX), new uint64_t(UINT64_MAX), new uint64_t(UINT64_MAX), new uint8_t(UINT8_MAX));
 		//zinc::ThreadLogs::generateProgram(std::byte* sysThreadId);
 		//zinc::ThreadLogs::printl(sysThreadId, string);
 		//zinc::ThreadLogs::reInitialiseProgram(sysThreadId, MAX_NUMBER_OF_THREADS_FOR_ACCESS);
@@ -72,14 +72,14 @@
 		zinc::LaunchQue::terminateProgaram(sysThreadId);
 		zinc::LaunchQue::threadRequestlaunch(sysThreadId, stdByte, stdByte);
 		zinc::LaunchQue::threadEnd(sysThreadId, stdByte, stdByte);
-
+/*
 		std::byte* tempD0 = zinc::Stemisphore::generateHandle(sysThreadId);
 		//zinc::SystemBusses::generateProgram(sysThreadId);
 		zinc::Stemisphore::load(sysThreadId, stdByte, *TICKET, bytes_Cargo);
 		zinc::Stemisphore::reInitialiseHandle(sysThreadId, stdByte, praiseId);
 		unsigned char* tempD2 = zinc::Stemisphore::unload(sysThreadId, stdByte, *TICKET);
 		zinc::Stemisphore::terminateProgram(sysThreadId);
-
+*/
 		std::byte* tempE0 = zinc::Epicentre::gernerateHandle(sysThreadId);
 		zinc::Epicentre::generateProgram(sysThreadId);
 		unsigned char* tempE1 = zinc::Epicentre::get_Output(sysThreadId, stdByte, praiseId);

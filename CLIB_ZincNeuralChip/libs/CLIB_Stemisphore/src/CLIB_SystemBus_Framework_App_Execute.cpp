@@ -6,7 +6,7 @@
 #include <iostream>
 
 #include "CLIB_MutexQue.h"
-uint64_t* zinc::CLIB_SystemBus_Framework_App_Execute::stat_PGM_CLIB_MutexQue_Of_Stemisphore;
+    uint64_t* zinc::CLIB_SystemBus_Framework_App_Execute::stat_PGM_CLIB_MutexQue_Of_Stemisphore;
     std::list<zinc::CLIB_Bus_STRUCT_SingleBus_Framework*>* zinc::CLIB_SystemBus_Framework_App_Execute::stat_PGM_CLIB_List_Of_Busses;
 // public.
     zinc::CLIB_SystemBus_Framework_App_Execute::CLIB_SystemBus_Framework_App_Execute(std::byte* sysThreadId) {
@@ -39,6 +39,7 @@ uint64_t* zinc::CLIB_SystemBus_Framework_App_Execute::stat_PGM_CLIB_MutexQue_Of_
         return stat_REG_get_HandleId_List_Of_CLIB_List_Of_Busses(sysThreadId);
     }
     uint64_t* zinc::CLIB_SystemBus_Framework_App_Execute::dyn_REG_get_PGM_CLIB_MutexQue_Of_Stemisphore(std::byte* sysThreadId) {
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: <= uint64_t* : dyn_REG_get_PGM_CLIB_MutexQue_Of_Stemisphore(sysThreadId)." << std::endl;
         return stat_REG_get_PGM_CLIB_MutexQue_Of_Stemisphore(sysThreadId);
     }
     void zinc::CLIB_SystemBus_Framework_App_Execute::stat_CLASS_boot0_DECLARE_CLIB_SystemBus_Framework_Execute(std::byte* sysThreadId) {
@@ -98,6 +99,6 @@ uint64_t* zinc::CLIB_SystemBus_Framework_App_Execute::stat_PGM_CLIB_MutexQue_Of_
         return stat_PGM_CLIB_List_Of_Busses;
     }
     uint64_t* zinc::CLIB_SystemBus_Framework_App_Execute::stat_REG_get_PGM_CLIB_MutexQue_Of_Stemisphore(std::byte* sysThreadId) {
-        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: <= int* : stat_REG_get_PGM_CLIB_MutexQue_Of_Stemisphore(sysThreadId)." << std::endl;
+        std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: <= uint64_t* : stat_REG_get_PGM_CLIB_MutexQue_Of_Stemisphore(sysThreadId)." << std::endl;
         return stat_PGM_CLIB_MutexQue_Of_Stemisphore;
     }
