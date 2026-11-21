@@ -3,6 +3,7 @@
 #include "../../include/independent/CLIB_Bus_STRUCT_SingleBus_Framework_Global.h"
 #include "../include/independent/CLIB_Bus_STRUCT_SingleBus_STRUCT_BusDATA_CLASS_StemTicket.h"
 #include <cstddef>
+#include <cstdint>
     class zinc::StemTicket* zinc::CLIB_Bus_STRUCT_SingleBus_STRUCT_BusDATA::stat_REG_of_CLIB_Bus_STRUCT_SingleBus_CLASS_StemTicket;
     unsigned char* zinc::CLIB_Bus_STRUCT_SingleBus_STRUCT_BusDATA::stat_REG_of_CLIB_Bus_STRUCT_SingleBus_DATA;
 // public.
@@ -38,7 +39,7 @@
         stat_REG_of_CLIB_Bus_STRUCT_SingleBus_DATA = nullptr;
     }
     void zinc::CLIB_Bus_STRUCT_SingleBus_STRUCT_BusDATA::stat_REG_boot1_INITIALISE_CLIB_Bus_STRUCT_SingleBus_CLASS_StemTicket(std::byte* sysThreadId){
-        stat_REG_of_CLIB_Bus_STRUCT_SingleBus_CLASS_StemTicket = new class StemTicket(sysThreadId, static_cast<std::byte*>(0), static_cast<std::byte*>(0), static_cast<std::byte*>(0), static_cast<std::byte*>(0));
+        stat_REG_of_CLIB_Bus_STRUCT_SingleBus_CLASS_StemTicket = new class StemTicket(sysThreadId, new uint16_t(UINT16_MAX), new uint8_t(UINT8_MAX), new uint64_t(UINT64_MAX), new uint64_t(UINT64_MAX), new uint8_t(UINT8_MAX));
         while (stat_REG_of_CLIB_Bus_STRUCT_SingleBus_CLASS_StemTicket == nullptr) {
         }
     }

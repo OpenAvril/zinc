@@ -9,26 +9,32 @@
 using namespace zinc;
 int main() {
     auto sysThreadId = new std::byte{0x00};
-    std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: Main : Running..." << std::endl;
-    std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: starting : generateProgram(s)." << std::endl;
+    std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: Main : Running..." << std::endl;
+    std::cout << "TEST : MutexQue : generateProgram" << std::endl;
     zinc::MutexQue::generateProgram(sysThreadId);
     std::this_thread::sleep_for(std::chrono::seconds(2));
     //zinc::ThreadLogs::generateProgram(sysThreadId);
     //std::this_thread::sleep_for(std::chrono::seconds(2));
+    //std::cout << "TEST : Stemisphore : generateProgram" << std::endl;
     //zinc::Stemisphore::generateProgram(sysThreadId);
     //std::this_thread::sleep_for(std::chrono::seconds(2));
-    //zinc::LaunchQue::generateProgram(sysThreadId);
-    //std::this_thread::sleep_for(std::chrono::seconds(2));
-    //zinc::Epicentre::generateProgram(sysThreadId);
-    //std::this_thread::sleep_for(std::chrono::seconds(2));
-    std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: exiting : generateProgram(s)." << std::endl;
-    std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: starting : SoothCute : prime." << std::endl;
+    std::cout << "TEST : LaunchQue : generateProgram" << std::endl;
+    zinc::LaunchQue::generateProgram(sysThreadId);
+    std::this_thread::sleep_for(std::chrono::seconds(2));
+    std::cout << "TEST : Epicentre : generateProgram" << std::endl;
+    zinc::Epicentre::generateProgram(sysThreadId);
+    std::this_thread::sleep_for(std::chrono::seconds(2));
+    std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: exiting : generateProgram(s)." << std::endl;
+    std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: starting : SoothCute : prime." << std::endl;
     zinc::SoothCute::optimusPrime(sysThreadId);
     zinc::SoothCute::optimusPrime(sysThreadId);
-    std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: exiting : SoothCute : prime." << std::endl;
-
+    std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: exiting : SoothCute : prime." << std::endl;
+    std::cout << "TEST : Epicentre : gernerateHandle" << std::endl;
+    auto handleId = zinc::Epicentre::gernerateHandle(sysThreadId);
+    std::cout << "TEST : Epicentre : reInitialiseHandle" << std::endl;
+    zinc::Epicentre::reInitialiseHandle(sysThreadId, handleId, new std::byte{0x02}, new std::byte{0x01});
     //todo /\ /\ /\
 
-    std::cout << "thread " << static_cast<unsigned long long>(*sysThreadId) << " :: Main : End!." << std::endl;
+    std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: Main : End!." << std::endl;
     return 0;
 }

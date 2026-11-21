@@ -12,7 +12,7 @@ namespace zinc {
         static /* Output PARAMETER */unsigned char* runBNN(std::byte* sysThreadId, unsigned char* handleId);
         static /* objObjectOfPGM */void* get_BNN(std::byte* sysThreadId, unsigned char* handleId);
     private:
-        static void stat_App_FUNCT_CLIB_MutexQue_generate_Program(std::byte* sysThreadId, unsigned long long* praiseEventId);
+        static void stat_App_FUNCT_CLIB_MutexQue_generate_Program(std::byte* sysThreadId, uint64_t* praiseEventId);
         static bool stat_APP_FUNCT_CLIB_MutexQue_Calc_IsAllINSTANTIATED(std::byte* sysThreadId);
         static void stat_REG_boot1_DEFINE_CLIB_MutexQue_array_of_isMemberFunctionINSTANTIATED(std::byte* sysThreadId);
         static void stat_REG_boot2_SUBSTANTIATE_CLIB_MutexQue_array_of_isMemberFunctionINSTANTIATED(std::byte* sysThreadId);

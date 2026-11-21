@@ -9,7 +9,7 @@
 //#include "../CLIB_ZincNeuralChip/libs/CLIB_ThreadsLog/include/CLIB_ThreadLogs_Framework_Global.h"
 #include "../CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/include/CLIB_LaunchQue_Framework_Global.h"
 //#include "../CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/include/CLIB_SystemBus_Framework_Global.h"
-//#include "../CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/include/independent/CLIB_Bus_STRUCT_SingleBus_STRUCT_BusDATA_CLASS_StemTicket.h"
+#include "../CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/include/independent/CLIB_Bus_STRUCT_SingleBus_STRUCT_BusDATA_CLASS_StemTicket.h"
 #include <cfloat>
 #include <climits>
 #include <cstring>
@@ -40,26 +40,26 @@
 		auto boolValue = new bool();
 		boolValue = new bool(true);
 		auto bytes_UnsignedLongLong = new unsigned char();
-		bytes_UnsignedLongLong = valueofMsbUnsignedLongLong_to_ByteArray(sysThreadId, new unsigned long long(0));
+		bytes_UnsignedLongLong = valueofMsbUnsignedLongLong_to_ByteArray(sysThreadId, new uint64_t(0));
 		auto bytes_Double = new unsigned char();
 		bytes_Double = valueofMsbDouble_To_MsbByteArray(sysThreadId, new double(0));
 		//auto ticket = new class Ticket(0,0,0,0,0);
 		auto bytes_Cargo = new unsigned char();
 		class zinc::Object* value_DATA = nullptr;
 		bytes_Cargo = objDATA_To_MsbByteArray(sysThreadId, value_DATA);
-		//TICKET = new class zinc::StemTicket(sysThreadId, stdByte, stdByte, stdByte, stdByte);
+		//TICKET = new class StemTicket(sysThreadId, new uint16_t(UINT16_MAX), new uint8_t(UINT8_MAX), new uint64_t(UINT64_MAX), new uint64_t(UINT64_MAX), new uint8_t(UINT8_MAX));
 		//zinc::ThreadLogs::generateProgram(std::byte* sysThreadId);
 		//zinc::ThreadLogs::printl(sysThreadId, string);
 		//zinc::ThreadLogs::reInitialiseProgram(sysThreadId, MAX_NUMBER_OF_THREADS_FOR_ACCESS);
 		//zinc::ThreadLogs::terminateProgram(sysThreadId);
 
 		zinc::MutexQue::endByUnlock(sysThreadId, handleId, stdByte);
-		unsigned long long* tempF0 = msbByteArray_To_valueOfmsbunsignedLongLong(sysThreadId, zinc::MutexQue::generateHandle(sysThreadId));
+		int* tempF0 = msbByteArray_To_valueOfmsbInt(sysThreadId, zinc::MutexQue::generateHandle(sysThreadId));
 		//zinc::MutexQue::generateProgram(sysThreadId);
 		zinc::MutexQue::reInitialiseHandle(sysThreadId, handleId, stdByte);
 		zinc::MutexQue::startByLock(sysThreadId, handleId, stdByte);
 		zinc::MutexQue::terminateProgram(sysThreadId, handleId);
-/*
+
 		std::byte* tempC0 = zinc::LaunchQue::generateHandle(sysThreadId);
 		//zinc::LaunchQue::generateProgram(sysThreadId);
 		std::byte* tempC1 = zinc::LaunchQue::get_coreIdTolaunch(sysThreadId, stdByte, stdByte);
@@ -72,15 +72,14 @@
 		zinc::LaunchQue::terminateProgaram(sysThreadId);
 		zinc::LaunchQue::threadRequestlaunch(sysThreadId, stdByte, stdByte);
 		zinc::LaunchQue::threadEnd(sysThreadId, stdByte, stdByte);
-
-		unsigned char* tempD0 = zinc::Stemisphore::generateHandle(sysThreadId);
+/*
+		std::byte* tempD0 = zinc::Stemisphore::generateHandle(sysThreadId);
 		//zinc::SystemBusses::generateProgram(sysThreadId);
-		unsigned char* tempD1 = zinc::Stemisphore::isINSTANTIATED(sysThreadId);
-		zinc::Stemisphore::load(sysThreadId, *TICKET, bytes_Cargo);
-		zinc::Stemisphore::reInitialiseHandle(sysThreadId, stdByte);
-		unsigned char* tempD2 = zinc::Stemisphore::unload(sysThreadId, *TICKET);
+		zinc::Stemisphore::load(sysThreadId, stdByte, *TICKET, bytes_Cargo);
+		zinc::Stemisphore::reInitialiseHandle(sysThreadId, stdByte, praiseId);
+		unsigned char* tempD2 = zinc::Stemisphore::unload(sysThreadId, stdByte, *TICKET);
 		zinc::Stemisphore::terminateProgram(sysThreadId);
-
+*/
 		std::byte* tempE0 = zinc::Epicentre::gernerateHandle(sysThreadId);
 		zinc::Epicentre::generateProgram(sysThreadId);
 		unsigned char* tempE1 = zinc::Epicentre::get_Output(sysThreadId, stdByte, praiseId);
@@ -95,7 +94,6 @@
 		zinc::Epicentre::set_MetaData_PraiseEventId(sysThreadId, stdByte, praiseId);
 		zinc::Epicentre::reInitialiseHandle(sysThreadId, stdByte, stdByte, stdByte);
 		zinc::Epicentre::terminateProgram(sysThreadId);
-*/
 }
 	std::array<bool, 1> zinc::SoothCute::zinc_SoothCute_stat_REG_get_array_of_isMemberFunctionINSTANTIATED(std::byte* sysThreadId) {
 		return stat_REG_ptr_CLIB_SoothCute_array_of_array_of_isMemberFunctionINSTANTIATED;
@@ -128,10 +126,10 @@
 		std::cout << "thread " << std::to_integer<int>(*sysThreadId) << "  :: <= std::byte* : stat_CONVERT_CLIB_SystemBusses_Framework_Global_MsbByteArray_To_MsbStdByte(sysThreadId)." << std::endl;
 		return temp;
 	}
-	unsigned long long* zinc::SoothCute::msbByteArray_To_valueOfmsbunsignedLongLong(std::byte* sysThreadId, unsigned char* bytes_Array) {
-		unsigned long long* temp;
-		temp = new unsigned long long();
-		std::memcpy(&temp, bytes_Array, sizeof(unsigned long long));
+	uint64_t* zinc::SoothCute::msbByteArray_To_valueOfmsbunsignedLongLong(std::byte* sysThreadId, unsigned char* bytes_Array) {
+		uint64_t* temp;
+		temp = new uint64_t();
+		std::memcpy(&temp, bytes_Array, sizeof(uint64_t));
 		std::cout << "thread " << std::to_integer<int>(*sysThreadId) << "  :: <= std::byte* : stat_CONVERT_CLIB_SystemBusses_Framework_Global_MsbByteArray_To_MsbStdByte(sysThreadId)." << std::endl;
 		return temp;
 	}
@@ -161,10 +159,10 @@
 		std::cout << "thread " << std::to_integer<int>(*sysThreadId) << "  :: <= unsigned char* : stat_CONVERT_CLIB_SystemBusses_Framework_Global_unsignedLongLong_to_ByteArray(sysThreadId)." << std::endl;
 		return buffer;
 	}
-	unsigned char* zinc::SoothCute::valueofMsbUnsignedLongLong_to_ByteArray(std::byte* sysThreadId, unsigned long long* newValue_ULongLong) {
+	unsigned char* zinc::SoothCute::valueofMsbUnsignedLongLong_to_ByteArray(std::byte* sysThreadId, uint64_t* newValue_ULongLong) {
 		unsigned char* buffer = nullptr;
-		buffer = new unsigned char(static_cast<unsigned char>(ULONG_LONG_MAX));
-		std::memcpy(buffer, &newValue_ULongLong, sizeof(unsigned long long));
+		buffer = new unsigned char(static_cast<unsigned char>(UINT64_MAX));
+		std::memcpy(buffer, &newValue_ULongLong, sizeof(uint64_t));
 		std::cout << "thread " << std::to_integer<int>(*sysThreadId) << "  :: <= unsigned char* : stat_CONVERT_CLIB_SystemBusses_Framework_Global_unsignedLongLong_to_ByteArray(sysThreadId)." << std::endl;
 		return buffer;
 	}

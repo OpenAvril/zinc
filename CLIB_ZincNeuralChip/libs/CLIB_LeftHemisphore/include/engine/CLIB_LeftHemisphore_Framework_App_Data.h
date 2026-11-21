@@ -21,8 +21,8 @@ namespace zinc {
         struct CLIB_LeftHemisphore_STRUCT_Input* dyn_REG_get_ptr_CLIB_LeftHemisphore_Framework_App_Data_Input_at_ItemSideToWRITE_For_doubleBufferInput(std::byte* sysThreadId, class CLIB_LeftHemisphore_Framework* obj);
         struct CLIB_LeftHemisphore_STRUCT_Input* dyn_REG_get_ptr_CLIB_LeftHemisphore_Framework_App_Data_Item_Of_list_Of_ptr_array_Of_buffer_Input_ReferenceForThread(std::byte* sysThreadId, uint8_t* concurrentThreadId);
         struct CLIB_LeftHemisphore_STRUCT_Output* dyn_REG_get_ptr_CLIB_LeftHemisphore_Framework_App_Data_Item_Of_list_Of_ptr_array_Of_buffer_Output_ReferenceForThread(std::byte* sysThreadId, uint8_t* concurrentThreadId);
-        struct CLIB_LeftHemisphore_STRUCT_Input* dyn_REG_get_ptr_CLIB_LeftHemisphore_Framework_App_Data_Item_On_vector_Of_stack_Of_InputPraise(std::byte* sysThreadId, unsigned long long* slot);
-        struct CLIB_LeftHemisphore_STRUCT_Output* dyn_REG_get_ptr_CLIB_LeftHemisphore_Framework_App_Data_Item_On_vector_Of_stack_Of_OutputPraise(std::byte* sysThreadId, unsigned long long* slot);
+        struct CLIB_LeftHemisphore_STRUCT_Input* dyn_REG_get_ptr_CLIB_LeftHemisphore_Framework_App_Data_Item_On_vector_Of_stack_Of_InputPraise(std::byte* sysThreadId, uint64_t* slot);
+        struct CLIB_LeftHemisphore_STRUCT_Output* dyn_REG_get_ptr_CLIB_LeftHemisphore_Framework_App_Data_Item_On_vector_Of_stack_Of_OutputPraise(std::byte* sysThreadId, uint64_t* slot);
         struct CLIB_LeftHemisphore_STRUCT_Output* dyn_REG_get_ptr_CLIB_LeftHemisphore_Framework_App_Data_Output_at_ItemSideToREAD_For_doubleBufferOutput(std::byte* sysThreadId, class CLIB_LeftHemisphore_Framework* obj);
         struct CLIB_LeftHemisphore_STRUCT_Output* dyn_REG_get_ptr_CLIB_LeftHemisphore_Framework_App_Data_Output_at_ItemSideToWRITE_For_doubleBufferOutput(std::byte* sysThreadId, class CLIB_LeftHemisphore_Framework *obj);
         std::vector<struct CLIB_LeftHemisphore_STRUCT_Input*>* dyn_REG_get_ptr_CLIB_LeftHemisphore_Framework_App_Data_vector_Of_stack_Of_InputPraise(std::byte* sysThreadId);
@@ -33,8 +33,8 @@ namespace zinc {
         void dyn_REG_set_CLIB_LeftHemisphore_Framework_App_Data_Item_On_Array_Of_buffer_Output_ReferenceForThread(std::byte* sysThreadId, uint8_t* concurrentThreadId, struct CLIB_LeftHemisphore_STRUCT_Output* newClass);
         void dyn_REG_set_ptr_CLIB_LeftHemisphore_Framework_App_Data_Output_at_ItemSideToREAD_For_doubleBufferOutput(std::byte* sysThreadId, class CLIB_LeftHemisphore_Framework* obj, struct CLIB_LeftHemisphore_STRUCT_Output* newClass);
         void dyn_REG_set_ptr_CLIB_LeftHemisphore_Framework_App_Data_Output_at_ItemSideToWRITE_For_doubleBufferOutput(std::byte* sysThreadId, class CLIB_LeftHemisphore_Framework *obj, struct CLIB_LeftHemisphore_STRUCT_Output* newClass);
-        void dyn_REG_set_CLIB_LeftHemisphore_Framework_App_Data_Item_On_Vector_Of_stack_Of_InputPraise(std::byte* sysThreadId, unsigned long long* slot, struct CLIB_LeftHemisphore_STRUCT_Input* newClass);
-        void dyn_REG_set_CLIB_LeftHemisphore_Framework_App_Data_Item_On_Vector_Of_stack_Of_OutputPraise(std::byte* sysThreadId, unsigned long long* slot, struct CLIB_LeftHemisphore_STRUCT_Output* newClass);
+        void dyn_REG_set_CLIB_LeftHemisphore_Framework_App_Data_Item_On_Vector_Of_stack_Of_InputPraise(std::byte* sysThreadId, uint64_t* slot, struct CLIB_LeftHemisphore_STRUCT_Input* newClass);
+        void dyn_REG_set_CLIB_LeftHemisphore_Framework_App_Data_Item_On_Vector_Of_stack_Of_OutputPraise(std::byte* sysThreadId, uint64_t* slot, struct CLIB_LeftHemisphore_STRUCT_Output* newClass);
         static void stat_CLASS_boot0_DECLARE_CLIB_LeftHemisphore_Framework_App_Data(std::byte* sysThreadId);
         static void stat_CLASS_boot1_DEFINE_CLIB_LeftHemisphore_Framework_App_Data(std::byte* sysThreadId);
         static void stat_CLASS_boot3_INITIALISE_CLIB_LeftHemisphore_Framework_App_Data(std::byte* sysThreadId);
@@ -77,8 +77,8 @@ namespace zinc {
         static std::vector<struct CLIB_LeftHemisphore_STRUCT_Output*>* stat_REG_get_ptr_CLIB_LeftHemisphore_Framework_App_Data_vector_Of_stack_Of_OutputPraise(std::byte* sysThreadId);
         static void stat_REG_set_CLIB_LeftHemisphore_Framework_App_Data_Item_On_Array_Of_buffer_Input_ReferenceForThread(std::byte* sysThreadId, uint8_t concurrentThreadId, struct CLIB_LeftHemisphore_STRUCT_Input* newClass);
         static void stat_REG_set_CLIB_LeftHemisphore_Framework_App_Data_Item_On_Array_Of_buffer_Output_ReferenceForThread(std::byte* sysThreadId, uint8_t concurrentThreadId, struct CLIB_LeftHemisphore_STRUCT_Output* newClass);
-        static void stat_REG_set_CLIB_LeftHemisphore_Framework_App_Data_Item_On_Vector_Of_stack_Of_InputPraise(std::byte* sysThreadId, unsigned long long slot, struct CLIB_LeftHemisphore_STRUCT_Input* newClass);
-        static void stat_REG_set_CLIB_LeftHemisphore_Framework_App_Data_Item_On_Vector_Of_stack_Of_OutputPraise(std::byte* sysThreadId, unsigned long long slot, struct CLIB_LeftHemisphore_STRUCT_Output* newClass);
+        static void stat_REG_set_CLIB_LeftHemisphore_Framework_App_Data_Item_On_Vector_Of_stack_Of_InputPraise(std::byte* sysThreadId, uint64_t slot, struct CLIB_LeftHemisphore_STRUCT_Input* newClass);
+        static void stat_REG_set_CLIB_LeftHemisphore_Framework_App_Data_Item_On_Vector_Of_stack_Of_OutputPraise(std::byte* sysThreadId, uint64_t slot, struct CLIB_LeftHemisphore_STRUCT_Output* newClass);
     };
 };
 #endif

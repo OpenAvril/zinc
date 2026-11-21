@@ -9,15 +9,15 @@
 namespace zinc {
     struct CLIB_LeftHemisphore_STRUCT_Input {
     public:
-        void dyn_APP_select_And_Set_LeftHemishpore_STRUCT_Input_Subset(std::byte* sysThreadId, CLIB_LeftHemisphore_Framework* obj, unsigned long long *praiseEventId);
+        void dyn_APP_select_And_Set_LeftHemishpore_STRUCT_Input_Subset(std::byte* sysThreadId, CLIB_LeftHemisphore_Framework* obj, uint64_t *praiseEventId);
         void dyn_REG_boot1_DEFINE_LeftHemishpore_STRUCT_Input(std::byte* sysThreadId);
         void dyn_REG_boot2_SUBSTANTIATE_LeftHemishpore_STRUCT_Input(std::byte* sysThreadId);
         void dyn_REG_boot3_INITIALISE_LeftHemishpore_STRUCT_Input(std::byte* sysThreadId, CLIB_LeftHemisphore_Framework* obj);
         uint8_t *dyn_REG_get_ptr_CLIB_LeftHemisphore_STRUCT_Input_playerId(std::byte *sysThreadId);
-        unsigned long long* dyn_REG_get_ptr_CLIB_LeftHemisphore_STRUCT_Input_praiseEventId(std::byte* sysThreadId);
+        uint64_t* dyn_REG_get_ptr_CLIB_LeftHemisphore_STRUCT_Input_praiseEventId(std::byte* sysThreadId);
         std::list<class Object*>* dyn_REG_get_ptr_Item_Of_ptr_CLIB_LeftHemisphore_STRUCT_Input_Subset(std::byte* sysThreadId);
         void dyn_REG_set_CLIB_LeftHemisphore_STRUCT_Input_playerId(std::byte* sysThreadId, uint8_t* newPraiseId);
-        void dyn_REG_set_ptr_CLIB_LeftHemisphore_STRUCT_Input_praiseEventId(std::byte* sysThreadId, unsigned long long* new_unsignedLongLong);
+        void dyn_REG_set_ptr_CLIB_LeftHemisphore_STRUCT_Input_praiseEventId(std::byte* sysThreadId, uint64_t* new_unsignedLongLong);
         void dyn_REG_set_ptr_CLIB_LeftHemisphore_STRUCT_Input_Item_Of_ptr_Inputs_Subset(std::byte* sysThreadId, class CLIB_LeftHemisphore_STRUCT_Input_praise0* objInputSubset);
         void dyn_REG_set_ptr_CLIB_LeftHemisphore_STRUCT_Input_Item_Of_ptr_Inputs_Subset(std::byte* sysThreadId, class CLIB_LeftHemisphore_STRUCT_Input_praise1* objInputSubset);
         void dyn_REG_set_ptr_CLIB_LeftHemisphore_STRUCT_Input_Item_Of_ptr_Inputs_Subset(std::byte* sysThreadId, class CLIB_LeftHemisphore_STRUCT_Input_praise2* objInputSubset);
@@ -29,7 +29,7 @@ namespace zinc {
         static void stat_REG_boot0_DECLARE_CLIB_LeftHemisphore_STRUCT_Input(std::byte* sysThreadId);
     private:
         static uint8_t* stat_REG_ptr_LeftHemishpore_STRUCT_Input_playerId;
-        static unsigned long long* stat_REG_ptr_LeftHemishpore_STRUCT_Input_praiseEventId;
+        static uint64_t* stat_REG_ptr_LeftHemishpore_STRUCT_Input_praiseEventId;
         static std::list<class Object*>* stat_REG_ptr_LeftHemishpore_STRUCT_Input_Subset;
         static void stat_REG_boot1_DEFINE_CLIB_LeftHemisphore_STRUCT_Input_playerId(std::byte* sysThreadId);
         static void stat_REG_boot1_DEFINE_CLIB_LeftHemisphore_STRUCT_Input_praiseEventId(std::byte* sysThreadId);
@@ -41,10 +41,10 @@ namespace zinc {
         static void stat_REG_boot3_INITIALISE_CLIB_LeftHemisphore_STRUCT_Input_praiseEventId(std::byte* sysThreadId);
         static void stat_REG_boot3_INITIALISE_CLIB_LeftHemisphore_STRUCT_Input_Subset(std::byte* sysThreadId, CLIB_LeftHemisphore_Framework* obj);
         static uint8_t* stat_REG_get_ptr_CLIB_LeftHemisphore_STRUCT_Input_playerId(std::byte* sysThreadId);
-        static unsigned long long* stat_REG_get_ptr_CLIB_LeftHemisphore_STRUCT_Input_praiseEventId(std::byte* sysThreadId);
+        static uint64_t* stat_REG_get_ptr_CLIB_LeftHemisphore_STRUCT_Input_praiseEventId(std::byte* sysThreadId);
         static std::list<class Object*>* stat_REG_get_ptr_CLIB_LeftHemisphore_STRUCT_Input_Subset(std::byte* sysThreadId);
         void stat_REG_set_CLIB_LeftHemisphore_STRUCT_Input_playerId(std::byte* sysThreadId, uint8_t newPraiseId);
-        static void stat_REG_set_ptr_CLIB_LeftHemisphore_STRUCT_Input_praiseEventId(std::byte* sysThreadId, unsigned long long new_unsignedLongLong);
+        static void stat_REG_set_ptr_CLIB_LeftHemisphore_STRUCT_Input_praiseEventId(std::byte* sysThreadId, uint64_t new_unsignedLongLong);
     };
 }
 #endif
