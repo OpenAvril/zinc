@@ -1,12 +1,20 @@
 # Zinc Insulate Neural Chip Open Source Package:
 
-MutexQue : zinc_mutex_que, v-1.2.0.
+---
+## Published
 
-Stemisphore : zinc_stemisphore, v-1.2.0.
+MutexQue : zinc_mutex_que, v-1.3.0.
+ - exclusive cohesion mute all bar this 
 
-LaunchQue : zinc_launch_que, v-1.2.0.
+LaunchQue : zinc_launch_que, v-1.3.0.
 
-LeftHemisphore : zinc_epicentre. ***TEMPLATE for user Compilation*** **UNDER DEVELOPMENT**
+LeftHemisphore : zinc_epicentre, v-1.3.0. ***TEMPLATE for user Compilation*** 
+ - Supercomputer for the modern server.
+
+---
+## **UNDER DEVELOPMENT**
+Stemisphore : zinc_stemisphore, v-1.x.x.
+
  
 ---
 ---
