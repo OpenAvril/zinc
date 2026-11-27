@@ -6,7 +6,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 
 add_subdirectory(CLIB_ZincNeuralChip/libs/CLIB_MutexQue)
-add_subdirectory(CLIB_ZincNeuralChip/libs/CLIB_LaunchQue)
-add_subdirectory(CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore)
+#add_subdirectory(CLIB_ZincNeuralChip/libs/CLIB_LaunchQue)
+#add_subdirectory(CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore)
+add_subdirectory(CLIB_ZincNeuralChip/libs/CLIB_Stemisphore)
 add_subdirectory(SoothCute)
 add_subdirectory(TESTBENCH)

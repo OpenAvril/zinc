@@ -21,8 +21,7 @@
       <config projectName="SiliconLife" targetName="SoothCute" />
       <config projectName="SiliconLife" targetName="zinc_mutex_que" />
       <config projectName="SiliconLife" targetName="TESTBENCH" />
-      <config projectName="SiliconLife" targetName="zinc_epicentre" />
-      <config projectName="SiliconLife" targetName="zinc_launch_que" />
+      <config projectName="SiliconLife" targetName="zinc_stemisphore" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -31,11 +30,17 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fb33d3f-99ba-4f2a-b0ec-fe17b1bccdcf" name="Changes" comment="DEVELOPMENT_2026_11_237_1131 &lt;COMPILE_SUCCESS&gt; &lt;RUNTIME_TEST&gt;.&#10;&#10;PHASE: *Design*, **Implementation**, Testing, Review.&#10;&#10;---&#10;BUILT: DEVELOPMENT_2026_11_237_1131.&#10; - zinc_mutex_que v1.2.3.&#10; - zinc_launch_que v1.2.3.&#10; - zinc_epicentre v1.4.1.&#10;           &#10;---&#10;IMPLEMENTED:&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.3.&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;       - reInitialiseHandle();&#10;     - zinc_launch_que v1.2.3.&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;       - reInitialiseHandle();&#10;     - zinc_epicentre v1.4.1.&#10;       - gernerateProgram();&#10;       - generateHandle(); &#10;       - reInitialiseHandle();&#10;&#10;---&#10;TODO:&#10;   - LIBRARIES:&#10;     - zinc_stemisphore v1.2.x.&#10;       - LIMIT mutex AccessId of uint8_t : MutexQue(A_64-bit, B_8-bit) MutexQue(B_reduced-bit, C_8-bit).&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;       - reInitialiseHandle();&#10;   &#10;---&#10;---">
+    <list default="true" id="2fb33d3f-99ba-4f2a-b0ec-fe17b1bccdcf" name="Changes" comment="Merge branch 'DEVELOPMENT'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/CMakeLists.txt&#10;#&#9;CLIB_ZincNeuralChip/libs/CLIB_MutexQue/CMakeLists.txt&#10;#&#9;README.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/include/CLIB_SystemBus_Framework_App.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/include/CLIB_SystemBus_Framework_App.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/include/independent/CLIB_Bus_STRUCT_SingleBus_STRUCT_BusDATA_CLASS_StemTicket.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/include/independent/CLIB_Bus_STRUCT_SingleBus_STRUCT_BusDATA_CLASS_StemTicket.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/io/src/CLIB_SystemBus.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/io/src/CLIB_SystemBus.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/src/CLIB_SystemBus_Framework_App.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/src/CLIB_SystemBus_Framework_App.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoothCute/CLIB_Optimus.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/SoothCute/CLIB_Optimus.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoothCute/CLIB_Optimus.h" beforeDir="false" afterPath="$PROJECT_DIR$/SoothCute/CLIB_Optimus.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TESTBENCH/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TESTBENCH/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TESTBENCH/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TESTBENCH/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,61 +77,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0001969340232475" />
-      <entry key="MS500" value="1.1814970116449706" />
-      <entry key="S2" value="1.7141135035093993" />
-      <entry key="S5" value="2.445174505392777" />
-      <entry key="S10" value="3.2559344567502966" />
-      <entry key="S30" value="4.70101622063636" />
-      <entry key="S60" value="6.599741375849638" />
-      <entry key="M2" value="9.769371857385808" />
-      <entry key="M5" value="14.065050665110839" />
-      <entry key="M10" value="16.829707284138287" />
-      <entry key="M15" value="19.114569460196087" />
-      <entry key="M30" value="26.807956754694757" />
-      <entry key="H1" value="46.313972026381634" />
-      <entry key="H2" value="93.65925625111471" />
-      <entry key="H4" value="193.70689584112304" />
-      <entry key="D1" value="818.205747491159" />
-      <entry key="W1" value="1224.3324029556654" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0000000027142932" />
+      <entry key="S30" value="1.0015014173148946" />
+      <entry key="S60" value="1.076310783293466" />
+      <entry key="M2" value="2.291336218377716" />
+      <entry key="M5" value="11.548115655363626" />
+      <entry key="M10" value="26.662935238657774" />
+      <entry key="M15" value="38.57924683347707" />
+      <entry key="M30" value="62.47661524949697" />
+      <entry key="H1" value="93.07605555219685" />
+      <entry key="H2" value="145.61710973178452" />
+      <entry key="H4" value="247.93212626152678" />
+      <entry key="D1" value="881.9784888681845" />
+      <entry key="W1" value="1301.6741329932897" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="1.3579982636775602E-297" />
-      <entry key="S5" value="2.646083959388678E-119" />
-      <entry key="S10" value="7.462188171183293E-60" />
-      <entry key="S30" value="4.4569117515761344E-20" />
-      <entry key="S60" value="5.140622509039703E-10" />
-      <entry key="M2" value="6.486436172616128E-5" />
-      <entry key="M5" value="0.09227763288647678" />
-      <entry key="M10" value="1.330414030585489" />
-      <entry key="M15" value="3.546725234763708" />
-      <entry key="M30" value="10.483684241782074" />
-      <entry key="H1" value="20.208186058572032" />
-      <entry key="H2" value="33.06984881036542" />
-      <entry key="H4" value="57.01626904515183" />
-      <entry key="D1" value="225.6744390426997" />
-      <entry key="W1" value="338.4710043962917" />
+      <entry key="MS100" value="4.290729878951067E-31" />
+      <entry key="MS500" value="1.1311521383333662E-6" />
+      <entry key="S2" value="0.07737503894245217" />
+      <entry key="S5" value="0.8091821728012318" />
+      <entry key="S10" value="1.7928308953504581" />
+      <entry key="S30" value="3.10806161740523" />
+      <entry key="S60" value="4.070036868223643" />
+      <entry key="M2" value="5.928575104074157" />
+      <entry key="M5" value="9.439657626295247" />
+      <entry key="M10" value="12.129149705642043" />
+      <entry key="M15" value="13.899883657252067" />
+      <entry key="M30" value="19.18416515232801" />
+      <entry key="H1" value="28.86682185509643" />
+      <entry key="H2" value="43.097919416055376" />
+      <entry key="H4" value="68.05344804677743" />
+      <entry key="D1" value="239.0665101578566" />
+      <entry key="W1" value="355.4803707843132" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.49669141460267363" />
-      <entry key="MS500" value="1.0401017139290711" />
-      <entry key="S2" value="1.669107995401969" />
-      <entry key="S5" value="2.42320205262089" />
-      <entry key="S10" value="3.2428355472412878" />
-      <entry key="S30" value="4.695142583223215" />
-      <entry key="S60" value="6.595624674908726" />
-      <entry key="M2" value="9.766355649941593" />
-      <entry key="M5" value="14.15297991980504" />
-      <entry key="M10" value="18.141764714034345" />
-      <entry key="M15" value="22.63130265459695" />
-      <entry key="M30" value="37.25166301033444" />
-      <entry key="H1" value="66.48637339969888" />
-      <entry key="H2" value="126.70017705294818" />
-      <entry key="H4" value="250.69734411794826" />
-      <entry key="D1" value="1043.8628268297437" />
-      <entry key="W1" value="1562.7996868017815" />
+      <entry key="MS100" value="9.778685029170184E-5" />
+      <entry key="MS500" value="0.15778184544616433" />
+      <entry key="S2" value="0.6835385720502943" />
+      <entry key="S5" value="1.5142567035746413" />
+      <entry key="S10" value="2.5516701067950653" />
+      <entry key="S30" value="3.9822354205588852" />
+      <entry key="S60" value="5.04538815856916" />
+      <entry key="M2" value="8.113547065943298" />
+      <entry key="M5" value="20.89021087164464" />
+      <entry key="M10" value="38.714989659999326" />
+      <entry key="M15" value="52.41285759667579" />
+      <entry key="M30" value="81.60605797890777" />
+      <entry key="H1" value="121.8979887806135" />
+      <entry key="H2" value="188.67996422747072" />
+      <entry key="H4" value="315.9562590189219" />
+      <entry key="D1" value="1121.0268737579977" />
+      <entry key="W1" value="1657.1506338215004" />
     </decayedShown>
   </component>
   <component name="ProjectApplicationVersion">
@@ -144,35 +149,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;CMake Application.TESTBENCH.executor&quot;: &quot;Run&quot;,
-    &quot;CidrDebugProfileConversion&quot;: &quot;true&quot;,
-    &quot;CidrDebugProfileConversion262&quot;: &quot;true&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;DEVELOPMENT&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/brenton-james/CLionProjects/zinc/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "CMake Application.TESTBENCH.executor": "Run",
+    "CidrDebugProfileConversion": "true",
+    "CidrDebugProfileConversion262": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "DEVELOPMENT",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/brenton-james/CLionProjects/zinc/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="CMake Application.TESTBENCH">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SoothCute" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SiliconLife" TARGET_NAME="SoothCute" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -183,22 +193,12 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="zinc_epicentre" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SiliconLife" TARGET_NAME="zinc_epicentre" CONFIG_NAME="Debug">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="zinc_launch_que" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SiliconLife" TARGET_NAME="zinc_launch_que" CONFIG_NAME="Debug">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="zinc_mutex_que" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SiliconLife" TARGET_NAME="zinc_mutex_que" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="zinc_stemisphore" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SiliconLife" TARGET_NAME="zinc_stemisphore" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -206,9 +206,8 @@
     <list>
       <item itemvalue="CMake Application.SoothCute" />
       <item itemvalue="CMake Application.TESTBENCH" />
-      <item itemvalue="CMake Application.zinc_epicentre" />
-      <item itemvalue="CMake Application.zinc_launch_que" />
       <item itemvalue="CMake Application.zinc_mutex_que" />
+      <item itemvalue="CMake Application.zinc_stemisphore" />
     </list>
   </component>
   <component name="SelectedDebugProfileService">{
@@ -348,17 +347,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/io/src/CLIB_SystemBus.cpp</url>
-          <line>163</line>
+          <line>167</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/io/src/CLIB_SystemBus.cpp</url>
-          <line>181</line>
+          <line>185</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/io/src/CLIB_SystemBus.cpp</url>
-          <line>204</line>
+          <line>208</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">

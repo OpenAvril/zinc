@@ -1,6 +1,9 @@
 #include "../include/CLIB_SystemBus_Framework_App.h"
 #include "../../CLIB_ThreadsLog/io/include/CLIB_ThreadLogs.h"
 #include <iostream>
+
+
+	zinc::CLIB_SystemBus_Framework_App_Data* zinc::CLIB_SystemBus_Framework_App::stat_CLASS_ptr_CLIB_SystemBus_Framework_App_Data;
 	zinc::CLIB_SystemBus_Framework_App_Execute* zinc::CLIB_SystemBus_Framework_App::stat_CLASS_ptr_CLIB_SystemBus_Framework_App_Execute;
 // public.
 	zinc::CLIB_SystemBus_Framework_App::CLIB_SystemBus_Framework_App(std::byte* sysThreadId)	{
@@ -13,6 +16,7 @@
 	}
 	zinc::CLIB_SystemBus_Framework_App::~CLIB_SystemBus_Framework_App() {
 		std::cout << "thread " << std::to_string(0) << ":: entered LIB :: zinc : CLIB_SystemBus_Framework_App : ~CLIB_SystemBus_Framework_App()." << std::endl;
+		delete stat_CLASS_ptr_CLIB_SystemBus_Framework_App_Data;
 		delete stat_CLASS_ptr_CLIB_SystemBus_Framework_App_Execute;
 		std::cout << "thread " << std::to_string(0) << ":: exiting LIB :: zinc : CLIB_SystemBus_Framework_App : ~CLIB_SystemBus_Framework_App()." << std::endl;
 	}
@@ -31,6 +35,10 @@
 	void zinc::CLIB_SystemBus_Framework_App::dyn_REG_boot4_INSTANTIATE_CLIB_SystemBus_Framework_App(std::byte* sysThreadId) {
 		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: entered LIB :: zinc : CLIB_SystemBus_Framework_App : dyn_REG_boot4_INSTANTIATE_CLIB_SystemBus_Framework_App(sysThreadId)." << std::endl;
 		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_SystemBus_Framework_App : dyn_REG_boot4_INSTANTIATE_CLIB_SystemBus_Framework_App(sysThreadId)." << std::endl;
+	}
+	zinc::CLIB_SystemBus_Framework_App_Data* zinc::CLIB_SystemBus_Framework_App::dyn_CLASS_get_ptr_CLIB_SystemBus_Framework_App_Data(std::byte* sysThreadId)	{
+		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: <= class : dyn_CLASS_get_ptr_CLIB_SystemBus_Framework_App_Execute(sysThreadId)." << std::endl;
+		return stat_CLASS_get_ptr_CLIB_SystemBus_Framework_App_Data(sysThreadId);
 	}
 	zinc::CLIB_SystemBus_Framework_App_Execute* zinc::CLIB_SystemBus_Framework_App::dyn_CLASS_get_ptr_CLIB_SystemBus_Framework_App_Execute(std::byte* sysThreadId)	{
 		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: <= class : dyn_CLASS_get_ptr_CLIB_SystemBus_Framework_App_Execute(sysThreadId)." << std::endl;
@@ -53,10 +61,25 @@
 		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_SystemBus_Framework_App : stat_REG_boot0_DECLAIRE_CLIB_SystemBus_Framework_App(sysThreadId)." << std::endl;
 	}
 // private
+	void zinc::CLIB_SystemBus_Framework_App::stat_CLASS_boot1_DEFINE_CLIB_SystemBus_Framework_App_Data(std::byte* sysThreadId)	{
+		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: entered LIB :: zinc : CLIB_SystemBus_Framework_App : stat_CLASS_boot1_DEFINE_CLIB_SystemBus_Framework_App_Execute(sysThreadId)." << std::endl;
+		stat_CLASS_ptr_CLIB_SystemBus_Framework_App_Data = nullptr;
+		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_SystemBus_Framework_App : stat_CLASS_boot1_DEFINE_CLIB_SystemBus_Framework_App_Execute(sysThreadId)." << std::endl;
+	}
 	void zinc::CLIB_SystemBus_Framework_App::stat_CLASS_boot1_DEFINE_CLIB_SystemBus_Framework_App_Execute(std::byte* sysThreadId)	{
 		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: entered LIB :: zinc : CLIB_SystemBus_Framework_App : stat_CLASS_boot1_DEFINE_CLIB_SystemBus_Framework_App_Execute(sysThreadId)." << std::endl;
 		stat_CLASS_ptr_CLIB_SystemBus_Framework_App_Execute = nullptr;
 		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_SystemBus_Framework_App : stat_CLASS_boot1_DEFINE_CLIB_SystemBus_Framework_App_Execute(sysThreadId)." << std::endl;
+	}
+	void zinc::CLIB_SystemBus_Framework_App::stat_CLASS_boot3_INITIALISE_CLIB_SystemBus_Framework_App_Data(std::byte* sysThreadId) {
+		stat_CLASS_ptr_CLIB_SystemBus_Framework_App_Data = new class CLIB_SystemBus_Framework_App_Data(sysThreadId);
+	}
+	void zinc::CLIB_SystemBus_Framework_App::stat_CLASS_boot3_INITIALISE_CLIB_SystemBus_Framework_App_Execute(std::byte* sysThreadId) {
+		stat_CLASS_ptr_CLIB_SystemBus_Framework_App_Execute = new class CLIB_SystemBus_Framework_App_Execute(sysThreadId);
+	}
+	zinc::CLIB_SystemBus_Framework_App_Data* zinc::CLIB_SystemBus_Framework_App::stat_CLASS_get_ptr_CLIB_SystemBus_Framework_App_Data(std::byte* sysThreadId) {
+		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: <= class : stat_CLASS_get_ptr_CLIB_SystemBus_Framework_App_Execute(sysThreadId)." << std::endl;
+		return stat_CLASS_ptr_CLIB_SystemBus_Framework_App_Data;
 	}
 	zinc::CLIB_SystemBus_Framework_App_Execute* zinc::CLIB_SystemBus_Framework_App::stat_CLASS_get_ptr_CLIB_SystemBus_Framework_App_Execute(std::byte* sysThreadId) {
 		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: <= class : stat_CLASS_get_ptr_CLIB_SystemBus_Framework_App_Execute(sysThreadId)." << std::endl;

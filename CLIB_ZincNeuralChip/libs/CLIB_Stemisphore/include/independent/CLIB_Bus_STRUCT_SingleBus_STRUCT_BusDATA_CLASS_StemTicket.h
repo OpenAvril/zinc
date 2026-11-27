@@ -2,7 +2,6 @@
 #define CLIB_THREADS_LOG_CLIB_Bus_STRUCT_SingleBus_STRUCT_StemTicket_H
 #include <cstddef>
 #include <cstdint>
-
 namespace zinc {
     class StemTicket {
     public:

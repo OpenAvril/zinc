@@ -47,18 +47,22 @@
 
 		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: started Architecture Application CLASS(s) - DECLARE DEFINE INITIALISE, Registers - DECLARE SUBSTANTIATE INITIALISE." << std::endl;
 		stat_CLASS_get_ptr_CLIB_SystemBus_Framework(sysThreadId, handle_id)->dyn_APP_CLIB_SystemBus_Framework_create_Architecture(sysThreadId);
+
 		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: started Registers - DEFINE" << std::endl;
 
 		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: done Registers - DEFINE." << std::endl;
-		//todo
+		stat_CLASS_get_ptr_CLIB_SystemBus_Framework(sysThreadId, handle_id)->dyn_CLASS_get_ptr_CLIB_SystemBus_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_CLIB_SystemBus_Framework_App_Data(sysThreadId)->dyn_REG_boot1_DEFINE_CLIB_Bus_STRUCT_SingleBus_Framework_App_Data(sysThreadId);
+		stat_CLASS_get_ptr_CLIB_SystemBus_Framework(sysThreadId, handle_id)->dyn_CLASS_get_ptr_CLIB_SystemBus_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_CLIB_SystemBus_Framework_App_Execute(sysThreadId)->dyn_REG_boot1_DEFINE_CLIB_SystemBus_Framework_Execute(sysThreadId);
 		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: started Registers - SUBSTANTIATE." << std::endl;
 
 		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: done Registers - SUBSTANTIATE." << std::endl;
-		//todo
+		stat_CLASS_get_ptr_CLIB_SystemBus_Framework(sysThreadId, handle_id)->dyn_CLASS_get_ptr_CLIB_SystemBus_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_CLIB_SystemBus_Framework_App_Data(sysThreadId)->dyn_REG_boot2_SUBSTANTIATE_CLIB_Bus_STRUCT_SingleBus_Framework_App_Data(sysThreadId);
+		stat_CLASS_get_ptr_CLIB_SystemBus_Framework(sysThreadId, handle_id)->dyn_CLASS_get_ptr_CLIB_SystemBus_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_CLIB_SystemBus_Framework_App_Execute(sysThreadId)->dyn_REG_boot2_SUBSTANTIATE_CLIB_SystemBus_Framework_Execute(sysThreadId);
 		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: started Registers - INITIALISE." << std::endl;
 
 		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: done Registers - INITIALISE." << std::endl;
-		//todo
+		stat_CLASS_get_ptr_CLIB_SystemBus_Framework(sysThreadId, handle_id)->dyn_CLASS_get_ptr_CLIB_SystemBus_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_CLIB_SystemBus_Framework_App_Data(sysThreadId)->dyn_REG_boot3_INITIALISE_CLIB_Bus_STRUCT_SingleBus_Framework_App_Data(sysThreadId);
+		stat_CLASS_get_ptr_CLIB_SystemBus_Framework(sysThreadId, handle_id)->dyn_CLASS_get_ptr_CLIB_SystemBus_Framework_App(sysThreadId)->dyn_CLASS_get_ptr_CLIB_SystemBus_Framework_App_Execute(sysThreadId)->dyn_REG_boot3_INITIALISE_CLIB_SystemBus_Framework_Execute(sysThreadId);
 		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: done Architecture Application CLASS(s) - DECLARE DEFINE INITIALISE, Registers - DECLARE SUBSTANTIATE INITIALISE." << std::endl;
 
 		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: started Program - INSTANTIATION." << std::endl;
