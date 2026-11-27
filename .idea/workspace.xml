@@ -32,7 +32,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fb33d3f-99ba-4f2a-b0ec-fe17b1bccdcf" name="Changes" comment="DEVELOPMENT_2026_11_237_1131 &lt;COMPILE_SUCCESS&gt; &lt;RUNTIME_TEST&gt;.&#10;&#10;PHASE: *Design*, **Implementation**, Testing, Review.&#10;&#10;---&#10;BUILT: DEVELOPMENT_2026_11_237_1131.&#10; - zinc_mutex_que v1.2.3.&#10; - zinc_launch_que v1.2.3.&#10; - zinc_epicentre v1.4.1.&#10;           &#10;---&#10;IMPLEMENTED:&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.3.&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;       - reInitialiseHandle();&#10;     - zinc_launch_que v1.2.3.&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;       - reInitialiseHandle();&#10;     - zinc_epicentre v1.4.1.&#10;       - gernerateProgram();&#10;       - generateHandle(); &#10;       - reInitialiseHandle();&#10;&#10;---&#10;TODO:&#10;   - LIBRARIES:&#10;     - zinc_stemisphore v1.2.x.&#10;       - LIMIT mutex AccessId of uint8_t : MutexQue(A_64-bit, B_8-bit) MutexQue(B_reduced-bit, C_8-bit).&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;       - reInitialiseHandle();&#10;   &#10;---&#10;---">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/CMakeLists.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +47,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="DEVELOPMENT" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -58,72 +59,72 @@
     &quot;assignee&quot;: &quot;ScholarDragon&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/OpenAvril/zinc.git",
-    "accountId": "ea216a39-70c5-4fdc-b8d1-375769334f7a"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/OpenAvril/zinc.git&quot;,
+    &quot;accountId&quot;: &quot;ea216a39-70c5-4fdc-b8d1-375769334f7a&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.000844274639949" />
-      <entry key="MS500" value="1.2428268738875408" />
-      <entry key="S2" value="1.7038586286293316" />
-      <entry key="S5" value="1.9915891865545574" />
-      <entry key="S10" value="2.4961594832957363" />
-      <entry key="S30" value="4.2557891103835095" />
-      <entry key="S60" value="5.591670475850355" />
-      <entry key="M2" value="6.614310693298789" />
-      <entry key="M5" value="7.433244228762274" />
-      <entry key="M10" value="8.434807813812096" />
-      <entry key="M15" value="10.149426613938173" />
-      <entry key="M30" value="17.38580122250203" />
-      <entry key="H1" value="36.83634238117608" />
-      <entry key="H2" value="84.3137117525875" />
-      <entry key="H4" value="184.47730377011825" />
-      <entry key="D1" value="808.4811213869622" />
-      <entry key="W1" value="1213.6055970888317" />
+      <entry key="MS100" value="1.0094858975343364" />
+      <entry key="MS500" value="1.39419038462223" />
+      <entry key="S2" value="2.0058650006099707" />
+      <entry key="S5" value="2.734931074282982" />
+      <entry key="S10" value="3.3765073108038397" />
+      <entry key="S30" value="5.35016223946949" />
+      <entry key="S60" value="7.322555611402336" />
+      <entry key="M2" value="9.13643072901981" />
+      <entry key="M5" value="10.727126673416912" />
+      <entry key="M10" value="12.027109885387487" />
+      <entry key="M15" value="13.821995785681576" />
+      <entry key="M30" value="21.106920514336736" />
+      <entry key="H1" value="40.54267313897791" />
+      <entry key="H2" value="87.97864960442887" />
+      <entry key="H4" value="188.11116242478712" />
+      <entry key="D1" value="812.213830495754" />
+      <entry key="W1" value="1217.5482784069238" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="3.9410140238806236E-268" />
-      <entry key="S5" value="1.6131959623343444E-107" />
-      <entry key="S10" value="5.826502664650256E-54" />
-      <entry key="S30" value="4.1040686747802944E-18" />
-      <entry key="S60" value="4.9329419604443215E-9" />
-      <entry key="M2" value="2.009330122899875E-4" />
-      <entry key="M5" value="0.1450489214610672" />
-      <entry key="M10" value="1.6679992289196743" />
-      <entry key="M15" value="4.123825037374758" />
-      <entry key="M30" value="11.30447180578361" />
-      <entry key="H1" value="20.98434913374338" />
-      <entry key="H2" value="33.69894425310833" />
-      <entry key="H4" value="57.55603102257355" />
-      <entry key="D1" value="226.0291119660266" />
-      <entry key="W1" value="338.5469454747864" />
+      <entry key="S2" value="2.479648199547482E-274" />
+      <entry key="S5" value="5.3358051524561E-110" />
+      <entry key="S10" value="3.3509223739650584E-55" />
+      <entry key="S30" value="1.5841638257325376E-18" />
+      <entry key="S60" value="3.064776027914109E-9" />
+      <entry key="M2" value="1.583790243106059E-4" />
+      <entry key="M5" value="0.13187821223415272" />
+      <entry key="M10" value="1.5904686723136339" />
+      <entry key="M15" value="3.995027257860876" />
+      <entry key="M30" value="11.126537421124118" />
+      <entry key="H1" value="20.81854541847079" />
+      <entry key="H2" value="33.56554743202826" />
+      <entry key="H4" value="57.442000673442195" />
+      <entry key="D1" value="225.95441524430572" />
+      <entry key="W1" value="338.5309602208015" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.8652521169015887" />
-      <entry key="MS500" value="1.2061881828472127" />
-      <entry key="S2" value="1.6907794984429338" />
-      <entry key="S5" value="1.9854498004137417" />
-      <entry key="S10" value="2.4921122229819788" />
-      <entry key="S30" value="4.2521790840187315" />
-      <entry key="S60" value="5.588728845560731" />
-      <entry key="M2" value="6.61255326813081" />
-      <entry key="M5" value="7.573355683818934" />
-      <entry key="M10" value="10.080613157548932" />
-      <entry key="M15" value="14.238901412232416" />
-      <entry key="M30" value="28.647414209011085" />
-      <entry key="H1" value="57.783654131870364" />
-      <entry key="H2" value="117.98323786853607" />
-      <entry key="H4" value="242.00729950119947" />
-      <entry key="D1" value="1034.4928513287546" />
-      <entry key="W1" value="1552.1488218870522" />
+      <entry key="MS100" value="0.7232795127518366" />
+      <entry key="MS500" value="1.2988065830510866" />
+      <entry key="S2" value="1.95678824899619" />
+      <entry key="S5" value="2.694701360981912" />
+      <entry key="S10" value="3.3483739711470526" />
+      <entry key="S30" value="5.336959457251207" />
+      <entry key="S60" value="7.314446042475645" />
+      <entry key="M2" value="9.131804705290604" />
+      <entry key="M5" value="10.85319474769308" />
+      <entry key="M10" value="13.595751591956555" />
+      <entry key="M15" value="17.78330159995713" />
+      <entry key="M30" value="32.19105122804759" />
+      <entry key="H1" value="61.32436245411635" />
+      <entry key="H2" value="121.51483963934338" />
+      <entry key="H4" value="245.5271515250508" />
+      <entry key="D1" value="1038.1508648152856" />
+      <entry key="W1" value="1556.075517463265" />
     </decayedShown>
   </component>
   <component name="ProjectApplicationVersion">
@@ -156,7 +157,7 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "DEVELOPMENT",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/brenton-james/CLionProjects/zinc/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue",
     "node.js.detected.package.eslint": "true",
