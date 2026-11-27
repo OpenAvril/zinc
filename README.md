@@ -1,36 +1,15 @@
 # Zinc Insulate Neural Chip Open Source Package:
 
+ - MutexQue : libzinc_mutex_que, v-1.4.4.
+
+ - LaunchQue : libzinc_launch_que, v-1.4.4.
+
+
+** UNDER DEVELOPMENT **
+ - LeftHemisphore : libzinc_epicentre, v-1.4.1. ***TEMPLATE for user Compilation***
+ 
 ---
-
 ---
-## Published
-
----
-MutexQue : zinc_mutex_que, v-1.4.1.
- - exclusive cohesion mute all bar this 
-
----
-LaunchQue : zinc_launch_que, v-1.4.1.
-
-
----
-
----
-## **UNDER DEVELOPMENT**
-
----
-LeftHemisphore : zinc_epicentre, v-1.4.1. ***TEMPLATE for user Compilation*** 
- - Supercomputer for the modern server.
-
----
-Stemisphore : zinc_stemisphore, v-1.x.x.
-
---- 
-
----
-
----
-
 ## zinc.
 
 C++ LIB 'zinc' Adurino prototype board firmware update :: MIT package(s) for 'Silicon life' engineering tools :: Concurrent; Embedded control systems, Core, Post-process, Networking, Full stack development, System bussing., Binary neural intelligence.
@@ -66,7 +45,7 @@ A master by coursework with five specialisation electives, I propose Convener of
 ---
 ## zinc : zinc::.*
 ---
-### MutexQue : zinc_mutex_que, v-1.2.0.
+### MutexQue : zinc_mutex_que, v-1.4.4.
   
 Exclusive Cohesion Mutex Queue:   
 
@@ -75,7 +54,17 @@ CLIB Request, Wait, Write-Read for 'ThreadId' at 'DataCluster'.
 Via concurrency, 'zinc' and 'slif' libraries double the combined input and output efficiency with three "Threads; Input, Output, Task." on Raspberry Pi & Arduino via respectivly. 
 
 ---
-### Stemisphore : zinc_stemisphore, v-1.2.0.
+### LaunchQue : zinc_launch_que, v-1.4.4.
+
+Left Hemisphore Task Launcher:
+
+CLIB Request, Wait, Launch for 'ThreadId' at Server-Client.
+
+Concurrency; Core, Post-Process.
+
+
+---
+### Stemisphore : zinc_stemisphore, v-1.2.0. ***UNDER DEVELOPMENT***
 
 System Bussing for Zinc Neural Hemisphoric Chip:
 
@@ -85,32 +74,16 @@ Open Concurrent SCADA.
 
 Triple MutexQue into a set/get data buffer of bus for route of paired junctions.
 
-MainStreamBussing: CLIB Compound of ExclusiveCohesionMutexQueue(s). An array of a single Bus with route array of Stations. 
-
-A single Bus deploying an ExclusiveCohesionMutexQueue('Handle_Id=BusId', 'AccessId_A=StationId4Mutex'), 
-
-and each Station deploying an ExclusiveCohesionMutexQueue('Handle_Id=StationId', 'AccessId_B=Thread4Mutex').
+MainStreamBussing: CLIB Compound of ExclusiveCohesionMutexQueue(s). An array of a single Bus with route array of Stations. A single Bus deploying an ExclusiveCohesionMutexQueue('AccessId_A=StationId','DataClusterId_A=BusId'), and each Station deploying an ExclusiveCohesionMutexQueue('AccessId_B','DataClusterId_B=StationId').
 
 ---
-### LaunchQue : zinc_launch_que, v-1.2.0.
-
-Left Hemisphore Task Launcher: 
-
-CLIB Request, Wait, Launch for 'ThreadId' at Server-Client.
-
-Concurrency; Core, Post-Process.
-
-
----
-### LeftHemisphore : zinc_epicentre. ***TEMPLATE for user Compilation*** ***UNDER DEVELOPMENT***
+### LeftHemisphore : zinc_epicentre v-1.4.1. ***TEMPLATE for user Compilation***
   
 Left Hemisphore Logic Task Result Deducer:      
 
 Consumer of spare threads.
 
-Super Computer for the modern Server. The below products are *suspected* of implementing packages similar to 'zinc' and 'slif' with independent I and O 64-bit pins.
- - [AI Supercomputer Based on NVIDIA® DGX Spark™ GB10 Platform](https://ipc.msi.com/product_detail/Industrial-Computer-Box-PC/AI-Supercomputer/EdgeXpert-MS-C931?utm_id=97757_v0_s00_e0_tv2&fbclid=IwY2xjawVwiQJleHRuA2FlbQIxMQBwZG9mAXNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR8f1ni7t3XtfDj8sZilJR8IRPD1M3ZHCdK7U5a4kxYa6k06k9BXj9Q5p06pmg_aem_V1r_xXIlCqnUz8xOJKPD4A)
- - [NVIDIA DGX Spark Founders Edition Mini PC, NVIDIA Blackwell](https://www.nvidia.com/en-au/products/workstations/dgx-spark/) 
+Left Hemisphore Logic Task Result Deducer: CLIB Concurrent Server with independent task threads and IO wrapper.
   
 **TEMPLATE for user Compilation**
 
@@ -122,14 +95,20 @@ Neural Chip Thread Logging:
 CLIB Console output via MutexQue, DataCluster is 'Console'.
 
 ---
-### RightHemisphore: ***UNDER DEVELOPMENT***
-  
-Wi-Fi hi and low bandwidth direct injection to a independent thread 'access-id (ThreadId)' of stemisphore.
+### BNITT : zinc_bni_bnn_thread_tasks. ***UNDER DEVELOPMENT***
+
+
+---
+### BNI : BNN : zinc_bni_bnn_archiving. ***UNDER DEVELOPMENT***
+
+
+---
+### BNI : BNN : zinc_bni_bnn_design_suite. ***UNDER DEVELOPMENT***
 
 
 ---
 ---
-## BNI : Binary Neural Inteligence. ***UNDER DEVELOPMENT***
+## BNI : Binary Neural Inteligence.
 
   - 3x Zones: Id, Ego, SuperEgo.
   - 2x Hemisphores; Left, Right. per Zone, and 'x' number of Junctions to all parts of the Hemisphore.
@@ -168,19 +147,6 @@ slif_epicentre INJECTION paths:
   - Libra - Balance in Harmony.
 
 [PSUDOCODE Repository : Binary Neural Intelligence - Java.](https://github.com/OpenAvril/Binary-Neural-Intelligence)
-
----
-### BNITT : zinc_bni_bnn_thread_tasks. ***UNDER DEVELOPMENT***
-
-
----
-### BNI : BNN : zinc_bni_bnn_archiving. ***UNDER DEVELOPMENT***
-
-
----
-### BNI : BNN : zinc_bni_bnn_design_suite. ***UNDER DEVELOPMENT***
-
-
 
 ---
 ---
@@ -233,7 +199,7 @@ cmake --build build
 
 zinc::MutexQue::generateProgram(sysThreadId);
 
-unsigned char* handleId = zinc::MutexQue::generateHandle(sysThreadId);
+unsigned char* stat_REG_HandleId_For_PGM_zincMutexQue = zinc::MutexQue::generateHandle(sysThreadId);
 
 zinc::MutexQue::reInitialiseHandle(sysThreadId, handleId, MAX_NUMBER_OF_THREADS_FOR_ACCESS);
 
