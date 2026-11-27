@@ -33,6 +33,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2fb33d3f-99ba-4f2a-b0ec-fe17b1bccdcf" name="Changes" comment="DEVELOPMENT_2026_11_237_1131 &lt;COMPILE_SUCCESS&gt; &lt;RUNTIME_TEST&gt;.&#10;&#10;PHASE: *Design*, **Implementation**, Testing, Review.&#10;&#10;---&#10;BUILT: DEVELOPMENT_2026_11_237_1131.&#10; - zinc_mutex_que v1.2.3.&#10; - zinc_launch_que v1.2.3.&#10; - zinc_epicentre v1.4.1.&#10;           &#10;---&#10;IMPLEMENTED:&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.3.&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;       - reInitialiseHandle();&#10;     - zinc_launch_que v1.2.3.&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;       - reInitialiseHandle();&#10;     - zinc_epicentre v1.4.1.&#10;       - gernerateProgram();&#10;       - generateHandle(); &#10;       - reInitialiseHandle();&#10;&#10;---&#10;TODO:&#10;   - LIBRARIES:&#10;     - zinc_stemisphore v1.2.x.&#10;       - LIMIT mutex AccessId of uint8_t : MutexQue(A_64-bit, B_8-bit) MutexQue(B_reduced-bit, C_8-bit).&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;       - reInitialiseHandle();&#10;   &#10;---&#10;---">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_MutexQue/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,72 +61,72 @@
     &quot;assignee&quot;: &quot;ScholarDragon&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/OpenAvril/zinc.git",
-    "accountId": "ea216a39-70c5-4fdc-b8d1-375769334f7a"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/OpenAvril/zinc.git&quot;,
+    &quot;accountId&quot;: &quot;ea216a39-70c5-4fdc-b8d1-375769334f7a&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.000844274639949" />
-      <entry key="MS500" value="1.2428268738875408" />
-      <entry key="S2" value="1.7038586286293316" />
-      <entry key="S5" value="1.9915891865545574" />
-      <entry key="S10" value="2.4961594832957363" />
-      <entry key="S30" value="4.2557891103835095" />
-      <entry key="S60" value="5.591670475850355" />
-      <entry key="M2" value="6.614310693298789" />
-      <entry key="M5" value="7.433244228762274" />
-      <entry key="M10" value="8.434807813812096" />
-      <entry key="M15" value="10.149426613938173" />
-      <entry key="M30" value="17.38580122250203" />
-      <entry key="H1" value="36.83634238117608" />
-      <entry key="H2" value="84.3137117525875" />
-      <entry key="H4" value="184.47730377011825" />
-      <entry key="D1" value="808.4811213869622" />
-      <entry key="W1" value="1213.6055970888317" />
+      <entry key="MS100" value="1.0001969340232475" />
+      <entry key="MS500" value="1.1814970116449706" />
+      <entry key="S2" value="1.7141135035093993" />
+      <entry key="S5" value="2.445174505392777" />
+      <entry key="S10" value="3.2559344567502966" />
+      <entry key="S30" value="4.70101622063636" />
+      <entry key="S60" value="6.599741375849638" />
+      <entry key="M2" value="9.769371857385808" />
+      <entry key="M5" value="14.065050665110839" />
+      <entry key="M10" value="16.829707284138287" />
+      <entry key="M15" value="19.114569460196087" />
+      <entry key="M30" value="26.807956754694757" />
+      <entry key="H1" value="46.313972026381634" />
+      <entry key="H2" value="93.65925625111471" />
+      <entry key="H4" value="193.70689584112304" />
+      <entry key="D1" value="818.205747491159" />
+      <entry key="W1" value="1224.3324029556654" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="3.9410140238806236E-268" />
-      <entry key="S5" value="1.6131959623343444E-107" />
-      <entry key="S10" value="5.826502664650256E-54" />
-      <entry key="S30" value="4.1040686747802944E-18" />
-      <entry key="S60" value="4.9329419604443215E-9" />
-      <entry key="M2" value="2.009330122899875E-4" />
-      <entry key="M5" value="0.1450489214610672" />
-      <entry key="M10" value="1.6679992289196743" />
-      <entry key="M15" value="4.123825037374758" />
-      <entry key="M30" value="11.30447180578361" />
-      <entry key="H1" value="20.98434913374338" />
-      <entry key="H2" value="33.69894425310833" />
-      <entry key="H4" value="57.55603102257355" />
-      <entry key="D1" value="226.0291119660266" />
-      <entry key="W1" value="338.5469454747864" />
+      <entry key="S2" value="1.3579982636775602E-297" />
+      <entry key="S5" value="2.646083959388678E-119" />
+      <entry key="S10" value="7.462188171183293E-60" />
+      <entry key="S30" value="4.4569117515761344E-20" />
+      <entry key="S60" value="5.140622509039703E-10" />
+      <entry key="M2" value="6.486436172616128E-5" />
+      <entry key="M5" value="0.09227763288647678" />
+      <entry key="M10" value="1.330414030585489" />
+      <entry key="M15" value="3.546725234763708" />
+      <entry key="M30" value="10.483684241782074" />
+      <entry key="H1" value="20.208186058572032" />
+      <entry key="H2" value="33.06984881036542" />
+      <entry key="H4" value="57.01626904515183" />
+      <entry key="D1" value="225.6744390426997" />
+      <entry key="W1" value="338.4710043962917" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.8652521169015887" />
-      <entry key="MS500" value="1.2061881828472127" />
-      <entry key="S2" value="1.6907794984429338" />
-      <entry key="S5" value="1.9854498004137417" />
-      <entry key="S10" value="2.4921122229819788" />
-      <entry key="S30" value="4.2521790840187315" />
-      <entry key="S60" value="5.588728845560731" />
-      <entry key="M2" value="6.61255326813081" />
-      <entry key="M5" value="7.573355683818934" />
-      <entry key="M10" value="10.080613157548932" />
-      <entry key="M15" value="14.238901412232416" />
-      <entry key="M30" value="28.647414209011085" />
-      <entry key="H1" value="57.783654131870364" />
-      <entry key="H2" value="117.98323786853607" />
-      <entry key="H4" value="242.00729950119947" />
-      <entry key="D1" value="1034.4928513287546" />
-      <entry key="W1" value="1552.1488218870522" />
+      <entry key="MS100" value="0.49669141460267363" />
+      <entry key="MS500" value="1.0401017139290711" />
+      <entry key="S2" value="1.669107995401969" />
+      <entry key="S5" value="2.42320205262089" />
+      <entry key="S10" value="3.2428355472412878" />
+      <entry key="S30" value="4.695142583223215" />
+      <entry key="S60" value="6.595624674908726" />
+      <entry key="M2" value="9.766355649941593" />
+      <entry key="M5" value="14.15297991980504" />
+      <entry key="M10" value="18.141764714034345" />
+      <entry key="M15" value="22.63130265459695" />
+      <entry key="M30" value="37.25166301033444" />
+      <entry key="H1" value="66.48637339969888" />
+      <entry key="H2" value="126.70017705294818" />
+      <entry key="H4" value="250.69734411794826" />
+      <entry key="D1" value="1043.8628268297437" />
+      <entry key="W1" value="1562.7996868017815" />
     </decayedShown>
   </component>
   <component name="ProjectApplicationVersion">
@@ -141,34 +144,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "CMake Application.TESTBENCH.executor": "Run",
-    "CidrDebugProfileConversion": "true",
-    "CidrDebugProfileConversion262": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.RadMigrateCodeStyle": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "DEVELOPMENT",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/brenton-james/CLionProjects/zinc/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.jshint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.jshint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;CMake Application.TESTBENCH.executor&quot;: &quot;Run&quot;,
+    &quot;CidrDebugProfileConversion&quot;: &quot;true&quot;,
+    &quot;CidrDebugProfileConversion262&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;DEVELOPMENT&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/brenton-james/CLionProjects/zinc/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="CMake Application.TESTBENCH">
     <configuration name="SoothCute" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SiliconLife" TARGET_NAME="SoothCute" CONFIG_NAME="Debug">
       <method v="2">
@@ -297,7 +300,9 @@
     <MESSAGE value="DEVELOPMENT_2026_11_19_1343 &lt;COMPILE_SUCCESS&gt; &lt;RUNTIME_TEST&gt;.&#10;&#10;PHASE: Design, *Implementation*, **Testing**, Review.&#10;&#10;---&#10;BUILT: DEVELOPMENT_2026_11_19_1343.&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.1.&#10;     - zinc_launch_que v1.2.1.&#10;     - zinc_stemisphore v1.2.2.&#10;       - LIMIT mutex AccessId of uint8_t : MutexQue(A_64-bit, B_8-bit) MutexQue(B_reduced-bit, C_8-bit).&#10;     - zinc_epicentre v1.2.2.&#10;       &#10;---&#10;IMPLEMENTED:&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.1.&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;     - zinc_launch_que v1.2.1.&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;     - zinc_stemisphore v1.2.2.&#10;       - LIMIT mutex AccessId of uint8_t : MutexQue(A_64-bit, B_8-bit) MutexQue(B_reduced-bit, C_8-bit).&#10;       - gernerateProgram();&#10;     - zinc_epicentre v1.2.2.&#10;       - gernerateProgram();&#10;&#10;---&#10;TODO:&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.1.&#10;       - reInitialiseHandle(); ERROR @ thread 0 :: entered LIB :: CLIB : CLIB_MutexQue : reInitialiseHandle(sysThreadId)&#10;     - zinc_launch_que v1.2.1.&#10;       - reInitialiseHandle();&#10;     - zinc_stemisphore v1.2.2.&#10;       - LIMIT mutex AccessId of uint8_t : MutexQue(A_64-bit, B_8-bit) MutexQue(B_reduced-bit, C_8-bit).&#10;       - reInitialiseHandle();&#10;   - zinc_epicentre v1.2.2.&#10;     - reInitialiseHandle();&#10;   - zinc_stemisphore v1.2.2.&#10;     - generateHandle();&#10;     - reInitialiseHandle();&#10;   - zinc_epicentre v1.2.2.&#10;     - gernerateProgram();&#10;     - generateHandle();&#10;     - reInitialiseHandle();&#10;   &#10;---&#10;---" />
     <MESSAGE value="DEVELOPMENT_2026_11_20_1317 &lt;COMPILE_SUCCESS&gt; &lt;RUNTIME_TEST&gt;.&#10;&#10;PHASE: *Design*, **Implementation**, Testing, Review.&#10;&#10;---&#10;BUILT: DEVELOPMENT_2026_11_20_1317.&#10;       &#10;---&#10;IMPLEMENTED:&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.x.&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;     - zinc_launch_que v1.2.x.&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;     - zinc_stemisphore v1.2.x.&#10;       - LIMIT mutex AccessId of uint8_t : MutexQue(A_64-bit, B_8-bit) MutexQue(B_reduced-bit, C_8-bit).&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;     - zinc_epicentre v1.2.x.&#10;       - gernerateProgram();&#10;&#10;---&#10;TODO:&#10;   - LIBRARIES:&#10;     - zinc_launch_que v1.2.1.&#10;       - reInitialiseHandle();&#10;     - zinc_stemisphore v1.2.2.&#10;       - reInitialiseHandle();&#10;    - zinc_epicentre v1.2.2.&#10;      - gernerateProgram();&#10;      - generateHandle();&#10;      - reInitialiseHandle();&#10;   &#10;---&#10;---" />
     <MESSAGE value="DEVELOPMENT_2026_11_237_1131 &lt;COMPILE_SUCCESS&gt; &lt;RUNTIME_TEST&gt;.&#10;&#10;PHASE: *Design*, **Implementation**, Testing, Review.&#10;&#10;---&#10;BUILT: DEVELOPMENT_2026_11_237_1131.&#10; - zinc_mutex_que v1.2.3.&#10; - zinc_launch_que v1.2.3.&#10; - zinc_epicentre v1.4.1.&#10;           &#10;---&#10;IMPLEMENTED:&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.3.&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;       - reInitialiseHandle();&#10;     - zinc_launch_que v1.2.3.&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;       - reInitialiseHandle();&#10;     - zinc_epicentre v1.4.1.&#10;       - gernerateProgram();&#10;       - generateHandle(); &#10;       - reInitialiseHandle();&#10;&#10;---&#10;TODO:&#10;   - LIBRARIES:&#10;     - zinc_stemisphore v1.2.x.&#10;       - LIMIT mutex AccessId of uint8_t : MutexQue(A_64-bit, B_8-bit) MutexQue(B_reduced-bit, C_8-bit).&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;       - reInitialiseHandle();&#10;   &#10;---&#10;---" />
-    <option name="LAST_COMMIT_MESSAGE" value="DEVELOPMENT_2026_11_237_1131 &lt;COMPILE_SUCCESS&gt; &lt;RUNTIME_TEST&gt;.&#10;&#10;PHASE: *Design*, **Implementation**, Testing, Review.&#10;&#10;---&#10;BUILT: DEVELOPMENT_2026_11_237_1131.&#10; - zinc_mutex_que v1.2.3.&#10; - zinc_launch_que v1.2.3.&#10; - zinc_epicentre v1.4.1.&#10;           &#10;---&#10;IMPLEMENTED:&#10;   - LIBRARIES:&#10;     - zinc_mutex_que v1.2.3.&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;       - reInitialiseHandle();&#10;     - zinc_launch_que v1.2.3.&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;       - reInitialiseHandle();&#10;     - zinc_epicentre v1.4.1.&#10;       - gernerateProgram();&#10;       - generateHandle(); &#10;       - reInitialiseHandle();&#10;&#10;---&#10;TODO:&#10;   - LIBRARIES:&#10;     - zinc_stemisphore v1.2.x.&#10;       - LIMIT mutex AccessId of uint8_t : MutexQue(A_64-bit, B_8-bit) MutexQue(B_reduced-bit, C_8-bit).&#10;       - gernerateProgram();&#10;       - generateHandle();&#10;       - reInitialiseHandle();&#10;   &#10;---&#10;---" />
+    <MESSAGE value="DEVELOPMENT_2026_11_27_1144 &lt;COMPILE_SUCCESS&gt; &lt;RUNTIME_TEST&gt;.&#10;&#10;---&#10;PHASE: *Design*, **Implementation**, Testing, Review.&#10;&#10;---&#10;BUILT: DEVELOPMENT_2026_11_27_1144.&#10; - zinc_mutex_que v1.4.1.&#10; - zinc_launch_que v1.4.1.&#10; - zinc_epicentre v1.4.1.&#10;   &#10;---&#10;---" />
+    <MESSAGE value="DEVELOPMENT_2026_11_27_1149 &lt;COMPILE_SUCCESS&gt; &lt;RUNTIME_TEST&gt;.&#10;&#10;---&#10;PHASE: *Design*, **Implementation**, Testing, Review.&#10;&#10;---&#10;BUILT: DEVELOPMENT_2026_11_27_1149.&#10; - zinc_mutex_que v1.4.1.&#10; - zinc_launch_que v1.4.1.&#10; - zinc_epicentre v1.4.1.&#10;   &#10;---&#10;---" />
+    <option name="LAST_COMMIT_MESSAGE" value="DEVELOPMENT_2026_11_27_1149 &lt;COMPILE_SUCCESS&gt; &lt;RUNTIME_TEST&gt;.&#10;&#10;---&#10;PHASE: *Design*, **Implementation**, Testing, Review.&#10;&#10;---&#10;BUILT: DEVELOPMENT_2026_11_27_1149.&#10; - zinc_mutex_que v1.4.1.&#10; - zinc_launch_que v1.4.1.&#10; - zinc_epicentre v1.4.1.&#10;   &#10;---&#10;---" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

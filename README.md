@@ -1,12 +1,12 @@
 # Zinc Insulate Neural Chip Open Source Package:
 
-MutexQue : zinc_mutex_que, v-1.2.0.
+ - MutexQue : libzinc_mutex_que, v-1.4.4.
 
-Stemisphore : zinc_stemisphore, v-1.2.0.
+ - LaunchQue : libzinc_launch_que, v-1.4.4.
 
-LaunchQue : zinc_launch_que, v-1.2.0.
 
-LeftHemisphore : zinc_epicentre. ***TEMPLATE for user Compilation*** ***UNDER DEVELOPMENT***
+** UNDER DEVELOPMENT **
+ - LeftHemisphore : libzinc_epicentre, v-1.4.1. ***TEMPLATE for user Compilation***
  
 ---
 ---
@@ -45,7 +45,7 @@ A master by coursework with five specialisation electives, I propose Convener of
 ---
 ## zinc : zinc::.*
 ---
-### MutexQue : zinc_mutex_que, v-1.2.0.
+### MutexQue : zinc_mutex_que, v-1.4.4.
   
 Exclusive Cohesion Mutex Queue:   
 
@@ -54,7 +54,17 @@ CLIB Request, Wait, Write-Read for 'ThreadId' at 'DataCluster'.
 Via concurrency, 'zinc' and 'slif' libraries double the combined input and output efficiency with three "Threads; Input, Output, Task." on Raspberry Pi & Arduino via respectivly. 
 
 ---
-### Stemisphore : zinc_stemisphore, v-1.2.0.
+### LaunchQue : zinc_launch_que, v-1.4.4.
+
+Left Hemisphore Task Launcher:
+
+CLIB Request, Wait, Launch for 'ThreadId' at Server-Client.
+
+Concurrency; Core, Post-Process.
+
+
+---
+### Stemisphore : zinc_stemisphore, v-1.2.0. ***UNDER DEVELOPMENT***
 
 System Bussing for Zinc Neural Hemisphoric Chip:
 
@@ -67,17 +77,7 @@ Triple MutexQue into a set/get data buffer of bus for route of paired junctions.
 MainStreamBussing: CLIB Compound of ExclusiveCohesionMutexQueue(s). An array of a single Bus with route array of Stations. A single Bus deploying an ExclusiveCohesionMutexQueue('AccessId_A=StationId','DataClusterId_A=BusId'), and each Station deploying an ExclusiveCohesionMutexQueue('AccessId_B','DataClusterId_B=StationId').
 
 ---
-### LaunchQue : zinc_launch_que, v-1.2.0.
-
-Left Hemisphore Task Launcher: 
-
-CLIB Request, Wait, Launch for 'ThreadId' at Server-Client.
-
-Concurrency; Core, Post-Process.
-
-
----
-### LeftHemisphore : zinc_epicentre. ***TEMPLATE for user Compilation*** ***UNDER DEVELOPMENT***
+### LeftHemisphore : zinc_epicentre v-1.4.1. ***TEMPLATE for user Compilation***
   
 Left Hemisphore Logic Task Result Deducer:      
 
@@ -95,14 +95,20 @@ Neural Chip Thread Logging:
 CLIB Console output via MutexQue, DataCluster is 'Console'.
 
 ---
-### RightHemisphore: ***UNDER DEVELOPMENT***
-  
-Wi-Fi hi and low bandwidth direct injection to a independent thread 'access-id (ThreadId)' of stemisphore.
+### BNITT : zinc_bni_bnn_thread_tasks. ***UNDER DEVELOPMENT***
+
+
+---
+### BNI : BNN : zinc_bni_bnn_archiving. ***UNDER DEVELOPMENT***
+
+
+---
+### BNI : BNN : zinc_bni_bnn_design_suite. ***UNDER DEVELOPMENT***
 
 
 ---
 ---
-## BNI : Binary Neural Inteligence. ***UNDER DEVELOPMENT***
+## BNI : Binary Neural Inteligence.
 
   - 3x Zones: Id, Ego, SuperEgo.
   - 2x Hemisphores; Left, Right. per Zone, and 'x' number of Junctions to all parts of the Hemisphore.
@@ -141,19 +147,6 @@ slif_epicentre INJECTION paths:
   - Libra - Balance in Harmony.
 
 [PSUDOCODE Repository : Binary Neural Intelligence - Java.](https://github.com/OpenAvril/Binary-Neural-Intelligence)
-
----
-### BNITT : zinc_bni_bnn_thread_tasks. ***UNDER DEVELOPMENT***
-
-
----
-### BNI : BNN : zinc_bni_bnn_archiving. ***UNDER DEVELOPMENT***
-
-
----
-### BNI : BNN : zinc_bni_bnn_design_suite. ***UNDER DEVELOPMENT***
-
-
 
 ---
 ---
