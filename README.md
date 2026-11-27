@@ -1,23 +1,36 @@
 # Zinc Insulate Neural Chip Open Source Package:
 
 ---
+
+---
 ## Published
 
-MutexQue : zinc_mutex_que, v-1.3.0.
+---
+MutexQue : zinc_mutex_que, v-1.4.1.
  - exclusive cohesion mute all bar this 
 
-LaunchQue : zinc_launch_que, v-1.3.0.
+---
+LaunchQue : zinc_launch_que, v-1.4.1.
 
-LeftHemisphore : zinc_epicentre, v-1.3.0. ***TEMPLATE for user Compilation*** 
- - Supercomputer for the modern server.
+
+---
 
 ---
 ## **UNDER DEVELOPMENT**
+
+---
+LeftHemisphore : zinc_epicentre, v-1.4.1. ***TEMPLATE for user Compilation*** 
+ - Supercomputer for the modern server.
+
+---
 Stemisphore : zinc_stemisphore, v-1.x.x.
 
- 
+--- 
+
 ---
+
 ---
+
 ## zinc.
 
 C++ LIB 'zinc' Adurino prototype board firmware update :: MIT package(s) for 'Silicon life' engineering tools :: Concurrent; Embedded control systems, Core, Post-process, Networking, Full stack development, System bussing., Binary neural intelligence.
