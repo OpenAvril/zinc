@@ -1,2 +1,0 @@
-/usr/bin/ar qc libzinc_mutex_que.a CMakeFiles/zinc_mutex_que.dir/io/src/CLIB_MutexQue.cpp.o CMakeFiles/zinc_mutex_que.dir/src/CLIB_MutexQue_Framework.cpp.o CMakeFiles/zinc_mutex_que.dir/src/CLIB_MutexQue_Framework_Global.cpp.o CMakeFiles/zinc_mutex_que.dir/src/CLIB_MutexQue_Framework_App.cpp.o CMakeFiles/zinc_mutex_que.dir/src/CLIB_MutexQue_Framework_App_Control.cpp.o
-/usr/bin/ranlib libzinc_mutex_que.a
