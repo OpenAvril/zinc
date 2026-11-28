@@ -56,11 +56,9 @@ Via concurrency, 'zinc' and 'slif' libraries double the combined input and outpu
 ---
 ### Stemisphore : zinc_stemisphore, v-1.5.0. ***UNDER DEVELOPMENT***
 
-System Bussing for Zinc Neural Hemisphoric Chip:
+System Bussing On A Chip:
 
-CLIB Concurrent System Bussing.
-
-Open Concurrent SCADA.
+CLIB Concurrent System Bussing / Open Concurrent SCADA / Concurrent Bussing On Chip - CBOC.
 
 Triple MutexQue into a set/get data buffer of bus for route of paired junctions.
 
@@ -73,7 +71,7 @@ Left Hemisphore Task Launcher:
 
 CLIB Request, Wait, Launch for 'ThreadId' at Server-Client.
 
-Concurrency; Core, Post-Process.
+Concurrency; Core (Super Computign), Post-Process (Post Porcess Graphics).
 
 
 ---
@@ -199,7 +197,7 @@ cmake --build build
 
 zinc::MutexQue::generateProgram(sysThreadId);
 
-unsigned char* stat_REG_HandleId_For_PGM_zincMutexQue = zinc::MutexQue::generateHandle(sysThreadId);
+unsigned char* handleId = zinc::MutexQue::generateHandle(sysThreadId);
 
 zinc::MutexQue::reInitialiseHandle(sysThreadId, handleId, MAX_NUMBER_OF_THREADS_FOR_ACCESS);
 
