@@ -104,7 +104,7 @@
         temp = listOfObject->begin();
         std::advance(temp, 4);
         *temp = CLIB_SystemBus_Framework_Global::stat_CONVERT_CLIB_SystemBusses_Framework_Global_VUALUEofMsbInt8_To_MsbByteArray(sysThreadId, StemTicket->get_Arrival_AccessId());
-        return reinterpret_cast<unsigned char*>(reinterpret_cast<class Object*>(StemTicket));
+        return reinterpret_cast<unsigned char*>(reinterpret_cast<class Object*>(listOfObject));
     }
     unsigned char* zinc::CLIB_SystemBus_Framework_Global::stat_CONVERT_CLIB_SystemBusses_Framework_Global_VUALUEofMsbBool_to_MsbByteArray(std::byte* sysThreadId, bool newValue_Bool) {
         unsigned char* buffer = nullptr;
