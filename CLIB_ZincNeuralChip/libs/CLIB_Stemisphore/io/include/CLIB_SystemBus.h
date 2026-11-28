@@ -10,9 +10,9 @@ extern "C" {
             public:
             static std::byte* generateHandle(std::byte* sysThreadId);
             static void generateProgram(std::byte* sysThreadId);
-            static void load(std::byte* sysThreadId, std::byte* handle_Id, StemTicket StemTicket, unsigned char* bytes_Cargo);
+            static void load(std::byte* sysThreadId, std::byte* handle_Id, unsigned char* StemTicket, unsigned char* bytes_Cargo);
             static void reInitialiseHandle(std::byte* sysThreadId, std::byte* handle_Id, unsigned char* MAX_NUMBER_OF_JUNCTIONS);
-            static unsigned char* unload(std::byte* sysThreadId, std::byte* handle_Id, StemTicket StemTicket);
+            static unsigned char* unload(std::byte* sysThreadId, std::byte* handle_Id, unsigned char* StemTicket);
             static void terminateProgram(std::byte* sysThreadId);
         private:
             static std::byte* accessId;

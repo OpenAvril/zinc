@@ -32,14 +32,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fb33d3f-99ba-4f2a-b0ec-fe17b1bccdcf" name="Changes" comment="DEVELOPMENT_2026_11_28_1654 &lt;COMPILE_SUCCESS&gt; &lt;RUNTIME_TEST&gt;.&#10;&#10;---&#10;PHASE: Design, *Implementation*, **Testing**, Review.&#10;&#10;---&#10;BUILT: DEVELOPMENT_2026_11_28_1654.&#10; - zinc_mutex_que v1.5.0.&#10; - zinc_stemisphore, v-1.5.0.&#10; - zinc_launch_que v1.5.0.&#10; - zinc_epicentre v11.5.0.&#10;&#10;---&#10;IMPLEMENTED:&#10; - zinc_mutex_que v1.5.0.&#10; - zinc_stemisphore, v-1.5.0.&#10; - zinc_launch_que v1.5.0.&#10; - zinc_epicentre v11.5.0.&#10; &#10;---&#10;TODO:&#10; TEST-BENCH.&#10;&#10;---&#10;---">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_19_26,_2_43 PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_19_26__2_43PM__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_11_21_26,_1_43 PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_11_21_26__1_43PM__Changes_.xml" beforeDir="false" />
+    <list default="true" id="2fb33d3f-99ba-4f2a-b0ec-fe17b1bccdcf" name="Changes" comment="DEVELOPMENT_2026_11_28_1707 &lt;COMPILE_SUCCESS&gt; &lt;RUNTIME_TEST&gt;.&#10;&#10;---&#10;PHASE: Design, *Implementation*, **Testing**, Review.&#10;&#10;---&#10;BUILT: DEVELOPMENT_2026_11_28_1707.&#10; - zinc_mutex_que v1.5.0.&#10; - zinc_stemisphore, v-1.5.0.&#10; - zinc_launch_que v1.5.0.&#10; - zinc_epicentre v11.5.0.&#10;&#10;---&#10;IMPLEMENTED:&#10; - zinc_mutex_que v1.5.0.&#10; - zinc_stemisphore, v-1.5.0.&#10; - zinc_launch_que v1.5.0.&#10; - zinc_epicentre v11.5.0.&#10;&#10;---&#10;TODO:&#10; TEST-BENCH.&#10;&#10;---&#10;---&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TESTBENCH/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TESTBENCH/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/include/CLIB_SystemBus_Framework_Global.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/include/CLIB_SystemBus_Framework_Global.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/io/include/CLIB_SystemBus.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/io/include/CLIB_SystemBus.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/io/src/CLIB_SystemBus.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/io/src/CLIB_SystemBus.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/src/CLIB_SystemBus_Framework_Global.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/src/CLIB_SystemBus_Framework_Global.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +51,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="DEVELOPMENT" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -76,61 +74,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.000000113405976" />
-      <entry key="S2" value="1.0183509683002134" />
-      <entry key="S5" value="1.2020522098569533" />
-      <entry key="S10" value="1.4496148620806901" />
-      <entry key="S30" value="1.9095117977979439" />
-      <entry key="S60" value="2.941574948157273" />
-      <entry key="M2" value="5.519865368683642" />
-      <entry key="M5" value="12.16740934035971" />
-      <entry key="M10" value="21.690497899996277" />
-      <entry key="M15" value="31.8102585149416" />
-      <entry key="M30" value="60.4883935003921" />
-      <entry key="H1" value="102.44149570770297" />
-      <entry key="H2" value="164.73343949981606" />
-      <entry key="H4" value="273.1293290664454" />
-      <entry key="D1" value="920.6373008367052" />
-      <entry key="W1" value="1354.8125945459424" />
+      <entry key="MS100" value="1.2103503888193283E-8" />
+      <entry key="MS500" value="0.02609649748213654" />
+      <entry key="S2" value="0.4019254953715757" />
+      <entry key="S5" value="0.6944776368101719" />
+      <entry key="S10" value="0.833930067584402" />
+      <entry key="S30" value="1.2468695528614226" />
+      <entry key="S60" value="3.259950847915795" />
+      <entry key="M2" value="9.583086265687248" />
+      <entry key="M5" value="24.514182362928345" />
+      <entry key="M10" value="38.12447622198289" />
+      <entry key="M15" value="46.9738539229496" />
+      <entry key="M30" value="70.12615159719444" />
+      <entry key="H1" value="113.31594047899094" />
+      <entry key="H2" value="183.3043389328009" />
+      <entry key="H4" value="299.37820062282344" />
+      <entry key="D1" value="967.4866507961335" />
+      <entry key="W1" value="1423.854904407425" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="9.64028375783454E-291" />
-      <entry key="S2" value="3.133459150530326E-73" />
-      <entry key="S5" value="1.0061896714030857E-29" />
-      <entry key="S10" value="3.61742516291089E-15" />
-      <entry key="S30" value="3.101788087532077E-5" />
-      <entry key="S60" value="0.011744025811021968" />
-      <entry key="M2" value="0.25716565200672276" />
-      <entry key="M5" value="2.3668626656954963" />
-      <entry key="M10" value="7.490060822056852" />
-      <entry key="M15" value="12.5689390237541" />
-      <entry key="M30" value="24.38407219986279" />
-      <entry key="H1" value="39.90685654822233" />
-      <entry key="H2" value="59.09745750441333" />
-      <entry key="H4" value="87.32933147226537" />
-      <entry key="D1" value="262.9225283073423" />
-      <entry key="W1" value="383.4012127998138" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000000000003777" />
+      <entry key="S2" value="1.0007874775388708" />
+      <entry key="S5" value="1.0638585701225054" />
+      <entry key="S10" value="1.323959417038247" />
+      <entry key="S30" value="2.3891655637902707" />
+      <entry key="S60" value="3.889410407018454" />
+      <entry key="M2" value="6.228396355047603" />
+      <entry key="M5" value="10.497787888517498" />
+      <entry key="M10" value="15.218199404135895" />
+      <entry key="M15" value="18.644063131835008" />
+      <entry key="M30" value="27.70080059468713" />
+      <entry key="H1" value="43.9555726186068" />
+      <entry key="H2" value="67.30145877512645" />
+      <entry key="H4" value="99.87404772963491" />
+      <entry key="D1" value="282.89045829518574" />
+      <entry key="W1" value="409.7161747950966" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.8467453123625271" />
-      <entry key="MS500" value="0.9672764282028002" />
-      <entry key="S2" value="1.0094364554375" />
-      <entry key="S5" value="1.1959212967769843" />
-      <entry key="S10" value="1.4448163402529277" />
-      <entry key="S30" value="1.9070561476353498" />
-      <entry key="S60" value="2.9507796637872232" />
-      <entry key="M2" value="5.767576499757645" />
-      <entry key="M5" value="14.507254284915238" />
-      <entry key="M10" value="29.140777517459824" />
-      <entry key="M15" value="44.33385100123013" />
-      <entry key="M30" value="84.82325196380785" />
-      <entry key="H1" value="142.3024118667181" />
-      <entry key="H2" value="223.7929500828432" />
-      <entry key="H4" value="360.42711566702826" />
-      <entry key="D1" value="1183.5410821958326" />
-      <entry key="W1" value="1738.2098062788516" />
+      <entry key="MS100" value="3.9052766912833964E-8" />
+      <entry key="MS500" value="0.03373544141840982" />
+      <entry key="S2" value="0.5920583646388545" />
+      <entry key="S5" value="1.2470814706439028" />
+      <entry key="S10" value="1.8203820007332565" />
+      <entry key="S30" value="3.437620525685844" />
+      <entry key="S60" value="6.969431362762884" />
+      <entry key="M2" value="15.645426027986417" />
+      <entry key="M5" value="34.885737848133665" />
+      <entry key="M10" value="53.24893344269697" />
+      <entry key="M15" value="65.54150634933156" />
+      <entry key="M30" value="97.77022508636918" />
+      <entry key="H1" value="157.22399071044683" />
+      <entry key="H2" value="250.56597015189615" />
+      <entry key="H4" value="399.2190085683556" />
+      <entry key="D1" value="1250.3577327781993" />
+      <entry key="W1" value="1833.5669245057247" />
     </decayedShown>
   </component>
   <component name="ProjectApplicationVersion">
@@ -163,7 +161,7 @@
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;DEVELOPMENT&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/brenton-james/CLionProjects/zinc/CLIB_ZincNeuralChip/libs/CLIB_LaunchQue&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -177,11 +175,6 @@
   }
 }</component>
   <component name="RunManager" selected="CMake Application.TESTBENCH">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SoothCute" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SiliconLife" TARGET_NAME="SoothCute" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -215,8 +208,8 @@
     <list>
       <item itemvalue="CMake Application.SoothCute" />
       <item itemvalue="CMake Application.TESTBENCH" />
-      <item itemvalue="CMake Application.zinc_launch_que" />
       <item itemvalue="CMake Application.zinc_epicentre" />
+      <item itemvalue="CMake Application.zinc_launch_que" />
       <item itemvalue="CMake Application.zinc_mutex_que" />
       <item itemvalue="CMake Application.zinc_stemisphore" />
     </list>
@@ -358,7 +351,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/src/CLIB_SystemBus_Framework_Global.cpp</url>
-          <line>39</line>
+          <line>46</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -378,12 +371,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/src/CLIB_SystemBus_Framework_Global.cpp</url>
-          <line>27</line>
+          <line>28</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/src/CLIB_SystemBus_Framework_Global.cpp</url>
-          <line>46</line>
+          <line>53</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -404,6 +397,11 @@
           <url>file://$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/src/CLIB_SystemBus_Framework_App.cpp</url>
           <line>71</line>
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/io/src/CLIB_SystemBus.cpp</url>
+          <line>13</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

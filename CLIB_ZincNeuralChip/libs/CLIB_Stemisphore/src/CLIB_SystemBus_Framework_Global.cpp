@@ -1,4 +1,5 @@
 #include "../include/CLIB_SystemBus_Framework_Global.h"
+#include "independent/CLIB_Bus_STRUCT_SingleBus_STRUCT_BusDATA_CLASS_StemTicket.h"
 #include <cfloat>
 #include <climits>
 #include <cmath>
@@ -36,6 +37,12 @@
         }
         std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << "  :: <= int* : stat_CONVERT_CLIB_SystemBusses_Framework_Global_Bool_To_Int(sysThreadId)." << std::endl;
         return temp;
+    }
+
+    zinc::StemTicket* zinc::CLIB_SystemBus_Framework_Global::stat_APP_CONVERT_CLIB_SystemBus_Framework_Global_MsbByteArray_To_STRUCT_StemTicket(std::byte* sysThreadId, unsigned char* byteArray_StemTicket) {
+        
+
+        return reinterpret_cast<zinc::StemTicket*>(reinterpret_cast<class Object*>(byteArray_StemTicket));
     }
     class zinc::Object* zinc::CLIB_SystemBus_Framework_Global::stat_APP_CONVERT_CLIB_SystemBus_Framework_Global_MsbByteArray_To_VUALUEofOBJ(std::byte* sysThreadId, unsigned char* byteArray_DATA) {
         return reinterpret_cast<zinc::Object*>(byteArray_DATA);
@@ -78,6 +85,26 @@
     unsigned char* zinc::CLIB_SystemBus_Framework_Global::stat_APP_CONVERT_CLIB_SystemBus_Framework_Global_VUALUEofOBJ_To_MsbByteArray(std::byte* sysThreadId, class zinc::Object* DATA) {
         std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << "  :: <= unsigned char* : stat_APP_CONVERT_CLIB_SystemBus_Framework_Global_VUALUEofOBJ_To_MsbByteArray(sysThreadId)." << std::endl;
         return reinterpret_cast<unsigned char*>(DATA);
+    }
+    unsigned char* zinc::CLIB_SystemBus_Framework_Global::stat_APP_CONVERT_CLIB_SystemBus_Framework_Global_STRUCT_StemTicket_To_MsbByteArray(std::byte* sysThreadId, zinc::StemTicket* StemTicket) {
+        std::list<unsigned char*>* listOfObject = new std::list<unsigned char*>();
+        listOfObject->resize(5);
+        auto temp = listOfObject->begin();
+        std::advance(temp, 0);
+        *temp = CLIB_SystemBus_Framework_Global::stat_CONVERT_CLIB_SystemBusses_Framework_Global_VUALUEofMsbInt16_To_MsbByteArray(sysThreadId, StemTicket->get_busId());
+        temp = listOfObject->begin();
+        std::advance(temp, 1);
+        *temp = CLIB_SystemBus_Framework_Global::stat_CONVERT_CLIB_SystemBusses_Framework_Global_VUALUEofMsbInt8_To_MsbByteArray(sysThreadId, StemTicket->get_Departure_AccessId());
+        temp = listOfObject->begin();
+        std::advance(temp, 2);
+        *temp = CLIB_SystemBus_Framework_Global::stat_CONVERT_CLIB_SystemBusses_Framework_Global_VUALUEofMsbInt64_To_MsbByteArray(sysThreadId, StemTicket->get_Departure_JunctionId());
+        temp = listOfObject->begin();
+        std::advance(temp, 3);
+        *temp = CLIB_SystemBus_Framework_Global::stat_CONVERT_CLIB_SystemBusses_Framework_Global_VUALUEofMsbInt64_To_MsbByteArray(sysThreadId, StemTicket->get_Arrival_JunctionId());
+        temp = listOfObject->begin();
+        std::advance(temp, 4);
+        *temp = CLIB_SystemBus_Framework_Global::stat_CONVERT_CLIB_SystemBusses_Framework_Global_VUALUEofMsbInt8_To_MsbByteArray(sysThreadId, StemTicket->get_Arrival_AccessId());
+        return reinterpret_cast<unsigned char*>(reinterpret_cast<class Object*>(StemTicket));
     }
     unsigned char* zinc::CLIB_SystemBus_Framework_Global::stat_CONVERT_CLIB_SystemBusses_Framework_Global_VUALUEofMsbBool_to_MsbByteArray(std::byte* sysThreadId, bool newValue_Bool) {
         unsigned char* buffer = nullptr;

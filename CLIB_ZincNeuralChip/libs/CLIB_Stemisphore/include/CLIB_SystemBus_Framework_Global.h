@@ -1,5 +1,6 @@
 #ifndef CLIB_CLIB_SystemBus_Framework_Global_H
 #define CLIB_CLIB_SystemBus_Framework_Global_H
+#include "independent/CLIB_Bus_STRUCT_SingleBus_STRUCT_BusDATA_CLASS_StemTicket.h"
 #include <cstddef>
 #include <cstdint>
 #include <list>
@@ -10,6 +11,7 @@ namespace zinc {
         ~CLIB_SystemBus_Framework_Global();
         static int* stat_CONVERT_CLIB_SystemBusses_Framework_Global_Bool_To_Int(std::byte* sysThreadId, bool newValue_Bool);
 
+        static class StemTicket* stat_APP_CONVERT_CLIB_SystemBus_Framework_Global_MsbByteArray_To_STRUCT_StemTicket(std::byte* sysThreadId, unsigned char* byteArray_StemTicket);
         static class Object* stat_APP_CONVERT_CLIB_SystemBus_Framework_Global_MsbByteArray_To_VUALUEofOBJ(std::byte* sysThreadId, unsigned char* byteArray_DATA);
 
         static bool stat_CONVERT_CLIB_SystemBusses_Framework_Global_MsbByteArray_To_VUALUEofMsbBool(std::byte* sysThreadId, unsigned char* bytes_Array);
@@ -20,6 +22,7 @@ namespace zinc {
         static double* stat_CONVERT_CLIB_SystemBusses_Framework_Global_MsbByteArray_To_VUALUEofMsbDouble(std::byte* sysThreadId, unsigned char* bytes_Array);
 
         static unsigned char* stat_APP_CONVERT_CLIB_SystemBus_Framework_Global_VUALUEofOBJ_To_MsbByteArray(std::byte* sysThreadId, class Object* DATA);
+        static unsigned char* stat_APP_CONVERT_CLIB_SystemBus_Framework_Global_STRUCT_StemTicket_To_MsbByteArray(std::byte* sysThreadId, zinc::StemTicket* StemTicket);
 
         static unsigned char* stat_CONVERT_CLIB_SystemBusses_Framework_Global_VUALUEofMsbBool_to_MsbByteArray(std::byte* sysThreadId, bool newValue_Bool);
         static unsigned char* stat_CONVERT_CLIB_SystemBusses_Framework_Global_VUALUEofMsbInt8_To_MsbByteArray(std::byte* sysThreadId, uint8_t* newValue_Int);
