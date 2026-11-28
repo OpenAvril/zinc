@@ -56,9 +56,7 @@ Via concurrency, 'zinc' and 'slif' libraries double the combined input and outpu
 ---
 ### Stemisphore : zinc_stemisphore, v-1.5.0. ***UNDER DEVELOPMENT***
 
-System Bussing On A Chip:
-
-CLIB Concurrent System Bussing / Open Concurrent SCADA / Concurrent Bussing On Chip - CBOC.
+Concurrent Bussing On A Chip / CLIB Concurrent System Bussing / Open Concurrent SCADA.
 
 Triple MutexQue into a set/get data buffer of bus for route of paired junctions.
 
