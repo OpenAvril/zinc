@@ -62,9 +62,9 @@
 		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: entered LIB :: zinc : CLIB_Bus_STRUCT_SingleBus_Framework_App_Data : stat_CLASS_boot2_SUBSTANTIATE_CLIB_Bus_STRUCT_SingleBus_Framework_App_Data_DATA(sysThreadId)." << std::endl;
 		auto* DATA = new std::byte[1028];
 		for (int i = 0; i < sizeof(*DATA); i++) {
-			DATA[i] = std::byte{reinterpret_cast<std::byte *>(0xFF)};
+			DATA[i] = std::byte{0xFF};
 		}
-		*stat_REG_CLIB_Bus_STRUCT_SingleBus_Framework_App_Data_DATA = *CLIB_SystemBus_Framework_Global::stat_APP_CONVERT_CLIB_Bus_STRUCT_SingleBus_Framework_Global_DATA_To_MsbByteArray(sysThreadId, reinterpret_cast<class Object*>(DATA));
+		*stat_REG_CLIB_Bus_STRUCT_SingleBus_Framework_App_Data_DATA = *CLIB_SystemBus_Framework_Global::stat_APP_CONVERT_CLIB_SystemBus_Framework_Global_VUALUEofOBJ_To_MsbByteArray(sysThreadId, reinterpret_cast<class Object*>(DATA));
 		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_Bus_STRUCT_SingleBus_Framework_App_Data : stat_CLASS_boot2_SUBSTANTIATE_CLIB_Bus_STRUCT_SingleBus_Framework_App_Data_DATA(sysThreadId)." << std::endl;
 	}
 	void zinc::CLIB_SystemBus_Framework_App_Data::stat_CLASS_boot3_INITIALISE_CLIB_Bus_STRUCT_SingleBus_Framework_App_Data_DATA(std::byte* sysThreadId) {
@@ -73,7 +73,7 @@
 		for (int i = 0; i < sizeof(*DATA); i++) {
 			DATA[i] = std::byte{0x00};
 		}
-		*stat_REG_CLIB_Bus_STRUCT_SingleBus_Framework_App_Data_DATA = *CLIB_SystemBus_Framework_Global::stat_APP_CONVERT_CLIB_Bus_STRUCT_SingleBus_Framework_Global_DATA_To_MsbByteArray(sysThreadId, reinterpret_cast<class Object*>(DATA));
+		*stat_REG_CLIB_Bus_STRUCT_SingleBus_Framework_App_Data_DATA = *CLIB_SystemBus_Framework_Global::stat_APP_CONVERT_CLIB_SystemBus_Framework_Global_VUALUEofOBJ_To_MsbByteArray(sysThreadId, reinterpret_cast<class Object*>(DATA));
 		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: exiting LIB :: zinc : CLIB_Bus_STRUCT_SingleBus_Framework_App_Data : stat_CLASS_boot3_INITIALISE_CLIB_Bus_STRUCT_SingleBus_Framework_App_Data_DATA(sysThreadId)." << std::endl;
 	}
 	unsigned char* zinc::CLIB_SystemBus_Framework_App_Data::stat_REG_get_CLIB_Bus_STRUCT_SingleBus_Framework_App_Data_DATA(std::byte* sysThreadId){

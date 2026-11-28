@@ -1,11 +1,8 @@
 #include "../include/CLIB_SystemBus_Framework_App_Execute.h"
-#include "../../CLIB_ThreadsLog/io/include/CLIB_ThreadLogs.h"
+#include "../../CLIB_MutexQue/io/include/CLIB_MutexQue.h"
 #include "../include/CLIB_SystemBus_Framework_Global.h"
 #include "../include/independent/CLIB_Bus_STRUCT_SingleBus.h"
-#include <cmath>
 #include <iostream>
-
-#include "CLIB_MutexQue.h"
     uint64_t* zinc::CLIB_SystemBus_Framework_App_Execute::stat_PGM_CLIB_MutexQue_Of_Stemisphore;
     std::list<zinc::CLIB_Bus_STRUCT_SingleBus_Framework*>* zinc::CLIB_SystemBus_Framework_App_Execute::stat_PGM_CLIB_List_Of_Busses;
 // public.

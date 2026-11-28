@@ -4,12 +4,13 @@
 #include "../CLIB_ZincNeuralChip/libs/CLIB_MutexQue/io/include/CLIB_MutexQue.h"
 #include "../CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/io/include/CLIB_SystemBus.h"
 #include "../CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/io/include/CLIB_LaunchQue.h"
-#include "../CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/io/include/CLIB_LeftHemisphore.h"
+//#include "../CLIB_ZincNeuralChip/libs/CLIB_LeftHemisphore/io/include/CLIB_LeftHemisphore.h"
 #include "../CLIB_ZincNeuralChip/libs/CLIB_MutexQue/include/CLIB_MutexQue_Framework_Global.h"
 //#include "../CLIB_ZincNeuralChip/libs/CLIB_ThreadsLog/include/CLIB_ThreadLogs_Framework_Global.h"
 #include "../CLIB_ZincNeuralChip/libs/CLIB_LaunchQue/include/CLIB_LaunchQue_Framework_Global.h"
 //#include "../CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/include/CLIB_SystemBus_Framework_Global.h"
 #include "../CLIB_ZincNeuralChip/libs/CLIB_Stemisphore/include/independent/CLIB_Bus_STRUCT_SingleBus_STRUCT_BusDATA_CLASS_StemTicket.h"
+#include <cstddef>
 #include <cfloat>
 #include <climits>
 #include <cstring>
@@ -43,11 +44,10 @@
 		bytes_UnsignedLongLong = valueofMsbUnsignedLongLong_to_ByteArray(sysThreadId, new uint64_t(0));
 		auto bytes_Double = new unsigned char();
 		bytes_Double = valueofMsbDouble_To_MsbByteArray(sysThreadId, new double(0));
-		//auto ticket = new class Ticket(0,0,0,0,0);
 		auto bytes_Cargo = new unsigned char();
 		class zinc::Object* value_DATA = nullptr;
 		bytes_Cargo = objDATA_To_MsbByteArray(sysThreadId, value_DATA);
-		//TICKET = new class StemTicket(sysThreadId, new uint16_t(UINT16_MAX), new uint8_t(UINT8_MAX), new uint64_t(UINT64_MAX), new uint64_t(UINT64_MAX), new uint8_t(UINT8_MAX));
+		TICKET = new class StemTicket(sysThreadId, new uint16_t(UINT16_MAX), new uint8_t(UINT8_MAX), new uint64_t(UINT64_MAX), new uint64_t(UINT64_MAX), new uint8_t(UINT8_MAX));
 		//zinc::ThreadLogs::generateProgram(std::byte* sysThreadId);
 		//zinc::ThreadLogs::printl(sysThreadId, string);
 		//zinc::ThreadLogs::reInitialiseProgram(sysThreadId, MAX_NUMBER_OF_THREADS_FOR_ACCESS);
@@ -59,7 +59,7 @@
 		zinc::MutexQue::reInitialiseHandle(sysThreadId, handleId, stdByte);
 		zinc::MutexQue::startByLock(sysThreadId, handleId, stdByte);
 		zinc::MutexQue::terminateProgram(sysThreadId, handleId);
-
+/*
 		std::byte* tempC0 = zinc::LaunchQue::generateHandle(sysThreadId);
 		//zinc::LaunchQue::generateProgram(sysThreadId);
 		std::byte* tempC1 = zinc::LaunchQue::get_coreIdTolaunch(sysThreadId, stdByte, stdByte);
@@ -72,14 +72,15 @@
 		zinc::LaunchQue::terminateProgaram(sysThreadId);
 		zinc::LaunchQue::threadRequestlaunch(sysThreadId, stdByte, stdByte);
 		zinc::LaunchQue::threadEnd(sysThreadId, stdByte, stdByte);
-/*
+*/
 		std::byte* tempD0 = zinc::Stemisphore::generateHandle(sysThreadId);
 		//zinc::SystemBusses::generateProgram(sysThreadId);
 		zinc::Stemisphore::load(sysThreadId, stdByte, *TICKET, bytes_Cargo);
 		zinc::Stemisphore::reInitialiseHandle(sysThreadId, stdByte, praiseId);
 		unsigned char* tempD2 = zinc::Stemisphore::unload(sysThreadId, stdByte, *TICKET);
 		zinc::Stemisphore::terminateProgram(sysThreadId);
-*/
+
+/*
 		std::byte* tempE0 = zinc::Epicentre::gernerateHandle(sysThreadId);
 		zinc::Epicentre::generateProgram(sysThreadId);
 		unsigned char* tempE1 = zinc::Epicentre::get_Output(sysThreadId, stdByte, praiseId);
@@ -94,6 +95,7 @@
 		zinc::Epicentre::set_MetaData_PraiseEventId(sysThreadId, stdByte, praiseId);
 		zinc::Epicentre::reInitialiseHandle(sysThreadId, stdByte, stdByte, stdByte);
 		zinc::Epicentre::terminateProgram(sysThreadId);
+		*/
 }
 	std::array<bool, 1> zinc::SoothCute::zinc_SoothCute_stat_REG_get_array_of_isMemberFunctionINSTANTIATED(std::byte* sysThreadId) {
 		return stat_REG_ptr_CLIB_SoothCute_array_of_array_of_isMemberFunctionINSTANTIATED;

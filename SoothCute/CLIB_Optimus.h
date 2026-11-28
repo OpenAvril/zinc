@@ -1,7 +1,6 @@
 #ifndef CLIB_CLIB_PACKAGE_SoothCutePRIME_H
 #define CLIB_CLIB_PACKAGE_SoothCutePRIME_H
 #include <array>
-#include <cstddef>
 #include <cstdint>
 extern "C" {
     namespace zinc {
