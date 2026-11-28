@@ -1,8 +1,5 @@
 #include "../include/CLIB_SystemBus_Framework_App.h"
-#include "../../CLIB_ThreadsLog/io/include/CLIB_ThreadLogs.h"
 #include <iostream>
-
-
 	zinc::CLIB_SystemBus_Framework_App_Data* zinc::CLIB_SystemBus_Framework_App::stat_CLASS_ptr_CLIB_SystemBus_Framework_App_Data;
 	zinc::CLIB_SystemBus_Framework_App_Execute* zinc::CLIB_SystemBus_Framework_App::stat_CLASS_ptr_CLIB_SystemBus_Framework_App_Execute;
 // public.
@@ -73,9 +70,11 @@
 	}
 	void zinc::CLIB_SystemBus_Framework_App::stat_CLASS_boot3_INITIALISE_CLIB_SystemBus_Framework_App_Data(std::byte* sysThreadId) {
 		stat_CLASS_ptr_CLIB_SystemBus_Framework_App_Data = new class CLIB_SystemBus_Framework_App_Data(sysThreadId);
+		while (stat_CLASS_get_ptr_CLIB_SystemBus_Framework_App_Data(sysThreadId) == nullptr) {}
 	}
 	void zinc::CLIB_SystemBus_Framework_App::stat_CLASS_boot3_INITIALISE_CLIB_SystemBus_Framework_App_Execute(std::byte* sysThreadId) {
 		stat_CLASS_ptr_CLIB_SystemBus_Framework_App_Execute = new class CLIB_SystemBus_Framework_App_Execute(sysThreadId);
+		while (stat_CLASS_get_ptr_CLIB_SystemBus_Framework_App_Execute(sysThreadId) == nullptr) {}
 	}
 	zinc::CLIB_SystemBus_Framework_App_Data* zinc::CLIB_SystemBus_Framework_App::stat_CLASS_get_ptr_CLIB_SystemBus_Framework_App_Data(std::byte* sysThreadId) {
 		std::cout << "thread " << static_cast<uint64_t>(*sysThreadId) << " :: <= class : stat_CLASS_get_ptr_CLIB_SystemBus_Framework_App_Execute(sysThreadId)." << std::endl;
