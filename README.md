@@ -1,13 +1,13 @@
 # Zinc Insulate Neural Chip Open Source Package:
 
- - MutexQue : libzinc_mutex_que, v-1.4.4.
+ - MutexQue : libzinc_mutex_que, v-1.5.0.
 
- - LaunchQue : libzinc_launch_que, v-1.4.4.
+ - LaunchQue : libzinc_launch_que, v-1.5.0.
 
+ - LeftHemisphore : libzinc_epicentre, v-1.5.0. ***TEMPLATE for user Compilation*** **UNDER DEVELOPMENT**
 
-** UNDER DEVELOPMENT **
- - LeftHemisphore : libzinc_epicentre, v-1.4.1. ***TEMPLATE for user Compilation***
- 
+ - Stemisphore : zinc_stemisphore, v-1.5.0. ***TEMPLATE for user Compilation*** **UNDER DEVELOPMENT**
+
 ---
 ---
 ## zinc.
@@ -45,7 +45,7 @@ A master by coursework with five specialisation electives, I propose Convener of
 ---
 ## zinc : zinc::.*
 ---
-### MutexQue : zinc_mutex_que, v-1.4.4.
+### MutexQue : zinc_mutex_que, v-1.5.0..
   
 Exclusive Cohesion Mutex Queue:   
 
@@ -54,17 +54,7 @@ CLIB Request, Wait, Write-Read for 'ThreadId' at 'DataCluster'.
 Via concurrency, 'zinc' and 'slif' libraries double the combined input and output efficiency with three "Threads; Input, Output, Task." on Raspberry Pi & Arduino via respectivly. 
 
 ---
-### LaunchQue : zinc_launch_que, v-1.4.4.
-
-Left Hemisphore Task Launcher:
-
-CLIB Request, Wait, Launch for 'ThreadId' at Server-Client.
-
-Concurrency; Core, Post-Process.
-
-
----
-### Stemisphore : zinc_stemisphore, v-1.2.0. ***UNDER DEVELOPMENT***
+### Stemisphore : zinc_stemisphore, v-1.5.0. ***UNDER DEVELOPMENT***
 
 System Bussing for Zinc Neural Hemisphoric Chip:
 
@@ -77,7 +67,17 @@ Triple MutexQue into a set/get data buffer of bus for route of paired junctions.
 MainStreamBussing: CLIB Compound of ExclusiveCohesionMutexQueue(s). An array of a single Bus with route array of Stations. A single Bus deploying an ExclusiveCohesionMutexQueue('AccessId_A=StationId','DataClusterId_A=BusId'), and each Station deploying an ExclusiveCohesionMutexQueue('AccessId_B','DataClusterId_B=StationId').
 
 ---
-### LeftHemisphore : zinc_epicentre v-1.4.1. ***TEMPLATE for user Compilation***
+### LaunchQue : zinc_launch_que, v-1.5.0.
+
+Left Hemisphore Task Launcher:
+
+CLIB Request, Wait, Launch for 'ThreadId' at Server-Client.
+
+Concurrency; Core, Post-Process.
+
+
+---
+### LeftHemisphore : zinc_epicentre v-1.5.0. ***TEMPLATE for user Compilation***
   
 Left Hemisphore Logic Task Result Deducer:      
 
@@ -193,7 +193,7 @@ cmake --build build
 
 ---
 ---
-## Using.
+## Using - MutexQue.
 
 #include "...CLIB_MutexQue.h"
 
